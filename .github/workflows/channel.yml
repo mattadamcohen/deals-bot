@@ -5,7 +5,7 @@ on:
       action:
         description: "What to change"
         type: choice
-        options: [description, title, photo, pin, whoami, edit-posts, reel-latest]
+        options: [description, title, photo, pin, whoami, edit-posts, reel-latest, ig-whoami]
       value:
         description: "New text, or image path in the repo (e.g. assets/ilamazondeals-logo.png)"
         required: false
@@ -26,11 +26,13 @@ jobs:
           case "$ACTION" in
             edit-posts)  python tools/edit_posts.py --delete-text ;;
             reel-latest) python tools/reel.py --latest ;;
+            ig-whoami)   python tools/instagram.py whoami ;;
             *)           python tools/channel.py "$ACTION" "$VALUE" ;;
           esac
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           ACTION: ${{ inputs.action }}
           VALUE: ${{ inputs.value }}
       - name: Save message ids
