@@ -79,6 +79,11 @@ def clean(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+def money(text):
+    m = re.search(r"[\d,]+(?:\.\d+)?", text or "")
+    return float(m.group().replace(",", "")) if m else 0.0
+
+
 def big_image(url):
     # Amazon image URLs carry a size token like ._AC_UL300_SR300,200_. ; removing it gives the full image
     return re.sub(r"\._[^/]*?_\.(jpg|jpeg|png|webp)$", r".\1", url or "", flags=re.I)
@@ -169,8 +174,9 @@ class Amazon:
                     seen.add(m.group(1))
                     items.append({"asin": m.group(1), "rank": len(items) + 1, "title": "", "image": ""})
 
-        name = soup.select_one("h1")
-        cat_name = clean(name.get_text()).replace("Best Sellers in ", "") if name else slug
+        title = clean(soup.title.get_text()) if soup.title else ""
+        m = re.search(r"popular items in (.+)$", title) or re.search(r"Best Sellers in (.+?)(?: - |$)", title)
+        cat_name = m.group(1) if m else slug.replace("-", " ").title()
         if not items:
             save_debug(f"bestsellers_{slug}.html", page)
         return cat_name, sorted(items, key=lambda x: x["rank"])
@@ -230,7 +236,7 @@ class Amazon:
 
         return {
             "title": text("#productTitle"),
-            "price": price, "was": was if was != price else "", "discount": discount,
+            "price": price, "was": was if money(was) > money(price) > 0 else "", "discount": discount,
             "rating": rating, "reviews": reviews, "image": image,
             "shipping": shipping, "delivery_text": delivery[:200],
         }
