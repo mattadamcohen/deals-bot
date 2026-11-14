@@ -285,7 +285,7 @@
       "off": "off"
     }
   },
-  "checks_per_run": 25,
+  "checks_per_run": 15,
   "max_lists_per_run": 4,
   "preferred_discount": 0,
   "brands": [
@@ -435,5 +435,6 @@
   ],
   "carousel_slots": [
     16
-  ]
+  ],
+  "block_cooldown_minutes": 60
 }

@@ -466,6 +466,9 @@ def post_due(state):
     if not (start <= local.hour < end):
         log(f"Outside posting hours ({start}:00-{end}:00 Israel), nothing to do")
         return False
+    if state.get("blocked_until", "") > now().isoformat():
+        log(f"Cooling down after an Amazon robot check until {state['blocked_until'][11:16]} UTC")
+        return False
     per_day = CONFIG.get("posts_per_day", 20)
     today = local.date().isoformat()
     if state.get("day_counts", {}).get(today, 0) >= per_day:
@@ -626,9 +629,11 @@ def main():
             _, it, info, category = candidates[0]
             post(it, info, category)
     except Blocked as e:
-        log(f"\n! Amazon blocked this run: {e}")
+        mins = CONFIG.get("block_cooldown_minutes", 60)
+        log(f"\n! Amazon showed a robot check ({e}). Pausing Amazon requests for {mins} minutes.")
+        state["blocked_until"] = (now() + timedelta(minutes=mins)).isoformat()
         save_state(state)
-        sys.exit(2 if posted_now == 0 else 0)
+        return
     finally:
         # forget very old entries so the state file stays small
         for key, days in (("posted", 60), ("not_free", 30)):
