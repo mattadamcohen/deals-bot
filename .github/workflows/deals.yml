@@ -65,7 +65,7 @@ jobs:
             python bot.py
           fi
 
-      - name: Instagram post for the new deal
+      - name: Instagram carousel (when one is due, ~90 min after each reel)
         if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
         continue-on-error: true
         env:

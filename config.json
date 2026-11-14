@@ -420,5 +420,6 @@
       "discount_weight": 2
     }
   ],
-  "ig_post_each_deal": true
+  "ig_post_each_deal": false,
+  "carousel_delay_minutes": 90
 }
