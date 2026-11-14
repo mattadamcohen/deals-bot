@@ -91,6 +91,61 @@ def big_image(url):
 
 # ---------------------------------------------------------------- amazon
 
+def price_text(el):
+    """Text of an .a-price element: the hidden full price, or symbol + whole + fraction."""
+    if el is None:
+        return ""
+    off = el.select_one(".a-offscreen")
+    t = clean(off.get_text()) if off else ""
+    if re.search(r"\d", t):
+        return t
+    whole = el.select_one(".a-price-whole")
+    if whole:
+        frac = el.select_one(".a-price-fraction")
+        sym = el.select_one(".a-price-symbol")
+        w = re.sub(r"[^\d,]", "", whole.get_text())
+        return f"{clean(sym.get_text()) if sym else '$'}{w}.{clean(frac.get_text()) if frac else '00'}"
+    t = clean(el.get_text())
+    return t if re.search(r"\$\s*\d", t) else ""
+
+
+def find_prices(soup, page):
+    """(price, was) from a product page, trying the places Amazon puts prices for simple and multi-variant items."""
+    price = was = ""
+    for box_sel in ("#corePriceDisplay_desktop_feature_div", "#corePrice_feature_div", "#corePrice_desktop",
+                    "#apex_desktop", "#apex_offerDisplay_desktop", "#desktop_buybox", "#buybox"):
+        box = soup.select_one(box_sel)
+        if not box:
+            continue
+        price = price or price_text(box.select_one(".priceToPay")) or price_text(
+            next((e for e in box.select(".a-price") if "a-text-price" not in (e.get("class") or [])), None))
+        was = was or price_text(box.select_one(".basisPrice .a-price, .a-price.a-text-price"))
+        if price:
+            break
+    if not price:
+        for sel in ("#priceblock_dealprice", "#priceblock_ourprice", "#priceblock_saleprice", "#price_inside_buybox",
+                    "#tp_price_block_total_price_ww", "#sns-base-price", "#price"):
+            el = soup.select_one(sel)
+            if el:
+                price = price_text(el) if el.select_one(".a-price, .a-offscreen") else clean(el.get_text())
+                if re.search(r"\d", price):
+                    break
+                price = ""
+    if not price:
+        el = soup.select_one("#twister-plus-price-data-price")
+        if el and el.get("value"):
+            price = f"${float(el['value']):.2f}"
+    if not price:
+        m = re.search(r'"priceAmount"\s*:\s*([\d.]+)', page) or re.search(r'"displayPrice"\s*:\s*"\$([\d.,]+)"', page)
+        if m:
+            price = f"${float(m.group(1).replace(',', '')):.2f}"
+    m = re.search(r"\$\s*[\d,]+(?:\.\d{2})?", price or "")
+    price = m.group(0).replace(" ", "") if m else ""
+    m = re.search(r"\$\s*[\d,]+(?:\.\d{2})?", was or "")
+    was = m.group(0).replace(" ", "") if m else ""
+    return price, was
+
+
 class Amazon:
     def __init__(self):
         self.s = cffi_requests.Session(impersonate="safari")
@@ -208,13 +263,9 @@ class Amazon:
             shipping = "unknown"
             save_debug(f"product_{asin}.html", page)
 
-        price_box = soup.select_one("#corePriceDisplay_desktop_feature_div, #corePrice_feature_div, #apex_desktop")
-        price = was = ""
-        if price_box:
-            p = price_box.select_one(".priceToPay .a-offscreen, .a-price .a-offscreen")
-            w = price_box.select_one(".a-price.a-text-price .a-offscreen, .basisPrice .a-offscreen")
-            price = clean(p.get_text()) if p else ""
-            was = clean(w.get_text()) if w else ""
+        price, was = find_prices(soup, page)
+        if not price:
+            save_debug(f"noprice_{asin}.html", page)
         discount = text("#corePriceDisplay_desktop_feature_div .savingsPercentage").lstrip("-")
 
         img = soup.select_one("#landingImage, #imgBlkFront")
@@ -505,6 +556,9 @@ def main():
                 if info["shipping"] != "free":
                     if info["shipping"] in ("paid", "no"):
                         state["not_free"][asin] = now().isoformat()
+                    continue
+                if not info.get("price"):
+                    log("     no price found, skipping")
                     continue
                 if discount_pct(info) < min_discount:
                     continue
