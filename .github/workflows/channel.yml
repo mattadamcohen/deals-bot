@@ -1,0 +1,23 @@
+name: Update Telegram channel
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to change"
+        type: choice
+        options: [description, title, photo]
+      value:
+        description: "New text, or image path in the repo (e.g. assets/ilamazondeals-logo.png)"
+        required: true
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - run: python tools/channel.py "$ACTION" "$VALUE"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ACTION: ${{ inputs.action }}
+          VALUE: ${{ inputs.value }}
