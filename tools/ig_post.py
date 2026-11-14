@@ -77,7 +77,7 @@ def card(p, n):
     reel.text_c(d, 1052, reel.short_he(p.get("title_he") or p.get("title"), 70, 980), reel.F(900, 70))
     if p.get("price"):
         reel.pill(d, W / 2, 1185, p["price"], reel.F(900, 70), reel.YEL, reel.NAVY, pad=(50, 12))
-    reel.pill(d, W / 2, 1290, "משלוח חינם לישראל מעל $49 · \u200e@ilamazondeals\u200e", reel.F(800, 36), reel.BLACK, reel.WHITE)
+    reel.pill(d, W / 2, 1290, "משלוח חינם לארץ מעל $49 · \u200e@ilamazondeals\u200e", reel.F(800, 36), reel.BLACK, reel.WHITE)
     return img
 
 
@@ -92,7 +92,7 @@ def caption(p, n):
     lines = [f"{openers[n % len(openers)]} 🇮🇱", "", title_he, rank, ""]
     if price:
         lines.append(price)
-    lines += ["📦 משלוח חינם לישראל בהזמנה מעל $49", f"🖤 {reel.season_badge()}", "",
+    lines += ["📦 משלוח חינם לארץ בהזמנה מעל $49", f"🖤 {reel.season_badge()}", "",
               "💬 רוצים את הקישור? כתבו \"לינק\" בתגובות ונשלח לכם אותו בהודעה פרטית",
               f"🔗 או העתיקו: {link(p['asin'])}",
               "👈 כל הדילים בערוץ הטלגרם, הקישור בביו", "",
@@ -188,7 +188,7 @@ def cover(items, n):
     d = ImageDraw.Draw(img)
     reel.paste_scaled(img, reel.LOGO_IM, W / 2, 330, 0.48)
     reel.text_c(d, 620, f"{len(items)} דילים מאמזון", reel.F(900, 120))
-    reel.text_c(d, 780, "עם משלוח חינם לישראל", reel.F(800, 72), reel.YEL)
+    reel.text_c(d, 780, "עם משלוח חינם לארץ", reel.F(800, 72), reel.YEL)
     # little product thumbnails
     thumbs = [Image.open(IMG_DIR / f"{p['asin']}.jpg").convert("RGB") for p in items][:4]
     size, gap = 200, 30
@@ -206,13 +206,13 @@ def cover(items, n):
 
 
 def carousel_caption(items, n):
-    openers = ["🔥 {k} דילים מאמזון עם משלוח חינם לישראל 🇮🇱", "🛒 {k} מוצרים שכולם קונים עכשיו באמזון 🇮🇱",
+    openers = ["🔥 {k} דילים מאמזון עם משלוח חינם לארץ 🇮🇱", "🛒 {k} מוצרים שכולם קונים עכשיו באמזון 🇮🇱",
                "👀 {k} מציאות שמצאנו לכם באמזון 🇮🇱", "⚡ הלהיטים של אמזון, {k} דילים עם משלוח חינם 🇮🇱"]
     lines = [openers[n % len(openers)].format(k=len(items)), ""]
     for i, p in enumerate(items, 1):
         bits = [x for x in (p.get("price"), f"{pct(p)}% הנחה" if pct(p) else "") if x]
         lines.append(f"{i}. {reel.short_he(p.get('title_he') or p.get('title'), 70, 2000)}" + (f" | {' | '.join(bits)}" if bits else ""))
-    lines += ["", "📦 משלוח חינם לישראל בהזמנה מעל $49, אפשר לשלב כמה מוצרים", f"🖤 {reel.season_badge()}", "",
+    lines += ["", "📦 משלוח חינם לארץ בהזמנה מעל $49, אפשר לשלב כמה מוצרים", f"🖤 {reel.season_badge()}", "",
               "💬 כתבו \"לינק\" בתגובות ונשלח לכם את הקישורים לכל המוצרים בהודעה פרטית",
               "👈 עוד דילים כל יום בערוץ הטלגרם, הקישור בביו", ""]
     tags = ["#אמזון", "#דילים", "#משלוחחינם", "#קניותאונליין", "#בלאקפריידיי", "#חנוכה", "#מתנותלחנוכה",
