@@ -103,7 +103,6 @@ def caption(p, n):
             "#amazonfinds", "#amazondeals", "#israel", "#דיליםמאמזון", "#מבצעים"]
     random.Random(n).shuffle(tags)
     lines.append(" ".join(tags[:9]))
-    lines += ["", "קישור שותפים: אם תקנו דרכו, ייתכן שנקבל עמלה קטנה, בלי עלות נוספת עבורכם."]
     return "\n".join(lines)
 
 

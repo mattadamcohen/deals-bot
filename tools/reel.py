@@ -312,7 +312,7 @@ def publish_instagram(video, posts, n=0):
         return None
     import time
     api = "https://graph.facebook.com/v23.0"
-    cap = ig_caption(posts, n) + "\n\nקישורי שותפים: אם תקנו דרכם, ייתכן שנקבל עמלה קטנה, בלי עלות נוספת עבורכם."
+    cap = ig_caption(posts, n)
     r = requests.post(f"{api}/{ig}/media", data={"media_type": "REELS", "upload_type": "resumable",
                                                   "caption": cap, "share_to_feed": "true", "access_token": token}, timeout=60)
     print("IG container:", r.status_code, r.text[:200])
