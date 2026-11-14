@@ -8,11 +8,12 @@
   "discount": "19%",
   "rating": "4.1",
   "reviews": "1,641",
-  "rank": 0,
+  "rank": 30,
   "source": "",
-  "category_en": "",
-  "category_he": "",
-  "posted_at": "2026-11-14T07:25:51.099075+00:00"
+  "category_en": "Toys & Games",
+  "category_he": "צעצועים ומשחקים",
+  "posted_at": "2026-11-14T07:25:51.099075+00:00",
+  "category_slug": "toys-and-games"
  },
  {
   "asin": "B0C26ZL5JV",
@@ -27,7 +28,8 @@
   "source": "bestsellers",
   "category_en": "Boys' Clothing",
   "category_he": "ביגוד לבנים",
-  "posted_at": "2026-11-14T07:26:49.650902+00:00"
+  "posted_at": "2026-11-14T07:26:49.650902+00:00",
+  "category_slug": "fashion/1040666"
  },
  {
   "asin": "B086BLQZ5L",
@@ -42,6 +44,7 @@
   "source": "bestsellers",
   "category_en": "Office Products",
   "category_he": "ציוד משרדי",
-  "posted_at": "2026-11-14T07:29:50.467825+00:00"
+  "posted_at": "2026-11-14T07:29:50.467825+00:00",
+  "category_slug": "office-products"
  }
 ]

@@ -336,8 +336,9 @@ def remember_post(item, category):
         log(f"  (image save failed: {e})")
     log_file = ROOT / "data" / "posts.json"
     posts = json.loads(log_file.read_text()) if log_file.exists() else []
-    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source")}
-                 | {"category_en": category["en"], "category_he": category["he"], "posted_at": now().isoformat()})
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image")}
+                 | {"category_slug": category["slug"], "category_en": category["en"], "category_he": category["he"],
+                    "posted_at": now().isoformat()})
     posts = posts[-40:]
     keep = {p["asin"] for p in posts}
     for f in img_dir.glob("*.jpg"):
@@ -347,6 +348,7 @@ def remember_post(item, category):
 
 
 def send_telegram(item, category):
+    """Post to the channel. Returns the Telegram message id (or True on a dry run), None on failure."""
     text = caption(item, category)
     if DRY_RUN:
         log("---- DRY RUN post ----\n" + text + f"\n[image] {item.get('image')}\n")
@@ -356,13 +358,14 @@ def send_telegram(item, category):
         r = requests.post(f"{api}/sendPhoto", data={
             "chat_id": TG_CHAT, "photo": item["image"], "caption": text, "parse_mode": "HTML"}, timeout=30)
         if r.ok:
-            return True
+            return r.json()["result"]["message_id"]
         log(f"  photo post failed ({r.text[:150]}), sending as text")
     r = requests.post(f"{api}/sendMessage", data={
         "chat_id": TG_CHAT, "text": text, "parse_mode": "HTML"}, timeout=30)
     if not r.ok:
         log(f"  ! telegram error: {r.text[:300]}")
-    return r.ok
+        return None
+    return r.json()["result"]["message_id"]
 
 
 # ---------------------------------------------------------------- main
@@ -432,9 +435,11 @@ def main():
         merged = {**it, **{k: v for k, v in info.items() if v}}
         if not merged.get("discount") and discount_pct(info):
             merged["discount"] = f"{discount_pct(info)}%"
-        if send_telegram(merged, category):
+        msg_id = send_telegram(merged, category)
+        if msg_id:
             if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
                 state["posted"][it["asin"]] = now().isoformat()
+                merged["message_id"] = msg_id
                 remember_post(merged, category)
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
             posted_now += 1

@@ -1,0 +1,301 @@
+"""Instagram reel (1080x1920, ~11s) of 3 recent channel deals, same style as the first one.
+  python tools/reel.py --auto   # after every `reel_every` new posts: render the 3 biggest deals and send to the owner
+  python tools/reel.py --latest # render the latest 3 posts now and send
+The video is sent to the owner's Telegram chat (config owner_chat_id) with a ready-to-paste Instagram caption."""
+import json, math, os, re, subprocess, sys, tempfile
+from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, features
+import requests
+
+REPO = Path(__file__).resolve().parent.parent
+CONFIG = json.loads((REPO / "config.json").read_text())
+W, H, FPS = 1080, 1920, 30
+OUT = Path(tempfile.mkdtemp())
+IMG = REPO / "data" / "images"
+LOGO = REPO / "assets" / "ilamazondeals-logo.png"
+F = lambda w, s: ImageFont.truetype(str(REPO / "assets" / "fonts" / f"Heebo-{w}.ttf"), s)
+try:
+    import imageio_ffmpeg
+    FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
+except ImportError:
+    FFMPEG = "ffmpeg"
+if not features.check("raqm"):
+    sys.exit("Pillow has no raqm support: Hebrew would render backwards (install libfribidi0)")
+
+BLUE, DEEP, NAVY = (10, 59, 196), (6, 36, 122), (10, 42, 143)
+YEL, ORA, WHITE, BLACK = (255, 212, 59), (255, 159, 28), (255, 255, 255), (15, 15, 20)
+
+DEALS = []  # filled in main()
+
+
+def ease(t):  # easeOutBack-ish pop
+    t = max(0.0, min(1.0, t))
+    c = 1.70158
+    return 1 + (c + 1) * (t - 1) ** 3 + c * (t - 1) ** 2
+
+
+def smooth(t):
+    t = max(0.0, min(1.0, t))
+    return t * t * (3 - 2 * t)
+
+
+_bg = None
+def background():
+    global _bg
+    if _bg is None:
+        img = Image.new("RGB", (W, H), DEEP)
+        g = Image.new("L", (W, H))
+        gd = ImageDraw.Draw(g)
+        for r in range(1400, 0, -20):
+            gd.ellipse([W / 2 - r, 650 - r, W / 2 + r, 650 + r], fill=int(255 * (1 - r / 1400)))
+        img.paste(Image.new("RGB", (W, H), (31, 91, 255)), mask=g.filter(ImageFilter.GaussianBlur(60)))
+        _bg = img
+    return _bg.copy()
+
+
+def text_c(d, y, s, font, fill=WHITE, x=W / 2):
+    """Centered text, right-to-left aware."""
+    rtl = any("֐" <= ch <= "׿" for ch in s)
+    kw = {"direction": "rtl", "language": "he"} if rtl else {}
+    b = d.textbbox((0, 0), s, font=font, **kw)
+    d.text((x - (b[2] - b[0]) / 2 - b[0], y), s, font=font, fill=fill, **kw)
+    return b[3] - b[1]
+
+
+def pill(d, cx, cy, s, font, bg, fg, pad=(44, 18)):
+    rtl = any("֐" <= ch <= "׿" for ch in s)
+    kw = {"direction": "rtl", "language": "he"} if rtl else {}
+    b = d.textbbox((0, 0), s, font=font, **kw)
+    w, h = b[2] - b[0], b[3] - b[1]
+    d.rounded_rectangle([cx - w / 2 - pad[0], cy - h / 2 - pad[1], cx + w / 2 + pad[0], cy + h / 2 + pad[1] + 6],
+                        radius=(h + 2 * pad[1]) / 2, fill=bg)
+    d.text((cx - w / 2 - b[0], cy - h / 2 - b[1]), s, font=font, fill=fg, **kw)
+
+
+def paste_scaled(base, im, cx, cy, scale, alpha=1.0):
+    if scale <= 0.01 or alpha <= 0:
+        return
+    w, h = max(1, int(im.width * scale)), max(1, int(im.height * scale))
+    s = im.resize((w, h), Image.LANCZOS)
+    if s.mode != "RGBA":
+        s = s.convert("RGBA")
+    if alpha < 1:
+        a = s.getchannel("A").point(lambda v: int(v * alpha))
+        s.putalpha(a)
+    base.paste(s, (int(cx - w / 2), int(cy - h / 2)), s)
+
+
+def burst(r, n=16):
+    im = Image.new("RGBA", (2 * r + 20, 2 * r + 20), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    c = r + 10
+    pts = []
+    for i in range(2 * n):
+        a = math.pi * i / n - math.pi / 2
+        rr = r if i % 2 == 0 else r * 0.84
+        pts.append((c + rr * math.cos(a), c + rr * math.sin(a)))
+    d.polygon(pts, fill=YEL, outline=WHITE, width=8)
+    return im
+
+
+LOGO_IM = Image.open(LOGO).convert("RGBA")
+mask = Image.new("L", LOGO_IM.size, 0)
+ImageDraw.Draw(mask).ellipse([0, 0, *LOGO_IM.size], fill=255)
+LOGO_IM.putalpha(mask)
+
+
+def scene_intro(t, dur):
+    im = background()
+    d = ImageDraw.Draw(im)
+    paste_scaled(im, LOGO_IM, W / 2, 610, 0.62 * ease(t / 0.45))
+    a = smooth((t - 0.35) / 0.35)
+    if a > 0:
+        y = 1040 + 60 * (1 - a)
+        text_c(d, y, "דילים מאמזון", F(900, 132))
+        text_c(d, y + 170, "עם משלוח חינם לישראל", F(800, 74), YEL)
+    b = ease((t - 0.8) / 0.4)
+    if b > 0:
+        layer = Image.new("RGBA", (W, 220), (0, 0, 0, 0))
+        pill(ImageDraw.Draw(layer), W / 2, 110, "לקראת בלאק פריידיי וחנוכה", F(800, 60), BLACK, WHITE)
+        paste_scaled(im, layer, W / 2, 1520, b)
+    return im
+
+
+PROD = {}
+def product_card(name):
+    if name not in PROD:
+        p = Image.open(IMG / name).convert("RGB")
+        p.thumbnail((760, 760), Image.LANCZOS)
+        PROD[name] = p
+    return PROD[name]
+
+
+def scene_deal(t, dur, i):
+    deal = DEALS[i]
+    im = background()
+    d = ImageDraw.Draw(im)
+    # header
+    pill(d, W / 2, 190, f"דיל {i + 1} מתוך 3", F(800, 52), WHITE, BLUE)
+    # white card sliding up
+    a = smooth(t / 0.35)
+    cy = 820 + 260 * (1 - a)
+    card = Image.new("RGBA", (880, 880), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(card)
+    cd.rounded_rectangle([0, 0, 879, 879], radius=56, fill=WHITE)
+    prod = product_card(deal["img"])
+    z = 1.0 + 0.07 * (t / dur)
+    pw, ph = int(prod.width * z), int(prod.height * z)
+    pz = prod.resize((pw, ph), Image.LANCZOS)
+    pz = pz.crop(((pw - min(pw, 800)) // 2, (ph - min(ph, 800)) // 2,
+                  (pw - min(pw, 800)) // 2 + min(pw, 800), (ph - min(ph, 800)) // 2 + min(ph, 800)))
+    card.paste(pz, ((880 - pz.width) // 2, (880 - pz.height) // 2))
+    shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rounded_rectangle([100, cy - 440 + 30, 980, cy + 440 + 30], radius=56, fill=(0, 8, 48, 110))
+    im.paste(shadow.filter(ImageFilter.GaussianBlur(28)), (0, 0), shadow.filter(ImageFilter.GaussianBlur(28)))
+    im.paste(card, (100, int(cy - 440)), card)
+    # discount burst
+    b = ease((t - 0.3) / 0.35)
+    if b > 0:
+        bu = burst(150)
+        bd = ImageDraw.Draw(bu)
+        f = F(900, 92)
+        s = f"-{deal['off']}" if deal["off"] else f"#{deal['rank']}"
+        bb = bd.textbbox((0, 0), s, font=f)
+        bd.text((160 - (bb[2] - bb[0]) / 2 - bb[0], 160 - (bb[3] - bb[1]) / 2 - bb[1]), s, font=f, fill=NAVY)
+        bu = bu.rotate(12 * (1 - b) - 8, resample=Image.BICUBIC, expand=True)
+        paste_scaled(im, bu, 870, cy - 400, b)
+    # text
+    c = smooth((t - 0.45) / 0.35)
+    if c > 0:
+        y = 1330 + 40 * (1 - c)
+        text_c(d, y, deal["title"], F(900, 76))
+        text_c(d, y + 112, deal["sub"], F(700, 50), (210, 222, 255))
+        if deal["price"]:
+            pill(d, W / 2, y + 270, deal["price"], F(900, 80), YEL, NAVY, pad=(54, 16))
+    e = smooth((t - 0.75) / 0.3)
+    if e > 0:
+        pill(d, W / 2, 1810, "משלוח חינם לישראל מעל $49", F(800, 46), BLACK, WHITE)
+    return im
+
+
+def scene_outro(t, dur):
+    im = background()
+    d = ImageDraw.Draw(im)
+    paste_scaled(im, LOGO_IM, W / 2, 640, 0.5 * ease(t / 0.4))
+    a = smooth((t - 0.2) / 0.35)
+    if a > 0:
+        y = 1000 + 50 * (1 - a)
+        text_c(d, y, "עוד דילים כל יום", F(900, 104))
+        text_c(d, y + 150, "הצטרפו לערוץ בטלגרם", F(800, 66), YEL)
+    b = ease((t - 0.5) / 0.4)
+    if b > 0:
+        layer = Image.new("RGBA", (W, 240), (0, 0, 0, 0))
+        pill(ImageDraw.Draw(layer), W / 2, 120, "@ilamazondeals", F(900, 84), WHITE, BLUE, pad=(60, 24))
+        paste_scaled(im, layer, W / 2, 1480, b)
+    return im
+
+
+def render(name, fn, dur):
+    out, tmp = OUT / f"{name}.mp4", OUT / f"{name}.tmp.mp4"
+    p = subprocess.Popen([FFMPEG, "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
+                          "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
+                          "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS), str(tmp)], stdin=subprocess.PIPE)
+    for k in range(round(dur * FPS)):
+        p.stdin.write(fn(k / FPS, dur).convert("RGB").tobytes())
+    p.stdin.close()
+    if p.wait() != 0:
+        sys.exit(f"ffmpeg failed on {name}")
+    os.replace(tmp, out)
+    return out
+
+
+def short_he(title, font_px=76, max_w=940):
+    """First chunk of the Hebrew title, trimmed word by word until it fits on one line."""
+    t = re.split(r"\s[-|]\s|,|\(|:", title or "")[0].strip()
+    words = t.split()
+    d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    while len(words) > 2 and d.textlength(" ".join(words), font=F(900, font_px), direction="rtl") > max_w:
+        words.pop()
+    return " ".join(words)
+
+
+def to_deal(p):
+    off = re.sub(r"[^\d]", "", p.get("discount") or "")
+    return {"img": f"{p['asin']}.jpg", "title": short_he(p.get("title_he") or p.get("title")),
+            "sub": p.get("category_he") or "", "price": p.get("price") or "", "off": f"{off}%" if off else "",
+            "rank": p.get("rank") or ""}
+
+
+def build(posts):
+    DEALS[:] = [to_deal(p) for p in posts]
+    scenes = [("s1_intro", scene_intro, 2.0)] + \
+             [(f"s{i + 2}_deal", (lambda i: lambda t, d: scene_deal(t, d, i))(i), 2.4) for i in range(len(DEALS))] + \
+             [("s9_outro", scene_outro, 1.6)]
+    files = [render(n, f, d) for n, f, d in scenes]
+    lst = OUT / "list.txt"
+    lst.write_text("".join(f"file '{f}'\n" for f in files))
+    final = OUT / "ilamazondeals-reel.mp4"
+    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
+                    "-c", "copy", "-movflags", "+faststart", str(final)], check=True)
+    return final
+
+
+def ig_caption(posts):
+    lines = ["🔥 3 דילים מאמזון עם משלוח חינם לישראל 🇮🇱", ""]
+    for i, p in enumerate(posts, 1):
+        off = f" ({p['discount']} הנחה)" if p.get("discount") else ""
+        lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}{off}")
+    lines += ["", "🖤 לקראת בלאק פריידיי וחנוכה 🕎", "כל הדילים והקישורים בערוץ הטלגרם: t.me/ilamazondeals",
+              "", "#אמזון #דילים #משלוחחינם #בלאקפריידיי #חנוכה #קניותאונליין #amazonfinds #amazondeals #israel"]
+    return "\n".join(lines)
+
+
+def send(video, posts):
+    owner = str(CONFIG.get("owner_chat_id") or "")
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    if not (owner and token):
+        print("No owner_chat_id in config: reel saved as a workflow artifact only")
+        return False
+    cap = ig_caption(posts)
+    with open(video, "rb") as fh:
+        r = requests.post(f"https://api.telegram.org/bot{token}/sendVideo",
+                          data={"chat_id": owner, "caption": "🎬 Reel ready for Instagram (add a trending sound in IG)",
+                                "supports_streaming": "true", "width": W, "height": H},
+                          files={"video": ("ilamazondeals-reel.mp4", fh, "video/mp4")}, timeout=120)
+    print("video:", r.status_code, r.text[:200])
+    r2 = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                       data={"chat_id": owner, "text": "Instagram caption ⬇️\n\n" + cap}, timeout=30)
+    print("caption:", r2.status_code)
+    return r.ok
+
+
+def main():
+    log = json.loads((REPO / "data" / "posts.json").read_text())
+    log = [p for p in log if (IMG / f"{p['asin']}.jpg").exists()]
+    state_f = REPO / "data" / "reels.json"
+    st = json.loads(state_f.read_text()) if state_f.exists() else {"done_upto": 0}
+    every = CONFIG.get("reel_every", 4)
+    if "--latest" in sys.argv:
+        batch = log[-3:]
+    else:
+        new = log[st["done_upto"]:] if st["done_upto"] <= len(log) else log[-every:]
+        if len(new) < every:
+            print(f"{len(new)} new post(s) since the last reel; waiting for {every}")
+            return
+        pct = lambda p: int(re.sub(r"[^\d]", "", p.get("discount") or "") or 0)
+        batch = sorted(sorted(new, key=pct, reverse=True)[:3], key=lambda p: p["posted_at"])
+    if len(batch) < 3:
+        print("Need 3 posts with photos")
+        return
+    video = build(batch)
+    print("rendered", video, video.stat().st_size // 1024, "KB")
+    (REPO / "reel-out").mkdir(exist_ok=True)
+    os.replace(video, REPO / "reel-out" / "ilamazondeals-reel.mp4")
+    send(REPO / "reel-out" / "ilamazondeals-reel.mp4", batch)
+    if "--auto" in sys.argv:
+        st["done_upto"] = len(log)
+        state_f.write_text(json.dumps(st))
+
+
+if __name__ == "__main__":
+    main()

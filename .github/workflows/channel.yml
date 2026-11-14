@@ -5,19 +5,42 @@ on:
       action:
         description: "What to change"
         type: choice
-        options: [description, title, photo]
+        options: [description, title, photo, pin, whoami, edit-posts, reel-latest]
       value:
         description: "New text, or image path in the repo (e.g. assets/ilamazondeals-logo.png)"
-        required: true
+        required: false
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: deals-bot
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install requests
-      - run: python tools/channel.py "$ACTION" "$VALUE"
+      - run: sudo apt-get install -y -qq libfribidi0 libraqm0 > /dev/null || true
+      - run: pip install -r requirements.txt
+      - name: Run
+        run: |
+          case "$ACTION" in
+            edit-posts)  python tools/edit_posts.py --delete-text ;;
+            reel-latest) python tools/reel.py --latest ;;
+            *)           python tools/channel.py "$ACTION" "$VALUE" ;;
+          esac
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ACTION: ${{ inputs.action }}
           VALUE: ${{ inputs.value }}
+      - name: Save message ids
+        if: ${{ inputs.action == 'edit-posts' }}
+        run: |
+          git config user.name "deals-bot"; git config user.email "deals-bot@users.noreply.github.com"
+          git add data/; git diff --staged --quiet || (git commit -m "Save message ids" && git pull --rebase && git push)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reel
+          path: reel-out/
+          if-no-files-found: ignore

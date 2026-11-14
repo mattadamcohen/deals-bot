@@ -356,5 +356,7 @@
       "luggage",
       "arts-crafts"
     ]
-  }
+  },
+  "owner_chat_id": "",
+  "reel_every": 4
 }
