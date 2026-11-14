@@ -88,7 +88,7 @@ def big_image(url):
 
 class Amazon:
     def __init__(self):
-        self.s = cffi_requests.Session(impersonate="chrome")
+        self.s = cffi_requests.Session(impersonate="safari")
         self.s.headers.update({"Accept-Language": "en-US,en;q=0.9"})
         # show prices in USD even with an Israeli delivery address
         self.s.cookies.set("i18n-prefs", "USD", domain=".amazon.com")
@@ -98,6 +98,7 @@ class Amazon:
         if self.requests_made:
             time.sleep(random.uniform(*CONFIG["delay_seconds"]))
         self.requests_made += 1
+        kw.setdefault("headers", {}).setdefault("referer", BASE + "/gp/bestsellers/")
         r = self.s.get(url, timeout=30, **kw)
         body = r.text
         if "validateCaptcha" in body or "Enter the characters you see below" in body or r.status_code == 503:
@@ -106,7 +107,8 @@ class Amazon:
         return r
 
     def set_location_israel(self):
-        home = self.get(BASE + "/").text
+        # Amazon blocks the homepage for bots but serves Best Sellers pages, so start there
+        home = self.get(BASE + "/gp/bestsellers/").text
         m = re.search(r'anti-csrftoken-a2z(?:&quot;|")\s*:\s*(?:&quot;|")(.*?)(?:&quot;|")', home)
         token1 = m.group(1) if m else ""
         sel = self.get(
@@ -129,7 +131,7 @@ class Amazon:
             timeout=30,
         )
         log(f"  location change -> HTTP {r.status_code}")
-        check = BeautifulSoup(self.get(BASE + "/").text, "html.parser").select_one("#glow-ingress-line2")
+        check = BeautifulSoup(self.get(BASE + "/gp/bestsellers/").text, "html.parser").select_one("#glow-ingress-line2")
         where = clean(check.get_text()) if check else "?"
         log(f"  delivering to: {where}")
         return "israel" in where.lower()
@@ -187,6 +189,11 @@ class Amazon:
             text("#amazonGlobal_feature_div"),
             text("#exports_desktop_qualifiedBuybox_tlc_feature_div"),
         ]))
+        if "israel" not in delivery.lower():
+            # fallback: look for an Israel delivery message anywhere in the buy box area
+            m = re.search(r"(FREE (?:delivery|Shipping)[^<]{0,120}Israel[^<]{0,80}|[^<>]{0,80}cannot be shipped to your selected delivery location)", page, re.I)
+            if m:
+                delivery += " " + clean(m.group(1))
         low = delivery.lower()
         if "cannot be shipped" in low or "currently unavailable" in text("#availability").lower():
             shipping = "no"
@@ -321,7 +328,8 @@ def main():
                     continue
                 merged = {**it, **{k: v for k, v in info.items() if v}}
                 if send_telegram(merged, category):
-                    state["posted"][asin] = now().isoformat()
+                    if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
+                        state["posted"][asin] = now().isoformat()
                     posted_now += 1
                     time.sleep(3)
     except Blocked as e:
