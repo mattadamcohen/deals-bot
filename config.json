@@ -419,5 +419,6 @@
       "to": "2026-12-01",
       "discount_weight": 2
     }
-  ]
+  ],
+  "ig_post_each_deal": true
 }

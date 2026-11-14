@@ -297,7 +297,8 @@ def ig_caption(posts, n=0):
     for i, p in enumerate(posts, 1):
         off = f" ({p['discount']} הנחה)" if p.get("discount") else ""
         lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}{off}")
-    lines += ["", "🖤 " + season_badge() + " 🕎", "כל הדילים והקישורים בערוץ הטלגרם: t.me/ilamazondeals",
+    lines += ["", "🖤 " + season_badge() + " 🕎", "💬 כתבו \"לינק\" בתגובות ונשלח לכם את הקישורים לכל המוצרים בהודעה פרטית",
+              "👈 עוד דילים כל יום בערוץ הטלגרם, הקישור בביו",
               "", "#אמזון #דילים #משלוחחינם #בלאקפריידיי #חנוכה #קניותאונליין #amazonfinds #amazondeals #israel"]
     return "\n".join(lines)
 
@@ -359,6 +360,11 @@ def send(video, posts, ig_media=None, n=0):
     return r.ok
 
 
+def datetime_now_iso():
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).isoformat()
+
+
 def main():
     log = json.loads((REPO / "data" / "posts.json").read_text())
     log = [p for p in log if (IMG / f"{p['asin']}.jpg").exists()]
@@ -388,6 +394,11 @@ def main():
     if "--no-instagram" not in sys.argv:
         try:
             media = publish_instagram(final, batch, n)
+            if media:
+                st.setdefault("media", []).append({"id": media, "asins": [p["asin"] for p in batch],
+                                                   "at": datetime_now_iso()})
+                st["media"] = st["media"][-30:]
+                state_f.write_text(json.dumps(st))
         except Exception as e:
             print("Instagram publish error:", e)
     send(final, batch, media, n)

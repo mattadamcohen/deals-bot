@@ -1,0 +1,30 @@
+name: Instagram comment replies
+# Triggered every 15 minutes by cron-job.org (job "IG comment replies").
+on:
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: "Only list new comments, don't send DMs"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: ig-dm
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - name: Reply to comments
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python tools/ig_dm.py ${{ inputs.check_only && '--check' || '' }}
+      - name: Remember handled comments
+        if: always()
+        run: |
+          git config user.name "deals-bot"; git config user.email "deals-bot@users.noreply.github.com"
+          git add data/ig_replied.json 2>/dev/null || true
+          git diff --staged --quiet || (git commit -m "IG replies" && (git push || (git pull --rebase && git push)))
