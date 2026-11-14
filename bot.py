@@ -35,7 +35,7 @@ BASE = "https://www.amazon.com"
 DRY_RUN = os.getenv("DRY_RUN", "").lower() in ("1", "true", "yes")
 TG_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = os.getenv("TELEGRAM_CHAT_ID", "")
-AMAZON_TAG = os.getenv("AMAZON_TAG", "").strip()
+AMAZON_TAG = (os.getenv("AMAZON_TAG") or CONFIG.get("amazon_tag", "")).strip()
 
 
 class Blocked(Exception):

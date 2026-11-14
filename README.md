@@ -15,7 +15,6 @@ Every hour (about 07:00–22:00 Israel time) this bot does the following:
 4. In the repo, go to **Settings → Secrets and variables → Actions** and add:
    - Secret `TELEGRAM_BOT_TOKEN` = the BotFather token
    - Secret `TELEGRAM_CHAT_ID` = `@your_channel_name`
-   - *(optional)* Variable `AMAZON_TAG` = your Amazon Associates tag (e.g. `matt-20`)
 5. Go to **Actions → Amazon deals bot → Run workflow**:
    - first tick **test_telegram**, which sends a test post
    - then tick **dry_run**, which shows what it would post in the run log
@@ -27,6 +26,7 @@ Every hour (about 07:00–22:00 Israel time) this bot does the following:
 | `categories` | Amazon Best Sellers category slugs (from `amazon.com/gp/bestsellers/<slug>`) |
 | `categories_per_run` / `items_to_check_per_category` | How much it reads per hour. Higher means more posts, but Amazon is more likely to block it |
 | `max_posts_per_run` | Cap on posts per hour, so the channel isn't spammed |
+| `amazon_tag` | Your Amazon Associates tag, added to every link |
 | `labels` | Post wording. You can change these to Hebrew |
 
 ## If something breaks
