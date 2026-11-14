@@ -273,7 +273,18 @@ def short(title, limit=140):
     return title if len(title) <= limit else title[:limit - 3].rsplit(" ", 1)[0] + "…"
 
 
-def block(item, category, title, L):
+def seasonal_lines(category_slug, lang):
+    today = datetime.now(timezone(timedelta(hours=2))).date().isoformat()
+    out = [x[lang] for x in CONFIG.get("seasons", []) if x["from"] <= today <= x["to"]]
+    g = CONFIG.get("gift_season")
+    if g and g["from"] <= today <= g["to"] and any(category_slug.startswith(c) for c in g["categories"]):
+        out.append(g[lang])
+        if today <= g.get("early_until", ""):
+            out.append(g["early_" + lang])
+    return out
+
+
+def block(item, category, title, L, extra=()):
     head = L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"]
     lines = [f"🔥 {esc(head.format(rank=item['rank'], category=category))}", "",
              f"<b>{esc(short(title))}</b>", ""]
@@ -287,6 +298,8 @@ def block(item, category, title, L):
     if item.get("rating"):
         lines.append(f"⭐ {esc(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
     lines.append(f"🇮🇱 {L['free_shipping']}")
+    if extra:
+        lines += ["", *extra]
     lines.append(f'👉 <a href="{product_link(item["asin"])}">{L["view"]}</a>')
     return "\n".join(lines)
 
@@ -294,9 +307,34 @@ def block(item, category, title, L):
 def caption(item, category):
     L = CONFIG["labels"]
     title = item["title"] or "Amazon best seller"
-    he = block(item, category["he"], to_hebrew(short(title)), L["he"])
-    en = block(item, category["en"], title, L["en"])
+    title_he = to_hebrew(short(title))
+    item["title_he"] = title_he
+    he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he"))
+    en = block(item, category["en"], title, L["en"], seasonal_lines(category["slug"], "en"))
     return he + "\n\n〰️〰️〰️〰️〰️\n\n" + en
+
+
+def remember_post(item, category):
+    """Save the post's details and product photo under data/ (used to make social videos)."""
+    img_dir = ROOT / "data" / "images"
+    img_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        if item.get("image"):
+            r = requests.get(item["image"], timeout=30)
+            if r.ok:
+                (img_dir / f"{item['asin']}.jpg").write_bytes(r.content)
+    except Exception as e:
+        log(f"  (image save failed: {e})")
+    log_file = ROOT / "data" / "posts.json"
+    posts = json.loads(log_file.read_text()) if log_file.exists() else []
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source")}
+                 | {"category_en": category["en"], "category_he": category["he"], "posted_at": now().isoformat()})
+    posts = posts[-40:]
+    keep = {p["asin"] for p in posts}
+    for f in img_dir.glob("*.jpg"):
+        if f.stem not in keep:
+            f.unlink()
+    log_file.write_text(json.dumps(posts, indent=1, ensure_ascii=False))
 
 
 def send_telegram(item, category):
@@ -388,6 +426,7 @@ def main():
         if send_telegram(merged, category):
             if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
                 state["posted"][it["asin"]] = now().isoformat()
+                remember_post(merged, category)
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
             posted_now += 1
             time.sleep(3)
@@ -396,6 +435,17 @@ def main():
         log("Setting delivery location to Israel…")
         if not amz.set_location_israel():
             log("! Location not confirmed as Israel; items will only be posted if their page says FREE … Israel")
+
+        for asin in filter(None, (arg("backfill", "") or "").split(",")):
+            info = amz.product(asin.strip())
+            item = {"asin": asin.strip(), "rank": 0, **{k: v for k, v in info.items() if v}}
+            item["title_he"] = to_hebrew(short(item.get("title", "")))
+            if not item.get("discount") and discount_pct(info):
+                item["discount"] = f"{discount_pct(info)}%"
+            remember_post(item, {"slug": "", "en": arg("backfill-category", ""), "he": arg("backfill-category-he", "")})
+            log(f"  backfilled {asin}")
+        if arg("backfill"):
+            return
 
         checked = 0
         for category, kind, page in lists:

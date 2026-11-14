@@ -313,5 +313,48 @@
     "Fossil",
     "Casio",
     "Ray-Ban"
-  ]
+  ],
+  "seasons": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-26",
+      "he": "🖤 לקראת בלאק פריידיי: המחירים כבר יורדים",
+      "en": "🖤 Black Friday is coming: prices are already dropping"
+    },
+    {
+      "from": "2026-11-27",
+      "to": "2026-11-30",
+      "he": "🖤 דיל בלאק פריידיי",
+      "en": "🖤 Black Friday deal"
+    },
+    {
+      "from": "2026-12-01",
+      "to": "2026-12-03",
+      "he": "🖤 סייבר וויק: ממשיכים עם הדילים",
+      "en": "🖤 Cyber Week: the deals keep going"
+    }
+  ],
+  "gift_season": {
+    "from": "2026-11-01",
+    "to": "2026-12-12",
+    "he": "🕎 רעיון מעולה למתנת חנוכה",
+    "en": "🕎 Great Hanukkah gift idea",
+    "early_until": "2026-11-25",
+    "early_he": "📦 כדאי להזמין מוקדם כדי שיגיע עד חנוכה",
+    "early_en": "📦 Order early so it arrives for Hanukkah",
+    "categories": [
+      "toys-and-games",
+      "fashion",
+      "beauty",
+      "electronics",
+      "wireless",
+      "baby-products",
+      "videogames",
+      "sporting-goods",
+      "home-garden/1063278",
+      "kitchen",
+      "luggage",
+      "arts-crafts"
+    ]
+  }
 }
