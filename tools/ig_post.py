@@ -176,9 +176,22 @@ def main():
         print("Instagram posts: not configured")
         return
     cutoff = datetime.now(timezone.utc) - timedelta(hours=3)
-    pending = [p for p in posts if not p.get("ig_media") and (IMG_DIR / f"{p['asin']}.jpg").exists()
-               and datetime.fromisoformat(p["posted_at"]) > cutoff]
-    for p in pending[-2:]:
+    ok = lambda p: not p.get("ig_media") and (IMG_DIR / f"{p['asin']}.jpg").exists()
+    by_asin = {p["asin"]: p for p in posts}
+    if "--asins" in sys.argv:  # post these specific deals now
+        pending = [by_asin[a] for a in sys.argv[sys.argv.index("--asins") + 1].split(",") if a in by_asin and ok(by_asin[a])]
+    else:
+        pending = [p for p in posts if ok(p) and datetime.fromisoformat(p["posted_at"]) > cutoff][-2:]
+        # plus one older deal from the backlog per run, so they're spread out
+        bl_f = REPO / "data" / "ig_backlog.json"
+        backlog = json.loads(bl_f.read_text()) if bl_f.exists() else []
+        while backlog:
+            a = backlog.pop(0)
+            if a in by_asin and ok(by_asin[a]):
+                pending.append(by_asin[a])
+                break
+        bl_f.write_text(json.dumps(backlog))
+    for p in pending:
         n = st.get("post_count", 0)
         url = host(p["asin"], card(p, n))
         media = publish(url, caption(p, n))

@@ -27,7 +27,7 @@ jobs:
             edit-posts)  python tools/edit_posts.py --delete-text ;;
             reel-latest) python tools/reel.py --latest ;;
             ig-whoami)   python tools/instagram.py whoami ;;
-            ig-post)     python tools/ig_post.py ;;
+            ig-post)     python tools/ig_post.py ${VALUE:+--asins $VALUE} ;;
             *)           python tools/channel.py "$ACTION" "$VALUE" ;;
           esac
         env:
