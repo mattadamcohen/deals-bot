@@ -221,18 +221,68 @@
   ],
   "labels": {
     "he": {
-      "rank": "#{rank} בהכי נמכרים בקטגוריית {category}",
-      "free_shipping": "משלוח חינם לישראל בהזמנה מעל $49",
-      "view": "לצפייה באמזון",
-      "off": "הנחה",
-      "trending": "מוצר חם בקטגוריית {category}"
+      "rank": [
+        "#{rank} בהכי נמכרים בקטגוריית {category}",
+        "מקום {rank} ברשימת הנמכרים של {category}",
+        "מהנמכרים ביותר באמזון: #{rank} ב{category}",
+        "כולם קונים את זה: #{rank} ב{category}"
+      ],
+      "trending": [
+        "מוצר חם בקטגוריית {category}",
+        "טס למעלה ברשימות: {category}",
+        "הטרנד של השבוע ב{category}"
+      ],
+      "intro": [
+        "",
+        "",
+        "👀 שווה בדיקה",
+        "💡 מציאה של היום",
+        "🛒 זה מה שכולם מזמינים עכשיו",
+        "⚡ דיל חדש"
+      ],
+      "free_shipping": [
+        "משלוח חינם לישראל בהזמנה מעל $49",
+        "נשלח לישראל בחינם (בהזמנה מעל $49)",
+        "משלוח חינם עד הבית, בהזמנה מעל $49"
+      ],
+      "view": [
+        "לצפייה באמזון",
+        "לפרטים ולהזמנה",
+        "קחו אותי לדיל"
+      ],
+      "off": "הנחה"
     },
     "en": {
-      "rank": "#{rank} best seller in {category}",
-      "free_shipping": "Free shipping to Israel on orders over $49",
-      "view": "View on Amazon",
-      "off": "off",
-      "trending": "Trending in {category}"
+      "rank": [
+        "#{rank} best seller in {category}",
+        "Top seller: #{rank} in {category}",
+        "Everyone's buying this: #{rank} in {category}",
+        "#{rank} on Amazon's {category} chart"
+      ],
+      "trending": [
+        "Trending in {category}",
+        "Climbing fast in {category}",
+        "This week's hot pick in {category}"
+      ],
+      "intro": [
+        "",
+        "",
+        "👀 Worth a look",
+        "💡 Today's find",
+        "🛒 What everyone's ordering right now",
+        "⚡ New deal"
+      ],
+      "free_shipping": [
+        "Free shipping to Israel on orders over $49",
+        "Ships free to Israel (orders over $49)",
+        "Free delivery to Israel on $49+ orders"
+      ],
+      "view": [
+        "View on Amazon",
+        "See the deal",
+        "Get it here"
+      ],
+      "off": "off"
     }
   },
   "checks_per_run": 25,

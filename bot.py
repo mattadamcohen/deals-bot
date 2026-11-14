@@ -284,10 +284,16 @@ def seasonal_lines(category_slug, lang):
     return out
 
 
-def block(item, category, title, L, extra=()):
-    head = L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"]
-    lines = [f"🔥 {esc(head.format(rank=item['rank'], category=category))}", "",
-             f"<b>{esc(short(title))}</b>", ""]
+def pick(options, v):
+    """Pick variant v of a label (labels can be a single string or a list of variants)."""
+    return options[v % len(options)] if isinstance(options, list) else options
+
+
+def block(item, category, title, L, extra=(), v=0):
+    head = pick(L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"], v)
+    intro = pick(L.get("intro", [""]), v // 3)
+    lines = ([intro, ""] if intro else []) + [f"🔥 {esc(head.format(rank=item['rank'], category=category))}", "",
+                                              f"<b>{esc(short(title))}</b>", ""]
     if item.get("price"):
         p = f"💲 <b>{esc(item['price'])}</b>"
         if item.get("was"):
@@ -297,10 +303,10 @@ def block(item, category, title, L, extra=()):
         lines.append(p)
     if item.get("rating"):
         lines.append(f"⭐ {esc(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
-    lines.append(f"🇮🇱 {L['free_shipping']}")
+    lines.append(f"🇮🇱 {pick(L['free_shipping'], v // 2)}")
     if extra:
         lines += ["", *extra]
-    lines.append(f'👉 <a href="{product_link(item["asin"])}">{L["view"]}</a>')
+    lines.append(f'👉 <a href="{product_link(item["asin"])}">{pick(L["view"], v // 4)}</a>')
     return "\n".join(lines)
 
 
@@ -318,9 +324,11 @@ def caption(item, category):
     title = drop_christmas(item["title"] or "Amazon best seller")
     title_he = to_hebrew(short(title))
     item["title_he"] = title_he
-    he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he"))
-    en = block(item, category["en"], title, L["en"], seasonal_lines(category["slug"], "en"))
-    return he + "\n\n〰️〰️〰️〰️〰️\n\n" + en
+    v = item.setdefault("variant", random.randrange(1000))  # same variant for both languages; stable on re-edits
+    he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he"), v)
+    en = block(item, category["en"], title, L["en"], seasonal_lines(category["slug"], "en"), v)
+    sep = pick(["〰️〰️〰️〰️〰️", "• • • • •", "➖➖➖➖➖", "✨✨✨"], v // 5)
+    return he + f"\n\n{sep}\n\n" + en
 
 
 def remember_post(item, category):
@@ -336,7 +344,7 @@ def remember_post(item, category):
         log(f"  (image save failed: {e})")
     log_file = ROOT / "data" / "posts.json"
     posts = json.loads(log_file.read_text()) if log_file.exists() else []
-    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image")}
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant")}
                  | {"category_slug": category["slug"], "category_en": category["en"], "category_he": category["he"],
                     "posted_at": now().isoformat()})
     posts = posts[-40:]

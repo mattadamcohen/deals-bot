@@ -24,6 +24,48 @@ if not features.check("raqm"):
 
 BLUE, DEEP, NAVY = (10, 59, 196), (6, 36, 122), (10, 42, 143)
 YEL, ORA, WHITE, BLACK = (255, 212, 59), (255, 159, 28), (255, 255, 255), (15, 15, 20)
+GLOW = (31, 91, 255)
+
+# color themes: (accent/pill, deep background, glow, dark text on accent, highlight)
+THEMES = {
+    "blue":   ((10, 59, 196), (6, 36, 122), (31, 91, 255), (10, 42, 143), (255, 212, 59)),
+    "purple": ((109, 40, 217), (46, 16, 101), (139, 92, 246), (59, 7, 100), (255, 212, 59)),
+    "teal":   ((13, 148, 136), (4, 55, 64), (20, 184, 166), (4, 47, 46), (255, 214, 102)),
+    "coral":  ((220, 38, 38), (110, 18, 36), (248, 113, 113), (90, 12, 24), (255, 230, 109)),
+    "night":  ((40, 40, 48), (8, 8, 12), (70, 70, 84), (20, 20, 24), (255, 196, 40)),
+}
+INTROS = [("דילים מאמזון", "עם משלוח חינם לישראל"), ("הכי נמכרים באמזון", "ונשלחים לישראל בחינם"),
+          ("3 מציאות מאמזון", "עם משלוח חינם לישראל"), ("מה כולם קונים?", "הלהיטים של אמזון השבוע")]
+OUTROS = [("עוד דילים כל יום", "הצטרפו לערוץ בטלגרם"), ("רוצים עוד?", "כל הקישורים בטלגרם"),
+          ("לא מפספסים דיל", "הצטרפו עכשיו לטלגרם")]
+TEXT = {"intro": INTROS[0], "outro": OUTROS[0], "badge": "לקראת בלאק פריידיי וחנוכה"}
+
+
+def season_badge():
+    from datetime import datetime, timezone, timedelta
+    d = datetime.now(timezone(timedelta(hours=2))).date().isoformat()
+    if d < "2026-11-27":
+        return "לקראת בלאק פריידיי וחנוכה"
+    if d <= "2026-12-01":
+        return "בלאק פריידיי כבר כאן"
+    if d <= "2026-12-12":
+        return "רעיונות למתנות לחנוכה"
+    return "הדילים הכי חמים של השבוע"
+
+
+def apply_theme(n):
+    """Pick colors/texts for reel number n (Black Friday week always uses the dark 'night' theme)."""
+    global BLUE, DEEP, GLOW, NAVY, YEL, _bg
+    from datetime import datetime, timezone, timedelta
+    d = datetime.now(timezone(timedelta(hours=2))).date().isoformat()
+    names = ["blue", "purple", "teal", "coral", "night"]
+    name = "night" if "2026-11-27" <= d <= "2026-12-01" else names[n % len(names)]
+    BLUE, DEEP, GLOW, NAVY, YEL = THEMES[name]
+    _bg = None
+    TEXT["intro"] = INTROS[n % len(INTROS)]
+    TEXT["outro"] = OUTROS[n % len(OUTROS)]
+    TEXT["badge"] = season_badge()
+    return name
 
 DEALS = []  # filled in main()
 
@@ -48,7 +90,7 @@ def background():
         gd = ImageDraw.Draw(g)
         for r in range(1400, 0, -20):
             gd.ellipse([W / 2 - r, 650 - r, W / 2 + r, 650 + r], fill=int(255 * (1 - r / 1400)))
-        img.paste(Image.new("RGB", (W, H), (31, 91, 255)), mask=g.filter(ImageFilter.GaussianBlur(60)))
+        img.paste(Image.new("RGB", (W, H), GLOW), mask=g.filter(ImageFilter.GaussianBlur(60)))
         _bg = img
     return _bg.copy()
 
@@ -111,12 +153,12 @@ def scene_intro(t, dur):
     a = smooth((t - 0.35) / 0.35)
     if a > 0:
         y = 1040 + 60 * (1 - a)
-        text_c(d, y, "דילים מאמזון", F(900, 132))
-        text_c(d, y + 170, "עם משלוח חינם לישראל", F(800, 74), YEL)
+        text_c(d, y, TEXT["intro"][0], F(900, 132 if len(TEXT["intro"][0]) <= 14 else 112))
+        text_c(d, y + 170, TEXT["intro"][1], F(800, 74 if len(TEXT["intro"][1]) <= 22 else 64), YEL)
     b = ease((t - 0.8) / 0.4)
     if b > 0:
         layer = Image.new("RGBA", (W, 220), (0, 0, 0, 0))
-        pill(ImageDraw.Draw(layer), W / 2, 110, "לקראת בלאק פריידיי וחנוכה", F(800, 60), BLACK, WHITE)
+        pill(ImageDraw.Draw(layer), W / 2, 110, TEXT["badge"], F(800, 60), BLACK, WHITE)
         paste_scaled(im, layer, W / 2, 1520, b)
     return im
 
@@ -185,8 +227,8 @@ def scene_outro(t, dur):
     a = smooth((t - 0.2) / 0.35)
     if a > 0:
         y = 1000 + 50 * (1 - a)
-        text_c(d, y, "עוד דילים כל יום", F(900, 104))
-        text_c(d, y + 150, "הצטרפו לערוץ בטלגרם", F(800, 66), YEL)
+        text_c(d, y, TEXT["outro"][0], F(900, 104))
+        text_c(d, y + 150, TEXT["outro"][1], F(800, 66), YEL)
     b = ease((t - 0.5) / 0.4)
     if b > 0:
         layer = Image.new("RGBA", (W, 240), (0, 0, 0, 0))
@@ -226,7 +268,11 @@ def to_deal(p):
             "rank": p.get("rank") or ""}
 
 
-def build(posts):
+def build(posts, n=0):
+    theme = apply_theme(n)
+    tracks = sorted((REPO / "assets" / "music").glob("track*.m4a"))
+    music = tracks[n % len(tracks)]
+    print(f"reel #{n}: theme={theme} music={music.name} intro={TEXT['intro'][0]}")
     DEALS[:] = [to_deal(p) for p in posts]
     scenes = [("s1_intro", scene_intro, 2.0)] + \
              [(f"s{i + 2}_deal", (lambda i: lambda t, d: scene_deal(t, d, i))(i), 2.4) for i in range(len(DEALS))] + \
@@ -238,24 +284,25 @@ def build(posts):
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
                     "-c", "copy", str(silent)], check=True)
     final = OUT / "ilamazondeals-reel.mp4"
-    music = REPO / "assets" / "music.wav"
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(music),
                     "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
                     "-af", "afade=t=out:st=10:d=0.8", "-shortest", "-movflags", "+faststart", str(final)], check=True)
     return final
 
 
-def ig_caption(posts):
-    lines = ["🔥 3 דילים מאמזון עם משלוח חינם לישראל 🇮🇱", ""]
+def ig_caption(posts, n=0):
+    openers = ["🔥 3 דילים מאמזון עם משלוח חינם לישראל 🇮🇱", "🛒 המוצרים שכולם קונים עכשיו באמזון, עם משלוח חינם לישראל 🇮🇱",
+               "👀 3 מציאות שמצאנו לכם היום באמזון 🇮🇱", "⚡ הלהיטים של אמזון, ישר עד הבית בישראל 🇮🇱"]
+    lines = [openers[n % len(openers)], ""]
     for i, p in enumerate(posts, 1):
         off = f" ({p['discount']} הנחה)" if p.get("discount") else ""
         lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}{off}")
-    lines += ["", "🖤 לקראת בלאק פריידיי וחנוכה 🕎", "כל הדילים והקישורים בערוץ הטלגרם: t.me/ilamazondeals",
+    lines += ["", "🖤 " + season_badge() + " 🕎", "כל הדילים והקישורים בערוץ הטלגרם: t.me/ilamazondeals",
               "", "#אמזון #דילים #משלוחחינם #בלאקפריידיי #חנוכה #קניותאונליין #amazonfinds #amazondeals #israel"]
     return "\n".join(lines)
 
 
-def publish_instagram(video, posts):
+def publish_instagram(video, posts, n=0):
     """Publish the reel to Instagram (Graph API, resumable upload). Returns the media id or None."""
     token = os.getenv("IG_ACCESS_TOKEN", "").strip()
     ig = str(CONFIG.get("ig_user_id") or "")
@@ -264,7 +311,7 @@ def publish_instagram(video, posts):
         return None
     import time
     api = "https://graph.facebook.com/v23.0"
-    cap = ig_caption(posts) + "\n\nקישורי שותפים: אם תקנו דרכם, ייתכן שנקבל עמלה קטנה, בלי עלות נוספת עבורכם."
+    cap = ig_caption(posts, n) + "\n\nקישורי שותפים: אם תקנו דרכם, ייתכן שנקבל עמלה קטנה, בלי עלות נוספת עבורכם."
     r = requests.post(f"{api}/{ig}/media", data={"media_type": "REELS", "upload_type": "resumable",
                                                   "caption": cap, "share_to_feed": "true", "access_token": token}, timeout=60)
     print("IG container:", r.status_code, r.text[:200])
@@ -292,13 +339,13 @@ def publish_instagram(video, posts):
     return pub.json().get("id") if pub.ok else None
 
 
-def send(video, posts, ig_media=None):
+def send(video, posts, ig_media=None, n=0):
     owner = str(CONFIG.get("owner_chat_id") or "")
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     if not (owner and token):
         print("No owner_chat_id in config: reel saved as a workflow artifact only")
         return False
-    cap = ig_caption(posts)
+    cap = ig_caption(posts, n)
     with open(video, "rb") as fh:
         r = requests.post(f"https://api.telegram.org/bot{token}/sendVideo",
                           data={"chat_id": owner, "caption": ("✅ Posted to Instagram automatically" if ig_media else
@@ -330,7 +377,9 @@ def main():
     if len(batch) < 3:
         print("Need 3 posts with photos")
         return
-    video = build(batch)
+    import random
+    n = st.get("count", 0) if "--auto" in sys.argv else random.randrange(1000)
+    video = build(batch, n)
     print("rendered", video, video.stat().st_size // 1024, "KB")
     (REPO / "reel-out").mkdir(exist_ok=True)
     os.replace(video, REPO / "reel-out" / "ilamazondeals-reel.mp4")
@@ -338,12 +387,13 @@ def main():
     media = None
     if "--no-instagram" not in sys.argv:
         try:
-            media = publish_instagram(final, batch)
+            media = publish_instagram(final, batch, n)
         except Exception as e:
             print("Instagram publish error:", e)
-    send(final, batch, media)
+    send(final, batch, media, n)
     if "--auto" in sys.argv:
         st["done_upto"] = len(log)
+        st["count"] = st.get("count", 0) + 1
         state_f.write_text(json.dumps(st))
 
 
