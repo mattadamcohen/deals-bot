@@ -1,0 +1,21 @@
+{
+  "categories": [
+    "electronics", "amazon-devices", "pc", "wireless", "photo", "videogames",
+    "home-garden", "kitchen", "appliances", "hi", "lawn-garden", "automotive",
+    "beauty", "hpc", "fashion", "luggage", "baby-products", "toys-and-games",
+    "sporting-goods", "pet-supplies", "office-products", "arts-crafts",
+    "musical-instruments", "industrial", "books"
+  ],
+  "categories_per_run": 3,
+  "items_to_check_per_category": 8,
+  "max_posts_per_run": 4,
+  "repost_after_days": 14,
+  "recheck_not_free_after_days": 3,
+  "delay_seconds": [2.5, 6],
+  "labels": {
+    "in": "in",
+    "off": "off",
+    "free_shipping": "Free shipping to Israel on orders over $49",
+    "view": "View on Amazon"
+  }
+}
