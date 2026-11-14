@@ -37,9 +37,17 @@
     6
   ],
   "labels": {
-    "in": "in",
-    "off": "off",
-    "free_shipping": "Free shipping to Israel on orders over $49",
-    "view": "View on Amazon"
+    "he": {
+      "rank": "מקום {rank} ברבי המכר ב{category}",
+      "free_shipping": "משלוח חינם לישראל בהזמנה מעל $49",
+      "view": "לצפייה באמזון",
+      "off": "הנחה"
+    },
+    "en": {
+      "rank": "#{rank} best seller in {category}",
+      "free_shipping": "Free shipping to Israel on orders over $49",
+      "view": "View on Amazon",
+      "off": "off"
+    }
   }
 }

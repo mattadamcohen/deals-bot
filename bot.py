@@ -248,12 +248,33 @@ def product_link(asin):
     return f"{BASE}/dp/{asin}" + (f"?tag={AMAZON_TAG}" if AMAZON_TAG else "")
 
 
-def caption(item, category):
-    L = CONFIG["labels"]
-    title = item["title"] or "Amazon best seller"
-    if len(title) > 140:
-        title = title[:137].rsplit(" ", 1)[0] + "…"
-    lines = [f"🔥 #{item['rank']} {L['in']} {html.escape(category)}", "", f"<b>{html.escape(title)}</b>", ""]
+_he_cache = {}
+
+
+def to_hebrew(text):
+    """Machine-translate a short English string to Hebrew; falls back to the original."""
+    if not text:
+        return text
+    if text in _he_cache:
+        return _he_cache[text]
+    try:
+        r = requests.get("https://translate.googleapis.com/translate_a/single",
+                         params={"client": "gtx", "sl": "en", "tl": "iw", "dt": "t", "q": text}, timeout=15)
+        out = "".join(part[0] for part in r.json()[0] if part and part[0]).strip()
+    except Exception as e:
+        log(f"  (translation failed: {e})")
+        out = ""
+    _he_cache[text] = out or text
+    return _he_cache[text]
+
+
+def short(title, limit=140):
+    return title if len(title) <= limit else title[:limit - 3].rsplit(" ", 1)[0] + "…"
+
+
+def block(item, category, title, L):
+    lines = [f"🔥 {html.escape(L['rank'].format(rank=item['rank'], category=category))}", "",
+             f"<b>{html.escape(short(title))}</b>", ""]
     if item.get("price"):
         p = f"💲 <b>{html.escape(item['price'])}</b>"
         if item.get("was"):
@@ -264,8 +285,16 @@ def caption(item, category):
     if item.get("rating"):
         lines.append(f"⭐ {html.escape(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
     lines.append(f"🇮🇱 {L['free_shipping']}")
-    lines += ["", f'👉 <a href="{product_link(item["asin"])}">{L["view"]}</a>']
+    lines.append(f'👉 <a href="{product_link(item["asin"])}">{L["view"]}</a>')
     return "\n".join(lines)
+
+
+def caption(item, category):
+    L = CONFIG["labels"]
+    title = item["title"] or "Amazon best seller"
+    he = block(item, to_hebrew(category), to_hebrew(short(title)), L["he"])
+    en = block(item, category, title, L["en"])
+    return he + "\n\n〰️〰️〰️〰️〰️\n\n" + en
 
 
 def send_telegram(item, category):
