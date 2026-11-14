@@ -304,9 +304,18 @@ def block(item, category, title, L, extra=()):
     return "\n".join(lines)
 
 
+XMAS = re.compile(r"\s*[-,|]?\s*\b(?:(?:great |perfect |cool |unique )?(?:christmas|xmas|holiday) (?:gifts?|presents?)(?: (?:for|ideas?)[^,|]*)?|stocking stuffers?(?: for [^,|]*)?|christmas|xmas)\b", re.I)
+
+
+def drop_christmas(title):
+    """Israeli audience: remove Christmas / stocking-stuffer wording from Amazon titles."""
+    t = XMAS.sub("", title)
+    return re.sub(r"\s{2,}", " ", re.sub(r"[\s,|-]+$", "", t)).strip() or title
+
+
 def caption(item, category):
     L = CONFIG["labels"]
-    title = item["title"] or "Amazon best seller"
+    title = drop_christmas(item["title"] or "Amazon best seller")
     title_he = to_hebrew(short(title))
     item["title_he"] = title_he
     he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he"))
