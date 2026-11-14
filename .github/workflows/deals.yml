@@ -9,6 +9,18 @@ on:
         description: "Dry run (print posts, don't send)"
         type: boolean
         default: false
+      category:
+        description: "Only this category slug (e.g. toys-and-games). Empty = normal rotation"
+        type: string
+        default: ""
+      min_discount:
+        description: "Only post items with at least this % off"
+        type: string
+        default: "0"
+      max_posts:
+        description: "Max posts this run (empty = config default)"
+        type: string
+        default: ""
       test_telegram:
         description: "Just send a test message to the channel"
         type: boolean
@@ -38,6 +50,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           AMAZON_TAG: ${{ vars.AMAZON_TAG }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+          CATEGORY: ${{ inputs.category }}
+          MIN_DISCOUNT: ${{ inputs.min_discount }}
+          MAX_POSTS: ${{ inputs.max_posts }}
         run: |
           if [ "${{ inputs.test_telegram }}" = "true" ]; then
             python bot.py --test-telegram

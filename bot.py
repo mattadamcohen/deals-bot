@@ -319,6 +319,21 @@ def send_telegram(item, category):
 
 # ---------------------------------------------------------------- main
 
+def discount_pct(info):
+    m = re.search(r"\d+", info.get("discount") or "")
+    if m:
+        return int(m.group())
+    was, price = money(info.get("was")), money(info.get("price"))
+    return round((1 - price / was) * 100) if was > price > 0 else 0
+
+
+def arg(name, default=None):
+    """--name value from the command line, else NAME env var, else default."""
+    if f"--{name}" in sys.argv:
+        return sys.argv[sys.argv.index(f"--{name}") + 1]
+    return os.getenv(name.upper().replace("-", "_")) or default
+
+
 def main():
     if "--test-telegram" in sys.argv:
         ok = send_telegram({"asin": "B0BSHF7WHW", "rank": 1, "title": "Test post from your deals bot",
@@ -330,9 +345,16 @@ def main():
 
     state = load_state()
     cats = CONFIG["categories"]
-    start = state.get("next_category", 0) % len(cats)
-    todo = [cats[(start + i) % len(cats)] for i in range(min(CONFIG["categories_per_run"], len(cats)))]
-    state["next_category"] = (start + len(todo)) % len(cats)
+    only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
+    min_discount = int(arg("min-discount", 0) or 0)
+    max_posts = int(arg("max-posts", CONFIG["max_posts_per_run"]))
+    to_check = int(arg("check", 30 if only else CONFIG["items_to_check_per_category"]))
+    if only:
+        todo = [c for c in cats if c["slug"] == only] or [{"slug": only, "en": only.replace("-", " ").title(), "he": only}]
+    else:
+        start = state.get("next_category", 0) % len(cats)
+        todo = [cats[(start + i) % len(cats)] for i in range(min(CONFIG["categories_per_run"], len(cats)))]
+        state["next_category"] = (start + len(todo)) % len(cats)
 
     amz = Amazon()
     posted_now = 0
@@ -342,14 +364,14 @@ def main():
             log("! Location not confirmed as Israel; items will only be posted if their page says FREE … Israel")
 
         for slug in todo:  # each entry: {slug, en, he}
-            if posted_now >= CONFIG["max_posts_per_run"]:
+            if posted_now >= max_posts:
                 break
             category = slug
             items = amz.best_sellers(slug["slug"])
             log(f"\n[{category['en']}] {len(items)} items found")
             checked = 0
             for it in items:
-                if checked >= CONFIG["items_to_check_per_category"] or posted_now >= CONFIG["max_posts_per_run"]:
+                if checked >= to_check or posted_now >= max_posts:
                     break
                 asin = it["asin"]
                 if is_recent(state["posted"].get(asin, ""), CONFIG["repost_after_days"]):
@@ -363,7 +385,12 @@ def main():
                     if info["shipping"] in ("paid", "no"):
                         state["not_free"][asin] = now().isoformat()
                     continue
+                if discount_pct(info) < min_discount:
+                    log(f"     discount {discount_pct(info)}% is below {min_discount}%, skipping")
+                    continue
                 merged = {**it, **{k: v for k, v in info.items() if v}}
+                if not merged.get("discount") and discount_pct(info):
+                    merged["discount"] = f"{discount_pct(info)}%"
                 if send_telegram(merged, category):
                     if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
                         state["posted"][asin] = now().isoformat()
