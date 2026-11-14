@@ -11,13 +11,13 @@
       "slug": "amazon-devices",
       "en": "Amazon Devices",
       "he": "מכשירי אמזון",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "pc",
       "en": "Computers",
       "he": "מחשבים",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "wireless",
@@ -29,7 +29,7 @@
       "slug": "photo",
       "en": "Camera & Photo",
       "he": "מצלמות וצילום",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "videogames",
@@ -53,25 +53,25 @@
       "slug": "appliances",
       "en": "Appliances",
       "he": "מכשירי חשמל",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "hi",
       "en": "Tools & Home Improvement",
       "he": "כלי עבודה ושיפוצים",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "lawn-garden",
       "en": "Patio, Lawn & Garden",
       "he": "גינה ומרפסת",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "automotive",
       "en": "Automotive",
       "he": "רכב",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "beauty",
@@ -125,7 +125,7 @@
       "slug": "office-products",
       "en": "Office Products",
       "he": "ציוד משרדי",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "arts-crafts",
@@ -137,19 +137,19 @@
       "slug": "musical-instruments",
       "en": "Musical Instruments",
       "he": "כלי נגינה",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "industrial",
       "en": "Industrial & Scientific",
       "he": "תעשייה ומדע",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "books",
       "en": "Books",
       "he": "ספרים",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "slug": "fashion/1040660",
