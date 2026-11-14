@@ -361,5 +361,13 @@
   "reel_every": 4,
   "candidates_per_run": 6,
   "ig_user_id": "17841425400607402",
-  "ig_autopublish": true
+  "ig_autopublish": true,
+  "promo_periods": [
+    {
+      "name": "Black Friday / Cyber Week",
+      "from": "2026-11-20",
+      "to": "2026-12-01",
+      "discount_weight": 2
+    }
+  ]
 }

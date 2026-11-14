@@ -425,6 +425,10 @@ def main():
     candidates = []
     brands = [b.lower() for b in CONFIG.get("brands", [])]
 
+    today = datetime.now(timezone(timedelta(hours=2))).date().isoformat()
+    discount_weight = max([p.get("discount_weight", 1) for p in CONFIG.get("promo_periods", [])
+                           if p["from"] <= today <= p["to"]] or [1])
+
     def score(it, info):
         """Popularity first (best-seller rank, trending), then discount and known brands as bonuses."""
         title = (info.get("title") or it.get("title") or "").lower()
@@ -432,7 +436,7 @@ def main():
         r = it.get("rank") or 99
         popularity = 40 if r <= 3 else 30 if r <= 10 else 20 if r <= 20 else 10
         trending = 15 if it.get("source") == "movers-and-shakers" else 0
-        return popularity + trending + min(discount_pct(info), 50) + (15 if branded else 0)
+        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (15 if branded else 0)
 
     def post(it, info, category):
         nonlocal posted_now
