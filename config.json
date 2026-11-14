@@ -237,7 +237,7 @@
   },
   "checks_per_run": 25,
   "max_lists_per_run": 4,
-  "preferred_discount": 10,
+  "preferred_discount": 0,
   "brands": [
     "Hanes",
     "Levi's",
@@ -358,5 +358,6 @@
     ]
   },
   "owner_chat_id": "1125221452",
-  "reel_every": 4
+  "reel_every": 4,
+  "candidates_per_run": 6
 }

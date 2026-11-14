@@ -426,9 +426,13 @@ def main():
     brands = [b.lower() for b in CONFIG.get("brands", [])]
 
     def score(it, info):
+        """Popularity first (best-seller rank, trending), then discount and known brands as bonuses."""
         title = (info.get("title") or it.get("title") or "").lower()
         branded = any(title.startswith(b) or f" {b} " in f" {title[:40]} " for b in brands)
-        return discount_pct(info) + (15 if branded else 0) + (10 if it["rank"] <= 10 else 0)
+        r = it.get("rank") or 99
+        popularity = 40 if r <= 3 else 30 if r <= 10 else 20 if r <= 20 else 10
+        trending = 15 if it.get("source") == "movers-and-shakers" else 0
+        return popularity + trending + min(discount_pct(info), 50) + (15 if branded else 0)
 
     def post(it, info, category):
         nonlocal posted_now
@@ -492,16 +496,21 @@ def main():
                     continue
                 if discount_pct(info) < min_discount:
                     continue
-                if discount_pct(info) >= preferred:
-                    post(it, info, category)          # good enough: post right away
+                if targeted and discount_pct(info) >= preferred:
+                    post(it, info, category)          # targeted run: first match wins
                 else:
                     candidates.append((score(it, info), it, info, category))
+                    if len(candidates) >= CONFIG.get("candidates_per_run", 6):
+                        break
+            if len(candidates) >= CONFIG.get("candidates_per_run", 6):
+                break
 
-        # nothing hit the preferred discount: post the best free-shipping find (scheduled runs only)
+        # scheduled runs: post the highest-scoring free-shipping item (popularity, trending, discount, brand)
         if posted_now < max_posts and candidates and not targeted:
             candidates.sort(key=lambda c: -c[0])
+            for sc, it, info, category in candidates[:3]:
+                log(f"  candidate score={sc} #{it['rank']} {it.get('source')} off={discount_pct(info)}% {info['title'][:50]}")
             _, it, info, category = candidates[0]
-            log(f"\nNo {preferred}%+ deal found; posting best free-shipping find {it['asin']}")
             post(it, info, category)
     except Blocked as e:
         log(f"\n! Amazon blocked this run: {e}")
