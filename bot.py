@@ -147,8 +147,8 @@ def find_prices(soup, page):
 
 
 class Amazon:
-    def __init__(self):
-        self.s = cffi_requests.Session(impersonate="safari")
+    def __init__(self, impersonate="safari"):
+        self.s = cffi_requests.Session(impersonate=impersonate)
         self.s.headers.update({"Accept-Language": "en-US,en;q=0.9"})
         # show prices in USD even with an Israeli delivery address
         self.s.cookies.set("i18n-prefs", "USD", domain=".amazon.com")
@@ -516,7 +516,7 @@ def main():
         # half the time look at what's trending (Movers & Shakers) rather than plain best sellers
         lists = [(c, random.choice(["bestsellers", "bestsellers", "movers-and-shakers"]), 1) for c in order]
 
-    amz = Amazon()
+    amz = None
     posted_now = 0
     candidates = []
     brands = [b.lower() for b in CONFIG.get("brands", [])]
@@ -554,8 +554,15 @@ def main():
 
     try:
         log("Setting delivery location to Israel…")
-        if not amz.set_location_israel():
-            log("! Location not confirmed as Israel; items will only be posted if their page says FREE … Israel")
+        for attempt, profile in enumerate(["safari", "chrome", "safari"], 1):
+            amz = Amazon(profile)
+            if amz.set_location_israel():
+                break
+            log(f"  attempt {attempt}: location not set to Israel yet")
+            time.sleep(5)
+        else:
+            log("! Couldn't set delivery to Israel; skipping this run (the next run is ~15 minutes away)")
+            return
 
         for asin in filter(None, (arg("backfill", "") or "").split(",")):
             info = amz.product(asin.strip())
@@ -628,7 +635,7 @@ def main():
             state[key] = {a: t for a, t in state[key].items() if is_recent(t, days)}
         save_state(state)
 
-    log(f"\nDone. Posted {posted_now} item(s). {amz.requests_made} Amazon requests.")
+    log(f"\nDone. Posted {posted_now} item(s). {amz.requests_made if amz else 0} Amazon requests.")
 
 
 if __name__ == "__main__":
