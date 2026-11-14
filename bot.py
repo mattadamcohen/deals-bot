@@ -406,6 +406,12 @@ def remember_post(item, category):
     log_file.write_text(json.dumps(posts, indent=1, ensure_ascii=False))
 
 
+def is_big_deal(item):
+    off = int(re.sub(r"\D", "", item.get("discount") or "") or 0)
+    top = item.get("source") != "movers-and-shakers" and (item.get("rank") or 99) <= CONFIG.get("notify_max_rank", 3)
+    return off >= CONFIG.get("notify_min_discount", 30) or top
+
+
 def send_telegram(item, category):
     """Post to the channel. Returns the Telegram message id (or True on a dry run), None on failure."""
     text = caption(item, category)
@@ -415,12 +421,14 @@ def send_telegram(item, category):
     api = f"https://api.telegram.org/bot{TG_TOKEN}"
     if item.get("image"):
         r = requests.post(f"{api}/sendPhoto", data={
-            "chat_id": TG_CHAT, "photo": item["image"], "caption": text, "parse_mode": "HTML"}, timeout=30)
+            "chat_id": TG_CHAT, "photo": item["image"], "caption": text, "parse_mode": "HTML",
+            "disable_notification": "false" if is_big_deal(item) else "true"}, timeout=30)
         if r.ok:
             return r.json()["result"]["message_id"]
         log(f"  photo post failed ({r.text[:150]}), sending as text")
     r = requests.post(f"{api}/sendMessage", data={
-        "chat_id": TG_CHAT, "text": text, "parse_mode": "HTML"}, timeout=30)
+        "chat_id": TG_CHAT, "text": text, "parse_mode": "HTML",
+        "disable_notification": "false" if is_big_deal(item) else "true"}, timeout=30)
     if not r.ok:
         log(f"  ! telegram error: {r.text[:300]}")
         return None
@@ -444,6 +452,33 @@ def arg(name, default=None):
     return os.getenv(name.upper().replace("-", "_")) or default
 
 
+def israel_now():
+    from zoneinfo import ZoneInfo
+    return datetime.now(ZoneInfo("Asia/Jerusalem"))
+
+
+def post_due(state):
+    """Spread ~posts_per_day posts evenly across the posting window. The trigger fires every 15 minutes."""
+    if arg("category") or arg("force") or DRY_RUN:
+        return True
+    local = israel_now()
+    start, end = CONFIG.get("post_window", [7, 23])
+    if not (start <= local.hour < end):
+        log(f"Outside posting hours ({start}:00-{end}:00 Israel), nothing to do")
+        return False
+    per_day = CONFIG.get("posts_per_day", 20)
+    today = local.date().isoformat()
+    if state.get("day_counts", {}).get(today, 0) >= per_day:
+        log("Daily post limit reached")
+        return False
+    gap = (end - start) * 60 / per_day
+    last = state.get("last_post_at")
+    if last and (now() - datetime.fromisoformat(last)).total_seconds() / 60 < gap - 8:
+        log(f"Last post was less than {gap:.0f} minutes ago, waiting")
+        return False
+    return True
+
+
 def main():
     if "--test-telegram" in sys.argv:
         ok = send_telegram({"asin": "B0BSHF7WHW", "rank": 1, "title": "Test post from your deals bot",
@@ -454,6 +489,8 @@ def main():
         sys.exit("Missing TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID (or set DRY_RUN=1)")
 
     state = load_state()
+    if not post_due(state):
+        return
     cats = CONFIG["categories"]
     only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
     targeted = bool(only)
@@ -508,6 +545,9 @@ def main():
                 state["posted"][it["asin"]] = now().isoformat()
                 merged["message_id"] = msg_id
                 remember_post(merged, category)
+                state["last_post_at"] = now().isoformat()
+                today = israel_now().date().isoformat()
+                state["day_counts"] = {today: state.get("day_counts", {}).get(today, 0) + 1}
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
             posted_now += 1
             time.sleep(3)

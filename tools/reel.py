@@ -374,29 +374,52 @@ def datetime_now_iso():
     return datetime.now(timezone.utc).isoformat()
 
 
+def deal_score(p):
+    """Best deals first: discount, then best-seller rank, trending a bonus."""
+    off = int(re.sub(r"[^\d]", "", p.get("discount") or "") or 0)
+    r = p.get("rank") or 99
+    return off * 2 + (40 if r <= 3 else 30 if r <= 10 else 20 if r <= 20 else 10) + (15 if p.get("source") == "movers-and-shakers" else 0)
+
+
+def due_slot(st, slots_key, done_key):
+    """The Instagram slot (Israel hour) that is due now and not done today, or None. A slot can catch up for 2 hours."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    local = datetime.now(ZoneInfo("Asia/Jerusalem"))
+    for h in CONFIG.get(slots_key, []):
+        key = f"{local.date().isoformat()}-{h}"
+        if h <= local.hour < h + 2 and key not in st.get(done_key, []):
+            return key
+    return None
+
+
+def pick_best(log, since, k):
+    """Top-k deals posted since `since` (fallback: most recent ones), kept in posting order."""
+    fresh = [p for p in log if p["posted_at"] > since] if since else list(log)
+    pool = fresh if len(fresh) >= k else log[-max(k * 2, 8):]
+    best = sorted(pool, key=deal_score, reverse=True)[:k]
+    return sorted(best, key=lambda p: p["posted_at"])
+
+
 def main():
     log = json.loads((REPO / "data" / "posts.json").read_text())
     log = [p for p in log if (IMG / f"{p['asin']}.jpg").exists()]
     state_f = REPO / "data" / "reels.json"
-    st = json.loads(state_f.read_text()) if state_f.exists() else {"done_upto": 0}
-    every = CONFIG.get("reel_every", 4)
+    st = json.loads(state_f.read_text()) if state_f.exists() else {}
+    slot = None
     if "--latest" in sys.argv:
         batch = log[-3:]
     else:
-        new = log[st["done_upto"]:] if st["done_upto"] <= len(log) else log[-every:]
-        if len(new) < every:
-            print(f"{len(new)} new post(s) since the last reel; waiting for {every}")
+        slot = due_slot(st, "reel_slots", "reel_slots_done")
+        if not slot:
+            print("No reel slot due now")
             return
-        pct = lambda p: int(re.sub(r"[^\d]", "", p.get("discount") or "") or 0)
-        batch = sorted(sorted(new, key=pct, reverse=True)[:3], key=lambda p: p["posted_at"])
-        from datetime import datetime, timezone, timedelta
-        due = (datetime.now(timezone.utc) + timedelta(minutes=CONFIG.get("carousel_delay_minutes", 90))).isoformat()
-        st.setdefault("carousel_queue", []).append({"asins": [p["asin"] for p in new[-4:]], "due": due})
+        batch = pick_best(log, st.get("last_reel_at", ""), 3)
     if len(batch) < 3:
         print("Need 3 posts with photos")
         return
     import random
-    n = st.get("count", 0) if "--auto" in sys.argv else random.randrange(1000)
+    n = st.get("count", 0) if slot else random.randrange(1000)
     video = build(batch, n)
     print("rendered", video, video.stat().st_size // 1024, "KB")
     (REPO / "reel-out").mkdir(exist_ok=True)
@@ -410,14 +433,14 @@ def main():
                 st.setdefault("media", []).append({"id": media, "asins": [p["asin"] for p in batch],
                                                    "at": datetime_now_iso()})
                 st["media"] = st["media"][-30:]
-                state_f.write_text(json.dumps(st))
         except Exception as e:
             print("Instagram publish error:", e)
     send(final, batch, media, n)
-    if "--auto" in sys.argv:
-        st["done_upto"] = len(log)
+    if slot:
+        st["reel_slots_done"] = (st.get("reel_slots_done", []) + [slot])[-10:]
+        st["last_reel_at"] = datetime_now_iso()
         st["count"] = st.get("count", 0) + 1
-        state_f.write_text(json.dumps(st))
+    state_f.write_text(json.dumps(st))
 
 
 if __name__ == "__main__":

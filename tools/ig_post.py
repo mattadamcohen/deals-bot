@@ -259,11 +259,16 @@ def main():
     if "--asins" in sys.argv:  # post these deals now, as one post / carousel
         asins = [a for a in sys.argv[sys.argv.index("--asins") + 1].split(",") if has_img(a)]
         batches = [asins] if asins else []
-    else:  # carousels queued by reel.py, each due ~90 minutes after its reel
-        now = datetime.now(timezone.utc).isoformat()
-        q = st.get("carousel_queue", [])
-        batches = [b["asins"] for b in q if b["due"] <= now]
-        st["carousel_queue"] = [b for b in q if b["due"] > now]
+    else:  # daily carousel slot(s): the best 4 deals since the last carousel
+        slot = reel.due_slot(st, "carousel_slots", "carousel_slots_done")
+        if not slot:
+            print("No carousel slot due now")
+            return
+        pool = [p for p in posts if has_img(p["asin"])]
+        batches = [[p["asin"] for p in reel.pick_best(pool, st.get("last_carousel_at", ""), 4)]]
+        st["carousel_slots_done"] = (st.get("carousel_slots_done", []) + [slot])[-10:]
+        st["last_carousel_at"] = datetime.now(timezone.utc).isoformat()
+        st.pop("carousel_queue", None)
     for asins in batches[:1]:
         items = [by_asin[a] for a in asins if has_img(a)]
         if not items:
@@ -276,9 +281,6 @@ def main():
             if media:
                 st.setdefault("media", []).append({"id": media, "asins": asins, "at": datetime.now(timezone.utc).isoformat()})
         print(f"instagram {'posted ' + media if media else 'FAILED'}: {asins}")
-    if len(batches) > 1:  # anything else that was due goes back in the queue for the next run
-        st["carousel_queue"] = [{"asins": b, "due": datetime.now(timezone.utc).isoformat()} for b in batches[1:]] \
-            + st.get("carousel_queue", [])
     st_f.write_text(json.dumps(st))
 
 

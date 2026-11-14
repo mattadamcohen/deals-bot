@@ -1,7 +1,7 @@
 name: Amazon deals bot
 on:
-  # Timing comes from cron-job.org (job "Deals bot (10 posts/day)"), which calls workflow_dispatch
-  # at :05 past 8,9,11,12,14,16,18,19,20,21 Israel time. GitHub's own schedule was unreliable.
+  # Timing comes from cron-job.org (job "Deals bot"), which calls workflow_dispatch every 15 minutes.
+  # bot.py spreads ~20 posts/day evenly over 07:00-23:00 Israel time; reels/carousels have fixed daily slots.
   workflow_dispatch:
     inputs:
       dry_run:
@@ -16,6 +16,10 @@ on:
         description: "Only post items with at least this % off"
         type: string
         default: "0"
+      force:
+        description: "Post now even if it's not this slot's turn"
+        type: boolean
+        default: false
       max_posts:
         description: "Max posts this run (empty = config default)"
         type: string
@@ -57,6 +61,7 @@ jobs:
           CATEGORY: ${{ inputs.category }}
           MIN_DISCOUNT: ${{ inputs.min_discount }}
           MAX_POSTS: ${{ inputs.max_posts }}
+          FORCE: ${{ inputs.force && '1' || '' }}
           BACKFILL: ${{ inputs.backfill }}
         run: |
           if [ "${{ inputs.test_telegram }}" = "true" ]; then
@@ -65,14 +70,14 @@ jobs:
             python bot.py
           fi
 
-      - name: Instagram carousel (when one is due, ~90 min after each reel)
+      - name: Instagram carousel (daily slot)
         if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python tools/ig_post.py
 
-      - name: Make Instagram reel (every few posts)
+      - name: Instagram reel (twice-daily slots)
         if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
         continue-on-error: true
         env:
