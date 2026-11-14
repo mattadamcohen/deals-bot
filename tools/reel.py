@@ -337,7 +337,16 @@ def publish_instagram(video, posts, n=0):
         time.sleep(8)
     pub = requests.post(f"{api}/{ig}/media_publish", data={"creation_id": cid, "access_token": token}, timeout=60)
     print("IG publish:", pub.status_code, pub.text[:200])
-    return pub.json().get("id") if pub.ok else None
+    if not pub.ok:
+        return None
+    # the id returned for reels doesn't always work for comments; use the newest reel on the account instead
+    try:
+        lst = requests.get(f"{api}/{ig}/media", params={"fields": "id,media_product_type", "limit": 5,
+                                                        "access_token": token}, timeout=30).json().get("data", [])
+        newest = next((m["id"] for m in lst if m.get("media_product_type") == "REELS"), None)
+        return newest or pub.json().get("id")
+    except Exception:
+        return pub.json().get("id")
 
 
 def send(video, posts, ig_media=None, n=0):
