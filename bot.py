@@ -174,12 +174,9 @@ class Amazon:
                     seen.add(m.group(1))
                     items.append({"asin": m.group(1), "rank": len(items) + 1, "title": "", "image": ""})
 
-        title = clean(soup.title.get_text()) if soup.title else ""
-        m = re.search(r"popular items in (.+)$", title) or re.search(r"Best Sellers in (.+?)(?: - |$)", title)
-        cat_name = m.group(1) if m else slug.replace("-", " ").title()
         if not items:
             save_debug(f"bestsellers_{slug}.html", page)
-        return cat_name, sorted(items, key=lambda x: x["rank"])
+        return sorted(items, key=lambda x: x["rank"])
 
     def product(self, asin):
         page = self.get(f"{BASE}/dp/{asin}").text
@@ -268,22 +265,26 @@ def to_hebrew(text):
     return _he_cache[text]
 
 
+def esc(text):
+    return html.escape(text, quote=False)
+
+
 def short(title, limit=140):
     return title if len(title) <= limit else title[:limit - 3].rsplit(" ", 1)[0] + "…"
 
 
 def block(item, category, title, L):
-    lines = [f"🔥 {html.escape(L['rank'].format(rank=item['rank'], category=category))}", "",
-             f"<b>{html.escape(short(title))}</b>", ""]
+    lines = [f"🔥 {esc(L['rank'].format(rank=item['rank'], category=category))}", "",
+             f"<b>{esc(short(title))}</b>", ""]
     if item.get("price"):
-        p = f"💲 <b>{html.escape(item['price'])}</b>"
+        p = f"💲 <b>{esc(item['price'])}</b>"
         if item.get("was"):
-            p += f"  <s>{html.escape(item['was'])}</s>"
+            p += f"  <s>{esc(item['was'])}</s>"
         if item.get("discount"):
-            p += f"  ({html.escape(item['discount'])} {L['off']})"
+            p += f"  ({esc(item['discount'])} {L['off']})"
         lines.append(p)
     if item.get("rating"):
-        lines.append(f"⭐ {html.escape(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
+        lines.append(f"⭐ {esc(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
     lines.append(f"🇮🇱 {L['free_shipping']}")
     lines.append(f'👉 <a href="{product_link(item["asin"])}">{L["view"]}</a>')
     return "\n".join(lines)
@@ -292,8 +293,8 @@ def block(item, category, title, L):
 def caption(item, category):
     L = CONFIG["labels"]
     title = item["title"] or "Amazon best seller"
-    he = block(item, to_hebrew(category), to_hebrew(short(title)), L["he"])
-    en = block(item, category, title, L["en"])
+    he = block(item, category["he"], to_hebrew(short(title)), L["he"])
+    en = block(item, category["en"], title, L["en"])
     return he + "\n\n〰️〰️〰️〰️〰️\n\n" + en
 
 
@@ -320,8 +321,8 @@ def send_telegram(item, category):
 
 def main():
     if "--test-telegram" in sys.argv:
-        ok = send_telegram({"asin": "B0BSHF7WHW", "rank": 1, "title": "Test post from your deals bot ✅",
-                            "price": "$0.00", "image": ""}, "Setup")
+        ok = send_telegram({"asin": "B0BSHF7WHW", "rank": 1, "title": "Test post from your deals bot",
+                            "price": "$0.00", "image": ""}, {"slug": "test", "en": "Setup", "he": "בדיקה"})
         sys.exit(0 if ok else 1)
 
     if not DRY_RUN and not (TG_TOKEN and TG_CHAT):
@@ -340,11 +341,12 @@ def main():
         if not amz.set_location_israel():
             log("! Location not confirmed as Israel; items will only be posted if their page says FREE … Israel")
 
-        for slug in todo:
+        for slug in todo:  # each entry: {slug, en, he}
             if posted_now >= CONFIG["max_posts_per_run"]:
                 break
-            category, items = amz.best_sellers(slug)
-            log(f"\n[{category}] {len(items)} items found")
+            category = slug
+            items = amz.best_sellers(slug["slug"])
+            log(f"\n[{category['en']}] {len(items)} items found")
             checked = 0
             for it in items:
                 if checked >= CONFIG["items_to_check_per_category"] or posted_now >= CONFIG["max_posts_per_run"]:

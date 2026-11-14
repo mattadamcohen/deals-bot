@@ -1,31 +1,131 @@
 {
   "amazon_tag": "ilamazondeals-20",
   "categories": [
-    "electronics",
-    "amazon-devices",
-    "pc",
-    "wireless",
-    "photo",
-    "videogames",
-    "home-garden",
-    "kitchen",
-    "appliances",
-    "hi",
-    "lawn-garden",
-    "automotive",
-    "beauty",
-    "hpc",
-    "fashion",
-    "luggage",
-    "baby-products",
-    "toys-and-games",
-    "sporting-goods",
-    "pet-supplies",
-    "office-products",
-    "arts-crafts",
-    "musical-instruments",
-    "industrial",
-    "books"
+    {
+      "slug": "electronics",
+      "en": "Electronics",
+      "he": "אלקטרוניקה"
+    },
+    {
+      "slug": "amazon-devices",
+      "en": "Amazon Devices",
+      "he": "מכשירי אמזון"
+    },
+    {
+      "slug": "pc",
+      "en": "Computers",
+      "he": "מחשבים"
+    },
+    {
+      "slug": "wireless",
+      "en": "Cell Phones & Accessories",
+      "he": "סלולר ואביזרים"
+    },
+    {
+      "slug": "photo",
+      "en": "Camera & Photo",
+      "he": "מצלמות וצילום"
+    },
+    {
+      "slug": "videogames",
+      "en": "Video Games",
+      "he": "משחקי וידאו"
+    },
+    {
+      "slug": "home-garden",
+      "en": "Home & Kitchen",
+      "he": "בית ומטבח"
+    },
+    {
+      "slug": "kitchen",
+      "en": "Kitchen & Dining",
+      "he": "מטבח ואירוח"
+    },
+    {
+      "slug": "appliances",
+      "en": "Appliances",
+      "he": "מכשירי חשמל"
+    },
+    {
+      "slug": "hi",
+      "en": "Tools & Home Improvement",
+      "he": "כלי עבודה ושיפוצים"
+    },
+    {
+      "slug": "lawn-garden",
+      "en": "Patio, Lawn & Garden",
+      "he": "גינה ומרפסת"
+    },
+    {
+      "slug": "automotive",
+      "en": "Automotive",
+      "he": "רכב"
+    },
+    {
+      "slug": "beauty",
+      "en": "Beauty & Personal Care",
+      "he": "יופי וטיפוח"
+    },
+    {
+      "slug": "hpc",
+      "en": "Health & Household",
+      "he": "בריאות ומשק בית"
+    },
+    {
+      "slug": "fashion",
+      "en": "Clothing, Shoes & Jewelry",
+      "he": "אופנה, נעליים ותכשיטים"
+    },
+    {
+      "slug": "luggage",
+      "en": "Luggage",
+      "he": "מזוודות ותיקים"
+    },
+    {
+      "slug": "baby-products",
+      "en": "Baby",
+      "he": "תינוקות"
+    },
+    {
+      "slug": "toys-and-games",
+      "en": "Toys & Games",
+      "he": "צעצועים ומשחקים"
+    },
+    {
+      "slug": "sporting-goods",
+      "en": "Sports & Outdoors",
+      "he": "ספורט וטבע"
+    },
+    {
+      "slug": "pet-supplies",
+      "en": "Pet Supplies",
+      "he": "ציוד לחיות מחמד"
+    },
+    {
+      "slug": "office-products",
+      "en": "Office Products",
+      "he": "ציוד משרדי"
+    },
+    {
+      "slug": "arts-crafts",
+      "en": "Arts, Crafts & Sewing",
+      "he": "יצירה ואומנות"
+    },
+    {
+      "slug": "musical-instruments",
+      "en": "Musical Instruments",
+      "he": "כלי נגינה"
+    },
+    {
+      "slug": "industrial",
+      "en": "Industrial & Scientific",
+      "he": "תעשייה ומדע"
+    },
+    {
+      "slug": "books",
+      "en": "Books",
+      "he": "ספרים"
+    }
   ],
   "categories_per_run": 3,
   "items_to_check_per_category": 8,
@@ -38,7 +138,7 @@
   ],
   "labels": {
     "he": {
-      "rank": "מקום {rank} ברבי המכר ב{category}",
+      "rank": "מקום {rank} ברבי המכר בקטגוריית {category}",
       "free_shipping": "משלוח חינם לישראל בהזמנה מעל $49",
       "view": "לצפייה באמזון",
       "off": "הנחה"
