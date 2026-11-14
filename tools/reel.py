@@ -234,9 +234,14 @@ def build(posts):
     files = [render(n, f, d) for n, f, d in scenes]
     lst = OUT / "list.txt"
     lst.write_text("".join(f"file '{f}'\n" for f in files))
-    final = OUT / "ilamazondeals-reel.mp4"
+    silent = OUT / "silent.mp4"
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
-                    "-c", "copy", "-movflags", "+faststart", str(final)], check=True)
+                    "-c", "copy", str(silent)], check=True)
+    final = OUT / "ilamazondeals-reel.mp4"
+    music = REPO / "assets" / "music.wav"
+    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(music),
+                    "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
+                    "-af", "afade=t=out:st=10:d=0.8", "-shortest", "-movflags", "+faststart", str(final)], check=True)
     return final
 
 
@@ -250,7 +255,44 @@ def ig_caption(posts):
     return "\n".join(lines)
 
 
-def send(video, posts):
+def publish_instagram(video, posts):
+    """Publish the reel to Instagram (Graph API, resumable upload). Returns the media id or None."""
+    token = os.getenv("IG_ACCESS_TOKEN", "").strip()
+    ig = str(CONFIG.get("ig_user_id") or "")
+    if not (token and ig and CONFIG.get("ig_autopublish", True)):
+        print("Instagram: not configured, skipping")
+        return None
+    import time
+    api = "https://graph.facebook.com/v23.0"
+    cap = ig_caption(posts) + "\n\nקישורי שותפים: אם תקנו דרכם, ייתכן שנקבל עמלה קטנה, בלי עלות נוספת עבורכם."
+    r = requests.post(f"{api}/{ig}/media", data={"media_type": "REELS", "upload_type": "resumable",
+                                                  "caption": cap, "share_to_feed": "true", "access_token": token}, timeout=60)
+    print("IG container:", r.status_code, r.text[:200])
+    if not r.ok:
+        return None
+    cid = r.json()["id"]
+    size = os.path.getsize(video)
+    with open(video, "rb") as fh:
+        up = requests.post(f"https://rupload.facebook.com/ig-api-upload/v23.0/{cid}",
+                           headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(size)},
+                           data=fh, timeout=300)
+    print("IG upload:", up.status_code, up.text[:200])
+    if not up.ok:
+        return None
+    for _ in range(40):  # wait for Instagram to process the video (up to ~5 minutes)
+        st = requests.get(f"{api}/{cid}", params={"fields": "status_code,status", "access_token": token}, timeout=30).json()
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") in ("ERROR", "EXPIRED"):
+            print("IG processing failed:", st)
+            return None
+        time.sleep(8)
+    pub = requests.post(f"{api}/{ig}/media_publish", data={"creation_id": cid, "access_token": token}, timeout=60)
+    print("IG publish:", pub.status_code, pub.text[:200])
+    return pub.json().get("id") if pub.ok else None
+
+
+def send(video, posts, ig_media=None):
     owner = str(CONFIG.get("owner_chat_id") or "")
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     if not (owner and token):
@@ -259,7 +301,8 @@ def send(video, posts):
     cap = ig_caption(posts)
     with open(video, "rb") as fh:
         r = requests.post(f"https://api.telegram.org/bot{token}/sendVideo",
-                          data={"chat_id": owner, "caption": "🎬 Reel ready for Instagram (add a trending sound in IG)",
+                          data={"chat_id": owner, "caption": ("✅ Posted to Instagram automatically" if ig_media else
+                                                               "🎬 Reel ready for Instagram"),
                                 "supports_streaming": "true", "width": W, "height": H},
                           files={"video": ("ilamazondeals-reel.mp4", fh, "video/mp4")}, timeout=120)
     print("video:", r.status_code, r.text[:200])
@@ -291,7 +334,14 @@ def main():
     print("rendered", video, video.stat().st_size // 1024, "KB")
     (REPO / "reel-out").mkdir(exist_ok=True)
     os.replace(video, REPO / "reel-out" / "ilamazondeals-reel.mp4")
-    send(REPO / "reel-out" / "ilamazondeals-reel.mp4", batch)
+    final = REPO / "reel-out" / "ilamazondeals-reel.mp4"
+    media = None
+    if "--no-instagram" not in sys.argv:
+        try:
+            media = publish_instagram(final, batch)
+        except Exception as e:
+            print("Instagram publish error:", e)
+    send(final, batch, media)
     if "--auto" in sys.argv:
         st["done_upto"] = len(log)
         state_f.write_text(json.dumps(st))

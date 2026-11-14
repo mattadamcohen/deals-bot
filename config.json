@@ -360,5 +360,6 @@
   "owner_chat_id": "1125221452",
   "reel_every": 4,
   "candidates_per_run": 6,
-  "ig_user_id": "17841425400607402"
+  "ig_user_id": "17841425400607402",
+  "ig_autopublish": true
 }
