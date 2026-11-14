@@ -15,7 +15,20 @@ def get(url, **params):
         return 0, {"error": str(e)}
 
 
+def ig_id():
+    from pathlib import Path
+    return json.loads((Path(__file__).resolve().parent.parent / "config.json").read_text()).get("ig_user_id", "")
+
+
 def whoami():
+    iid = ig_id()
+    for host in ("graph.facebook.com", "graph.instagram.com"):
+        c, b = get(f"https://{host}/{V}/{iid}", fields="id,username,followers_count,media_count")
+        print(f"{host} account:", c, json.dumps(b, ensure_ascii=False)[:300])
+        c, b = get(f"https://{host}/{V}/{iid}/content_publishing_limit", fields="config,quota_usage")
+        print(f"{host} publishing limit:", c, json.dumps(b, ensure_ascii=False)[:300])
+    return
+
     if not TOKEN:
         sys.exit("IG_ACCESS_TOKEN secret is empty")
     print("token type:", TOKEN[:4] + "…", "length", len(TOKEN))
