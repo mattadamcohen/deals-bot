@@ -1,10 +1,7 @@
 name: Amazon deals bot
-# Schedule activated from Matt's account
 on:
-  schedule:
-    # 10 runs a day, 1 post each (times are UTC; Israel = UTC+2 in winter, so 08:05 … 21:35 Israel time)
-    - cron: "5 6,9,12,14,16 * * *"
-    - cron: "35 7,10,17,18,19 * * *"
+  # Timing comes from cron-job.org (job "Deals bot (10 posts/day)"), which calls workflow_dispatch
+  # at :05 past 8,9,11,12,14,16,18,19,20,21 Israel time. GitHub's own schedule was unreliable.
   workflow_dispatch:
     inputs:
       dry_run:
