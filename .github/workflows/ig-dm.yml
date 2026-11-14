@@ -1,5 +1,6 @@
 name: Instagram comment replies
 # Triggered every 15 minutes by cron-job.org (job "IG comment replies").
+# It also kicks off the deals bot each time; bot.py decides whether a post is due (~20/day, 07:00-23:00).
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +10,7 @@ on:
         default: false
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: ig-dm
 jobs:
@@ -16,6 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - name: Kick off the deals bot (it decides itself whether a post is due)
+        if: ${{ !inputs.check_only }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deals.yml --ref main -R ${{ github.repository }} || true
       - uses: actions/checkout@v4
       - run: pip install requests
       - name: Reply to comments
