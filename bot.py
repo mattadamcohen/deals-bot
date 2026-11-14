@@ -141,8 +141,8 @@ class Amazon:
         log(f"  delivering to: {where}")
         return "israel" in where.lower()
 
-    def best_sellers(self, slug):
-        url = f"{BASE}/gp/bestsellers/{slug}/"
+    def best_sellers(self, slug, page=1, kind="bestsellers"):
+        url = f"{BASE}/gp/{kind}/{slug}/" + (f"?pg={page}" if page > 1 else "")
         page = self.get(url).text
         soup = BeautifulSoup(page, "html.parser")
         items, seen = [], set()
@@ -176,7 +176,7 @@ class Amazon:
 
         if not items:
             save_debug(f"bestsellers_{slug}.html", page)
-        return sorted(items, key=lambda x: x["rank"])
+        return sorted(items, key=lambda x: x["rank"])  # rank as shown on that list
 
     def product(self, asin):
         page = self.get(f"{BASE}/dp/{asin}").text
@@ -274,7 +274,8 @@ def short(title, limit=140):
 
 
 def block(item, category, title, L):
-    lines = [f"🔥 {esc(L['rank'].format(rank=item['rank'], category=category))}", "",
+    head = L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"]
+    lines = [f"🔥 {esc(head.format(rank=item['rank'], category=category))}", "",
              f"<b>{esc(short(title))}</b>", ""]
     if item.get("price"):
         p = f"💲 <b>{esc(item['price'])}</b>"
@@ -348,7 +349,7 @@ def main():
     only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
     min_discount = int(arg("min-discount", 0) or 0)
     max_posts = int(arg("max-posts", CONFIG["max_posts_per_run"]))
-    to_check = int(arg("check", 30 if only else CONFIG["items_to_check_per_category"]))
+    to_check = int(arg("check", 60 if only else CONFIG["items_to_check_per_category"]))
     if only:
         todo = [c for c in cats if c["slug"] == only] or [{"slug": only, "en": only.replace("-", " ").title(), "he": only}]
     else:
@@ -368,6 +369,22 @@ def main():
                 break
             category = slug
             items = amz.best_sellers(slug["slug"])
+            if only:  # targeted run: dig deeper (best sellers 31-50 and Movers & Shakers)
+                for kind, pg in (("bestsellers", 2), ("movers-and-shakers", 1), ("movers-and-shakers", 2)):
+                    try:
+                        extra = amz.best_sellers(slug["slug"], pg, kind)
+                    except Blocked:
+                        raise
+                    except Exception as e:
+                        log(f"  ({kind} p{pg} failed: {e})")
+                        continue
+                    seen = {i["asin"] for i in items}
+                    for e in extra:
+                        if e["asin"] not in seen:
+                            if kind == "movers-and-shakers":
+                                e["rank"] = e.get("rank") or len(items) + 1
+                            e["source"] = kind
+                            items.append(e)
             log(f"\n[{category['en']}] {len(items)} items found")
             checked = 0
             for it in items:

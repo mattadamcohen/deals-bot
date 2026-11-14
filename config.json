@@ -141,13 +141,15 @@
       "rank": "מקום {rank} ברבי המכר בקטגוריית {category}",
       "free_shipping": "משלוח חינם לישראל בהזמנה מעל $49",
       "view": "לצפייה באמזון",
-      "off": "הנחה"
+      "off": "הנחה",
+      "trending": "מוצר חם בקטגוריית {category}"
     },
     "en": {
       "rank": "#{rank} best seller in {category}",
       "free_shipping": "Free shipping to Israel on orders over $49",
       "view": "View on Amazon",
-      "off": "off"
+      "off": "off",
+      "trending": "Trending in {category}"
     }
   }
 }
