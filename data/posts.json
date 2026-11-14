@@ -13,7 +13,8 @@
   "category_en": "Toys & Games",
   "category_he": "צעצועים ומשחקים",
   "posted_at": "2026-11-14T07:25:51.099075+00:00",
-  "category_slug": "toys-and-games"
+  "category_slug": "toys-and-games",
+  "message_id": 5
  },
  {
   "asin": "B0C26ZL5JV",
@@ -29,7 +30,8 @@
   "category_en": "Boys' Clothing",
   "category_he": "ביגוד לבנים",
   "posted_at": "2026-11-14T07:26:49.650902+00:00",
-  "category_slug": "fashion/1040666"
+  "category_slug": "fashion/1040666",
+  "message_id": 7
  },
  {
   "asin": "B086BLQZ5L",
@@ -45,6 +47,7 @@
   "category_en": "Office Products",
   "category_he": "ציוד משרדי",
   "posted_at": "2026-11-14T07:29:50.467825+00:00",
-  "category_slug": "office-products"
+  "category_slug": "office-products",
+  "message_id": 8
  }
 ]
