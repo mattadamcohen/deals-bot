@@ -19,7 +19,16 @@ def whoami():
     if not TOKEN:
         sys.exit("IG_ACCESS_TOKEN secret is empty")
     print("token type:", TOKEN[:4] + "…", "length", len(TOKEN))
+    code, body = get(f"https://graph.facebook.com/{V}/debug_token", input_token=TOKEN)
+    d = body.get("data", {})
+    print("debug_token:", code, json.dumps({k: d.get(k) for k in ("type", "app_id", "is_valid", "expires_at", "scopes", "granular_scopes")})[:900])
+    ids = {t for g in d.get("granular_scopes", []) for t in g.get("target_ids", [])}
+    for i in ids:
+        c, b = get(f"https://graph.facebook.com/{V}/{i}", fields="id,username,name")
+        print("target", i, c, json.dumps(b, ensure_ascii=False)[:300])
     checks = [
+        ("facebook /me/businesses", f"https://graph.facebook.com/{V}/me/businesses",
+         {"fields": "name,owned_instagram_accounts{id,username},instagram_business_accounts{id,username}"}),
         ("instagram login /me", f"https://graph.instagram.com/{V}/me", {"fields": "user_id,username,account_type"}),
         ("facebook /me", f"https://graph.facebook.com/{V}/me", {"fields": "id,name"}),
         ("facebook /me/accounts", f"https://graph.facebook.com/{V}/me/accounts",
