@@ -53,5 +53,13 @@ def whoami():
         print(f"\n== {name}: HTTP {code}\n{json.dumps(body, ensure_ascii=False)[:600]}")
 
 
+def media():
+    c, b = get(f"https://graph.facebook.com/{V}/{ig_id()}/media", fields="id,media_type,media_product_type,timestamp,caption", limit=10)
+    for m in b.get("data", []):
+        print(m.get("id"), m.get("media_product_type"), m.get("timestamp"), (m.get("caption") or "")[:40].replace("\n", " "))
+    if c != 200:
+        print(c, b)
+
+
 if __name__ == "__main__":
-    {"whoami": whoami}[sys.argv[1]]()
+    {"whoami": whoami, "media": media}[sys.argv[1]]()
