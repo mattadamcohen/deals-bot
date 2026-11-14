@@ -8,4 +8,4 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install curl_cffi
-      - run: python tools/probe.py
+      - run: python tools/probe.py fashion/1040660 fashion/1040658 fashion/679337011 fashion/679255011 fashion/1040664 fashion/1040666 fashion/2368343011 home-garden/1063278 home-garden/1063252 home-garden/3734391 toys-and-games/166359011 toys-and-games/166220011 toys-and-games/166092011 baby-products/239225011
