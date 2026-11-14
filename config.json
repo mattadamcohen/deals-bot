@@ -4,132 +4,215 @@
     {
       "slug": "electronics",
       "en": "Electronics",
-      "he": "אלקטרוניקה"
+      "he": "אלקטרוניקה",
+      "weight": 3
     },
     {
       "slug": "amazon-devices",
       "en": "Amazon Devices",
-      "he": "מכשירי אמזון"
+      "he": "מכשירי אמזון",
+      "weight": 1
     },
     {
       "slug": "pc",
       "en": "Computers",
-      "he": "מחשבים"
+      "he": "מחשבים",
+      "weight": 1
     },
     {
       "slug": "wireless",
       "en": "Cell Phones & Accessories",
-      "he": "סלולר ואביזרים"
+      "he": "סלולר ואביזרים",
+      "weight": 2
     },
     {
       "slug": "photo",
       "en": "Camera & Photo",
-      "he": "מצלמות וצילום"
+      "he": "מצלמות וצילום",
+      "weight": 1
     },
     {
       "slug": "videogames",
       "en": "Video Games",
-      "he": "משחקי וידאו"
+      "he": "משחקי וידאו",
+      "weight": 1
     },
     {
       "slug": "home-garden",
       "en": "Home & Kitchen",
-      "he": "בית ומטבח"
+      "he": "בית ומטבח",
+      "weight": 3
     },
     {
       "slug": "kitchen",
       "en": "Kitchen & Dining",
-      "he": "מטבח ואירוח"
+      "he": "מטבח ואירוח",
+      "weight": 2
     },
     {
       "slug": "appliances",
       "en": "Appliances",
-      "he": "מכשירי חשמל"
+      "he": "מכשירי חשמל",
+      "weight": 1
     },
     {
       "slug": "hi",
       "en": "Tools & Home Improvement",
-      "he": "כלי עבודה ושיפוצים"
+      "he": "כלי עבודה ושיפוצים",
+      "weight": 1
     },
     {
       "slug": "lawn-garden",
       "en": "Patio, Lawn & Garden",
-      "he": "גינה ומרפסת"
+      "he": "גינה ומרפסת",
+      "weight": 1
     },
     {
       "slug": "automotive",
       "en": "Automotive",
-      "he": "רכב"
+      "he": "רכב",
+      "weight": 1
     },
     {
       "slug": "beauty",
       "en": "Beauty & Personal Care",
-      "he": "יופי וטיפוח"
+      "he": "יופי וטיפוח",
+      "weight": 3
     },
     {
       "slug": "hpc",
       "en": "Health & Household",
-      "he": "בריאות ומשק בית"
+      "he": "בריאות ומשק בית",
+      "weight": 2
     },
     {
       "slug": "fashion",
       "en": "Clothing, Shoes & Jewelry",
-      "he": "אופנה, נעליים ותכשיטים"
+      "he": "אופנה, נעליים ותכשיטים",
+      "weight": 3
     },
     {
       "slug": "luggage",
       "en": "Luggage",
-      "he": "מזוודות ותיקים"
+      "he": "מזוודות ותיקים",
+      "weight": 1
     },
     {
       "slug": "baby-products",
       "en": "Baby",
-      "he": "תינוקות"
+      "he": "תינוקות",
+      "weight": 2
     },
     {
       "slug": "toys-and-games",
       "en": "Toys & Games",
-      "he": "צעצועים ומשחקים"
+      "he": "צעצועים ומשחקים",
+      "weight": 3
     },
     {
       "slug": "sporting-goods",
       "en": "Sports & Outdoors",
-      "he": "ספורט וטבע"
+      "he": "ספורט וטבע",
+      "weight": 2
     },
     {
       "slug": "pet-supplies",
       "en": "Pet Supplies",
-      "he": "ציוד לחיות מחמד"
+      "he": "ציוד לחיות מחמד",
+      "weight": 1
     },
     {
       "slug": "office-products",
       "en": "Office Products",
-      "he": "ציוד משרדי"
+      "he": "ציוד משרדי",
+      "weight": 1
     },
     {
       "slug": "arts-crafts",
       "en": "Arts, Crafts & Sewing",
-      "he": "יצירה ואומנות"
+      "he": "יצירה ואומנות",
+      "weight": 1
     },
     {
       "slug": "musical-instruments",
       "en": "Musical Instruments",
-      "he": "כלי נגינה"
+      "he": "כלי נגינה",
+      "weight": 1
     },
     {
       "slug": "industrial",
       "en": "Industrial & Scientific",
-      "he": "תעשייה ומדע"
+      "he": "תעשייה ומדע",
+      "weight": 1
     },
     {
       "slug": "books",
       "en": "Books",
-      "he": "ספרים"
+      "he": "ספרים",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/1040660",
+      "en": "Women's Clothing",
+      "he": "ביגוד נשים",
+      "weight": 2
+    },
+    {
+      "slug": "fashion/1040658",
+      "en": "Men's Clothing",
+      "he": "ביגוד גברים",
+      "weight": 2
+    },
+    {
+      "slug": "fashion/679337011",
+      "en": "Women's Shoes",
+      "he": "נעלי נשים",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/679255011",
+      "en": "Men's Shoes",
+      "he": "נעלי גברים",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/1040664",
+      "en": "Girls' Clothing",
+      "he": "ביגוד לבנות",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/1040666",
+      "en": "Boys' Clothing",
+      "he": "ביגוד לבנים",
+      "weight": 1
+    },
+    {
+      "slug": "home-garden/1063278",
+      "en": "Home Décor",
+      "he": "עיצוב הבית",
+      "weight": 2
+    },
+    {
+      "slug": "home-garden/1063252",
+      "en": "Bedding",
+      "he": "מצעים",
+      "weight": 1
+    },
+    {
+      "slug": "toys-and-games/166092011",
+      "en": "Building Toys",
+      "he": "צעצועי הרכבה",
+      "weight": 1
+    },
+    {
+      "slug": "toys-and-games/166220011",
+      "en": "Games",
+      "he": "משחקים",
+      "weight": 1
     }
   ],
-  "categories_per_run": 3,
-  "items_to_check_per_category": 8,
-  "max_posts_per_run": 4,
+  "max_posts_per_run": 1,
   "repost_after_days": 14,
   "recheck_not_free_after_days": 3,
   "delay_seconds": [
@@ -151,5 +234,84 @@
       "off": "off",
       "trending": "Trending in {category}"
     }
-  }
+  },
+  "checks_per_run": 25,
+  "max_lists_per_run": 4,
+  "preferred_discount": 10,
+  "brands": [
+    "Hanes",
+    "Levi's",
+    "Crocs",
+    "adidas",
+    "Nike",
+    "Under Armour",
+    "Columbia",
+    "Carhartt",
+    "Champion",
+    "Calvin Klein",
+    "Tommy Hilfiger",
+    "Ralph Lauren",
+    "Gildan",
+    "Fruit of the Loom",
+    "Skechers",
+    "New Balance",
+    "ASICS",
+    "PUMA",
+    "Reebok",
+    "Lacoste",
+    "GUESS",
+    "Michael Kors",
+    "Kate Spade",
+    "Converse",
+    "Vans",
+    "UGG",
+    "Dr. Martens",
+    "Timberland",
+    "Clarks",
+    "The North Face",
+    "Wrangler",
+    "Amazon Essentials",
+    "Speedo",
+    "Jockey",
+    "Carter's",
+    "Disney",
+    "LEGO",
+    "Hasbro",
+    "Mattel",
+    "Barbie",
+    "Hot Wheels",
+    "Melissa & Doug",
+    "Crayola",
+    "Fisher-Price",
+    "Pokemon",
+    "Squishmallows",
+    "Funko",
+    "Play-Doh",
+    "NERF",
+    "Apple",
+    "Samsung",
+    "Anker",
+    "JBL",
+    "Sony",
+    "Bose",
+    "Logitech",
+    "Stanley",
+    "Owala",
+    "YETI",
+    "Ninja",
+    "Shark",
+    "Dyson",
+    "L'Oreal",
+    "CeraVe",
+    "Neutrogena",
+    "Olay",
+    "Maybelline",
+    "e.l.f.",
+    "Revlon",
+    "Philips",
+    "Oral-B",
+    "Fossil",
+    "Casio",
+    "Ray-Ban"
+  ]
 }

@@ -347,48 +347,72 @@ def main():
     state = load_state()
     cats = CONFIG["categories"]
     only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
+    targeted = bool(only)
     min_discount = int(arg("min-discount", 0) or 0)
     max_posts = int(arg("max-posts", CONFIG["max_posts_per_run"]))
-    to_check = int(arg("check", 60 if only else CONFIG["items_to_check_per_category"]))
-    if only:
-        todo = [c for c in cats if c["slug"] == only] or [{"slug": only, "en": only.replace("-", " ").title(), "he": only}]
+    budget = int(arg("check", 60 if targeted else CONFIG["checks_per_run"]))
+    preferred = min_discount or CONFIG["preferred_discount"]
+
+    if targeted:
+        lists = [(c, "bestsellers", 1) for c in cats if c["slug"] == only] or \
+                [({"slug": only, "en": only.replace("-", " ").title(), "he": only}, "bestsellers", 1)]
+        c0 = lists[0][0]
+        lists += [(c0, "bestsellers", 2), (c0, "movers-and-shakers", 1), (c0, "movers-and-shakers", 2)]
     else:
-        start = state.get("next_category", 0) % len(cats)
-        todo = [cats[(start + i) % len(cats)] for i in range(min(CONFIG["categories_per_run"], len(cats)))]
-        state["next_category"] = (start + len(todo)) % len(cats)
+        # weighted random pick of lists; avoid the categories used in the last few runs
+        recent = state.get("recent_categories", [])
+        pool = [c for c in cats if c["slug"] not in recent] or cats
+        order = []
+        while pool and len(order) < CONFIG["max_lists_per_run"]:
+            pick = random.choices(pool, weights=[c.get("weight", 1) for c in pool])[0]
+            pool.remove(pick)
+            order.append(pick)
+        # half the time look at what's trending (Movers & Shakers) rather than plain best sellers
+        lists = [(c, random.choice(["bestsellers", "bestsellers", "movers-and-shakers"]), 1) for c in order]
 
     amz = Amazon()
     posted_now = 0
+    candidates = []
+    brands = [b.lower() for b in CONFIG.get("brands", [])]
+
+    def score(it, info):
+        title = (info.get("title") or it.get("title") or "").lower()
+        branded = any(title.startswith(b) or f" {b} " in f" {title[:40]} " for b in brands)
+        return discount_pct(info) + (15 if branded else 0) + (10 if it["rank"] <= 10 else 0)
+
+    def post(it, info, category):
+        nonlocal posted_now
+        merged = {**it, **{k: v for k, v in info.items() if v}}
+        if not merged.get("discount") and discount_pct(info):
+            merged["discount"] = f"{discount_pct(info)}%"
+        if send_telegram(merged, category):
+            if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
+                state["posted"][it["asin"]] = now().isoformat()
+                state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
+            posted_now += 1
+            time.sleep(3)
+
     try:
         log("Setting delivery location to Israel…")
         if not amz.set_location_israel():
             log("! Location not confirmed as Israel; items will only be posted if their page says FREE … Israel")
 
-        for slug in todo:  # each entry: {slug, en, he}
-            if posted_now >= max_posts:
+        checked = 0
+        for category, kind, page in lists:
+            if posted_now >= max_posts or checked >= budget:
                 break
-            category = slug
-            items = amz.best_sellers(slug["slug"])
-            if only:  # targeted run: dig deeper (best sellers 31-50 and Movers & Shakers)
-                for kind, pg in (("bestsellers", 2), ("movers-and-shakers", 1), ("movers-and-shakers", 2)):
-                    try:
-                        extra = amz.best_sellers(slug["slug"], pg, kind)
-                    except Blocked:
-                        raise
-                    except Exception as e:
-                        log(f"  ({kind} p{pg} failed: {e})")
-                        continue
-                    seen = {i["asin"] for i in items}
-                    for e in extra:
-                        if e["asin"] not in seen:
-                            if kind == "movers-and-shakers":
-                                e["rank"] = e.get("rank") or len(items) + 1
-                            e["source"] = kind
-                            items.append(e)
-            log(f"\n[{category['en']}] {len(items)} items found")
-            checked = 0
+            try:
+                items = amz.best_sellers(category["slug"], page, kind)
+            except Blocked:
+                raise
+            except Exception as e:
+                log(f"  ({category['slug']} {kind} p{page} failed: {e})")
+                continue
+            for i in items:
+                i["source"] = kind
+            log(f"\n[{category['en']} · {kind} p{page}] {len(items)} items")
             for it in items:
-                if checked >= to_check or posted_now >= max_posts:
+                if checked >= budget or posted_now >= max_posts:
                     break
                 asin = it["asin"]
                 if is_recent(state["posted"].get(asin, ""), CONFIG["repost_after_days"]):
@@ -397,22 +421,24 @@ def main():
                     continue
                 checked += 1
                 info = amz.product(asin)
-                log(f"  #{it['rank']} {asin} shipping={info['shipping']}  {info['title'][:60]}")
+                log(f"  #{it['rank']} {asin} shipping={info['shipping']} off={discount_pct(info)}%  {info['title'][:55]}")
                 if info["shipping"] != "free":
                     if info["shipping"] in ("paid", "no"):
                         state["not_free"][asin] = now().isoformat()
                     continue
                 if discount_pct(info) < min_discount:
-                    log(f"     discount {discount_pct(info)}% is below {min_discount}%, skipping")
                     continue
-                merged = {**it, **{k: v for k, v in info.items() if v}}
-                if not merged.get("discount") and discount_pct(info):
-                    merged["discount"] = f"{discount_pct(info)}%"
-                if send_telegram(merged, category):
-                    if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
-                        state["posted"][asin] = now().isoformat()
-                    posted_now += 1
-                    time.sleep(3)
+                if discount_pct(info) >= preferred:
+                    post(it, info, category)          # good enough: post right away
+                else:
+                    candidates.append((score(it, info), it, info, category))
+
+        # nothing hit the preferred discount: post the best free-shipping find (scheduled runs only)
+        if posted_now < max_posts and candidates and not targeted:
+            candidates.sort(key=lambda c: -c[0])
+            _, it, info, category = candidates[0]
+            log(f"\nNo {preferred}%+ deal found; posting best free-shipping find {it['asin']}")
+            post(it, info, category)
     except Blocked as e:
         log(f"\n! Amazon blocked this run: {e}")
         save_state(state)

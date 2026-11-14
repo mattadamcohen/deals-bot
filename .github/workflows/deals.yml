@@ -2,7 +2,9 @@ name: Amazon deals bot
 
 on:
   schedule:
-    - cron: "7 5-19 * * *"   # every hour, roughly 07:00-22:00 Israel time
+    # 10 runs a day, 1 post each (times are UTC; Israel = UTC+2 in winter, so 08:05 … 21:35 Israel time)
+    - cron: "5 6,9,12,14,16 * * *"
+    - cron: "35 7,10,17,18,19 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
