@@ -49,7 +49,7 @@ def dm_text(items):
         a, t = items[0]
         body = f"הנה הקישור ל{t}:\n{link(a)}"
     else:
-        body = "הנה הקישורים למוצרים מהסרטון:\n\n" + "\n\n".join(f"{i}. {t}\n{link(a)}" for i, (a, t) in enumerate(items, 1))
+        body = "הנה הקישורים למוצרים:\n\n" + "\n\n".join(f"{i}. {t}\n{link(a)}" for i, (a, t) in enumerate(items, 1))
     return ("היי! 👋 " + body + "\n\n📦 משלוח חינם לישראל בהזמנה מעל $49 (אפשר לשלב כמה מוצרים)"
             "\n🔥 עוד דילים כל יום בערוץ הטלגרם שלנו: t.me/ilamazondeals")
 

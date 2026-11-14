@@ -389,6 +389,9 @@ def main():
             return
         pct = lambda p: int(re.sub(r"[^\d]", "", p.get("discount") or "") or 0)
         batch = sorted(sorted(new, key=pct, reverse=True)[:3], key=lambda p: p["posted_at"])
+        from datetime import datetime, timezone, timedelta
+        due = (datetime.now(timezone.utc) + timedelta(minutes=CONFIG.get("carousel_delay_minutes", 90))).isoformat()
+        st.setdefault("carousel_queue", []).append({"asins": [p["asin"] for p in new[-4:]], "due": due})
     if len(batch) < 3:
         print("Need 3 posts with photos")
         return
