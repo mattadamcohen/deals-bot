@@ -238,5 +238,24 @@
   "category_en": "Beauty & Personal Care",
   "category_he": "יופי וטיפוח",
   "posted_at": "2026-11-15T05:02:06.023722+00:00"
+ },
+ {
+  "asin": "B07GQ8J4QX",
+  "title": "12X25 Small Pocket Binoculars Compact for Adults",
+  "title_he": "12X25 Small Pocket Binoculars Compact for Adults",
+  "price": "$15.99",
+  "was": "$19.99",
+  "discount": "20%",
+  "rating": "4.3",
+  "reviews": "10,687",
+  "rank": 5,
+  "source": "bestsellers",
+  "message_id": 19,
+  "image": "https://m.media-amazon.com/images/I/61GE4COOkTL._AC_SL1500_.jpg",
+  "variant": 26,
+  "category_slug": "photo",
+  "category_en": "Camera & Photo",
+  "category_he": "מצלמות וצילום",
+  "posted_at": "2026-11-15T05:46:42.527903+00:00"
  }
 ]
