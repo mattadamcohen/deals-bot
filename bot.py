@@ -35,6 +35,9 @@ BASE = "https://www.amazon.com"
 DRY_RUN = os.getenv("DRY_RUN", "").lower() in ("1", "true", "yes")
 TG_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = os.getenv("TELEGRAM_CHAT_ID", "")
+OWNER_TEST = os.getenv("OWNER_TEST", "").lower() in ("1", "true", "yes")  # send test posts to Matt only
+if OWNER_TEST:
+    TG_CHAT = str(CONFIG.get("owner_chat_id", ""))
 ALI_ON = bool(os.getenv("ALIEXPRESS_APP_KEY") and os.getenv("ALIEXPRESS_APP_SECRET"))
 AMAZON_TAG = (os.getenv("AMAZON_TAG") or CONFIG.get("amazon_tag", "")).strip()
 
@@ -660,7 +663,7 @@ def israel_now():
 
 def post_due(state):
     """Spread ~posts_per_day posts evenly across the posting window. The trigger fires every 15 minutes."""
-    if arg("category") or arg("force") or DRY_RUN:
+    if arg("category") or arg("force") or DRY_RUN or OWNER_TEST:
         return True
     local = israel_now()
     start, end = CONFIG.get("post_window", [7, 23])
@@ -748,7 +751,7 @@ def main():
             merged["discount"] = f"{discount_pct(info)}%"
         msg_id = send_telegram(merged, category)
         if msg_id:
-            if not DRY_RUN:  # dry runs shouldn't stop the item being posted for real later
+            if not DRY_RUN and not OWNER_TEST:  # dry/test runs shouldn't stop the item being posted for real later
                 state["posted"][it["asin"]] = now().isoformat()
                 merged["message_id"] = msg_id
                 remember_post(merged, category)
@@ -781,7 +784,9 @@ def main():
         log(f"{reason}: posting AliExpress deal {info['price']} sold {info['sold']} {info['title'][:50]}")
         before = posted_now
         post(it, info, category)
-        if posted_now > before and not DRY_RUN:
+        if OWNER_TEST:
+            state["posted"][it["asin"]] = now().isoformat()  # in memory only, so the 2nd test is a different item
+        if posted_now > before and not DRY_RUN and not OWNER_TEST:
             state["since_ali"] = 0
         return posted_now > before
 
@@ -793,6 +798,11 @@ def main():
         else:
             log(f"{reason}: reserve is empty")
             post_ali(f"{reason} (Amazon stock empty)")
+
+    if OWNER_TEST:
+        for i in range(int(arg("max-posts", 2) or 2)):
+            post_ali(f"Owner test {i + 1}")
+        return
 
     # Mix: every Nth post comes from AliExpress (falls back to Amazon if nothing suitable is found)
     every = CONFIG.get("aliexpress_every", 3)

@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       store:
-        description: "aliexpress = post an AliExpress deal now"
+        description: "aliexpress = post an AliExpress deal now; owner-test = send AliExpress test posts to Matt only"
         required: false
         default: ""
       dry_run:
@@ -73,6 +73,7 @@ jobs:
           ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
           STORE: ${{ inputs.store }}
+          OWNER_TEST: ${{ inputs.store == 'owner-test' && '1' || '' }}
           AMAZON_TAG: ${{ vars.AMAZON_TAG }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
           CATEGORY: ${{ inputs.category }}
