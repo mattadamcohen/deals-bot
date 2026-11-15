@@ -403,7 +403,7 @@ def pick_best(log, since, k):
 
 def main():
     log = json.loads((REPO / "data" / "posts.json").read_text())
-    log = [p for p in log if (IMG / f"{p['asin']}.jpg").exists()]
+    log = [p for p in log if p.get("store") != "aliexpress" and (IMG / f"{p['asin']}.jpg").exists()]
     state_f = REPO / "data" / "reels.json"
     st = json.loads(state_f.read_text()) if state_f.exists() else {}
     slot = None

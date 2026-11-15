@@ -250,7 +250,21 @@
         "לפרטים ולהזמנה",
         "קחו אותי לדיל"
       ],
-      "off": "הנחה"
+      "off": "הנחה",
+      "ali_head": [
+        "נמכר יותר מ-{sold} פעמים באליאקספרס",
+        "להיט באליאקספרס: {sold}+ נמכרו",
+        "מהנמכרים באליאקספרס ב{category}"
+      ],
+      "ali_shipping": [
+        "נשלח לארץ",
+        "משלוח לארץ, עלות לפי האתר"
+      ],
+      "ali_view": [
+        "לצפייה באליאקספרס",
+        "לפרטים ולהזמנה",
+        "קחו אותי לדיל"
+      ]
     },
     "en": {
       "rank": [
@@ -282,7 +296,21 @@
         "See the deal",
         "Get it here"
       ],
-      "off": "off"
+      "off": "off",
+      "ali_head": [
+        "{sold}+ sold on AliExpress",
+        "AliExpress hit: {sold}+ sold",
+        "Top AliExpress pick in {category}"
+      ],
+      "ali_shipping": [
+        "Ships to Israel",
+        "Ships to Israel (shipping cost shown on site)"
+      ],
+      "ali_view": [
+        "View on AliExpress",
+        "See the deal",
+        "Get it here"
+      ]
     }
   },
   "checks_per_run": 10,
@@ -474,5 +502,107 @@
   "harvest_every_hours": 4,
   "harvest_checks": 30,
   "harvest_target": 25,
-  "harvest_extra_lists": 3
+  "harvest_extra_lists": 3,
+  "max_price_usd": 75,
+  "aliexpress_every": 3,
+  "ali_min_sold": 500,
+  "ali_min_rating_pct": 90,
+  "ali_queries": [
+    {
+      "q": "squishy toy",
+      "en": "Squishies",
+      "he": "סקווישים",
+      "weight": 4
+    },
+    {
+      "q": "fidget toy",
+      "en": "Fidget toys",
+      "he": "צעצועי פידג'ט",
+      "weight": 2
+    },
+    {
+      "q": "building blocks set",
+      "en": "Building sets",
+      "he": "ערכות בנייה",
+      "weight": 3
+    },
+    {
+      "q": "kids toys",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 3
+    },
+    {
+      "q": "plush toy",
+      "en": "Plush toys",
+      "he": "בובות פרווה",
+      "weight": 2
+    },
+    {
+      "q": "kids art craft kit",
+      "en": "Arts & crafts",
+      "he": "יצירה לילדים",
+      "weight": 2
+    },
+    {
+      "q": "power bank",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 2
+    },
+    {
+      "q": "usb c fast charging cable",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 2
+    },
+    {
+      "q": "wireless earbuds",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 2
+    },
+    {
+      "q": "phone holder car",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 1
+    },
+    {
+      "q": "led light room decor",
+      "en": "Home decor",
+      "he": "עיצוב הבית",
+      "weight": 2
+    },
+    {
+      "q": "kitchen gadgets",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 2
+    },
+    {
+      "q": "storage organizer",
+      "en": "Home",
+      "he": "לבית",
+      "weight": 1
+    },
+    {
+      "q": "backpack",
+      "en": "Bags",
+      "he": "תיקים",
+      "weight": 1
+    },
+    {
+      "q": "hair accessories girls",
+      "en": "Accessories",
+      "he": "אקססוריז",
+      "weight": 1
+    },
+    {
+      "q": "phone case",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 1
+    }
+  ]
 }

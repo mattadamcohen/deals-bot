@@ -264,7 +264,7 @@ def main():
         if not slot:
             print("No carousel slot due now")
             return
-        pool = [p for p in posts if has_img(p["asin"])]
+        pool = [p for p in posts if p.get("store") != "aliexpress" and has_img(p["asin"])]
         batches = [[p["asin"] for p in reel.pick_best(pool, st.get("last_carousel_at", ""), 4)]]
         st["carousel_slots_done"] = (st.get("carousel_slots_done", []) + [slot])[-10:]
         st["last_carousel_at"] = datetime.now(timezone.utc).isoformat()

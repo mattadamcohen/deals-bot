@@ -4,6 +4,10 @@ on:
   # bot.py spreads ~20 posts/day evenly over 07:00-23:00 Israel time; reels/carousels have fixed daily slots.
   workflow_dispatch:
     inputs:
+      store:
+        description: "aliexpress = post an AliExpress deal now"
+        required: false
+        default: ""
       dry_run:
         description: "Dry run (print posts, don't send)"
         type: boolean
@@ -66,6 +70,9 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          STORE: ${{ inputs.store }}
           AMAZON_TAG: ${{ vars.AMAZON_TAG }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
           CATEGORY: ${{ inputs.category }}

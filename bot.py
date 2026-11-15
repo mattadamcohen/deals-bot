@@ -35,6 +35,7 @@ BASE = "https://www.amazon.com"
 DRY_RUN = os.getenv("DRY_RUN", "").lower() in ("1", "true", "yes")
 TG_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = os.getenv("TELEGRAM_CHAT_ID", "")
+ALI_ON = bool(os.getenv("ALIEXPRESS_APP_KEY") and os.getenv("ALIEXPRESS_APP_SECRET"))
 AMAZON_TAG = (os.getenv("AMAZON_TAG") or CONFIG.get("amazon_tag", "")).strip()
 
 
@@ -401,9 +402,10 @@ def pick(options, v):
 
 
 def block(item, category, title, L, extra=(), v=0):
-    head = pick(L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"], v)
+    ali = item.get("store") == "aliexpress"
+    head = pick(L["ali_head"] if ali else L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"], v)
     intro = pick(L.get("intro", [""]), v // 3)
-    lines = ([intro, ""] if intro else []) + [f"🔥 {esc(head.format(rank=item['rank'], category=category))}", "",
+    lines = ([intro, ""] if intro else []) + [f"🔥 {esc(head.format(rank=item['rank'], category=category, sold=item.get('sold', '')))}", "",
                                               f"<b>{esc(short(title))}</b>", ""]
     if item.get("price"):
         p = f"💲 <b>{esc(item['price'])}</b>"
@@ -413,11 +415,13 @@ def block(item, category, title, L, extra=(), v=0):
             p += f"  ({esc(item['discount'])} {L['off']})"
         lines.append(p)
     if item.get("rating"):
-        lines.append(f"⭐ {esc(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
-    lines.append(f"🇮🇱 {pick(L['free_shipping'], v // 2)}")
+        star = "👍" if ali else "⭐"
+        lines.append(f"{star} {esc(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
+    lines.append(f"🇮🇱 {pick(L['ali_shipping'] if ali else L['free_shipping'], v // 2)}")
     if extra:
         lines += ["", *extra]
-    lines.append(f'👉 <a href="{product_link(item["asin"])}">{pick(L["view"], v // 4)}</a>')
+    url = item.get("link") or product_link(item["asin"])
+    lines.append(f'👉 <a href="{esc(url)}">{pick(L["ali_view"] if ali else L["view"], v // 4)}</a>')
     return "\n".join(lines)
 
 
@@ -432,7 +436,7 @@ def drop_christmas(title):
 
 def caption(item, category):
     L = CONFIG["labels"]
-    title = drop_christmas(item["title"] or "Amazon best seller")
+    title = drop_christmas(item["title"] or "Best seller")
     title_he = to_hebrew(short(title))
     item["title_he"] = title_he
     v = item.setdefault("variant", random.randrange(1000))  # same variant for both languages; stable on re-edits
@@ -455,7 +459,7 @@ def remember_post(item, category):
         log(f"  (image save failed: {e})")
     log_file = ROOT / "data" / "posts.json"
     posts = json.loads(log_file.read_text()) if log_file.exists() else []
-    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant")}
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold")}
                  | {"category_slug": category["slug"], "category_en": category["en"], "category_he": category["he"],
                     "posted_at": now().isoformat()})
     posts = posts[-40:]
@@ -527,6 +531,11 @@ def discount_pct(info):
     return round((1 - price / was) * 100) if was > price > 0 else 0
 
 
+def over_cap(info):
+    """Israel: personal imports above $75 pay VAT/customs, so skip anything priced above the cap."""
+    return money(info.get("price")) > CONFIG.get("max_price_usd", 75)
+
+
 def arg(name, default=None):
     """--name value from the command line, else NAME env var, else default."""
     if f"--{name}" in sys.argv:
@@ -548,7 +557,7 @@ def pool_fresh(state):
     fams = state.get("families", {})
     out = []
     for a, v in pool.items():
-        if not is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) or state["posted"].get(a):
+        if not is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) or state["posted"].get(a) or over_cap(v["info"]):
             continue
         fs = [f for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))) if f]
         if any(is_recent(fams.get(f, ""), CONFIG["repost_after_days"]) for f in fs):
@@ -560,7 +569,7 @@ def pool_fresh(state):
 def pool_take(state, keyfn=None):
     """Best still-fresh reserve deal that hasn't been posted (same product family rule applies)."""
     pool = {a: v for a, v in load_json(POOL_F, {}).items()
-            if is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) and not state["posted"].get(a)}
+            if is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) and not state["posted"].get(a) and not over_cap(v["info"])}
     def ok(v):
         fams = [f for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))) if f]
         return not any(is_recent(state.get("families", {}).get(f, ""), CONFIG["repost_after_days"]) for f in fams)
@@ -572,6 +581,76 @@ def pool_take(state, keyfn=None):
     pool.pop(best["it"]["asin"], None)
     POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
     return best
+
+
+# ---------------------------------------------------------------- aliexpress
+
+# Family-friendly channel: never post adult, weapon, smoking/vape, drug or gambling items from AliExpress
+ALI_BLOCK = re.compile(
+    r"\b(sex\w*|adult|erotic\w*|lingerie|thong|g-?string|bdsm|fetish|bondage|nipple|vibrat\w*|dildo\w*|"
+    r"masturbat\w*|condom\w*|lubric\w*|porn\w*|nude|naked|strip(?:per|tease)|seductive|18\+|"
+    r"knife|knives|blade|dagger|machete|sword|gun|pistol|rifle|airsoft|ammo|bullet|holster|taser|stun|"
+    r"pepper spray|brass knuckles?|baton|crossbow|slingshot|weapon\w*|tactical vest|"
+    r"vape\w*|e-?cig\w*|cigarette\w*|hookah|shisha|bong|grinder|rolling paper|tobacco|smok(?:e|ing) pipe|"
+    r"cannabis|weed|marijuana|420|kratom|gambling|casino|poker chips?|alcohol|beer|wine|vodka|whiskey|"
+    r"tattoo|piercing|hair removal|breast|butt lift|slimming|diet pills?|fat burn\w*|weight loss|"
+    r"halloween mask|skull|devil|satan\w*|zombie|blood)\b", re.I)
+ALI_BLOCK_CATS = re.compile(r"sex|adult|intimate|lingerie|underwear|tobacco|smok|cigarette|weapon|knife|knives|"
+                            r"hunting|tattoo|novelty & special use|security & protection", re.I)
+
+
+def ali_ok(p):
+    """Age-appropriate, popular, well-rated, under the price cap."""
+    text = " ".join(str(p.get(k) or "") for k in ("product_title", "first_level_category_name", "second_level_category_name"))
+    if ALI_BLOCK.search(text):
+        return False
+    cats = f"{p.get('first_level_category_name') or ''} {p.get('second_level_category_name') or ''}"
+    if ALI_BLOCK_CATS.search(cats):
+        return False
+    price = money(p.get("target_sale_price"))
+    if not price or price > CONFIG.get("max_price_usd", 75):
+        return False
+    if int(p.get("lastest_volume") or 0) < CONFIG.get("ali_min_sold", 500):
+        return False
+    return money(p.get("evaluate_rate")) >= CONFIG.get("ali_min_rating_pct", 90)
+
+
+def ali_pick(state):
+    """Find one AliExpress deal: a random family-friendly search, best-selling first, not posted recently."""
+    sys.path.insert(0, str(ROOT / "tools"))
+    import aliexpress
+    queries = CONFIG.get("ali_queries", [])
+    tried = 0
+    for q in random.choices(queries, weights=[x.get("weight", 1) for x in queries], k=min(4, len(queries))):
+        tried += 1
+        try:
+            prods = aliexpress.search(keywords=q["q"], page=random.randint(1, 3), page_size=50)
+        except Exception as e:
+            log(f"  (AliExpress search '{q['q']}' failed: {e})")
+            continue
+        good = [p for p in prods if ali_ok(p)]
+        log(f"[AliExpress · {q['q']}] {len(prods)} results, {len(good)} pass the filters")
+        random.shuffle(good)
+        good.sort(key=lambda p: -int(p.get("lastest_volume") or 0) * (1 + min(money(p.get("discount")), 60) / 100))
+        for p in good[:15]:
+            pid = f"ali-{p['product_id']}"
+            fam = title_family(p.get("product_title"))
+            if state["posted"].get(pid) or (fam and is_recent(state.get("families", {}).get(fam, ""), CONFIG["repost_after_days"])):
+                continue
+            if not p.get("promotion_link"):
+                continue
+            sold = int(p.get("lastest_volume") or 0)
+            was = p.get("target_original_price")
+            info = {"title": clean(p.get("product_title")), "price": f"${money(p.get('target_sale_price')):.2f}",
+                    "was": f"${money(was):.2f}" if money(was) > money(p.get("target_sale_price")) else "",
+                    "discount": p.get("discount") if money(p.get("discount")) >= 5 else "",
+                    "rating": p.get("evaluate_rate") or "", "image": p.get("product_main_image_url"),
+                    "link": p["promotion_link"], "store": "aliexpress",
+                    "sold": f"{sold // 1000},000" if sold >= 1000 else str(sold)}
+            it = {"asin": pid, "rank": 0, "source": "aliexpress", "store": "aliexpress"}
+            return it, info, {"slug": f"aliexpress/{q['q']}", "en": q["en"], "he": q["he"]}
+    log(f"  no new AliExpress deal found in {tried} searches")
+    return None
 
 
 def israel_now():
@@ -683,8 +762,28 @@ def main():
                 today = israel_now().date().isoformat()
                 state["day_counts"] = {today: state.get("day_counts", {}).get(today, 0) + 1}
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
+                if it.get("store") != "aliexpress":
+                    state["since_ali"] = state.get("since_ali", 0) + 1
             posted_now += 1
             time.sleep(3)
+
+    def post_ali(reason):
+        if not ALI_ON:
+            return False
+        try:
+            found = ali_pick(state)
+        except Exception as e:
+            log(f"  (AliExpress failed: {e})")
+            return False
+        if not found:
+            return False
+        it, info, category = found
+        log(f"{reason}: posting AliExpress deal {info['price']} sold {info['sold']} {info['title'][:50]}")
+        before = posted_now
+        post(it, info, category)
+        if posted_now > before and not DRY_RUN:
+            state["since_ali"] = 0
+        return posted_now > before
 
     def post_reserve(reason):
         v = pool_take(state, lambda v: score(v["it"], v["info"]))
@@ -693,6 +792,14 @@ def main():
             post(v["it"], v["info"], v["category"])
         else:
             log(f"{reason}: reserve is empty")
+            post_ali(f"{reason} (Amazon stock empty)")
+
+    # Mix: every Nth post comes from AliExpress (falls back to Amazon if nothing suitable is found)
+    every = CONFIG.get("aliexpress_every", 3)
+    if not targeted and ALI_ON and (arg("store") == "aliexpress" or state.get("since_ali", 0) >= every - 1):
+        if post_ali("AliExpress turn"):
+            save_state(state)
+            return
 
     if due == "reserve":
         post_reserve("Amazon cooldown")
@@ -781,6 +888,9 @@ def main():
                     continue
                 if not info.get("price"):
                     log("     no price found, skipping")
+                    continue
+                if over_cap(info):
+                    log(f"     {info['price']} is over the ${CONFIG.get('max_price_usd', 75)} cap, skipping")
                     continue
                 fams = [f for f in (info.get("parent_asin"), title_family(info.get("title"))) if f]
                 low = (info.get("title") or "").lower()
