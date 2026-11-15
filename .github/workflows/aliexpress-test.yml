@@ -1,0 +1,22 @@
+name: AliExpress API test
+on:
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: "Optional search keywords"
+        required: false
+        default: ""
+  push:
+    paths: [".github/workflows/aliexpress-test.yml", "tools/aliexpress.py"]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - run: python tools/aliexpress.py test ${{ inputs.keywords }}
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
