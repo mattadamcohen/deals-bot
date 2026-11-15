@@ -297,8 +297,8 @@ def ig_caption(posts, n=0):
                "👀 3 מציאות שמצאנו לכם היום באמזון 🇮🇱", "⚡ הלהיטים של אמזון, ישר עד הבית בישראל 🇮🇱"]
     lines = [openers[n % len(openers)], ""]
     for i, p in enumerate(posts, 1):
-        off = f" ({p['discount']} הנחה)" if p.get("discount") else ""
-        lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}{off}")
+        bits = [x for x in (bot.shekels(p.get("price") or ""), f"{p['discount']} הנחה" if p.get("discount") else "") if x]
+        lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}" + (f" | {' | '.join(bits)}" if bits else ""))
     lines += ["", "🖤 " + season_badge() + " 🕎", "💬 כתבו \"לינק\" בתגובות ונשלח לכם את הקישורים לכל המוצרים בהודעה פרטית",
               "👈 עוד דילים כל יום בערוץ הטלגרם, הקישור בביו",
               "", "#אמזון #דילים #משלוחחינם #בלאקפריידיי #חנוכה #קניותאונליין #amazonfinds #amazondeals #israel"]
