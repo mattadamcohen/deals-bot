@@ -604,5 +604,12 @@
       "he": "גאדג'טים",
       "weight": 1
     }
+  ],
+  "ali_min_price_usd": 5,
+  "ali_min_price_exempt": [
+    "squish",
+    "fidget",
+    "stress ball",
+    "stress relief"
   ]
 }

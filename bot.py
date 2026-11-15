@@ -618,6 +618,9 @@ def ali_ok(p):
     price = money(p.get("target_sale_price"))
     if not price or price > CONFIG.get("max_price_usd", 75):
         return False
+    title = (p.get("product_title") or "").lower()
+    if price < CONFIG.get("ali_min_price_usd", 0) and not any(k in title for k in CONFIG.get("ali_min_price_exempt", [])):
+        return False
     if int(p.get("lastest_volume") or 0) < CONFIG.get("ali_min_sold", 500):
         return False
     return money(p.get("evaluate_rate")) >= CONFIG.get("ali_min_rating_pct", 90)
