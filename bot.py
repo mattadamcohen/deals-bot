@@ -543,7 +543,21 @@ def pool_add(it, info, category):
     POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
 
 
-def pool_take(state):
+def pool_fresh(state):
+    pool = load_json(POOL_F, {})
+    fams = state.get("families", {})
+    out = []
+    for a, v in pool.items():
+        if not is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) or state["posted"].get(a):
+            continue
+        fs = [f for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))) if f]
+        if any(is_recent(fams.get(f, ""), CONFIG["repost_after_days"]) for f in fs):
+            continue
+        out.append(v)
+    return out
+
+
+def pool_take(state, keyfn=None):
     """Best still-fresh reserve deal that hasn't been posted (same product family rule applies)."""
     pool = {a: v for a, v in load_json(POOL_F, {}).items()
             if is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) and not state["posted"].get(a)}
@@ -554,7 +568,7 @@ def pool_take(state):
     POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
     if not choices:
         return None
-    best = max(choices, key=lambda v: (discount_pct(v["info"]), -(v["it"].get("rank") or 99)))
+    best = max(choices, key=keyfn or (lambda v: (discount_pct(v["info"]), -(v["it"].get("rank") or 99))))
     pool.pop(best["it"]["asin"], None)
     POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
     return best
@@ -673,7 +687,7 @@ def main():
             time.sleep(3)
 
     def post_reserve(reason):
-        v = pool_take(state)
+        v = pool_take(state, lambda v: score(v["it"], v["info"]))
         if v:
             log(f"{reason}: posting reserve deal {v['it']['asin']} {v['info']['title'][:50]}")
             post(v["it"], v["info"], v["category"])
@@ -684,6 +698,23 @@ def main():
         post_reserve("Amazon cooldown")
         save_state(state)
         return
+
+    # Collect-then-post: check Amazon only every few hours (a bigger batch), post from the stock in between
+    harvest = targeted
+    if not targeted:
+        stock = len(pool_fresh(state))
+        last_h = state.get("last_harvest_at", "")
+        if stock >= CONFIG.get("reserve_min", 3) and is_recent(last_h, CONFIG.get("harvest_every_hours", 4) / 24):
+            log(f"{stock} deals in stock (last Amazon check {last_h[11:16]} UTC): posting from stock")
+            post_reserve("Stock")
+            save_state(state)
+            return
+        harvest = True
+        budget = int(arg("check", CONFIG.get("harvest_checks", 30)))
+        log(f"Stock is {stock}: checking Amazon for new deals (up to {budget} products)")
+        lists = lists + [(c, random.choice(["bestsellers", "movers-and-shakers"]), 1)
+                         for c in random.choices(cats, weights=[c.get("weight", 1) for c in cats],
+                                                 k=CONFIG.get("harvest_extra_lists", 3))]
 
     try:
         log("Setting delivery location to Israel…")
@@ -764,10 +795,13 @@ def main():
                 else:
                     candidates.append((score(it, info), it, info, category))
                     pool_add(it, info, category)
-                    if len(candidates) >= CONFIG.get("candidates_per_run", 6):
+                    if len(candidates) >= CONFIG.get("harvest_target", 25):
                         break
-            if len(candidates) >= CONFIG.get("candidates_per_run", 6):
+            if len(candidates) >= CONFIG.get("harvest_target", 25):
                 break
+        if not targeted:
+            state["last_harvest_at"] = now().isoformat()
+            log(f"\nStocked {len(candidates)} deal(s); {len(pool_fresh(state))} in stock")
 
         # scheduled runs: post the highest-scoring free-shipping item (popularity, trending, discount, brand)
         if posted_now < max_posts and candidates and not targeted:

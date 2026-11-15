@@ -434,7 +434,7 @@
   ],
   "ig_post_each_deal": false,
   "carousel_delay_minutes": 90,
-  "posts_per_day": 10,
+  "posts_per_day": 20,
   "post_window": [
     7,
     23
@@ -460,11 +460,19 @@
     "wall charger": 10,
     "magsafe": 10,
     "wireless charger": 10,
-    "earbuds": 10
+    "earbuds": 10,
+    "squish": 25,
+    "stress ball": 15,
+    "fidget": 10
   },
   "repost_days_override": {
     "lego": 3
   },
   "product_cache_hours": 6,
-  "reserve_hours": 12
+  "reserve_hours": 12,
+  "reserve_min": 3,
+  "harvest_every_hours": 4,
+  "harvest_checks": 30,
+  "harvest_target": 25,
+  "harvest_extra_lists": 3
 }
