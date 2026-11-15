@@ -91,6 +91,20 @@ def big_image(url):
 
 # ---------------------------------------------------------------- amazon
 
+COLOR_SIZE = re.compile(r"\b(black|white|blue|red|green|pink|purple|grey|gray|denim|cherry|navy|beige|brown|gold|silver|"
+                        r"rose|yellow|orange|teal|clear|small|medium|large|xl|xxl|xs|mini|kids|adult|men'?s|women'?s|"
+                        r"\d+(\.\d+)?\s*(oz|ml|l|ft|in|inch|cm|mm|pack|pcs|count|ct|piece|pieces|pk)?)\b", re.I)
+
+
+def title_family(title):
+    """Rough product-family key from a title: same brand + product words, ignoring color/size/pack details."""
+    t = re.sub(r"\(.*?\)|\[.*?\]", " ", (title or "").lower())
+    t = re.split(r"[,|]| - ", t)[0]
+    t = COLOR_SIZE.sub(" ", t)
+    words = re.findall(r"[a-z][a-z'&+-]*", t)
+    return " ".join(words[:4])
+
+
 def price_text(el):
     """Text of an .a-price element: the hidden full price, or symbol + whole + fraction."""
     if el is None:
@@ -282,7 +296,9 @@ class Amazon:
         rating = text("#acrPopover .a-icon-alt").split(" out")[0]
         reviews = re.sub(r"[^\d,]", "", text("#acrCustomerReviewText"))
 
+        m = re.search(r'"parentAsin"\s*:\s*"([A-Z0-9]{10})"', page)
         return {
+            "parent_asin": m.group(1) if m else "",
             "title": text("#productTitle"),
             "price": price, "was": was if money(was) > money(price) > 0 else "", "discount": discount,
             "rating": rating, "reviews": reviews, "image": image,
@@ -412,6 +428,24 @@ def is_big_deal(item):
     return off >= CONFIG.get("notify_min_discount", 30) or top
 
 
+def square_photo(url):
+    """Download the product photo and center it on a white square, so Telegram shows it uncropped."""
+    from io import BytesIO
+    from PIL import Image
+    try:
+        im = Image.open(BytesIO(requests.get(url, timeout=30).content)).convert("RGB")
+    except Exception as e:
+        log(f"  (photo download failed: {e})")
+        return None
+    side = 1080
+    im.thumbnail((side - 80, side - 80), Image.LANCZOS)
+    canvas = Image.new("RGB", (side, side), (255, 255, 255))
+    canvas.paste(im, ((side - im.width) // 2, (side - im.height) // 2))
+    buf = BytesIO()
+    canvas.save(buf, "JPEG", quality=90)
+    return buf.getvalue()
+
+
 def send_telegram(item, category):
     """Post to the channel. Returns the Telegram message id (or True on a dry run), None on failure."""
     text = caption(item, category)
@@ -420,9 +454,13 @@ def send_telegram(item, category):
         return True
     api = f"https://api.telegram.org/bot{TG_TOKEN}"
     if item.get("image"):
-        r = requests.post(f"{api}/sendPhoto", data={
-            "chat_id": TG_CHAT, "photo": item["image"], "caption": text, "parse_mode": "HTML",
-            "disable_notification": "false" if is_big_deal(item) else "true"}, timeout=30)
+        photo = square_photo(item["image"])
+        data = {"chat_id": TG_CHAT, "caption": text, "parse_mode": "HTML",
+                "disable_notification": "false" if is_big_deal(item) else "true"}
+        if photo:
+            r = requests.post(f"{api}/sendPhoto", data=data, files={"photo": ("deal.jpg", photo, "image/jpeg")}, timeout=60)
+        else:
+            r = requests.post(f"{api}/sendPhoto", data={**data, "photo": item["image"]}, timeout=30)
         if r.ok:
             return r.json()["result"]["message_id"]
         log(f"  photo post failed ({r.text[:150]}), sending as text")
@@ -549,6 +587,9 @@ def main():
                 merged["message_id"] = msg_id
                 remember_post(merged, category)
                 state["last_post_at"] = now().isoformat()
+                for f in (info.get("parent_asin"), title_family(info.get("title"))):
+                    if f:
+                        state.setdefault("families", {})[f] = now().isoformat()
                 today = israel_now().date().isoformat()
                 state["day_counts"] = {today: state.get("day_counts", {}).get(today, 0) + 1}
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
@@ -610,6 +651,10 @@ def main():
                 if not info.get("price"):
                     log("     no price found, skipping")
                     continue
+                fams = [f for f in (info.get("parent_asin"), title_family(info.get("title"))) if f]
+                if any(is_recent(state.get("families", {}).get(f, ""), CONFIG["repost_after_days"]) for f in fams):
+                    log("     same product (other color/size) was posted recently, skipping")
+                    continue
                 if discount_pct(info) < min_discount:
                     continue
                 if targeted and discount_pct(info) >= preferred:
@@ -636,8 +681,8 @@ def main():
         return
     finally:
         # forget very old entries so the state file stays small
-        for key, days in (("posted", 60), ("not_free", 30)):
-            state[key] = {a: t for a, t in state[key].items() if is_recent(t, days)}
+        for key, days in (("posted", 60), ("not_free", 30), ("families", 30)):
+            state[key] = {a: t for a, t in state.get(key, {}).items() if is_recent(t, days)}
         save_state(state)
 
     log(f"\nDone. Posted {posted_now} item(s). {amz.requests_made if amz else 0} Amazon requests.")

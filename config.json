@@ -213,7 +213,7 @@
     }
   ],
   "max_posts_per_run": 1,
-  "repost_after_days": 14,
+  "repost_after_days": 7,
   "recheck_not_free_after_days": 3,
   "delay_seconds": [
     2.5,

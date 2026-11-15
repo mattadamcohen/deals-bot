@@ -5,7 +5,7 @@ on:
       action:
         description: "What to change"
         type: choice
-        options: [description, title, photo, pin, whoami, edit-posts, reel-latest, ig-whoami, ig-post, ig-media, fix-prices]
+        options: [description, title, photo, pin, whoami, edit-posts, reel-latest, ig-whoami, ig-post, ig-media, fix-prices, cleanup]
       value:
         description: "New text, or image path in the repo (e.g. assets/ilamazondeals-logo.png)"
         required: false
@@ -28,6 +28,7 @@ jobs:
             reel-latest) python tools/reel.py --latest ;;
             ig-whoami)   python tools/instagram.py whoami ;;
             fix-prices)  python tools/fix_prices.py ;;
+            cleanup)     python tools/cleanup_channel.py ;;
             ig-media)    python tools/instagram.py media ;;
             ig-post)     python tools/ig_post.py ${VALUE:+--asins $VALUE} ;;
             *)           python tools/channel.py "$ACTION" "$VALUE" ;;
@@ -39,7 +40,7 @@ jobs:
           ACTION: ${{ inputs.action }}
           VALUE: ${{ inputs.value }}
       - name: Save message ids
-        if: ${{ inputs.action == 'edit-posts' || inputs.action == 'ig-post' || inputs.action == 'fix-prices' }}
+        if: ${{ inputs.action == 'edit-posts' || inputs.action == 'ig-post' || inputs.action == 'fix-prices' || inputs.action == 'cleanup' }}
         run: |
           git config user.name "deals-bot"; git config user.email "deals-bot@users.noreply.github.com"
           git add data/; git diff --staged --quiet || (git commit -m "Save message ids" && git pull --rebase && git push)
