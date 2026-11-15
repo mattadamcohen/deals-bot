@@ -462,7 +462,7 @@
   ],
   "ig_post_each_deal": false,
   "carousel_delay_minutes": 90,
-  "posts_per_day": 20,
+  "posts_per_day": 30,
   "post_window": [
     7,
     23
@@ -504,7 +504,7 @@
   "harvest_target": 25,
   "harvest_extra_lists": 3,
   "max_price_usd": 75,
-  "aliexpress_every": 3,
+  "aliexpress_every": 2,
   "ali_min_sold": 500,
   "ali_min_rating_pct": 90,
   "ali_queries": [
