@@ -124,7 +124,7 @@ def host(images):
     for _ in range(3):
         if git("push").returncode == 0:
             break
-        git("pull", "--rebase")
+        git("pull", "--rebase", "-X", "theirs")
     urls = {name: RAW.format(name) for name in images}
     for url in urls.values():  # wait until GitHub serves them
         for _ in range(12):
