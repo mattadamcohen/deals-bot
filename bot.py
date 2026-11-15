@@ -597,7 +597,12 @@ ALI_BLOCK = re.compile(
     r"vape\w*|e-?cig\w*|cigarette\w*|hookah|shisha|bong|grinder|rolling paper|tobacco|smok(?:e|ing) pipe|"
     r"cannabis|weed|marijuana|420|kratom|gambling|casino|poker chips?|alcohol|beer|wine|vodka|whiskey|"
     r"tattoo|piercing|hair removal|breast|butt lift|slimming|diet pills?|fat burn\w*|weight loss|"
-    r"halloween mask|skull|devil|satan\w*|zombie|blood)\b", re.I)
+    r"halloween mask|skull|devil|satan\w*|zombie|blood|horror|creepy|scary|"
+    # licensed characters / brands: on AliExpress these are almost always unofficial knockoffs
+    r"fnaf|five nights?|freddy|huggy|poppy playtime|pok[eé]mon|pikachu|disney|marvel|spider-?man|avengers|"
+    r"frozen|elsa|stitch|minnie|mickey|barbie|hello kitty|sanrio|kuromi|cinnamoroll|my melody|sonic|mario|"
+    r"nintendo|minecraft|roblox|paw patrol|peppa|bluey|cocomelon|harry potter|star wars|naruto|anime|"
+    r"labubu|squishmallows?|lego|nike|adidas|airpods?|stanley|owala|jellycat)\b", re.I)
 ALI_BLOCK_CATS = re.compile(r"sex|adult|intimate|lingerie|underwear|tobacco|smok|cigarette|weapon|knife|knives|"
                             r"hunting|tattoo|novelty & special use|security & protection", re.I)
 

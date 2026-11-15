@@ -314,7 +314,10 @@ def publish_instagram(video, posts, n=0):
     api = "https://graph.facebook.com/v23.0"
     cap = ig_caption(posts, n)
     r = requests.post(f"{api}/{ig}/media", data={"media_type": "REELS", "upload_type": "resumable",
-                                                  "caption": cap, "share_to_feed": "true", "access_token": token}, timeout=60)
+                                                  "caption": cap, "share_to_feed": "true",
+                                                  # cover = first product, fully on screen (intro is 2.0s, deal slide 2.4s)
+                                                  "thumb_offset": str(CONFIG.get("reel_cover_ms", 3600)),
+                                                  "access_token": token}, timeout=60)
     print("IG container:", r.status_code, r.text[:200])
     if not r.ok:
         return None
