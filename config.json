@@ -285,7 +285,7 @@
       "off": "off"
     }
   },
-  "checks_per_run": 15,
+  "checks_per_run": 10,
   "max_lists_per_run": 4,
   "preferred_discount": 0,
   "brands": [
@@ -442,5 +442,6 @@
   },
   "repost_days_override": {
     "lego": 3
-  }
+  },
+  "product_cache_hours": 6
 }

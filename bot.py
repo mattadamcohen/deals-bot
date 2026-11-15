@@ -160,13 +160,43 @@ def find_prices(soup, page):
     return price, was
 
 
+CACHE_DIR = ROOT / ".cache"
+COOKIES_F = CACHE_DIR / "amazon_cookies.json"
+PRODUCTS_F = CACHE_DIR / "products.json"
+
+
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return default
+
+
 class Amazon:
+    def save_cookies(self):
+        CACHE_DIR.mkdir(exist_ok=True)
+        jar = [{"name": c.name, "value": c.value, "domain": c.domain} for c in self.s.cookies.jar]
+        COOKIES_F.write_text(json.dumps(jar))
+
+    def load_cookies(self):
+        for c in load_json(COOKIES_F, []):
+            self.s.cookies.set(c["name"], c["value"], domain=c["domain"])
+
+    def location_is_israel(self):
+        """Check the delivery location using a Best Sellers page (one request)."""
+        page = self.get(BASE + "/gp/bestsellers/").text
+        el = BeautifulSoup(page, "html.parser").select_one("#glow-ingress-line2")
+        where = clean(el.get_text()) if el else "?"
+        log(f"  saved session delivers to: {where}")
+        return "israel" in where.lower()
+
     def __init__(self, impersonate="safari"):
         self.s = cffi_requests.Session(impersonate=impersonate)
         self.s.headers.update({"Accept-Language": "en-US,en;q=0.9"})
         # show prices in USD even with an Israeli delivery address
         self.s.cookies.set("i18n-prefs", "USD", domain=".amazon.com")
         self.requests_made = 0
+        self.cache_hits = 0
 
     def get(self, url, **kw):
         if self.requests_made:
@@ -248,6 +278,20 @@ class Amazon:
         return sorted(items, key=lambda x: x["rank"])  # rank as shown on that list
 
     def product(self, asin):
+        cache = load_json(PRODUCTS_F, {})
+        hit = cache.get(asin)
+        if hit and is_recent(hit.get("_at", ""), CONFIG.get("product_cache_hours", 6) / 24):
+            self.cache_hits += 1
+            return {k: v for k, v in hit.items() if k != "_at"}
+        info = self._product(asin)
+        if info["shipping"] in ("free", "paid", "no"):
+            cache[asin] = {**info, "_at": now().isoformat()}
+            cache = {a: v for a, v in cache.items() if is_recent(v.get("_at", ""), 1)}
+            CACHE_DIR.mkdir(exist_ok=True)
+            PRODUCTS_F.write_text(json.dumps(cache))
+        return info
+
+    def _product(self, asin):
         page = self.get(f"{BASE}/dp/{asin}").text
         soup = BeautifulSoup(page, "html.parser")
 
@@ -600,15 +644,20 @@ def main():
 
     try:
         log("Setting delivery location to Israel…")
-        for attempt, profile in enumerate(["safari", "chrome", "safari"], 1):
+        amz = Amazon("safari")
+        amz.load_cookies()
+        reused = COOKIES_F.exists() and amz.location_is_israel()
+        for attempt, profile in enumerate([] if reused else ["safari", "chrome", "safari"], 1):
             amz = Amazon(profile)
             if amz.set_location_israel():
                 break
             log(f"  attempt {attempt}: location not set to Israel yet")
             time.sleep(5)
         else:
-            log("! Couldn't set delivery to Israel; skipping this run (the next run is ~15 minutes away)")
-            return
+            if not reused:
+                log("! Couldn't set delivery to Israel; skipping this run (the next run is ~15 minutes away)")
+                return
+        amz.save_cookies()
 
         for asin in filter(None, (arg("backfill", "") or "").split(",")):
             info = amz.product(asin.strip())
@@ -693,7 +742,10 @@ def main():
             state[key] = {a: t for a, t in state.get(key, {}).items() if is_recent(t, days)}
         save_state(state)
 
-    log(f"\nDone. Posted {posted_now} item(s). {amz.requests_made if amz else 0} Amazon requests.")
+    if amz:
+        amz.save_cookies()
+    log(f"\nDone. Posted {posted_now} item(s). {amz.requests_made if amz else 0} Amazon requests"
+        f" ({amz.cache_hits if amz else 0} products from cache).")
 
 
 if __name__ == "__main__":
