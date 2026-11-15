@@ -8,6 +8,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, features
 import requests
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO))
+import bot  # shared helpers (shekel prices)
 CONFIG = json.loads((REPO / "config.json").read_text())
 W, H, FPS = 1080, 1920, 30
 OUT = Path(tempfile.mkdtemp())
@@ -264,7 +266,7 @@ def short_he(title, font_px=76, max_w=940):
 def to_deal(p):
     off = re.sub(r"[^\d]", "", p.get("discount") or "")
     return {"img": f"{p['asin']}.jpg", "title": short_he(p.get("title_he") or p.get("title")),
-            "sub": p.get("category_he") or "", "price": p.get("price") or "", "off": f"{off}%" if off else "",
+            "sub": p.get("category_he") or "", "price": bot.shekels(p.get("price") or ""), "off": f"{off}%" if off else "",
             "rank": p.get("rank") or ""}
 
 

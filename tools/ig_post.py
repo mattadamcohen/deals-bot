@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw, ImageFilter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reel  # shared fonts, colors, helpers
+bot = reel.bot
 
 REPO = reel.REPO
 CONFIG = reel.CONFIG
@@ -76,7 +77,7 @@ def card(p, n):
     # title, price, footer
     reel.text_c(d, 1052, reel.short_he(p.get("title_he") or p.get("title"), 70, 980), reel.F(900, 70))
     if p.get("price"):
-        reel.pill(d, W / 2, 1185, p["price"], reel.F(900, 70), reel.YEL, reel.NAVY, pad=(50, 12))
+        reel.pill(d, W / 2, 1185, bot.shekels(p["price"]), reel.F(900, 70), reel.YEL, reel.NAVY, pad=(50, 12))
     reel.pill(d, W / 2, 1290, "משלוח חינם לארץ מעל $49 · \u200e@ilamazondeals\u200e", reel.F(800, 36), reel.BLACK, reel.WHITE)
     return img
 
@@ -85,7 +86,7 @@ def caption(p, n):
     title_he = reel.short_he(p.get("title_he") or p.get("title"), 70, 2000)
     openers = ["🔥 דיל חם מאמזון", "👀 שווה בדיקה", "💡 המציאה של עכשיו", "🛒 זה מה שכולם קונים", "⚡ דיל חדש באמזון"]
     off = f" ({pct(p)}% הנחה)" if pct(p) else ""
-    price = f"💲 {p['price']}{off}" if p.get("price") else (f"🏷️ {pct(p)}% הנחה" if pct(p) else "")
+    price = f"💰 {bot.shekels(p['price'])}{off}" if p.get("price") else (f"🏷️ {pct(p)}% הנחה" if pct(p) else "")
     rank = ("מוצר חם בקטגוריית " if p.get("source") == "movers-and-shakers" else f"#{p.get('rank')} בהכי נמכרים בקטגוריית ") \
         + p.get("category_he", "")
     en_title = re.sub(r"\s+", " ", p.get("title", ""))[:110]
@@ -97,7 +98,7 @@ def caption(p, n):
               f"🔗 או העתיקו: {link(p['asin'])}",
               "👈 כל הדילים בערוץ הטלגרם, הקישור בביו", "",
               f"EN: {en_title}"
-              + (f" | {p['price']}" if p.get("price") else "") + (f" | {pct(p)}% off" if pct(p) else "")
+              + (f" | {bot.shekels(p['price'])}" if p.get("price") else "") + (f" | {pct(p)}% off" if pct(p) else "")
               + " | Free shipping to Israel on $49+ orders | Comment \"link\" and we'll DM it to you", ""]
     tags = ["#אמזון", "#דילים", "#משלוחחינם", "#קניותאונליין", "#בלאקפריידיי", "#חנוכה", "#מתנותלחנוכה",
             "#amazonfinds", "#amazondeals", "#israel", "#דיליםמאמזון", "#מבצעים"]
@@ -210,7 +211,7 @@ def carousel_caption(items, n):
                "👀 {k} מציאות שמצאנו לכם באמזון 🇮🇱", "⚡ הלהיטים של אמזון, {k} דילים עם משלוח חינם 🇮🇱"]
     lines = [openers[n % len(openers)].format(k=len(items)), ""]
     for i, p in enumerate(items, 1):
-        bits = [x for x in (p.get("price"), f"{pct(p)}% הנחה" if pct(p) else "") if x]
+        bits = [x for x in (bot.shekels(p.get("price") or ""), f"{pct(p)}% הנחה" if pct(p) else "") if x]
         lines.append(f"{i}. {reel.short_he(p.get('title_he') or p.get('title'), 70, 2000)}" + (f" | {' | '.join(bits)}" if bits else ""))
     lines += ["", "📦 משלוח חינם לארץ בהזמנה מעל $49, אפשר לשלב כמה מוצרים", f"🖤 {reel.season_badge()}", "",
               "💬 כתבו \"לינק\" בתגובות ונשלח לכם את הקישורים לכל המוצרים בהודעה פרטית",

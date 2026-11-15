@@ -411,9 +411,9 @@ def block(item, category, title, L, extra=(), v=0):
     lines = ([intro, ""] if intro else []) + [f"🔥 {esc(head.format(rank=item['rank'], category=category, sold=item.get('sold', '')))}", "",
                                               f"<b>{esc(short(title))}</b>", ""]
     if item.get("price"):
-        p = f"💲 <b>{esc(item['price'])}</b>"
+        p = f"💰 <b>{esc(shekels(item['price']))}</b>"
         if item.get("was"):
-            p += f"  <s>{esc(item['was'])}</s>"
+            p += f"  <s>{esc(shekels(item['was']))}</s>"
         if item.get("discount"):
             p += f"  ({esc(item['discount'])} {L['off']})"
         lines.append(p)
@@ -662,6 +662,45 @@ def ali_pick(state):
             return it, info, {"slug": f"aliexpress/{q['q']}", "en": q["en"], "he": q["he"]}
     log(f"  no new AliExpress deal found in {tried} searches")
     return None
+
+
+# ---------------------------------------------------------------- shekels
+
+FX_F = ROOT / "data" / "fx.json"
+_fx = {}
+
+
+def usd_ils():
+    """Today's USD->ILS rate (ECB via frankfurter, cached daily in data/fx.json). None if unknown."""
+    if "rate" in _fx:
+        return _fx["rate"]
+    cached = load_json(FX_F, {})
+    today = datetime.now(timezone.utc).date().isoformat()
+    rate = cached.get("rate") if cached.get("date") == today else None
+    if not rate:
+        for url in ("https://api.frankfurter.app/latest?from=USD&to=ILS", "https://open.er-api.com/v6/latest/USD"):
+            try:
+                j = requests.get(url, timeout=15).json()
+                rate = float((j.get("rates") or {}).get("ILS") or 0) or None
+                if rate:
+                    FX_F.write_text(json.dumps({"date": today, "rate": rate}))
+                    break
+            except Exception as e:
+                log(f"  (exchange rate from {url.split('/')[2]} failed: {e})")
+        if not rate and is_recent(cached.get("date", "") + "T00:00:00+00:00" if cached.get("date") else "", 7):
+            rate = cached.get("rate")
+    _fx["rate"] = rate
+    return rate
+
+
+def shekels(text):
+    """'$12.99' -> '~₪47'. Leaves the text as is if it isn't dollars or the rate is unknown."""
+    if not text or "$" not in text:
+        return text
+    usd, rate = money(text), usd_ils()
+    if not usd or not rate:
+        return text
+    return f"~₪{round(usd * rate):,}"
 
 
 def israel_now():
