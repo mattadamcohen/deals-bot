@@ -434,7 +434,7 @@
   ],
   "ig_post_each_deal": false,
   "carousel_delay_minutes": 90,
-  "posts_per_day": 20,
+  "posts_per_day": 10,
   "post_window": [
     7,
     23
