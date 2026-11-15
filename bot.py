@@ -534,6 +534,32 @@ def arg(name, default=None):
     return os.getenv(name.upper().replace("-", "_")) or default
 
 
+POOL_F = ROOT / "data" / "pool.json"
+
+
+def pool_add(it, info, category):
+    pool = load_json(POOL_F, {})
+    pool[it["asin"]] = {"it": it, "info": info, "category": category, "at": now().isoformat()}
+    POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
+
+
+def pool_take(state):
+    """Best still-fresh reserve deal that hasn't been posted (same product family rule applies)."""
+    pool = {a: v for a, v in load_json(POOL_F, {}).items()
+            if is_recent(v["at"], CONFIG.get("reserve_hours", 12) / 24) and not state["posted"].get(a)}
+    def ok(v):
+        fams = [f for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))) if f]
+        return not any(is_recent(state.get("families", {}).get(f, ""), CONFIG["repost_after_days"]) for f in fams)
+    choices = [v for v in pool.values() if ok(v)]
+    POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
+    if not choices:
+        return None
+    best = max(choices, key=lambda v: (discount_pct(v["info"]), -(v["it"].get("rank") or 99)))
+    pool.pop(best["it"]["asin"], None)
+    POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
+    return best
+
+
 def israel_now():
     from zoneinfo import ZoneInfo
     return datetime.now(ZoneInfo("Asia/Jerusalem"))
@@ -548,9 +574,6 @@ def post_due(state):
     if not (start <= local.hour < end):
         log(f"Outside posting hours ({start}:00-{end}:00 Israel), nothing to do")
         return False
-    if state.get("blocked_until", "") > now().isoformat():
-        log(f"Cooling down after an Amazon robot check until {state['blocked_until'][11:16]} UTC")
-        return False
     per_day = CONFIG.get("posts_per_day", 20)
     today = local.date().isoformat()
     if state.get("day_counts", {}).get(today, 0) >= per_day:
@@ -561,6 +584,9 @@ def post_due(state):
     if last and (now() - datetime.fromisoformat(last)).total_seconds() / 60 < gap - 8:
         log(f"Last post was less than {gap:.0f} minutes ago, waiting")
         return False
+    if state.get("blocked_until", "") > now().isoformat():
+        log(f"Amazon cooldown until {state['blocked_until'][11:16]} UTC: posting from the reserve instead")
+        return "reserve"
     return True
 
 
@@ -574,7 +600,8 @@ def main():
         sys.exit("Missing TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID (or set DRY_RUN=1)")
 
     state = load_state()
-    if not post_due(state):
+    due = post_due(state)
+    if not due:
         return
     cats = CONFIG["categories"]
     only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
@@ -633,6 +660,9 @@ def main():
                 merged["message_id"] = msg_id
                 remember_post(merged, category)
                 state["last_post_at"] = now().isoformat()
+                pool = load_json(POOL_F, {})
+                if pool.pop(it["asin"], None):
+                    POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
                 for f in (info.get("parent_asin"), title_family(info.get("title"))):
                     if f:
                         state.setdefault("families", {})[f] = now().isoformat()
@@ -641,6 +671,19 @@ def main():
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
             posted_now += 1
             time.sleep(3)
+
+    def post_reserve(reason):
+        v = pool_take(state)
+        if v:
+            log(f"{reason}: posting reserve deal {v['it']['asin']} {v['info']['title'][:50]}")
+            post(v["it"], v["info"], v["category"])
+        else:
+            log(f"{reason}: reserve is empty")
+
+    if due == "reserve":
+        post_reserve("Amazon cooldown")
+        save_state(state)
+        return
 
     try:
         log("Setting delivery location to Israel…")
@@ -655,7 +698,9 @@ def main():
             time.sleep(5)
         else:
             if not reused:
-                log("! Couldn't set delivery to Israel; skipping this run (the next run is ~15 minutes away)")
+                log("! Couldn't set delivery to Israel this run")
+                post_reserve("No Israel location")
+                save_state(state)
                 return
         amz.save_cookies()
 
@@ -718,6 +763,7 @@ def main():
                     post(it, info, category)          # targeted run: first match wins
                 else:
                     candidates.append((score(it, info), it, info, category))
+                    pool_add(it, info, category)
                     if len(candidates) >= CONFIG.get("candidates_per_run", 6):
                         break
             if len(candidates) >= CONFIG.get("candidates_per_run", 6):
@@ -734,6 +780,8 @@ def main():
         mins = CONFIG.get("block_cooldown_minutes", 60)
         log(f"\n! Amazon showed a robot check ({e}). Pausing Amazon requests for {mins} minutes.")
         state["blocked_until"] = (now() + timedelta(minutes=mins)).isoformat()
+        if posted_now == 0 and not targeted:
+            post_reserve("Blocked")
         save_state(state)
         return
     finally:

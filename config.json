@@ -448,7 +448,7 @@
   "carousel_slots": [
     16
   ],
-  "block_cooldown_minutes": 60,
+  "block_cooldown_minutes": 45,
   "boost_keywords": {
     "lego": 25,
     "power bank": 15,
@@ -465,5 +465,6 @@
   "repost_days_override": {
     "lego": 3
   },
-  "product_cache_hours": 6
+  "product_cache_hours": 6,
+  "reserve_hours": 12
 }
