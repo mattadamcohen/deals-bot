@@ -17,13 +17,13 @@
       "slug": "pc",
       "en": "Computers",
       "he": "מחשבים",
-      "weight": 0.3
+      "weight": 1.5
     },
     {
       "slug": "wireless",
       "en": "Cell Phones & Accessories",
       "he": "סלולר ואביזרים",
-      "weight": 2
+      "weight": 3
     },
     {
       "slug": "photo",
@@ -362,7 +362,19 @@
     "Oral-B",
     "Fossil",
     "Casio",
-    "Ray-Ban"
+    "Ray-Ban",
+    "Belkin",
+    "UGREEN",
+    "Baseus",
+    "INIU",
+    "Satechi",
+    "Spigen",
+    "ESR",
+    "Nimble",
+    "Native Union",
+    "Soundcore",
+    "JLab",
+    "Tile"
   ],
   "seasons": [
     {
@@ -438,7 +450,17 @@
   ],
   "block_cooldown_minutes": 60,
   "boost_keywords": {
-    "lego": 25
+    "lego": 25,
+    "power bank": 15,
+    "portable charger": 15,
+    "charging cable": 10,
+    "usb c cable": 10,
+    "usb-c cable": 10,
+    "fast charger": 10,
+    "wall charger": 10,
+    "magsafe": 10,
+    "wireless charger": 10,
+    "earbuds": 10
   },
   "repost_days_override": {
     "lego": 3
