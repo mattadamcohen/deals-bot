@@ -604,7 +604,7 @@ ALI_BLOCK = re.compile(
     r"nintendo|minecraft|roblox|paw patrol|peppa|bluey|cocomelon|harry potter|star wars|naruto|anime|"
     r"labubu|squishmallows?|lego|nike|adidas|airpods?|stanley|owala|jellycat)\b", re.I)
 ALI_BLOCK_CATS = re.compile(r"sex|adult|intimate|lingerie|underwear|tobacco|smok|cigarette|weapon|knife|knives|"
-                            r"hunting|tattoo|novelty & special use|security & protection", re.I)
+                            r"hunting|tattoo|novelty & special use", re.I)
 
 
 def ali_ok(p):

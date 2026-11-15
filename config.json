@@ -491,7 +491,24 @@
     "earbuds": 10,
     "squish": 25,
     "stress ball": 15,
-    "fidget": 10
+    "fidget": 10,
+    "screen extender": 25,
+    "monitor extender": 25,
+    "portable monitor": 25,
+    "security camera": 20,
+    "solar camera": 20,
+    "indoor camera": 15,
+    "baby monitor": 15,
+    "outdoor light": 20,
+    "solar light": 20,
+    "string lights": 15,
+    "landscape light": 15,
+    "pathway light": 15,
+    "activity kit": 20,
+    "activity set": 20,
+    "craft kit": 15,
+    "science kit": 15,
+    "sticker book": 10
   },
   "repost_days_override": {
     "lego": 3
@@ -603,6 +620,78 @@
       "en": "Tech",
       "he": "גאדג'טים",
       "weight": 1
+    },
+    {
+      "q": "laptop screen extender",
+      "en": "Work from home",
+      "he": "עבודה מהבית",
+      "weight": 3
+    },
+    {
+      "q": "portable monitor usb c",
+      "en": "Work from home",
+      "he": "עבודה מהבית",
+      "weight": 3
+    },
+    {
+      "q": "solar security camera outdoor",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 3
+    },
+    {
+      "q": "wifi security camera outdoor",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 2
+    },
+    {
+      "q": "indoor security camera",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 2
+    },
+    {
+      "q": "baby monitor camera",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 2
+    },
+    {
+      "q": "solar garden lights outdoor",
+      "en": "Outdoor lighting",
+      "he": "תאורת חוץ",
+      "weight": 3
+    },
+    {
+      "q": "outdoor string lights",
+      "en": "Outdoor lighting",
+      "he": "תאורת חוץ",
+      "weight": 2
+    },
+    {
+      "q": "solar wall light motion sensor",
+      "en": "Outdoor lighting",
+      "he": "תאורת חוץ",
+      "weight": 2
+    },
+    {
+      "q": "kids activity set",
+      "en": "Kids activities",
+      "he": "פעילות לילדים",
+      "weight": 3
+    },
+    {
+      "q": "kids science experiment kit",
+      "en": "Kids activities",
+      "he": "פעילות לילדים",
+      "weight": 2
+    },
+    {
+      "q": "sticker activity book kids",
+      "en": "Kids activities",
+      "he": "פעילות לילדים",
+      "weight": 2
     }
   ],
   "ali_min_price_usd": 5,
