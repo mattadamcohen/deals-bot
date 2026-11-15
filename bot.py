@@ -534,6 +534,7 @@ def main():
         return
     cats = CONFIG["categories"]
     only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
+    keyword = (arg("keyword") or "").lower()  # e.g. --keyword lego: only items whose title contains it
     targeted = bool(only)
     min_discount = int(arg("min-discount", 0) or 0)
     max_posts = int(arg("max-posts", CONFIG["max_posts_per_run"]))
@@ -573,7 +574,8 @@ def main():
         r = it.get("rank") or 99
         popularity = 40 if r <= 3 else 30 if r <= 10 else 20 if r <= 20 else 10
         trending = 15 if it.get("source") == "movers-and-shakers" else 0
-        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (15 if branded else 0)
+        boost = sum(v for k, v in CONFIG.get("boost_keywords", {}).items() if k in title)
+        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (15 if branded else 0) + boost
 
     def post(it, info, category):
         nonlocal posted_now
@@ -636,8 +638,12 @@ def main():
             for it in items:
                 if checked >= budget or posted_now >= max_posts:
                     break
+                if keyword and keyword not in (it.get("title") or "").lower():
+                    continue
                 asin = it["asin"]
-                if is_recent(state["posted"].get(asin, ""), CONFIG["repost_after_days"]):
+                low_t = (it.get("title") or "").lower()
+                days = min([d for k, d in CONFIG.get("repost_days_override", {}).items() if k in low_t] or [CONFIG["repost_after_days"]])
+                if is_recent(state["posted"].get(asin, ""), days):
                     continue
                 if is_recent(state["not_free"].get(asin, ""), CONFIG["recheck_not_free_after_days"]):
                     continue
@@ -652,7 +658,9 @@ def main():
                     log("     no price found, skipping")
                     continue
                 fams = [f for f in (info.get("parent_asin"), title_family(info.get("title"))) if f]
-                if any(is_recent(state.get("families", {}).get(f, ""), CONFIG["repost_after_days"]) for f in fams):
+                low = (info.get("title") or "").lower()
+                days = min([d for k, d in CONFIG.get("repost_days_override", {}).items() if k in low] or [CONFIG["repost_after_days"]])
+                if any(is_recent(state.get("families", {}).get(f, ""), days) for f in fams):
                     log("     same product (other color/size) was posted recently, skipping")
                     continue
                 if discount_pct(info) < min_discount:

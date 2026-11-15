@@ -203,7 +203,7 @@
       "slug": "toys-and-games/166092011",
       "en": "Building Toys",
       "he": "צעצועי הרכבה",
-      "weight": 1
+      "weight": 3
     },
     {
       "slug": "toys-and-games/166220011",
@@ -436,5 +436,11 @@
   "carousel_slots": [
     16
   ],
-  "block_cooldown_minutes": 60
+  "block_cooldown_minutes": 60,
+  "boost_keywords": {
+    "lego": 25
+  },
+  "repost_days_override": {
+    "lego": 3
+  }
 }

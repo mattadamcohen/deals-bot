@@ -16,6 +16,10 @@ on:
         description: "Only post items with at least this % off"
         type: string
         default: "0"
+      keyword:
+        description: "Only items whose title contains this word (e.g. lego)"
+        type: string
+        default: ""
       force:
         description: "Post now even if it's not this slot's turn"
         type: boolean
@@ -62,6 +66,7 @@ jobs:
           MIN_DISCOUNT: ${{ inputs.min_discount }}
           MAX_POSTS: ${{ inputs.max_posts }}
           FORCE: ${{ inputs.force && '1' || '' }}
+          KEYWORD: ${{ inputs.keyword }}
           BACKFILL: ${{ inputs.backfill }}
         run: |
           if [ "${{ inputs.test_telegram }}" = "true" ]; then
