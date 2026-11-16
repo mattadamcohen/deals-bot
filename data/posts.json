@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B074PVTPBW",
-  "title": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct",
-  "title_he": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct",
-  "price": "$11.97",
-  "was": "",
-  "discount": "8%",
-  "rating": "4.6",
-  "reviews": "187,312",
-  "rank": 2,
-  "source": "bestsellers",
-  "message_id": 9,
-  "image": "https://m.media-amazon.com/images/I/619GVXIlhjL._SL1500_.jpg",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-14T10:36:43.455648+00:00",
-  "variant": 483
- },
- {
   "asin": "B0BGWYD9KC",
   "title": "Ninja Blast Rechargeable Game Activity Cube - Toys for Boys and Girls - 9 Fun Brain & Memory Games - Birthday Gifts for Age 6, 7, 8, 9, 10, 11, 12 Year Old Kids Teens - Best Boy Toy Gift Ideas",
   "title_he": "Ninja Blast Rechargeable Game Activity Cube - Toys for Boys and Girls - 9 Fun Brain & Memory Games - Birthday Gifts for Age 6, 7, 8, 9,…",
@@ -835,5 +816,33 @@
   "category_en": "Bedding",
   "category_he": "מצעים",
   "posted_at": "2026-11-16T12:46:27.820226+00:00"
+ },
+ {
+  "asin": "ali-1005007805565555",
+  "title": "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook ﻿",
+  "title_he": "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook ﻿",
+  "price": "$10.79",
+  "was": "$24.52",
+  "discount": "55%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 61,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S975c9b8327a14ff1ab1f62b728108a22K.jpg",
+  "variant": 688,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mlAJjNa86bioVpmOMzR5vL70EI5uIpzMFbpV0mS7WAoHfHvL1B5TsAjtnKnjRIxyBIAuqD8UaiVJB2ny037y2xHPH7EfjzR3Zgb73TQxTlC5YaflHdqDxejtU1jTZZZll1ah2uwa5dptglei0wVWVKCmAyM5h4ROvmP1fs4LAKA9hqkC5gHLmRQFY0Qu1zcjfzqKUwuNsmQLbInIXyoTmXM4TBULCQJYe0XS09fyoVoLUf2kUz6SWnRK7ltQ4xtzzRiLvyXF8IdEgdsILTGTlwa2ZTlUKSgSbBtRsIkzmdnD9VvBYFC8ZvwADzTNZCaGAKdiXJbd7jJCxDfQLkbZtaoBAY4dcZvPEFcDS7YAa4zQYZcYakJ96mchDgrZ1HozMkHygvFMDudVvxCch8UMoVlXv73vuHLMC4Wsgxdclk5SjRu0C5NGTns7dqNsXElqgaSUqMFjnDqY9c5EDKQodLc0HbCECWjm78ozyYkpKVZHmi32qAJS6yxndJXL6wmEvS1U8Km5uyEibmL0zskqUmDuKOgKoKuuz419WOHHv949YcEGIFnbzrjok408sXujBldkECrMD7l8rh4XOmkBKpGPXJqdnwjmj4eSFtNmoRHWDNhdQ74gLHhdm3200rAL16WmmAS4OQbpTui9r8ncHDc1JjaCgzlcpLDvJHmLVvuYKoFLkZMQF8Z7KDZlARs0lnDEd8yXny8pE",
+  "sold": "1,000",
+  "album_ids": [
+   61,
+   62,
+   63
+  ],
+  "coupon": "",
+  "category_slug": "aliexpress/outdoor string lights",
+  "category_en": "Outdoor lighting",
+  "category_he": "תאורת חוץ",
+  "posted_at": "2026-11-16T13:16:21.039689+00:00"
  }
 ]

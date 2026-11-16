@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 16
+  "2026-11-16": 17
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
@@ -53,6 +53,7 @@
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
+  "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
@@ -65,7 +66,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00"
  },
  "last_harvest_at": "2026-11-16T10:34:56.983544+00:00",
- "last_post_at": "2026-11-16T12:46:27.821561+00:00",
+ "last_post_at": "2026-11-16T13:16:21.041168+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -412,6 +413,7 @@
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
+  "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
@@ -419,13 +421,12 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
  },
  "recent_categories": [
-  "aliexpress/Netac",
   "videogames",
   "aliexpress/Baseus Security B1",
-  "home-garden/1063252"
+  "home-garden/1063252",
+  "aliexpress/outdoor string lights"
  ],
  "recent_titles": [
-  "Stainless Steel Can Opener Multifunctional Grip Opener Side Cut Professional Tins Bottle Opener Kitchen Gadgets",
   "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
   "Baby Head Protector Backpack Pillow For Kids 1-3 Y Toddler Children Soft PP Cotton Protective Cushion Cartoon Security Pillows",
   "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey",
@@ -436,7 +437,8 @@
   "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
   "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
   "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
-  "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White"
+  "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White",
+  "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff"
  ],
- "since_ali": 1
+ "since_ali": 0
 }
