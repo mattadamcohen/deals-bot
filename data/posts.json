@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0BSRFKKZJ",
-  "title": "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
-  "title_he": "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
-  "price": "$11.62",
-  "was": "",
-  "discount": "11%",
-  "rating": "4.5",
-  "reviews": "58,965",
-  "rank": 23,
-  "source": "bestsellers",
-  "message_id": 14,
-  "image": "https://m.media-amazon.com/images/I/61TVVmJzoLL._AC_SL1500_.jpg",
-  "variant": 145,
-  "category_slug": "hpc",
-  "category_en": "Health & Household",
-  "category_he": "בריאות ומשק בית",
-  "posted_at": "2026-11-14T17:08:14.169989+00:00"
- },
- {
   "asin": "B0BZYCJK89",
   "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
   "title_he": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
@@ -876,5 +857,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-16T15:31:30.639875+00:00"
+ },
+ {
+  "asin": "B0FG25KJLY",
+  "title": "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
+  "title_he": "חותלות אימון קלות של YEOREO חותלות ישרות לנשים Ediy Gym Yoga מכנסי",
+  "price": "$29.99",
+  "was": "$35.99",
+  "discount": "17%",
+  "rating": "4.2",
+  "reviews": "4,501",
+  "rank": 7,
+  "source": "bestsellers",
+  "message_id": 74,
+  "image": "https://m.media-amazon.com/images/I/51ALuls6oZL._AC_SL1500_.jpg",
+  "variant": 984,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   74,
+   75,
+   76
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/06acea7e-de9d-46e1-af90-705395e9ea75/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/1040660",
+  "category_en": "Women's Clothing",
+  "category_he": "ביגוד נשים",
+  "posted_at": "2026-11-16T16:01:02.941362+00:00"
  }
 ]
