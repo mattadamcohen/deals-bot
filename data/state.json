@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 27
+  "2026-11-16": 28
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -25,6 +25,7 @@
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
+  "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
@@ -82,7 +83,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T18:45:48.228228+00:00",
+ "last_post_at": "2026-11-16T19:17:07.482160+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -404,12 +405,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-16T18:16:18.789270+00:00",
-   "id": "1005010105528998",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c2xRlamz"
-  },
-  {
    "at": "2026-11-16T18:30:43.072121+00:00",
    "id": "3256809276696571",
    "store": "aliexpress",
@@ -468,6 +463,7 @@
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
+  "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
@@ -476,13 +472,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/wifi security camera outdoor",
   "pick",
-  "aliexpress/Sonoff"
+  "aliexpress/Sonoff",
+  "pick"
  ],
  "recent_titles": [
-  "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White",
   "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff",
   "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla",
   "YZ For Tesla Model Y Juniper 2025-2026 TPE Car Floor Mats With Metal Pedals Luggage Trunk Mat Set Four Seasons Waterproof Anti-s",
@@ -493,7 +488,8 @@
   "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
   "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
   "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
-  "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home"
+  "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home",
+  "Adidas Genuine Originals Men's Durable Low-Top Casual Shoes JS3994"
  ],
  "since_ali": 0,
  "tg_offset": 260136069

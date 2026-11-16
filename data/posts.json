@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B000OR2RNM",
-  "title": "D'Addario EJ16-3D Phosphor Bronze Acoustic Guitar Strings 12-53, 3 Sets",
-  "title_he": "D'Addario EJ16-3D Phosphor Bronze Acoustic Guitar Strings 12-53, 3 Sets",
-  "price": "$24.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.7",
-  "reviews": "38,922",
-  "rank": 5,
-  "source": "bestsellers",
-  "message_id": 20,
-  "image": "https://m.media-amazon.com/images/I/81dS6RLrIGL._AC_SL1500_.jpg",
-  "variant": 747,
-  "category_slug": "musical-instruments",
-  "category_en": "Musical Instruments",
-  "category_he": "כלי נגינה",
-  "posted_at": "2026-11-15T06:33:10.994432+00:00"
- },
- {
   "asin": "B0888D24PM",
   "title": "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
   "title_he": "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
@@ -936,5 +917,34 @@
   "category_en": "Top brands",
   "category_he": "מותגים מובילים",
   "posted_at": "2026-11-16T18:45:48.225857+00:00"
+ },
+ {
+  "asin": "ali-1005010105528998",
+  "title": "Adidas Genuine Originals Men's Durable Low-Top Casual Shoes JS3994",
+  "title_he": "Adidas Genuine Originals גברים עמידות נמוך נמוך נעלי קז'ואל JS3994",
+  "price": "$52.59",
+  "was": "",
+  "discount": "",
+  "rating": "86.7%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 92,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc287a532940946b9ad0dba39ac23e6d99.jpg",
+  "variant": 725,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C22tJeOIUnQVnJo0QEa3X2MldzbgABVE2Dd7QZeQgjv7XcYvHeOZpqhspOoZY737INqrmchv6RLLqrq6AltgswqQ2pJqleX735jmoKy8rpPpJYvoyZQCH8yNeirmkUyDVhCJSxazbqpgV25Y8JmctNTeIwBdgzOm8pigJegM2JOeMLC0oEbrI3AECtdi6TDcu58nTlZcyx89r3a7GmidzcdD2e7fLvKNFtSCs4Vqy8eb0RtylGACa0qe9XyLwYkCIGbAekGhH7P1q0goWR6ZQq7N7DrdHb5bukbIaziDY91pQT3ycK6NVChntbeK9U0thv5r3Yn5UgGGmzU9Ovd8JlOelIW2dyOjnLs9E5XKoO1u8jXusgzJ5WgFgqf9BaSiJU6Ui8U652nfiqOR777QwiXNeg1DkZI62Qc9v3sCS4Rx8bNNqECEppNp2sLsATBQwln7QScHDt2rWqxmGzGi4PswBMN71oIt3sKnB2eLlg4NPS5COiK9MpVi2SUsHtpN48UihUGNjgW1Z1tAmDtoVwTGWXtgVWJzilgqSTX54Rb2f8pyFdVL6skcHTwtim1xW4MoFvUN2gTJ4oIWtdRJJxXxGtdSeVNI7uo0HLTzxGafOS5YBq7R2SeoBMFqvpJK60iNOeTliFw3ZJIe55XH8X8Qc2IjB3jjGdnuG6Vi0OmTLwTDViG81W5T1ZVIjZFiC31pkIn1nYedUA",
+  "sold": "8",
+  "album_ids": [
+   92,
+   93,
+   94
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-16T19:17:07.480205+00:00"
  }
 ]
