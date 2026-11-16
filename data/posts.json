@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0BGWYD9KC",
-  "title": "Ninja Blast Rechargeable Game Activity Cube - Toys for Boys and Girls - 9 Fun Brain & Memory Games - Birthday Gifts for Age 6, 7, 8, 9, 10, 11, 12 Year Old Kids Teens - Best Boy Toy Gift Ideas",
-  "title_he": "Ninja Blast Rechargeable Game Activity Cube - Toys for Boys and Girls - 9 Fun Brain & Memory Games - Birthday Gifts for Age 6, 7, 8, 9,…",
-  "price": "$24.99",
-  "was": "",
-  "discount": "34%",
-  "rating": "4.6",
-  "reviews": "3,700",
-  "rank": 29,
-  "source": "bestsellers",
-  "message_id": 10,
-  "image": "https://m.media-amazon.com/images/I/81P8W3UH6nL._AC_SL1500_.jpg",
-  "category_slug": "toys-and-games/166220011",
-  "category_en": "Games",
-  "category_he": "משחקים",
-  "posted_at": "2026-11-14T12:25:03.949514+00:00",
-  "variant": 315
- },
- {
   "asin": "B07FPQZG6V",
   "title": "GORILLA GRIP Bath Rug Mat for Bathroom, Absorbent Chenille, 24x17 Grey",
   "title_he": "GORILLA GRIP Bath Rug Mat for Bathroom, Absorbent Chenille, 24x17 Grey",
@@ -844,5 +825,29 @@
   "category_en": "Outdoor lighting",
   "category_he": "תאורת חוץ",
   "posted_at": "2026-11-16T13:16:21.039689+00:00"
+ },
+ {
+  "asin": "B0H2FQ5FV1",
+  "title": "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla",
+  "title_he": "HydroJug Traveller 32oz, בקבוק מים מבודד עם ידית, וניל צרפתי",
+  "price": "$39.99",
+  "was": "",
+  "discount": "",
+  "rating": "4.6",
+  "reviews": "21,468",
+  "rank": 5,
+  "source": "bestsellers",
+  "message_id": 64,
+  "image": "https://m.media-amazon.com/images/I/619aFkeAamL._AC_SL1500_.jpg",
+  "variant": 606,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": "",
+  "coupon": "",
+  "category_slug": "kitchen",
+  "category_en": "Kitchen & Dining",
+  "category_he": "מטבח ואירוח",
+  "posted_at": "2026-11-16T13:46:30.720757+00:00"
  }
 ]

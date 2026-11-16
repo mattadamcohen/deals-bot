@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 17
+  "2026-11-16": 18
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
@@ -9,6 +9,7 @@
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
   "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
+  "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
@@ -37,6 +38,7 @@
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
+  "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
@@ -66,7 +68,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00"
  },
  "last_harvest_at": "2026-11-16T10:34:56.983544+00:00",
- "last_post_at": "2026-11-16T13:16:21.041168+00:00",
+ "last_post_at": "2026-11-16T13:46:30.722333+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -404,6 +406,7 @@
   "B0FK124QCT": "2026-11-16T09:31:23.847385+00:00",
   "B0FK1LF5PM": "2026-11-15T12:07:07.358554+00:00",
   "B0GZWZH2L8": "2026-11-14T07:10:36.637185+00:00",
+  "B0H2FQ5FV1": "2026-11-16T13:46:30.672511+00:00",
   "B0H71RGBQ3": "2026-11-15T17:09:36.677208+00:00",
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
@@ -421,13 +424,12 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
  },
  "recent_categories": [
-  "videogames",
   "aliexpress/Baseus Security B1",
   "home-garden/1063252",
-  "aliexpress/outdoor string lights"
+  "aliexpress/outdoor string lights",
+  "kitchen"
  ],
  "recent_titles": [
-  "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
   "Baby Head Protector Backpack Pillow For Kids 1-3 Y Toddler Children Soft PP Cotton Protective Cushion Cartoon Security Pillows",
   "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey",
   "Essager 240W USB Type C To USB C Cable 100W PD 3.1 Fast Charging Charger Wire For iPhone 15 Pro max Macbook Pro Xiaomi Samsung",
@@ -438,7 +440,8 @@
   "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
   "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
   "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White",
-  "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff"
+  "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff",
+  "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla"
  ],
- "since_ali": 0
+ "since_ali": 1
 }
