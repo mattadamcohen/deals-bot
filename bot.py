@@ -646,6 +646,11 @@ def ali_ok(p):
         return False
     if int(p.get("lastest_volume") or 0) < CONFIG.get("ali_min_sold", 500):
         return False
+    # fake-capacity storage scam: "2TB" SD cards / flash drives / SSDs for a few dollars
+    tl = (p.get("product_title") or "").lower()
+    if re.search(r"\b(sd|tf|micro ?sd|memory|flash|usb|pen ?drive|ssd|hard drive|card)\b", tl) and \
+            re.search(r"\b([1-9]\d*) ?tb\b", tl) and price < 60:
+        return False
     return money(p.get("evaluate_rate")) >= CONFIG.get("ali_min_rating_pct", 90)
 
 
