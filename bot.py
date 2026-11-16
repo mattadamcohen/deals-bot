@@ -663,7 +663,8 @@ def ali_ok(p):
     title = (p.get("product_title") or "").lower()
     if price < CONFIG.get("ali_min_price_usd", 0) and not any(k in title for k in CONFIG.get("ali_min_price_exempt", [])):
         return False
-    if int(p.get("lastest_volume") or 0) < CONFIG.get("ali_min_sold", 500):
+    squishy = any(k in (p.get("product_title") or "").lower() for k in CONFIG.get("ali_min_price_exempt", []))
+    if int(p.get("lastest_volume") or 0) < (CONFIG.get("ali_min_sold_exempt", 200) if squishy else CONFIG.get("ali_min_sold", 500)):
         return False
     # fake-capacity storage scam: "2TB" SD cards / flash drives / SSDs for a few dollars
     tl = (p.get("product_title") or "").lower()

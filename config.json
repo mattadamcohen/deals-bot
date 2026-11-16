@@ -895,6 +895,30 @@
       "en": "Top brands",
       "he": "מותגים מובילים",
       "weight": 2
+    },
+    {
+      "q": "squishy advent calendar",
+      "en": "Squishies",
+      "he": "סקווישים",
+      "weight": 2
+    },
+    {
+      "q": "squishy surprise box",
+      "en": "Squishies",
+      "he": "סקווישים",
+      "weight": 2
+    },
+    {
+      "q": "squishy blind box",
+      "en": "Squishies",
+      "he": "סקווישים",
+      "weight": 2
+    },
+    {
+      "q": "squishy set",
+      "en": "Squishies",
+      "he": "סקווישים",
+      "weight": 2
     }
   ],
   "ali_min_price_usd": 5,
@@ -1023,5 +1047,6 @@
   "coupon_min_off_usd": 2,
   "ali_sale_share": 0.4,
   "coupon_hour": 11,
-  "coupons": []
+  "coupons": [],
+  "ali_min_sold_exempt": 200
 }
