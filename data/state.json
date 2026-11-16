@@ -399,7 +399,20 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "at": "2026-11-16T18:00:52.147096+00:00",
+   "id": "B06W2JSJ4H",
+   "store": "amazon",
+   "url": "https://a.co/d/094lRPTG"
+  },
+  {
+   "at": "2026-11-16T18:00:56.187540+00:00",
+   "id": "3256805689064965",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3tzTj8d"
+  }
+ ],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
@@ -478,5 +491,5 @@
   "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee"
  ],
  "since_ali": 0,
- "tg_offset": 260136065
+ "tg_offset": 260136067
 }
