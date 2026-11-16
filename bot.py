@@ -576,7 +576,7 @@ def pool_take(state, keyfn=None):
     def ok(v):
         fams = [f for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))) if f]
         return not any(is_recent(state.get("families", {}).get(f, ""), CONFIG["repost_after_days"]) for f in fams)
-    choices = [v for v in pool.values() if ok(v)]
+    choices = [v for v in pool.values() if ok(v) and not clashes(state, v["info"].get("title"))]
     POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
     if not choices:
         return None
@@ -657,6 +657,8 @@ def ali_pick(state):
                 continue
             if not p.get("promotion_link"):
                 continue
+            if clashes(state, p.get("product_title")):
+                continue
             sold = int(p.get("lastest_volume") or 0)
             was = p.get("target_original_price")
             info = {"title": clean(p.get("product_title")), "price": f"${money(p.get('target_sale_price')):.2f}",
@@ -708,6 +710,37 @@ def shekels(text):
     if not usd or not rate:
         return text
     return f"~₪{round(usd * rate):,}"
+
+
+# ---------------------------------------------------------------- variety
+
+def product_type(title):
+    t = f" {(title or '').lower()} "
+    for k in CONFIG.get("product_types", []):  # list order matters: specific before generic
+        if re.search(r"[\s\W]" + re.escape(k), t):
+            return k
+    return None
+
+
+def brand_of(title):
+    t = (title or "").lower()
+    for b in CONFIG.get("brands", []):
+        if t.startswith(b.lower() + " ") or f" {b.lower()} " in f" {t[:40]} ":
+            return b.lower()
+    return None
+
+
+def clashes(state, title):
+    """Variety across BOTH stores: no same product type in the last few posts, no same brand back to back."""
+    if "recent_titles" not in state:  # first run with this rule: start from the posts log
+        state["recent_titles"] = [x.get("title", "") for x in load_json(ROOT / "data" / "posts.json", [])][-12:]
+    recent = state["recent_titles"]
+    typ, brand = product_type(title), brand_of(title)
+    if typ and typ in [product_type(x) for x in recent[-CONFIG.get("diversity_posts", 6):]]:
+        return f"another {typ} was posted recently"
+    if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
+        return f"{brand} was posted recently"
+    return None
 
 
 def israel_now():
@@ -822,6 +855,7 @@ def main():
                 today = israel_now().date().isoformat()
                 state["day_counts"] = {today: state.get("day_counts", {}).get(today, 0) + 1}
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
+                state["recent_titles"] = (state.get("recent_titles", []) + [merged.get("title") or ""])[-12:]
                 if it.get("store") != "aliexpress":
                     state["since_ali"] = state.get("since_ali", 0) + 1
             posted_now += 1
@@ -985,8 +1019,13 @@ def main():
             candidates.sort(key=lambda c: -c[0])
             for sc, it, info, category in candidates[:3]:
                 log(f"  candidate score={sc} #{it['rank']} {it.get('source')} off={discount_pct(info)}% {info['title'][:50]}")
-            _, it, info, category = candidates[0]
-            post(it, info, category)
+            varied = [c for c in candidates if not clashes(state, c[2].get("title"))]
+            if varied:
+                _, it, info, category = varied[0]
+                post(it, info, category)
+            else:
+                log("  every candidate repeats a recent product type/brand; posting from stock instead")
+                post_reserve("Variety")
     except Blocked as e:
         mins = CONFIG.get("block_cooldown_minutes", 60)
         log(f"\n! Amazon showed a robot check ({e}). Pausing Amazon requests for {mins} minutes.")
