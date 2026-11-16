@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 29
+  "2026-11-16": 30
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -82,10 +82,11 @@
   "wrangler relaxed fit stretch": "2026-11-15T07:17:56.490377+00:00",
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
-  "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
+  "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
+  "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-16T19:48:57.396625+00:00",
- "last_post_at": "2026-11-16T19:49:00.787953+00:00",
+ "last_post_at": "2026-11-16T20:16:54.527704+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -465,6 +466,7 @@
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
+  "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
@@ -478,13 +480,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/Sonoff",
   "pick",
-  "fashion/679337011"
+  "fashion/679337011",
+  "aliexpress/laptop screen extender"
  ],
  "recent_titles": [
-  "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla",
   "YZ For Tesla Model Y Juniper 2025-2026 TPE Car Floor Mats With Metal Pedals Luggage Trunk Mat Set Four Seasons Waterproof Anti-s",
   "Trendy Queen Women's 2 Piece 2026 Fall Fashion Lounge Set with Pockets",
   "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
@@ -495,8 +496,9 @@
   "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
   "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home",
   "Adidas Genuine Originals Men's Durable Low-Top Casual Shoes JS3994",
-  "Skechers Women's Max Cushioning Endeavour"
+  "Skechers Women's Max Cushioning Endeavour",
+  "ZSUS 10.5-Inch Portable Monitor 1280P 100%sRGB 15:10 Low Blue Light For XBox PS4 / 5 Switch Cell Phone PC Loptop Extension"
  ],
- "since_ali": 1,
- "tg_offset": 260136069
+ "since_ali": 0,
+ "tg_offset": 260136070
 }
