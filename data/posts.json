@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B07PBXXNCY",
-  "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ultra Soft, 1 Pack, 50 Ct",
-  "title_he": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover…",
-  "price": "$17.95",
-  "was": "",
-  "discount": "",
-  "rating": "4.8",
-  "reviews": "48,700",
-  "rank": 3,
-  "source": "bestsellers",
-  "message_id": 18,
-  "image": "https://m.media-amazon.com/images/I/61Cn1ooILhL._SL1077_.jpg",
-  "variant": 309,
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-15T05:02:06.023722+00:00"
- },
- {
   "asin": "B07GQ8J4QX",
   "title": "12X25 Small Pocket Binoculars Compact for Adults",
   "title_he": "12X25 Small Pocket Binoculars Compact for Adults",
@@ -916,5 +897,34 @@
   "category_en": "Smart home",
   "category_he": "בית חכם",
   "posted_at": "2026-11-16T17:46:40.085064+00:00"
+ },
+ {
+  "asin": "B06W2JSJ4H",
+  "title": "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
+  "title_he": "שעון תלת ידיים לגברים פוסיל מינימליסטי קוורץ נירוסטה",
+  "price": "$66.04",
+  "was": "$78.68",
+  "discount": "16%",
+  "rating": "4.5",
+  "reviews": "3,024",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 86,
+  "image": "https://m.media-amazon.com/images/I/81sLG+YEFqL._AC_SL1500_.jpg",
+  "variant": 772,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   86,
+   87,
+   88
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/26f60e49-da60-438e-8a6d-1872c475617b/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-16T18:16:27.063925+00:00"
  }
 ]

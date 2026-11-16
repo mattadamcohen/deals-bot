@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 25
+  "2026-11-16": 26
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -13,6 +13,7 @@
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
+  "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F9T4SMR9": "2026-11-16T15:04:51.206817+00:00",
   "B0FG22LPQN": "2026-11-16T16:01:02.943620+00:00",
@@ -40,6 +41,7 @@
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
+  "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
@@ -79,7 +81,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T17:46:40.086690+00:00",
+ "last_post_at": "2026-11-16T18:16:27.065522+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -401,16 +403,16 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-16T18:00:52.147096+00:00",
-   "id": "B06W2JSJ4H",
-   "store": "amazon",
-   "url": "https://a.co/d/094lRPTG"
-  },
-  {
    "at": "2026-11-16T18:00:56.187540+00:00",
    "id": "3256805689064965",
    "store": "aliexpress",
    "url": "https://s.click.aliexpress.com/e/_c3tzTj8d"
+  },
+  {
+   "at": "2026-11-16T18:16:18.789270+00:00",
+   "id": "1005010105528998",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c2xRlamz"
   }
  ],
  "posted": {
@@ -420,6 +422,7 @@
   "B0160HYB8S": "2026-11-14T16:08:08.009745+00:00",
   "B01M0AGUPO": "2026-11-16T12:46:27.773496+00:00",
   "B01M16WBW1": "2026-11-15T09:02:39.794924+00:00",
+  "B06W2JSJ4H": "2026-11-16T18:16:27.038328+00:00",
   "B0725WFLMB": "2026-11-16T05:34:38.325606+00:00",
   "B074PVTPBW": "2026-11-14T10:36:43.410211+00:00",
   "B07CMS5Q6P": "2026-11-16T10:34:58.515803+00:00",
@@ -471,13 +474,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040660",
   "pick",
   "pick",
-  "aliexpress/wifi security camera outdoor"
+  "aliexpress/wifi security camera outdoor",
+  "pick"
  ],
  "recent_titles": [
-  "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
   "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
   "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White",
   "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff",
@@ -488,8 +490,9 @@
   "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
   "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
   "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
-  "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee"
+  "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
+  "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men"
  ],
- "since_ali": 0,
- "tg_offset": 260136067
+ "since_ali": 1,
+ "tg_offset": 260136068
 }
