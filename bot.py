@@ -638,6 +638,8 @@ def ali_ok(p):
     cats = f"{p.get('first_level_category_name') or ''} {p.get('second_level_category_name') or ''}"
     if ALI_BLOCK_CATS.search(cats):
         return False
+    if any(k in (p.get("product_title") or "").lower() for k, v in CONFIG.get("demote_keywords", {}).items() if v >= 35):
+        return False  # bedding / linen: Matt wants much less of it
     price = money(p.get("target_sale_price"))
     if not price or price > CONFIG.get("max_price_usd", 75):
         return False
@@ -863,6 +865,7 @@ def main():
         popularity = 40 if r <= 3 else 30 if r <= 10 else 20 if r <= 20 else 10
         trending = 15 if it.get("source") == "movers-and-shakers" else 0
         boost = sum(v for k, v in CONFIG.get("boost_keywords", {}).items() if k in title)
+        boost -= max([v for k, v in CONFIG.get("demote_keywords", {}).items() if k in title] or [0])
         pr = money(info.get("price"))
         value = CONFIG.get("higher_value_bonus", 25) if pr >= CONFIG.get("preferred_min_price_usd", 25) else \
             CONFIG.get("higher_value_bonus", 25) // 2 if pr >= 15 else 0

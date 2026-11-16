@@ -197,7 +197,7 @@
       "slug": "home-garden/1063252",
       "en": "Bedding",
       "he": "מצעים",
-      "weight": 1
+      "weight": 0.1
     },
     {
       "slug": "toys-and-games/166092011",
@@ -987,5 +987,27 @@
   ],
   "diversity_posts": 6,
   "brand_gap_posts": 4,
-  "photos_per_post": 3
+  "photos_per_post": 3,
+  "demote_keywords": {
+    "sheet": 45,
+    "pillowcase": 45,
+    "pillow case": 45,
+    "pillow cover": 45,
+    "cushion cover": 40,
+    "duvet": 45,
+    "comforter": 45,
+    "bedspread": 45,
+    "quilt": 40,
+    "coverlet": 45,
+    "mattress protector": 45,
+    "mattress pad": 45,
+    "mattress topper": 40,
+    "bed skirt": 45,
+    "linen": 40,
+    "bedding": 45,
+    "throw pillow": 35,
+    "bed pillow": 35,
+    "pillows for sleeping": 35,
+    "blanket": 20
+  }
 }
