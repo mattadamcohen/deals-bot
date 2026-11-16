@@ -511,6 +511,7 @@ def send_telegram(item, category):
         return True
     api = f"https://api.telegram.org/bot{TG_TOKEN}"
     urls = [u for u in (item.get("images") or []) if u][:CONFIG.get("photos_per_post", 3)]
+    log(f"  photos available: {len(urls)}")
     if len(urls) >= 2:
         photos = [ph for ph in (square_photo(u) for u in urls) if ph]
         if len(photos) >= 2:
@@ -523,6 +524,7 @@ def send_telegram(item, category):
             if r.ok:
                 msgs = r.json()["result"]
                 item["album_ids"] = [m["message_id"] for m in msgs]
+                log(f"  sent as an album of {len(msgs)} photos")
                 return msgs[0]["message_id"]
             log(f"  album post failed ({r.text[:150]}), sending a single photo")
     if item.get("image"):
