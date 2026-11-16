@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B07GQ8J4QX",
-  "title": "12X25 Small Pocket Binoculars Compact for Adults",
-  "title_he": "12X25 Small Pocket Binoculars Compact for Adults",
-  "price": "$15.99",
-  "was": "$19.99",
-  "discount": "20%",
-  "rating": "4.3",
-  "reviews": "10,687",
-  "rank": 5,
-  "source": "bestsellers",
-  "message_id": 19,
-  "image": "https://m.media-amazon.com/images/I/61GE4COOkTL._AC_SL1500_.jpg",
-  "variant": 26,
-  "category_slug": "photo",
-  "category_en": "Camera & Photo",
-  "category_he": "מצלמות וצילום",
-  "posted_at": "2026-11-15T05:46:42.527903+00:00"
- },
- {
   "asin": "B000OR2RNM",
   "title": "D'Addario EJ16-3D Phosphor Bronze Acoustic Guitar Strings 12-53, 3 Sets",
   "title_he": "D'Addario EJ16-3D Phosphor Bronze Acoustic Guitar Strings 12-53, 3 Sets",
@@ -926,5 +907,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-16T18:16:27.063925+00:00"
+ },
+ {
+  "asin": "ali-1005010552969315",
+  "title": "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home",
+  "title_he": "SONOFF SAWF-08P AirGuard CO2 חומר על גבי Wi-Fi צג איכות אוויר רב-מטרי תואם לחומר סביבתי Alexa Apple Home",
+  "price": "$34.48",
+  "was": "$79.80",
+  "discount": "56%",
+  "rating": "95.1%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 89,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b5b9be5c761470aa9a58ec41a78e6d1f.png",
+  "variant": 657,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oDlnQROWDuT3fVP83MiBIcGBg8XZUG178t6k3xkooo2bp8wWM7WiaY1d2gNk62Sy2H56IH2RLPrmiF94Ef4pWyM3bFdJetts1Xwaofisa7CcaGVODvFY9Hqts84KVhTWfiKsj5S9VWcJZi0VflAcCx4jU95jxsoPEg28bImfuO1KFyT10KDvHmFVBAxmyHDrLoRLPz8VI6Tx5afTmpQavojDriMP5AyNEmqlIphK3p8VoyGsm0z54L7ilFdgSHhy8iQNXkKKjv15iJG8XQhE9vAmncozkiBDjyTvfQCf9IlAGpqz1X6gjfPRj6XwzrW7Y6CE8SsCV7RAQ7KbIFuEd8JQvfFjwzJXYELKF8eZJ7kyBQBxqBAexdeY4U1z9WOcYLdiMf989LNTrX3b8ZLwgW7pzcZUz69DzmHq6jQqUnLhpI6Pa4IHDyuzuELmZrUvijsHHe0pQsIBlSzIdjs84dNDpabiYPGfgVsHwDKiefbKtMuS4QVgHWS0oKeIgtAA3KZn8WM9sqLdZgIWWuEdOVYGzIVkWiwO7zqcBCmZtwHBiCulWKEszIWzzuOvc5N34VePrK459Ju327ojcEPpQE3tQvvJmBtZQDv7JXEN4XQgwcgvIHmkCVVipEorykFAA08udRj5QEO0gOoU3wlL5zQqwWkeWbeq8DiL5InJZmv71MQouh4H8SXI6wMHvvypCHbu9DES87BZC",
+  "sold": "1,000",
+  "album_ids": [
+   89,
+   90,
+   91
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/Sonoff",
+  "category_en": "Top brands",
+  "category_he": "מותגים מובילים",
+  "posted_at": "2026-11-16T18:45:48.225857+00:00"
  }
 ]

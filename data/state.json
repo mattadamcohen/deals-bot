@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 26
+  "2026-11-16": 27
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -66,6 +66,7 @@
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
   "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
+  "sonoff sawf- p airguard": "2026-11-16T18:45:48.228424+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
@@ -81,7 +82,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T18:16:27.065522+00:00",
+ "last_post_at": "2026-11-16T18:45:48.228228+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -403,12 +404,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-16T18:00:56.187540+00:00",
-   "id": "3256805689064965",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3tzTj8d"
-  },
-  {
    "at": "2026-11-16T18:16:18.789270+00:00",
    "id": "1005010105528998",
    "store": "aliexpress",
@@ -475,18 +470,18 @@
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
+  "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/wifi security camera outdoor",
-  "pick"
+  "pick",
+  "aliexpress/Sonoff"
  ],
  "recent_titles": [
-  "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
   "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White",
   "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff",
   "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla",
@@ -497,8 +492,9 @@
   "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
   "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
   "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
-  "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men"
+  "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
+  "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136069
 }
