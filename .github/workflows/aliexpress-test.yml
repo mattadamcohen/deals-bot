@@ -6,8 +6,6 @@ on:
         description: "Optional search keywords"
         required: false
         default: ""
-  push:
-    paths: [".github/workflows/aliexpress-test.yml", "tools/aliexpress.py"]
 jobs:
   test:
     runs-on: ubuntu-latest

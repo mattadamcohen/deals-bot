@@ -162,6 +162,9 @@ def main():
                       f"{(p.get('product_title') or '')[:70]}")
                 print(f"     link ok: {bool(p.get('promotion_link'))}")
         except AliError as e:
+            if "InsufficientPermission" in str(e):
+                print(f"== {name}: not enabled for this app yet (needs the Apply Online approval)")
+                continue
             ok = False
             print(f"== {name}: ERROR {e}")
     if not ok:
