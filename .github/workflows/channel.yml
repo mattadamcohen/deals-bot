@@ -5,7 +5,7 @@ on:
       action:
         description: "What to change"
         type: choice
-        options: [description, title, photo, pin, repin, whoami, edit-posts, reel-latest, ig-whoami, ig-post, ig-media, fix-prices, cleanup]
+        options: [description, title, photo, pin, repin, delete, whoami, edit-posts, reel-latest, ig-whoami, ig-post, ig-media, fix-prices, cleanup]
       value:
         description: "New text, or image path in the repo (e.g. assets/ilamazondeals-logo.png)"
         required: false
@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }  # latest data, not the snapshot from when the run was queued
       - run: sudo apt-get install -y -qq libfribidi0 libraqm0 > /dev/null || true
       - run: pip install -r requirements.txt
       - name: Run
