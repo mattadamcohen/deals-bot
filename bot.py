@@ -660,7 +660,11 @@ def ali_pick(state):
     import aliexpress
     queries = CONFIG.get("ali_queries", [])
     tried = 0
-    for q in random.choices(queries, weights=[x.get("weight", 1) for x in queries], k=min(4, len(queries))):
+    picks = random.choices(queries, weights=[x.get("weight", 1) for x in queries], k=min(4, len(queries)))
+    if arg("keyword"):  # targeted: e.g. --keyword "baseus security b1"
+        kw = arg("keyword").lower()
+        picks = [{"q": arg("keyword"), "require": kw, "en": arg("category-en", "Top picks"), "he": arg("category-he", "בחירות שלנו")}]
+    for q in picks:
         tried += 1
         try:
             prods = aliexpress.search(keywords=q["q"], page=random.randint(1, 3), page_size=50)
