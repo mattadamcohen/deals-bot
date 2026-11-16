@@ -414,7 +414,8 @@ def pick(options, v):
 
 def block(item, category, title, L, extra=(), v=0):
     ali = item.get("store") == "aliexpress"
-    head = pick(L["ali_head"] if ali else L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"], v)
+    head = pick(L["pick_head"] if item.get("source") == "pick" else L["ali_head"] if ali
+                else L["trending"] if item.get("source") == "movers-and-shakers" else L["rank"], v)
     intro = pick(L.get("intro", [""]), v // 3)
     lines = ([intro, ""] if intro else []) + [f"🔥 {esc(head.format(rank=item['rank'], category=category, sold=item.get('sold', '')))}", "",
                                               f"<b>{esc(short(title))}</b>", ""]
@@ -714,6 +715,22 @@ def ali_ok(p, official=False):
     return money(p.get("evaluate_rate")) >= CONFIG.get("ali_min_rating_pct", 90)
 
 
+def ali_info(p):
+    sold = int(p.get("lastest_volume") or 0)
+    was = p.get("target_original_price")
+    info = {"title": clean(p.get("product_title")), "price": f"${money(p.get('target_sale_price')):.2f}",
+            "was": f"${money(was):.2f}" if money(was) > money(p.get("target_sale_price")) else "",
+            "discount": p.get("discount") if money(p.get("discount")) >= 5 else "",
+            "rating": p.get("evaluate_rate") or "", "image": p.get("product_main_image_url"),
+            "images": ([p.get("product_main_image_url")] + [u for u in ((p.get("product_small_image_urls") or {}).get("string") or [])
+                                                           if u != p.get("product_main_image_url")])[:CONFIG.get("photos_per_post", 3)],
+            "link": p.get("promotion_link") or "", "store": "aliexpress",
+            "sold": f"{sold // 1000},000" if sold >= 1000 else str(sold)}
+    info["coupon"] = ali_coupon(p)
+    info["video"] = p.get("product_video_url") or ""
+    return info
+
+
 def ali_pick(state):
     """Find one AliExpress deal: a random family-friendly search, best-selling first, not posted recently."""
     sys.path.insert(0, str(ROOT / "tools"))
@@ -763,18 +780,7 @@ def ali_pick(state):
                 continue
             if clashes(state, p.get("product_title")):
                 continue
-            sold = int(p.get("lastest_volume") or 0)
-            was = p.get("target_original_price")
-            info = {"title": clean(p.get("product_title")), "price": f"${money(p.get('target_sale_price')):.2f}",
-                    "was": f"${money(was):.2f}" if money(was) > money(p.get("target_sale_price")) else "",
-                    "discount": p.get("discount") if money(p.get("discount")) >= 5 else "",
-                    "rating": p.get("evaluate_rate") or "", "image": p.get("product_main_image_url"),
-                    "images": ([p.get("product_main_image_url")] + [u for u in ((p.get("product_small_image_urls") or {}).get("string") or [])
-                                                                   if u != p.get("product_main_image_url")])[:CONFIG.get("photos_per_post", 3)],
-                    "link": p["promotion_link"], "store": "aliexpress",
-                    "sold": f"{sold // 1000},000" if sold >= 1000 else str(sold)}
-            info["coupon"] = ali_coupon(p)
-            info["video"] = p.get("product_video_url") or ""
+            info = ali_info(p)
             it = {"asin": pid, "rank": 0, "source": "aliexpress", "store": "aliexpress"}
             return it, info, {"slug": f"aliexpress/{q['q']}", "en": q["en"], "he": q["he"]}
     log(f"  no new AliExpress deal found in {tried} searches")
@@ -849,6 +855,111 @@ def clashes(state, title):
     if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
         return f"{brand} was posted recently"
     return None
+
+
+# ---------------------------------------------------------------- Matt's picks (links sent to the bot)
+
+def tg_owner(text):
+    owner = str(CONFIG.get("owner_chat_id", ""))
+    if owner and TG_TOKEN and not DRY_RUN:
+        try:
+            requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
+                          data={"chat_id": owner, "text": text, "disable_web_page_preview": "true"}, timeout=20)
+        except Exception:
+            pass
+
+
+def resolve(url):
+    try:
+        return requests.get(url, timeout=20, allow_redirects=True, headers={"User-Agent": "Mozilla/5.0"}).url
+    except Exception:
+        return url
+
+
+def parse_pick(url):
+    """Amazon or AliExpress product link (incl. short links) -> ('amazon', ASIN) / ('aliexpress', id) / None."""
+    u = url
+    if re.search(r"amzn\.to|a\.co/|amzn\.eu|link\.amazon|s\.click\.aliexpress|a\.aliexpress\.com|aliexpress\.com/e/", u):
+        u = resolve(u)
+    m = re.search(r"amazon\.[a-z.]+/(?:[^/]+/)?(?:dp|gp/product|gp/aw/d)/([A-Z0-9]{10})", u)
+    if m:
+        return "amazon", m.group(1)
+    m = re.search(r"aliexpress\.[a-z.]+/item/(\d+)\.html", u) or re.search(r"[?&]productIds?=(\d+)", u)
+    if m:
+        return "aliexpress", m.group(1)
+    return None
+
+
+def inbox(state):
+    """Read messages Matt sent to the bot; product links go into the queue."""
+    if not TG_TOKEN or DRY_RUN:
+        return
+    owner = str(CONFIG.get("owner_chat_id", ""))
+    try:
+        r = requests.get(f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates",
+                         params={"offset": state.get("tg_offset", 0), "timeout": 0,
+                                 "allowed_updates": json.dumps(["message"])}, timeout=30).json()
+    except Exception as e:
+        log(f"  (inbox failed: {e})")
+        return
+    for u in r.get("result", []):
+        state["tg_offset"] = u["update_id"] + 1
+        m = u.get("message") or {}
+        if str((m.get("chat") or {}).get("id")) != owner:
+            continue
+        text = (m.get("text") or m.get("caption") or "")
+        urls = re.findall(r"https?://\S+", text)
+        for ent in (m.get("entities") or []) + (m.get("caption_entities") or []):
+            if ent.get("url"):
+                urls.append(ent["url"])
+        if not urls:
+            continue
+        for url in dict.fromkeys(urls):
+            found = parse_pick(url)
+            if not found:
+                tg_owner(f"🤔 I couldn't find an Amazon or AliExpress product in this link:\n{url}")
+                continue
+            store, pid = found
+            q = state.setdefault("pick_queue", [])
+            if any(x["store"] == store and x["id"] == pid for x in q):
+                tg_owner("👍 Already in the queue")
+                continue
+            q.append({"store": store, "id": pid, "url": url, "at": now().isoformat()})
+            tg_owner(f"✅ Added to the queue ({'Amazon' if store == 'amazon' else 'AliExpress'}). "
+                     f"Position {len(q)}, it goes out on one of the next posting slots.")
+            log(f"Queued Matt's pick: {store} {pid}")
+
+
+def pick_details(pick, amz_factory):
+    """Look up a queued pick. Returns (it, info, category) or a string with the reason it can't be posted."""
+    cat = {"slug": "pick", "en": "Our pick", "he": "הבחירה שלנו"}
+    if pick["store"] == "aliexpress":
+        sys.path.insert(0, str(ROOT / "tools"))
+        import aliexpress
+        res = aliexpress.call("aliexpress.affiliate.productdetail.get", product_ids=pick["id"],
+                              target_currency="USD", target_language="EN", country="IL",
+                              tracking_id=aliexpress.TRACKING_ID)
+        prods = aliexpress._products(res)
+        if not prods:
+            return "AliExpress didn't return this product (it may not be in the affiliate program)"
+        p = prods[0]
+        info = ali_info(p)
+        if not info["link"]:
+            info["link"] = aliexpress.link(f"https://www.aliexpress.com/item/{pick['id']}.html") or ""
+        if not info["link"]:
+            return "no affiliate link available for this product"
+        return {"asin": f"ali-{pick['id']}", "rank": 0, "source": "pick", "store": "aliexpress"}, info, cat
+    amz = amz_factory()
+    if not amz:
+        return None  # Amazon unavailable right now: try again later
+    info = amz.product(pick["id"])
+    if not info.get("price"):
+        return "no price found on Amazon"
+    if info.get("shipping") in ("paid", "no"):
+        return "Amazon doesn't ship it free to Israel"
+    if not info.get("discount") and discount_pct(info):
+        info["discount"] = f"{discount_pct(info)}%"
+    return {"asin": pick["id"], "rank": 0, "source": "pick"}, info, cat
 
 
 # ---------------------------------------------------------------- coupon posts
@@ -934,8 +1045,10 @@ def main():
         sys.exit("Missing TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID (or set DRY_RUN=1)")
 
     state = load_state()
+    inbox(state)
     due = post_due(state)
     if not due:
+        save_state(state)
         return
     cats = CONFIG["categories"]
     only = arg("category")              # e.g. --category toys-and-games for a one-off targeted post
@@ -1041,6 +1154,44 @@ def main():
         else:
             log(f"{reason}: reserve is empty")
             post_ali(f"{reason} (Amazon stock empty)")
+
+    # Matt's own picks (links he sent the bot) go first
+    if due and not targeted and not OWNER_TEST and state.get("pick_queue"):
+        def amz_factory():
+            if state.get("blocked_until", "") > now().isoformat():
+                return None
+            a = Amazon("safari")
+            a.load_cookies()
+            if COOKIES_F.exists() and a.location_is_israel():
+                return a
+            for profile in ("safari", "chrome"):
+                a = Amazon(profile)
+                if a.set_location_israel():
+                    a.save_cookies()
+                    return a
+            return None
+        pk = state["pick_queue"][0]
+        try:
+            found = pick_details(pk, amz_factory)
+        except Blocked:
+            state["blocked_until"] = (now() + timedelta(minutes=CONFIG.get("block_cooldown_minutes", 60))).isoformat()
+            found = None
+        except Exception as e:
+            found = f"lookup failed ({e})"
+        if isinstance(found, tuple):
+            it, info, category = found
+            state["pick_queue"].pop(0)
+            before = posted_now
+            post(it, info, category)
+            if posted_now > before:
+                tg_owner(f"📢 Posted your pick: {info['title'][:60]}")
+                save_state(state)
+                return
+        elif isinstance(found, str):
+            state["pick_queue"].pop(0)
+            tg_owner(f"⚠️ Couldn't post your pick ({pk['url'][:80]}): {found}")
+        else:
+            log("Matt's pick (Amazon) waiting: Amazon isn't reachable right now")
 
     if due is True and not targeted and not OWNER_TEST and coupon_post(state):
         save_state(state)

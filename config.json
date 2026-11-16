@@ -267,6 +267,11 @@
       ],
       "coupon": [
         "קוד קופון: {code} ({off} הנחה בקנייה מעל {min})"
+      ],
+      "pick_head": [
+        "הבחירה שלנו ⭐",
+        "המלצה אישית שלנו",
+        "מצאנו בשבילכם"
       ]
     },
     "en": {
@@ -316,6 +321,11 @@
       ],
       "coupon": [
         "Coupon code: {code} ({off} off orders over {min})"
+      ],
+      "pick_head": [
+        "Our pick ⭐",
+        "Personally recommended",
+        "We found this for you"
       ]
     }
   },
