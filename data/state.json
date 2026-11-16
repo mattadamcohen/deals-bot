@@ -1,10 +1,11 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 3
+  "2026-11-16": 4
  },
  "families": {
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
+  "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
@@ -14,6 +15,7 @@
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
+  "bedsure fleece bed blankets": "2026-11-16T06:31:23.838497+00:00",
   "bedsure gentlesoft throw blanket": "2026-11-15T14:26:34.499976+00:00",
   "bedsure satin pillowcases queen": "2026-11-16T05:34:38.383004+00:00",
   "big size building blocks": "2026-11-15T19:15:42.408291+00:00",
@@ -45,7 +47,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00"
  },
  "last_harvest_at": "2026-11-16T05:34:36.741433+00:00",
- "last_post_at": "2026-11-16T06:01:27.251660+00:00",
+ "last_post_at": "2026-11-16T06:31:23.838298+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -340,6 +342,7 @@
  },
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
+  "B0157T2ENY": "2026-11-16T06:31:23.775770+00:00",
   "B0160HYB8S": "2026-11-14T16:08:08.009745+00:00",
   "B01M16WBW1": "2026-11-15T09:02:39.794924+00:00",
   "B0725WFLMB": "2026-11-16T05:34:38.325606+00:00",
@@ -374,10 +377,10 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
  },
  "recent_categories": [
-  "wireless",
   "aliexpress/kids toys",
   "home-garden/1063252",
-  "aliexpress/solar garden lights outdoor"
+  "aliexpress/solar garden lights outdoor",
+  "home-garden/1063252"
  ],
- "since_ali": 0
+ "since_ali": 1
 }
