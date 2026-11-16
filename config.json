@@ -986,5 +986,6 @@
     "humidifier"
   ],
   "diversity_posts": 6,
-  "brand_gap_posts": 4
+  "brand_gap_posts": 4,
+  "photos_per_post": 3
 }

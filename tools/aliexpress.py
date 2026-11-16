@@ -84,6 +84,9 @@ def search(keywords=None, category_ids=None, page=1, page_size=50,
     res = call(
         "aliexpress.affiliate.product.query",
         keywords=keywords, category_ids=category_ids,
+        fields="product_id,product_title,product_main_image_url,product_small_image_urls,target_sale_price,"
+               "target_original_price,discount,promotion_link,lastest_volume,evaluate_rate,"
+               "first_level_category_name,second_level_category_name,shop_id",
         page_no=page, page_size=page_size, sort=sort,
         ship_to_country=ship_to, target_currency="USD", target_language="EN",
         tracking_id=TRACKING_ID,

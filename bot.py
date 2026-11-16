@@ -341,6 +341,12 @@ class Amazon:
                     pass
             image = image or img.get("src", "")
 
+        gallery = []
+        for u in re.findall(r'"hiRes":"(https://[^"]+?\.jpg)"', page):
+            if u not in gallery and u != image:
+                gallery.append(u)
+        images = ([image] if image else []) + gallery[:CONFIG.get("photos_per_post", 3) - 1]
+
         rating = text("#acrPopover .a-icon-alt").split(" out")[0]
         reviews = re.sub(r"[^\d,]", "", text("#acrCustomerReviewText"))
 
@@ -349,7 +355,7 @@ class Amazon:
             "parent_asin": m.group(1) if m else "",
             "title": text("#productTitle"),
             "price": price, "was": was if money(was) > money(price) > 0 else "", "discount": discount,
-            "rating": rating, "reviews": reviews, "image": image,
+            "rating": rating, "reviews": reviews, "image": image, "images": images,
             "shipping": shipping, "delivery_text": delivery[:200],
         }
 
@@ -462,7 +468,7 @@ def remember_post(item, category):
         log(f"  (image save failed: {e})")
     log_file = ROOT / "data" / "posts.json"
     posts = json.loads(log_file.read_text()) if log_file.exists() else []
-    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold")}
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold", "album_ids")}
                  | {"category_slug": category["slug"], "category_en": category["en"], "category_he": category["he"],
                     "posted_at": now().isoformat()})
     posts = posts[-40:]
@@ -504,6 +510,21 @@ def send_telegram(item, category):
         log("---- DRY RUN post ----\n" + text + f"\n[image] {item.get('image')}\n")
         return True
     api = f"https://api.telegram.org/bot{TG_TOKEN}"
+    urls = [u for u in (item.get("images") or []) if u][:CONFIG.get("photos_per_post", 3)]
+    if len(urls) >= 2:
+        photos = [ph for ph in (square_photo(u) for u in urls) if ph]
+        if len(photos) >= 2:
+            media = [{"type": "photo", "media": f"attach://p{i}"} for i in range(len(photos))]
+            media[0].update(caption=text, parse_mode="HTML")
+            r = requests.post(f"{api}/sendMediaGroup", data={
+                "chat_id": TG_CHAT, "media": json.dumps(media),
+                "disable_notification": "false" if is_big_deal(item) else "true"},
+                files={f"p{i}": (f"p{i}.jpg", ph, "image/jpeg") for i, ph in enumerate(photos)}, timeout=90)
+            if r.ok:
+                msgs = r.json()["result"]
+                item["album_ids"] = [m["message_id"] for m in msgs]
+                return msgs[0]["message_id"]
+            log(f"  album post failed ({r.text[:150]}), sending a single photo")
     if item.get("image"):
         photo = square_photo(item["image"])
         data = {"chat_id": TG_CHAT, "caption": text, "parse_mode": "HTML",
@@ -665,6 +686,8 @@ def ali_pick(state):
                     "was": f"${money(was):.2f}" if money(was) > money(p.get("target_sale_price")) else "",
                     "discount": p.get("discount") if money(p.get("discount")) >= 5 else "",
                     "rating": p.get("evaluate_rate") or "", "image": p.get("product_main_image_url"),
+                    "images": ([p.get("product_main_image_url")] + [u for u in ((p.get("product_small_image_urls") or {}).get("string") or [])
+                                                                   if u != p.get("product_main_image_url")])[:CONFIG.get("photos_per_post", 3)],
                     "link": p["promotion_link"], "store": "aliexpress",
                     "sold": f"{sold // 1000},000" if sold >= 1000 else str(sold)}
             it = {"asin": pid, "rank": 0, "source": "aliexpress", "store": "aliexpress"}
