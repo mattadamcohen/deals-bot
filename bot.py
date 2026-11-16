@@ -510,11 +510,11 @@ def square_photo(url):
 
 def fetch_video(url):
     """Download a product video (mp4) if it's small enough for Telegram (bot upload limit ~50MB)."""
-    if not url or ".mp4" not in url.split("?")[0].lower():
+    if not url:
         return None
     try:
         r = requests.get(url, timeout=60, stream=True)
-        if not r.ok:
+        if not r.ok or not (r.headers.get("content-type", "").startswith("video") or ".mp4" in url.lower()):
             return None
         data = b""
         for chunk in r.iter_content(1 << 20):
@@ -739,7 +739,8 @@ def ali_pick(state):
             good = dear
         log(f"[AliExpress · {q['q']}] {len(prods)} results, {len(good)} pass the filters")
         random.shuffle(good)
-        good.sort(key=lambda p: -int(p.get("lastest_volume") or 0) * (1 + min(money(p.get("discount")), 60) / 100))
+        good.sort(key=lambda p: -int(p.get("lastest_volume") or 0) * (1 + min(money(p.get("discount")), 60) / 100)
+                  * (1.5 if p.get("product_video_url") else 1))
         for p in good[:15]:
             pid = f"ali-{p['product_id']}"
             fam = title_family(p.get("product_title"))
