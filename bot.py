@@ -652,9 +652,11 @@ ALI_BLOCK = re.compile(
     r"vape\w*|e-?cig\w*|cigarette\w*|hookah|shisha|bong|grinder|rolling paper|tobacco|smok(?:e|ing) pipe|"
     r"cannabis|weed|marijuana|420|kratom|gambling|casino|poker chips?|alcohol|beer|wine|vodka|whiskey|"
     r"tattoo|piercing|hair removal|breast|butt lift|slimming|diet pills?|fat burn\w*|weight loss|"
-    r"halloween mask|skull|devil|satan\w*|zombie|blood|horror|creepy|scary|"
-    # licensed characters / brands: on AliExpress these are almost always unofficial knockoffs
-    r"fnaf|five nights?|freddy|huggy|poppy playtime|pok[eé]mon|pikachu|disney|marvel|spider-?man|avengers|"
+    r"halloween mask|skull|devil|satan\w*|zombie|blood|horror|creepy|scary|fnaf|five nights?|freddy|huggy|poppy playtime)\b", re.I)
+# licensed characters / brands: on AliExpress these are almost always unofficial knockoffs,
+# so they are only allowed from a brand's OFFICIAL store (see ali_queries entries with "official")
+ALI_LICENSED = re.compile(
+    r"\b(pok[eé]mon|pikachu|disney|marvel|spider-?man|avengers|"
     r"frozen|elsa|stitch|minnie|mickey|barbie|hello kitty|sanrio|kuromi|cinnamoroll|my melody|sonic|mario|"
     r"nintendo|minecraft|roblox|paw patrol|peppa|bluey|cocomelon|harry potter|star wars|naruto|anime|"
     r"labubu|squishmallows?|lego|nike|adidas|airpods?|stanley|owala|jellycat)\b", re.I)
@@ -676,10 +678,17 @@ def ali_coupon(p):
     return {"code": code, "off": off, "min": mini, "until": end}
 
 
-def ali_ok(p):
+def official_store(p, brand):
+    """True if the product is sold by the brand's own official/flagship store on AliExpress."""
+    shop = (p.get("shop_name") or "").lower()
+    norm = re.sub(r"[^a-z0-9]", "", shop)
+    return re.sub(r"[^a-z0-9]", "", brand.lower()) in norm and bool(re.search(r"official|flagship", shop))
+
+
+def ali_ok(p, official=False):
     """Age-appropriate, popular, well-rated, under the price cap."""
     text = " ".join(str(p.get(k) or "") for k in ("product_title", "first_level_category_name", "second_level_category_name"))
-    if ALI_BLOCK.search(text):
+    if ALI_BLOCK.search(text) or (not official and ALI_LICENSED.search(text)):
         return False
     cats = f"{p.get('first_level_category_name') or ''} {p.get('second_level_category_name') or ''}"
     if ALI_BLOCK_CATS.search(cats):
@@ -729,7 +738,9 @@ def ali_pick(state):
         except Exception as e:
             log(f"  (AliExpress search '{q['q']}' failed: {e})")
             continue
-        good = [p for p in prods if ali_ok(p)]
+        if q.get("official"):  # licensed toy brands: only from the brand's official store
+            prods = [p for p in prods if official_store(p, q["official"])]
+        good = [p for p in prods if ali_ok(p, official=bool(q.get("official")))]
         if q.get("require"):  # brand searches: only that brand's own products, not "compatible with" items
             good = [p for p in good if q["require"] in (p.get("product_title") or "").lower()[:40]
                     and not re.search(r"\b(for|compatible)\b[^,]{0,25}" + re.escape(q["require"]), (p.get("product_title") or "").lower())]

@@ -919,6 +919,76 @@
       "en": "Squishies",
       "he": "סקווישים",
       "weight": 2
+    },
+    {
+      "q": "Pop Mart",
+      "official": "Pop Mart",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 3
+    },
+    {
+      "q": "Bandai",
+      "official": "Bandai",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 2
+    },
+    {
+      "q": "Takara Tomy",
+      "official": "Takara Tomy",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
+    },
+    {
+      "q": "Hasbro",
+      "official": "Hasbro",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
+    },
+    {
+      "q": "Kayou",
+      "official": "Kayou",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
+    },
+    {
+      "q": "Disney",
+      "official": "Disney",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 2
+    },
+    {
+      "q": "Miniso",
+      "official": "Miniso",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
+    },
+    {
+      "q": "52Toys",
+      "official": "52Toys",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
+    },
+    {
+      "q": "Beast Kingdom",
+      "official": "Beast Kingdom",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
+    },
+    {
+      "q": "Maisto",
+      "official": "Maisto",
+      "en": "Official brand store",
+      "he": "חנות רשמית",
+      "weight": 1
     }
   ],
   "ali_min_price_usd": 5,
