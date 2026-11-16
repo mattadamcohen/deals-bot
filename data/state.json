@@ -394,6 +394,20 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
+ "pick_queue": [
+  {
+   "at": "2026-11-16T16:16:34.715311+00:00",
+   "id": "B0F2F9ZHQT",
+   "store": "amazon",
+   "url": "https://link.amazon/B05sFt8gI"
+  },
+  {
+   "at": "2026-11-16T16:16:36.711890+00:00",
+   "id": "B08JCD4PS6",
+   "store": "amazon",
+   "url": "https://link.amazon/B08trDtQy"
+  }
+ ],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
@@ -468,5 +482,6 @@
   "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
   "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants"
  ],
- "since_ali": 1
+ "since_ali": 1,
+ "tg_offset": 260136062
 }
