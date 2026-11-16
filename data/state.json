@@ -1,9 +1,10 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 23
+  "2026-11-16": 24
  },
  "families": {
+  "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
   "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
@@ -42,6 +43,7 @@
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
+  "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
@@ -76,7 +78,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T16:31:05.157015+00:00",
+ "last_post_at": "2026-11-16T17:01:49.104685+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -396,14 +398,7 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [
-  {
-   "at": "2026-11-16T16:16:36.711890+00:00",
-   "id": "B08JCD4PS6",
-   "store": "amazon",
-   "url": "https://link.amazon/B08trDtQy"
-  }
- ],
+ "pick_queue": [],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
@@ -421,6 +416,7 @@
   "B07ZSWRKZY": "2026-11-14T19:32:53.716210+00:00",
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
+  "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
   "B0B7535QC3": "2026-11-16T11:31:03.776706+00:00",
   "B0BGWYD9KC": "2026-11-14T12:25:03.919624+00:00",
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
@@ -460,13 +456,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040660",
   "aliexpress/1101-1118 11.11 Sale - Top Brands",
   "fashion/1040660",
+  "pick",
   "pick"
  ],
  "recent_titles": [
-  "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
   "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
   "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
   "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
@@ -477,8 +472,9 @@
   "Trendy Queen Women's 2 Piece 2026 Fall Fashion Lounge Set with Pockets",
   "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
   "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
-  "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters"
+  "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
+  "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit"
  ],
- "since_ali": 2,
+ "since_ali": 3,
  "tg_offset": 260136065
 }
