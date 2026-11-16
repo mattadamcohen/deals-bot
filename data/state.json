@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 22
+  "2026-11-16": 23
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
@@ -12,6 +12,7 @@
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
+  "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F9T4SMR9": "2026-11-16T15:04:51.206817+00:00",
   "B0FG22LPQN": "2026-11-16T16:01:02.943620+00:00",
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
@@ -56,6 +57,7 @@
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
+  "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
   "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
@@ -74,7 +76,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T16:01:02.943353+00:00",
+ "last_post_at": "2026-11-16T16:31:05.157015+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -396,12 +398,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-16T16:16:34.715311+00:00",
-   "id": "B0F2F9ZHQT",
-   "store": "amazon",
-   "url": "https://link.amazon/B05sFt8gI"
-  },
-  {
    "at": "2026-11-16T16:16:36.711890+00:00",
    "id": "B08JCD4PS6",
    "store": "amazon",
@@ -435,6 +431,7 @@
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
+  "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
   "B0FDQ3PWCX": "2026-11-15T20:45:38.125646+00:00",
   "B0FG25KJLY": "2026-11-16T16:01:02.864687+00:00",
@@ -463,13 +460,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/1101-1118 11.11 Sale - Big Save",
   "fashion/1040660",
   "aliexpress/1101-1118 11.11 Sale - Top Brands",
-  "fashion/1040660"
+  "fashion/1040660",
+  "pick"
  ],
  "recent_titles": [
-  "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
   "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
   "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
   "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
@@ -480,8 +476,9 @@
   "YZ For Tesla Model Y Juniper 2025-2026 TPE Car Floor Mats With Metal Pedals Luggage Trunk Mat Set Four Seasons Waterproof Anti-s",
   "Trendy Queen Women's 2 Piece 2026 Fall Fashion Lounge Set with Pockets",
   "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
-  "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants"
+  "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
+  "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters"
  ],
- "since_ali": 1,
- "tg_offset": 260136062
+ "since_ali": 2,
+ "tg_offset": 260136065
 }

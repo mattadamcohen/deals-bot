@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0BZYCJK89",
-  "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
-  "title_he": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
-  "price": "$29.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.6",
-  "reviews": "145,783",
-  "rank": 1,
-  "source": "bestsellers",
-  "message_id": 15,
-  "image": "https://m.media-amazon.com/images/I/61Gvw0-b0eL._AC_SL1500_.jpg",
-  "variant": 841,
-  "category_slug": "kitchen",
-  "category_en": "Kitchen & Dining",
-  "category_he": "מטבח ואירוח",
-  "posted_at": "2026-11-14T18:08:58.220953+00:00"
- },
- {
   "asin": "B07ZSWRKZY",
   "title": "Veken Non Slip Rug Pad Gripper for Hardwood Floors, Strong Anti Slip and Skid Mat, Keep Rugs Safe and in Place for Tile, Carpet Liner Grippers Under Area Rugs, 2x3 Ft Pads",
   "title_he": "Veken Non Slip Rug Pad Gripper for Hardwood Floors, Strong Anti Slip and Skid Mat, Keep Rugs Safe and in Place for Tile, Carpet Liner…",
@@ -886,5 +867,34 @@
   "category_en": "Women's Clothing",
   "category_he": "ביגוד נשים",
   "posted_at": "2026-11-16T16:01:02.941362+00:00"
+ },
+ {
+  "asin": "B0F2F9ZHQT",
+  "title": "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
+  "title_he": "מעמד חצובה למחשב נייד מתגלגל, מעמד רצפתי למקרן עם גלגלים וגלגלים",
+  "price": "$45.99",
+  "was": "",
+  "discount": "",
+  "rating": "4.4",
+  "reviews": "18",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 77,
+  "image": "https://m.media-amazon.com/images/I/61uVjqXC97L._AC_SL1500_.jpg",
+  "variant": 265,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   77,
+   78,
+   79
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3dcb798d-3b8c-40b3-b02f-bbece2054118/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-16T16:31:05.154611+00:00"
  }
 ]
