@@ -1,12 +1,13 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 15
+  "2026-11-16": 16
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
   "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
+  "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
@@ -36,6 +37,7 @@
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
+  "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
@@ -63,7 +65,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00"
  },
  "last_harvest_at": "2026-11-16T10:34:56.983544+00:00",
- "last_post_at": "2026-11-16T12:07:54.639090+00:00",
+ "last_post_at": "2026-11-16T12:46:27.821561+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -373,6 +375,7 @@
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
   "B0157T2ENY": "2026-11-16T06:31:23.775770+00:00",
   "B0160HYB8S": "2026-11-14T16:08:08.009745+00:00",
+  "B01M0AGUPO": "2026-11-16T12:46:27.773496+00:00",
   "B01M16WBW1": "2026-11-15T09:02:39.794924+00:00",
   "B0725WFLMB": "2026-11-16T05:34:38.325606+00:00",
   "B074PVTPBW": "2026-11-14T10:36:43.410211+00:00",
@@ -416,13 +419,12 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
  },
  "recent_categories": [
-  "videogames",
   "aliexpress/Netac",
   "videogames",
-  "aliexpress/Baseus Security B1"
+  "aliexpress/Baseus Security B1",
+  "home-garden/1063252"
  ],
  "recent_titles": [
-  "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Winter Blanket Christmas Thanksgiving Decorations for Home Room Decor, Christmas Birthday Gifts for Women and Men, 90x90 inches",
   "Stainless Steel Can Opener Multifunctional Grip Opener Side Cut Professional Tins Bottle Opener Kitchen Gadgets",
   "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
   "Baby Head Protector Backpack Pillow For Kids 1-3 Y Toddler Children Soft PP Cotton Protective Cushion Cartoon Security Pillows",
@@ -433,7 +435,8 @@
   "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
   "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
   "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
-  "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage"
+  "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
+  "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White"
  ],
- "since_ali": 0
+ "since_ali": 1
 }
