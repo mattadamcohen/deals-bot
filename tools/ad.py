@@ -59,7 +59,8 @@ def card(base, asin, box, label, tilt):
     c = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     cd = ImageDraw.Draw(c)
     cd.rounded_rectangle([0, 0, w - 1, h - 1], radius=36, fill=WHITE)
-    ph = Image.open(IMG / f"{asin}.jpg").convert("RGB")
+    src = Path(asin) if "/" in asin else IMG / f"{asin}.jpg"
+    ph = Image.open(REPO / src if not src.is_absolute() else src).convert("RGB")
     ph.thumbnail((w - 50, h - 110), Image.LANCZOS)
     c.paste(ph, ((w - ph.width) // 2, 25 + (h - 110 - ph.height) // 2))
     # category tag at the bottom
@@ -161,10 +162,62 @@ def story(asins, labels):
     return im
 
 
+def giftcard(base, cx, cy, w, tilt=-8):
+    h = int(w * 0.62)
+    c = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(c)
+    d.rounded_rectangle([0, 0, w - 1, h - 1], radius=34, fill=INK)
+    d.rounded_rectangle([14, 14, w - 15, h - 15], radius=26, outline=YEL, width=5)
+    text_c(d, w / 2, h * 0.16, "GIFT CARD", F(900, int(w * 0.09)), YEL)
+    text_c(d, w / 2, h * 0.36, "$50", F(900, int(w * 0.30)), WHITE)
+    text_c(d, w / 2, h * 0.80, "לקניות באמזון", F(800, int(w * 0.075)), YEL)
+    c = c.rotate(tilt, resample=Image.BICUBIC, expand=True)
+    shadow(base, (cx - w // 2, cy - h // 2, cx + w // 2, cy + h // 2), 34, off=20, blur=24, alpha=120)
+    base.paste(c, (int(cx - c.width / 2), int(cy - c.height / 2)), c)
+
+
+def steps(d, W, y, f, n_f):
+    items = [("1", "הצטרפו לערוץ בטלגרם"), ("2", "לחצו על 'אני משתתף' בבוט"), ("3", "הזוכה יוכרז בערוץ")]
+    for i, (n, t) in enumerate(items):
+        yy = y + i * 92
+        tw, th, b = size(d, t, f)
+        x_right = W / 2 + 330
+        d.ellipse([x_right - 70, yy - 6, x_right, yy + 64], fill=BLUE)
+        text_c(d, x_right - 35, yy + 6, n, n_f, WHITE)
+        d.text((x_right - 95 - tw - b[0], yy + 29 - th / 2 - b[1]), t, font=f, fill=INK, **kw(t))
+
+
+def giveaway(fmt):
+    W, H = (1080, 1350) if fmt == "feed" else (1080, 1920)
+    top = 60 if fmt == "feed" else 200
+    im = burst_bg(W, H, top + 560)
+    d = ImageDraw.Draw(im)
+    d.polygon([(40, top), (W - 40, top - 22), (W - 56, top + 170), (56, top + 192)], fill=RED)
+    text_c(d, W / 2, top + 26, "הגרלה!", F(900, 130), WHITE, stroke=5, sfill=(130, 0, 20))
+    text_c(d, W / 2, top + 225, "זכו בגיפט קארד של $50", F(900, 76), INK)
+    giftcard(im, W / 2, top + 560, 560)
+    sticker(im, W - 175, top + 400, 110, [("הצטרפות", F(900, 40)), ("חינם!", F(900, 56))], tilt=-14)
+    d = ImageDraw.Draw(im)
+    sy = top + 800
+    d.rounded_rectangle([W / 2 - 400, sy - 30, W / 2 + 400, sy + 290], radius=40, fill=WHITE)
+    steps(d, W, sy, F(800, 46), F(900, 44))
+    cy = sy + 380 if fmt == "feed" else sy + 420
+    cta(im, W / 2, cy, 820, 108)
+    text_c(d, W / 2, cy + 78, "t.me/ilamazondeals", F(800, 38), NAVY)
+    return im
+
+
 if __name__ == "__main__":
+    if sys.argv[1:2] == ["giveaway"]:
+        OUT.mkdir(exist_ok=True)
+        giveaway("feed").save(OUT / "giveaway_feed.png")
+        giveaway("story").save(OUT / "giveaway_story.png")
+        print("saved giveaway")
+        sys.exit()
     asins = sys.argv[1:5]
-    labels = ["צעצועים", "לבית", "יצירה לילדים", "גאדג׳טים"]
+    labels = sys.argv[5].split(",") if len(sys.argv) > 5 else ["צעצועים", "לבית", "יצירה לילדים", "גאדג׳טים"]
     OUT.mkdir(exist_ok=True)
-    feed(asins, labels).save(OUT / "ad_feed.png")
-    story(asins, labels).save(OUT / "ad_story.png")
+    tag = sys.argv[6] if len(sys.argv) > 6 else "ad"
+    feed(asins, labels).save(OUT / f"{tag}_feed.png")
+    story(asins, labels).save(OUT / f"{tag}_story.png")
     print("saved", OUT / "ad_feed.png", OUT / "ad_story.png")
