@@ -700,5 +700,8 @@
     "fidget",
     "stress ball",
     "stress relief"
-  ]
+  ],
+  "preferred_min_price_usd": 25,
+  "higher_value_share": 0.6,
+  "higher_value_bonus": 25
 }

@@ -640,6 +640,10 @@ def ali_pick(state):
             log(f"  (AliExpress search '{q['q']}' failed: {e})")
             continue
         good = [p for p in prods if ali_ok(p)]
+        # most of the time prefer higher-value items ($25+) when the search has any
+        dear = [p for p in good if money(p.get("target_sale_price")) >= CONFIG.get("preferred_min_price_usd", 25)]
+        if dear and random.random() < CONFIG.get("higher_value_share", 0.6):
+            good = dear
         log(f"[AliExpress · {q['q']}] {len(prods)} results, {len(good)} pass the filters")
         random.shuffle(good)
         good.sort(key=lambda p: -int(p.get("lastest_volume") or 0) * (1 + min(money(p.get("discount")), 60) / 100))
@@ -789,7 +793,10 @@ def main():
         popularity = 40 if r <= 3 else 30 if r <= 10 else 20 if r <= 20 else 10
         trending = 15 if it.get("source") == "movers-and-shakers" else 0
         boost = sum(v for k, v in CONFIG.get("boost_keywords", {}).items() if k in title)
-        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (15 if branded else 0) + boost
+        pr = money(info.get("price"))
+        value = CONFIG.get("higher_value_bonus", 25) if pr >= CONFIG.get("preferred_min_price_usd", 25) else \
+            CONFIG.get("higher_value_bonus", 25) // 2 if pr >= 15 else 0
+        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (15 if branded else 0) + boost + value
 
     def post(it, info, category):
         nonlocal posted_now
