@@ -1,25 +1,5 @@
 [
  {
-  "asin": "B0CX4RLCXW",
-  "title": "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set – Bold Colors, The Original Magnetic Building Brand",
-  "title_he": "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set – Bold Colors, The Original Magnetic Building Brand",
-  "price": "$19.50",
-  "was": "",
-  "discount": "",
-  "rating": "4.8",
-  "reviews": "3,697",
-  "rank": 6,
-  "source": "bestsellers",
-  "message_id": 12,
-  "image": "https://m.media-amazon.com/images/I/71FIJWtTIbL._AC_SL1500_.jpg",
-  "category_slug": "toys-and-games/166092011",
-  "category_en": "Building Toys",
-  "category_he": "צעצועי הרכבה",
-  "posted_at": "2026-11-14T14:31:18.324001+00:00",
-  "ig_media": "17956755240335163",
-  "variant": 172
- },
- {
   "asin": "B0160HYB8S",
   "title": "Windproof Travel Umbrella - Compact & Withstands Winds up to 100MPH, Strongest Premium Auto Folding Umbrella for Rain and Sun - Durable, Light & Portable for Women & Men, Fits Backpack & Cars",
   "title_he": "Windproof Travel Umbrella - Compact & Withstands Winds up to 100MPH, Strongest Premium Auto Folding Umbrella for Rain and Sun - Durable,…",
@@ -857,5 +837,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-16T14:16:40.542917+00:00"
+ },
+ {
+  "asin": "B0F9SW7V12",
+  "title": "Trendy Queen Women's 2 Piece 2026 Fall Fashion Lounge Set with Pockets",
+  "title_he": "סט טרקלין אופנת סתיו 2026 אופנתי לנשים קווין עם כיסים",
+  "price": "$27.99",
+  "was": "$39.99",
+  "discount": "30%",
+  "rating": "4.2",
+  "reviews": "3,937",
+  "rank": 11,
+  "source": "bestsellers",
+  "message_id": 68,
+  "image": "https://m.media-amazon.com/images/I/619CmfDPgVL._AC_SL1500_.jpg",
+  "variant": 974,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   68,
+   69,
+   70
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/522c857f-a8ca-4e7a-ac0c-b7ea9354e5e5/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/1040660",
+  "category_en": "Women's Clothing",
+  "category_he": "ביגוד נשים",
+  "posted_at": "2026-11-16T15:04:51.204950+00:00"
  }
 ]
