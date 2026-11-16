@@ -402,7 +402,36 @@
     "Native Union",
     "Soundcore",
     "JLab",
-    "Tile"
+    "Tile",
+    "Xiaomi",
+    "Mijia",
+    "Vention",
+    "Essager",
+    "POCO",
+    "OnePlus",
+    "QOOVI",
+    "Vikefon",
+    "Toocki",
+    "GameSir",
+    "DJI",
+    "Magcubic",
+    "Sonoff",
+    "Amazfit",
+    "K&F Concept",
+    "Netac",
+    "Teclast",
+    "NiiMbot",
+    "GL.iNet",
+    "Attack Shark",
+    "Potdemiel",
+    "Bandai",
+    "Takara Tomy",
+    "Maisto",
+    "Pop Mart",
+    "Kayou",
+    "Miniso",
+    "52Toys",
+    "Beast Kingdom"
   ],
   "seasons": [
     {
@@ -691,6 +720,174 @@
       "q": "sticker activity book kids",
       "en": "Kids activities",
       "he": "פעילות לילדים",
+      "weight": 2
+    },
+    {
+      "q": "UGREEN",
+      "require": "ugreen",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 2
+    },
+    {
+      "q": "Baseus",
+      "require": "baseus",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 2
+    },
+    {
+      "q": "Xiaomi",
+      "require": "xiaomi",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 2
+    },
+    {
+      "q": "Mijia",
+      "require": "mijia",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Vention",
+      "require": "vention",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Essager",
+      "require": "essager",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "POCO",
+      "require": "poco",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "OnePlus",
+      "require": "oneplus",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "QOOVI",
+      "require": "qoovi",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Vikefon",
+      "require": "vikefon",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Toocki",
+      "require": "toocki",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "GameSir",
+      "require": "gamesir",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "DJI",
+      "require": "dji",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Magcubic",
+      "require": "magcubic",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Sonoff",
+      "require": "sonoff",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Amazfit",
+      "require": "amazfit",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 2
+    },
+    {
+      "q": "K&F Concept",
+      "require": "k&f",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Netac",
+      "require": "netac",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Teclast",
+      "require": "teclast",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "NiiMbot",
+      "require": "niimbot",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Logitech",
+      "require": "logitech",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 2
+    },
+    {
+      "q": "GL.iNet",
+      "require": "gl.inet",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Attack Shark",
+      "require": "attack shark",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
+      "weight": 1
+    },
+    {
+      "q": "Potdemiel",
+      "require": "potdemiel",
+      "en": "Top brands",
+      "he": "מותגים מובילים",
       "weight": 2
     }
   ],

@@ -640,6 +640,9 @@ def ali_pick(state):
             log(f"  (AliExpress search '{q['q']}' failed: {e})")
             continue
         good = [p for p in prods if ali_ok(p)]
+        if q.get("require"):  # brand searches: only that brand's own products, not "compatible with" items
+            good = [p for p in good if (p.get("product_title") or "").lower().startswith(q["require"])
+                    or f" {q['require']} " in f" {(p.get('product_title') or '').lower()[:40]} "]
         # most of the time prefer higher-value items ($25+) when the search has any
         dear = [p for p in good if money(p.get("target_sale_price")) >= CONFIG.get("preferred_min_price_usd", 25)]
         if dear and random.random() < CONFIG.get("higher_value_share", 0.6):
