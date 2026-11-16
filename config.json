@@ -989,7 +989,6 @@
   "brand_gap_posts": 4,
   "photos_per_post": 3,
   "demote_keywords": {
-    "sheet": 45,
     "pillowcase": 45,
     "pillow case": 45,
     "pillow cover": 45,
@@ -1008,6 +1007,11 @@
     "throw pillow": 35,
     "bed pillow": 35,
     "pillows for sleeping": 35,
-    "blanket": 20
+    "blanket": 20,
+    "bed sheets": 45,
+    "sheet set": 45,
+    "sheets set": 45,
+    "fitted sheet": 45,
+    "flat sheet": 45
   }
 }
