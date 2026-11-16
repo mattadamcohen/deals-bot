@@ -102,7 +102,26 @@ def link(url):
     return links[0]["promotion_link"] if links else None
 
 
+def promos():
+    """What promotion data the API gives us: featured promos + per-product promo codes."""
+    for m, kw in (("aliexpress.affiliate.featuredpromo.get", {}),):
+        try:
+            print("==", m, json.dumps(call(m, **kw), ensure_ascii=False)[:1500])
+        except AliError as e:
+            print("==", m, "ERROR", e)
+    res = call("aliexpress.affiliate.product.query", keywords="power bank", page_size=50, ship_to_country="IL",
+               target_currency="USD", target_language="EN", tracking_id=TRACKING_ID,
+               fields="product_id,product_title,promo_code_info,target_sale_price")
+    prods = _products(res)
+    withcode = [p for p in prods if p.get("promo_code_info")]
+    print(f"== product promo codes: {len(withcode)}/{len(prods)} products have one")
+    for p in withcode[:5]:
+        print("  ", p.get("target_sale_price"), (p.get("product_title") or "")[:50], json.dumps(p["promo_code_info"])[:300])
+
+
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "promos":
+        return promos()
     if len(sys.argv) < 2 or sys.argv[1] != "test":
         print(__doc__)
         return
