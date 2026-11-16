@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 24
+  "2026-11-16": 25
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -44,6 +44,7 @@
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
+  "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
@@ -78,7 +79,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T17:01:49.104685+00:00",
+ "last_post_at": "2026-11-16T17:46:40.086690+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -440,6 +441,7 @@
   "B0H71RGBQ3": "2026-11-15T17:09:36.677208+00:00",
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
+  "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
@@ -456,13 +458,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/1101-1118 11.11 Sale - Top Brands",
   "fashion/1040660",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/wifi security camera outdoor"
  ],
  "recent_titles": [
-  "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
   "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
   "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
   "King Pillow Cases Set of 2 - Warm & Cozy Pillowcase Covers - White",
@@ -473,8 +474,9 @@
   "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
   "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
   "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
-  "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit"
+  "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
+  "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee"
  ],
- "since_ali": 3,
+ "since_ali": 0,
  "tg_offset": 260136065
 }

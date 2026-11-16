@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B07D4RN9NH",
-  "title": "Crayola Twistables Colored Pencil Set 50ct, Stocking Stuffers for Kids",
-  "title_he": "Crayola Twistables Colored Pencil Set 50ct",
-  "price": "$14.95",
-  "was": "",
-  "discount": "",
-  "rating": "4.7",
-  "reviews": "29,832",
-  "rank": 26,
-  "source": "bestsellers",
-  "message_id": 17,
-  "image": "https://m.media-amazon.com/images/I/81sNnJFZHPL._AC_SL1500_.jpg",
-  "variant": 436,
-  "category_slug": "toys-and-games",
-  "category_en": "Toys & Games",
-  "category_he": "צעצועים ומשחקים",
-  "posted_at": "2026-11-14T20:17:43.923492+00:00"
- },
- {
   "asin": "B07PBXXNCY",
   "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ultra Soft, 1 Pack, 50 Ct",
   "title_he": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover…",
@@ -906,5 +887,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-16T17:01:49.103091+00:00"
+ },
+ {
+  "asin": "ali-1005006079966569",
+  "title": "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
+  "title_he": "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
+  "price": "$28.69",
+  "was": "$73.15",
+  "discount": "60%",
+  "rating": "93.1%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 83,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S920ca2adde4545a3b404c8f0593b06d9g.jpg",
+  "variant": 296,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mmlJRHjBWrrLrBcAFa8gqFpJ1BjzRKdPZ2nDzvZ0QOhSmyq4doFEumSXpT00yYjGXFt9cuiCdBg0yYt2xEgarQkY4DmVUMnR2mSnJcey4tYF4tEfrosHImsMfBfpSJL9xvnejoNAlnaG9ZSVg8rmVmBCPaHwtCFMmq82EIQyoQrxIzT4yrwsLMj2KGCioIonGa0tZOFp57zn9FksUXw49VqlzeSLxtgYggKC9T5Q3NdCWCit4ydXQrl5eRvqcGbby6X7XkIOlnKj9lFkd9Tf4Hr2oIwAi0wOb5AaVxmNjJVaMGNlRxdsJh3yysvKMpzuUkLKa1JuJgyk8PPr94GM7M9rnDqjY2Dhf1FUveqmL7JdjD421rZWUo9cT0SHtjKFO8NFTKNe8UHES3VG1iRNSMzmsP0yfkKKBjHvYNft29XNrhrlw761Kfb7wtP5jUrVh3ZWnASCQSfQpjAqUr2kuyXirtYn4PRZIDw7vTqp7DzkRoD7yCI428vPUjcLWd9VVHTaMHD9DSZQT5BlrG1vsM36Zl1C7TE7Q2wz05L5oj1jLbg85ysqgw0SvbORfb7SRwJj122wb3V131BRM04zeOmm3uEokotgQIGmcyrMJbV2CqdwGNoal8yK4mMvinS63tZ00st9CT0JnBdQZxz6WbO3pSRPT7v9JtiaEzRFbJ5BqIMpeiQuoWLKtHjuQtrABnPrtYN4dKacn",
+  "sold": "5,000",
+  "album_ids": [
+   83,
+   84,
+   85
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2675376170/p/1/e/6/t/10301/1100192365035.mp4",
+  "category_slug": "aliexpress/wifi security camera outdoor",
+  "category_en": "Smart home",
+  "category_he": "בית חכם",
+  "posted_at": "2026-11-16T17:46:40.085064+00:00"
  }
 ]
