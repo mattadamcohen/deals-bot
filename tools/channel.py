@@ -25,6 +25,22 @@ elif action == "pin":
     if r.ok:
         mid = r.json()["result"]["message_id"]
         r = requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": mid, "disable_notification": "true"})
+elif action == "repin":
+    # edit the current pinned post in place (no new notification); post + pin a new one if there isn't one
+    pinned = (requests.get(f"{api}/getChat", params={"chat_id": chat}).json().get("result") or {}).get("pinned_message") or {}
+    r = None
+    if pinned.get("message_id"):
+        r = requests.post(f"{api}/editMessageText", data={"chat_id": chat, "message_id": pinned["message_id"],
+                                                         "text": value, "disable_web_page_preview": "true"})
+        print("edit pinned", pinned["message_id"], r.status_code, r.text[:200])
+    if not (r is not None and r.ok):
+        r = requests.post(f"{api}/sendMessage", data={"chat_id": chat, "text": value, "disable_notification": "true",
+                                                      "disable_web_page_preview": "true"})
+        if r.ok:
+            mid = r.json()["result"]["message_id"]
+            if pinned.get("message_id"):
+                requests.post(f"{api}/unpinChatMessage", data={"chat_id": chat, "message_id": pinned["message_id"]})
+            r = requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": mid, "disable_notification": "true"})
 else:
     sys.exit(f"unknown action {action}")
 print(r.status_code, r.text)
