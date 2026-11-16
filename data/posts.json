@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0160HYB8S",
-  "title": "Windproof Travel Umbrella - Compact & Withstands Winds up to 100MPH, Strongest Premium Auto Folding Umbrella for Rain and Sun - Durable, Light & Portable for Women & Men, Fits Backpack & Cars",
-  "title_he": "Windproof Travel Umbrella - Compact & Withstands Winds up to 100MPH, Strongest Premium Auto Folding Umbrella for Rain and Sun - Durable,…",
-  "price": "$22.77",
-  "was": "$39.99",
-  "discount": "43%",
-  "rating": "4.5",
-  "reviews": "104,112",
-  "rank": 17,
-  "source": "bestsellers",
-  "message_id": 13,
-  "image": "https://m.media-amazon.com/images/I/71X-49wVyhL._AC_SL1500_.jpg",
-  "variant": 613,
-  "category_slug": "fashion",
-  "category_en": "Clothing, Shoes & Jewelry",
-  "category_he": "אופנה, נעליים ותכשיטים",
-  "posted_at": "2026-11-14T16:08:08.123121+00:00"
- },
- {
   "asin": "B0BSRFKKZJ",
   "title": "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
   "title_he": "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
@@ -866,5 +847,34 @@
   "category_en": "Women's Clothing",
   "category_he": "ביגוד נשים",
   "posted_at": "2026-11-16T15:04:51.204950+00:00"
+ },
+ {
+  "asin": "ali-32934943614",
+  "title": "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
+  "title_he": "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11",
+  "price": "$41.03",
+  "was": "$99.98",
+  "discount": "58%",
+  "rating": "97.9%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 71,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S82777006640549d69e969bae429a7107D.jpg",
+  "variant": 967,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/Ab3OrgM3v6R6NN0EoHucCSUeynqZAFtTZOEu7IPxrR4SLwZPLacc8DYNvZfALYHLsNM3TYez9oN3P1K9znMiq456CqQ4bMlqxnHyEiYYk22p7an8e0eu99eBBNhA077oXYZNNv7Ng1SIXynsFuB4b7vEuspqHsdvKgS5L2u7110GdQI3uzPvOsQuzYX3ez2yDAwBC8dbIGCiEOooUz3EIgs95ouUnCt8mlEdyj0IZdYBbsDD9zONrhJoAbSkj2tGTNyVRdL3z665y7zQ7WIqGfGzRJ0JhYiX79OkEE1pQtcOdxKWzfoFf3zpbdWuWPmiBJnqvvG5EN9obpoCfHGMtVWhh0TJFm5GKlL97k9u4awkS7vBwgsiwv6hPNd7vW7dxd6nutlabGlIfaDemGckOM5Dowrf51xpGWXNSM9HJPDaP4B5BE7VC4sactlIXYr6z43xug4zAtSNL62c07P5UYFN735sxLZu5avaj85qliK1SSsOJ09akqj4xIs2ncvfGs4rcDOi88TvaNHUMu3xYmaoDDPmAAoVjz8vNK5xtkv6TG9stWzh84YM25BZ8Pf8ucAVEjjtc0ru6eRKcQev6YqDw9POGWsq9XaKZ8dGBZVbSNAxcaGnoNfzD9GdgGlu40HT0Oy5733Uov6XEpOMIuN037cRCrAPysLYVSWGStU2iO58TRRcfSWGpL1KTnCCWWIpdxVt5I5WQIAjeKsYYNWyQPbQdmB6Nuwji5LRaJMeqCiyvLt9NBPLLVMWW674JpCLWkHlw94XTdNj9Laus8Hyiwr1gMKSx0awTOGKeF0V1ff6WvzjUrf3cMxVaSTBDyivvwzubNw221sYitAWi35AQE2dQ6aITOkXz2kX7vkWwbYVIJOhvfkZKcztl4bDrpljazaaeLZWLmCzjMZ4ROMaId5faWHsKXNGTir0Kn6Bx6ZjvwYkUyDfG2TKd1CHsLJmLT12J7Oshmv9A4dyNdiVUUmEtkeAaps0kmjaMRtRqBsxFaBN6qafvBRgJSZYKb3NUR7ROFZDRYwSwaCPF4wDUdsQV6lQDGSXCOZz",
+  "sold": "1,000",
+  "album_ids": [
+   71,
+   72,
+   73
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/1101-1118 11.11 Sale - Top Brands",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-16T15:31:30.639875+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 20
+  "2026-11-16": 21
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
@@ -45,6 +45,7 @@
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
+  "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
@@ -71,7 +72,7 @@
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00"
  },
  "last_harvest_at": "2026-11-16T15:04:48.132619+00:00",
- "last_post_at": "2026-11-16T15:04:51.206359+00:00",
+ "last_post_at": "2026-11-16T15:31:30.641344+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -441,16 +442,16 @@
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
-  "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
+  "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
+  "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/outdoor string lights",
   "kitchen",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
-  "fashion/1040660"
+  "fashion/1040660",
+  "aliexpress/1101-1118 11.11 Sale - Top Brands"
  ],
  "recent_titles": [
-  "Essager 240W USB Type C To USB C Cable 100W PD 3.1 Fast Charging Charger Wire For iPhone 15 Pro max Macbook Pro Xiaomi Samsung",
   "Owala FreeSip Sway Stainless Steel Water Bottle 30 oz Black Cherry",
   "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
   "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
@@ -461,7 +462,8 @@
   "Solar Lights Outdoor Camping Light 10meter String Light Outdoor Tent Light RGB Atmosphere Light LED Flashlight with Hook \ufeff",
   "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla",
   "YZ For Tesla Model Y Juniper 2025-2026 TPE Car Floor Mats With Metal Pedals Luggage Trunk Mat Set Four Seasons Waterproof Anti-s",
-  "Trendy Queen Women's 2 Piece 2026 Fall Fashion Lounge Set with Pockets"
+  "Trendy Queen Women's 2 Piece 2026 Fall Fashion Lounge Set with Pockets",
+  "70mai 4G Hardwire Kit UP04/UP11 4G Module 4G Box, Remote Control Live View Hotpot Sharing Find My Car, 4G 1.0 UP04, 4G 2.0 UP11"
  ],
- "since_ali": 1
+ "since_ali": 0
 }
