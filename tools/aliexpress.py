@@ -86,7 +86,7 @@ def search(keywords=None, category_ids=None, page=1, page_size=50,
         keywords=keywords, category_ids=category_ids,
         fields="product_id,product_title,product_main_image_url,product_small_image_urls,target_sale_price,"
                "target_original_price,discount,promotion_link,lastest_volume,evaluate_rate,"
-               "first_level_category_name,second_level_category_name,shop_id,promo_code_info",
+               "first_level_category_name,second_level_category_name,shop_id,promo_code_info,product_video_url",
         page_no=page, page_size=page_size, sort=sort,
         ship_to_country=ship_to, target_currency="USD", target_language="EN",
         tracking_id=TRACKING_ID,
@@ -115,7 +115,7 @@ def sale_products(name, page=1, page_size=50, ship_to="IL"):
                ship_to_country=ship_to, target_currency="USD", target_language="EN", tracking_id=TRACKING_ID,
                fields="product_id,product_title,product_main_image_url,product_small_image_urls,target_sale_price,"
                       "target_original_price,discount,promotion_link,lastest_volume,evaluate_rate,"
-                      "first_level_category_name,second_level_category_name,shop_id,promo_code_info")
+                      "first_level_category_name,second_level_category_name,shop_id,promo_code_info,product_video_url")
     return _products(res)
 
 

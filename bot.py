@@ -346,6 +346,8 @@ class Amazon:
             if u not in gallery and u != image:
                 gallery.append(u)
         images = ([image] if image else []) + gallery[:CONFIG.get("photos_per_post", 3) - 1]
+        vids = re.findall(r'"(https://m\.media-amazon\.com/images/S/[^"]+?\.mp4)"', page)
+        video = vids[0] if vids else ""
 
         rating = text("#acrPopover .a-icon-alt").split(" out")[0]
         reviews = re.sub(r"[^\d,]", "", text("#acrCustomerReviewText"))
@@ -355,7 +357,7 @@ class Amazon:
             "parent_asin": m.group(1) if m else "",
             "title": text("#productTitle"),
             "price": price, "was": was if money(was) > money(price) > 0 else "", "discount": discount,
-            "rating": rating, "reviews": reviews, "image": image, "images": images,
+            "rating": rating, "reviews": reviews, "image": image, "images": images, "video": video,
             "shipping": shipping, "delivery_text": delivery[:200],
         }
 
@@ -471,7 +473,7 @@ def remember_post(item, category):
         log(f"  (image save failed: {e})")
     log_file = ROOT / "data" / "posts.json"
     posts = json.loads(log_file.read_text()) if log_file.exists() else []
-    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold", "album_ids", "coupon")}
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold", "album_ids", "coupon", "video")}
                  | {"category_slug": category["slug"], "category_en": category["en"], "category_he": category["he"],
                     "posted_at": now().isoformat()})
     posts = posts[-40:]
@@ -506,6 +508,26 @@ def square_photo(url):
     return buf.getvalue()
 
 
+def fetch_video(url):
+    """Download a product video (mp4) if it's small enough for Telegram (bot upload limit ~50MB)."""
+    if not url or ".mp4" not in url.split("?")[0].lower():
+        return None
+    try:
+        r = requests.get(url, timeout=60, stream=True)
+        if not r.ok:
+            return None
+        data = b""
+        for chunk in r.iter_content(1 << 20):
+            data += chunk
+            if len(data) > CONFIG.get("max_video_mb", 40) * (1 << 20):
+                log("  (video too large, skipping it)")
+                return None
+        return data if len(data) > 50_000 else None
+    except Exception as e:
+        log(f"  (video download failed: {e})")
+        return None
+
+
 def send_telegram(item, category):
     """Post to the channel. Returns the Telegram message id (or True on a dry run), None on failure."""
     text = caption(item, category)
@@ -514,20 +536,27 @@ def send_telegram(item, category):
         return True
     api = f"https://api.telegram.org/bot{TG_TOKEN}"
     urls = [u for u in (item.get("images") or []) if u][:CONFIG.get("photos_per_post", 3)]
-    log(f"  photos available: {len(urls)}")
-    if len(urls) >= 2:
+    video = fetch_video(item.get("video")) if CONFIG.get("post_videos", True) else None
+    log(f"  photos available: {len(urls)}, video: {'yes' if video else 'no'}")
+    if video and len(urls) >= 3:
+        urls = urls[:2]  # main photo, video, one more photo
+    if len(urls) >= 2 or (video and urls):
         photos = [ph for ph in (square_photo(u) for u in urls) if ph]
-        if len(photos) >= 2:
+        if len(photos) >= 2 or (video and photos):
+            files = {f"p{i}": (f"p{i}.jpg", ph, "image/jpeg") for i, ph in enumerate(photos)}
             media = [{"type": "photo", "media": f"attach://p{i}"} for i in range(len(photos))]
+            if video:
+                files["v0"] = ("v0.mp4", video, "video/mp4")
+                media.insert(1, {"type": "video", "media": "attach://v0", "supports_streaming": True})
             media[0].update(caption=text, parse_mode="HTML")
             r = requests.post(f"{api}/sendMediaGroup", data={
                 "chat_id": TG_CHAT, "media": json.dumps(media),
                 "disable_notification": "false" if is_big_deal(item) else "true"},
-                files={f"p{i}": (f"p{i}.jpg", ph, "image/jpeg") for i, ph in enumerate(photos)}, timeout=90)
+                files=files, timeout=180)
             if r.ok:
                 msgs = r.json()["result"]
                 item["album_ids"] = [m["message_id"] for m in msgs]
-                log(f"  sent as an album of {len(msgs)} photos")
+                log(f"  sent as an album of {len(msgs)} items" + (" (with video)" if video else ""))
                 return msgs[0]["message_id"]
             log(f"  album post failed ({r.text[:150]}), sending a single photo")
     if item.get("image"):
@@ -731,6 +760,7 @@ def ali_pick(state):
                     "link": p["promotion_link"], "store": "aliexpress",
                     "sold": f"{sold // 1000},000" if sold >= 1000 else str(sold)}
             info["coupon"] = ali_coupon(p)
+            info["video"] = p.get("product_video_url") or ""
             it = {"asin": pid, "rank": 0, "source": "aliexpress", "store": "aliexpress"}
             return it, info, {"slug": f"aliexpress/{q['q']}", "en": q["en"], "he": q["he"]}
     log(f"  no new AliExpress deal found in {tried} searches")
