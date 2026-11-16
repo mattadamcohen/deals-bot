@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0888D24PM",
-  "title": "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
-  "title_he": "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
-  "price": "$31.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.5",
-  "reviews": "39,241",
-  "rank": 14,
-  "source": "bestsellers",
-  "message_id": 21,
-  "image": "https://m.media-amazon.com/images/I/71VxpTK0JjL._AC_SL1500_.jpg",
-  "variant": 298,
-  "category_slug": "fashion/1040658",
-  "category_en": "Men's Clothing",
-  "category_he": "ביגוד גברים",
-  "posted_at": "2026-11-15T07:17:56.490377+00:00"
- },
- {
   "asin": "B01M16WBW1",
   "title": "Queen Size 4 Piece Sheet Set - Warm, Cozy & Breathable Sheets - White",
   "title_he": "Queen Size 4 Piece Sheet Set - Warm, Cozy & Breathable Sheets - White",
@@ -946,5 +927,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-16T19:17:07.480205+00:00"
+ },
+ {
+  "asin": "B0CZ89PFG3",
+  "title": "Skechers Women's Max Cushioning Endeavour",
+  "title_he": "מאמץ ריפוד מקס לנשים של Skechers",
+  "price": "$65.00",
+  "was": "$84.00",
+  "discount": "23%",
+  "rating": "4.5",
+  "reviews": "7,051",
+  "rank": 29,
+  "source": "bestsellers",
+  "message_id": 95,
+  "image": "https://m.media-amazon.com/images/I/81C+t8tMn7L._AC_SL1500_.jpg",
+  "variant": 949,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   95,
+   96,
+   97
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/f85ffcfb-ab44-43ff-b9f5-998c5d3fc9dd.mp4/productVideoOptimized.mp4",
+  "category_slug": "fashion/679337011",
+  "category_en": "Women's Shoes",
+  "category_he": "נעלי נשים",
+  "posted_at": "2026-11-16T19:49:00.785890+00:00"
  }
 ]
