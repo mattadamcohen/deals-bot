@@ -667,7 +667,7 @@ def ali_pick(state):
     for q in picks:
         tried += 1
         try:
-            prods = aliexpress.search(keywords=q["q"], page=random.randint(1, 3), page_size=50)
+            prods = aliexpress.search(keywords=q["q"], page=1 if arg("keyword") else random.randint(1, 3), page_size=50)
         except Exception as e:
             log(f"  (AliExpress search '{q['q']}' failed: {e})")
             continue
