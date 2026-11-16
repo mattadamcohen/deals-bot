@@ -925,70 +925,70 @@
       "official": "Pop Mart",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 3
+      "weight": 0.3
     },
     {
       "q": "Bandai",
       "official": "Bandai",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 2
+      "weight": 0.3
     },
     {
       "q": "Takara Tomy",
       "official": "Takara Tomy",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "q": "Hasbro",
       "official": "Hasbro",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "q": "Kayou",
       "official": "Kayou",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "q": "Disney",
       "official": "Disney",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 2
+      "weight": 0.3
     },
     {
       "q": "Miniso",
       "official": "Miniso",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "q": "52Toys",
       "official": "52Toys",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "q": "Beast Kingdom",
       "official": "Beast Kingdom",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     },
     {
       "q": "Maisto",
       "official": "Maisto",
       "en": "Official brand store",
       "he": "חנות רשמית",
-      "weight": 1
+      "weight": 0.3
     }
   ],
   "ali_min_price_usd": 5,
