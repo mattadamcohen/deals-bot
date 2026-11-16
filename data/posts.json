@@ -1,25 +1,5 @@
 [
  {
-  "asin": "B07FPQZG6V",
-  "title": "GORILLA GRIP Bath Rug Mat for Bathroom, Absorbent Chenille, 24x17 Grey",
-  "title_he": "GORILLA GRIP Bath Rug Mat for Bathroom, Absorbent Chenille, 24x17 Grey",
-  "price": "$11.98",
-  "was": "",
-  "discount": "25%",
-  "rating": "4.3",
-  "reviews": "94,676",
-  "rank": 10,
-  "source": "bestsellers",
-  "message_id": 11,
-  "image": "https://m.media-amazon.com/images/I/71xYz3i-W2L._AC_SL1000_.jpg",
-  "category_slug": "home-garden/1063278",
-  "category_en": "Home Décor",
-  "category_he": "עיצוב הבית",
-  "posted_at": "2026-11-14T14:24:16.655661+00:00",
-  "ig_media": "17912230644575324",
-  "variant": 236
- },
- {
   "asin": "B0CX4RLCXW",
   "title": "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set – Bold Colors, The Original Magnetic Building Brand",
   "title_he": "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set – Bold Colors, The Original Magnetic Building Brand",
@@ -849,5 +829,33 @@
   "category_en": "Kitchen & Dining",
   "category_he": "מטבח ואירוח",
   "posted_at": "2026-11-16T13:46:30.720757+00:00"
+ },
+ {
+  "asin": "ali-1005010462727340",
+  "title": "YZ For Tesla Model Y Juniper 2025-2026 TPE Car Floor Mats With Metal Pedals Luggage Trunk Mat Set Four Seasons Waterproof Anti-s",
+  "title_he": "YZ לטסלה דגם Y Juniper 2025-2026 TPE שטיחי רצפת לרכב עם דוושות מתכת סט מחצלות לתא מטען ארבע עונות נגד מים עמיד למים",
+  "price": "$33.59",
+  "was": "$79.98",
+  "discount": "58%",
+  "rating": "96.7%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 65,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S571098a021bd4f4cbb9682baf9cd192b5.jpg",
+  "variant": 242,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/LxyiVOQKofy2yqnzLspKCOBwWmqLiGyoT8G0rv63A6JblkIACPQIlDv0GexRDN3gavU044kzzDHKshgQFMefe3ZI50JWr3Sni4i3vxKtyTZuiG2MFNIB8Ieqq8HgMDY8UUn97UNDXpZqHUsXBZEwt81a1fy8THCokq9h8GeAqJP5DyMBBdBY2CfPA0ZvbWiyhnUE93QUhKR94dvdXiYQUBzfIHy6N1UaWJmaWul93J8TXAbo5zKFNh6ZFTurHIsA252fZojGTe5l3dM0bxs03vLpcrzlf7pgTfuxUBYJvbcPzwGcmLkhIlOCQpE2w0AbazuWwetCGtUvAapqrk9EGvzMAC4MhzXk3xzMfzsd6KZFvwaOchNwg7QGlLpwHuZ20YSMz7bW67QC8iP4ryurQ9YEXr8lorWGi3Ez9Dd2UhNXliEWQXaddiYUgHiru94nyCA7IsYYblMNU7QLiZGN4UZVCObMYF5Sjj5QXSjv31Q66jsdyUfjqdHu4Q1IeM1fecSzoOqE1kLgOYzLqn74JDdG9J2ioBD70vGFq80dXEKrWv7kK5n1OGsQevypXGX1dPouO0YQdsieTG7cBEla8BVOJ2D9GfZe16UzNkF7UWWzXIgW0CU68zz0ByEK0FHcFho6blwsWVuQtYr965eBHP5Pq44m8LWsH9zpAs8HMSSf04p5QlmCsXrQyNCUzURhn4uAZF83MUyS2QuCn9Zsf9N2Cuub2fuhsyWJqkUmA9fsB1D9c702TleTpmhIrcAILkpHhp19ikFLqR8Ffc5LlOT4p0wj0cGb5G3e878hL4nhUR3TqRzctgH1SJZ1gPvbSSajdFP1iic5em2go8xHW5dkT3itmTOXladFD8DfCaehd0zu00horiQIMueSXOrsSXIMv3CvNTN7M4ITxLS7VKa1A9ixaU45O4OLg8tx3Ej9hKz4yLcMxO2OCrHkkae6Cl6upMxdFVBPEcGiBh4Y6jXAqH5q1gJhvoeqMqq3NARwcWSmAyHN7ms2syXQdh3jDeOzFwgYTUvMdJOcVHSRIDjR6BgOIyVSJNzDI1btHHwpUCNTkZqhqUtGWltsTb1O4wJ",
+  "sold": "9,000",
+  "album_ids": [
+   65,
+   66,
+   67
+  ],
+  "coupon": "",
+  "category_slug": "aliexpress/1101-1118 11.11 Sale - Big Save",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-16T14:16:40.542917+00:00"
  }
 ]
