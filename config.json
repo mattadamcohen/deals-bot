@@ -437,7 +437,16 @@
     "Kayou",
     "Miniso",
     "52Toys",
-    "Beast Kingdom"
+    "Beast Kingdom",
+    "Osprey",
+    "Patagonia",
+    "Herschel",
+    "JanSport",
+    "Samsonite",
+    "Garmin",
+    "Braun",
+    "Instant Pot",
+    "Hydro Flask"
   ],
   "seasons": [
     {
@@ -1118,5 +1127,7 @@
   "ali_sale_share": 0.4,
   "coupon_hour": 11,
   "coupons": [],
-  "ali_min_sold_exempt": 200
+  "ali_min_sold_exempt": 200,
+  "brand_bonus": 35,
+  "ali_niche_block": "\\b(replacement|spare parts?|repair|module|hardwire|wiring|harness|adapter plate|mount bracket|for (tesla|bmw|toyota|honda|mercedes|audi|vw|volkswagen|ford|kia|hyundai|byd|model [3ysx])|compatible with|oem|universal fit)\\b"
 }

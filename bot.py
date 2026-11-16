@@ -693,6 +693,8 @@ def ali_ok(p, official=False):
     cats = f"{p.get('first_level_category_name') or ''} {p.get('second_level_category_name') or ''}"
     if ALI_BLOCK_CATS.search(cats):
         return False
+    if CONFIG.get("ali_niche_block") and re.search(CONFIG["ali_niche_block"], (p.get("product_title") or "").lower()):
+        return False  # parts / add-ons for one specific device or car: too niche for the channel
     if any(k in (p.get("product_title") or "").lower() for k, v in CONFIG.get("demote_keywords", {}).items() if v >= 35):
         return False  # bedding / linen: Matt wants much less of it
     price = money(p.get("target_sale_price"))
@@ -982,7 +984,7 @@ def main():
         pr = money(info.get("price"))
         value = CONFIG.get("higher_value_bonus", 25) if pr >= CONFIG.get("preferred_min_price_usd", 25) else \
             CONFIG.get("higher_value_bonus", 25) // 2 if pr >= 15 else 0
-        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (15 if branded else 0) + boost + value
+        return popularity + trending + min(discount_pct(info), 50) * discount_weight + (CONFIG.get("brand_bonus", 15) if branded else 0) + boost + value
 
     def post(it, info, category):
         nonlocal posted_now
