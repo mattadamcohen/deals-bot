@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0GZWZH2L8",
-  "title": "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
-  "title_he": "Taba Squishy Making Kit for Kids - Squishies Craft Kits",
-  "price": "$25.99",
-  "was": "",
-  "discount": "19%",
-  "rating": "4.1",
-  "reviews": "1,641",
-  "rank": 30,
-  "source": "",
-  "category_en": "Toys & Games",
-  "category_he": "צעצועים ומשחקים",
-  "posted_at": "2026-11-14T07:25:51.099075+00:00",
-  "category_slug": "toys-and-games",
-  "message_id": 5,
-  "ig_media": "18104170136541903",
-  "variant": 796
- },
- {
   "asin": "B0C26ZL5JV",
   "title": "The Children's Place Boys' 100% Cotton Long Sleeve Top and Pants,2 Piece Pajama Set",
   "title_he": "The Children's Place Boys' 100% Cotton Long Sleeve Top and Pants,2 Piece Pajama Set",
@@ -818,5 +799,27 @@
   "category_en": "Top brands",
   "category_he": "מותגים מובילים",
   "posted_at": "2026-11-16T11:01:01.698524+00:00"
+ },
+ {
+  "asin": "B0B7535QC3",
+  "title": "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
+  "title_he": "עט סטיילוס עבור אפל אייפד 2018-2026 מגנטי לרישום הערות",
+  "price": "$16.99",
+  "was": "$25.99",
+  "discount": "35%",
+  "rating": "4.5",
+  "reviews": "10,041",
+  "rank": 25,
+  "source": "bestsellers",
+  "message_id": 53,
+  "image": "https://m.media-amazon.com/images/I/41P6DP-k+HL._AC_SL1500_.jpg",
+  "variant": 497,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "category_slug": "videogames",
+  "category_en": "Video Games",
+  "category_he": "משחקי וידאו",
+  "posted_at": "2026-11-16T11:31:03.845598+00:00"
  }
 ]

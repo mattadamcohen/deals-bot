@@ -1,10 +1,11 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 13
+  "2026-11-16": 14
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
+  "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
@@ -50,6 +51,7 @@
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
+  "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
@@ -60,7 +62,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00"
  },
  "last_harvest_at": "2026-11-16T10:34:56.983544+00:00",
- "last_post_at": "2026-11-16T11:01:01.700070+00:00",
+ "last_post_at": "2026-11-16T11:31:03.847941+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -381,6 +383,7 @@
   "B07ZSWRKZY": "2026-11-14T19:32:53.716210+00:00",
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
+  "B0B7535QC3": "2026-11-16T11:31:03.776706+00:00",
   "B0BGWYD9KC": "2026-11-14T12:25:03.919624+00:00",
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
   "B0BR3M8XHK": "2026-11-15T17:04:35.695719+00:00",
@@ -411,13 +414,12 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
  },
  "recent_categories": [
-  "kitchen",
   "aliexpress/Logitech",
   "videogames",
-  "aliexpress/Netac"
+  "aliexpress/Netac",
+  "videogames"
  ],
  "recent_titles": [
-  "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey",
   "LED Solar Pathway Lights Outdoor Waterproof Garden Stake Lamp for Lawn Yard Walkway Landscape Decoration",
   "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Winter Blanket Christmas Thanksgiving Decorations for Home Room Decor, Christmas Birthday Gifts for Women and Men, 90x90 inches",
   "Stainless Steel Can Opener Multifunctional Grip Opener Side Cut Professional Tins Bottle Opener Kitchen Gadgets",
@@ -428,7 +430,8 @@
   "Owala FreeSip Sway Stainless Steel Water Bottle 30 oz Black Cherry",
   "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
   "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
-  "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop"
+  "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
+  "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing"
  ],
- "since_ali": 0
+ "since_ali": 1
 }
