@@ -86,11 +86,36 @@ def search(keywords=None, category_ids=None, page=1, page_size=50,
         keywords=keywords, category_ids=category_ids,
         fields="product_id,product_title,product_main_image_url,product_small_image_urls,target_sale_price,"
                "target_original_price,discount,promotion_link,lastest_volume,evaluate_rate,"
-               "first_level_category_name,second_level_category_name,shop_id",
+               "first_level_category_name,second_level_category_name,shop_id,promo_code_info",
         page_no=page, page_size=page_size, sort=sort,
         ship_to_country=ship_to, target_currency="USD", target_language="EN",
         tracking_id=TRACKING_ID,
     )
+    return _products(res)
+
+
+def sale_lists():
+    """AliExpress's own curated lists for the sale running today, e.g. '1101-1118 11.11 Sale - Bestsellers'."""
+    import datetime, re as _re
+    today = datetime.date.today().strftime("%m%d")
+    res = call("aliexpress.affiliate.featuredpromo.get")
+    promos = (res.get("promos") or {}).get("promo") or []
+    out = []
+    for p in promos:
+        n = p.get("promo_name") or ""
+        m = _re.match(r"(\d{4})-(\d{4})\s", n)
+        if m and m.group(1) <= today <= m.group(2) and _re.search(r"bestseller|big save|top brand|hot", n, _re.I):
+            out.append(n)
+    return out
+
+
+def sale_products(name, page=1, page_size=50, ship_to="IL"):
+    res = call("aliexpress.affiliate.featuredpromo.products.get", promotion_name=name,
+               page_no=page, page_size=page_size, sort="LAST_VOLUME_DESC",
+               ship_to_country=ship_to, target_currency="USD", target_language="EN", tracking_id=TRACKING_ID,
+               fields="product_id,product_title,product_main_image_url,product_small_image_urls,target_sale_price,"
+                      "target_original_price,discount,promotion_link,lastest_volume,evaluate_rate,"
+                      "first_level_category_name,second_level_category_name,shop_id,promo_code_info")
     return _products(res)
 
 

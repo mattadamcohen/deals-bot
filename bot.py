@@ -423,6 +423,9 @@ def block(item, category, title, L, extra=(), v=0):
         if item.get("discount"):
             p += f"  ({esc(item['discount'])} {L['off']})"
         lines.append(p)
+    cp = item.get("coupon")
+    if cp:
+        lines.append(f"🎟️ {pick(L['coupon'], v).format(code=f"<code>{esc(cp['code'])}</code>", off=f'${cp["off"]:g}', min=f'${cp["min"]:g}')}")
     if item.get("rating"):
         star = "👍" if ali else "⭐"
         lines.append(f"{star} {esc(item['rating'])}" + (f" ({item['reviews']})" if item.get("reviews") else ""))
@@ -468,7 +471,7 @@ def remember_post(item, category):
         log(f"  (image save failed: {e})")
     log_file = ROOT / "data" / "posts.json"
     posts = json.loads(log_file.read_text()) if log_file.exists() else []
-    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold", "album_ids")}
+    posts.append({k: item.get(k, "") for k in ("asin", "title", "title_he", "price", "was", "discount", "rating", "reviews", "rank", "source", "message_id", "image", "variant", "store", "link", "sold", "album_ids", "coupon")}
                  | {"category_slug": category["slug"], "category_en": category["en"], "category_he": category["he"],
                     "posted_at": now().isoformat()})
     posts = posts[-40:]
@@ -630,6 +633,20 @@ ALI_BLOCK_CATS = re.compile(r"sex|adult|intimate|lingerie|underwear|tobacco|smok
                             r"hunting|tattoo|novelty & special use", re.I)
 
 
+def ali_coupon(p):
+    """Store coupon on the product, if it's worth showing (>= $2 off) and still valid."""
+    info = p.get("promo_code_info") or {}
+    code = info.get("promo_code")
+    if not code:
+        return None
+    m = re.search(r"get USD ([\d.]+) off", info.get("code_value") or "")
+    off, mini = (float(m.group(1)) if m else 0), money(info.get("code_mini_spend"))
+    end = (info.get("code_availabletime_end") or "")[:10]
+    if off < CONFIG.get("coupon_min_off_usd", 2) or (end and end < now().date().isoformat()):
+        return None
+    return {"code": code, "off": off, "min": mini, "until": end}
+
+
 def ali_ok(p):
     """Age-appropriate, popular, well-rated, under the price cap."""
     text = " ".join(str(p.get(k) or "") for k in ("product_title", "first_level_category_name", "second_level_category_name"))
@@ -666,10 +683,19 @@ def ali_pick(state):
     if arg("keyword"):  # targeted: e.g. --keyword "baseus security b1"
         kw = arg("keyword").lower()
         picks = [{"q": arg("keyword"), "require": kw, "en": arg("category-en", "Top picks"), "he": arg("category-he", "בחירות שלנו")}]
+    if not arg("keyword") and random.random() < CONFIG.get("ali_sale_share", 0.4):
+        try:
+            lists = aliexpress.sale_lists()
+            if lists:
+                name = random.choice(lists)
+                picks = [{"q": name, "sale": True, "en": "AliExpress sale", "he": "מבצע אליאקספרס"}] + picks
+        except Exception as e:
+            log(f"  (AliExpress sale lists failed: {e})")
     for q in picks:
         tried += 1
         try:
-            prods = aliexpress.search(keywords=q["q"], page=1 if arg("keyword") else random.randint(1, 3), page_size=50)
+            prods = aliexpress.sale_products(q["q"], page=random.randint(1, 5)) if q.get("sale") else \
+                aliexpress.search(keywords=q["q"], page=1 if arg("keyword") else random.randint(1, 3), page_size=50)
         except Exception as e:
             log(f"  (AliExpress search '{q['q']}' failed: {e})")
             continue
@@ -703,6 +729,7 @@ def ali_pick(state):
                                                                    if u != p.get("product_main_image_url")])[:CONFIG.get("photos_per_post", 3)],
                     "link": p["promotion_link"], "store": "aliexpress",
                     "sold": f"{sold // 1000},000" if sold >= 1000 else str(sold)}
+            info["coupon"] = ali_coupon(p)
             it = {"asin": pid, "rank": 0, "source": "aliexpress", "store": "aliexpress"}
             return it, info, {"slug": f"aliexpress/{q['q']}", "en": q["en"], "he": q["he"]}
     log(f"  no new AliExpress deal found in {tried} searches")
@@ -777,6 +804,49 @@ def clashes(state, title):
     if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
         return f"{brand} was posted recently"
     return None
+
+
+# ---------------------------------------------------------------- coupon posts
+
+def coupon_post(state):
+    """At most one coupon post a day, only while codes from config 'coupons' are valid. Returns True if posted."""
+    today = israel_now().date().isoformat()
+    active = [c for c in CONFIG.get("coupons", []) if c.get("from", "") <= today <= c.get("until", "")]
+    if not active or state.get("last_coupon_day") == today or israel_now().hour < CONFIG.get("coupon_hour", 11):
+        return False
+    by_store = {}
+    for c in active:
+        by_store.setdefault(c.get("store", "aliexpress"), []).append(c)
+    he, en = ["🎟️ <b>קופונים שווים להיום</b>", ""], ["🎟️ <b>Today's coupon codes</b>", ""]
+    names = {"aliexpress": ("אליאקספרס", "AliExpress"), "amazon": ("אמזון", "Amazon")}
+    for store, cs in by_store.items():
+        nh, ne = names.get(store, (store, store))
+        he.append(f"<b>{nh}:</b>")
+        en.append(f"<b>{ne}:</b>")
+        for c in cs:
+            he.append(f"• ${c['off']:g} הנחה בקנייה מעל ${c['min']:g}: <code>{esc(c['code'])}</code>")
+            en.append(f"• ${c['off']:g} off ${c['min']:g}+: <code>{esc(c['code'])}</code>")
+        he.append("")
+        en.append("")
+    until = min(c["until"] for c in active)
+    he += [f"⏰ בתוקף עד {until[8:10]}/{until[5:7]} (או עד שנגמר)", "📋 לחצו על הקוד כדי להעתיק, והדביקו בתשלום"]
+    en += [f"⏰ Valid until {until[8:10]}/{until[5:7]} (while codes last)", "📋 Tap a code to copy it, paste at checkout"]
+    if any(c.get("link") for c in active):
+        url = next(c["link"] for c in active if c.get("link"))
+        he.append(f'👉 <a href="{esc(url)}">לכל המבצעים</a>')
+        en.append(f'👉 <a href="{esc(url)}">See the sale</a>')
+    text = "\n".join(he) + "\n\n〰️〰️〰️〰️〰️\n\n" + "\n".join(en)
+    if DRY_RUN:
+        log("---- DRY RUN coupon post ----\n" + text)
+        return True
+    r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage", data={
+        "chat_id": TG_CHAT, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true",
+        "disable_notification": "true"}, timeout=30)
+    log(f"Coupon post: {r.status_code} {r.text[:120]}")
+    if r.ok and not OWNER_TEST:
+        state["last_coupon_day"] = today
+        state["last_post_at"] = now().isoformat()
+    return r.ok
 
 
 def israel_now():
@@ -926,6 +996,10 @@ def main():
         else:
             log(f"{reason}: reserve is empty")
             post_ali(f"{reason} (Amazon stock empty)")
+
+    if due is True and not targeted and not OWNER_TEST and coupon_post(state):
+        save_state(state)
+        return
 
     if OWNER_TEST:
         for i in range(int(arg("max-posts", 2) or 2)):

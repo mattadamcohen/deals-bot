@@ -264,6 +264,9 @@
         "לצפייה באליאקספרס",
         "לפרטים ולהזמנה",
         "קחו אותי לדיל"
+      ],
+      "coupon": [
+        "קוד קופון: {code} ({off} הנחה בקנייה מעל {min})"
       ]
     },
     "en": {
@@ -310,6 +313,9 @@
         "View on AliExpress",
         "See the deal",
         "Get it here"
+      ],
+      "coupon": [
+        "Coupon code: {code} ({off} off orders over {min})"
       ]
     }
   },
@@ -1013,5 +1019,9 @@
     "sheets set": 45,
     "fitted sheet": 45,
     "flat sheet": 45
-  }
+  },
+  "coupon_min_off_usd": 2,
+  "ali_sale_share": 0.4,
+  "coupon_hour": 11,
+  "coupons": []
 }
