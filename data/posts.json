@@ -1,23 +1,5 @@
 [
  {
-  "asin": "B0C26ZL5JV",
-  "title": "The Children's Place Boys' 100% Cotton Long Sleeve Top and Pants,2 Piece Pajama Set",
-  "title_he": "The Children's Place Boys' 100% Cotton Long Sleeve Top and Pants,2 Piece Pajama Set",
-  "price": "$14.98",
-  "was": "$29.95",
-  "discount": "50%",
-  "rating": "4.6",
-  "reviews": "6,044",
-  "rank": 4,
-  "source": "bestsellers",
-  "category_en": "Boys' Clothing",
-  "category_he": "ביגוד לבנים",
-  "posted_at": "2026-11-14T07:26:49.650902+00:00",
-  "category_slug": "fashion/1040666",
-  "message_id": 7,
-  "variant": 291
- },
- {
   "asin": "B086BLQZ5L",
   "title": "Aothia Non-Slip Waterproof PU Leather Desk Pad Protector for Mouse, Writing Desk, Office, Home, Laptop Blotter, 23.6\" x 13.7\", Black",
   "title_he": "Aothia Non-Slip Waterproof PU Leather Desk Pad Protector for Mouse, Writing Desk, Office, Home, Laptop Blotter, 23.6\" x 13.7\", Black",
@@ -821,5 +803,32 @@
   "category_en": "Video Games",
   "category_he": "משחקי וידאו",
   "posted_at": "2026-11-16T11:31:03.845598+00:00"
+ },
+ {
+  "asin": "ali-1005007668695524",
+  "title": "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
+  "title_he": "Baseus Security B1 מצלמה חיצונית 2K Wireless Wifi מצלמת אבטחה מערכת הגנה 24/7 הקלטה מובנית 8GB אחסון מקומי",
+  "price": "$74.47",
+  "was": "$159.98",
+  "discount": "53%",
+  "rating": "94.2%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 54,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sccd3f81af4b74298bcb485cbde45daf7d.jpg",
+  "variant": 150,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EhEhuZRmKEqdfcxYergPO1Fw38Q7uwekUYqfbNBnMNdPsWUYDes0UE3e4VdcFMK4SrKG3bjm3aN3tc3YCN2OKSFExxs0ZDc2jdkwm4bG2hZpZKdWynLGXtjRIPep3OGP3KreM7oWe1WtaTcKrQp6UcBGCtfD0xAc6ZrLxTmx5URe68znlDvAFAj5sLxdt2vdcaJdGKv6ntZpcQbFIV57GAE50m49bX8kwiBPFmhyEBlXdNOMbeWMqd6pyZkyFcAiLMMEArn21yfJGlhPBv96evAgXdfEYqS2DTbWTIz1eERyP5oxCNSvf5b99japulr9wTHpEyc7UAtIp1peVsy1WwuUhYnfYP9G6GNuMwS8mkQRvZTOFCPPVglbJtfIKA4YtRnFXGrLXMD5Tm7gYjvBsDl3TJUV6yY1kgnOuKXBkSZ1gXiPimEyrrTvbLrKkvGCz0CA2zxOdsxp4ahYE1BPxAg5Psa5LhIclWkA33SBnrsfA7KkAshclG8bjqUTozeX5NUY1loXjbEMyrrrnfJ8MTojg0N87MWEcU2ltJYnw4Q14aB9kl15tbahSOw2q9npbL3JoBXWIDOgNLw3ZNYGz13ZgzpR2hJp1xWA3OFixhC1zscCHQHZCe13eB5OX3MeTZ6HXeZ5E7c9Qa3LF4mCmANfnBpycdgGJm0F64bCYngxdaojgThzxd9kE1I0OnzJzwpF0e1pkZOzi",
+  "sold": "979",
+  "album_ids": [
+   54,
+   55,
+   56
+  ],
+  "category_slug": "aliexpress/Baseus Security B1",
+  "category_en": "Top picks",
+  "category_he": "בחירות שלנו",
+  "posted_at": "2026-11-16T11:47:00.978847+00:00"
  }
 ]

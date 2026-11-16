@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-16": 14
+  "2026-11-16": 15
  },
  "families": {
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
@@ -21,6 +21,7 @@
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
+  "baseus security b outdoor": "2026-11-16T11:47:00.980551+00:00",
   "bedsure fleece bed blankets": "2026-11-16T06:31:23.838497+00:00",
   "bedsure gentlesoft throw blanket": "2026-11-15T14:26:34.499976+00:00",
   "bedsure satin pillowcases queen": "2026-11-16T05:34:38.383004+00:00",
@@ -62,7 +63,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00"
  },
  "last_harvest_at": "2026-11-16T10:34:56.983544+00:00",
- "last_post_at": "2026-11-16T11:31:03.847941+00:00",
+ "last_post_at": "2026-11-16T11:47:00.980179+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -407,6 +408,7 @@
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
+  "ali-1005007668695524": "2026-11-16T11:47:00.938589+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
@@ -414,13 +416,12 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00"
  },
  "recent_categories": [
-  "aliexpress/Logitech",
   "videogames",
   "aliexpress/Netac",
-  "videogames"
+  "videogames",
+  "aliexpress/Baseus Security B1"
  ],
  "recent_titles": [
-  "LED Solar Pathway Lights Outdoor Waterproof Garden Stake Lamp for Lawn Yard Walkway Landscape Decoration",
   "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Winter Blanket Christmas Thanksgiving Decorations for Home Room Decor, Christmas Birthday Gifts for Women and Men, 90x90 inches",
   "Stainless Steel Can Opener Multifunctional Grip Opener Side Cut Professional Tins Bottle Opener Kitchen Gadgets",
   "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
@@ -431,7 +432,8 @@
   "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
   "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
   "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
-  "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing"
+  "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
+  "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage"
  ],
- "since_ali": 1
+ "since_ali": 0
 }
