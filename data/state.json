@@ -468,7 +468,20 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "at": "2026-11-17T18:45:43.682291+00:00",
+   "id": "1005012491011983",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c36ginXb"
+  },
+  {
+   "at": "2026-11-17T18:45:44.457707+00:00",
+   "id": "1005013330988187",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4axyJI1"
+  }
+ ],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
@@ -583,5 +596,5 @@
   "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush"
  ],
  "since_ali": 0,
- "tg_offset": 260136102
+ "tg_offset": 260136104
 }
