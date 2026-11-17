@@ -456,7 +456,16 @@
     "Garmin",
     "Braun",
     "Instant Pot",
-    "Hydro Flask"
+    "Hydro Flask",
+    "La Roche-Posay",
+    "The Ordinary",
+    "HyperX",
+    "Razer",
+    "SteelSeries",
+    "Frameo",
+    "Babyvue",
+    "Magna-Tiles",
+    "Tonies"
   ],
   "seasons": [
     {
@@ -562,7 +571,32 @@
     "activity set": 20,
     "craft kit": 15,
     "science kit": 15,
-    "sticker book": 10
+    "sticker book": 10,
+    "screwdriver set": 20,
+    "tool set": 20,
+    "tool kit": 15,
+    "sand art": 20,
+    "night light": 15,
+    "magnetic train": 20,
+    "train set": 15,
+    "marble run": 15,
+    "digital photo frame": 25,
+    "frameo": 25,
+    "baby car mirror": 20,
+    "car seat camera": 20,
+    "instant print camera": 25,
+    "kids camera": 20,
+    "sticker printer": 20,
+    "magnetic tiles": 25,
+    "magnetic blocks": 20,
+    "remote control": 15,
+    "rc car": 15,
+    "drawing board": 20,
+    "drawing tablet kids": 15,
+    "gaming headset": 20,
+    "skincare set": 15,
+    "moisturizer": 10,
+    "cleanser": 10
   },
   "repost_days_override": {
     "lego": 3
@@ -1008,6 +1042,90 @@
       "en": "Official brand store",
       "he": "חנות רשמית",
       "weight": 0.3
+    },
+    {
+      "q": "precision screwdriver set",
+      "en": "Tools",
+      "he": "כלי עבודה",
+      "weight": 2
+    },
+    {
+      "q": "tool set home",
+      "en": "Tools",
+      "he": "כלי עבודה",
+      "weight": 2
+    },
+    {
+      "q": "moving sand art lamp",
+      "en": "Home decor",
+      "he": "עיצוב הבית",
+      "weight": 2
+    },
+    {
+      "q": "kids night light",
+      "en": "Home decor",
+      "he": "עיצוב הבית",
+      "weight": 2
+    },
+    {
+      "q": "magnetic train track toy",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 2
+    },
+    {
+      "q": "marble run kids",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 1
+    },
+    {
+      "q": "digital photo frame wifi",
+      "en": "Gift ideas",
+      "he": "רעיונות למתנה",
+      "weight": 2
+    },
+    {
+      "q": "baby car mirror camera",
+      "en": "Baby",
+      "he": "תינוקות",
+      "weight": 2
+    },
+    {
+      "q": "kids instant print camera",
+      "en": "Kids tech",
+      "he": "טכנולוגיה לילדים",
+      "weight": 3
+    },
+    {
+      "q": "kids thermal printer",
+      "en": "Kids tech",
+      "he": "טכנולוגיה לילדים",
+      "weight": 2
+    },
+    {
+      "q": "magnetic building tiles",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 2
+    },
+    {
+      "q": "rc wall climbing car",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 2
+    },
+    {
+      "q": "led drawing board kids",
+      "en": "Kids activities",
+      "he": "פעילות לילדים",
+      "weight": 2
+    },
+    {
+      "q": "gaming headset",
+      "en": "Gaming",
+      "he": "גיימינג",
+      "weight": 2
     }
   ],
   "ali_min_price_usd": 5,
