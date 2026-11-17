@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 9
+  "2026-11-17": 10
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -60,6 +60,7 @@
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
+  "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
@@ -100,7 +101,7 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-17T05:04:07.004146+00:00",
- "last_post_at": "2026-11-17T09:01:31.219973+00:00",
+ "last_post_at": "2026-11-17T09:30:53.471060+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -498,6 +499,7 @@
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
+  "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
@@ -513,13 +515,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/1101-1118 11.11 Sale - Top Brands",
   "fashion/1040658",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
-  "wireless"
+  "wireless",
+  "aliexpress/kids art craft kit"
  ],
  "recent_titles": [
-  "Adidas Genuine Originals Men's Durable Low-Top Casual Shoes JS3994",
   "Skechers Women's Max Cushioning Endeavour",
   "ZSUS 10.5-Inch Portable Monitor 1280P 100%sRGB 15:10 Low Blue Light For XBox PS4 / 5 Switch Cell Phone PC Loptop Extension",
   "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
@@ -530,8 +531,9 @@
   "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
   "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
-  "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install"
+  "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
+  "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136071
 }
