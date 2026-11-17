@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 15
+  "2026-11-17": 16
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -53,6 +53,7 @@
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
   "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
+  "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hanes beefy-t cotton crewneck": "2026-11-17T06:01:17.389969+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
@@ -109,7 +110,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T12:01:22.931598+00:00",
+ "last_post_at": "2026-11-17T12:30:56.593189+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -527,18 +528,18 @@
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
+  "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-32835019753": "2026-11-17T06:30:58.145106+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen gadgets",
   "fashion/1040660",
   "aliexpress/squishy toy",
-  "home-garden"
+  "home-garden",
+  "aliexpress/GameSir"
  ],
  "recent_titles": [
-  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
@@ -549,8 +550,9 @@
   "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
   "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
   "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
-  "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black"
+  "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
+  "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136071
 }

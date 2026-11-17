@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0DF472VMZ",
-  "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
-  "title_he": "Owala SmoothSip סליידר מבודד מפלדת אל חלד כוס קפה קר לשימוש חוזר, ספל קפה חם לטיולים, ללא BPA 12 אונקיות,...",
-  "price": "$24.98",
-  "was": "",
-  "discount": "",
-  "rating": "4.6",
-  "reviews": "16,163",
-  "rank": 2,
-  "source": "bestsellers",
-  "message_id": 43,
-  "image": "https://m.media-amazon.com/images/I/311JdFvhtVL._AC_SL1200_.jpg",
-  "variant": 877,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "kitchen",
-  "category_en": "Kitchen & Dining",
-  "category_he": "מטבח ואירוח",
-  "posted_at": "2026-11-16T07:30:55.315084+00:00"
- },
- {
   "asin": "ali-1005006863903100",
   "title": "Baby Head Protector Backpack Pillow For Kids 1-3 Y Toddler Children Soft PP Cotton Protective Cushion Cartoon Security Pillows",
   "title_he": "תינוק ראש מגן תרמיל כרית לילדים 1-3 Y פעוטות ילדים רכה כותנה PP כרית מגן קריקטורה כריות אבטחה",
@@ -1080,5 +1058,34 @@
   "category_en": "Home & Kitchen",
   "category_he": "בית ומטבח",
   "posted_at": "2026-11-17T12:01:22.930001+00:00"
+ },
+ {
+  "asin": "ali-1005012356700292",
+  "title": "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
+  "title_he": "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 בקר משחק Para Cellular Controle Cloud Gaming Xbox Game Pass STADIA",
+  "price": "$30.50",
+  "was": "$72.88",
+  "discount": "58%",
+  "rating": "95.4%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 146,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S60edac4fe0a84b44ad4db6fda0d72ca5W.jpg",
+  "variant": 984,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4osrdiSaNT29qTY9mbdkXgB48pdXATkBjk6afXnP6wZ5i1Fn7k8cWBN7AjXBUofEHCadk7TCsLY8Mr1b2feTV5gGmeOZZmFE9cMjMPmOTU7nl0rgfO9valDcpNEvQ5cvPIC247R5gMFtws2GioFmXZ2JbfhLFIcVahhLVG5kQ7JN8uLUujKsIckbwBK7ZZwwUWSg9BM4D4XU7Twh1iqnAtFtInqW2e5Cph3RUnE5Z3LXsskzNSNzcpjvN9RO10LNUdMYBiXs7YkhhUZw8Oy0qDWiRHRAvlC4RfZjgPMjgyEiGftEgxAUQjvPUKoC0kZ2H9jtvcb6iAP7oC3zbIjrKEstVTb3RMKMfpnFTBkS1HYvBvPJt5StnkehJTz3oQ329xEr31HMzNpzSpmIyze6UlSY8aQZK0AiXYm25B6EwbNZCNLq4yMhNPbiUIJ5UWjJH5BrkXeNEQeh6MOHIc1Uvi7RjQlyzKaBuDJFQ8KS4hcIxAYkzMx2lZde8QuFs6nezDGmeXOs1cApJBPkOI4WjapMSddZvMbofaF1aAsJWh0jP3cb0K428Ihd8BlmeLRS6BAUgSS5N8YufIyuatqVvbADmuOysdwKFspNMl45aUarSqibBahx3ZqF9KBP9bFcvsf19fxccdo2Mg4EnHsNRA33at9IqlNgM4IxfE47XWT8gMK0Maau1rTwLZ8Wqxlb8WNQjry8WjtPin",
+  "sold": "1,000",
+  "album_ids": [
+   146,
+   147,
+   148
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/206305590/p/1/e/6/t/10301/1100220883737.mp4",
+  "category_slug": "aliexpress/GameSir",
+  "category_en": "Top brands",
+  "category_he": "מותגים מובילים",
+  "posted_at": "2026-11-17T12:30:56.590745+00:00"
  }
 ]
