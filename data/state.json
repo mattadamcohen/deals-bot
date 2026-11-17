@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 12
+  "2026-11-17": 13
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -21,6 +21,7 @@
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F99ZZRJY": "2026-11-17T06:01:17.389965+00:00",
   "B0F9T4SMR9": "2026-11-16T15:04:51.206817+00:00",
+  "B0FBGPVQRL": "2026-11-17T11:00:52.057186+00:00",
   "B0FG22LPQN": "2026-11-16T16:01:02.943620+00:00",
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
@@ -60,6 +61,7 @@
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "levi's cinch baggy": "2026-11-17T10:04:35.195197+00:00",
+  "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
@@ -104,7 +106,7 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T10:31:40.721226+00:00",
+ "last_post_at": "2026-11-17T11:00:52.056971+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -486,6 +488,7 @@
   "B0DJWPSST4": "2026-11-17T10:04:35.148155+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
+  "B0FBGR7Z6K": "2026-11-17T11:00:51.987332+00:00",
   "B0FDQ3PWCX": "2026-11-15T20:45:38.125646+00:00",
   "B0FG25KJLY": "2026-11-16T16:01:02.864687+00:00",
   "B0FH655984": "2026-11-15T19:45:53.361421+00:00",
@@ -524,13 +527,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "wireless",
   "aliexpress/kids art craft kit",
   "fashion/1040660",
-  "aliexpress/kitchen gadgets"
+  "aliexpress/kitchen gadgets",
+  "fashion/1040660"
  ],
  "recent_titles": [
-  "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
   "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "Hanes Men's Beefy-T Cotton Crewneck T-Shirt, 2-Pack, Big & Tall Sizes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
@@ -541,8 +543,9 @@
   "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
   "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts",
   "Levi's Women's Cinch Baggy",
-  "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline"
+  "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
+  "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136071
 }
