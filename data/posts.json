@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B00NX0WXQI",
-  "title": "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey",
-  "title_he": "סט סדינים קווין, 4 חלקים 16 אינץ' Deep Pocket Hotel סדינים יוקרתיים, אפור",
-  "price": "$25.74",
-  "was": "$29.99",
-  "discount": "14%",
-  "rating": "4.6",
-  "reviews": "246,768",
-  "rank": 9,
-  "source": "bestsellers",
-  "message_id": 45,
-  "image": "https://m.media-amazon.com/images/I/71tGN2LBhrL._AC_SL1500_.jpg",
-  "variant": 964,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "home-garden/1063252",
-  "category_en": "Bedding",
-  "category_he": "מצעים",
-  "posted_at": "2026-11-16T08:30:50.655080+00:00"
- },
- {
   "asin": "ali-1005006304425302",
   "title": "Essager 240W USB Type C To USB C Cable 100W PD 3.1 Fast Charging Charger Wire For iPhone 15 Pro max Macbook Pro Xiaomi Samsung",
   "title_he": "Essager 240W USB Type C ל-USB C כבל 100W PD 3.1 חוט טעינה מהירה לאייפון 15 Pro max Macbook Pro Xiaomi Samsung",
@@ -1094,5 +1072,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-17T13:02:08.031438+00:00"
+ },
+ {
+  "asin": "B0BYNYWKC7",
+  "title": "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
+  "title_he": "נעלי בית מטושטשות של EverFoams לנשים חמימות נעימות קצף זיכרון",
+  "price": "$16.99",
+  "was": "$35.99",
+  "discount": "53%",
+  "rating": "4.5",
+  "reviews": "11,034",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 152,
+  "image": "https://m.media-amazon.com/images/I/71yhTG8TNrL._AC_SL1500_.jpg",
+  "variant": 30,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   152,
+   153,
+   154
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bf7fc7b7-ce1e-4060-907d-28e53717bd2a/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-17T13:31:29.827274+00:00"
  }
 ]

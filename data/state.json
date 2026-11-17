@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 17
+  "2026-11-17": 18
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -11,7 +11,7 @@
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
   "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
   "B0CZGWS9MV": "2026-11-16T19:49:00.788634+00:00",
-  "B0CZLLQN45": "2026-11-17T07:01:15.812875+00:00",
+  "B0CZLLQN45": "2026-11-17T13:31:29.829628+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
@@ -48,7 +48,7 @@
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
-  "everfoams fuzzy slippers warm": "2026-11-17T07:01:15.812883+00:00",
+  "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
@@ -110,7 +110,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T13:02:08.032883+00:00",
+ "last_post_at": "2026-11-17T13:31:29.829221+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -456,12 +456,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-17T13:01:53.275188+00:00",
-   "id": "B0BYNYWKC7",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0BYNYWKC7?tag=ilamazondeals-20"
-  },
-  {
    "at": "2026-11-17T13:01:54.891094+00:00",
    "id": "32835019753",
    "store": "aliexpress",
@@ -537,7 +531,7 @@
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
   "B0BR3M8XHK": "2026-11-15T17:04:35.695719+00:00",
   "B0BSRFKKZJ": "2026-11-14T17:08:14.114580+00:00",
-  "B0BYNYWKC7": "2026-11-17T07:01:15.690426+00:00",
+  "B0BYNYWKC7": "2026-11-17T13:31:29.780316+00:00",
   "B0BZYCJK89": "2026-11-14T18:08:58.181961+00:00",
   "B0C26ZL5JV": "2026-11-14T07:26:49.591232+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
@@ -589,13 +583,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy toy",
   "home-garden",
   "aliexpress/GameSir",
+  "pick",
   "pick"
  ],
  "recent_titles": [
-  "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
   "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
   "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
@@ -606,8 +599,9 @@
   "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
   "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
   "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
-  "Levi's Women's Cinch Baggy"
+  "Levi's Women's Cinch Baggy",
+  "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136099
 }
