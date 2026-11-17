@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 20
+  "2026-11-17": 21
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -27,6 +27,7 @@
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
+  "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
@@ -81,6 +82,7 @@
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
+  "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
@@ -110,8 +112,8 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00",
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
- "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T14:31:33.248235+00:00",
+ "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
+ "last_post_at": "2026-11-17T15:04:45.301241+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -252,6 +254,7 @@
   "B086YJWKSN": "2026-11-14T07:26:35.708838+00:00",
   "B0874M3KW4": "2026-11-15T17:02:48.520990+00:00",
   "B087N9N6HH": "2026-11-14T07:00:45.830623+00:00",
+  "B088BWBD95": "2026-11-17T15:02:24.389081+00:00",
   "B089T1SX32": "2026-11-15T17:02:22.531307+00:00",
   "B089T7PX27": "2026-11-14T07:02:09.518552+00:00",
   "B08BBZKSTS": "2026-11-16T05:33:05.752733+00:00",
@@ -337,7 +340,7 @@
   "B0CB1FW5FC": "2026-11-17T05:03:25.570016+00:00",
   "B0CBM682SQ": "2026-11-14T18:08:08.651776+00:00",
   "B0CFBBBSHY": "2026-11-14T07:02:21.477801+00:00",
-  "B0CFGYFCYL": "2026-11-14T14:22:16.460025+00:00",
+  "B0CFGYFCYL": "2026-11-17T15:02:30.421890+00:00",
   "B0CG9N76FG": "2026-11-14T07:20:46.187130+00:00",
   "B0CGY3VF3K": "2026-11-14T14:30:20.499836+00:00",
   "B0CHS2VNHC": "2026-11-14T07:07:49.794136+00:00",
@@ -396,16 +399,16 @@
   "B0DTJX2SX4": "2026-11-14T07:08:02.510424+00:00",
   "B0DWGVM7RY": "2026-11-14T12:22:49.748854+00:00",
   "B0DXJQT19B": "2026-11-15T17:02:34.909957+00:00",
-  "B0DXKC5G3H": "2026-11-14T14:21:55.474850+00:00",
+  "B0DXKC5G3H": "2026-11-17T15:02:18.525575+00:00",
   "B0DZ254SSR": "2026-11-15T17:07:30.208106+00:00",
   "B0DZ75TN5F": "2026-11-15T08:46:53.293234+00:00",
   "B0DZFGTCLR": "2026-11-14T14:22:49.048717+00:00",
   "B0F1FCDW19": "2026-11-15T17:02:59.896097+00:00",
   "B0F2GYMC8H": "2026-11-16T10:33:53.680386+00:00",
   "B0F332CCLK": "2026-11-14T19:32:06.588073+00:00",
-  "B0F3DPXQP1": "2026-11-14T14:21:43.647416+00:00",
+  "B0F3DPXQP1": "2026-11-17T15:01:42.683203+00:00",
   "B0F3DQZ193": "2026-11-15T14:26:28.251972+00:00",
-  "B0F3DR5YWF": "2026-11-14T14:21:48.365012+00:00",
+  "B0F3DR5YWF": "2026-11-17T15:02:03.267973+00:00",
   "B0F3VTCZK8": "2026-11-16T10:34:48.926034+00:00",
   "B0F42MT8JX": "2026-11-14T12:24:57.281777+00:00",
   "B0F599HNQS": "2026-11-16T15:04:24.300848+00:00",
@@ -415,7 +418,7 @@
   "B0F9PHWPQN": "2026-11-16T15:04:17.079188+00:00",
   "B0FB8QB54F": "2026-11-15T17:04:16.567629+00:00",
   "B0FB9MMG75": "2026-11-14T07:05:46.135362+00:00",
-  "B0FDQK69GQ": "2026-11-14T06:43:09.009511+00:00",
+  "B0FDQK69GQ": "2026-11-17T15:03:41.199010+00:00",
   "B0FFPF97RV": "2026-11-14T17:07:50.659829+00:00",
   "B0FH4XMG94": "2026-11-14T20:17:36.367077+00:00",
   "B0FHJ7TKZM": "2026-11-14T06:54:22.029113+00:00",
@@ -489,6 +492,7 @@
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
+  "B0DDZN76T9": "2026-11-17T15:04:45.276241+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
@@ -538,11 +542,13 @@
  "recent_categories": [
   "pick",
   "pick",
-  "pick",
-  "aliexpress/Vention"
+  "aliexpress/Vention",
+  "electronics"
+ ],
+ "recent_groups": [
+  "electronics"
  ],
  "recent_titles": [
-  "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
   "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts",
   "Levi's Women's Cinch Baggy",
   "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
@@ -553,8 +559,9 @@
   "Levi's Women's Cinch Baggy",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
-  "Vention 10000mAh Mini Power Bank 22.5w Portable Charger Built-in USB C Cable PD 3.0 Fast Charging for iPhone 17 18 Samsung S26"
+  "Vention 10000mAh Mini Power Bank 22.5w Portable Charger Built-in USB C Cable PD 3.0 Fast Charging for iPhone 17 18 Samsung S26",
+  "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warranty."
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136099
 }
