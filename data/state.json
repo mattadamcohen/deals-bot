@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 27
+  "2026-11-17": 28
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -83,6 +83,7 @@
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
   "oeak jelly bras wireless": "2026-11-15T16:02:06.149375+00:00",
+  "original roborock s maxv": "2026-11-17T18:30:57.115494+00:00",
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
@@ -122,7 +123,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
- "last_post_at": "2026-11-17T18:01:00.469268+00:00",
+ "last_post_at": "2026-11-17T18:30:57.115015+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -533,6 +534,7 @@
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
+  "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
@@ -555,10 +557,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy set",
   "wireless",
   "aliexpress/tool set home",
-  "home-garden"
+  "home-garden",
+  "aliexpress/robot vacuum cleaner"
  ],
  "recent_groups": [
   "electronics",
@@ -567,7 +569,6 @@
   "home-garden"
  ],
  "recent_titles": [
-  "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
   "Levi's Women's Cinch Baggy",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
@@ -578,8 +579,9 @@
   "Christmas Advent Calendar Gift Box, 24\u2011Day Surprise Mini Squishy Fidget Toys, Sensory Stress\u2011Relief Toy Set, Holiday Surprise Gi",
   "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
   "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
-  "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials"
+  "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
+  "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136102
 }
