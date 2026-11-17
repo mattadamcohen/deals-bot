@@ -5,7 +5,7 @@ on:
       action:
         description: "What to change"
         type: choice
-        options: [description, title, photo, pin, repin, delete, whoami, edit-posts, reel-latest, ig-whoami, ig-post, ig-media, fix-prices, cleanup]
+        options: [description, title, photo, pin, repin, delete, giveaway, giveaway-preview, whoami, edit-posts, reel-latest, ig-whoami, ig-post, ig-media, fix-prices, cleanup]
       value:
         description: "New text, or image path in the repo (e.g. assets/ilamazondeals-logo.png)"
         required: false

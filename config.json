@@ -1258,5 +1258,12 @@
   "ali_min_sold_exempt": 200,
   "brand_bonus": 35,
   "ali_niche_block": "\\b(replacement|spare parts?|repair|module|hardwire|wiring|harness|adapter plate|mount bracket|for (tesla|bmw|toyota|honda|mercedes|audi|vw|volkswagen|ford|kia|hyundai|byd|model [3ysx])|compatible with|oem|universal fit)\\b",
-  "group_gap_posts": 2
+  "group_gap_posts": 2,
+  "giveaway": {
+    "start": "2026-11-18",
+    "end": "2026-11-30",
+    "draw": "2026-12-01",
+    "draw_hour": 12,
+    "prize_he": "גיפט קארד של $50 לאמזון"
+  }
 }

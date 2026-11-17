@@ -906,14 +906,27 @@ def inbox(state):
     try:
         r = requests.get(f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates",
                          params={"offset": state.get("tg_offset", 0), "timeout": 0,
-                                 "allowed_updates": json.dumps(["message"])}, timeout=30).json()
+                                 "allowed_updates": json.dumps(["message", "chat_member"])}, timeout=30).json()
     except Exception as e:
         log(f"  (inbox failed: {e})")
         return
     for u in r.get("result", []):
         state["tg_offset"] = u["update_id"] + 1
+        if u.get("chat_member"):
+            giveaway_join(state, u["chat_member"])
+            continue
         m = u.get("message") or {}
+        if (m.get("text") or "").startswith("/start") or (m.get("text") or "").strip() in ("הגרלה", "giveaway"):
+            if str((m.get("chat") or {}).get("id")) != owner or "giveaway" in (m.get("text") or ""):
+                giveaway_start(state, m)
+                continue
         if str((m.get("chat") or {}).get("id")) != owner:
+            win = state.get("giveaway_winner") or {}
+            if win and str((m.get("from") or {}).get("id")) == str(win.get("id")):
+                tg_owner(f"📩 Message from the giveaway winner: {(m.get('text') or '')[:300]}")
+                tg("sendMessage", chat_id=m["chat"]["id"], text="תודה! קיבלנו, נשלח לך את הגיפט קארד בקרוב 🎁")
+            elif giveaway_open() and (m.get("text") or "").strip():
+                giveaway_start(state, m)
             continue
         text = (m.get("text") or m.get("caption") or "")
         if m.get("forward_origin") or m.get("forward_from") or m.get("forward_from_chat") or m.get("forward_date"):
@@ -947,6 +960,102 @@ def inbox(state):
             tg_owner(f"✅ Added to the queue ({'Amazon' if store == 'amazon' else 'AliExpress'}). "
                      f"Position {len(q)}, it goes out on one of the next posting slots.")
             log(f"Queued Matt's pick: {store} {pid}")
+
+
+# ---------------------------------------------------------------- $50 giveaway
+
+def giveaway_cfg():
+    g = CONFIG.get("giveaway") or {}
+    return g if g.get("start") else None
+
+
+def giveaway_open():
+    g = giveaway_cfg()
+    today = israel_now().date().isoformat()
+    return bool(g) and g["start"] <= today <= g["end"]
+
+
+def tg(method, **data):
+    try:
+        return requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/{method}", data=data, timeout=20).json()
+    except Exception as e:
+        log(f"  (telegram {method} failed: {e})")
+        return {}
+
+
+def is_member(user_id):
+    r = tg("getChatMember", chat_id=TG_CHAT, user_id=user_id)
+    return (r.get("result") or {}).get("status") in ("member", "administrator", "creator", "restricted")
+
+
+def add_entrant(state, user, via):
+    ent = state.setdefault("giveaway_entries", {})
+    uid = str(user["id"])
+    if uid in ent or user.get("is_bot"):
+        return False
+    ent[uid] = {"name": (user.get("first_name") or "")[:40], "username": user.get("username") or "",
+                "via": via, "at": now().isoformat()}
+    log(f"Giveaway entry #{len(ent)} ({via})")
+    return True
+
+
+def giveaway_join(state, cm):
+    """Someone joined the channel: enter them automatically while the giveaway is open."""
+    if not giveaway_open():
+        return
+    new, old = cm.get("new_chat_member") or {}, cm.get("old_chat_member") or {}
+    if new.get("status") == "member" and old.get("status") in ("left", "kicked", None):
+        add_entrant(state, new.get("user") or {}, "join")
+
+
+def giveaway_start(state, m):
+    """User pressed the giveaway button (opens the bot with /start giveaway)."""
+    user, chat = m.get("from") or {}, (m.get("chat") or {}).get("id")
+    g = giveaway_cfg()
+    if not g:
+        return
+    if not giveaway_open():
+        tg("sendMessage", chat_id=chat, text="ההגרלה לא פעילה כרגע. עקבו אחרי הערוץ לדילים והגרלות הבאות 🙏\nt.me/ilamazondeals")
+        return
+    if not is_member(user.get("id")):
+        tg("sendMessage", chat_id=chat, text="כמעט! 🙌 כדי להשתתף צריך להצטרף לערוץ קודם:\n👉 t.me/ilamazondeals\n\n"
+                                             "אחרי שהצטרפתם, שלחו כאן \"הגרלה\" ונבדוק שוב.")
+        return
+    new = add_entrant(state, user, "bot")
+    draw = g["draw"]
+    tg("sendMessage", chat_id=chat, text=(
+        f"✅ {'אתם בהגרלה!' if new else 'אתם כבר רשומים להגרלה 👍'} בהצלחה!\n\n"
+        f"🎁 הפרס: {g.get('prize_he', 'גיפט קארד של $50 לאמזון')}\n"
+        f"🗓️ ההגרלה תתקיים ב-{draw[8:10]}/{draw[5:7]} והזוכה יוכרז בערוץ, ונשלח לו הודעה כאן.\n"
+        f"שימו לב: צריך להישאר בערוץ עד ההגרלה."))
+
+
+def giveaway_draw(state):
+    """On draw day (from 12:00), pick a random entrant who is still in the channel and announce."""
+    g = giveaway_cfg()
+    if not g or state.get("giveaway_winner") or DRY_RUN:
+        return
+    now_il = israel_now()
+    if now_il.date().isoformat() < g["draw"] or now_il.hour < g.get("draw_hour", 12):
+        return
+    ent = state.get("giveaway_entries", {})
+    ids = list(ent)
+    random.shuffle(ids)
+    for uid in ids:
+        if is_member(uid):
+            w = ent[uid]
+            state["giveaway_winner"] = {"id": uid, **w, "at": now().isoformat()}
+            shown = f"@{w['username']}" if w.get("username") else w.get("name") or "זוכה"
+            tg("sendMessage", chat_id=TG_CHAT, parse_mode="HTML", text=(
+                f"🎉 <b>יש לנו זוכה!</b>\n\nמזל טוב ל-{esc(shown)} שזכה/תה בגיפט קארד של $50 לאמזון! 🎁\n"
+                f"השתתפו {len(ent)} חברי ערוץ. תודה לכולם, והגרלות נוספות בדרך 😉\n\n"
+                f"לזוכה: שלחו לבוט הודעה תוך 72 שעות כדי לקבל את הפרס."))
+            r = tg("sendMessage", chat_id=uid, text="🎉 זכית בהגרלה! שלח/י כאן את כתובת האימייל שלך ונשלח את הגיפט קארד של $50 לאמזון.")
+            tg_owner(f"🎉 Giveaway winner: {shown} (id {uid}, entered via {w['via']}). "
+                     f"{'Messaged them.' if r.get('ok') else 'Could not message them (never opened the bot); they were asked to message the bot.'} "
+                     f"{len(ent)} entries in total.")
+            return
+    tg_owner("⚠️ Giveaway draw: no eligible entrants found.")
 
 
 def pick_details(pick, amz_factory):
@@ -1065,6 +1174,7 @@ def main():
 
     state = load_state()
     inbox(state)
+    giveaway_draw(state)
     due = post_due(state)
     if not due:
         save_state(state)

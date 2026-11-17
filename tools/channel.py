@@ -1,7 +1,7 @@
 """Change the Telegram channel's settings through the bot.
 Usage: python tools/channel.py description "text" | title "text" | photo path/to/image.png
 The bot must be a channel admin with the "Change channel info" permission."""
-import os, sys, requests
+import json, os, sys, requests
 token, chat = os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"]
 api = f"https://api.telegram.org/bot{token}"
 action, value = sys.argv[1], (sys.argv[2] if len(sys.argv) > 2 else "")
@@ -25,6 +25,26 @@ elif action == "pin":
     if r.ok:
         mid = r.json()["result"]["message_id"]
         r = requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": mid, "disable_notification": "true"})
+elif action in ("giveaway", "giveaway-preview"):
+    # giveaway-preview: send both posts to the owner only. giveaway: post rules + announcement to the channel and pin it.
+    import json as _json, pathlib
+    base = pathlib.Path(__file__).resolve().parent.parent / "data" / "giveaway"
+    owner = str(json.load(open(pathlib.Path(__file__).resolve().parent.parent / "config.json")).get("owner_chat_id"))
+    target = owner if action == "giveaway-preview" else chat
+    me = requests.get(f"{api}/getMe").json()["result"]["username"]
+    r = requests.post(f"{api}/sendMessage", data={"chat_id": target, "text": (base / "rules.txt").read_text(),
+                                                  "disable_notification": "true"}).json()
+    rid = r["result"]["message_id"]
+    uname = requests.get(f"{api}/getChat", params={"chat_id": chat}).json()["result"].get("username", "ilamazondeals")
+    rules_url = f"https://t.me/{uname}/{rid}" if target == chat else "https://t.me/" + uname
+    kb = {"inline_keyboard": [[{"text": "🎁 אני משתתף/ת", "url": f"https://t.me/{me}?start=giveaway"}]]}
+    r = requests.post(f"{api}/sendMessage", data={"chat_id": target, "parse_mode": "HTML",
+                                                  "text": (base / "post.txt").read_text().replace("{rules}", rules_url),
+                                                  "reply_markup": _json.dumps(kb), "disable_web_page_preview": "true"}).json()
+    print("giveaway post", r.get("ok"), r.get("description"), "bot:", me)
+    if action == "giveaway" and r.get("ok"):
+        print("pin", requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": r["result"]["message_id"],
+                                                                 "disable_notification": "true"}).text[:100])
 elif action == "delete":
     # value: comma separated message ids
     for mid in [m.strip() for m in value.split(",") if m.strip()]:
