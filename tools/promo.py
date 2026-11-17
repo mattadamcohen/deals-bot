@@ -114,7 +114,7 @@ def style_a():
     for (asin, lab), (cx, cy, mw, mh) in zip(PICKS, spots):
         pill(ImageDraw.Draw(im), cx, cy + 142, lab, F(900, 32), BLUE, WHITE, h=54)
     coin(im, W / 2, 680, 108, "זכו ב", "$50", "לאמזון", tilt=-8, fill=RED, ink=WHITE)
-    bottom(im, "הצטרפו לערוץ הטלגרם ואתם בהגרלה!", "Join our Telegram channel & win a $50 Amazon voucher")
+    bottom(im, "הצטרפו לערוץ הטלגרם ואתם בהגרלה!", "Join our Telegram channel for a chance to win $50")
     return im
 
 
@@ -144,7 +144,7 @@ def style_b():
         pill(ImageDraw.Draw(im), x0 + tw_ / 2, y0 + th_ - 42, lab, F(900, 34), (10, 14, 40), YEL, h=56)
     coin(im, W / 2, 285 + th_ + gap / 2, 108, "זכו ב", "$50", "לאמזון", tilt=10)
     logo(im, 88, 92, 112, ring=YEL)
-    bottom(im, "הצטרפו לערוץ = נכנסתם להגרלה", "Join our Telegram channel & win a $50 Amazon voucher", dark=True)
+    bottom(im, "הצטרפו לערוץ = נכנסתם להגרלה", "Join our Telegram channel for a chance to win $50", dark=True)
     return im
 
 
@@ -169,7 +169,7 @@ def style_c():
         dd.text((850 - tw - b[0], cy - th / 2 - b[1]), lab, font=F(900, 38), fill=INK, **kw(lab))
     coin(im, 160, 520, 104, "זכו ב", "$50", "לאמזון", tilt=-12, fill=RED, ink=WHITE)
     logo(im, 95, 95, 120, ring=YEL)
-    bottom(im, "הצטרפו לערוץ ואתם בהגרלה על $50", "Join our Telegram channel & win a $50 Amazon voucher")
+    bottom(im, "הצטרפו לערוץ ואתם בהגרלה על $50", "Join our Telegram channel for a chance to win $50")
     return im
 
 
