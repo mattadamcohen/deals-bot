@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 13
+  "2026-11-17": 14
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -85,6 +85,7 @@
   "skechers max cushioning endeavour": "2026-11-16T19:49:00.788641+00:00",
   "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
   "sonoff sawf- p airguard": "2026-11-16T18:45:48.228424+00:00",
+  "squishy antistress duck fidgets": "2026-11-17T11:31:42.970864+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
@@ -106,7 +107,7 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T11:00:52.056971+00:00",
+ "last_post_at": "2026-11-17T11:31:42.970631+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -517,6 +518,7 @@
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
+  "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
@@ -527,13 +529,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids art craft kit",
   "fashion/1040660",
   "aliexpress/kitchen gadgets",
-  "fashion/1040660"
+  "fashion/1040660",
+  "aliexpress/squishy toy"
  ],
  "recent_titles": [
-  "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "Hanes Men's Beefy-T Cotton Crewneck T-Shirt, 2-Pack, Big & Tall Sizes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
@@ -544,8 +545,9 @@
   "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts",
   "Levi's Women's Cinch Baggy",
   "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
-  "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits"
+  "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
+  "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136071
 }

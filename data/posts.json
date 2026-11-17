@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0157T2ENY",
-  "title": "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Winter Blanket Christmas Thanksgiving Decorations for Home Room Decor, Christmas Birthday Gifts for Women and Men, 90x90 inches",
-  "title_he": "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Winter Blanket Thanksgiving Decorations for Home Room Decor Birthday Gifts…",
-  "price": "$19.99",
-  "was": "$32.99",
-  "discount": "39%",
-  "rating": "4.6",
-  "reviews": "180,990",
-  "rank": 12,
-  "source": "bestsellers",
-  "message_id": 41,
-  "image": "https://m.media-amazon.com/images/I/91AVoxktzyL._AC_SL1500_.jpg",
-  "variant": 701,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "home-garden/1063252",
-  "category_en": "Bedding",
-  "category_he": "מצעים",
-  "posted_at": "2026-11-16T06:31:23.836970+00:00"
- },
- {
   "asin": "ali-1005007003840474",
   "title": "Stainless Steel Can Opener Multifunctional Grip Opener Side Cut Professional Tins Bottle Opener Kitchen Gadgets",
   "title_he": "פותחן פחיות נירוסטה פותחן אחיזה רב תכליתי בחיתוך צד פחיות מקצועי פותחן בקבוקי מטבח גאדג'טים",
@@ -1066,5 +1044,34 @@
   "category_en": "Women's Clothing",
   "category_he": "ביגוד נשים",
   "posted_at": "2026-11-17T11:00:52.055113+00:00"
+ },
+ {
+  "asin": "ali-1005010425273195",
+  "title": "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
+  "title_he": "Squishy Antistress Duck Fidgets צעצועי אווז חמוד חיות אווז צעצועי פורקן לילדים מבוגרים שחרור לחץ צעצועי מתיחה חברים המתנה הטובה ביותר",
+  "price": "$3.39",
+  "was": "$7.96",
+  "discount": "57%",
+  "rating": "90.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 140,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1047dcbce6e44028ad5e2435efa2e186T.jpg",
+  "variant": 940,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o54rPiwkZWvia4hnjsQqiUxM7LUPG4tPgjlW8BWfwEGGIoNswkfwNPl4FaAnKxXvcThXbpFZMivf9GfnhSgZxDqpUAaO4CYNM7XpaHO4uJgKxMDmSZYVvJVEQsV33RRpDgJ7SSyjOaVWVxiEHO8wBL2seFmJyLw9SgY9Xi8mBMFBt3FunZ47EAtNaBBO5lab4ZTASF03wcWmyUhae1Bbx71w2x4uRfQljV9EeBMjdyoUNYTd4c2BVnbjJwAw2jrVkdkezzK6JUUH63Ys0uTjTAu0EHFwqWv2vZcmUZAIVzdKB0tKZY3eDIk7bCDJQRfaKapALqIJHyGvhXYjbjRwZz79OCuHx64fSZV3kOUbUc6f1klEcWV4tNjsThRpwZDIXjb9rFPuDOUfQmByLMlteQPCEJpepfrV03HY86t7xSnxwhmVHmgDOPTFGYPIN1QCqAHQKKbgtSufQQVs0saOsrJgkuDovHuSdmSzIqUnwEsnU337u9jzJ7132vVjqO4CO7v9OphUIO6k0g5lECZWMUMV8eKBl3popRNPE6gX8mJ7i2B3uJTUcxJYOQREoOPIbKPOKomxj8cn7V7hfgCQxRuLEceltNCmDVKnwTAZ907Z4atsbfu0Ma37erWD5SZ5U35Zzs6Uky82mAlxTEM1IBnBwPYY2KJriVYgfbMch5vunpiptdGykWKDkefyhQeSJwDzN9ljpt5w2",
+  "sold": "8,000",
+  "album_ids": [
+   140,
+   141,
+   142
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/squishy toy",
+  "category_en": "Squishies",
+  "category_he": "סקווישים",
+  "posted_at": "2026-11-17T11:31:42.969069+00:00"
  }
 ]
