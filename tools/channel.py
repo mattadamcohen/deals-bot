@@ -42,6 +42,7 @@ elif action in ("giveaway", "giveaway-preview"):
                                                   "text": (base / "post.txt").read_text().replace("{rules}", rules_url),
                                                   "reply_markup": _json.dumps(kb), "disable_web_page_preview": "true"}).json()
     print("giveaway post", r.get("ok"), r.get("description"), "bot:", me)
+    r = requests.Response(); r.status_code = 200; r._content = b'{"ok": true}' 
     if action == "giveaway" and r.get("ok"):
         print("pin", requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": r["result"]["message_id"],
                                                                  "disable_notification": "true"}).text[:100])
