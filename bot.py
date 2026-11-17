@@ -916,11 +916,18 @@ def inbox(state):
         if str((m.get("chat") or {}).get("id")) != owner:
             continue
         text = (m.get("text") or m.get("caption") or "")
+        if m.get("forward_origin") or m.get("forward_from") or m.get("forward_from_chat") or m.get("forward_date"):
+            continue  # forwarded posts are just for reference, never queued
+        explicit = re.search(r"(?i)\b(post|queue|add)\b|פרסם|תפרסם|לפרסם|תעלה|להעלות", text)
         urls = re.findall(r"https?://\S+", text)
         for ent in (m.get("entities") or []) + (m.get("caption_entities") or []):
             if ent.get("url"):
                 urls.append(ent["url"])
         if not urls:
+            continue
+        if not explicit:
+            tg_owner("👀 Got the link, but I didn't queue it. To post it to the channel, send it again with the word "
+                     "\"פרסם\" (or \"post\").")
             continue
         for url in dict.fromkeys(urls):
             found = parse_pick(url)
@@ -929,6 +936,10 @@ def inbox(state):
                 continue
             store, pid = found
             q = state.setdefault("pick_queue", [])
+            key = pid if store == "amazon" else f"ali-{pid}"
+            if is_recent(state["posted"].get(key, ""), CONFIG["repost_after_days"]) and not re.search(r"(?i)again|שוב", text):
+                tg_owner("🔁 This was already posted in the last 7 days, so I skipped it. Add \"שוב\" to post it again.")
+                continue
             if any(x["store"] == store and x["id"] == pid for x in q):
                 tg_owner("👍 Already in the queue")
                 continue
