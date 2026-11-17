@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 16
+  "2026-11-17": 17
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -16,7 +16,7 @@
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
-  "B0DJWRLJMD": "2026-11-17T10:04:35.195190+00:00",
+  "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
   "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F99ZZRJY": "2026-11-17T06:01:17.389965+00:00",
@@ -62,7 +62,7 @@
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
-  "levi's cinch baggy": "2026-11-17T10:04:35.195197+00:00",
+  "levi's cinch baggy": "2026-11-17T13:02:08.033568+00:00",
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
@@ -110,7 +110,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T12:30:56.593189+00:00",
+ "last_post_at": "2026-11-17T13:02:08.032883+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -454,7 +454,62 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "at": "2026-11-17T13:01:53.275188+00:00",
+   "id": "B0BYNYWKC7",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0BYNYWKC7?tag=ilamazondeals-20"
+  },
+  {
+   "at": "2026-11-17T13:01:54.891094+00:00",
+   "id": "32835019753",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/s/Ab3OrgM3v6R6NN0EoHucCSUeynqZAFtTZOEu7IPxrR4SLwZPLacc8DYNvZfALYHLsNM3TYez9oN3P1K9znMiq456CqQ4bMlqxnHyEiYYk22p7an8e0eu99eBBNhA077oXYZNNv7Ng1SIXynsFuB4b7vEuspqHsdvKgS5L2u7110GdQI3uzPvOsQuzYX3ez2yDAwBC8dbIGCiEOooUz3EIgs95ouUnCt8mlEdyj0IZdYBbsDD9zONrhJoAbSkj2tGTNyVRdL3z665y7zQ7WIqGfGzRJ0JhYiX79OkEE1pQtcOdxKWzfoFf3zpbdWuWPmiBJnqvvG5EN9obpoCfHGMtVWhMdZRTZku9pqXhcFxUi5S91wKZQXzB25UvxgZhEZMtHhBgv9MXCOF3J0LZvUyFRRCY9xNeRlmAxzjAZAR1fJPsEZgL7r6n7wDtASpdcga0MIIVuR1dZYmb4PGiHrOxzX9yqXrkNkvg4LLOa5uWrk6Io1Zf4SkgJkImBHErXVrmZh3uk5G9hYaTl7KsfNbHhyqUuDjkfn8TOW2GqY2mKhngOd2vNq06sqDo7uvpkmLBjD0TSh4cMZl6diWeuyfNn5my3LT7KUrQ4k3zRpej0xGkDbtXGna6L8Ze7QtYUcech02EXXAPmhATSfM3a0cR9xjPEVlrgtyG48tfg3LV2DouIZ1aEZmFsGMKHdxBIPoiMU0EqJIH82uEjlBsCJqsnasiHkh9iZoRGZuk8xpahj8HV5rz7Na9IjBnedxAONlOviuwXu4wWnN2lx9QOIL7ZZdvf5a33ttQcZ5veEJb2lkyVD9Uy686Deef8ZRMrcJ49JT2ZrgxaxgMnrr1TpRyGAtZgm5YpLmCmgmsXuDsduBKm0l1Yx1Xfn8MP4IFCwHSOp8UplOd3CP7Nw7b3YFZbcrc0ZKLUm2pgsmp1mWvSRzDG5DfXrMliMUVaPLMh7ndt2wMJrm5gIfYdW95MY4kRT4qz7N9X4CwGLhl35e62SACpDbGVwG51SHNecTl7swLwQlHZGtqdYw0TEjoTwZNfGnne09lERNCCxxrJmx"
+  },
+  {
+   "at": "2026-11-17T13:01:55.750389+00:00",
+   "id": "1005007354557673",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FdClZCOr2JPUCazKLN3TBJtUQtj7Sc0dMImzbbVkRqzowrW3pGwa9zrSkamCpJlooIvLZGKvlLQfvzdCljUZra27JJK4UPYB12TuHMIeBZ89hxll39L67obNl6X82q8OoOOoFs8anOsHG8ziO84EOlWbEljdZn4SwUs9TA0n3SCHItHmUkMBpI77CemAVPwxHYBqG1OposF9149DMPTrSzUiB03oICmEfzuLPUR17jHBylXJmBXVuISiwWss5vya55XldqfC9wTBxut9VPM3rKOxzYCqJJXqK2xLUOsDCkTTHfhleKmMVkClOvWNbnvkLbjwBU1MkIj68kw0MSwzmYLKOs9em5ZHrzw53PZE7c7Hk0YNZNRWvCmsRQdY9IxR3gYXZMTskLh7YkLqL9eE6ZFB89gi2ZmnyenbGkirpFVuBQu8DI7GoyYSAKq68dXvJ9uvYMmYxcpy1BRhOj8w51LtqeB5Rl02gNNIQIcCD9M5vMVuFnm1T1OJX8p2gAUnKBCeYMnao9f6DYjfKEyeIs9mu8wcadChuH0U17GnKAVz0yWRZBchM9C0rvIgPXOZBmpurpqnug1YUh0Owcf99JaQ2wKyhvJJ915FUJItWknH9qiPZwJLxaoF8FHokAXA1jd5wGaXqkITPfPGCVKn8rgKqoitAh5fZLNziPLlrRvXPwrIzC7jhA4ifEbazYthZpTSjsc41w45c"
+  },
+  {
+   "at": "2026-11-17T13:01:56.582062+00:00",
+   "id": "1005010105528998",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C22tJeOIUnQVnJo0QEa3X2MldzbgABVE2Dd7QZeQgjv7XcYvHeOZpqhspOoZY737INqrmchv6RLLqrq6AltgswqQ2pJqleX735jmoKy8rpPpJYvoyZQCH8yNeirmkUyDVhCJSxazbqpgV25Y8JmctNTeIwBdgzOm8pigJegM2JOeMLC0oEbrI3AECtdi6TDcu58nTlZcyx89r3a7GmidzcdD2e7fLvKNFtSCs4Vqy8eb0RtylGACa0qe9XyLwYkCIGbAekGhH7P1q0goWR6ZQq7N7DrdHb5bukbIaziDY91pQT3ycK6NVChntbeK9U0thv5r3Yn5UgGGmzU9Ovd8JlOelIW2dyOjnLs9E5XKoO1u8jXusgzJ5WgFgqf9BaSiJU6Ui8U652nfiqOR777QwiXNeg1DkZI62Qc9v3sCS4Rx8bNNqECEppNp2sLsATBQwln7QScHDt2rWqxmGzGi4PswBMN71oIt3sKnB2eLlg4NPS5COiK9MpVi2SUsHtpN48UihUGNjgW1Z1tAmDtoVwTGWXtgVWJzilgqSTX54Rb2f8pyFdVL6skcHTwtim1xW4MoFvUN2gTJ4oIWtdRJJxXxGtdSeVNI7uo0HLTzxGafOS5YBq7R2SeoBMFqvpJK60iNOeTliFw3ZJIe55XH8X8Qc2IjB3jjGdnuG6Vi0OmTLwTDViG81W5T1ZVIjZFiC31pkIn1nYedUA"
+  },
+  {
+   "at": "2026-11-17T13:01:57.181054+00:00",
+   "id": "B06W2JSJ4H",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B06W2JSJ4H?tag=ilamazondeals-20"
+  },
+  {
+   "at": "2026-11-17T13:01:58.027159+00:00",
+   "id": "1005006079966569",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mmlJRHjBWrrLrBcAFa8gqFpJ1BjzRKdPZ2nDzvZ0QOhSmyq4doFEumSXpT00yYjGXFt9cuiCdBg0yYt2xEgarQkY4DmVUMnR2mSnJcey4tYF4tEfrosHImsMfBfpSJL9xvnejoNAlnaG9ZSVg8rmVmBCPaHwtCFMmq82EIQyoQrxIzT4yrwsLMj2KGCioIonGa0tZOFp57zn9FksUXw49VqlzeSLxtgYggKC9T5Q3NdCWCit4ydXQrl5eRvqcGbby6X7XkIOlnKj9lFkd9Tf4Hr2oIwAi0wOb5AaVxmNjJVaMGNlRxdsJh3yysvKMpzuUkLKa1JuJgyk8PPr94GM7M9rnDqjY2Dhf1FUveqmL7JdjD421rZWUo9cT0SHtjKFO8NFTKNe8UHES3VG1iRNSMzmsP0yfkKKBjHvYNft29XNrhrlw761Kfb7wtP5jUrVh3ZWnASCQSfQpjAqUr2kuyXirtYn4PRZIDw7vTqp7DzkRoD7yCI428vPUjcLWd9VVHTaMHD9DSZQT5BlrG1vsM36Zl1C7TE7Q2wz05L5oj1jLbg85ysqgw0SvbORfb7SRwJj122wb3V131BRM04zeOmm3uEokotgQIGmcyrMJbV2CqdwGNoal8yK4mMvinS63tZ00st9CT0JnBdQZxz6WbO3pSRPT7v9JtiaEzRFbJ5BqIMpeiQuoWLKtHjuQtrABnPrtYN4dKacn"
+  },
+  {
+   "at": "2026-11-17T13:01:58.609832+00:00",
+   "id": "B08JCD4PS6",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B08JCD4PS6?tag=ilamazondeals-20"
+  },
+  {
+   "at": "2026-11-17T13:01:59.133756+00:00",
+   "id": "B0F9SW7V12",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0F9SW7V12?tag=ilamazondeals-20"
+  },
+  {
+   "at": "2026-11-17T13:02:00.032539+00:00",
+   "id": "1005009136525831",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mtVh974jlachekkpVFoORr2G3AzmEra3sixYV6fkvDOLFjc7WHimbpSBuUrF38nSQGk8CTVIc3GfkIFAkT02FUIeUlkfQibwLCcctuk7po2Z4WyIMIBjPTjdFuFl42fakAqCpRvNGrlgxeFtEml0sKLm3V0hHZPo751SixSWYggrQnjquHwZXDHoSEJTcpTgrbQIwSoR6ZHNmVbO1nDV1kuFosSZgkigOHgaQbsHK6nF1BRGzv9VJHdfpi73RCCTISJwwk3UcKdA4sGIw3QCMAzoVQLmZNdkkecr6OUEhfClEB7GJwbO1RKZNW5v9MSa5aTCdVREexx5DLMZTIoD1ledVj7jJoVYbJg2VCDGxi1AzK9yq1YZ8NaVwtRt0MlFAQ4kF0xyPYVFiC93gyuK5XcDuhIELBbn58soJjAG0ixd9QV4UaEwRWtA6isR5DfTSQtivk9jwlsG0kYZauC9kz6nV3Xro98o8uyHiIKuzGHMTYAafTgVUJKYE3YryIjcgQOIQOxkMRuOOXPnCksfgJlSCxFl4C5OdCxhNnvV51vpks8nXaKE93I0JooaA9ZlIaZ42D9IsHQk0L7m49qh2RQNwZ7A6fYQ7BTw3GXNfTgCGV37C5mDaIkdnDztE7RLGaelj3xyIlmVqvLBvcpKJLjHwJNuvQFYvzzRhONYQKmpB3z46wOjw21trwPLt39f4fJcqjJH15N3v"
+  }
+ ],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
@@ -489,7 +544,7 @@
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
-  "B0DJWPSST4": "2026-11-17T10:04:35.148155+00:00",
+  "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
@@ -534,13 +589,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040660",
   "aliexpress/squishy toy",
   "home-garden",
-  "aliexpress/GameSir"
+  "aliexpress/GameSir",
+  "pick"
  ],
  "recent_titles": [
-  "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
   "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
@@ -551,8 +605,9 @@
   "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
   "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
   "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
-  "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA"
+  "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
+  "Levi's Women's Cinch Baggy"
  ],
- "since_ali": 0,
- "tg_offset": 260136071
+ "since_ali": 1,
+ "tg_offset": 260136099
 }

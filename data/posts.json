@@ -1,27 +1,5 @@
 [
  {
-  "asin": "ali-1005006863903100",
-  "title": "Baby Head Protector Backpack Pillow For Kids 1-3 Y Toddler Children Soft PP Cotton Protective Cushion Cartoon Security Pillows",
-  "title_he": "תינוק ראש מגן תרמיל כרית לילדים 1-3 Y פעוטות ילדים רכה כותנה PP כרית מגן קריקטורה כריות אבטחה",
-  "price": "$9.39",
-  "was": "$19.56",
-  "discount": "51%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 44,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/H6ea9c9f9c4c74e708b4b354f9a0c5932x.jpg",
-  "variant": 86,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EuklGuGoFTTKe8PTKR2YDYssxPqg8AnZRr9ivpiijMvGi5w1P9uJdcer9rQyGVV77mZiES03btyx1d8nlok2t967iYpztLtcxdDqITKUdCOBPymJvCOjFSx4hHN2c9JlV3ahFbfTK3HF8Zt28qiYLZwQzdH3IAzDHJU2TL6FUxufG9xAsGcrvIkeNCQQrUng1dnwZM972SptVuZf3CUOQ5jNA1N1AvGNPPC0kJB2YakpC9qlPH1wDCTqs3yUN18oAOS5P06SfsiE3pvNfJ3EVIYD0HVhhXtK0T7W0HY0P2vAIXiPvK1prUlvivRHn2z5cb4uUa6sy8YZobunnso8CVEGhcj16jeNFQD2tVxmlYVU5bySwIH6u3UOf6OdZ5Bpk1fvg1LBhhyZVYUrjhKXWnBNqYSdO4D8AHvJ0p9hlwqPbllGlovt5jHmEzUvjlgEUkI1H4WsekDxWZoqjty55FZ4f3XkgQbYmlj046y0xFKTRh2KkoMjQUtc7egHPbjN2psdIWDK9ZyLxFiBPqIJbBY7pmwOKQTbZ5ODaruWZFKIaUtUGMFjS6nyr4Hy8vGTEvzYawfHGCWndHTlcwxQXpzd9QaUzXnXbwpAgwoJSyFbMMeLJ7vUbCnyia7eRUyxu9O5aKvauVhO02eT7TQ23fbzkR60vHXjjyEsyqJ5rBuC0486JSKkRJMjwGvFZWD3dj0pjAHwM3A2k",
-  "sold": "8,000",
-  "category_slug": "aliexpress/backpack",
-  "category_en": "Bags",
-  "category_he": "תיקים",
-  "posted_at": "2026-11-16T08:01:44.320197+00:00"
- },
- {
   "asin": "B00NX0WXQI",
   "title": "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey",
   "title_he": "סט סדינים קווין, 4 חלקים 16 אינץ' Deep Pocket Hotel סדינים יוקרתיים, אפור",
@@ -1087,5 +1065,34 @@
   "category_en": "Top brands",
   "category_he": "מותגים מובילים",
   "posted_at": "2026-11-17T12:30:56.590745+00:00"
+ },
+ {
+  "asin": "B0DJWPSST4",
+  "title": "Levi's Women's Cinch Baggy",
+  "title_he": "סינץ' באגי לנשים של ליוויס",
+  "price": "$59.46",
+  "was": "$84.95",
+  "discount": "30%",
+  "rating": "4.2",
+  "reviews": "1,690",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 149,
+  "image": "https://m.media-amazon.com/images/I/61il-YqaUxL._AC_SL1000_.jpg",
+  "variant": 465,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   149,
+   150,
+   151
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f5b55594-aa6e-4b16-9a25-39f1a8b6a142/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-17T13:02:08.031438+00:00"
  }
 ]
