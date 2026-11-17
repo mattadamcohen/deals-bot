@@ -1507,7 +1507,15 @@
     "sheet set": 45,
     "sheets set": 45,
     "fitted sheet": 45,
-    "flat sheet": 45
+    "flat sheet": 45,
+    "shower curtain": 40,
+    "shower liner": 40,
+    "curtain liner": 40,
+    "toilet": 40,
+    "plunger": 40,
+    "trash bag": 40,
+    "garbage bag": 40,
+    "liner": 40
   },
   "coupon_min_off_usd": 2,
   "ali_sale_share": 0.25,
