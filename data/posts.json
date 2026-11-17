@@ -1,24 +1,5 @@
 [
  {
-  "asin": "B0BPLB81LX",
-  "title": "Bedsure GentleSoft White Throw Blanket for Couch - Christmas Thanksgiving Decorations for Home Room Decor, Cozy Fleece Blanket, Christmas Birthday Gifts for Women Mom Her Girls, Off White, 50x60 in",
-  "title_he": "Bedsure GentleSoft White Throw Blanket for Couch Thanksgiving Decorations for Home Room Decor, Cozy Fleece Blanket Birthday Gifts for…",
-  "price": "$13.49",
-  "was": "$17.99",
-  "discount": "25%",
-  "rating": "4.6",
-  "reviews": "29,119",
-  "rank": 13,
-  "source": "bestsellers",
-  "message_id": 25,
-  "image": "https://m.media-amazon.com/images/I/71lQ6usyNEL._AC_SL1500_.jpg",
-  "variant": 690,
-  "category_slug": "home-garden",
-  "category_en": "Home & Kitchen",
-  "category_he": "בית ומטבח",
-  "posted_at": "2026-11-15T14:26:34.498473+00:00"
- },
- {
   "asin": "B0D8FJVTBG",
   "title": "OEAK Womens Jelly Bras Wireless Deep V Bralette Comfy Push Up Tshirt Bras",
   "title_he": "OEAK Womens Jelly Bras Wireless Deep V Bralette Comfy Push Up Tshirt Bras",
@@ -966,5 +947,34 @@
   "category_en": "Work from home",
   "category_he": "עבודה מהבית",
   "posted_at": "2026-11-16T20:16:54.526046+00:00"
+ },
+ {
+  "asin": "B07C86Y9XL",
+  "title": "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
+  "title_he": "Wrangler Authentics לגברים Regular Fit Comfort Flex Waist Jean",
+  "price": "$35.30",
+  "was": "",
+  "discount": "",
+  "rating": "4.5",
+  "reviews": "13,504",
+  "rank": 16,
+  "source": "bestsellers",
+  "message_id": 101,
+  "image": "https://m.media-amazon.com/images/I/51GkgJfInTL._AC_SL1080_.jpg",
+  "variant": 473,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   101,
+   102,
+   103
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/dabba0a2-d422-408d-9101-51d66c06bbef/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/1040658",
+  "category_en": "Men's Clothing",
+  "category_he": "ביגוד גברים",
+  "posted_at": "2026-11-17T05:04:11.016225+00:00"
  }
 ]
