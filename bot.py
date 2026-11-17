@@ -632,7 +632,7 @@ def pool_take(state, keyfn=None):
     def ok(v):
         fams = [f for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))) if f]
         return not any(is_recent(state.get("families", {}).get(f, ""), CONFIG["repost_after_days"]) for f in fams)
-    choices = [v for v in pool.values() if ok(v) and not clashes(state, v["info"].get("title"))]
+    choices = [v for v in pool.values() if ok(v) and not clashes(state, v["info"].get("title"), (v.get("category") or {}).get("slug"))]
     POOL_F.write_text(json.dumps(pool, ensure_ascii=False))
     if not choices:
         return None
@@ -844,7 +844,12 @@ def brand_of(title):
     return None
 
 
-def clashes(state, title):
+def group_of(slug):
+    g = (slug or "").split("/")[0]
+    return None if g in ("aliexpress", "pick", "") else g
+
+
+def clashes(state, title, slug=None):
     """Variety across BOTH stores: no same product type in the last few posts, no same brand back to back."""
     if "recent_titles" not in state:  # first run with this rule: start from the posts log
         state["recent_titles"] = [x.get("title", "") for x in load_json(ROOT / "data" / "posts.json", [])][-12:]
@@ -854,6 +859,9 @@ def clashes(state, title):
         return f"another {typ} was posted recently"
     if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
         return f"{brand} was posted recently"
+    g = group_of(slug)
+    if g and g in state.get("recent_groups", [])[-CONFIG.get("group_gap_posts", 2):]:
+        return f"another {g} item was one of the last Amazon posts"
     return None
 
 
@@ -1067,7 +1075,9 @@ def main():
     else:
         # weighted random pick of lists; avoid the categories used in the last few runs
         recent = state.get("recent_categories", [])
-        pool = [c for c in cats if c["slug"] not in recent] or cats
+        groups = state.get("recent_groups", [])[-CONFIG.get("group_gap_posts", 2):]
+        pool = [c for c in cats if c["slug"] not in recent and group_of(c["slug"]) not in groups] or \
+            [c for c in cats if c["slug"] not in recent] or cats
         order = []
         while pool and len(order) < CONFIG["max_lists_per_run"]:
             pick = random.choices(pool, weights=[c.get("weight", 1) for c in pool])[0]
@@ -1121,6 +1131,8 @@ def main():
                 state["day_counts"] = {today: state.get("day_counts", {}).get(today, 0) + 1}
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
                 state["recent_titles"] = (state.get("recent_titles", []) + [merged.get("title") or ""])[-12:]
+                if group_of(category.get("slug")):
+                    state["recent_groups"] = (state.get("recent_groups", []) + [group_of(category["slug"])])[-6:]
                 if it.get("store") != "aliexpress":
                     state["since_ali"] = state.get("since_ali", 0) + 1
             posted_now += 1
@@ -1326,7 +1338,7 @@ def main():
             candidates.sort(key=lambda c: -c[0])
             for sc, it, info, category in candidates[:3]:
                 log(f"  candidate score={sc} #{it['rank']} {it.get('source')} off={discount_pct(info)}% {info['title'][:50]}")
-            varied = [c for c in candidates if not clashes(state, c[2].get("title"))]
+            varied = [c for c in candidates if not clashes(state, c[2].get("title"), c[3].get("slug"))]
             if varied:
                 _, it, info, category = varied[0]
                 post(it, info, category)
