@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 25
+  "2026-11-17": 26
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -109,6 +109,7 @@
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
+  "worx v electrical screwdriver": "2026-11-17T17:31:56.535192+00:00",
   "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
   "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
   "wrangler relaxed fit stretch": "2026-11-15T07:17:56.490377+00:00",
@@ -119,7 +120,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
- "last_post_at": "2026-11-17T17:01:01.958808+00:00",
+ "last_post_at": "2026-11-17T17:31:56.534924+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -529,6 +530,7 @@
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
+  "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
@@ -550,10 +552,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/1101-1118 11.11 Sale - Bestsellers",
   "fashion/1040660",
   "aliexpress/squishy set",
-  "wireless"
+  "wireless",
+  "aliexpress/tool set home"
  ],
  "recent_groups": [
   "electronics",
@@ -561,7 +563,6 @@
   "wireless"
  ],
  "recent_titles": [
-  "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
   "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
   "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
   "Levi's Women's Cinch Baggy",
@@ -572,8 +573,9 @@
   "EJEAS V6 PRO+ Motorcycle Helmet Intercom Bluetooth Headset Support EUC CVC Noise Reduction Waterproof IP67 Standby Time 260H",
   "LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive",
   "Christmas Advent Calendar Gift Box, 24\u2011Day Surprise Mini Squishy Fidget Toys, Sensory Stress\u2011Relief Toy Set, Holiday Surprise Gi",
-  "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy"
+  "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
+  "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136100
 }

@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B07CMS5Q6P",
-  "title": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
-  "title_he": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
-  "price": "$29.49",
-  "was": "$49.99",
-  "discount": "41%",
-  "rating": "4.6",
-  "reviews": "40,704",
-  "rank": 11,
-  "source": "bestsellers",
-  "message_id": 49,
-  "image": "https://m.media-amazon.com/images/I/51sg9BLSMTL._AC_SL1500_.jpg",
-  "variant": 351,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "videogames",
-  "category_en": "Video Games",
-  "category_he": "משחקי וידאו",
-  "posted_at": "2026-11-16T10:34:59.367396+00:00"
- },
- {
   "asin": "ali-1005006832463652",
   "title": "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
   "title_he": "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Desktop Desktop",
@@ -1122,5 +1100,34 @@
   "category_en": "Cell Phones & Accessories",
   "category_he": "סלולר ואביזרים",
   "posted_at": "2026-11-17T17:01:01.957570+00:00"
+ },
+ {
+  "asin": "ali-1005008077374870",
+  "title": "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
+  "title_he": "סט מברגים חשמליים מיני מסוג Worx 4V WX242 WX241 WX240 מברגים חשמליים חכמים אלחוטיים נטענים USB כלי מקדחה ידנית נטענת",
+  "price": "$37.10",
+  "was": "$85.68",
+  "discount": "56%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 176,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S80ac849841df4a228adb79b8be92a63dI.jpg",
+  "variant": 131,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oEPgUcOT32By7rEXBhrK9hUZVbTAHRaODYGMyW4jWYu02GeHSdLbo78dakwkpzPCfalEIytfZIkoLP8wexKr92Su4fnLvFuSC8lprLzWrthF0XAJLtInQMqTmZEzHj7DrgzOxaoUr7DcA9PEFuyk0Te0OsguODFUrItHdEhpazwmPfsO0VCoENlQYNIcDvUnMUjGPJz3UrTZqcVj2bq9ZjV9jOqYR6XUKgwkXtwfrDxBqmlSQjmdLZUrKctDhxYGvBEeCJ4nqjNvneATmNIKeYkVCMEA4ueE8tZ8Bl3uwQg5OfXX1YVrZbFvGWy0yhwkRCckoXEfJjoBYZFOMyrMVLUSe7HEEYfbIJkYuWDdPtRrfEKvrdDIGlC2760F9THeHf27qyRW6oOzFaRIzBk9F9mKIOsyo4T8Ayt08mczukVtNmtv31wqE47VS9JlJ4kpjlYPMYOW4Q9eKkU2qGrEKzwVFulGjbFmGomWJ5kAIRWHyP8ofY2FWufm4s6BLFcPOiFWLbxjy3ANx4VCtt8ZPMk84O3evDJgbRvg74hQ8Kuu3MsP5GYGnEQNB5EX0dAEIyTNrgvaq4GyJJovH8zqI3FAhi9r4RLNJOdjD1Q2xoqJ4uvFKhKUVrn8XaUgVK8TBqxP9rDilNWyrMvdc6kzR4Sc7EBgkvVk8Md87AEWeRQO6POpRWzbBiITyAkikP6yqhf5PP9plpKh1",
+  "sold": "6,000",
+  "album_ids": [
+   176,
+   177,
+   178
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2675616184/p/1/e/6/t/10301/1100180984642.mp4",
+  "category_slug": "aliexpress/tool set home",
+  "category_en": "Tools",
+  "category_he": "כלי עבודה",
+  "posted_at": "2026-11-17T17:31:56.533243+00:00"
  }
 ]
