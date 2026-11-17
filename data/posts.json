@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0HDST6F85",
-  "title": "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black",
-  "title_he": "כיסוי FNTCASE לאייפון Duo, עם הגנת ציר מלא, שחור",
-  "price": "$16.99",
-  "was": "$24.99",
-  "discount": "32%",
-  "rating": "4.5",
-  "reviews": "32,749",
-  "rank": 8,
-  "source": "bestsellers",
-  "message_id": 30,
-  "image": "https://m.media-amazon.com/images/I/61MvuwnNwFL._AC_SL1446_.jpg",
-  "variant": 272,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-15T18:00:49.134363+00:00"
- },
- {
   "asin": "ali-1005010253550400",
   "title": "Silicone Suction Cup Phone Stand with Strong Double-Sided No-Hand Grip, Video Fixing Pad, Silicone Rubber Suction, Silicone Case",
   "title_he": "מעמד לטלפון כוס יניקה מסיליקון עם אחיזה דו צדדית חזקה ללא יד, משטח קיבוע וידאו, יניקה מגומי סיליקון, מארז סיליקון",
@@ -996,5 +974,34 @@
   "category_en": "Men's Clothing",
   "category_he": "ביגוד גברים",
   "posted_at": "2026-11-17T06:01:17.388065+00:00"
+ },
+ {
+  "asin": "ali-32835019753",
+  "title": "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
+  "title_he": "VB603 וידאו מוניטור תינוק 2.4G אלחוטי עם 3.2 אינץ' LCD דו כיווני אודיו דיבור ראיית לילה מעקב מצלמת אבטחה בייביסיטר",
+  "price": "$37.03",
+  "was": "$68.57",
+  "discount": "46%",
+  "rating": "96.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 110,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa688591905bd4605b02e6e950e1b7b99k.jpg",
+  "variant": 611,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/Ab3OrgM3v6R6NN0EoHucCSUeynqZAFtTZOEu7IPxrR4SLwZPLacc8DYNvZfALYHLsNM3TYez9oN3P1K9znMiq456CqQ4bMlqxnHyEiYYk22p7an8e0eu99eBBNhA077oXYZNNv7Ng1SIXynsFuB4b7vEuspqHsdvKgS5L2u7110GdQI3uzPvOsQuzYX3ez2yDAwBC8dbIGCiEOooUz3EIgs95ouUnCt8mlEdyj0IZdYBbsDD9zONrhJoAbSkj2tGTNyVRdL3z665y7zQ7WIqGfGzRJ0JhYiX79OkEE1pQtcOdxKWzfoFf3zpbdWuWPmiBJnqvvG5EN9obpoCfHGMtVWhMdZRTZku9pqXhcFxUi5S91wKZQXzB25UvxgZhEZMtHhBgv9MXCOF3J0LZvUyFRRCY9xNeRlmAxzjAZAR1fJPsEZgL7r6n7wDtASpdcga0MIIVuR1dZYmb4PGiHrOxzX9yqXrkNkvg4LLOa5uWrk6Io1Zf4SkgJkImBHErXVrmZh3uk5G9hYaTl7KsfNbHhyqUuDjkfn8TOW2GqY2mKhngOd2vNq06sqDo7uvpkmLBjD0TSh4cMZl6diWeuyfNn5my3LT7KUrQ4k3zRpej0xGkDbtXGna6L8Ze7QtYUcech02EXXAPmhATSfM3a0cR9xjPEVlrgtyG48tfg3LV2DouIZ1aEZmFsGMKHdxBIPoiMU0EqJIH82uEjlBsCJqsnasiHkh9iZoRGZuk8xpahj8HV5rz7Na9IjBnedxAONlOviuwXu4wWnN2lx9QOIL7ZZdvf5a33ttQcZ5veEJb2lkyVD9Uy686Deef8ZRMrcJ49JT2ZrgxaxgMnrr1TpRyGAtZgm5YpLmCmgmsXuDsduBKm0l1Yx1Xfn8MP4IFCwHSOp8UplOd3CP7Nw7b3YFZbcrc0ZKLUm2pgsmp1mWvSRzDG5DfXrMliMUVaPLMh7ndt2wMJrm5gIfYdW95MY4kRT4qz7N9X4CwGLhl35e62SACpDbGVwG51SHNecTl7swLwQlHZGtqdYw0TEjoTwZNfGnne09lERNCCxxrJmx",
+  "sold": "1,000",
+  "album_ids": [
+   110,
+   111,
+   112
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/201202988/p/1/e/6/t/10301/1100158142544.mp4",
+  "category_slug": "aliexpress/1101-1118 11.11 Sale - Top Brands",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-17T06:30:58.173805+00:00"
  }
 ]
