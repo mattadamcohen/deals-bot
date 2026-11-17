@@ -1430,6 +1430,9 @@ def main():
                 if not info.get("price"):
                     log("     no price found, skipping")
                     continue
+                if CONFIG.get("ali_niche_block") and re.search(CONFIG["ali_niche_block"], (info.get("title") or "").lower()):
+                    log("     niche part/accessory, skipping")
+                    continue
                 if over_cap(info):
                     log(f"     {info['price']} is over the ${CONFIG.get('max_price_usd', 75)} cap, skipping")
                     continue
