@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 18
+  "2026-11-17": 19
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -97,7 +97,7 @@
   "trendy queen fall fashion": "2026-11-16T15:04:51.206825+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
-  "vb video baby monitor": "2026-11-17T06:30:58.176062+00:00",
+  "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
   "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
@@ -110,7 +110,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T13:31:29.829221+00:00",
+ "last_post_at": "2026-11-17T14:01:29.456346+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -456,12 +456,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-17T13:01:54.891094+00:00",
-   "id": "32835019753",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/s/Ab3OrgM3v6R6NN0EoHucCSUeynqZAFtTZOEu7IPxrR4SLwZPLacc8DYNvZfALYHLsNM3TYez9oN3P1K9znMiq456CqQ4bMlqxnHyEiYYk22p7an8e0eu99eBBNhA077oXYZNNv7Ng1SIXynsFuB4b7vEuspqHsdvKgS5L2u7110GdQI3uzPvOsQuzYX3ez2yDAwBC8dbIGCiEOooUz3EIgs95ouUnCt8mlEdyj0IZdYBbsDD9zONrhJoAbSkj2tGTNyVRdL3z665y7zQ7WIqGfGzRJ0JhYiX79OkEE1pQtcOdxKWzfoFf3zpbdWuWPmiBJnqvvG5EN9obpoCfHGMtVWhMdZRTZku9pqXhcFxUi5S91wKZQXzB25UvxgZhEZMtHhBgv9MXCOF3J0LZvUyFRRCY9xNeRlmAxzjAZAR1fJPsEZgL7r6n7wDtASpdcga0MIIVuR1dZYmb4PGiHrOxzX9yqXrkNkvg4LLOa5uWrk6Io1Zf4SkgJkImBHErXVrmZh3uk5G9hYaTl7KsfNbHhyqUuDjkfn8TOW2GqY2mKhngOd2vNq06sqDo7uvpkmLBjD0TSh4cMZl6diWeuyfNn5my3LT7KUrQ4k3zRpej0xGkDbtXGna6L8Ze7QtYUcech02EXXAPmhATSfM3a0cR9xjPEVlrgtyG48tfg3LV2DouIZ1aEZmFsGMKHdxBIPoiMU0EqJIH82uEjlBsCJqsnasiHkh9iZoRGZuk8xpahj8HV5rz7Na9IjBnedxAONlOviuwXu4wWnN2lx9QOIL7ZZdvf5a33ttQcZ5veEJb2lkyVD9Uy686Deef8ZRMrcJ49JT2ZrgxaxgMnrr1TpRyGAtZgm5YpLmCmgmsXuDsduBKm0l1Yx1Xfn8MP4IFCwHSOp8UplOd3CP7Nw7b3YFZbcrc0ZKLUm2pgsmp1mWvSRzDG5DfXrMliMUVaPLMh7ndt2wMJrm5gIfYdW95MY4kRT4qz7N9X4CwGLhl35e62SACpDbGVwG51SHNecTl7swLwQlHZGtqdYw0TEjoTwZNfGnne09lERNCCxxrJmx"
-  },
-  {
    "at": "2026-11-17T13:01:55.750389+00:00",
    "id": "1005007354557673",
    "store": "aliexpress",
@@ -578,18 +572,17 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
-  "ali-32835019753": "2026-11-17T06:30:58.145106+00:00",
+  "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "home-garden",
   "aliexpress/GameSir",
+  "pick",
   "pick",
   "pick"
  ],
  "recent_titles": [
-  "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
   "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
   "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
   "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts",
@@ -600,7 +593,8 @@
   "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
   "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
   "Levi's Women's Cinch Baggy",
-  "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes"
+  "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
+  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter"
  ],
  "since_ali": 2,
  "tg_offset": 260136099
