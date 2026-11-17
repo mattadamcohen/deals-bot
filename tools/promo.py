@@ -9,7 +9,7 @@ import ad
 from ad import F, kw, size, text_c, YEL, RED, BLUE, NAVY, WHITE, INK, TG
 
 REPO = ad.REPO
-PICKS = [("B06W2JSJ4H", "שעונים"), ("ali-1005010105528998", "סניקרס"), ("B0F2F9ZHQT", "לבית ולעבודה"), ("B08JCD4PS6", "יצירה לילדים")]
+PICKS = [("B06W2JSJ4H", "שעונים"), ("ali-1005010105528998", "סניקרס"), ("ali-1005007668695524", "מצלמות אבטחה"), ("B08JCD4PS6", "יצירה לילדים")]
 W, H = 1080, 1350
 
 
@@ -78,22 +78,43 @@ def pill(d, cx, cy, t, f, fill, ink, padx=34, h=None):
     d.text((cx - tw / 2 - b[0], cy - th / 2 - b[1]), t, font=f, fill=ink, **kw(t))
 
 
+def logo(base, cx, cy, d=150, ring=WHITE):
+    lg = Image.open(REPO / "assets" / "ilamazondeals-logo.png").convert("RGB").resize((d, d), Image.LANCZOS)
+    m = Image.new("L", (d, d))
+    ImageDraw.Draw(m).ellipse([0, 0, d - 1, d - 1], fill=255)
+    dr = ImageDraw.Draw(base)
+    sh = Image.new("L", base.size)
+    ImageDraw.Draw(sh).ellipse([cx - d / 2 - 6, cy - d / 2 + 4, cx + d / 2 + 6, cy + d / 2 + 16], fill=110)
+    base.paste(Image.new("RGB", base.size, (0, 0, 0)), mask=sh.filter(ImageFilter.GaussianBlur(10)))
+    dr.ellipse([cx - d / 2 - 7, cy - d / 2 - 7, cx + d / 2 + 7, cy + d / 2 + 7], fill=ring)
+    base.paste(lg, (int(cx - d / 2), int(cy - d / 2)), m)
+
+
+def bottom(im, he, en, dark=False):
+    """Hebrew line, English line, CTA button."""
+    d = ImageDraw.Draw(im)
+    pill(d, W / 2, 1085, he, F(900, 42), WHITE if not dark else YEL, INK, h=74)
+    text_c(d, W / 2, 1138, en, F(800, 34), INK if not dark else (215, 225, 255))
+    ad.cta(im, W / 2, 1252, 820, 100)
+    text_c(ImageDraw.Draw(im), W / 2, 1306, "t.me/ilamazondeals", F(800, 28), NAVY if not dark else (215, 225, 255))
+
+
 # ---------------------------------------------------------------- A: bright burst, 4 products on stage
 def style_a():
-    im = ad.burst_bg(W, H, 640)
+    im = ad.burst_bg(W, H, 620)
     d = ImageDraw.Draw(im)
-    d.polygon([(40, 60), (W - 40, 38), (W - 56, 220), (56, 242)], fill=BLUE)
-    text_c(d, W / 2, 86, "הדילים הכי שווים", F(900, 104), WHITE, stroke=5, sfill=NAVY)
-    text_c(d, W / 2, 268, "מאמזון ואליאקספרס, כל יום", F(900, 62), INK)
-    spots = [(290, 520, 280, 270), (790, 520, 340, 240), (290, 860, 320, 260), (790, 860, 320, 260)]
+    d.polygon([(40, 50), (W - 40, 28), (W - 56, 200), (56, 222)], fill=BLUE)
+    text_c(d, W / 2 + 70, 82, "הדילים הכי שווים", F(900, 86), WHITE, stroke=5, sfill=NAVY)
+    text_c(d, W / 2, 245, "מאמזון ואליאקספרס, כל יום", F(900, 56), INK)
+    text_c(d, W / 2, 315, "Daily Amazon & AliExpress deals for Israel", F(800, 32), NAVY)
+    logo(im, 120, 125, 132)
+    spots = [(290, 520, 270, 250), (790, 520, 330, 220), (290, 830, 290, 230), (790, 830, 310, 230)]
     for (asin, lab), (cx, cy, mw, mh) in zip(PICKS, spots):
         drop(im, cutout(asin, mw, mh), cx, cy, glow=(255, 255, 230))
     for (asin, lab), (cx, cy, mw, mh) in zip(PICKS, spots):
-        pill(ImageDraw.Draw(im), cx, cy + 160, lab, F(900, 34), BLUE, WHITE, h=58)
-    coin(im, W / 2, 700, 112, "זכו ב", "$50", "לאמזון", tilt=-8, fill=RED, ink=WHITE)
-    d = ImageDraw.Draw(im)
-    pill(d, W / 2, 1128, "הצטרפו לערוץ הטלגרם ואתם בהגרלה!", F(900, 44), WHITE, INK, h=78)
-    ad.cta(im, W / 2, 1240, 820, 108)
+        pill(ImageDraw.Draw(im), cx, cy + 142, lab, F(900, 32), BLUE, WHITE, h=54)
+    coin(im, W / 2, 680, 108, "זכו ב", "$50", "לאמזון", tilt=-8, fill=RED, ink=WHITE)
+    bottom(im, "הצטרפו לערוץ הטלגרם ואתם בהגרלה!", "Join our Telegram channel & win a $50 Amazon voucher")
     return im
 
 
@@ -107,23 +128,23 @@ def style_b():
         gd.ellipse([W / 2 - r, 620 - r * 0.8, W / 2 + r, 620 + r * 0.8], fill=int(i * 3.2))
     im.paste(Image.new("RGB", (W, H), (40, 70, 200)), mask=g.filter(ImageFilter.GaussianBlur(60)))
     d = ImageDraw.Draw(im)
-    text_c(d, W / 2, 70, "דילים שאסור לפספס", F(900, 96), YEL)
-    text_c(d, W / 2, 190, "אמזון · אליאקספרס · מחירים בשקלים", F(800, 44), (200, 215, 255))
+    text_c(d, W / 2 + 60, 58, "דילים שאסור לפספס", F(900, 80), YEL)
+    text_c(d, W / 2, 162, "אמזון · אליאקספרס · מחירים בשקלים", F(800, 40), (200, 215, 255))
+    text_c(d, W / 2, 215, "Deals you can't miss · Amazon & AliExpress", F(800, 30), (160, 180, 240))
     # 2x2 glass tiles
-    tw_, th_, gap = 440, 380, 40
+    tw_, th_, gap = 430, 350, 36
     for i, (asin, lab) in enumerate(PICKS):
         col, row = i % 2, i // 2
         x0 = W / 2 + gap / 2 if col == 0 else W / 2 - gap / 2 - tw_
-        y0 = 290 + row * (th_ + gap)
+        y0 = 285 + row * (th_ + gap)
         tile = Image.new("RGBA", (tw_, th_), (0, 0, 0, 0))
         ImageDraw.Draw(tile).rounded_rectangle([0, 0, tw_ - 1, th_ - 1], radius=34, fill=(255, 255, 255, 235))
         im.paste(tile, (int(x0), int(y0)), tile)
         drop(im, cutout(asin, tw_ - 70, th_ - 120), x0 + tw_ / 2, y0 + (th_ - 60) / 2, shadow=True)
         pill(ImageDraw.Draw(im), x0 + tw_ / 2, y0 + th_ - 42, lab, F(900, 34), (10, 14, 40), YEL, h=56)
-    coin(im, W / 2, 290 + th_ + gap / 2, 112, "זכו ב", "$50", "לאמזון", tilt=10)
-    d = ImageDraw.Draw(im)
-    text_c(d, W / 2, 1125, "הצטרפו לערוץ = נכנסתם להגרלה", F(900, 50), WHITE)
-    ad.cta(im, W / 2, 1245, 820, 106)
+    coin(im, W / 2, 285 + th_ + gap / 2, 108, "זכו ב", "$50", "לאמזון", tilt=10)
+    logo(im, 88, 92, 112, ring=YEL)
+    bottom(im, "הצטרפו לערוץ = נכנסתם להגרלה", "Join our Telegram channel & win a $50 Amazon voucher", dark=True)
     return im
 
 
@@ -131,25 +152,24 @@ def style_b():
 def style_c():
     im = Image.new("RGB", (W, H), (255, 214, 0))
     d = ImageDraw.Draw(im)
-    d.rectangle([0, 0, W, 470], fill=BLUE)
-    d.polygon([(0, 470), (W, 380), (W, 470)], fill=BLUE)
-    text_c(d, W / 2, 70, "דילים כאלה", F(900, 120), WHITE)
-    text_c(d, W / 2, 215, "כל יום בטלגרם", F(900, 120), YEL)
-    hero = cutout(PICKS[0][0], 430, 640)
-    drop(im, hero, 330, 760, glow=(255, 255, 255))
+    d.rectangle([0, 0, W, 420], fill=BLUE)
+    d.polygon([(0, 470), (W, 420), (0, 420)], fill=BLUE)
+    text_c(d, W / 2, 50, "דילים כאלה", F(900, 112), WHITE)
+    text_c(d, W / 2, 185, "כל יום בטלגרם", F(900, 112), YEL)
+    text_c(d, W / 2, 330, "Deals like these, every day on Telegram", F(800, 34), WHITE)
+    hero = cutout(PICKS[0][0], 400, 560)
+    drop(im, hero, 320, 745, glow=(255, 255, 255))
     # side stack of the other 3
     for i, (asin, lab) in enumerate(PICKS[1:]):
-        cy = 540 + i * 200
-        ImageDraw.Draw(im).rounded_rectangle([640, cy - 85, 1010, cy + 85], radius=30, fill=WHITE)
-        drop(im, cutout(asin, 150, 140), 925, cy, shadow=False)
+        cy = 545 + i * 175
+        ImageDraw.Draw(im).rounded_rectangle([630, cy - 75, 1015, cy + 75], radius=30, fill=WHITE)
+        drop(im, cutout(asin, 140, 125), 930, cy, shadow=False)
         dd = ImageDraw.Draw(im)
         tw, th, b = size(dd, lab, F(900, 38))
-        dd.text((840 - tw - b[0], cy - th / 2 - b[1]), lab, font=F(900, 38), fill=INK, **kw(lab))
-    coin(im, 175, 470, 110, "זכו ב", "$50", "לאמזון", tilt=-12, fill=RED, ink=WHITE)
-    d = ImageDraw.Draw(im)
-    d.rounded_rectangle([60, 1065, W - 60, 1160], radius=46, fill=WHITE)
-    text_c(d, W / 2, 1087, "הצטרפו לערוץ ואתם בהגרלה על $50", F(900, 46), INK)
-    ad.cta(im, W / 2, 1255, 820, 104)
+        dd.text((850 - tw - b[0], cy - th / 2 - b[1]), lab, font=F(900, 38), fill=INK, **kw(lab))
+    coin(im, 160, 520, 104, "זכו ב", "$50", "לאמזון", tilt=-12, fill=RED, ink=WHITE)
+    logo(im, 95, 95, 120, ring=YEL)
+    bottom(im, "הצטרפו לערוץ ואתם בהגרלה על $50", "Join our Telegram channel & win a $50 Amazon voucher")
     return im
 
 
