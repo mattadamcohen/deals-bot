@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 24
+  "2026-11-17": 25
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -33,6 +33,7 @@
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
+  "B0HQ6YZJJ8": "2026-11-17T17:01:01.958967+00:00",
   "B0HQJLZWFC": "2026-11-17T09:01:31.220132+00:00",
   "B0HR99K3MK": "2026-11-17T08:01:21.527621+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
@@ -75,6 +76,7 @@
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
+  "miracase silicone magnetic for": "2026-11-17T17:01:01.958971+00:00",
   "multifunctional vegetable cutter slicer": "2026-11-17T10:31:40.721471+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
@@ -117,7 +119,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
- "last_post_at": "2026-11-17T16:31:18.234348+00:00",
+ "last_post_at": "2026-11-17T17:01:01.958808+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -515,6 +517,7 @@
   "B0H4ZG39CY": "2026-11-17T09:01:31.172010+00:00",
   "B0H71RGBQ3": "2026-11-15T17:09:36.677208+00:00",
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
+  "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
@@ -547,17 +550,17 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "electronics",
   "aliexpress/1101-1118 11.11 Sale - Bestsellers",
   "fashion/1040660",
-  "aliexpress/squishy set"
+  "aliexpress/squishy set",
+  "wireless"
  ],
  "recent_groups": [
   "electronics",
-  "fashion"
+  "fashion",
+  "wireless"
  ],
  "recent_titles": [
-  "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
   "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
   "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
   "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
@@ -568,8 +571,9 @@
   "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warranty.",
   "EJEAS V6 PRO+ Motorcycle Helmet Intercom Bluetooth Headset Support EUC CVC Noise Reduction Waterproof IP67 Standby Time 260H",
   "LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive",
-  "Christmas Advent Calendar Gift Box, 24\u2011Day Surprise Mini Squishy Fidget Toys, Sensory Stress\u2011Relief Toy Set, Holiday Surprise Gi"
+  "Christmas Advent Calendar Gift Box, 24\u2011Day Surprise Mini Squishy Fidget Toys, Sensory Stress\u2011Relief Toy Set, Holiday Surprise Gi",
+  "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136100
 }

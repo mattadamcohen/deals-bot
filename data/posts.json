@@ -1,27 +1,5 @@
 [
  {
-  "asin": "ali-1005009136525831",
-  "title": "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
-  "title_he": "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
-  "price": "$41.09",
-  "was": "$82.19",
-  "discount": "50%",
-  "rating": "97.5%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 48,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S080cfa737d164ad3ae0886ab60e60db8S.jpg",
-  "variant": 110,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mtVh974jlachekkpVFoORr2G3AzmEra3sixYV6fkvDOLFjc7WHimbpSBuUrF38nSQGk8CTVIc3GfkIFAkT02FUIeUlkfQibwLCcctuk7po2Z4WyIMIBjPTjdFuFl42fakAqCpRvNGrlgxeFtEml0sKLm3V0hHZPo751SixSWYggrQnjquHwZXDHoSEJTcpTgrbQIwSoR6ZHNmVbO1nDV1kuFosSZgkigOHgaQbsHK6nF1BRGzv9VJHdfpi73RCCTISJwwk3UcKdA4sGIw3QCMAzoVQLmZNdkkecr6OUEhfClEB7GJwbO1RKZNW5v9MSa5aTCdVREexx5DLMZTIoD1ledVj7jJoVYbJg2VCDGxi1AzK9yq1YZ8NaVwtRt0MlFAQ4kF0xyPYVFiC93gyuK5XcDuhIELBbn58soJjAG0ixd9QV4UaEwRWtA6isR5DfTSQtivk9jwlsG0kYZauC9kz6nV3Xro98o8uyHiIKuzGHMTYAafTgVUJKYE3YryIjcgQOIQOxkMRuOOXPnCksfgJlSCxFl4C5OdCxhNnvV51vpks8nXaKE93I0JooaA9ZlIaZ42D9IsHQk0L7m49qh2RQNwZ7A6fYQ7BTw3GXNfTgCGV37C5mDaIkdnDztE7RLGaelj3xyIlmVqvLBvcpKJLjHwJNuvQFYvzzRhONYQKmpB3z46wOjw21trwPLt39f4fJcqjJH15N3v",
-  "sold": "532",
-  "category_slug": "aliexpress/Logitech",
-  "category_en": "Top brands",
-  "category_he": "מותגים מובילים",
-  "posted_at": "2026-11-16T10:01:27.076576+00:00"
- },
- {
   "asin": "B07CMS5Q6P",
   "title": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
   "title_he": "Logitech G305 LIGHTSPEED Wireless Gaming Mouse, Hero 12K Sensor - Black",
@@ -1115,5 +1093,34 @@
   "category_en": "Squishies",
   "category_he": "סקווישים",
   "posted_at": "2026-11-17T16:31:18.232331+00:00"
+ },
+ {
+  "asin": "B0HCYX8QBJ",
+  "title": "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
+  "title_he": "כיסוי Miracase סיליקון ומגנטי לאייפון 18 Pro Max, בורדו",
+  "price": "$22.99",
+  "was": "$24.99",
+  "discount": "8%",
+  "rating": "4.4",
+  "reviews": "85,854",
+  "rank": 8,
+  "source": "bestsellers",
+  "message_id": 173,
+  "image": "https://m.media-amazon.com/images/I/61PxlVyu8NL._AC_SL1500_.jpg",
+  "variant": 13,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   173,
+   174,
+   175
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/24af013e-9776-48d0-bd3c-3884127a1dfc/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "wireless",
+  "category_en": "Cell Phones & Accessories",
+  "category_he": "סלולר ואביזרים",
+  "posted_at": "2026-11-17T17:01:01.957570+00:00"
  }
 ]
