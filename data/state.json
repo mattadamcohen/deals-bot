@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 6
+  "2026-11-17": 7
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -28,6 +28,7 @@
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
+  "B0HR99K3MK": "2026-11-17T08:01:21.527621+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
@@ -88,6 +89,7 @@
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
   "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
+  "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
   "wrangler relaxed fit stretch": "2026-11-15T07:17:56.490377+00:00",
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
@@ -95,7 +97,7 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-17T05:04:07.004146+00:00",
- "last_post_at": "2026-11-17T07:31:35.312212+00:00",
+ "last_post_at": "2026-11-17T08:01:21.527455+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -453,6 +455,7 @@
   "B07FPQZG6V": "2026-11-14T14:24:16.485982+00:00",
   "B07GQ8J4QX": "2026-11-15T05:46:42.354565+00:00",
   "B07PBXXNCY": "2026-11-15T05:02:05.967654+00:00",
+  "B07YH1SJ8V": "2026-11-17T08:01:21.499158+00:00",
   "B07ZSWRKZY": "2026-11-14T19:32:53.716210+00:00",
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
@@ -505,13 +508,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040658",
   "aliexpress/1101-1118 11.11 Sale - Top Brands",
   "fashion/679337011",
-  "aliexpress/1101-1118 11.11 Sale - Top Brands"
+  "aliexpress/1101-1118 11.11 Sale - Top Brands",
+  "fashion/1040658"
  ],
  "recent_titles": [
-  "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
   "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
   "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home",
   "Adidas Genuine Originals Men's Durable Low-Top Casual Shoes JS3994",
@@ -522,8 +524,9 @@
   "Hanes Men's Beefy-T Cotton Crewneck T-Shirt, 2-Pack, Big & Tall Sizes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
-  "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories"
+  "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
+  "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136071
 }
