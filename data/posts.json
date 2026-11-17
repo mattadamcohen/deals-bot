@@ -1,27 +1,5 @@
 [
  {
-  "asin": "ali-1005010253550400",
-  "title": "Silicone Suction Cup Phone Stand with Strong Double-Sided No-Hand Grip, Video Fixing Pad, Silicone Rubber Suction, Silicone Case",
-  "title_he": "מעמד לטלפון כוס יניקה מסיליקון עם אחיזה דו צדדית חזקה ללא יד, משטח קיבוע וידאו, יניקה מגומי סיליקון, מארז סיליקון",
-  "price": "$1.20",
-  "was": "$2.55",
-  "discount": "53%",
-  "rating": "90.5%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 32,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4a56b1c2aebb46e484d096dfb95dfb49M.jpg",
-  "variant": 781,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4olfD6qWdbIWdUslIz4ld956GAM4skwiqCc5kuwIJxequIEDTFq0tJ62CCQIEhZnsY4Afwm4EH3Igib74ZFK1rRoPUdgqfESIZprjKbCSQ0KeIduz114hcMIG7muSVyWhiKHQwcCyPuvmJCoepUihCfePXanc6jpuhzjA9a6GjdMjBXSTGNT1bjuPHUVwNaiTx4tGDQE6Giytnhtu1JOQF87qC2X0DXhrdv7NidNd4OrW1NeMghgcFtj4MYWGZTn4uCGwuE37K1HseqhFimd5wXnUMeYWvNxEqcYKekZvnRjlPAAhDYGAkNx51yzbFIVe8zI6cIndpH0sQx4LvyyOIJqlvl6jWoZnrXg7GVeyzGK1mZNeaSU78oE5S7rMm28eXdD66eYyej9pTlTeMqxxsCWfTKu7DuHBftrbOKXUrHNjGcBzqDo5e8hx6KukEcSnJ7rzny7cstfpqLgIyugAX0PwNz31WpZCMF3vBkSwWa0AyHOtKmsUrQpw5ruP8oxmT6VYIs3MqzezHPku77eRgT8BvaEd7vLs9RhS0lzVwQb13HLoLMZQYPWrNsVcd5YFGcweX68x4eRoTWzcfqabcpnhctEKJEKYct3Gke5oJf7tdUrCK0MkNB685XrRMaUCGXHSoC3lqQkC3iJ03nc0cn9632WPZ8or7CnLqvj21dBWjWEsLcDtj6QPt6rlIsqArfgMTV6hJbmgC",
-  "sold": "32,000",
-  "category_slug": "aliexpress/phone case",
-  "category_en": "Tech",
-  "category_he": "גאדג'טים",
-  "posted_at": "2026-11-15T18:13:55.622868+00:00"
- },
- {
   "asin": "B0H75RQRZD",
   "title": "Ailun Screen Protector + Camera Lens Protector for iPhone 18 Pro Max",
   "title_he": "Ailun מגן מסך + מגן עדשת מצלמה לאייפון 18 Pro Max",
@@ -1003,5 +981,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-17T06:30:58.173805+00:00"
+ },
+ {
+  "asin": "B0BYNYWKC7",
+  "title": "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
+  "title_he": "נעלי בית מטושטשות של EverFoams לנשים חמימות נעימות קצף זיכרון",
+  "price": "$16.99",
+  "was": "$35.99",
+  "discount": "53%",
+  "rating": "4.5",
+  "reviews": "11,010",
+  "rank": 3,
+  "source": "bestsellers",
+  "message_id": 113,
+  "image": "https://m.media-amazon.com/images/I/71yhTG8TNrL._AC_SL1500_.jpg",
+  "variant": 961,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   113,
+   114,
+   115
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bf7fc7b7-ce1e-4060-907d-28e53717bd2a/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/679337011",
+  "category_en": "Women's Shoes",
+  "category_he": "נעלי נשים",
+  "posted_at": "2026-11-17T07:01:15.810871+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 4
+  "2026-11-17": 5
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -11,6 +11,7 @@
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
   "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
   "B0CZGWS9MV": "2026-11-16T19:49:00.788634+00:00",
+  "B0CZLLQN45": "2026-11-17T07:01:15.812875+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
@@ -42,6 +43,7 @@
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
+  "everfoams fuzzy slippers warm": "2026-11-17T07:01:15.812883+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
@@ -92,7 +94,7 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-17T05:04:07.004146+00:00",
- "last_post_at": "2026-11-17T06:30:58.175784+00:00",
+ "last_post_at": "2026-11-17T07:01:15.812405+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -459,6 +461,7 @@
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
   "B0BR3M8XHK": "2026-11-15T17:04:35.695719+00:00",
   "B0BSRFKKZJ": "2026-11-14T17:08:14.114580+00:00",
+  "B0BYNYWKC7": "2026-11-17T07:01:15.690426+00:00",
   "B0BZYCJK89": "2026-11-14T18:08:58.181961+00:00",
   "B0C26ZL5JV": "2026-11-14T07:26:49.591232+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
@@ -500,13 +503,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040658",
   "aliexpress/building blocks set",
   "fashion/1040658",
-  "aliexpress/1101-1118 11.11 Sale - Top Brands"
+  "aliexpress/1101-1118 11.11 Sale - Top Brands",
+  "fashion/679337011"
  ],
  "recent_titles": [
-  "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
   "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
   "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
   "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
@@ -517,8 +519,9 @@
   "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
   "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "Hanes Men's Beefy-T Cotton Crewneck T-Shirt, 2-Pack, Big & Tall Sizes",
-  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter"
+  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
+  "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136071
 }
