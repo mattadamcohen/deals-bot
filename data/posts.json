@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0H75RQRZD",
-  "title": "Ailun Screen Protector + Camera Lens Protector for iPhone 18 Pro Max",
-  "title_he": "Ailun מגן מסך + מגן עדשת מצלמה לאייפון 18 Pro Max",
-  "price": "$9.89",
-  "was": "",
-  "discount": "",
-  "rating": "4.5",
-  "reviews": "450,586",
-  "rank": 2,
-  "source": "bestsellers",
-  "message_id": 33,
-  "image": "https://m.media-amazon.com/images/I/71mNP+JsHrL._AC_SL1500_.jpg",
-  "variant": 269,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-15T18:45:41.690041+00:00"
- },
- {
   "asin": "ali-1005007010579208",
   "title": "Big Size Building Blocks Cat Dog Pig Rabbit Model Accessories Compatible Bricks Farm Animals Set Assemble Education Toys For Kid",
   "title_he": "גודל גדול אבני בניין חתול כלב חזיר ארנב דגם אביזרי לבנים תואם חיות משק סט להרכיב צעצועי חינוך לילד",
@@ -1010,5 +988,34 @@
   "category_en": "Women's Shoes",
   "category_he": "נעלי נשים",
   "posted_at": "2026-11-17T07:01:15.810871+00:00"
+ },
+ {
+  "asin": "ali-32863704575",
+  "title": "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
+  "title_he": "UGREEN USB HUB 4K120Hz DP Type-C ל-4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps נתונים למחשב נייד Dell HP Lenovo אביזרי",
+  "price": "$11.97",
+  "was": "$21.32",
+  "discount": "43%",
+  "rating": "96.6%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 116,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S09dc17c382634321b8b3e98692034cefF.jpg",
+  "variant": 546,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/Ab3OrgM3v6R6NN0EoHucCSUeynqZAFtTZOEu7IPxrR4SLwZPLacc8DYNvZfALYHLsNM3TYez9oN3P1K9znMiq456CqQ4bMlqxnHyEiYYk22p7an8e0eu99eBBNhA077oXYZNNv7Ng1SIXynsFuB4b7vEuspqHsdvKgS5L2u7110GdQI3uzPvOsQuzYX3ez2yDAwBC8dbIGCiEOooUz3EIgs95ouUnCt8mlEdyj0IZdYBbsDD9zONrhJoAbSkj2tGTNyVRdL3z665y7zQ7WIqGfGzRJ0JhYiX79OkEE1pQtcOdxKWzfoFf3zpbdWuWPmiBJnqvvG5EN9obpoCfHGMtVWhu8fI4dKz33QLM3P7LeMO6lYqvsDKJW3kshQIS4nyTTlZzVbzz2Pp2cSYbfTJQYaJIRl7vQZ8JP4lUbH8r27wTFIPqK6l4QENhH2G90Y5I8Yghh2T3TbEIFQaqGVL3pEd8WGj9dvgvH4x4JEyx6oj7fJPuzG5K76JgSNFCFDK4gaMaIooDcnWN2vmdo8keQLRg9iZPRYrG1lFlmLSVkLZNII63zOVZujhpQTuxvbZ82IayY3KRMgMfjMeWBbLWum5cl9zLxx2Onb4cF8ZNcBi9FaIgMweUXwj7zsHSlHweM7ElhVWojF2lKS0cguqB3EZyfTcyZWGDDiZVNWv6e29ytuBJrPo82DmOtyk2Q6anjLYJ3fYDoCrXK3LmRHDhIl4EGJgc30sPmQladuy9kTEXh3uD6qAkYgd11OyEOfCTyWakbcnfSn3Y1cv5JJeEcLSoSxT1uXRALnBTDFPrjBKAzfSaUq3kgAvnLKBr76S95gQv4yeiQC5fXUCQ8sMicBuZrfJIwHnBhWENJN0uWo6Mupq2S5bx90Mdiic2YfvZILssaDTGGmuOAHZKu2WMdGDvxkhloJNsrArBIfhtdatUrdfKsmMMg9gwH4G0IVhh2INQw3tdrAYPJzew8nJnWAU2vMTGqw5gd3IGfAKoTDDsBzHx66EBDktFDYXGPj0x7YeYvRDHhMQMLpBpnlTAKXaUzRQUAuaSnPjCIjp",
+  "sold": "1,000",
+  "album_ids": [
+   116,
+   117,
+   118
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/1101-1118 11.11 Sale - Top Brands",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-17T07:31:35.310522+00:00"
  }
 ]
