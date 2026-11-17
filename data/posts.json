@@ -1,27 +1,5 @@
 [
  {
-  "asin": "ali-1005006832463652",
-  "title": "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Laptop Desktop",
-  "title_he": "Netac SSD NVMe M2 250GB 500GB SSD 1TB 2TB SSD M.2 2280 PCIe3.0X4 Internal Solid State Drive Disk for Desktop Desktop",
-  "price": "$33.91",
-  "was": "$54.48",
-  "discount": "37%",
-  "rating": "96.1%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 52,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbf398e203a76419491a43d591669ec29m.jpg",
-  "variant": 133,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Feu6bRBp2R2GWY5jBpX8xNtmdOiAMIOlzlNlA9Wb2HVFrONKopkhBwv5kLdOPsuj997X5rnNnNFBiWJMpPhse9njijX9frV8WKXfIzHCkgE4kYqIsyilG6tNGevxxtzD17REfrX6TkkPiCsNPSBsUhyBVT5fahe6t2nj0MFk4uPIVw1b9vc22h1TSVGrZxSbZSrrWVrVzzdPYnLQGzz396ezhktrwJj1DSLgrNvcxrqYNtIR8JVsWSusnCdyttT9njQ7sxBD8LYd2T5fhkwtCSH2yGXszJWJRyhysveaHykkOxEds8JvgUOAcfFelkmxs9Xknc24SUCkk7mUdqEQBwgzyf4gRTY6y5Q0d2VCaYmkew8zjFePvi4QLMb56UAWbGzdBFBriWiSnn4zJnEyQ3XAukrsjynHkBXDZbiHfO2zumSRsC9qDT4VCsi5tFy2gnaDeoZY2vMEISAARibN3c3JkHr9E6jKRy64YObRInsrlg3F22MEX5CAl4dhnTBE6JQDTen5XHMGutZFMfoj1b34iI1Lw3eXcnmfsWsSszlZ2eUWvtC9uwM3tmMnai4mob3DVMeu3xZKA6wHDHf7SQ8A2f7rYZvx9nQKI8ZIOMuZBw81dZYMA1YVia6W773nOVS7YMxQNe4JdoEfgzCa2FJsQUBUMndPoLj6NDsE6NkLXyzQPj6Mv8J7hY1sur7wIBu3ncIRFyDr4",
-  "sold": "7,000",
-  "category_slug": "aliexpress/Netac",
-  "category_en": "Top brands",
-  "category_he": "מותגים מובילים",
-  "posted_at": "2026-11-16T11:01:01.698524+00:00"
- },
- {
   "asin": "B0B7535QC3",
   "title": "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
   "title_he": "עט סטיילוס עבור אפל אייפד 2018-2026 מגנטי לרישום הערות",
@@ -1129,5 +1107,34 @@
   "category_en": "Tools",
   "category_he": "כלי עבודה",
   "posted_at": "2026-11-17T17:31:56.533243+00:00"
+ },
+ {
+  "asin": "B08CRPWQHB",
+  "title": "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
+  "title_he": "וילון מקלחת שקוף של BigFoot - פלסטיק נטול ריח בגודל 72x72 עם מגנטים, וילון אמבטיה ארוך רחיץ - אמבטיה פרימיום PEVA עמיד למים...",
+  "price": "$9.99",
+  "was": "$11.99",
+  "discount": "17%",
+  "rating": "4.5",
+  "reviews": "60,274",
+  "rank": 15,
+  "source": "bestsellers",
+  "message_id": 179,
+  "image": "https://m.media-amazon.com/images/I/71kHwy9jklL._AC_SL1500_.jpg",
+  "variant": 798,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   179,
+   180,
+   181
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f79b1bdf-b6d5-4720-b992-177ce2f20beb/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "home-garden",
+  "category_en": "Home & Kitchen",
+  "category_he": "בית ומטבח",
+  "posted_at": "2026-11-17T18:01:00.467186+00:00"
  }
 ]

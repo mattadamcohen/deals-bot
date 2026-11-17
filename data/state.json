@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 26
+  "2026-11-17": 27
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -17,6 +17,7 @@
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
+  "B0DQV9PZ8S": "2026-11-17T18:01:00.469465+00:00",
   "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F6V51BL4": "2026-11-17T16:01:58.139171+00:00",
@@ -46,6 +47,7 @@
   "bedsure gentlesoft throw blanket": "2026-11-15T14:26:34.499976+00:00",
   "bedsure satin pillowcases queen": "2026-11-16T05:34:38.383004+00:00",
   "big size building blocks": "2026-11-15T19:15:42.408291+00:00",
+  "bigfoot shower curtain": "2026-11-17T18:01:00.469469+00:00",
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
@@ -120,7 +122,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
- "last_post_at": "2026-11-17T17:31:56.534924+00:00",
+ "last_post_at": "2026-11-17T18:01:00.469268+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -487,6 +489,7 @@
   "B07ZSWRKZY": "2026-11-14T19:32:53.716210+00:00",
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
+  "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
   "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
   "B0B7535QC3": "2026-11-16T11:31:03.776706+00:00",
   "B0BGWYD9KC": "2026-11-14T12:25:03.919624+00:00",
@@ -552,18 +555,18 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040660",
   "aliexpress/squishy set",
   "wireless",
-  "aliexpress/tool set home"
+  "aliexpress/tool set home",
+  "home-garden"
  ],
  "recent_groups": [
   "electronics",
   "fashion",
-  "wireless"
+  "wireless",
+  "home-garden"
  ],
  "recent_titles": [
-  "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
   "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
   "Levi's Women's Cinch Baggy",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
@@ -574,8 +577,9 @@
   "LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive",
   "Christmas Advent Calendar Gift Box, 24\u2011Day Surprise Mini Squishy Fidget Toys, Sensory Stress\u2011Relief Toy Set, Holiday Surprise Gi",
   "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
-  "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools"
+  "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
+  "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials"
  ],
- "since_ali": 0,
- "tg_offset": 260136100
+ "since_ali": 1,
+ "tg_offset": 260136102
 }
