@@ -215,6 +215,7 @@ def carousel_caption(items, n):
         lines.append(f"{i}. {reel.short_he(p.get('title_he') or p.get('title'), 70, 2000)}" + (f" | {' | '.join(bits)}" if bits else ""))
     lines += ["", "📦 משלוח חינם לארץ בהזמנה מעל $49, אפשר לשלב כמה מוצרים", f"🖤 {reel.season_badge()}", "",
               "💬 כתבו \"לינק\" בתגובות ונשלח לכם את הקישורים לכל המוצרים בהודעה פרטית",
+              reel.links_text(items) if reel.LINKS_IN_CAPTION else "🔗 הקישורים לכל המוצרים גם בתגובה הראשונה",
               "👈 עוד דילים כל יום בערוץ הטלגרם, הקישור בביו", ""]
     tags = ["#אמזון", "#דילים", "#משלוחחינם", "#קניותאונליין", "#בלאקפריידיי", "#חנוכה", "#מתנותלחנוכה",
             "#amazonfinds", "#amazondeals", "#israel", "#דיליםמאמזון", "#מבצעים"]
@@ -232,6 +233,7 @@ def post_carousel(items, st):
     media = publish(list(urls.values()), carousel_caption(items, n))
     st["post_count"] = n + 1
     if media:
+        reel.add_links(media, items, st)
         st.setdefault("media", []).append({"id": media, "asins": [p["asin"] for p in items],
                                            "at": datetime.now(timezone.utc).isoformat(), "kind": "carousel"})
         st["media"] = st["media"][-30:]
@@ -244,6 +246,7 @@ def main():
     by_asin = {p["asin"]: p for p in posts}
     st_f = REPO / "data" / "reels.json"
     st = json.loads(st_f.read_text()) if st_f.exists() else {}
+    reel.LINKS_IN_CAPTION = bool(st.get("ig_links_in_caption"))
 
     if "--preview" in sys.argv:
         (REPO / "reel-out").mkdir(exist_ok=True)
@@ -280,6 +283,7 @@ def main():
             urls = host({items[0]["asin"]: card(items[0], n)})
             media = publish(list(urls.values()), caption(items[0], n))
             if media:
+                reel.add_links(media, items, st)
                 st.setdefault("media", []).append({"id": media, "asins": asins, "at": datetime.now(timezone.utc).isoformat()})
         print(f"instagram {'posted ' + media if media else 'FAILED'}: {asins}")
     st_f.write_text(json.dumps(st))

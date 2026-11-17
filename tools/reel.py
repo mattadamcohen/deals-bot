@@ -292,6 +292,41 @@ def build(posts, n=0):
     return final
 
 
+LINKS_IN_CAPTION = False  # set when commenting links on a post failed before; then links go in the caption
+
+
+def item_link(p):
+    if p.get("link"):
+        return p["link"]
+    tag = CONFIG.get("amazon_tag", "")
+    return f"https://www.amazon.com/dp/{p['asin']}" + (f"?tag={tag}" if tag else "")
+
+
+def links_text(posts):
+    lines = ["🔗 הקישורים למוצרים:"]
+    for i, p in enumerate(posts, 1):
+        lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}: {item_link(p)}")
+    return "\n".join(lines)
+
+
+def add_links(media, posts, st):
+    """Post the product links as a comment on the new IG post. If that fails, switch to links-in-caption for next time."""
+    if not media or LINKS_IN_CAPTION or st.get("ig_links_in_caption"):
+        return True
+    token = os.getenv("IG_ACCESS_TOKEN", "").strip()
+    r = requests.post(f"https://graph.facebook.com/v23.0/{media}/comments",
+                      data={"message": links_text(posts), "access_token": token}, timeout=30)
+    print("links comment:", r.status_code, r.text[:150])
+    if not r.ok:
+        st["ig_links_in_caption"] = True
+        owner = str(CONFIG.get("owner_chat_id") or "")
+        tok = os.getenv("TELEGRAM_BOT_TOKEN", "")
+        if owner and tok:
+            requests.post(f"https://api.telegram.org/bot{tok}/sendMessage", data={"chat_id": owner, "text":
+                          "⚠️ Instagram didn't allow a links comment on the latest post. From now on links go in the caption."})
+    return r.ok
+
+
 def ig_caption(posts, n=0):
     openers = ["🔥 3 דילים מאמזון עם משלוח חינם לארץ 🇮🇱", "🛒 המוצרים שכולם קונים עכשיו באמזון, עם משלוח חינם לארץ 🇮🇱",
                "👀 3 מציאות שמצאנו לכם היום באמזון 🇮🇱", "⚡ הלהיטים של אמזון, ישר עד הבית בישראל 🇮🇱"]
@@ -299,7 +334,10 @@ def ig_caption(posts, n=0):
     for i, p in enumerate(posts, 1):
         bits = [x for x in (bot.shekels(p.get("price") or ""), f"{p['discount']} הנחה" if p.get("discount") else "") if x]
         lines.append(f"{i}. {short_he(p.get('title_he') or p.get('title'))}" + (f" | {' | '.join(bits)}" if bits else ""))
+    if LINKS_IN_CAPTION:
+        lines += ["", links_text(posts)]
     lines += ["", "🖤 " + season_badge() + " 🕎", "💬 כתבו \"לינק\" בתגובות ונשלח לכם את הקישורים לכל המוצרים בהודעה פרטית",
+              "🔗 הקישורים לכל המוצרים גם בתגובה הראשונה" if not LINKS_IN_CAPTION else "",
               "👈 עוד דילים כל יום בערוץ הטלגרם, הקישור בביו",
               "", "#אמזון #דילים #משלוחחינם #בלאקפריידיי #חנוכה #קניותאונליין #amazonfinds #amazondeals #israel"]
     return "\n".join(lines)
@@ -411,6 +449,8 @@ def main():
     log = [p for p in log if p.get("store") != "aliexpress" and (IMG / f"{p['asin']}.jpg").exists()]
     state_f = REPO / "data" / "reels.json"
     st = json.loads(state_f.read_text()) if state_f.exists() else {}
+    global LINKS_IN_CAPTION
+    LINKS_IN_CAPTION = bool(st.get("ig_links_in_caption"))
     slot = None
     if "--latest" in sys.argv:
         batch = log[-3:]
@@ -435,6 +475,7 @@ def main():
         try:
             media = publish_instagram(final, batch, n)
             if media:
+                add_links(media, batch, st)
                 st.setdefault("media", []).append({"id": media, "asins": [p["asin"] for p in batch],
                                                    "at": datetime_now_iso()})
                 st["media"] = st["media"][-30:]
