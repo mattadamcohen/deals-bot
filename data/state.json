@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 19
+  "2026-11-17": 20
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -99,6 +99,7 @@
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
+  "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
   "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
   "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
@@ -110,7 +111,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T14:01:29.456346+00:00",
+ "last_post_at": "2026-11-17T14:31:33.248235+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -526,6 +527,7 @@
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
+  "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
@@ -534,13 +536,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/GameSir",
   "pick",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/Vention"
  ],
  "recent_titles": [
-  "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
   "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
   "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts",
   "Levi's Women's Cinch Baggy",
@@ -551,8 +552,9 @@
   "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
   "Levi's Women's Cinch Baggy",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
-  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter"
+  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
+  "Vention 10000mAh Mini Power Bank 22.5w Portable Charger Built-in USB C Cable PD 3.0 Fast Charging for iPhone 17 18 Samsung S26"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136099
 }
