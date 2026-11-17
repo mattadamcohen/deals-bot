@@ -9,13 +9,21 @@ import ad
 from ad import F, kw, size, text_c, YEL, RED, BLUE, NAVY, WHITE, INK, TG
 
 REPO = ad.REPO
-PICKS = [("B06W2JSJ4H", "שעונים"), ("ali-1005010105528998", "סניקרס"), ("ali-1005007668695524", "מצלמות אבטחה"), ("B08JCD4PS6", "יצירה לילדים")]
+PICKS = [("B06W2JSJ4H", "שעונים"), ("ali-1005010105528998", "סניקרס"), ("ali-1005007668695524", "מצלמות אבטחה"), ("data/ad/taba1.jpg", "סקווישי DIY")]
 W, H = 1080, 1350
+KEEP_BG = {"data/ad/taba1.jpg"}
 
 
 def cutout(asin, maxw, maxh):
     """Product photo with the white background removed (flood fill from the edges), trimmed and scaled."""
-    im = Image.open(REPO / "data" / "images" / f"{asin}.jpg").convert("RGB")
+    im = Image.open(REPO / asin if "/" in asin else REPO / "data" / "images" / f"{asin}.jpg").convert("RGB")
+    if asin in KEEP_BG:  # photo with a nice coloured background: rounded tile instead of a cutout
+        im.thumbnail((maxw, maxh), Image.LANCZOS)
+        m = Image.new("L", im.size)
+        ImageDraw.Draw(m).rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=28, fill=255)
+        out = im.convert("RGBA")
+        out.putalpha(m)
+        return out
     im.thumbnail((1200, 1200), Image.LANCZOS)
     w, h = im.size
     # mask of background-coloured pixels (close to the corner colour) connected to the border
