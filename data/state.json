@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 8
+  "2026-11-17": 9
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -28,6 +28,7 @@
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
+  "B0HQJLZWFC": "2026-11-17T09:01:31.220132+00:00",
   "B0HR99K3MK": "2026-11-17T08:01:21.527621+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
@@ -82,6 +83,7 @@
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
+  "tauri for iphone pro": "2026-11-17T09:01:31.220137+00:00",
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
   "trendy queen fall fashion": "2026-11-16T15:04:51.206825+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
@@ -98,7 +100,7 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
  },
  "last_harvest_at": "2026-11-17T05:04:07.004146+00:00",
- "last_post_at": "2026-11-17T08:31:50.520377+00:00",
+ "last_post_at": "2026-11-17T09:01:31.219973+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -483,6 +485,7 @@
   "B0FK1LF5PM": "2026-11-15T12:07:07.358554+00:00",
   "B0GZWZH2L8": "2026-11-14T07:10:36.637185+00:00",
   "B0H2FQ5FV1": "2026-11-16T13:46:30.672511+00:00",
+  "B0H4ZG39CY": "2026-11-17T09:01:31.172010+00:00",
   "B0H71RGBQ3": "2026-11-15T17:09:36.677208+00:00",
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
@@ -510,13 +513,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/679337011",
   "aliexpress/1101-1118 11.11 Sale - Top Brands",
   "fashion/1040658",
-  "aliexpress/1101-1118 11.11 Sale - Big Save"
+  "aliexpress/1101-1118 11.11 Sale - Big Save",
+  "wireless"
  ],
  "recent_titles": [
-  "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home",
   "Adidas Genuine Originals Men's Durable Low-Top Casual Shoes JS3994",
   "Skechers Women's Max Cushioning Endeavour",
   "ZSUS 10.5-Inch Portable Monitor 1280P 100%sRGB 15:10 Low Blue Light For XBox PS4 / 5 Switch Cell Phone PC Loptop Extension",
@@ -527,8 +529,9 @@
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
-  "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel"
+  "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
+  "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136071
 }
