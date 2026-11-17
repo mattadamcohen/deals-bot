@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0725WFLMB",
-  "title": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey",
-  "title_he": "ציפיות סאטן סאטן למיטה סט של 2, בדומה לציפיות משי אפור",
-  "price": "$6.99",
-  "was": "",
-  "discount": "53%",
-  "rating": "4.5",
-  "reviews": "323,610",
-  "rank": 11,
-  "source": "bestsellers",
-  "message_id": 39,
-  "image": "https://m.media-amazon.com/images/I/81k3p2eZdBL._AC_SL1500_.jpg",
-  "variant": 873,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "home-garden/1063252",
-  "category_en": "Bedding",
-  "category_he": "מצעים",
-  "posted_at": "2026-11-16T05:34:38.381247+00:00"
- },
- {
   "asin": "ali-1005010089219254",
   "title": "LED Solar Pathway Lights Outdoor Waterproof Garden Stake Lamp for Lawn Yard Walkway Landscape Decoration",
   "title_he": "LED Solar Pathway Lights Outdoor Waterproof Garden Stake Lamp for Lawn Yard Walkway Landscape Decoration",
@@ -1052,5 +1030,34 @@
   "category_en": "Women's Clothing",
   "category_he": "ביגוד נשים",
   "posted_at": "2026-11-17T10:04:35.192158+00:00"
+ },
+ {
+  "asin": "ali-1005007170691993",
+  "title": "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
+  "title_he": "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
+  "price": "$41.59",
+  "was": "$83.18",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 134,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9404ce03104a4034b475924734898a4dB.jpeg",
+  "variant": 745,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EvDbXE5Qwm2Mza6OZWPaQIFKzqVWRHCzn9igDYPWFRysC7tbIdyKqfFJ9V5pjVP0aG89d8h33BEOZtkSFtxrBoOlaHbxRWjvCQnuA50FUQrAy9QbbzEoypbrtfq6TXVLSjWbEfwGiPCDDY8p3sn0RiWPjEhDmjW87Yf5P8elIPNSENRToLlUPhxrEEXg2HCOkMGSy3uD30y2sdjpJgEqL0vHzpQyJnMqNMuvNhnVvBihw88d8wOIgi1XPyCnvvaNVSwZVh9xOgEMc2515D5gRMvt6nJTaIjiNLYwTZ1lEBMp1qEPfILQO5K3u1OMTY3yATGExEPJy9YGiTVGml4s9ZzXvwMirEoHHhqqDr4XUK64pxo6AfXk3G4rxM7h7eMtBKS2SkyUNxcZz1pjPC49Z4XURrR3hBQdRu2eHWVQvbmt4NwlrZqJb3KcwoLU9Eth79SnQWUyU6cdtNnsM4XsKKCDEk3K4xIithkhJzS5n6mwbwNT2LQciEz5Qf6g6b8NLmUltEZh8fQeaVAnlJ8MlbDqd66XUNX2EFHMfmcy3TJSZqpaXROaqhzCNr3quUULriOe71JhdSpoYUp0V7HO2PqItV4SXsQT1cIo99pJpMcH6P2HxIn8Tf2IXt5W0mxKv1Fj0aTot0uKjrJjvf76uDDJSkWO0pdU5nBtzMQxvzo81KbzmBE4xWt6HPKH9wPvRz41VEDQvGfpd",
+  "sold": "1,000",
+  "album_ids": [
+   134,
+   135,
+   136
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/kitchen gadgets",
+  "category_en": "Kitchen",
+  "category_he": "מטבח",
+  "posted_at": "2026-11-17T10:31:40.719450+00:00"
  }
 ]
