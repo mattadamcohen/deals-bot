@@ -1,27 +1,5 @@
 [
  {
-  "asin": "ali-1005007003840474",
-  "title": "Stainless Steel Can Opener Multifunctional Grip Opener Side Cut Professional Tins Bottle Opener Kitchen Gadgets",
-  "title_he": "פותחן פחיות נירוסטה פותחן אחיזה רב תכליתי בחיתוך צד פחיות מקצועי פותחן בקבוקי מטבח גאדג'טים",
-  "price": "$6.95",
-  "was": "$21.06",
-  "discount": "66%",
-  "rating": "94.7%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 42,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc1bf110bf3947e7868c906aa88679d9S.jpg",
-  "variant": 545,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kXOZGBWGyQIVFD9wake0jcBgG9MddSz2dNiftLRZCHK7ym34h1QWPLLBwnricUkKNH3PQZTQyUqYUSz70pnLtAT0FLSsIVnLO3n2tnFw6vlSKE8vXQRiEbxET3pBbcr5d3mazbNITfEgHug1yfXh2ofoPC5AsJgenWVV2k5M6hXKbQUmyYMTICL75RZj7jeIqVQmTFltJN28L5MgozVYdRJGPB31Fgf9fr2mwWHBYPD8ScYDAmkt0EcNKudwE3AXJrU791ck6KmxItmOFrqkr94Cp20wC26D7ehOgyiTBIvSxe0yQaZwBdqMHl4NQOiWhY4hgDZfsaFnwYIHKDw1D47e0UdvCyfo4PGnzTzjGlio5Kf68W8f1Zbznxf9hI3YZ9hEp1iW4F2UpS8Fs8gJI2YkcIkUVE741xYRilr7pa6SbQPy45eZ8dFv9jbGINe5uegriXaygaRM7bMZ8ksXls3B2mGfj3XbFZQk58PbJijiZClslBIj2ay90wbh5vRbnfWUf1ljVoHTwyXh9oBaYwgcR6HDTySeMThnOBVQ7fQrc6Sb8ErEJL44mHub767XXfwPOKVBNBckpPqhPBEcLeNtvsg0Qf9T06bhdosE0qNPoU28M202zzuGNJGos4noVVyCf1chNd4KLIA6gtB3dPCWW6PjMqNYyT2oMenP48qbpDpixCdgSpemPF2oE1XtZQz7tQevXl0W8",
-  "sold": "3,000",
-  "category_slug": "aliexpress/kitchen gadgets",
-  "category_en": "Kitchen",
-  "category_he": "מטבח",
-  "posted_at": "2026-11-16T07:01:27.352609+00:00"
- },
- {
   "asin": "B0DF472VMZ",
   "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 12 oz, Vanilla Bean",
   "title_he": "Owala SmoothSip סליידר מבודד מפלדת אל חלד כוס קפה קר לשימוש חוזר, ספל קפה חם לטיולים, ללא BPA 12 אונקיות,...",
@@ -1073,5 +1051,34 @@
   "category_en": "Squishies",
   "category_he": "סקווישים",
   "posted_at": "2026-11-17T11:31:42.969069+00:00"
+ },
+ {
+  "asin": "B0F1WB2PVS",
+  "title": "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
+  "title_he": "Zulay Kitchen מקציף חלב נטענת כף יד, מטרפה חשמלית, שחורה",
+  "price": "$16.99",
+  "was": "$27.99",
+  "discount": "39%",
+  "rating": "4.4",
+  "reviews": "20,573",
+  "rank": 30,
+  "source": "bestsellers",
+  "message_id": 143,
+  "image": "https://m.media-amazon.com/images/I/71NIePygSGL._AC_SL1500_.jpg",
+  "variant": 360,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   143,
+   144,
+   145
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/535a44b6-993e-451b-88b6-492c884106cd.mp4/productVideoOptimized.mp4",
+  "category_slug": "home-garden",
+  "category_en": "Home & Kitchen",
+  "category_he": "בית ומטבח",
+  "posted_at": "2026-11-17T12:01:22.930001+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 14
+  "2026-11-17": 15
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -26,6 +26,7 @@
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
+  "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
@@ -104,10 +105,11 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
-  "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00"
+  "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00",
+  "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T10:04:32.338132+00:00",
- "last_post_at": "2026-11-17T11:31:42.970631+00:00",
+ "last_post_at": "2026-11-17T12:01:22.931598+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -487,6 +489,7 @@
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
   "B0DJWPSST4": "2026-11-17T10:04:35.148155+00:00",
+  "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
   "B0FBGR7Z6K": "2026-11-17T11:00:51.987332+00:00",
@@ -529,13 +532,12 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040660",
   "aliexpress/kitchen gadgets",
   "fashion/1040660",
-  "aliexpress/squishy toy"
+  "aliexpress/squishy toy",
+  "home-garden"
  ],
  "recent_titles": [
-  "Hanes Men's Beefy-T Cotton Crewneck T-Shirt, 2-Pack, Big & Tall Sizes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
@@ -546,8 +548,9 @@
   "Levi's Women's Cinch Baggy",
   "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
   "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
-  "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift"
+  "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
+  "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136071
 }
