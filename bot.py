@@ -859,6 +859,13 @@ def clashes(state, title, slug=None):
         return f"another {typ} was posted recently"
     if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
         return f"{brand} was posted recently"
+    for cap in CONFIG.get("weekly_caps", []):
+        if re.search(cap["pattern"], title or "", re.I):
+            since = (now() - timedelta(days=cap.get("days", 7))).isoformat()
+            n = sum(1 for x in load_json(ROOT / "data" / "posts.json", [])
+                    if x.get("posted_at", "") >= since and re.search(cap["pattern"], x.get("title") or "", re.I))
+            if n >= cap.get("max", 1):
+                return f"weekly cap reached for {cap['name']}"
     g = group_of(slug)
     if g and g in state.get("recent_groups", [])[-CONFIG.get("group_gap_posts", 2):]:
         return f"another {g} item was one of the last Amazon posts"

@@ -89,7 +89,7 @@
       "slug": "fashion",
       "en": "Clothing, Shoes & Jewelry",
       "he": "אופנה, נעליים ותכשיטים",
-      "weight": 3
+      "weight": 2
     },
     {
       "slug": "luggage",
@@ -155,37 +155,37 @@
       "slug": "fashion/1040660",
       "en": "Women's Clothing",
       "he": "ביגוד נשים",
-      "weight": 2
+      "weight": 1
     },
     {
       "slug": "fashion/1040658",
       "en": "Men's Clothing",
       "he": "ביגוד גברים",
-      "weight": 2
+      "weight": 1
     },
     {
       "slug": "fashion/679337011",
       "en": "Women's Shoes",
       "he": "נעלי נשים",
-      "weight": 1
+      "weight": 0.7
     },
     {
       "slug": "fashion/679255011",
       "en": "Men's Shoes",
       "he": "נעלי גברים",
-      "weight": 1
+      "weight": 0.7
     },
     {
       "slug": "fashion/1040664",
       "en": "Girls' Clothing",
       "he": "ביגוד לבנות",
-      "weight": 1
+      "weight": 0.7
     },
     {
       "slug": "fashion/1040666",
       "en": "Boys' Clothing",
       "he": "ביגוד לבנים",
-      "weight": 1
+      "weight": 0.7
     },
     {
       "slug": "home-garden/1063278",
@@ -1285,6 +1285,14 @@
       "kind": "ig_image",
       "image": "assets/promo/promo_b.png",
       "caption_file": "data/giveaway/ig_b.txt"
+    }
+  ],
+  "weekly_caps": [
+    {
+      "name": "bras & underwear",
+      "pattern": "\\b(bras?|bralettes?|sports bra|underwear|panties|briefs|boxer briefs|lingerie|shapewear)\\b",
+      "max": 1,
+      "days": 7
     }
   ]
 }
