@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 22
+  "2026-11-17": 23
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -19,6 +19,7 @@
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
   "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
+  "B0F6V51BL4": "2026-11-17T16:01:58.139171+00:00",
   "B0F99ZZRJY": "2026-11-17T06:01:17.389965+00:00",
   "B0F9T4SMR9": "2026-11-16T15:04:51.206817+00:00",
   "B0FBGPVQRL": "2026-11-17T11:00:52.057186+00:00",
@@ -64,6 +65,7 @@
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
+  "letsjoli jelly bras for": "2026-11-17T16:01:58.139179+00:00",
   "levi's cinch baggy": "2026-11-17T13:02:08.033568+00:00",
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
@@ -114,7 +116,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
- "last_post_at": "2026-11-17T15:31:26.859912+00:00",
+ "last_post_at": "2026-11-17T16:01:58.138749+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -498,6 +500,7 @@
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
+  "B0F6VKZ4FB": "2026-11-17T16:01:58.081078+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
   "B0FBGR7Z6K": "2026-11-17T11:00:51.987332+00:00",
   "B0FDQ3PWCX": "2026-11-15T20:45:38.125646+00:00",
@@ -542,16 +545,16 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/Vention",
   "electronics",
-  "aliexpress/1101-1118 11.11 Sale - Bestsellers"
+  "aliexpress/1101-1118 11.11 Sale - Bestsellers",
+  "fashion/1040660"
  ],
  "recent_groups": [
-  "electronics"
+  "electronics",
+  "fashion"
  ],
  "recent_titles": [
-  "Levi's Women's Cinch Baggy",
   "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
   "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
   "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
@@ -562,8 +565,9 @@
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "Vention 10000mAh Mini Power Bank 22.5w Portable Charger Built-in USB C Cable PD 3.0 Fast Charging for iPhone 17 18 Samsung S26",
   "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warranty.",
-  "EJEAS V6 PRO+ Motorcycle Helmet Intercom Bluetooth Headset Support EUC CVC Noise Reduction Waterproof IP67 Standby Time 260H"
+  "EJEAS V6 PRO+ Motorcycle Helmet Intercom Bluetooth Headset Support EUC CVC Noise Reduction Waterproof IP67 Standby Time 260H",
+  "LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136100
 }
