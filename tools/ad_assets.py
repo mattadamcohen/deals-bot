@@ -5,8 +5,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 import aliexpress as a
 OUT = Path(__file__).resolve().parent.parent / "data" / "ad"
 OUT.mkdir(parents=True, exist_ok=True)
+import os
 picked = {}
-for name, q, req in [("watch", "Amazfit smart watch", "amazfit"), ("earbuds", "Baseus wireless earbuds", "baseus"),
+custom = json.loads(os.getenv("AD_QUERIES") or "null")
+for name, q, req in custom or [("watch", "Amazfit smart watch", "amazfit"), ("earbuds", "Baseus wireless earbuds", "baseus"),
                      ("powerbank", "Baseus power bank magnetic", "baseus"), ("charger", "UGREEN GaN charger", "ugreen"),
                      ("speaker", "Xiaomi bluetooth speaker", "xiaomi")]:
     try:
@@ -14,11 +16,13 @@ for name, q, req in [("watch", "Amazfit smart watch", "amazfit"), ("earbuds", "B
     except Exception as e:
         print(name, "failed", e); continue
     ps.sort(key=lambda p: -int(p.get("lastest_volume") or 0))
-    for i, p in enumerate(ps[:2]):
+    for i, p in enumerate(ps[:int(os.getenv("AD_PER_QUERY") or 2)]):
         r = requests.get(p["product_main_image_url"], timeout=30)
         if r.ok:
             f = OUT / f"{name}{i + 1}.jpg"
             f.write_bytes(r.content)
             picked[f.name] = p.get("product_title", "")[:80]
 print(json.dumps(picked, indent=1))
-(OUT / "index.json").write_text(json.dumps(picked, indent=1))
+old = json.loads((OUT / "index.json").read_text()) if (OUT / "index.json").exists() else {}
+old.update(picked)
+(OUT / "index.json").write_text(json.dumps(old, indent=1, ensure_ascii=False))
