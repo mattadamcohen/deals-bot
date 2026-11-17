@@ -35,7 +35,7 @@
       "slug": "videogames",
       "en": "Video Games",
       "he": "משחקי וידאו",
-      "weight": 1
+      "weight": 1.5
     },
     {
       "slug": "home-garden",
@@ -47,7 +47,7 @@
       "slug": "kitchen",
       "en": "Kitchen & Dining",
       "he": "מטבח ואירוח",
-      "weight": 2
+      "weight": 2.5
     },
     {
       "slug": "appliances",
@@ -71,7 +71,7 @@
       "slug": "automotive",
       "en": "Automotive",
       "he": "רכב",
-      "weight": 0.3
+      "weight": 1
     },
     {
       "slug": "beauty",
@@ -95,7 +95,7 @@
       "slug": "luggage",
       "en": "Luggage",
       "he": "מזוודות ותיקים",
-      "weight": 1
+      "weight": 1.5
     },
     {
       "slug": "baby-products",
@@ -119,13 +119,13 @@
       "slug": "pet-supplies",
       "en": "Pet Supplies",
       "he": "ציוד לחיות מחמד",
-      "weight": 1
+      "weight": 2
     },
     {
       "slug": "office-products",
       "en": "Office Products",
       "he": "ציוד משרדי",
-      "weight": 0.3
+      "weight": 1
     },
     {
       "slug": "arts-crafts",
@@ -210,6 +210,30 @@
       "en": "Games",
       "he": "משחקים",
       "weight": 1
+    },
+    {
+      "slug": "sporting-goods/3407731",
+      "en": "Exercise & Fitness",
+      "he": "כושר",
+      "weight": 1.5
+    },
+    {
+      "slug": "fashion/6358539011",
+      "en": "Men's Watches",
+      "he": "שעונים לגברים",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/6358543011",
+      "en": "Women's Watches",
+      "he": "שעונים לנשים",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/7192394011",
+      "en": "Women's Jewelry",
+      "he": "תכשיטים",
+      "weight": 0.7
     }
   ],
   "max_posts_per_run": 1,
@@ -596,7 +620,31 @@
     "gaming headset": 20,
     "skincare set": 15,
     "moisturizer": 10,
-    "cleanser": 10
+    "cleanser": 10,
+    "robot vacuum": 20,
+    "smart plug": 15,
+    "video doorbell": 20,
+    "massage gun": 20,
+    "resistance bands": 15,
+    "smart scale": 15,
+    "yoga mat": 10,
+    "dash cam": 20,
+    "car vacuum": 20,
+    "packing cubes": 15,
+    "travel adapter": 15,
+    "neck pillow": 10,
+    "pet feeder": 20,
+    "water fountain": 15,
+    "espresso": 15,
+    "knife set": 15,
+    "air fryer": 15,
+    "controller": 15,
+    "kids headphones": 15,
+    "backpack": 10,
+    "desk organizer": 10,
+    "gift set": 15,
+    "watch": 10,
+    "jewelry": 10
   },
   "repost_days_override": {
     "lego": 3
@@ -1126,6 +1174,216 @@
       "en": "Gaming",
       "he": "גיימינג",
       "weight": 2
+    },
+    {
+      "q": "gift set for men",
+      "en": "Hanukkah gifts",
+      "he": "מתנות לחנוכה",
+      "weight": 2
+    },
+    {
+      "q": "gift for women",
+      "en": "Hanukkah gifts",
+      "he": "מתנות לחנוכה",
+      "weight": 2
+    },
+    {
+      "q": "kids gift toy",
+      "en": "Hanukkah gifts",
+      "he": "מתנות לחנוכה",
+      "weight": 2
+    },
+    {
+      "q": "robot vacuum cleaner",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 2
+    },
+    {
+      "q": "smart plug wifi",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 1
+    },
+    {
+      "q": "video doorbell",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 2
+    },
+    {
+      "q": "resistance bands set",
+      "en": "Fitness",
+      "he": "כושר",
+      "weight": 1
+    },
+    {
+      "q": "massage gun",
+      "en": "Fitness",
+      "he": "כושר",
+      "weight": 2
+    },
+    {
+      "q": "smart body scale",
+      "en": "Fitness",
+      "he": "כושר",
+      "weight": 1
+    },
+    {
+      "q": "yoga mat",
+      "en": "Fitness",
+      "he": "כושר",
+      "weight": 1
+    },
+    {
+      "q": "dash cam",
+      "en": "Car",
+      "he": "לרכב",
+      "weight": 2
+    },
+    {
+      "q": "car vacuum cleaner",
+      "en": "Car",
+      "he": "לרכב",
+      "weight": 2
+    },
+    {
+      "q": "magnetic car phone holder",
+      "en": "Car",
+      "he": "לרכב",
+      "weight": 1
+    },
+    {
+      "q": "car trunk organizer",
+      "en": "Car",
+      "he": "לרכב",
+      "weight": 1
+    },
+    {
+      "q": "packing cubes travel",
+      "en": "Travel",
+      "he": "טיולים ונסיעות",
+      "weight": 1
+    },
+    {
+      "q": "universal travel adapter",
+      "en": "Travel",
+      "he": "טיולים ונסיעות",
+      "weight": 1
+    },
+    {
+      "q": "travel neck pillow",
+      "en": "Travel",
+      "he": "טיולים ונסיעות",
+      "weight": 1
+    },
+    {
+      "q": "carry on backpack",
+      "en": "Travel",
+      "he": "טיולים ונסיעות",
+      "weight": 1
+    },
+    {
+      "q": "automatic pet feeder",
+      "en": "Pets",
+      "he": "לחיות מחמד",
+      "weight": 2
+    },
+    {
+      "q": "pet water fountain",
+      "en": "Pets",
+      "he": "לחיות מחמד",
+      "weight": 2
+    },
+    {
+      "q": "dog toys",
+      "en": "Pets",
+      "he": "לחיות מחמד",
+      "weight": 1
+    },
+    {
+      "q": "cat toys",
+      "en": "Pets",
+      "he": "לחיות מחמד",
+      "weight": 1
+    },
+    {
+      "q": "milk frother",
+      "en": "Coffee & kitchen",
+      "he": "קפה ומטבח",
+      "weight": 1
+    },
+    {
+      "q": "espresso accessories",
+      "en": "Coffee & kitchen",
+      "he": "קפה ומטבח",
+      "weight": 1
+    },
+    {
+      "q": "kitchen knife set",
+      "en": "Coffee & kitchen",
+      "he": "קפה ומטבח",
+      "weight": 1
+    },
+    {
+      "q": "air fryer accessories",
+      "en": "Coffee & kitchen",
+      "he": "קפה ומטבח",
+      "weight": 1
+    },
+    {
+      "q": "switch controller",
+      "en": "Gaming",
+      "he": "גיימינג",
+      "weight": 2
+    },
+    {
+      "q": "ps5 accessories",
+      "en": "Gaming",
+      "he": "גיימינג",
+      "weight": 1
+    },
+    {
+      "q": "minimalist watch",
+      "en": "Watches & jewelry",
+      "he": "שעונים ותכשיטים",
+      "weight": 1
+    },
+    {
+      "q": "jewelry set women",
+      "en": "Watches & jewelry",
+      "he": "שעונים ותכשיטים",
+      "weight": 1
+    },
+    {
+      "q": "magsafe stand",
+      "en": "Phone & tablet",
+      "he": "טלפון וטאבלט",
+      "weight": 1
+    },
+    {
+      "q": "kids tablet case",
+      "en": "Phone & tablet",
+      "he": "טלפון וטאבלט",
+      "weight": 1
+    },
+    {
+      "q": "kids school backpack",
+      "en": "School & office",
+      "he": "בית ספר ומשרד",
+      "weight": 1
+    },
+    {
+      "q": "desk organizer",
+      "en": "School & office",
+      "he": "בית ספר ומשרד",
+      "weight": 1
+    },
+    {
+      "q": "kids headphones",
+      "en": "School & office",
+      "he": "בית ספר ומשרד",
+      "weight": 1
     }
   ],
   "ali_min_price_usd": 5,
