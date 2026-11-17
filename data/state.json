@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 28
+  "2026-11-17": 29
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -60,6 +60,7 @@
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
   "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
+  "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
   "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hanes beefy-t cotton crewneck": "2026-11-17T06:01:17.389969+00:00",
@@ -123,7 +124,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T15:04:42.134733+00:00",
- "last_post_at": "2026-11-17T18:30:57.115015+00:00",
+ "last_post_at": "2026-11-17T19:01:48.074675+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-14T14:30:00.551767+00:00",
@@ -470,12 +471,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-17T18:45:43.682291+00:00",
-   "id": "1005012491011983",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c36ginXb"
-  },
-  {
    "at": "2026-11-17T18:45:44.457707+00:00",
    "id": "1005013330988187",
    "store": "aliexpress",
@@ -564,16 +559,17 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
+  "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "wireless",
   "aliexpress/tool set home",
   "home-garden",
-  "aliexpress/robot vacuum cleaner"
+  "aliexpress/robot vacuum cleaner",
+  "pick"
  ],
  "recent_groups": [
   "electronics",
@@ -582,7 +578,6 @@
   "home-garden"
  ],
  "recent_titles": [
-  "Levi's Women's Cinch Baggy",
   "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
   "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "Vention 10000mAh Mini Power Bank 22.5w Portable Charger Built-in USB C Cable PD 3.0 Fast Charging for iPhone 17 18 Samsung S26",
@@ -593,7 +588,8 @@
   "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
   "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
   "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
-  "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush"
+  "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush",
+  "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts"
  ],
  "since_ali": 0,
  "tg_offset": 260136104

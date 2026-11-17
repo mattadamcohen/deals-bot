@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0B7535QC3",
-  "title": "Stylus Pen for Apple iPad 2018-2026 Magnetic for Note-Taking Drawing",
-  "title_he": "עט סטיילוס עבור אפל אייפד 2018-2026 מגנטי לרישום הערות",
-  "price": "$16.99",
-  "was": "$25.99",
-  "discount": "35%",
-  "rating": "4.5",
-  "reviews": "10,041",
-  "rank": 25,
-  "source": "bestsellers",
-  "message_id": 53,
-  "image": "https://m.media-amazon.com/images/I/41P6DP-k+HL._AC_SL1500_.jpg",
-  "variant": 497,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "videogames",
-  "category_en": "Video Games",
-  "category_he": "משחקי וידאו",
-  "posted_at": "2026-11-16T11:31:03.845598+00:00"
- },
- {
   "asin": "ali-1005007668695524",
   "title": "Baseus Security B1 Outdoor Camera 2K Wireless Wifi Camera Security Protection System 24/7 Recording Built-in 8GB Local Storage",
   "title_he": "Baseus Security B1 מצלמה חיצונית 2K Wireless Wifi מצלמת אבטחה מערכת הגנה 24/7 הקלטה מובנית 8GB אחסון מקומי",
@@ -1136,5 +1114,34 @@
   "category_en": "Smart home",
   "category_he": "בית חכם",
   "posted_at": "2026-11-17T18:30:57.112952+00:00"
+ },
+ {
+  "asin": "ali-1005012491011983",
+  "title": "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts",
+  "title_he": "Fujifilm מצלמה דיגיטלית Instax Pal מצלמה חכמה קטנה וניידת צילום מיני חמוד Genie Pal מוכן לקבל מתנות יום הולדת",
+  "price": "$58.50",
+  "was": "$97.50",
+  "discount": "40%",
+  "rating": "100.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 185,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sda172236bdf44252bcc2d5c15f404a1bC.jpg",
+  "variant": 510,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4afNeNMCj2RYhbhdOjHwybcyb5SUjansarCf5kKQjLYtsqWSZwn1UyaIidT8ZaSvXYQiDXYiFkhgCapwQSXC0KaFm7J18sLokpwEBFJlbiyQldaLRXri1w8a6UFjY3PFTGzlZLf5OYfkJRzSgG7KWAx8fCl6bKZS200PoJFL3GOTxhJNMfB8CNFWnCS5FmJ48WdCrXZcLyiOERw64C3qGMRD0S7aLRzqHgapS5tft3IVGGxjRqojR1yE6cKJcDDzwFPYtIU5IYuTGKTXFfDGsDdP67lrrcAhRr4bvQxihYgq44wEQVrn667J102qcC1o6gGDfN6dI5yXe15GcJj2n2xTrww9MNa10VKlvzckpVqh5YekfIZfuGcnmiDd9kC2iOlva4kvSoBg5QocE46xiaxtmnr20q3hNXVnUdjIBlIpbfzzgl8k6DSj4T5HxDBXI3mAEOnqXwHGiN2uW5v5xLZWCYOV1aAljjMlLndg8EheDDM2IYiVeawkWwEP4JRq3bOXBVvoBGUxVtU25rEnUqVvrJuvYjx6lCUsoLP20T0YIqg6PdpBojpRZpD602RhTVDQLdceThBOpRfDS5t7um5BmekDZyn5CYrC7VAn0mI1UpbxU2KKDdExKkhfQTQVdl5BtX9iz1sOeFt0dUD8hGUYKrJHSfcLpNBTcv8WgALPY4h5CSjpABYZA1YEt50i2WGZtW4keQ43A",
+  "sold": "2",
+  "album_ids": [
+   185,
+   186,
+   187
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-17T19:01:48.072681+00:00"
  }
 ]
