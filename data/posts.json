@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0FH655984",
-  "title": "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
-  "title_he": "SUPFINE Magnetic לאייפון 18 Pro Max Case/17 Pro Max Case שחור",
-  "price": "$9.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.5",
-  "reviews": "87,926",
-  "rank": 3,
-  "source": "bestsellers",
-  "message_id": 35,
-  "image": "https://m.media-amazon.com/images/I/71Vo32MVCWL._AC_SL1500_.jpg",
-  "variant": 554,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-15T19:45:53.386876+00:00"
- },
- {
   "asin": "ali-1005011696952939",
   "title": "Running Hydration Vest for Women and Men, Water-Resistant, Breathable, Backpack for Runs, Hiking, Cycling, Trails, Marathons",
   "title_he": "ווסט הידרציה לריצה לנשים וגברים, עמיד במים, נושם, תרמיל לריצות, טיולים, רכיבה על אופניים, שבילים, מרתונים",
@@ -1024,5 +1002,34 @@
   "category_en": "Men's Clothing",
   "category_he": "ביגוד גברים",
   "posted_at": "2026-11-17T08:01:21.525889+00:00"
+ },
+ {
+  "asin": "ali-1005011807734790",
+  "title": "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
+  "title_he": "POPDEER PD-JA3 5000A 4 ב-1 Jump Starter, מדחס אוויר 150PSI, 12V USB Powerbank עם תצוגת LCD, 10L גז/8L דיזל",
+  "price": "$53.22",
+  "was": "$106.43",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 122,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/A06ea9ff68cbb4540907fa6df7d573b04S.jpg",
+  "variant": 486,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/LxyiVOQKofy2yqnzLspKCOBwWmqLiGyoT8G0rv63A6JblkIACPQIlDv0GexRDN3gavU044kzzDHKshgQFMefe3ZI50JWr3Sni4i3vxKtyTZuiG2MFNIB8Ieqq8HgMDY8UUn97UNDXpZqHUsXBZEwt81a1fy8THCokq9h8GeAqJP5DyMBBdBY2CfPA0ZvbWiyhnUE93QUhKR94dvdXiYQUBzfIHy6N1UaWJmaWul93J8TXAbo5zKFNh6ZFTurHIsA252fZojGTe5l3dM0bxs03vLpcrzlf7pgTfuxUBYJvbcPzwGcmLkhIlOCQpE2w0AbazuWwetCGtUvAapqrk9EGvzMAEvmpZVI4M8smIpUEVrPAxDkAlvXw9PIE2afDTyKVo0qSX9Pppo4VR5khmWg1as9VDaMRJI7AGvtxu5nc8kdvvydHKiDWkwpNSS6JGGtoHbVD4of97DGqFA7OqplJZp59MSFltjtJNQKInjNnq72m6lpEtOm4Ue5RjtbUNY8JiXzUX93PqIrSG8unLcUE4a1FEk263aHJ4QcomTY2dQxq9b0r5DumfEpPcGF6KcYg77uHPwotdrfVhkA4b2As2H2HOoHDp2yh4cFhziVYfK0LZyfQzQhM5l96NU4p26VzEXocluO8awtkmHJyXxyliMduxQ9gAScpGOMqRBBh1bZgPTWHgMBGdyjKLEE15tzVlryOAu69OcVQlW4SKVQjhJxqZc8tzNU6u3lJvZm2TdgbOXLgUxLu8B6DucOOjAi5CSAMyWT7z6LkG3iRQLzvuguoF6iLOay1Kt01kUi1L2zgj4wzFlORsW2pDMwoK0FBILuJyuE6umowmxiMQGhQ33d7EXZnHbhBT450G0r2GQ2e8BEE2u5Lc8ZeemRJ8PD0yVX9XBvTxOgpsPRfx4s7M42kqIROsZIAWOWfR1Qoy50b1MdQUQcl9F3uUBJDoVPBWjzIv3kFQpj6DLq3smzzz3mzjaJ2hhTN6z1jIffpaXU1fS7FNlpqBHuZHIBmh8qxJKGmKIO3sui0xKauWBoHrpfJf3uH14RgjZgD4nKRoQmw5D9uyCIcIolYGz5pj6TPex",
+  "sold": "21,000",
+  "album_ids": [
+   122,
+   123,
+   124
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/1101-1118 11.11 Sale - Big Save",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-17T08:31:50.516835+00:00"
  }
 ]
