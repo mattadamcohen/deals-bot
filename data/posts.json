@@ -1,27 +1,5 @@
 [
  {
-  "asin": "B0FK124QCT",
-  "title": "Owala FreeSip Sway Stainless Steel Water Bottle 30 oz Black Cherry",
-  "title_he": "Owala FreeSip Sway בקבוק מים מפלדת אל חלד 30 oz דובדבן שחור",
-  "price": "$34.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.6",
-  "reviews": "14,577",
-  "rank": 15,
-  "source": "bestsellers",
-  "message_id": 47,
-  "image": "https://m.media-amazon.com/images/I/410gXei0VaL._AC_SL1080_.jpg",
-  "variant": 931,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "category_slug": "kitchen",
-  "category_en": "Kitchen & Dining",
-  "category_he": "מטבח ואירוח",
-  "posted_at": "2026-11-16T09:31:23.898848+00:00"
- },
- {
   "asin": "ali-1005009136525831",
   "title": "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
   "title_he": "Logitech M720 Wireless Bluetooth Mouse - Office Mouse - Bluetooth Dual-mode Wireless Mouse",
@@ -1108,5 +1086,34 @@
   "category_en": "Women's Clothing",
   "category_he": "ביגוד נשים",
   "posted_at": "2026-11-17T16:01:58.137212+00:00"
+ },
+ {
+  "asin": "ali-1005013205564299",
+  "title": "Christmas Advent Calendar Gift Box, 24‑Day Surprise Mini Squishy Fidget Toys, Sensory Stress‑Relief Toy Set, Holiday Surprise Gi",
+  "title_he": "קופסת מתנה ללוח השנה של אדוונט, צעצועי מיני סקווושי פידג'ט ל-24 יום, סט צעצועים תחושתיים להקלה על מתח, הפתעות לחגים",
+  "price": "$12.62",
+  "was": "$25.23",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 170,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S074cbdbda5744053a4661ddc137c18ec2.jpg",
+  "variant": 340,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kJj6451RQheVoSwPLwwDyUBJun7nZWQJorQQv4zugqu9xVrh4ybjQWKMC1gcxdGqOr8rwrraojIWazEDfgtNxEogu7Xu0pc8sSF35fJOWvZwrJpdbEBjpcte9rDmtKzATiDTLf6ySyXimGjFNbZW1VimN49HHy1lOWPDBmUuL7L3ZWOMoG0DXZcJ6wkPpNCuahfftYzyfLO9nzC2iV6t2IVcxy2Utpq6oiHp7Ii8ea6MUZWgbpicNfjULm3aDDC3BO5D8ozoaGO5oHVfiqCyoRaewkUpP7aiudGuHs9UDH8mMc4xFcGP39tSW3Bi1iDQUz0JKA1w93LEZ3QiVHS0cnNyKxj0cBd1mdBEN9EkuKOAUayX7ML5PcB5KZ7REixW3E0CadyaeD4wChagAvA7z0M6eCGLCKDqNhAGJTPWHniaIyP7w3Xhwb1kI7M7gQ81FvYg3eGUnk4s1MRKWfmel2q1JqbsXejlhkEhMiFKrfQ0AlGdX3vrMrpauMQqzQHcDW00hUhRQnOcqqzN7l4kt5G1BcR2sSdQYnjbZOVr1lDwaskC0KwYVOITZgG7mRXDq8rVz4sf4naJtb5kUPKorFfKf4jDn7P5BPW2CtCFUr2LXr5BuCYdFq4iQmf3U06lrtX46PdWsmGQIM1ZQAiD852jwv0yISodqEtLIa5dS0C1UP1eAa31NvtXtX9XOAh2St4OBmcMCOhwY",
+  "sold": "15,000",
+  "album_ids": [
+   170,
+   171,
+   172
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/squishy set",
+  "category_en": "Squishies",
+  "category_he": "סקווישים",
+  "posted_at": "2026-11-17T16:31:18.232331+00:00"
  }
 ]
