@@ -1709,7 +1709,7 @@
     }
   ],
   "theme_gap_posts": 2,
-  "block_keywords": "\\b(neck ?ties?|bow ?ties?|ties? for men|men'?s ties?|tie sets?|tie clips?|cufflinks?|dropshipping|drop shipping|wholesale|bulk lot)\\b",
+  "block_keywords": "\\b(neck ?ties?|bow ?ties?|ties? for men|men'?s ties?|tie sets?|tie clips?|cufflinks?|dropshipping|drop shipping|wholesale|bulk lot|refrigerator filters?|fridge filters?|refrigerator water|ice ?& ?water filter|water filter|everydrop|filter cartridges?|replacement filters?)\\b",
   "reel_items": 6,
   "reel_secs_per_item": 2.6,
   "carousel_every_days": 3,

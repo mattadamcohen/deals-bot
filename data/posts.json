@@ -1125,34 +1125,5 @@
   "category_en": "Car",
   "category_he": "לרכב",
   "posted_at": "2026-11-18T17:30:57.467841+00:00"
- },
- {
-  "asin": "B00VBP8QPO",
-  "title": "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
-  "title_he": "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
-  "price": "$44.99",
-  "was": "$59.99",
-  "discount": "25%",
-  "rating": "4.7",
-  "reviews": "46,401",
-  "rank": 5,
-  "source": "bestsellers",
-  "message_id": 270,
-  "image": "https://m.media-amazon.com/images/I/61DYw5TmcML._AC_SL1080_.jpg",
-  "variant": 331,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   270,
-   271,
-   272
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/52ce4a7e-7853-425f-b991-40ebd6d8adb1/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "appliances",
-  "category_en": "Appliances",
-  "category_he": "מכשירי חשמל",
-  "posted_at": "2026-11-18T18:03:46.027025+00:00"
  }
 ]
