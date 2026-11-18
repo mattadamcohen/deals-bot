@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 9
+  "2026-11-18": 10
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -84,6 +84,7 @@
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
+  "magnetic car phone holder": "2026-11-18T09:30:54.394163+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
   "miracase silicone magnetic for": "2026-11-17T17:01:01.958971+00:00",
@@ -144,7 +145,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T05:34:38.503125+00:00",
- "last_post_at": "2026-11-18T09:01:37.043600+00:00",
+ "last_post_at": "2026-11-18T09:30:54.394009+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -556,6 +557,7 @@
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
+  "ali-1005006678192161": "2026-11-18T09:30:54.342358+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
   "ali-1005006904438915": "2026-11-18T08:31:39.200481+00:00",
@@ -595,10 +597,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids thermal printer",
   "aliexpress/1101-1118 11.11 Sale - Bestsellers",
   "aliexpress/dash cam",
-  "aliexpress/baby car mirror camera"
+  "aliexpress/baby car mirror camera",
+  "aliexpress/phone holder car"
  ],
  "recent_groups": [
   "electronics",
@@ -609,7 +611,6 @@
   "beauty"
  ],
  "recent_titles": [
-  "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush",
   "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts",
   "Trendy Queen Women's Oversized Cable Knit Sweaters 2026 Fall Outfits",
   "Friends Princess Luxury Ice Castles Building Blocks Playground House Movies Bricks Classic Figures Set Toy for Girls DIY Gift",
@@ -620,7 +621,8 @@
   "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
   "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
   "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording",
-  "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function"
+  "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function",
+  "Magnetic Car Phone Holder Stand Macsafe Support in Car for iPhone 13 14 15 Pro Max Mini Magnet Car Air Vent Clip Cellphone Mount"
  ],
  "since_ali": 0,
  "tg_offset": 260136105
