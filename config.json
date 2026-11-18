@@ -489,7 +489,9 @@
     "Frameo",
     "Babyvue",
     "Magna-Tiles",
-    "Tonies"
+    "Tonies",
+    "Lofans",
+    "Cook with Color"
   ],
   "seasons": [
     {
@@ -644,7 +646,14 @@
     "desk organizer": 10,
     "gift set": 15,
     "watch": 10,
-    "jewelry": 10
+    "jewelry": 10,
+    "mixing bowl": 20,
+    "boxing machine": 25,
+    "box set": 15,
+    "ipl": 20,
+    "trimmer": 15,
+    "tablet": 10,
+    "smartwatch": 15
   },
   "repost_days_override": {
     "lego": 3
@@ -1474,6 +1483,42 @@
       "en": "Travel",
       "he": "טיולים ונסיעות",
       "weight": 0.5
+    },
+    {
+      "q": "mixing bowls set with lids",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 1
+    },
+    {
+      "q": "kids boxing machine music",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 1
+    },
+    {
+      "q": "ipl hair removal",
+      "en": "Beauty",
+      "he": "טיפוח",
+      "weight": 1
+    },
+    {
+      "q": "beard trimmer men",
+      "en": "Beauty",
+      "he": "טיפוח",
+      "weight": 1
+    },
+    {
+      "q": "android tablet 10 inch",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 1
+    },
+    {
+      "q": "Xiaomi watch",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 1
     }
   ],
   "ali_min_price_usd": 5,

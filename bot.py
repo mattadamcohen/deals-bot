@@ -244,6 +244,23 @@ class Amazon:
         log(f"  delivering to: {where}")
         return "israel" in where.lower()
 
+    def search(self, query, require=()):
+        """First organic (non-sponsored) search result whose title contains all `require` words. Returns ASIN or None."""
+        from urllib.parse import quote_plus
+        page = self.get(f"{BASE}/s?k={quote_plus(query)}").text
+        soup = BeautifulSoup(page, "html.parser")
+        for card in soup.select('div[data-component-type="s-search-result"][data-asin]'):
+            asin = card.get("data-asin")
+            if not re.fullmatch(r"[A-Z0-9]{10}", asin or "") or "AdHolder" in " ".join(card.get("class", [])):
+                continue
+            if card.select_one(".puis-sponsored-label-text, .s-sponsored-label-info-icon"):
+                continue
+            h = card.select_one("h2")
+            title = (h.get_text(" ", strip=True) if h else "").lower()
+            if all(w.lower() in title for w in require):
+                return asin
+        return None
+
     def best_sellers(self, slug, page=1, kind="bestsellers"):
         url = f"{BASE}/gp/{kind}/{slug}/" + (f"?pg={page}" if page > 1 else "")
         page = self.get(url).text
@@ -1151,6 +1168,34 @@ def giveaway_draw(state):
 def pick_details(pick, amz_factory):
     """Look up a queued pick. Returns (it, info, category) or a string with the reason it can't be posted."""
     cat = {"slug": "pick", "en": "Our pick", "he": "הבחירה שלנו"}
+    if pick["store"] == "aliexpress_search":
+        sys.path.insert(0, str(ROOT / "tools"))
+        import aliexpress
+        req = [w.lower() for w in pick.get("require", [])]
+        found = None
+        for q in [pick["id"]] + pick.get("alt", []):
+            for p in aliexpress.search(keywords=q, page_size=50):
+                t = (p.get("product_title") or "").lower()
+                if all(w in t for w in req) and p.get("promotion_link"):
+                    found = p
+                    break
+            if found:
+                break
+        if not found:
+            return f"couldn't find \"{pick['id']}\" on AliExpress"
+        pick = {**pick, "store": "aliexpress", "id": str(found["product_id"])}
+    if pick["store"] == "amazon_search":
+        amz = amz_factory()
+        if not amz:
+            return None
+        asin = None
+        for q in [pick["id"]] + pick.get("alt", []):
+            asin = amz.search(q, pick.get("require", []))
+            if asin:
+                break
+        if not asin:
+            return f"couldn't find \"{pick['id']}\" on Amazon"
+        pick = {**pick, "store": "amazon", "id": asin}
     if pick["store"] == "aliexpress":
         sys.path.insert(0, str(ROOT / "tools"))
         import aliexpress
@@ -1384,6 +1429,7 @@ def main():
             post_ali(f"{reason} (Amazon stock empty)")
 
     # Matt's own picks (links he sent the bot) go first
+    pk = None
     if due and not targeted and not OWNER_TEST and state.get("pick_queue"):
         def amz_factory():
             if state.get("blocked_until", "") > now().isoformat():
@@ -1398,7 +1444,9 @@ def main():
                     a.save_cookies()
                     return a
             return None
-        pk = state["pick_queue"][0]
+        ready = [x for x in state["pick_queue"] if x.get("not_before", "") <= now().isoformat()]
+        pk = ready[0] if ready else None
+    if due and not targeted and not OWNER_TEST and state.get("pick_queue") and pk:
         try:
             found = pick_details(pk, amz_factory)
         except Blocked:
@@ -1406,9 +1454,14 @@ def main():
             found = None
         except Exception as e:
             found = f"lookup failed ({e})"
+        if isinstance(found, tuple) and state["posted"].get(found[0]["asin"]) and \
+                is_recent(state["posted"][found[0]["asin"]], CONFIG["repost_after_days"]):
+            state["pick_queue"].remove(pk)
+            tg_owner(f"🔁 Skipped your pick ({pk.get('id')}): it was already posted in the last 7 days")
+            found = None
         if isinstance(found, tuple):
             it, info, category = found
-            state["pick_queue"].pop(0)
+            state["pick_queue"].remove(pk)
             before = posted_now
             post(it, info, category)
             if posted_now > before:
@@ -1416,7 +1469,7 @@ def main():
                 save_state(state)
                 return
         elif isinstance(found, str):
-            state["pick_queue"].pop(0)
+            state["pick_queue"].remove(pk)
             tg_owner(f"⚠️ Couldn't post your pick ({pk['url'][:80]}): {found}")
         else:
             log("Matt's pick (Amazon) waiting: Amazon isn't reachable right now")
