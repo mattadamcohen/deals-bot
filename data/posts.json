@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B06W2JSJ4H",
-  "title": "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
-  "title_he": "שעון תלת ידיים לגברים פוסיל מינימליסטי קוורץ נירוסטה",
-  "price": "$66.04",
-  "was": "$78.68",
-  "discount": "16%",
-  "rating": "4.5",
-  "reviews": "3,024",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 86,
-  "image": "https://m.media-amazon.com/images/I/81sLG+YEFqL._AC_SL1500_.jpg",
-  "variant": 772,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   86,
-   87,
-   88
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/26f60e49-da60-438e-8a6d-1872c475617b/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-16T18:16:27.063925+00:00"
- },
- {
   "asin": "ali-1005010552969315",
   "title": "SONOFF SAWF-08P AirGuard CO2 Matter over Wi-Fi Air Quality Monitor Mult Metric Environmental Matter Compatible Alexa Apple Home",
   "title_he": "SONOFF SAWF-08P AirGuard CO2 חומר על גבי Wi-Fi צג איכות אוויר רב-מטרי תואם לחומר סביבתי Alexa Apple Home",
@@ -1158,5 +1129,34 @@
   "category_en": "Tech",
   "category_he": "גאדג'טים",
   "posted_at": "2026-11-18T09:30:54.392168+00:00"
+ },
+ {
+  "asin": "B09BDG5RP3",
+  "title": "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
+  "title_he": "קופסת אוכל חשמלית Crock-Pot, מחמם מזון נייד, כחול דהוי, 20 אונקיות",
+  "price": "$29.99",
+  "was": "$39.99",
+  "discount": "25%",
+  "rating": "4.6",
+  "reviews": "14,014",
+  "rank": 22,
+  "source": "bestsellers",
+  "message_id": 224,
+  "image": "https://m.media-amazon.com/images/I/71I-a78jkOL._AC_SL1500_.jpg",
+  "variant": 329,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   224,
+   225,
+   226
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d50c38be-a984-4bb6-a18a-66607e78624e/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "kitchen",
+  "category_en": "Kitchen & Dining",
+  "category_he": "מטבח ואירוח",
+  "posted_at": "2026-11-18T10:05:20.232918+00:00"
  }
 ]
