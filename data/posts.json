@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0BYNYWKC7",
-  "title": "EverFoams Women's Fuzzy Slippers Warm Cozy Memory Foam Indoor House Shoes",
-  "title_he": "נעלי בית מטושטשות של EverFoams לנשים חמימות נעימות קצף זיכרון",
-  "price": "$16.99",
-  "was": "$35.99",
-  "discount": "53%",
-  "rating": "4.5",
-  "reviews": "11,010",
-  "rank": 3,
-  "source": "bestsellers",
-  "message_id": 113,
-  "image": "https://m.media-amazon.com/images/I/71yhTG8TNrL._AC_SL1500_.jpg",
-  "variant": 961,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   113,
-   114,
-   115
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bf7fc7b7-ce1e-4060-907d-28e53717bd2a/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/679337011",
-  "category_en": "Women's Shoes",
-  "category_he": "נעלי נשים",
-  "posted_at": "2026-11-17T07:01:15.810871+00:00"
- },
- {
   "asin": "ali-32863704575",
   "title": "UGREEN USB HUB 4K120Hz DP Type-C to 4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps Data for Laptop Dell HP Lenovo Accessories",
   "title_he": "UGREEN USB HUB 4K120Hz DP Type-C ל-4K60Hz 2xHDMI SD/TF RJ45 3.5mm USB3.2 Gen2 10Gbps נתונים למחשב נייד Dell HP Lenovo אביזרי",
@@ -1158,5 +1129,34 @@
   "category_en": "Appliances",
   "category_he": "מכשירי חשמל",
   "posted_at": "2026-11-18T14:34:05.408848+00:00"
+ },
+ {
+  "asin": "ali-1005013255675231",
+  "title": "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
+  "title_he": "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
+  "price": "$8.49",
+  "was": "$16.98",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 254,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6182f474667f461196795658bc7ef707c.jpg",
+  "variant": 515,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kUPddEC6LSI5VRDtiWU4cEUopHXkQ4G1Z4VVaO03Wkrw7yBiu5yUQNgC305MFRlpVbAcOr07AGvSpdSOOgqUHvfUUOtNodOUzZHBB3cMKkunhGBv9qttr0vqQsSD1kmPGhqBZcmTw2fV9CBYvgRZWwHPt25WIAAQ9kgw0eHLS6Gtlqm0YNvSxcaPhxllZSO0HJMvcnVHWmqBLAWeTiWZqjQHecyId1ot1NLjsRM8E6iV1ZqaY09If3Ewae9V2Yqd6AOyodlpSJWbAEmd7dr6Pz9L2wWkFG3P88VdzshRLBQ01k1dfNxUhQJcZn1OU4GogJzWho0vogp4YDQvXvOvjyP0PUrkg81QLU5j5Lp5DVGEhmODRXHMVtaMcNUTf2i8fsYeHxJ0aPoriepEvik0ZQw6Rlb9Ds9uVS4lhJWUspm9Qae1aJRntOCk0rFSeCa9Qg8651cgOG2E1oDcdFvHxk6B5Dw6a9KHEOzkisRVEwRfA3x7BjWhhnhPrU8zDtydEEaYk2iQ3AVugj2k5cqfZKMSOfbyJxmG386cnpYX5zuv0xEGmwknfuHqZyzSsbmxunhc0tVkQgX9tq8G2JLxXzV16PjpFkYk5cFkm5cuE4DgHdViqkrEL1oQxfeLY7sFnNnUhKsnL5HVSFYCNbVExIORRsdpxGjwjHkh4lXcJAhRgwxMhwdzP9Dyn2rrx7XNe9XdZ6TTRnm1w",
+  "sold": "3,000",
+  "album_ids": [
+   254,
+   255,
+   256
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/Essager",
+  "category_en": "Top brands",
+  "category_he": "מותגים מובילים",
+  "posted_at": "2026-11-18T15:01:02.605586+00:00"
  }
 ]

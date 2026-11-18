@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 20
+  "2026-11-18": 21
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -63,6 +63,7 @@
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "ejeas v pro+ motorcycle": "2026-11-17T15:31:26.860159+00:00",
+  "essager w usb c": "2026-11-18T15:01:02.608036+00:00",
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
@@ -163,7 +164,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T14:34:01.241813+00:00",
- "last_post_at": "2026-11-18T14:34:05.411152+00:00",
+ "last_post_at": "2026-11-18T15:01:02.607852+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -630,16 +631,17 @@
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
+  "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32878557142": "2026-11-18T11:01:29.110017+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/moving sand art lamp",
   "aliexpress/gaming headset",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
-  "appliances"
+  "appliances",
+  "aliexpress/Essager"
  ],
  "recent_groups": [
   "wireless",
@@ -655,10 +657,10 @@
   "home",
   "tech",
   "sport",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function",
   "Magnetic Car Phone Holder Stand Macsafe Support in Car for iPhone 13 14 15 Pro Max Mini Magnet Car Air Vent Clip Cellphone Mount",
   "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
   "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
@@ -669,8 +671,9 @@
   "GGbingo 6cm Crystal Ball Decoration Astronomy Solar System Planets Moon Astronaut LED Balls Home Snow Glass Globe Decorations",
   "True Wireless Earphone Noise Cancelling Headphone HiFI Stereo Game With Micr \ufeffTWS In Ear Earbuds Waterproof Headset",
   "TOPUMP TB2 PRO Electric Mini Portable Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Display Fast Charging",
-  "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1"
+  "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
+  "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136107
 }
