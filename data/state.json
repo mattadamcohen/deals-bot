@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 11
+  "2026-11-18": 12
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -58,6 +58,7 @@
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
+  "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "ejeas v pro+ motorcycle": "2026-11-17T15:31:26.860159+00:00",
@@ -147,7 +148,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T10:05:14.140219+00:00",
- "last_post_at": "2026-11-18T10:05:20.234675+00:00",
+ "last_post_at": "2026-11-18T10:31:16.036286+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -601,16 +602,17 @@
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
+  "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/dash cam",
   "aliexpress/baby car mirror camera",
   "aliexpress/phone holder car",
-  "kitchen"
+  "kitchen",
+  "aliexpress/squishy toy"
  ],
  "recent_groups": [
   "fashion",
@@ -621,7 +623,6 @@
   "kitchen"
  ],
  "recent_titles": [
-  "Trendy Queen Women's Oversized Cable Knit Sweaters 2026 Fall Outfits",
   "Friends Princess Luxury Ice Castles Building Blocks Playground House Movies Bricks Classic Figures Set Toy for Girls DIY Gift",
   "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz",
   "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
@@ -632,8 +633,9 @@
   "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording",
   "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function",
   "Magnetic Car Phone Holder Stand Macsafe Support in Car for iPhone 13 14 15 Pro Max Mini Magnet Car Air Vent Clip Cellphone Mount",
-  "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz"
+  "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
+  "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136105
 }
