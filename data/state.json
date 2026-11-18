@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 26
+  "2026-11-18": 27
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -40,6 +40,7 @@
   "B0HLN1KCQY": "2026-11-18T17:00:58.235297+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
+  "B0HPGZXGHZ": "2026-11-18T18:03:46.029624+00:00",
   "B0HQ6YZJJ8": "2026-11-17T17:01:01.958967+00:00",
   "B0HQJLZWFC": "2026-11-17T09:01:31.220132+00:00",
   "B0HR99K3MK": "2026-11-17T08:01:21.527621+00:00",
@@ -70,6 +71,7 @@
   "essager w usb c": "2026-11-18T15:01:02.608036+00:00",
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
+  "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
@@ -177,7 +179,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T14:34:01.241813+00:00",
- "last_post_at": "2026-11-18T17:30:57.470056+00:00",
+ "last_post_at": "2026-11-18T18:03:46.029510+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -542,21 +544,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Cook with Color mixing bowls set"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "COOK WITH COLOR 12 piece mixing bowls with lids",
-   "not_before": "2026-11-18T17:40:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "mixing bowl"
-   ],
-   "sid": "shot-1118-1",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Xiaomi Watch S5"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -668,6 +655,7 @@
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
+  "B00VBP8QPO": "2026-11-18T18:03:45.902851+00:00",
   "B0157T2ENY": "2026-11-16T06:31:23.775770+00:00",
   "B0160HYB8S": "2026-11-14T16:08:08.009745+00:00",
   "B01KNM3AFQ": "2026-11-17T06:01:17.335441+00:00",
@@ -781,31 +769,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/tool set home",
   "aliexpress/kids toys",
   "hpc",
-  "aliexpress/car vacuum cleaner"
+  "aliexpress/car vacuum cleaner",
+  "appliances"
  ],
  "recent_groups": [
-  "fashion",
   "beauty",
   "kitchen",
   "appliances",
   "beauty",
-  "hpc"
+  "hpc",
+  "appliances"
  ],
  "recent_themes": [
-  "sport",
   "home",
   "tech",
   "beauty",
   "home",
   "kids",
   "beauty",
-  "car"
+  "car",
+  "home"
  ],
  "recent_titles": [
-  "UGREEN Studio Pro 48dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active Noise Cancellation Hi-Res LDAC 120h Playtime",
   "Jacquard Peacock Blue Novelty Design Wedding Tie For Men Hanky Cufflinks Gift Mens Necktie Set Business Party Dropshipping",
   "GGbingo 6cm Crystal Ball Decoration Astronomy Solar System Planets Moon Astronaut LED Balls Home Snow Glass Globe Decorations",
   "True Wireless Earphone Noise Cancelling Headphone HiFI Stereo Game With Micr \ufeffTWS In Ear Earbuds Waterproof Headset",
@@ -816,7 +803,8 @@
   "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools",
   "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers",
   "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
-  "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home"
+  "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
+  "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -828,6 +816,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136108
 }
