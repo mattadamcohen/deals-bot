@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B07C86Y9XL",
-  "title": "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
-  "title_he": "Wrangler Authentics לגברים Regular Fit Comfort Flex Waist Jean",
-  "price": "$35.30",
-  "was": "",
-  "discount": "",
-  "rating": "4.5",
-  "reviews": "13,504",
-  "rank": 16,
-  "source": "bestsellers",
-  "message_id": 101,
-  "image": "https://m.media-amazon.com/images/I/51GkgJfInTL._AC_SL1080_.jpg",
-  "variant": 473,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   101,
-   102,
-   103
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/dabba0a2-d422-408d-9101-51d66c06bbef/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1040658",
-  "category_en": "Men's Clothing",
-  "category_he": "ביגוד גברים",
-  "posted_at": "2026-11-17T05:04:11.016225+00:00"
- },
- {
   "asin": "ali-1005009120955798",
   "title": "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "title_he": "סט אבני בניין לרכב מירוץ 1310 יחידות, ערכת דגם רכב ספורט טכני בקנה מידה 1:14 למבוגרים, צעצועי הרכבה מתנות ליום הולדת",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-18T12:01:19.304610+00:00"
+ },
+ {
+  "asin": "ali-1005006967315803",
+  "title": "Jacquard Peacock Blue Novelty Design Wedding Tie For Men Hanky Cufflinks Gift Mens Necktie Set Business Party Dropshipping",
+  "title_he": "Jacquard Peacock כחול חידוש עיצוב עניבה לגברים חפתים מתנה גברים עניבה סט עניבה עסקית Dropshipping",
+  "price": "$5.85",
+  "was": "$11.70",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 239,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/H51517cd485d448d699f086c6f5ec4521i.jpg",
+  "variant": 103,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oBTcLr8r8tztXrYsrR70Fs7cGXUqBAPnWzAbkePz05HmjW8d2mto5XkBvGNlYwRUIjFHPj8BGzGCGgqZUrvbGZXj6CdrLIAOHPgKqN8fIvRJm6oQlFhkkzmqv2QfrwEWPh4n13sGYLJhoXnzS3Cc752T8zjyQSpWyBHhc4ooYW2aj5ACGA57NXbmfhYw5RCkHcw2G0856Z3sV6oEx3SDwucPvpJwdmDNOzFPniOuVfvYNY1e6xSRx5NrxuqPXZnpSp8DOIyWD7AKepV0YG5gTl7GaaEWC567gT7vb3BxAur9uW6DUmIvsTeFhuL9Tm6NPX8w6iKK1oiEgV98yFzTybb7ULnSoI01ugqoie93awAzkve1Y4ItOBwV5fZo6dN8AR9A3BiCOvI1S0Jx7iS0qzzOEl0WjFOFcM6DT1w31uyRDTHq6JxHQQkWqcMflXS3PVb3JGfTXGUBaRD0bxbCQRViZCVxhiCOy6GfgrEJlh01h9rf8QKG7lJclrpslqhokLOO0DMRadwFMwobzqW3bl003T1TEeP9Qs6uRmy4hofNiZdEb8WjOmJplJk1YFMfsrcQy6vbPwsChP4bs0C7HzWeECXsROt9skCAyslMqRAxVvhUdsyex3HcjHDGw6kx7sAdaU0ttIdGlu11hES1Nnt8qhrrQp90rP7KDK9Jzm115QuBhHYswpoFlrBrQoKrRaTxajaSp01vs",
+  "sold": "2,000",
+  "album_ids": [
+   239,
+   240,
+   241
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2042829432/p/1/e/6/t/10301/291220776094.mp4",
+  "category_slug": "aliexpress/gift set for men",
+  "category_en": "Hanukkah gifts",
+  "category_he": "מתנות לחנוכה",
+  "posted_at": "2026-11-18T12:31:51.267888+00:00"
  }
 ]
