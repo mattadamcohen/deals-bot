@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 21
+  "2026-11-18": 22
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -31,6 +31,7 @@
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
+  "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
@@ -90,6 +91,7 @@
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
+  "luxe color changing foundation": "2026-11-18T15:30:53.597951+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
   "magnetic car phone holder": "2026-11-18T09:30:54.394163+00:00",
@@ -164,7 +166,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T14:34:01.241813+00:00",
- "last_post_at": "2026-11-18T15:01:02.607852+00:00",
+ "last_post_at": "2026-11-18T15:30:53.597799+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -579,6 +581,7 @@
   "B0FJN3BTPV": "2026-11-15T08:02:32.986884+00:00",
   "B0FK124QCT": "2026-11-16T09:31:23.847385+00:00",
   "B0FK1LF5PM": "2026-11-15T12:07:07.358554+00:00",
+  "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0GZWZH2L8": "2026-11-14T07:10:36.637185+00:00",
   "B0H2FQ5FV1": "2026-11-16T13:46:30.672511+00:00",
   "B0H4ZG39CY": "2026-11-17T09:01:31.172010+00:00",
@@ -638,18 +641,18 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/gaming headset",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
   "appliances",
-  "aliexpress/Essager"
+  "aliexpress/Essager",
+  "beauty"
  ],
  "recent_groups": [
-  "wireless",
   "home-garden",
   "fashion",
   "beauty",
   "kitchen",
-  "appliances"
+  "appliances",
+  "beauty"
  ],
  "recent_themes": [
   "tech",
@@ -658,10 +661,10 @@
   "tech",
   "sport",
   "home",
-  "tech"
+  "tech",
+  "beauty"
  ],
  "recent_titles": [
-  "Magnetic Car Phone Holder Stand Macsafe Support in Car for iPhone 13 14 15 Pro Max Mini Magnet Car Air Vent Clip Cellphone Mount",
   "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
   "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
   "TELESIN 1220mAh 3Pack Battery 3 Slots LED Light Battery Charger Storage Box Type C Cable for GoPro Hero 5 6 7 8 Black Camera",
@@ -672,8 +675,9 @@
   "True Wireless Earphone Noise Cancelling Headphone HiFI Stereo Game With Micr \ufeffTWS In Ear Earbuds Waterproof Headset",
   "TOPUMP TB2 PRO Electric Mini Portable Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Display Fast Charging",
   "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
-  "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung"
+  "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
+  "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136107
 }
