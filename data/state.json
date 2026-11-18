@@ -131,6 +131,14 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00",
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
+ "giveaway_entries": {
+  "1125221452": {
+   "at": "2026-11-18T07:06:11.963429+00:00",
+   "name": "MC",
+   "username": "mac0309",
+   "via": "bot"
+  }
+ },
  "last_harvest_at": "2026-11-18T05:34:38.503125+00:00",
  "last_post_at": "2026-11-18T07:01:06.771193+00:00",
  "next_category": 12,
@@ -607,5 +615,5 @@
   "New P70 Air Blower 110000Rpm 4 Gear Adjustable Turbo Blower Jet With Led Light Battery Display Cordless Compressed Air Duster"
  ],
  "since_ali": 0,
- "tg_offset": 260136104
+ "tg_offset": 260136105
 }
