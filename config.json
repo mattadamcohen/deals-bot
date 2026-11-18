@@ -1551,6 +1551,12 @@
       "kind": "ig_image",
       "image": "assets/promo/promo_b.png",
       "caption_file": "data/giveaway/ig_b.txt"
+    },
+    {
+      "id": "ig-promo-a-link",
+      "at": "2026-11-18T13:30",
+      "kind": "ig_comment",
+      "media": "18122826046982692"
     }
   ],
   "weekly_caps": [

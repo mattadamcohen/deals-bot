@@ -12,6 +12,18 @@ CONFIG = json.loads((REPO / "config.json").read_text())
 ST = REPO / "data" / "scheduled.json"
 
 
+LINK_COMMENT = ("📲 הצטרפו לערוץ הטלגרם שלנו ואתם בהגרלה על $50 לאמזון 🎁\n👉 t.me/ilamazondeals\n"
+                "(הקישור הלחיץ נמצא בביו)\n\n🇬🇧 Join our Telegram channel: t.me/ilamazondeals")
+
+
+def comment(media):
+    import requests
+    r = requests.post(f"https://graph.facebook.com/v23.0/{media}/comments",
+                      data={"message": LINK_COMMENT, "access_token": os.getenv("IG_ACCESS_TOKEN", "").strip()}, timeout=30)
+    print("link comment", media, r.status_code, r.text[:150])
+    return r.ok
+
+
 def main():
     done = json.loads(ST.read_text()) if ST.exists() else []
     now = datetime.now(ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%dT%H:%M")
@@ -30,6 +42,10 @@ def main():
             media = ig_post.publish(list(urls.values()), (REPO / job["caption_file"]).read_text().strip())
             print("instagram", job["id"], media)
             ok = bool(media)
+            if ok:
+                comment(media)
+        elif job["kind"] == "ig_comment":
+            ok = comment(job["media"])
         print(job["id"], "OK" if ok else "FAILED")
         if ok:
             done.append(job["id"])
