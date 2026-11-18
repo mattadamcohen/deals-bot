@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 17
+  "2026-11-18": 18
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -127,6 +127,7 @@
   "topump tb pro portable": "2026-11-18T06:31:33.921020+00:00",
   "trendy queen fall fashion": "2026-11-16T15:04:51.206825+00:00",
   "trendy queen oversized cable": "2026-11-17T19:46:09.918290+00:00",
+  "true wireless earphone noise": "2026-11-18T13:31:21.404512+00:00",
   "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
@@ -159,7 +160,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T10:05:14.140219+00:00",
- "last_post_at": "2026-11-18T13:01:51.385833+00:00",
+ "last_post_at": "2026-11-18T13:31:21.404366+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -615,6 +616,7 @@
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
+  "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
@@ -625,10 +627,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/switch controller",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
   "aliexpress/gift set for men",
-  "aliexpress/moving sand art lamp"
+  "aliexpress/moving sand art lamp",
+  "aliexpress/gaming headset"
  ],
  "recent_groups": [
   "fashion",
@@ -641,10 +643,10 @@
  "recent_themes": [
   "tech",
   "other",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
   "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
   "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording",
   "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function",
@@ -655,7 +657,8 @@
   "GameSir Nova Lite Wireless Gamepad, Game Controller for Switch, Android, iOS, PC and Steam Games Hall Effect PC Joysticks",
   "UGREEN Studio Pro 48dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active Noise Cancellation Hi-Res LDAC 120h Playtime",
   "Jacquard Peacock Blue Novelty Design Wedding Tie For Men Hanky Cufflinks Gift Mens Necktie Set Business Party Dropshipping",
-  "GGbingo 6cm Crystal Ball Decoration Astronomy Solar System Planets Moon Astronaut LED Balls Home Snow Glass Globe Decorations"
+  "GGbingo 6cm Crystal Ball Decoration Astronomy Solar System Planets Moon Astronaut LED Balls Home Snow Glass Globe Decorations",
+  "True Wireless Earphone Noise Cancelling Headphone HiFI Stereo Game With Micr \ufeffTWS In Ear Earbuds Waterproof Headset"
  ],
  "since_ali": 0,
  "tg_offset": 260136107
