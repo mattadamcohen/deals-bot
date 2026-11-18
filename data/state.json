@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-17": 30
+  "2026-11-18": 1
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -61,6 +61,7 @@
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
   "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
+  "friends princess luxury ice": "2026-11-18T05:01:00.254571+00:00",
   "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
   "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
@@ -126,7 +127,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-17T19:34:54.414636+00:00",
- "last_post_at": "2026-11-17T19:46:09.918086+00:00",
+ "last_post_at": "2026-11-18T05:01:00.254309+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -541,6 +542,7 @@
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
+  "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
@@ -564,10 +566,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "home-garden",
   "aliexpress/robot vacuum cleaner",
   "pick",
-  "fashion/1040660"
+  "fashion/1040660",
+  "aliexpress/building blocks set"
  ],
  "recent_groups": [
   "electronics",
@@ -577,7 +579,6 @@
   "fashion"
  ],
  "recent_titles": [
-  "VB603 Video Baby Monitor 2.4G Wireless With 3.2 Inches LCD 2 Way Audio Talk Night Vision Surveillance Security Camera Babysitter",
   "Vention 10000mAh Mini Power Bank 22.5w Portable Charger Built-in USB C Cable PD 3.0 Fast Charging for iPhone 17 18 Samsung S26",
   "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warranty.",
   "EJEAS V6 PRO+ Motorcycle Helmet Intercom Bluetooth Headset Support EUC CVC Noise Reduction Waterproof IP67 Standby Time 260H",
@@ -588,8 +589,9 @@
   "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
   "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush",
   "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts",
-  "Trendy Queen Women's Oversized Cable Knit Sweaters 2026 Fall Outfits"
+  "Trendy Queen Women's Oversized Cable Knit Sweaters 2026 Fall Outfits",
+  "Friends Princess Luxury Ice Castles Building Blocks Playground House Movies Bricks Classic Figures Set Toy for Girls DIY Gift"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136104
 }
