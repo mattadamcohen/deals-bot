@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 27
+  "2026-11-18": 28
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -72,6 +72,7 @@
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
+  "flextail zero lantern": "2026-11-18T18:31:03.689614+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
@@ -179,7 +180,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T14:34:01.241813+00:00",
- "last_post_at": "2026-11-18T18:03:46.029510+00:00",
+ "last_post_at": "2026-11-18T18:31:03.689505+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -759,6 +760,7 @@
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
+  "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
@@ -769,10 +771,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids toys",
   "hpc",
   "aliexpress/car vacuum cleaner",
-  "appliances"
+  "appliances",
+  "aliexpress/camping lantern"
  ],
  "recent_groups": [
   "beauty",
@@ -783,17 +785,16 @@
   "appliances"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "beauty",
   "home",
   "kids",
   "beauty",
   "car",
-  "home"
+  "home",
+  "sport"
  ],
  "recent_titles": [
-  "Jacquard Peacock Blue Novelty Design Wedding Tie For Men Hanky Cufflinks Gift Mens Necktie Set Business Party Dropshipping",
   "GGbingo 6cm Crystal Ball Decoration Astronomy Solar System Planets Moon Astronaut LED Balls Home Snow Glass Globe Decorations",
   "True Wireless Earphone Noise Cancelling Headphone HiFI Stereo Game With Micr \ufeffTWS In Ear Earbuds Waterproof Headset",
   "TOPUMP TB2 PRO Electric Mini Portable Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Display Fast Charging",
@@ -804,7 +805,8 @@
   "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers",
   "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
   "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
-  "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1"
+  "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
+  "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -816,6 +818,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136108
 }
