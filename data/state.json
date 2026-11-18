@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 6
+  "2026-11-18": 7
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -67,6 +67,7 @@
   "friends princess luxury ice": "2026-11-18T05:01:00.254571+00:00",
   "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
   "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
+  "genuine r s retro": "2026-11-18T08:01:06.645825+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hanes beefy-t cotton crewneck": "2026-11-17T06:01:17.389969+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
@@ -141,7 +142,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T05:34:38.503125+00:00",
- "last_post_at": "2026-11-18T07:30:53.023320+00:00",
+ "last_post_at": "2026-11-18T08:01:06.645496+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -554,6 +555,7 @@
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
+  "ali-1005006966123998": "2026-11-18T08:01:06.593615+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
@@ -589,10 +591,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/OnePlus",
   "aliexpress/1101-1118 11.11 Sale - Bestsellers",
   "aliexpress/1101-1118 11.11 Sale - Bestsellers",
-  "aliexpress/kids thermal printer"
+  "aliexpress/kids thermal printer",
+  "aliexpress/1101-1118 11.11 Sale - Bestsellers"
  ],
  "recent_groups": [
   "electronics",
@@ -603,7 +605,6 @@
   "beauty"
  ],
  "recent_titles": [
-  "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
   "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
   "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
   "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush",
@@ -614,7 +615,8 @@
   "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
   "TOPUMP TB2 PRO Mini Portable Electric Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Screen Fast Charging",
   "New P70 Air Blower 110000Rpm 4 Gear Adjustable Turbo Blower Jet With Led Light Battery Display Cordless Compressed Air Duster",
-  "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts"
+  "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
+  "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad"
  ],
  "since_ali": 0,
  "tg_offset": 260136105

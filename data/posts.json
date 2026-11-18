@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FG25KJLY",
-  "title": "YEOREO Ease Workout Leggings Womens Straight Leggings Eddiy Gym Yoga Pants",
-  "title_he": "חותלות אימון קלות של YEOREO חותלות ישרות לנשים Ediy Gym Yoga מכנסי",
-  "price": "$29.99",
-  "was": "$35.99",
-  "discount": "17%",
-  "rating": "4.2",
-  "reviews": "4,501",
-  "rank": 7,
-  "source": "bestsellers",
-  "message_id": 74,
-  "image": "https://m.media-amazon.com/images/I/51ALuls6oZL._AC_SL1500_.jpg",
-  "variant": 984,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   74,
-   75,
-   76
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/06acea7e-de9d-46e1-af90-705395e9ea75/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1040660",
-  "category_en": "Women's Clothing",
-  "category_he": "ביגוד נשים",
-  "posted_at": "2026-11-16T16:01:02.941362+00:00"
- },
- {
   "asin": "B0F2F9ZHQT",
   "title": "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
   "title_he": "מעמד חצובה למחשב נייד מתגלגל, מעמד רצפתי למקרן עם גלגלים וגלגלים",
@@ -1158,5 +1129,34 @@
   "category_en": "Kids tech",
   "category_he": "טכנולוגיה לילדים",
   "posted_at": "2026-11-18T07:30:53.022081+00:00"
+ },
+ {
+  "asin": "ali-1005006966123998",
+  "title": "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
+  "title_he": "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
+  "price": "$36.56",
+  "was": "$76.18",
+  "discount": "52%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 212,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scef23243532f480885f4f760a45aa375E.jpg",
+  "variant": 753,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/LxyiVOQKofy2yqnzLspKCOBwWmqLiGyoT8G0rv63A6JblkIACPQIlDv0GexRDN3gavU044kzzDHKshgQFMefe3ZI50JWr3Sni4i3vxKtyTZuiG2MFNIB8Ieqq8HgMDY8UUn97UNDXpZqHUsXBZEwt81a1fy8THCokq9h8GeAqJP5DyMBBdBY2CfPA0ZvbWiyhnUE93QUhKR94dvdXiYQUBzfIHy6N1UaWJmaWul93J8TXAbo5zKFNh6ZFTurHIsA252fZojGTe5l3dM0bxs03vLpcrzlf7pgTfuxUBYJvbcPzwGcmLkhIlOCQpE5gpD6fonJYn2YM4wovij1FXAyW7YahdXdteriorcCOmPTfgCnitMG9Uj5nFtVwo7XGb7ZvscEeBiVpurc47AcBHnY6rcw4IL8WOVBpALDDVyYiLR5SXoWpg2070fnE5S8xA1MnMoQJ9RUvHzyiElvXea2cx5HkGjMX0sSjTt59AVelL3QcLyhE737NY7l0vPjuEipCLEil6tIMcfI459FI2f0x8NFeNxnmaT5ojOqkN7ubnVnQYnYyUK44MVvMD7IOF9GghCdt2LY6Y3DMm2u3fQdVCLUdaZPGGWmu5u23NpZUqrd5Srg0efELvc7IWi07tf11r33jeq1836B8ZrEpzz2GdJmyfJnPuGL39jhc80Uc0y254zf8dcAzfXUGoic0CWfhNJM6n9TPFrFqNBWvNL2Km4oY9uVpMf3nlAiY4aTATHpDaXBlYn03A4RcFdOjwEefpLdEQaNcmQRZVvg6boVRwof4dZ6fBHb5u1IDwAcaBvD2mbUPweHyOjfEHWMaESsAihum0Eg84ymPdLcyCOlt6e4BYq5m0ucUplqjRIH9w4W7DFJyfZvERa39lfFs8QGMCOUwgRiT8iuf7Zkouli2ynnmFq7pp1lTXZODggev0G8F6TiOaSkfcT24aG5AJC28tscyvwujfIyniyYmCU7KoaDE13RPNf7LiovW76NhgkgALt8bLmsidWRdJQV05qPveVopPG6XzeK6oAuY9Z9fwSZrbBxgaV3QqTjY04WUK7QkymqNKbW933SLargmlczcMb",
+  "sold": "16,000",
+  "album_ids": [
+   212,
+   213,
+   214
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/1101-1118 11.11 Sale - Bestsellers",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-18T08:01:06.643353+00:00"
  }
 ]
