@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 12
+  "2026-11-18": 13
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -119,6 +119,7 @@
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
   "tauri for iphone pro": "2026-11-17T09:01:31.220137+00:00",
+  "telesin mah battery slots": "2026-11-18T11:01:29.136545+00:00",
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
   "topump tb pro portable": "2026-11-18T06:31:33.921020+00:00",
   "trendy queen fall fashion": "2026-11-16T15:04:51.206825+00:00",
@@ -148,7 +149,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T10:05:14.140219+00:00",
- "last_post_at": "2026-11-18T10:31:16.036286+00:00",
+ "last_post_at": "2026-11-18T11:01:29.136397+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -606,13 +607,14 @@
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
+  "ali-32878557142": "2026-11-18T11:01:29.110017+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/baby car mirror camera",
   "aliexpress/phone holder car",
   "kitchen",
-  "aliexpress/squishy toy"
+  "aliexpress/squishy toy",
+  "aliexpress/1101-1118 11.11 Sale - Top Brands"
  ],
  "recent_groups": [
   "fashion",
@@ -623,7 +625,6 @@
   "kitchen"
  ],
  "recent_titles": [
-  "Friends Princess Luxury Ice Castles Building Blocks Playground House Movies Bricks Classic Figures Set Toy for Girls DIY Gift",
   "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz",
   "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
   "TOPUMP TB2 PRO Mini Portable Electric Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Screen Fast Charging",
@@ -634,7 +635,8 @@
   "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function",
   "Magnetic Car Phone Holder Stand Macsafe Support in Car for iPhone 13 14 15 Pro Max Mini Magnet Car Air Vent Clip Cellphone Mount",
   "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
-  "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift"
+  "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
+  "TELESIN 1220mAh 3Pack Battery 3 Slots LED Light Battery Charger Storage Box Type C Cable for GoPro Hero 5 6 7 8 Black Camera"
  ],
  "since_ali": 0,
  "tg_offset": 260136105
