@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 22
+  "2026-11-18": 23
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -108,6 +108,7 @@
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
+  "piece bicycle dynamometer wrench": "2026-11-18T16:01:31.979475+00:00",
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
@@ -166,7 +167,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T14:34:01.241813+00:00",
- "last_post_at": "2026-11-18T15:30:53.597799+00:00",
+ "last_post_at": "2026-11-18T16:01:31.979310+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -605,6 +606,7 @@
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
+  "ali-1005007805563822": "2026-11-18T16:01:31.926969+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
@@ -641,10 +643,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/1101-1118 11.11 Sale - Big Save",
   "appliances",
   "aliexpress/Essager",
-  "beauty"
+  "beauty",
+  "aliexpress/tool set home"
  ],
  "recent_groups": [
   "home-garden",
@@ -655,17 +657,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "tech",
   "other",
   "home",
   "tech",
   "sport",
   "home",
   "tech",
-  "beauty"
+  "beauty",
+  "home"
  ],
  "recent_titles": [
-  "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
   "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
   "TELESIN 1220mAh 3Pack Battery 3 Slots LED Light Battery Charger Storage Box Type C Cable for GoPro Hero 5 6 7 8 Black Camera",
   "GameSir Nova Lite Wireless Gamepad, Game Controller for Switch, Android, iOS, PC and Steam Games Hall Effect PC Joysticks",
@@ -676,8 +677,9 @@
   "TOPUMP TB2 PRO Electric Mini Portable Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Display Fast Charging",
   "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
   "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
-  "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium"
+  "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
+  "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136107
 }
