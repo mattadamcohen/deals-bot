@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0F2F9ZHQT",
-  "title": "Rolling Laptop Tripod Stand, Projector Floor Stand with Wheels & Casters",
-  "title_he": "מעמד חצובה למחשב נייד מתגלגל, מעמד רצפתי למקרן עם גלגלים וגלגלים",
-  "price": "$45.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.4",
-  "reviews": "18",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 77,
-  "image": "https://m.media-amazon.com/images/I/61uVjqXC97L._AC_SL1500_.jpg",
-  "variant": 265,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   77,
-   78,
-   79
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3dcb798d-3b8c-40b3-b02f-bbece2054118/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-16T16:31:05.154611+00:00"
- },
- {
   "asin": "B08JCD4PS6",
   "title": "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
   "title_he": "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-18T08:01:06.643353+00:00"
+ },
+ {
+  "asin": "ali-1005006904438915",
+  "title": "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording",
+  "title_he": "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording",
+  "price": "$16.75",
+  "was": "$33.50",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 215,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd5e4ea58acd41969980d09948964dd7f.png",
+  "variant": 163,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nyWxRuNDE27enO6tXjc8c5yGUeF6imibma1CnG7qGKhmtxcPhrTHMCAtfxencwGCKbGDK8mPRRLyWOBfxbZ61zJkkNssO4q31TE21S8W1IAgtoLfUicgx7FLF00dgq5OBEIyA27smMIwUJ7E3Bhh13l5WaTYLb3obJxtpqd507Bj0i9j0qdQlQYBmjpBSpmbYCfNY6viODE2nUJ9yiPVDDgjloEzH0MTPYN72JoBAJnHNM9FJBW6foGnNKlVGceVLKClNF5thljio1NZ9Sa4Ej94EioBQbi47Io8ppwwuNS8qEOkQ8SaIqS8rDzjawbwsXK6m3ZXxv9fkGwmaKo7k4lOM1mdrKmQGcZXVOfgzgQ9gbea8Mj392ivI8S3ISQyyjKMUYhPR3zkK5hNykR7RJk0817UjsYrw4avZGMHEMidMyMRSj9Y7WLhl7h2aKCsCIpooN5FtB8fn5cza0jRdGbH8l5D1vpHemOvb0B3LbFDUEZGyzlddqLyqaktFzbSdIs02MgejgsoZo46MVWiYsp5ZulFSpiZXVyvqu7AeVS0S30McaIl3XAag3pPNLmfpkGaiFychY9xBnfCvsESQznHOsV5tNosDuKOrhHRymWidN6ZkDMBpChzApwwawJv7XojD4BPIraRCtglJa0CMiNtxpJVEoXVj1w5IKcLDUsalt3Uz8ZBOwHfEnauoMwafkQAuhVgVY2tZ",
+  "sold": "897",
+  "album_ids": [
+   215,
+   216,
+   217
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2678595022/p/1/e/6/t/10301/1100167980306.mp4",
+  "category_slug": "aliexpress/dash cam",
+  "category_en": "Car",
+  "category_he": "לרכב",
+  "posted_at": "2026-11-18T08:31:39.243378+00:00"
  }
 ]

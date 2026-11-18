@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 7
+  "2026-11-18": 8
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -51,6 +51,7 @@
   "big size building blocks": "2026-11-15T19:15:42.408291+00:00",
   "bigfoot shower curtain": "2026-11-17T18:01:00.469469+00:00",
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
+  "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
@@ -142,7 +143,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T05:34:38.503125+00:00",
- "last_post_at": "2026-11-18T08:01:06.645496+00:00",
+ "last_post_at": "2026-11-18T08:31:39.245204+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -555,6 +556,7 @@
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
+  "ali-1005006904438915": "2026-11-18T08:31:39.200481+00:00",
   "ali-1005006966123998": "2026-11-18T08:01:06.593615+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
@@ -592,9 +594,9 @@
  },
  "recent_categories": [
   "aliexpress/1101-1118 11.11 Sale - Bestsellers",
-  "aliexpress/1101-1118 11.11 Sale - Bestsellers",
   "aliexpress/kids thermal printer",
-  "aliexpress/1101-1118 11.11 Sale - Bestsellers"
+  "aliexpress/1101-1118 11.11 Sale - Bestsellers",
+  "aliexpress/dash cam"
  ],
  "recent_groups": [
   "electronics",
@@ -605,7 +607,6 @@
   "beauty"
  ],
  "recent_titles": [
-  "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
   "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
   "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush",
   "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts",
@@ -616,7 +617,8 @@
   "TOPUMP TB2 PRO Mini Portable Electric Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Screen Fast Charging",
   "New P70 Air Blower 110000Rpm 4 Gear Adjustable Turbo Blower Jet With Led Light Battery Display Cordless Compressed Air Duster",
   "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
-  "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad"
+  "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
+  "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording"
  ],
  "since_ali": 0,
  "tg_offset": 260136105
