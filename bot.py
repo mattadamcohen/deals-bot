@@ -760,6 +760,8 @@ def ali_pick(state):
         if q.get("official"):  # licensed toy brands: only from the brand's official store
             prods = [p for p in prods if official_store(p, q["official"])]
         good = [p for p in prods if ali_ok(p, official=bool(q.get("official")))]
+        if not good and arg("keyword") and arg("approved"):  # Matt approved this specific item: skip cap/sales filters
+            good = [p for p in prods if not ALI_BLOCK.search(p.get("product_title") or "") and p.get("promotion_link")]
         if q.get("require"):  # brand searches: only that brand's own products, not "compatible with" items
             good = [p for p in good if q["require"] in (p.get("product_title") or "").lower()[:40]
                     and not re.search(r"\b(for|compatible)\b[^,]{0,25}" + re.escape(q["require"]), (p.get("product_title") or "").lower())]

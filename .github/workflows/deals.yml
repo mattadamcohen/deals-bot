@@ -4,6 +4,10 @@ on:
   # bot.py spreads ~20 posts/day evenly over 07:00-23:00 Israel time; reels/carousels have fixed daily slots.
   workflow_dispatch:
     inputs:
+      approved:
+        description: "Matt approved this exact item (skip price cap / sales filters for the keyword)"
+        type: boolean
+        default: false
       store:
         description: "aliexpress = post an AliExpress deal now; owner-test = send AliExpress test posts to Matt only"
         required: false
@@ -74,6 +78,7 @@ jobs:
           ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
           STORE: ${{ inputs.store }}
+          APPROVED: ${{ inputs.approved && '1' || '' }}
           OWNER_TEST: ${{ inputs.store == 'owner-test' && '1' || '' }}
           AMAZON_TAG: ${{ vars.AMAZON_TAG }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
