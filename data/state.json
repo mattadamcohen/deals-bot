@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 29
+  "2026-11-18": 30
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -48,6 +48,7 @@
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
+  "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
   "baseus security b outdoor": "2026-11-16T12:07:54.639367+00:00",
@@ -182,7 +183,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T19:04:38.763431+00:00",
- "last_post_at": "2026-11-18T19:04:43.016040+00:00",
+ "last_post_at": "2026-11-18T19:31:00.129228+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -752,6 +753,7 @@
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008603585460": "2026-11-18T12:01:19.204538+00:00",
+  "ali-1005008639317272": "2026-11-18T19:31:00.099925+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005008979722815": "2026-11-18T13:01:51.316344+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
@@ -785,10 +787,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/car vacuum cleaner",
   "appliances",
   "aliexpress/camping lantern",
-  "fashion/1040658"
+  "fashion/1040658",
+  "aliexpress/1101-1118 11.11 Sale - Big Save"
  ],
  "recent_groups": [
   "kitchen",
@@ -799,17 +801,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "beauty",
   "home",
   "kids",
   "beauty",
   "car",
   "home",
   "sport",
-  "fashion"
+  "fashion",
+  "other"
  ],
  "recent_titles": [
-  "True Wireless Earphone Noise Cancelling Headphone HiFI Stereo Game With Micr \ufeffTWS In Ear Earbuds Waterproof Headset",
   "TOPUMP TB2 PRO Electric Mini Portable Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Display Fast Charging",
   "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
   "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
@@ -820,7 +821,8 @@
   "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
   "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
   "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
-  "Nautica Men's Quarter-Zip Sweater"
+  "Nautica Men's Quarter-Zip Sweater",
+  "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -832,6 +834,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136108
 }
