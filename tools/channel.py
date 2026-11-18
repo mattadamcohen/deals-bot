@@ -41,11 +41,15 @@ elif action in ("giveaway", "giveaway-preview"):
     r = requests.post(f"{api}/sendMessage", data={"chat_id": target, "parse_mode": "HTML",
                                                   "text": (base / "post.txt").read_text().replace("{rules}", rules_url),
                                                   "reply_markup": _json.dumps(kb), "disable_web_page_preview": "true"}).json()
-    print("giveaway post", r.get("ok"), r.get("description"), "bot:", me)
-    r = requests.Response(); r.status_code = 200; r._content = b'{"ok": true}' 
+    print("giveaway post", r.get("ok"), r.get("description"), "bot:", me, "id:", (r.get("result") or {}).get("message_id"))
     if action == "giveaway" and r.get("ok"):
         print("pin", requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": r["result"]["message_id"],
                                                                  "disable_notification": "true"}).text[:100])
+    r = requests.Response(); r.status_code = 200; r._content = b'{"ok": true}' 
+elif action == "pin-id":
+    r = requests.post(f"{api}/pinChatMessage", data={"chat_id": chat, "message_id": value, "disable_notification": "true"})
+    pm = requests.get(f"{api}/getChat", params={"chat_id": chat}).json()["result"].get("pinned_message", {})
+    print("pinned now:", pm.get("message_id"), (pm.get("text") or pm.get("caption") or "")[:80].replace("\n", " "))
 elif action == "delete":
     # value: comma separated message ids
     for mid in [m.strip() for m in value.split(",") if m.strip()]:
