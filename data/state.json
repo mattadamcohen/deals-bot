@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 14
+  "2026-11-18": 15
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -125,6 +125,7 @@
   "topump tb pro portable": "2026-11-18T06:31:33.921020+00:00",
   "trendy queen fall fashion": "2026-11-16T15:04:51.206825+00:00",
   "trendy queen oversized cable": "2026-11-17T19:46:09.918290+00:00",
+  "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
@@ -156,7 +157,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T10:05:14.140219+00:00",
- "last_post_at": "2026-11-18T11:31:07.230238+00:00",
+ "last_post_at": "2026-11-18T12:01:19.307250+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -592,6 +593,7 @@
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
+  "ali-1005008603585460": "2026-11-18T12:01:19.204538+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
@@ -619,10 +621,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "kitchen",
   "aliexpress/squishy toy",
   "aliexpress/1101-1118 11.11 Sale - Top Brands",
-  "aliexpress/switch controller"
+  "aliexpress/switch controller",
+  "aliexpress/1101-1118 11.11 Sale - Big Save"
  ],
  "recent_groups": [
   "fashion",
@@ -632,8 +634,10 @@
   "beauty",
   "kitchen"
  ],
+ "recent_themes": [
+  "tech"
+ ],
  "recent_titles": [
-  "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
   "TOPUMP TB2 PRO Mini Portable Electric Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Screen Fast Charging",
   "New P70 Air Blower 110000Rpm 4 Gear Adjustable Turbo Blower Jet With Led Light Battery Display Cordless Compressed Air Duster",
   "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
@@ -644,7 +648,8 @@
   "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
   "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
   "TELESIN 1220mAh 3Pack Battery 3 Slots LED Light Battery Charger Storage Box Type C Cable for GoPro Hero 5 6 7 8 Black Camera",
-  "GameSir Nova Lite Wireless Gamepad, Game Controller for Switch, Android, iOS, PC and Steam Games Hall Effect PC Joysticks"
+  "GameSir Nova Lite Wireless Gamepad, Game Controller for Switch, Android, iOS, PC and Steam Games Hall Effect PC Joysticks",
+  "UGREEN Studio Pro 48dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active Noise Cancellation Hi-Res LDAC 120h Playtime"
  ],
  "since_ali": 0,
  "tg_offset": 260136107
