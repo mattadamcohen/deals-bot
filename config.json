@@ -1716,5 +1716,131 @@
   "video_slots": [
     14,
     21
+  ],
+  "scheduled_picks": [
+    {
+      "store": "amazon_search",
+      "id": "COOK WITH COLOR 12 piece mixing bowls with lids",
+      "require": [
+        "mixing bowl"
+      ],
+      "alt": [
+        "Cook with Color mixing bowls set"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-18T17:40:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-1"
+    },
+    {
+      "store": "aliexpress_search",
+      "id": "Xiaomi Watch S5 global version",
+      "require": [
+        "xiaomi",
+        "watch s5"
+      ],
+      "alt": [
+        "Xiaomi Watch S5"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-18T20:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-2"
+    },
+    {
+      "store": "amazon_search",
+      "id": "kids music boxing machine dinosaur boxing gloves",
+      "require": [
+        "boxing"
+      ],
+      "alt": [
+        "music boxing machine for kids"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-19T05:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-3"
+    },
+    {
+      "store": "amazon_search",
+      "id": "Braun IPL PL7219",
+      "require": [
+        "braun",
+        "ipl"
+      ],
+      "alt": [
+        "Braun Silk Expert Pro 7 IPL PL7"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-19T08:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-4"
+    },
+    {
+      "store": "amazon_search",
+      "id": "Osprey Axis 24 backpack",
+      "require": [
+        "osprey",
+        "axis"
+      ],
+      "alt": [
+        "Osprey Axis daypack"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-19T10:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-5"
+    },
+    {
+      "store": "aliexpress_search",
+      "id": "Teclast P30T tablet",
+      "require": [
+        "teclast",
+        "p30t"
+      ],
+      "alt": [
+        "Teclast P30T 10.1"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-19T13:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-6"
+    },
+    {
+      "store": "amazon_search",
+      "id": "Harry Potter complete collection box set paperback",
+      "require": [
+        "harry potter"
+      ],
+      "alt": [
+        "Harry Potter box set children's collection"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-19T15:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-7"
+    },
+    {
+      "store": "amazon_search",
+      "id": "Lofans beard trimmer",
+      "require": [
+        "lofans"
+      ],
+      "alt": [
+        "LOFANS TR1 hair trimmer"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-18T17:25:00+00:00",
+      "not_before": "2026-11-19T18:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "shot-1118-8"
+    }
   ]
 }

@@ -1428,6 +1428,13 @@ def main():
             log(f"{reason}: reserve is empty")
             post_ali(f"{reason} (Amazon stock empty)")
 
+    # picks scheduled in config (e.g. from Matt's screenshots) join the queue once
+    done = set(state.get("scheduled_picks_done", []))
+    for sp in CONFIG.get("scheduled_picks", []):
+        if sp["sid"] not in done:
+            state.setdefault("pick_queue", []).append(dict(sp))
+            state["scheduled_picks_done"] = sorted(done | {sp["sid"]})
+            done.add(sp["sid"])
     # Matt's own picks (links he sent the bot) go first
     pk = None
     if due and not targeted and not OWNER_TEST and state.get("pick_queue"):
