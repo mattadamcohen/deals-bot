@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DJWPSST4",
-  "title": "Levi's Women's Cinch Baggy",
-  "title_he": "Levi's Women's Cinch Baggy",
-  "price": "$59.46",
-  "was": "$84.95",
-  "discount": "30%",
-  "rating": "4.2",
-  "reviews": "1,690",
-  "rank": 22,
-  "source": "bestsellers",
-  "message_id": 131,
-  "image": "https://m.media-amazon.com/images/I/61il-YqaUxL._AC_SL1000_.jpg",
-  "variant": 126,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   131,
-   132,
-   133
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f5b55594-aa6e-4b16-9a25-39f1a8b6a142/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1040660",
-  "category_en": "Women's Clothing",
-  "category_he": "ביגוד נשים",
-  "posted_at": "2026-11-17T10:04:35.192158+00:00"
- },
- {
   "asin": "ali-1005007170691993",
   "title": "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
   "title_he": "Multifunctional Vegetable Cutter Slicer Grater Manual Kitchen Shredder Slicing Tool Household Food Chopping Gadget Mandoline",
@@ -1154,5 +1125,34 @@
   "category_en": "Outdoor",
   "category_he": "טיולים וקמפינג",
   "posted_at": "2026-11-18T18:31:03.687124+00:00"
+ },
+ {
+  "asin": "B0846KKHK2",
+  "title": "Nautica Men's Quarter-Zip Sweater",
+  "title_he": "סוודר עם רבע רוכסן לגברים של Nautica",
+  "price": "$24.82",
+  "was": "$29.21",
+  "discount": "15%",
+  "rating": "4.4",
+  "reviews": "5,197",
+  "rank": 20,
+  "source": "bestsellers",
+  "message_id": 276,
+  "image": "https://m.media-amazon.com/images/I/81eosniS1pL._AC_SL1500_.jpg",
+  "variant": 518,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   276,
+   277,
+   278
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cf211e9e-d594-40e6-a687-153d2dbfb54d/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/1040658",
+  "category_en": "Men's Clothing",
+  "category_he": "ביגוד גברים",
+  "posted_at": "2026-11-18T19:04:43.013576+00:00"
  }
 ]
