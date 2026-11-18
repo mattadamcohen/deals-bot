@@ -1566,5 +1566,6 @@
       "max": 1,
       "days": 7
     }
-  ]
+  ],
+  "theme_gap_posts": 2
 }

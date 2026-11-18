@@ -737,7 +737,9 @@ def ali_pick(state):
     import aliexpress
     queries = CONFIG.get("ali_queries", [])
     tried = 0
-    picks = random.choices(queries, weights=[x.get("weight", 1) for x in queries], k=min(4, len(queries)))
+    avoid = recent_themes(state)
+    fresh = [x for x in queries if theme_of(None, x.get("en"), x.get("q")) not in avoid] or queries
+    picks = random.choices(fresh, weights=[x.get("weight", 1) for x in fresh], k=min(4, len(fresh)))
     if arg("keyword"):  # targeted: e.g. --keyword "baseus security b1"
         kw = arg("keyword").lower()
         picks = [{"q": arg("keyword"), "require": arg("require", kw).lower(), "en": arg("category-en", "Top picks"), "he": arg("category-he", "בחירות שלנו")}]
@@ -781,6 +783,8 @@ def ali_pick(state):
             if not p.get("promotion_link"):
                 continue
             if clashes(state, p.get("product_title")):
+                continue
+            if (theme_of(None, q.get("en"), p.get("product_title")) or "") in avoid:
                 continue
             info = ali_info(p)
             it = {"asin": pid, "rank": 0, "source": "aliexpress", "store": "aliexpress"}
@@ -846,6 +850,64 @@ def brand_of(title):
     return None
 
 
+THEME_SLUGS = {
+    "tech": ["electronics", "pc", "wireless", "photo", "videogames", "amazon-devices"],
+    "kids": ["toys-and-games", "baby-products", "arts-crafts", "fashion/1040664", "fashion/1040666"],
+    "fashion": ["fashion", "luggage"],
+    "home": ["home-garden", "appliances", "hi", "lawn-garden", "industrial", "office-products"],
+    "kitchen": ["kitchen"],
+    "beauty": ["beauty", "hpc"],
+    "sport": ["sporting-goods"],
+    "pets": ["pet-supplies"],
+    "car": ["automotive"],
+}
+THEME_LABELS = {  # AliExpress search labels (config ali_queries "en")
+    "tech": ["tech", "work from home", "smart home", "gaming", "phone & tablet", "top brands"],
+    "kids": ["squish", "fidget", "building", "kids", "plush", "arts & crafts", "baby", "official brand store"],
+    "fashion": ["bags", "accessories", "watches", "jewelry", "travel"],
+    "home": ["home", "outdoor lighting", "tools", "school & office", "gift ideas"],
+    "kitchen": ["kitchen", "coffee"],
+    "sport": ["fitness"],
+    "pets": ["pets"],
+    "car": ["car"],
+}
+THEME_WORDS = [  # fallback from the product title
+    ("kids", r"\b(kids?|children|toddler|baby|toy|toys|squish\w*|plush|lego|doll|puzzle|stem)\b"),
+    ("tech", r"\b(charger|cable|power bank|earbuds|headphones?|speaker|mouse|keyboard|monitor|camera|usb|bluetooth|wifi|smart|ssd|phone|tablet|laptop|gaming)\b"),
+    ("fashion", r"\b(shirt|t-shirt|hoodie|jacket|dress|pants|jeans|leggings|sweater|shoes|sneakers|slippers|boots|socks|bag|backpack|watch|jewelry|necklace|bracelet|earrings|sunglasses|wallet)\b"),
+    ("kitchen", r"\b(kitchen|knife|pan|pot|blender|frother|coffee|espresso|air fryer|mug|tumbler|bottle|lunch)\b"),
+    ("beauty", r"\b(skin|serum|moistur\w*|cleanser|hair|shampoo|makeup|lip|nail|perfume)\b"),
+    ("sport", r"\b(fitness|yoga|gym|dumbbell|resistance band|massage gun|bike|camping|hiking)\b"),
+    ("pets", r"\b(dog|cat|pet|puppy|kitten)\b"),
+    ("car", r"\b(car|dash cam|vehicle)\b"),
+    ("home", r"\b(lamp|light|decor|storage|organizer|curtain|rug|pillow|blanket|towel|vacuum|clean\w*|candle|frame|plant)\b"),
+]
+
+
+def theme_of(slug=None, label=None, title=None):
+    slug = slug or ""
+    for th, slugs in THEME_SLUGS.items():  # most specific slug first
+        if slug in slugs:
+            return th
+    for th, slugs in THEME_SLUGS.items():
+        if slug.split("/")[0] in slugs and slug.split("/")[0] != "fashion":
+            return th
+    if slug.startswith("fashion"):
+        return "fashion"
+    lab = (label or "").lower()
+    for th, words in THEME_LABELS.items():
+        if any(w in lab for w in words):
+            return th
+    for th, rx in THEME_WORDS:
+        if re.search(rx, title or "", re.I):
+            return th
+    return None
+
+
+def recent_themes(state):
+    return state.get("recent_themes", [])[-CONFIG.get("theme_gap_posts", 2):]
+
+
 def group_of(slug):
     g = (slug or "").split("/")[0]
     return None if g in ("aliexpress", "pick", "") else g
@@ -868,6 +930,9 @@ def clashes(state, title, slug=None):
                     if x.get("posted_at", "") >= since and re.search(cap["pattern"], x.get("title") or "", re.I))
             if n >= cap.get("max", 1):
                 return f"weekly cap reached for {cap['name']}"
+    th = theme_of(slug if slug and not slug.startswith(("aliexpress", "pick")) else None, None, title)
+    if th and th in recent_themes(state):
+        return f"another {th} item was just posted"
     g = group_of(slug)
     if g and g in state.get("recent_groups", [])[-CONFIG.get("group_gap_posts", 2):]:
         return f"another {g} item was one of the last Amazon posts"
@@ -1206,7 +1271,9 @@ def main():
         # weighted random pick of lists; avoid the categories used in the last few runs
         recent = state.get("recent_categories", [])
         groups = state.get("recent_groups", [])[-CONFIG.get("group_gap_posts", 2):]
-        pool = [c for c in cats if c["slug"] not in recent and group_of(c["slug"]) not in groups] or \
+        pool = [c for c in cats if c["slug"] not in recent and group_of(c["slug"]) not in groups
+                and theme_of(c["slug"]) not in recent_themes(state)] or \
+            [c for c in cats if c["slug"] not in recent and group_of(c["slug"]) not in groups] or \
             [c for c in cats if c["slug"] not in recent] or cats
         order = []
         while pool and len(order) < CONFIG["max_lists_per_run"]:
@@ -1261,6 +1328,9 @@ def main():
                 state["day_counts"] = {today: state.get("day_counts", {}).get(today, 0) + 1}
                 state["recent_categories"] = (state.get("recent_categories", []) + [category["slug"]])[-4:]
                 state["recent_titles"] = (state.get("recent_titles", []) + [merged.get("title") or ""])[-12:]
+                th = theme_of(category.get("slug") if not str(category.get("slug", "")).startswith(("aliexpress", "pick")) else None,
+                              category.get("en"), merged.get("title"))
+                state["recent_themes"] = (state.get("recent_themes", []) + [th or "other"])[-8:]
                 if group_of(category.get("slug")):
                     state["recent_groups"] = (state.get("recent_groups", []) + [group_of(category["slug"])])[-6:]
                 if it.get("store") != "aliexpress":
