@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CZ89PFG3",
-  "title": "Skechers Women's Max Cushioning Endeavour",
-  "title_he": "מאמץ ריפוד מקס לנשים של Skechers",
-  "price": "$65.00",
-  "was": "$84.00",
-  "discount": "23%",
-  "rating": "4.5",
-  "reviews": "7,051",
-  "rank": 29,
-  "source": "bestsellers",
-  "message_id": 95,
-  "image": "https://m.media-amazon.com/images/I/81C+t8tMn7L._AC_SL1500_.jpg",
-  "variant": 949,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   95,
-   96,
-   97
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/f85ffcfb-ab44-43ff-b9f5-998c5d3fc9dd.mp4/productVideoOptimized.mp4",
-  "category_slug": "fashion/679337011",
-  "category_en": "Women's Shoes",
-  "category_he": "נעלי נשים",
-  "posted_at": "2026-11-16T19:49:00.785890+00:00"
- },
- {
   "asin": "ali-1005007354557673",
   "title": "ZSUS 10.5-Inch Portable Monitor 1280P 100%sRGB 15:10 Low Blue Light For XBox PS4 / 5 Switch Cell Phone PC Loptop Extension",
   "title_he": "ZSUS צג נייד 10.5 אינץ' 1280P 100%sRGB 15:10 אור כחול נמוך עבור XBox PS4 / 5 Switch טלפון סלולרי PC Loptop Extension",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-18T11:01:29.134744+00:00"
+ },
+ {
+  "asin": "ali-1005006994669841",
+  "title": "GameSir Nova Lite Wireless Gamepad, Game Controller for Switch, Android, iOS, PC and Steam Games Hall Effect PC Joysticks",
+  "title_he": "GameSir Nova Lite Wireless Gamepad, בקר משחק עבור Switch, Android, iOS, PC ו-Steam Games Hall Effect PC Joysticks",
+  "price": "$20.62",
+  "was": "$50.99",
+  "discount": "59%",
+  "rating": "98.6%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 233,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2765ced7f81c4a1db7eb80f4bb034b0aw.png",
+  "variant": 337,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m4OTUTpwDJUBzJSy5atp1Y35Caxu89LSzJzawnFbFj69b8yiKIjdY2DAwnrRvBQvEuYScz8LjIUvLIbTLQDWc6d9rqMtz2fFHQueNjqgzyad0MDWV8yRXnjvW30bwhuJk9YrLQtjwQyJZEhVeMtevuUlKBeUnAjnQ7SB4AChsrVKpnJEtQXU8l53YcVOLOXQTxtBIb2ObBF4zhU3xzqW7ljzDvaCCFALgwiY9NfbJv2p1T47wv6VbWUog72b1l6FeZ84bFU6JWT1SIbUS9sDIGpxPtviv1u6fiVIfYr3Sqoz3gMAtZEBQQ4brLxxP00tuYliXmAt9PXs1Pf37Kv81BaumgCaFwyLZ0015nquWVta5dsrz2TnFbHg1e4lbVA5EU6OVEgqx8Th3VT1tQ6WPKrWJWNNMojI6GNUO6UgdgXpusRYBw4YU09VWVSJWi813QrGNdV5XW40prZeqAe6AptZohfOBnlsHHiyCPlP9KTUyPTxVK3Rb4tdYgXt4umReHg4uqBiUDlhzMGqUGxRXQiBxRWv2TcS6CJOp6gELFZBlzWVZM6N9LR7buE3QSvloYLe2zVZK55GXkxuc0lKy6XxWaaaNKROFdCf8dhHNhOUbl4pWaDdDbtCJVqsCX7cXBtUnh3ruezYDZGupy3sSyuCzmBaj7uV31glE7SIR6majPYy1QQ1sboYN8dfOsJKU7EhYHvfndXkT",
+  "sold": "29,000",
+  "album_ids": [
+   233,
+   234,
+   235
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/switch controller",
+  "category_en": "Gaming",
+  "category_he": "גיימינג",
+  "posted_at": "2026-11-18T11:31:07.227783+00:00"
  }
 ]
