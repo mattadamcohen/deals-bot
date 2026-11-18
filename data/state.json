@@ -665,6 +665,78 @@
    "sid": "shot-1118-8",
    "store": "amazon_search",
    "url": "screenshot"
+  },
+  {
+   "at": "2026-11-18T20:00:55.473478+00:00",
+   "id": "3256812939426576",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4WAMwMt"
+  },
+  {
+   "at": "2026-11-18T20:00:56.634585+00:00",
+   "id": "3256813339185332",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c31qmslj"
+  },
+  {
+   "at": "2026-11-18T20:00:58.070357+00:00",
+   "id": "3256813302590447",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4clwI7B"
+  },
+  {
+   "at": "2026-11-18T20:00:59.171653+00:00",
+   "id": "3256811900455701",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c42neh6t"
+  },
+  {
+   "at": "2026-11-18T20:01:00.635431+00:00",
+   "id": "3256810578216069",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3c0aEIN"
+  },
+  {
+   "at": "2026-11-18T20:01:02.381738+00:00",
+   "id": "3256810464474918",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3ojOe3r"
+  },
+  {
+   "at": "2026-11-18T20:01:03.635643+00:00",
+   "id": "3256812920450892",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3WuX9VJ"
+  },
+  {
+   "at": "2026-11-18T20:01:05.057897+00:00",
+   "id": "3256813144673435",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3zMJF1r"
+  },
+  {
+   "at": "2026-11-18T20:01:06.433132+00:00",
+   "id": "3256810096195024",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3FVMShj"
+  },
+  {
+   "at": "2026-11-18T20:01:07.535460+00:00",
+   "id": "3256813142527060",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4ornG2d"
+  },
+  {
+   "at": "2026-11-18T20:01:08.770366+00:00",
+   "id": "3256812318701781",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c34kQRqD"
+  },
+  {
+   "at": "2026-11-18T20:01:09.949540+00:00",
+   "id": "3256809444449801",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3BoLH8V"
   }
  ],
  "posted": {
@@ -835,5 +907,5 @@
   "shot-1118-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136111
+ "tg_offset": 260136125
 }
