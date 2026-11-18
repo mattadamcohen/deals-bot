@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B07YH1SJ8V",
-  "title": "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
-  "title_he": "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
-  "price": "$38.39",
-  "was": "",
-  "discount": "",
-  "rating": "4.6",
-  "reviews": "60,767",
-  "rank": 23,
-  "source": "bestsellers",
-  "message_id": 119,
-  "image": "https://m.media-amazon.com/images/I/61GqCa589gL._AC_SL1080_.jpg",
-  "variant": 678,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   119,
-   120,
-   121
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/932b6b08-4574-4aa4-9bd0-26de5bfe9321/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1040658",
-  "category_en": "Men's Clothing",
-  "category_he": "ביגוד גברים",
-  "posted_at": "2026-11-17T08:01:21.525889+00:00"
- },
- {
   "asin": "ali-1005011807734790",
   "title": "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
   "title_he": "POPDEER PD-JA3 5000A 4 ב-1 Jump Starter, מדחס אוויר 150PSI, 12V USB Powerbank עם תצוגת LCD, 10L גז/8L דיזל",
@@ -1154,5 +1125,34 @@
   "category_en": "Tools",
   "category_he": "כלי עבודה",
   "posted_at": "2026-11-18T16:01:31.977703+00:00"
+ },
+ {
+  "asin": "ali-1005006996242795",
+  "title": "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers",
+  "title_he": "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers",
+  "price": "$5.75",
+  "was": "$11.98",
+  "discount": "52%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 261,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S47bce9f3c72e49688927e4b6b8d63d87i.jpg",
+  "variant": 234,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kH5IZWdZUjcyHQ61cNdXx749xTIH6T5Eur1ejqw54pn90ZPQ75oADItuWy5mk4SvZLToG8I50fKP0HUgiGPT8YmO7J1A4nqRUK9SliprhhfjA7LLEKDBXis0FwMXuMuXtEPn4i3enfln2ZOqGq23TieGpJEFL8kCEfW1VeHN8PTBMXR9YV9QpIp3e6pukNxpjRgUMGguvo3kc3jqPnfdZKBikQLQ3e1UzZodBbjuRmzyk3JXrFs8vVNHMe8CIp6hZlFt2N7EjMOhzYeiCBEz897HM5ocEapgFs4uYl77tvkxIqVg6LtenqAGg1l0WehVmr1sBRin1ttH9Af7uzgiDGy9QUxWdPyvxJCU2I7a5lVxq3XcKkeCXdtiGbieKKQtDZgRJhOFKIxN5fBBnk2hJADfRKx2ktmuis9zSbXP4SZm5F3JPvqkf1jEnDK2VZfNeq073ZSOGKCSJvBmWsrJrh5ffHvhh0kJjs6HbFRiLe1fiTTldXSQMHnRQwag48L2mZVRFBnRt69trsev1aNaMEbpV2EZN7plCUwtw7x7rFFVLMOx0ttdOfSZdTEySEQnDWXB29EVxoemriv4AuDfs6s5ORsnTs01i4Z6dg3efoteZa4tJfZPS8CrT7qtCgbwZtK9hoKvTOEzmhRMueYybxfdm1lwLny9ChsnUPJ5k7PRlJUCZsyZ47tUqinscEG2V9qNii1vUPcY2",
+  "sold": "3,000",
+  "album_ids": [
+   261,
+   262,
+   263
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2676506195/p/1/e/6/t/10301/1100177119690.mp4",
+  "category_slug": "aliexpress/kids toys",
+  "category_en": "Kids toys",
+  "category_he": "צעצועים לילדים",
+  "posted_at": "2026-11-18T16:31:48.160637+00:00"
  }
 ]

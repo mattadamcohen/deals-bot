@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 23
+  "2026-11-18": 24
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -92,6 +92,7 @@
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "luxe color changing foundation": "2026-11-18T15:30:53.597951+00:00",
+  "magic cube children educational": "2026-11-18T16:31:48.162309+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
   "magnetic car phone holder": "2026-11-18T09:30:54.394163+00:00",
@@ -159,6 +160,12 @@
    "username": "mac0309",
    "via": "bot"
   },
+  "1253392672": {
+   "at": "2026-11-18T16:31:40.838350+00:00",
+   "name": "avi",
+   "username": "",
+   "via": "join"
+  },
   "6558950667": {
    "at": "2026-11-18T11:30:56.169970+00:00",
    "name": "Ash",
@@ -167,7 +174,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T14:34:01.241813+00:00",
- "last_post_at": "2026-11-18T16:01:31.979310+00:00",
+ "last_post_at": "2026-11-18T16:31:48.162015+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -600,6 +607,7 @@
   "ali-1005006966123998": "2026-11-18T08:01:06.593615+00:00",
   "ali-1005006967315803": "2026-11-18T12:31:51.206916+00:00",
   "ali-1005006994669841": "2026-11-18T11:31:07.167293+00:00",
+  "ali-1005006996242795": "2026-11-18T16:31:48.089006+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
@@ -643,10 +651,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "appliances",
   "aliexpress/Essager",
   "beauty",
-  "aliexpress/tool set home"
+  "aliexpress/tool set home",
+  "aliexpress/kids toys"
  ],
  "recent_groups": [
   "home-garden",
@@ -657,17 +665,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "other",
   "home",
   "tech",
   "sport",
   "home",
   "tech",
   "beauty",
-  "home"
+  "home",
+  "kids"
  ],
  "recent_titles": [
-  "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
   "TELESIN 1220mAh 3Pack Battery 3 Slots LED Light Battery Charger Storage Box Type C Cable for GoPro Hero 5 6 7 8 Black Camera",
   "GameSir Nova Lite Wireless Gamepad, Game Controller for Switch, Android, iOS, PC and Steam Games Hall Effect PC Joysticks",
   "UGREEN Studio Pro 48dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active Noise Cancellation Hi-Res LDAC 120h Playtime",
@@ -678,8 +685,9 @@
   "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
   "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
   "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
-  "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools"
+  "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools",
+  "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers"
  ],
  "since_ali": 0,
- "tg_offset": 260136107
+ "tg_offset": 260136108
 }
