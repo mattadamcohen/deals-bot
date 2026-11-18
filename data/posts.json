@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0H4ZG39CY",
-  "title": "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
-  "title_he": "TAURI 2 Pack לאייפון 18 Pro Max מגן מסך, התקנה חד-שלבית",
-  "price": "$9.98",
-  "was": "",
-  "discount": "33%",
-  "rating": "4.4",
-  "reviews": "25,544",
-  "rank": 20,
-  "source": "bestsellers",
-  "message_id": 125,
-  "image": "https://m.media-amazon.com/images/I/718ueulBFOL._AC_SL1500_.jpg",
-  "variant": 464,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   125,
-   126,
-   127
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-west-2-prod/95667a85-cac8-4e61-8fb6-7ec360d04a47/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-17T09:01:31.218460+00:00"
- },
- {
   "asin": "ali-1005008704761553",
   "title": "Magic Jewelry Making Kit 3D Magic DIY Jewel Rings Keychain Creative Handmade Craft Box Set for Girls Xmas Birthday Gifts",
   "title_he": "ערכת הכנת תכשיטי קסם תלת מימדית טבעות תכשיטים DIY קסם מחזיק מפתחות סט קופסא יצירה בעבודת יד יצירתית לילדות מתנות יום הולדת",
@@ -1154,5 +1125,34 @@
   "category_en": "Health & Household",
   "category_he": "בריאות ומשק בית",
   "posted_at": "2026-11-18T17:00:58.233029+00:00"
+ },
+ {
+  "asin": "ali-1005010323880088",
+  "title": "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
+  "title_he": "שואב אבק לרכב שואב אבק נייד אלחוטי 95000PA יניקה חזקה מיני שואב כף יד מפוח חזק לרכב לבית",
+  "price": "$18.55",
+  "was": "$37.10",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 267,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S107e672bdaa54ca99116df51c42a9bc7U.jpg",
+  "variant": 493,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kPIu1fa24yswt0dJuxsH9phnnBgBg91V8AuRO6DBdI93ZtPVtP2tDdjapey3ZixAze0Zs2RQdRDUyF9CaALQUhgQIJTdkPX8FMDuPzVLpZ048225fvpzkJ2clH656e6jxXEdz5wxNfTBwuwGS7VUjeF6TAVdvhSXBwqg5HTSaK1rvOdRo2aVAiYz14h9BejtYdUYqkgmmAWoQd8SbqKWhnUZSQfUhpWfQuFargoKZO5jCyJuftuEPjgR2q04kHlGa6oi0sk9QVg2k13GN48PpFovAzaADX0S8FnQ7PVd1NKkfCuHW2KLj4PUha21w4CQpiV8WpHxjvqpvMMazGMyvuoQcy9kYVqHz0tOE8AoYKPgE3bpStQJfyOMf7a9s1Lc3t2sajoD8tL0kCYbUt1XdZZAfEhw1F3GBeLrdOtjaXOKMXoW3orMRPYgwFx5fMYSV1sCgo6ttNmdhXki1F1D7KcwAWZxH3DEK7ToihSw6BKyEyEizK0F5hRrXTGXhbNxiItLvjKGwhszfWIlK70RBAhYeWwbXkpQQRf2bIeQBm0VsQOUMYGeWcgZQiyGY6zc9Zrnsr42C2sLXhLLneVMg3pI7OaGgFwNforZ0dhzErkFvPFyLHMCsvOXnGht40acjR6vUDnkkxa7hrScx683I8g7MnamL6JT3mDZ5Ut09ej7n7nDoVwIXTT6bEuknRMnup1ypHEYOrsuJ",
+  "sold": "1,000",
+  "album_ids": [
+   267,
+   268,
+   269
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/232035836/p/1/e/6/t/10301/1100134948775.mp4",
+  "category_slug": "aliexpress/car vacuum cleaner",
+  "category_en": "Car",
+  "category_he": "לרכב",
+  "posted_at": "2026-11-18T17:30:57.467841+00:00"
  }
 ]
