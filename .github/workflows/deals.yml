@@ -111,13 +111,21 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python tools/scheduled.py
 
-      - name: Instagram reel (twice-daily slots)
+      - name: Instagram reel (10:30 / 18:00 slots, 6 items)
         if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
         continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python tools/reel.py --auto
+
+      - name: Instagram product video (14:00 / 21:00 slots)
+        if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python tools/video_post.py
 
       - name: Keep Amazon session and product cache
         if: always()

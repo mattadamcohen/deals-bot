@@ -277,7 +277,8 @@ def build(posts, n=0):
     print(f"reel #{n}: theme={theme} music={music.name} intro={TEXT['intro'][0]}")
     DEALS[:] = [to_deal(p) for p in posts]
     scenes = [("s1_intro", scene_intro, 2.0)] + \
-             [(f"s{i + 2}_deal", (lambda i: lambda t, d: scene_deal(t, d, i))(i), 2.4) for i in range(len(DEALS))] + \
+             [(f"s{i + 2}_deal", (lambda i: lambda t, d: scene_deal(t, d, i))(i), CONFIG.get("reel_secs_per_item", 2.6))
+              for i in range(len(DEALS))] + \
              [("s9_outro", scene_outro, 1.6)]
     files = [render(n, f, d) for n, f, d in scenes]
     lst = OUT / "list.txt"
@@ -288,7 +289,7 @@ def build(posts, n=0):
     final = OUT / "ilamazondeals-reel.mp4"
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(music),
                     "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
-                    "-af", "afade=t=out:st=10:d=0.8", "-shortest", "-movflags", "+faststart", str(final)], check=True)
+                    "-af", f"afade=t=out:st={2.0 + len(DEALS) * CONFIG.get('reel_secs_per_item', 2.6) + 1.6 - 0.9:.1f}:d=0.8", "-shortest", "-movflags", "+faststart", str(final)], check=True)
     return final
 
 
@@ -343,7 +344,7 @@ def ig_caption(posts, n=0):
     return "\n".join(lines)
 
 
-def publish_instagram(video, posts, n=0):
+def publish_instagram(video, posts, n=0, cap=None, thumb_ms=None):
     """Publish the reel to Instagram (Graph API, resumable upload). Returns the media id or None."""
     token = os.getenv("IG_ACCESS_TOKEN", "").strip()
     ig = str(CONFIG.get("ig_user_id") or "")
@@ -352,11 +353,11 @@ def publish_instagram(video, posts, n=0):
         return None
     import time
     api = "https://graph.facebook.com/v23.0"
-    cap = ig_caption(posts, n)
+    cap = cap or ig_caption(posts, n)
     r = requests.post(f"{api}/{ig}/media", data={"media_type": "REELS", "upload_type": "resumable",
                                                   "caption": cap, "share_to_feed": "true",
                                                   # cover = first product, fully on screen (intro is 2.0s, deal slide 2.4s)
-                                                  "thumb_offset": str(CONFIG.get("reel_cover_ms", 3600)),
+                                                  "thumb_offset": str(thumb_ms if thumb_ms is not None else CONFIG.get("reel_cover_ms", 3600)),
                                                   "access_token": token}, timeout=60)
     print("IG container:", r.status_code, r.text[:200])
     if not r.ok:
@@ -429,9 +430,10 @@ def due_slot(st, slots_key, done_key):
     from datetime import datetime
     from zoneinfo import ZoneInfo
     local = datetime.now(ZoneInfo("Asia/Jerusalem"))
+    now_h = local.hour + local.minute / 60
     for h in CONFIG.get(slots_key, []):
         key = f"{local.date().isoformat()}-{h}"
-        if h <= local.hour < h + 2 and key not in st.get(done_key, []):
+        if h <= now_h < h + 2 and key not in st.get(done_key, []):
             return key
     return None
 
@@ -459,7 +461,7 @@ def main():
         if not slot:
             print("No reel slot due now")
             return
-        batch = pick_best(log, st.get("last_reel_at", ""), 3)
+        batch = pick_best(log, st.get("last_reel_at", ""), CONFIG.get("reel_items", 6))
     if len(batch) < 3:
         print("Need 3 posts with photos")
         return

@@ -557,11 +557,11 @@
   "notify_min_discount": 30,
   "notify_max_rank": 3,
   "reel_slots": [
-    12,
-    19
+    10.5,
+    18
   ],
   "carousel_slots": [
-    16
+    14
   ],
   "block_cooldown_minutes": 120,
   "boost_keywords": {
@@ -1568,5 +1568,12 @@
     }
   ],
   "theme_gap_posts": 2,
-  "block_keywords": "\\b(neck ?ties?|bow ?ties?|ties? for men|men'?s ties?|tie sets?|tie clips?|cufflinks?|dropshipping|drop shipping|wholesale|bulk lot)\\b"
+  "block_keywords": "\\b(neck ?ties?|bow ?ties?|ties? for men|men'?s ties?|tie sets?|tie clips?|cufflinks?|dropshipping|drop shipping|wholesale|bulk lot)\\b",
+  "reel_items": 6,
+  "reel_secs_per_item": 2.6,
+  "carousel_every_days": 3,
+  "video_slots": [
+    14,
+    21
+  ]
 }

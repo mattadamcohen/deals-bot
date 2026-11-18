@@ -268,6 +268,10 @@ def main():
         if not slot:
             print("No carousel slot due now")
             return
+        last = st.get("last_carousel_at", "")
+        if last and datetime.now(timezone.utc) - datetime.fromisoformat(last) < timedelta(days=CONFIG.get("carousel_every_days", 3) - 0.3):
+            print("Carousel posted recently; next one in a few days")
+            return
         pool = [p for p in posts if p.get("store") != "aliexpress" and has_img(p["asin"])]
         batches = [[p["asin"] for p in reel.pick_best(pool, st.get("last_carousel_at", ""), 4)]]
         st["carousel_slots_done"] = (st.get("carousel_slots_done", []) + [slot])[-10:]
