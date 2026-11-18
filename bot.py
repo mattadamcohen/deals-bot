@@ -451,7 +451,7 @@ def drop_christmas(title):
 
 def caption(item, category):
     L = CONFIG["labels"]
-    title = drop_christmas(item["title"] or "Best seller")
+    title = strip_junk(drop_christmas(item["title"] or "Best seller"))
     title_he = to_hebrew(short(title))
     item["title_he"] = title_he
     v = item.setdefault("variant", random.randrange(1000))  # same variant for both languages; stable on re-edits
@@ -665,6 +665,20 @@ ALI_BLOCK_CATS = re.compile(r"sex|adult|intimate|lingerie|underwear|tobacco|smok
                             r"hunting|tattoo|novelty & special use", re.I)
 
 
+JUNK = re.compile(r"\b(drop ?shipping|dropship|wholesale|free shipping|hot sale|hot selling|new arrivals?|best sellers?|"
+                  r"factory (price|direct)|20\d\d new|new 20\d\d|in stock|fast delivery)\b[,;/ ]*", re.I)
+
+
+def strip_junk(title):
+    """Remove seller spam words AliExpress titles are full of (Dropshipping, Wholesale, 2025 New...)."""
+    t = JUNK.sub("", title or "")
+    return re.sub(r"\s{2,}", " ", t).strip(" ,-/|")
+
+
+def blocked(title):
+    return bool(CONFIG.get("block_keywords") and re.search(CONFIG["block_keywords"], title or "", re.I))
+
+
 def ali_coupon(p):
     """Store coupon on the product, if it's worth showing (>= $2 off) and still valid."""
     info = p.get("promo_code_info") or {}
@@ -693,6 +707,8 @@ def ali_ok(p, official=False):
         return False
     cats = f"{p.get('first_level_category_name') or ''} {p.get('second_level_category_name') or ''}"
     if ALI_BLOCK_CATS.search(cats):
+        return False
+    if blocked(p.get("product_title")):
         return False
     if CONFIG.get("ali_niche_block") and re.search(CONFIG["ali_niche_block"], (p.get("product_title") or "").lower()):
         return False  # parts / add-ons for one specific device or car: too niche for the channel
@@ -1508,6 +1524,9 @@ def main():
                     continue
                 if not info.get("price"):
                     log("     no price found, skipping")
+                    continue
+                if blocked(info.get("title")):
+                    log("     blocked keyword, skipping")
                     continue
                 if CONFIG.get("ali_niche_block") and re.search(CONFIG["ali_niche_block"], (info.get("title") or "").lower()):
                     log("     niche part/accessory, skipping")
