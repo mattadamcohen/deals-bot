@@ -11,6 +11,7 @@ import reel, promo
 from ad import F, text_c, kw, size
 
 bot = reel.bot
+CONFIG_SECS = reel.CONFIG.get("giftbox_secs_per_item", 2.2)
 W, H, FPS = 1080, 1920, 30
 RED, DRED, GOLD, YEL, BLUE, NAVY, WHITE, INK = (230, 30, 60), (170, 15, 40), (255, 196, 0), (255, 214, 0), (20, 80, 230), (8, 30, 110), (255, 255, 255), (20, 20, 30)
 BOX_CX, BOX_TOP, BOX_W, BOX_H = W // 2, 1250, 540, 400
@@ -164,6 +165,16 @@ def paste_scaled(im, img, cx, cy, s, rot=0.0):
     im.paste(t, (int(cx - t.width / 2), int(cy - t.height / 2)), t)
 
 
+def items_from_posts(posts):
+    out = []
+    for p in posts:
+        off = (p.get("discount") or "").replace("%", "").strip()
+        out.append({"img": promo.cutout(p["asin"], 560, 520),
+                    "title": reel.short_he(p.get("title_he") or p.get("title"), 58, 900),
+                    "price": bot.shekels(p.get("price") or ""), "off": f"{off}%" if off else ""})
+    return out
+
+
 def build(items, out_path, music=None):
     global BG, BODY, LID
     BG, BODY, LID = background(), box_body(), box_lid()
@@ -174,11 +185,11 @@ def build(items, out_path, music=None):
     def intro(t, dur):  # box bounces in, shakes
         im = BG.copy()
         header(im, "מה יש בקופסה?", "דילים בהפתעה מאמזון ואליאקספרס")
-        drop = ease_back(t / 0.7)
+        drop = ease_back(t / 0.6)
         global BOX_TOP
         bt = BOX_TOP
         im2 = im
-        shake = max(0.0, t - 0.9)
+        shake = max(0.0, t - 0.75)
         offset = int((1 - drop) * -900)
         tmp = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         base = im2.copy()
@@ -208,12 +219,12 @@ def build(items, out_path, music=None):
                 paste_scaled(im, th, 140 + j * 200, 210, 0.95)
             draw_box(im, lid=False)
             # fly out of the box: from the box mouth to centre, grow, slight spin
-            k = ease_back(t / 0.75)
+            k = ease_back(t / 0.65)
             cy = BOX_TOP + 40 + (640 - (BOX_TOP + 40)) * k
-            s = 0.15 + 0.85 * ease_out(t / 0.75)
-            paste_scaled(im, cd, W / 2, cy, s, rot=(1 - ease_out(t / 0.75)) * 25)
-            if t > 0.55:
-                a = min(1, (t - 0.55) / 0.25)
+            s = 0.15 + 0.85 * ease_out(t / 0.65)
+            paste_scaled(im, cd, W / 2, cy, s, rot=(1 - ease_out(t / 0.65)) * 25)
+            if t > 0.45:
+                a = min(1, (t - 0.45) / 0.2)
                 d = ImageDraw.Draw(im)
                 if a > 0.3:
                     text_c(d, W / 2, 955, it["title"], F(900, 58), WHITE, stroke=4, sfill=NAVY)
@@ -248,11 +259,11 @@ def build(items, out_path, music=None):
         th = cd.copy()
         th.thumbnail((170, 170), Image.LANCZOS)
         thumbs.append(th)
-    segs.append(("g1_intro", intro, 2.0))
-    segs.append(("g2_open", opening, 0.9))
+    segs.append(("g1_intro", intro, 1.7))
+    segs.append(("g2_open", opening, 0.8))
     for i in range(len(items)):
-        segs.append((f"g3_item{i}", item_scene(i), 2.6))
-    segs.append(("g9_outro", outro, 2.6))
+        segs.append((f"g3_item{i}", item_scene(i), CONFIG_SECS))
+    segs.append(("g9_outro", outro, 2.3))
     files = [reel.render(n, f, d) for n, f, d in segs]
     lst = reel.OUT / "glist.txt"
     lst.write_text("".join(f"file '{f}'\n" for f in files))

@@ -1842,5 +1842,7 @@
       "over_cap_ok": true,
       "sid": "shot-1118-8"
     }
-  ]
+  ],
+  "giftbox_alternate": true,
+  "giftbox_secs_per_item": 2.2
 }

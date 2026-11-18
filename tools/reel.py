@@ -467,7 +467,14 @@ def main():
         return
     import random
     n = st.get("count", 0) if slot else random.randrange(1000)
-    video = build(batch, n)
+    style = "giftbox" if (slot and CONFIG.get("giftbox_alternate") and st.get("last_style") != "giftbox") else "classic"
+    if style == "giftbox":
+        import giftbox
+        music = sorted((REPO / "assets" / "music").glob("track*.m4a"))[n % 6]
+        video = giftbox.build(giftbox.items_from_posts(batch), OUT / "ilamazondeals-reel.mp4", music)
+    else:
+        video = build(batch, n)
+    print("reel style:", style)
     print("rendered", video, video.stat().st_size // 1024, "KB")
     (REPO / "reel-out").mkdir(exist_ok=True)
     os.replace(video, REPO / "reel-out" / "ilamazondeals-reel.mp4")
@@ -487,6 +494,7 @@ def main():
     if slot:
         st["reel_slots_done"] = (st.get("reel_slots_done", []) + [slot])[-10:]
         st["last_reel_at"] = datetime_now_iso()
+        st["last_style"] = style
         st["count"] = st.get("count", 0) + 1
     state_f.write_text(json.dumps(st))
 
