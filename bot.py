@@ -740,7 +740,7 @@ def ali_pick(state):
     picks = random.choices(queries, weights=[x.get("weight", 1) for x in queries], k=min(4, len(queries)))
     if arg("keyword"):  # targeted: e.g. --keyword "baseus security b1"
         kw = arg("keyword").lower()
-        picks = [{"q": arg("keyword"), "require": kw, "en": arg("category-en", "Top picks"), "he": arg("category-he", "בחירות שלנו")}]
+        picks = [{"q": arg("keyword"), "require": arg("require", kw).lower(), "en": arg("category-en", "Top picks"), "he": arg("category-he", "בחירות שלנו")}]
     if not arg("keyword") and random.random() < CONFIG.get("ali_sale_share", 0.4):
         try:
             lists = aliexpress.sale_lists()
