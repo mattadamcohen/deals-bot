@@ -568,11 +568,11 @@
     "lego": 25,
     "power bank": 15,
     "portable charger": 15,
-    "charging cable": 10,
-    "usb c cable": 10,
+    "charging cable": 0,
+    "usb c cable": 0,
     "usb-c cable": 10,
-    "fast charger": 10,
-    "wall charger": 10,
+    "fast charger": 0,
+    "wall charger": 0,
     "magsafe": 10,
     "wireless charger": 10,
     "earbuds": 10,
@@ -707,7 +707,7 @@
       "q": "usb c fast charging cable",
       "en": "Tech",
       "he": "גאדג'טים",
-      "weight": 2
+      "weight": 0.3
     },
     {
       "q": "wireless earbuds",
@@ -834,168 +834,168 @@
       "require": "ugreen",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 2
+      "weight": 0.8
     },
     {
       "q": "Baseus",
       "require": "baseus",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 2
+      "weight": 0.8
     },
     {
       "q": "Xiaomi",
       "require": "xiaomi",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 2
+      "weight": 0.8
     },
     {
       "q": "Mijia",
       "require": "mijia",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Vention",
       "require": "vention",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Essager",
       "require": "essager",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "POCO",
       "require": "poco",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "OnePlus",
       "require": "oneplus",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "QOOVI",
       "require": "qoovi",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Vikefon",
       "require": "vikefon",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Toocki",
       "require": "toocki",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "GameSir",
       "require": "gamesir",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "DJI",
       "require": "dji",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Magcubic",
       "require": "magcubic",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Sonoff",
       "require": "sonoff",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Amazfit",
       "require": "amazfit",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 2
+      "weight": 0.8
     },
     {
       "q": "K&F Concept",
       "require": "k&f",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Netac",
       "require": "netac",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Teclast",
       "require": "teclast",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "NiiMbot",
       "require": "niimbot",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Logitech",
       "require": "logitech",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 2
+      "weight": 0.8
     },
     {
       "q": "GL.iNet",
       "require": "gl.inet",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Attack Shark",
       "require": "attack shark",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 1
+      "weight": 0.4
     },
     {
       "q": "Potdemiel",
       "require": "potdemiel",
       "en": "Top brands",
       "he": "מותגים מובילים",
-      "weight": 2
+      "weight": 0.8
     },
     {
       "q": "squishy advent calendar",
@@ -1384,6 +1384,96 @@
       "en": "School & office",
       "he": "בית ספר ומשרד",
       "weight": 1
+    },
+    {
+      "q": "hair dryer brush",
+      "en": "Beauty",
+      "he": "טיפוח",
+      "weight": 2
+    },
+    {
+      "q": "led makeup mirror",
+      "en": "Beauty",
+      "he": "טיפוח",
+      "weight": 1
+    },
+    {
+      "q": "electric scalp massager",
+      "en": "Beauty",
+      "he": "טיפוח",
+      "weight": 1
+    },
+    {
+      "q": "camping lantern",
+      "en": "Outdoor",
+      "he": "טיולים וקמפינג",
+      "weight": 1
+    },
+    {
+      "q": "portable fan",
+      "en": "Home",
+      "he": "לבית",
+      "weight": 1
+    },
+    {
+      "q": "aroma diffuser",
+      "en": "Home decor",
+      "he": "עיצוב הבית",
+      "weight": 1
+    },
+    {
+      "q": "wall clock modern",
+      "en": "Home decor",
+      "he": "עיצוב הבית",
+      "weight": 1
+    },
+    {
+      "q": "kitchen storage containers",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 1
+    },
+    {
+      "q": "electric spin scrubber",
+      "en": "Home",
+      "he": "לבית",
+      "weight": 2
+    },
+    {
+      "q": "mini projector",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 2
+    },
+    {
+      "q": "smart watch",
+      "en": "Tech",
+      "he": "גאדג'טים",
+      "weight": 2
+    },
+    {
+      "q": "electric toothbrush",
+      "en": "Beauty",
+      "he": "טיפוח",
+      "weight": 1
+    },
+    {
+      "q": "kids scooter",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 1
+    },
+    {
+      "q": "board game family",
+      "en": "Kids toys",
+      "he": "צעצועים לילדים",
+      "weight": 1
+    },
+    {
+      "q": "waterproof phone pouch",
+      "en": "Travel",
+      "he": "טיולים ונסיעות",
+      "weight": 0.5
     }
   ],
   "ali_min_price_usd": 5,
@@ -1523,7 +1613,7 @@
   "coupons": [],
   "ali_min_sold_exempt": 200,
   "brand_bonus": 35,
-  "ali_niche_block": "\\b(replacement|spare parts?|repair|module|hardwire|wiring|harness|adapter plate|mount bracket|for (tesla|bmw|toyota|honda|mercedes|audi|vw|volkswagen|ford|kia|hyundai|byd|model [3ysx])|compatible with|oem|universal fit|motorcycle|motorbike|helmet intercom|replacement remote|remote for)\\b",
+  "ali_niche_block": "\\b(replacement|spare parts?|repair|module|hardwire|wiring|harness|adapter plate|mount bracket|for (tesla|bmw|toyota|honda|mercedes|audi|vw|volkswagen|ford|kia|hyundai|byd|model [3ysx])|compatible with|oem|universal fit|motorcycle|motorbike|helmet intercom|replacement remote|remote for|water filters?|filter cartridges?|replacement filters?|filters? for|refill(s)? for|for samsung|for lg|for whirlpool|for dyson|for roomba)\\b",
   "group_gap_posts": 2,
   "giveaway": {
     "start": "2026-11-18",
@@ -1565,6 +1655,12 @@
       "pattern": "\\b(bras?|bralettes?|sports bra|underwear|panties|briefs|boxer briefs|lingerie|shapewear)\\b",
       "max": 1,
       "days": 7
+    },
+    {
+      "name": "cables & chargers",
+      "pattern": "\\b(cables?|chargers?|charging|adapters?|usb[- ]?c hub|hub)\\b",
+      "max": 1,
+      "days": 1
     }
   ],
   "theme_gap_posts": 2,
