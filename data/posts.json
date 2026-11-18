@@ -1,29 +1,5 @@
 [
  {
-  "asin": "B0H2FQ5FV1",
-  "title": "HydroJug Traveler 32oz, Insulated Water Bottle with Handle, French Vanilla",
-  "title_he": "HydroJug Traveller 32oz, בקבוק מים מבודד עם ידית, וניל צרפתי",
-  "price": "$39.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.6",
-  "reviews": "21,468",
-  "rank": 5,
-  "source": "bestsellers",
-  "message_id": 64,
-  "image": "https://m.media-amazon.com/images/I/619aFkeAamL._AC_SL1500_.jpg",
-  "variant": 606,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": "",
-  "coupon": "",
-  "category_slug": "kitchen",
-  "category_en": "Kitchen & Dining",
-  "category_he": "מטבח ואירוח",
-  "posted_at": "2026-11-16T13:46:30.720757+00:00"
- },
- {
   "asin": "ali-1005010462727340",
   "title": "YZ For Tesla Model Y Juniper 2025-2026 TPE Car Floor Mats With Metal Pedals Luggage Trunk Mat Set Four Seasons Waterproof Anti-s",
   "title_he": "YZ לטסלה דגם Y Juniper 2025-2026 TPE שטיחי רצפת לרכב עם דוושות מתכת סט מחצלות לתא מטען ארבע עונות נגד מים עמיד למים",
@@ -1152,5 +1128,34 @@
   "category_en": "Beauty & Personal Care",
   "category_he": "יופי וטיפוח",
   "posted_at": "2026-11-18T05:34:41.616123+00:00"
+ },
+ {
+  "asin": "ali-1005010530284521",
+  "title": "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
+  "title_he": "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
+  "price": "$9.33",
+  "was": "$18.66",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 197,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7726b3d4734b4530b74e4988a639697d2.jpg",
+  "variant": 730,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9hzmZBTrE9oPGgCnFoszrWqGrzJam3LwK0dO8E2ftjoYr6ii4EKfoVDx2vkX0ZyslzfKNjbFgFNzBDuAbx3kbfTyjHe8kIsx57UKjGhwbdMUO0EPVj0oenUAsU0sbO06jpEOAaj364NAlypst7OC0z3qmlis13qGL4z5P9ygB2kkwue5XMasLhtkJzwy9UPHUr7A5NYgo7fUO7CYEaT6sTnHrfQ3EwBLKa9TPqPAYggX7xgAcN2By8bha7T63FnJ4Kev9scuQynVi2j8rstoDGqKAi3KzLuChfn1RHchuZ5z61tKQL34zfRUYko2FbQj4Ru2EujHsWHHybVH3QxP7HzEbKBI1xVGHzeTcfL7zckUSq9raYRCvqBe3WQYEDr6o2nDBnmhctXCDPuqFsSGFYjiioIt54PlPN9S0HgU6p9gIa1s443DKnukPo9AWq6TcYaGsdn9sxNbYYgBNvp88hThqB9mcZFWKphxxG9gKOmEK3PISJHxfX9E77UIeXPXi3mW0jbBMTXC4YFVDaEW6g5t5TekhEpTGSabKx0c8ga9uJA9L2pmQevbSCaHJg2o9IEDSzczV0gLzHeEWuqNEjNBDLFyCNOFWTUjT9175jajYHRFfOCbfUeFTX8UWCZTRjM5WeK2tElx32P1lE2UpL1JcTNdCLIii6YGTTBjarr8p1qvHeaK2pP2lwFECd5H9g7HTYAsuPtQ",
+  "sold": "1,000",
+  "album_ids": [
+   197,
+   198,
+   199
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/OnePlus",
+  "category_en": "Top brands",
+  "category_he": "מותגים מובילים",
+  "posted_at": "2026-11-18T06:00:57.958341+00:00"
  }
 ]

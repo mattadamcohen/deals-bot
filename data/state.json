@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 2
+  "2026-11-18": 3
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -88,6 +88,7 @@
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
   "oeak jelly bras wireless": "2026-11-15T16:02:06.149375+00:00",
+  "oneplus charger original w": "2026-11-18T06:00:57.960511+00:00",
   "original roborock s maxv": "2026-11-17T18:30:57.115494+00:00",
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
@@ -129,7 +130,7 @@
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
  "last_harvest_at": "2026-11-18T05:34:38.503125+00:00",
- "last_post_at": "2026-11-18T05:34:41.617537+00:00",
+ "last_post_at": "2026-11-18T06:00:57.960292+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -560,6 +561,7 @@
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
+  "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
@@ -573,10 +575,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "fashion/1040660",
   "aliexpress/building blocks set",
-  "beauty"
+  "beauty",
+  "aliexpress/OnePlus"
  ],
  "recent_groups": [
   "electronics",
@@ -587,7 +589,6 @@
   "beauty"
  ],
  "recent_titles": [
-  "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warranty.",
   "EJEAS V6 PRO+ Motorcycle Helmet Intercom Bluetooth Headset Support EUC CVC Noise Reduction Waterproof IP67 Standby Time 260H",
   "LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive",
   "Christmas Advent Calendar Gift Box, 24\u2011Day Surprise Mini Squishy Fidget Toys, Sensory Stress\u2011Relief Toy Set, Holiday Surprise Gi",
@@ -598,8 +599,9 @@
   "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts",
   "Trendy Queen Women's Oversized Cable Knit Sweaters 2026 Fall Outfits",
   "Friends Princess Luxury Ice Castles Building Blocks Playground House Movies Bricks Classic Figures Set Toy for Girls DIY Gift",
-  "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz"
+  "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz",
+  "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136104
 }
