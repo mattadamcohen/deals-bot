@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 8
+  "2026-11-18": 9
  },
  "families": {
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -101,6 +101,7 @@
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
+  "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
@@ -143,7 +144,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T05:34:38.503125+00:00",
- "last_post_at": "2026-11-18T08:31:39.245204+00:00",
+ "last_post_at": "2026-11-18T09:01:37.043600+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -552,6 +553,7 @@
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
+  "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
@@ -593,10 +595,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/1101-1118 11.11 Sale - Bestsellers",
   "aliexpress/kids thermal printer",
   "aliexpress/1101-1118 11.11 Sale - Bestsellers",
-  "aliexpress/dash cam"
+  "aliexpress/dash cam",
+  "aliexpress/baby car mirror camera"
  ],
  "recent_groups": [
   "electronics",
@@ -607,7 +609,6 @@
   "beauty"
  ],
  "recent_titles": [
-  "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterproof Bath Curtain, Rust-Proof Bathroom Essentials",
   "\u3010Original\u3011 Roborock S8 MaxV Ultra Robot Vacuum Accessories, Roller Brush, Filter, Dust Bag, Mop Cloth, Side Brush",
   "Fujifilm Digital Camera Instax Pal Smart Camera Small and Portable Cute Mini Photography Genie Pal Ready to Take Birthday Gifts",
   "Trendy Queen Women's Oversized Cable Knit Sweaters 2026 Fall Outfits",
@@ -618,7 +619,8 @@
   "New P70 Air Blower 110000Rpm 4 Gear Adjustable Turbo Blower Jet With Led Light Battery Display Cordless Compressed Air Duster",
   "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
   "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
-  "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording"
+  "Car DVR Dash Cam Full HD 1080P Dash Cam For DVD Android Player ADAS LDWS Navigation Unit Auto Audio Voice Alarm Video Recording",
+  "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function"
  ],
  "since_ali": 0,
  "tg_offset": 260136105

@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B08JCD4PS6",
-  "title": "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
-  "title_he": "iBayam Art Supplies,150-Pack Deluxe Art Set Crafts Drawing Painting Kit",
-  "price": "$32.98",
-  "was": "",
-  "discount": "18%",
-  "rating": "4.7",
-  "reviews": "9,000",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 80,
-  "image": "https://m.media-amazon.com/images/I/81CVQ4ay0zL._AC_SL1500_.jpg",
-  "variant": 356,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   80,
-   81,
-   82
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2ca54942-ff0a-4971-ad2d-a75296bdff74/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-16T17:01:49.103091+00:00"
- },
- {
   "asin": "ali-1005006079966569",
   "title": "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
   "title_he": "4K 8MP HD Wifi PTZ Camera Outdoor 4MP Dual Lens Dual Screen AI Auto Tracking IP Camera CCTV Audio Video Surveillance P2P iCSee",
@@ -1158,5 +1129,34 @@
   "category_en": "Car",
   "category_he": "לרכב",
   "posted_at": "2026-11-18T08:31:39.243378+00:00"
+ },
+ {
+  "asin": "ali-1005005979337870",
+  "title": "Rear View Monitor 4.3'' IPS Screen Baby Car Mirror Adjustable Wide View Angle for Infants Kids Pets Night Vision Function",
+  "title_he": "צג אחורי מסך IPS 4.3 אינץ' מראת תינוק לרכב מתכוונן זווית ראייה רחבה לתינוקות ילדים חיות מחמד פונקציית ראיית לילה",
+  "price": "$33.89",
+  "was": "$105.91",
+  "discount": "68%",
+  "rating": "94.8%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 218,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S571fbca335444ffeb510a17587e451d6m.jpg",
+  "variant": 151,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTmqjb1YMTNX2Vgfp2Y9kWAzwAAGUgB0qpZ20lr461mhZ2lmcdn4xk5mZ27ZHg1WGx8HP1bDtnJzlZP0m5FSeVtiN0AvdjxlNdPOAMJBRg3ADgooJxxDdpYZaPvHaglXdkPuyrEsAbwSMGom8hxVpIRyavkElF9hqopPJQrQvQMZlLtmbK8oxF4Ubehq9DOwiWjcSi8Lp771U1YcmauhL8K9IEO3gZyOmlJ14Qoj3OqfXiCYL67CcFM9LErY5Lo4uscxCWyDe4RacZVaIS3L0KG07udMpupq2ow6rEdm1W89brZpW2ZPt9tGxYiCDmjEFZDfRF6sTmR7gdHTtgYxbOEAA9YgzhnBRAV44xRqVHM2EauzFq9oz8Ebk45xVIz19M1p51DncNJRrGEodnIuQJsa8ABtxHhMPSziC7ad6i1RgT8CIahXjGIT0OkH0WmHu2HIBmOjGgKW47tKV0wFntU1CNikmpox53uVPTrRm01YFerkEhhY64fzXqmfHferVv4LvN5kGh4fh265AshVs3qKLNPyUXo7000LhkNNwhkfTHO8NEqbuI1iwFEtWhBRcpLqRUkvQma6OuJUgFJZTbVCScsOH52CFYvhDQZ2bXHOkWApJNJCKGMpevArFQiAt8txLozlOt3HydW5p0b1QalNs9WfiHPfTfBeZCWaH9au0to08EOhVfFa0RAN7RuzCJ68Uww0xS8xo",
+  "sold": "604",
+  "album_ids": [
+   218,
+   219,
+   220
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/baby car mirror camera",
+  "category_en": "Baby",
+  "category_he": "תינוקות",
+  "posted_at": "2026-11-18T09:01:37.042001+00:00"
  }
 ]
