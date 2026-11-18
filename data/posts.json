@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005011807734790",
-  "title": "POPDEER PD-JA3 5000A 4-in-1 Jump Starter, 150PSI Air Compressor, 12V USB Powerbank with LCD Display, 10L Gas/8L Diesel",
-  "title_he": "POPDEER PD-JA3 5000A 4 ב-1 Jump Starter, מדחס אוויר 150PSI, 12V USB Powerbank עם תצוגת LCD, 10L גז/8L דיזל",
-  "price": "$53.22",
-  "was": "$106.43",
-  "discount": "50%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 122,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/A06ea9ff68cbb4540907fa6df7d573b04S.jpg",
-  "variant": 486,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/LxyiVOQKofy2yqnzLspKCOBwWmqLiGyoT8G0rv63A6JblkIACPQIlDv0GexRDN3gavU044kzzDHKshgQFMefe3ZI50JWr3Sni4i3vxKtyTZuiG2MFNIB8Ieqq8HgMDY8UUn97UNDXpZqHUsXBZEwt81a1fy8THCokq9h8GeAqJP5DyMBBdBY2CfPA0ZvbWiyhnUE93QUhKR94dvdXiYQUBzfIHy6N1UaWJmaWul93J8TXAbo5zKFNh6ZFTurHIsA252fZojGTe5l3dM0bxs03vLpcrzlf7pgTfuxUBYJvbcPzwGcmLkhIlOCQpE2w0AbazuWwetCGtUvAapqrk9EGvzMAEvmpZVI4M8smIpUEVrPAxDkAlvXw9PIE2afDTyKVo0qSX9Pppo4VR5khmWg1as9VDaMRJI7AGvtxu5nc8kdvvydHKiDWkwpNSS6JGGtoHbVD4of97DGqFA7OqplJZp59MSFltjtJNQKInjNnq72m6lpEtOm4Ue5RjtbUNY8JiXzUX93PqIrSG8unLcUE4a1FEk263aHJ4QcomTY2dQxq9b0r5DumfEpPcGF6KcYg77uHPwotdrfVhkA4b2As2H2HOoHDp2yh4cFhziVYfK0LZyfQzQhM5l96NU4p26VzEXocluO8awtkmHJyXxyliMduxQ9gAScpGOMqRBBh1bZgPTWHgMBGdyjKLEE15tzVlryOAu69OcVQlW4SKVQjhJxqZc8tzNU6u3lJvZm2TdgbOXLgUxLu8B6DucOOjAi5CSAMyWT7z6LkG3iRQLzvuguoF6iLOay1Kt01kUi1L2zgj4wzFlORsW2pDMwoK0FBILuJyuE6umowmxiMQGhQ33d7EXZnHbhBT450G0r2GQ2e8BEE2u5Lc8ZeemRJ8PD0yVX9XBvTxOgpsPRfx4s7M42kqIROsZIAWOWfR1Qoy50b1MdQUQcl9F3uUBJDoVPBWjzIv3kFQpj6DLq3smzzz3mzjaJ2hhTN6z1jIffpaXU1fS7FNlpqBHuZHIBmh8qxJKGmKIO3sui0xKauWBoHrpfJf3uH14RgjZgD4nKRoQmw5D9uyCIcIolYGz5pj6TPex",
-  "sold": "21,000",
-  "album_ids": [
-   122,
-   123,
-   124
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/1101-1118 11.11 Sale - Big Save",
-  "category_en": "AliExpress sale",
-  "category_he": "מבצע אליאקספרס",
-  "posted_at": "2026-11-17T08:31:50.516835+00:00"
- },
- {
   "asin": "B0H4ZG39CY",
   "title": "TAURI 2 Pack for iPhone 18 Pro Max Screen Protector, 1-Step Install",
   "title_he": "TAURI 2 Pack לאייפון 18 Pro Max מגן מסך, התקנה חד-שלבית",
@@ -1154,5 +1125,34 @@
   "category_en": "Kids toys",
   "category_he": "צעצועים לילדים",
   "posted_at": "2026-11-18T16:31:48.160637+00:00"
+ },
+ {
+  "asin": "B09RTVD1GF",
+  "title": "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
+  "title_he": "Energizer AA סוללות כוח אלקליין, 32 ספירות אלקליין כפול מארז סוללות",
+  "price": "$22.50",
+  "was": "",
+  "discount": "",
+  "rating": "4.8",
+  "reviews": "81,664",
+  "rank": 22,
+  "source": "bestsellers",
+  "message_id": 264,
+  "image": "https://m.media-amazon.com/images/I/81AX1sbArxL._AC_SL1500_.jpg",
+  "variant": 131,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   264,
+   265,
+   266
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/75c929e4-30d0-40f4-b992-65dddc09d3bd/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "hpc",
+  "category_en": "Health & Household",
+  "category_he": "בריאות ומשק בית",
+  "posted_at": "2026-11-18T17:00:58.233029+00:00"
  }
 ]
