@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 19
+  "2026-11-19": 20
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -133,6 +133,7 @@
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
   "oeak jelly bras wireless": "2026-11-15T16:02:06.149375+00:00",
   "oneplus charger original w": "2026-11-18T06:00:57.960511+00:00",
+  "original broadlink rm pro": "2026-11-19T14:30:55.884073+00:00",
   "original roborock s maxv": "2026-11-17T18:30:57.115494+00:00",
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
@@ -209,7 +210,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T12:04:39.223362+00:00",
- "last_post_at": "2026-11-19T14:00:59.709338+00:00",
+ "last_post_at": "2026-11-19T14:30:55.883862+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -653,12 +654,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:30:54.990695+00:00",
-   "id": "3256812952399385",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4cOEok1"
-  },
-  {
    "at": "2026-11-18T20:30:56.947991+00:00",
    "id": "3256813091599053",
    "store": "aliexpress",
@@ -769,6 +764,7 @@
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
+  "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
   "ali-1005006678192161": "2026-11-18T09:30:54.342358+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
@@ -834,10 +830,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/ps5 accessories",
   "sporting-goods",
   "aliexpress/squishy set",
-  "hpc"
+  "hpc",
+  "aliexpress/smart plug wifi"
  ],
  "recent_groups": [
   "office-products",
@@ -848,17 +844,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "sport",
   "kids",
   "home",
   "beauty",
   "tech",
   "sport",
   "kids",
-  "beauty"
+  "beauty",
+  "tech"
  ],
  "recent_titles": [
-  "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count",
   "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
   "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
   "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro",
@@ -869,7 +864,8 @@
   "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories",
   "Owala Tumbler Stainless Steel Water Bottle 24 oz - Diet Coke Classic",
   "Taba Squishy Stress Balls Cube - Ocean Sensory Fidget Toy Slow Rise Squishy Toys for Kids and Adults Squeeze Relax Gift",
-  "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting"
+  "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting",
+  "Original Broadlink RM4 Pro IR RF WIFI Universal Smart Remote Control RM4Pro SmartHome Automation Work With Alexa and Google Home"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -881,6 +877,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136138
 }
