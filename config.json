@@ -1532,6 +1532,17 @@
   "higher_value_share": 0.6,
   "higher_value_bonus": 25,
   "product_types": [
+    "fan",
+    "projector",
+    "scale",
+    "hair dryer",
+    "shaver",
+    "trimmer",
+    "floor mat",
+    "pump",
+    "tire inflator",
+    "flashlight",
+    "batter",
     "mouse",
     "keyboard",
     "charger",
@@ -1706,6 +1717,12 @@
       "pattern": "\\b(cables?|chargers?|charging|adapters?|usb[- ]?c hub|hub)\\b",
       "max": 1,
       "days": 1
+    },
+    {
+      "name": "batteries",
+      "pattern": "\\bbatter(y|ies)\\b",
+      "max": 1,
+      "days": 7
     }
   ],
   "theme_gap_posts": 2,
@@ -1844,5 +1861,6 @@
     }
   ],
   "giftbox_alternate": true,
-  "giftbox_secs_per_item": 2.2
+  "giftbox_secs_per_item": 2.2,
+  "type_cooldown_hours": 48
 }

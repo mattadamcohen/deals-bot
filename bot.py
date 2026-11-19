@@ -954,6 +954,11 @@ def clashes(state, title, slug=None):
     typ, brand = product_type(title), brand_of(title)
     if typ and typ in [product_type(x) for x in recent[-CONFIG.get("diversity_posts", 6):]]:
         return f"another {typ} was posted recently"
+    if typ and CONFIG.get("type_cooldown_hours"):
+        since = (now() - timedelta(hours=CONFIG["type_cooldown_hours"])).isoformat()
+        if any(x.get("posted_at", "") >= since and product_type(x.get("title")) == typ
+               for x in load_json(ROOT / "data" / "posts.json", [])[-120:]):
+            return f"a {typ} was posted in the last {CONFIG['type_cooldown_hours']}h"
     if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
         return f"{brand} was posted recently"
     for cap in CONFIG.get("weekly_caps", []):
