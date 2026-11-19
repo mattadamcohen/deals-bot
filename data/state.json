@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 28
+  "2026-11-19": 29
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -111,6 +111,7 @@
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
+  "ip waterproof solar outdoor": "2026-11-19T19:01:02.117170+00:00",
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
@@ -220,7 +221,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-19T18:30:53.440510+00:00",
+ "last_post_at": "2026-11-19T19:01:02.116982+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -728,6 +729,7 @@
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
   "B0HHJYF7SS": "2026-11-19T13:00:58.376909+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
+  "ali-1005005972760920": "2026-11-19T19:01:02.038780+00:00",
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
@@ -806,7 +808,7 @@
   "pick",
   "pick",
   "pick",
-  "pick"
+  "aliexpress/solar wall light motion sensor"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -817,17 +819,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "kids",
   "tech",
   "other",
   "tech",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "Owala Tumbler Stainless Steel Water Bottle 24 oz - Diet Coke Classic",
   "Taba Squishy Stress Balls Cube - Ocean Sensory Fidget Toy Slow Rise Squishy Toys for Kids and Adults Squeeze Relax Gift",
   "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting",
   "Original Broadlink RM4 Pro IR RF WIFI Universal Smart Remote Control RM4Pro SmartHome Automation Work With Alexa and Google Home",
@@ -838,7 +839,8 @@
   "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden",
   "2027 UNO ! Pokemon Board Game Anime Cartoon Pikachu Figure Pattern Family Funny Entertainment uno Cards Games Christmas Gifts",
   "Beard Trimmer for Men, Electric Razor for Men, Cordless Waterproof Trimmer with 40 Adjustable Length Settings, LED Display, USB Rechargeable, Precision Grooming Kit for Beard Face Hair Travel",
-  "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff"
+  "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff",
+  "IP65 Waterproof Solar Outdoor Garden Lights Super Bright 148 LEDs Motion Sensor Wall Light Solar Powered Security Lamp 3 Modes"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -850,6 +852,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136138
 }
