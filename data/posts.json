@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FBGR7Z6K",
-  "title": "LILLUSORY Cardigan for Women Lightweight Cardigans Fall Fashion Outfits",
-  "title_he": "קרדיגן LILLUSORY לנשים קרדיגנים קלים תלבושות אופנה לסתיו",
-  "price": "$17.99",
-  "was": "$29.99",
-  "discount": "40%",
-  "rating": "4.2",
-  "reviews": "3,030",
-  "rank": 29,
-  "source": "bestsellers",
-  "message_id": 137,
-  "image": "https://m.media-amazon.com/images/I/71tg-6WKPbL._AC_SL1500_.jpg",
-  "variant": 306,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   137,
-   138,
-   139
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a8619982-422c-4ab1-9340-8c943f856c7d/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1040660",
-  "category_en": "Women's Clothing",
-  "category_he": "ביגוד נשים",
-  "posted_at": "2026-11-17T11:00:52.055113+00:00"
- },
- {
   "asin": "ali-1005010425273195",
   "title": "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
   "title_he": "Squishy Antistress Duck Fidgets צעצועי אווז חמוד חיות אווז צעצועי פורקן לילדים מבוגרים שחרור לחץ צעצועי מתיחה חברים המתנה הטובה ביותר",
@@ -1154,5 +1125,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-18T19:31:00.126598+00:00"
+ },
+ {
+  "asin": "ali-1005012438054801",
+  "title": "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
+  "title_he": "גרסה גלובלית Xiaomi Watch S5 Smartwatch 1.48 אינץ' מסך AMOLED 21 ימים חיי סוללה Xiaomi HyperOS 3 150+ מצבי ספורט GPS 5ATM",
+  "price": "$164.02",
+  "was": "$352.34",
+  "discount": "53%",
+  "rating": "97.5%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 282,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0f2b4a99bab46db88efc1061495f8fcM.jpg",
+  "variant": 984,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Co7lwYDPuTI0xaZOrX9tZjfYieCKSpoBaEYNI5iOYQnNwc3Pc0e5fXeQzNnZqZ22ZCZGCQUo28EVyZdnoFzEx9mmCJHqs7kPA4IFTBTT8hmb6ifLboFlKrCsxGfNeCzH2CfWrmj8xtG1lcRF8IDa685jh54ud2v4Bo9sSinXqMYa4aaThwX2VBj0wYFxELeCLrBOWkIRtuIanfvQOve7B5zogqrHCal1E5zDnh7pCkJdsVQ1nmLrWQNy5vmHYzuaexXZKtGXCQAZWE2RhWBobGhUV4j7AdZZgmpr3MXdwi4BUd8iGYMt2V561kN9BuyliRDCJ9978luEctvvySv8OaLvpAjWBw8dFDFwtdofuW0JPBfZmmSdy0utEEa6mUXiYV2s1174i3wVrVah4slF6ZprFdd6D0KzOa0sV4mKCVaZu9G1DnTijdsrfhRo2DhVzUuYiTW4xAxkQcaoPYrp95xQQPsTNYVa8Izm8SfBJHx4Dl4tTIhb7pMlsUCPwdrXLsmPenSVTb0FSlkesMbF26kCjebrFJbYVBrn7PafGDgie6Lh9uKlslX8EKlErVysxoPtuWV8TSFBuiwMNVwTpBJVCqwENvbajOhE5W6EqRXJyE3Y7HTIbKm2YXOflG9hyBsl0TCJYIXbhXmczXABXxsAJkRAyVaz8AeNsYkXmnLVXcBq8Om6MrXxNcl6aelibXz8QTQi4lhteB",
+  "sold": "62",
+  "album_ids": [
+   282,
+   283,
+   284
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-19T05:01:34.011032+00:00"
  }
 ]

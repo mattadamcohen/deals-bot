@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-18": 30
+  "2026-11-19": 1
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -85,6 +85,7 @@
   "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
   "genuine r s retro": "2026-11-18T08:01:06.645825+00:00",
   "ggbingo crystal ball decoration": "2026-11-18T13:01:51.385967+00:00",
+  "global version xiaomi watch": "2026-11-19T05:01:34.012989+00:00",
   "gorilla grip bath rug": "2026-11-14T14:24:16.655661+00:00",
   "hanes beefy-t cotton crewneck": "2026-11-17T06:01:17.389969+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
@@ -183,7 +184,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T19:04:38.763431+00:00",
- "last_post_at": "2026-11-18T19:31:00.129228+00:00",
+ "last_post_at": "2026-11-19T05:01:34.012618+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -559,22 +560,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Xiaomi Watch S5"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "Xiaomi Watch S5 global version",
-   "not_before": "2026-11-18T20:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "xiaomi",
-    "watch s5"
-   ],
-   "sid": "shot-1118-2",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "music boxing machine for kids"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -885,6 +870,7 @@
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
+  "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
@@ -895,10 +881,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "appliances",
   "aliexpress/camping lantern",
   "fashion/1040658",
-  "aliexpress/1101-1118 11.11 Sale - Big Save"
+  "aliexpress/1101-1118 11.11 Sale - Big Save",
+  "pick"
  ],
  "recent_groups": [
   "kitchen",
@@ -909,17 +895,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "kids",
   "beauty",
   "car",
   "home",
   "sport",
   "fashion",
-  "other"
+  "other",
+  "fashion"
  ],
  "recent_titles": [
-  "TOPUMP TB2 PRO Electric Mini Portable Pump for Bike Cordless Tire Inflator 120PSI Max 450mAh Battery with Display Fast Charging",
   "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
   "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
   "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
@@ -930,7 +915,8 @@
   "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
   "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
   "Nautica Men's Quarter-Zip Sweater",
-  "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards"
+  "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards",
+  "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
