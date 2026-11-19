@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 4
+  "2026-11-19": 5
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -97,6 +97,7 @@
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
+  "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "letsjoli jelly bras for": "2026-11-17T16:01:58.139179+00:00",
   "levi's cinch baggy": "2026-11-17T13:02:08.033568+00:00",
@@ -189,7 +190,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T06:34:07.103982+00:00",
- "last_post_at": "2026-11-19T06:34:11.261065+00:00",
+ "last_post_at": "2026-11-19T07:00:58.627822+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -646,12 +647,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:00:58.070357+00:00",
-   "id": "3256813302590447",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4clwI7B"
-  },
-  {
    "at": "2026-11-18T20:00:59.171653+00:00",
    "id": "3256811900455701",
    "store": "aliexpress",
@@ -858,6 +853,7 @@
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
+  "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
@@ -867,9 +863,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/beard trimmer men",
-  "office-products"
+  "office-products",
+  "aliexpress/led drawing board kids"
  ],
  "recent_groups": [
   "appliances",
@@ -880,17 +876,16 @@
   "office-products"
  ],
  "recent_themes": [
-  "home",
   "sport",
   "fashion",
   "other",
   "fashion",
   "kids",
   "beauty",
-  "home"
+  "home",
+  "kids"
  ],
  "recent_titles": [
-  "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools",
   "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers",
   "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
   "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
@@ -901,7 +896,8 @@
   "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
   "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
   "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
-  "Sharpie S-Gel Pens, Black Barrel, Medium Point, Black Ink, 12 Count"
+  "Sharpie S-Gel Pens, Black Barrel, Medium Point, Black Ink, 12 Count",
+  "LED Light Up Drawing Board, Erasable Acrylic Writing Board, Type-C Rechargeable Glow Note Board for Kids Drawing, Bar Menu"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -913,6 +909,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136133
 }
