@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 13
+  "2026-11-19": 14
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -67,6 +67,7 @@
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
+  "christmas projector light patterns": "2026-11-19T11:30:48.621221+00:00",
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
@@ -200,7 +201,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T11:01:21.142600+00:00",
+ "last_post_at": "2026-11-19T11:30:48.621091+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -634,12 +635,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:01:07.535460+00:00",
-   "id": "3256813142527060",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4ornG2d"
-  },
-  {
    "at": "2026-11-18T20:01:08.770366+00:00",
    "id": "3256812318701781",
    "store": "aliexpress",
@@ -829,6 +824,7 @@
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
+  "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
@@ -839,10 +835,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen storage containers",
   "aliexpress/solar security camera outdoor",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "aliexpress/squishy toy"
+  "aliexpress/squishy toy",
+  "aliexpress/kids night light"
  ],
  "recent_groups": [
   "hpc",
@@ -853,17 +849,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "sport",
   "fashion",
   "home",
   "kids",
   "kitchen",
   "tech",
   "sport",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
   "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
   "Sharpie S-Gel Pens, Black Barrel, Medium Point, Black Ink, 12 Count",
   "LED Light Up Drawing Board, Erasable Acrylic Writing Board, Type-C Rechargeable Glow Note Board for Kids Drawing, Bar Menu",
@@ -874,7 +869,8 @@
   "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
   "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro",
   "E3500 Intelligent Campsite Main Light Outdoor Camping Light 20000mAh Ultra Long Endurance Lighting Tent Hanging Light",
-  "Random Mystery Fidget Toys Bag Pack for Kids Cheap Sensory Toys Stress Reliver Autism ADHD Gifts Spinner Fidget Squishy Set"
+  "Random Mystery Fidget Toys Bag Pack for Kids Cheap Sensory Toys Stress Reliver Autism ADHD Gifts Spinner Fidget Squishy Set",
+  "Christmas Projector Light 22 Patterns Rotating LED Projection Lamp Santa Claus Snowflake Elk Xmas Decor Night Light Rechargeable"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
