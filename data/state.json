@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 24
+  "2026-11-19": 25
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -110,6 +110,7 @@
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
+  "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
@@ -215,7 +216,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-19T16:34:06.925859+00:00",
+ "last_post_at": "2026-11-19T17:00:55.580776+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -666,12 +667,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-19T07:30:59.343622+00:00",
-   "id": "1005013125741328",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c2yycFJj"
-  },
-  {
    "at": "2026-11-19T07:31:00.141737+00:00",
    "id": "1005013525500084",
    "store": "aliexpress",
@@ -818,6 +813,7 @@
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
+  "ali-1005013125741328": "2026-11-19T17:00:55.530593+00:00",
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
@@ -828,10 +824,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/magnetic train track toy",
   "aliexpress/gift set for men",
   "aliexpress/phone holder car",
-  "fashion/1040664"
+  "fashion/1040664",
+  "pick"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -842,17 +838,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "sport",
   "kids",
   "beauty",
   "tech",
   "kids",
   "fashion",
   "tech",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "Random Mystery Fidget Toys Bag Pack for Kids Cheap Sensory Toys Stress Reliver Autism ADHD Gifts Spinner Fidget Squishy Set",
   "Christmas Projector Light 22 Patterns Rotating LED Projection Lamp Santa Claus Snowflake Elk Xmas Decor Night Light Rechargeable",
   "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
   "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories",
@@ -863,7 +858,8 @@
   "Magnetic Train Toy For Boys Track 1:64 Electric Rail DIY Magic Vehicle Model Toys Education 3 Years Children Gifts",
   "4PCS Men Business Watches Fashion Steel Band Analog Male's Quartz Watch Jewelry Set Relogio Masculino Clock Gift\uff08Without Box\uff09",
   "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand 360\u00b0 Rotation \u041cagnet Holder For iPhone Gym/Driving Vacuum Phone Stand",
-  "Disney Toddler/Little/Big Girls' Princess Fantasy Gown Nightgown"
+  "Disney Toddler/Little/Big Girls' Princess Fantasy Gown Nightgown",
+  "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",

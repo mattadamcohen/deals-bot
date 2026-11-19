@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B09BDG5RP3",
-  "title": "Crock-Pot Electric Lunch Box, Portable Food Warmer, Faded Blue, 20 oz",
-  "title_he": "קופסת אוכל חשמלית Crock-Pot, מחמם מזון נייד, כחול דהוי, 20 אונקיות",
-  "price": "$29.99",
-  "was": "$39.99",
-  "discount": "25%",
-  "rating": "4.6",
-  "reviews": "14,014",
-  "rank": 22,
-  "source": "bestsellers",
-  "message_id": 224,
-  "image": "https://m.media-amazon.com/images/I/71I-a78jkOL._AC_SL1500_.jpg",
-  "variant": 329,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   224,
-   225,
-   226
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d50c38be-a984-4bb6-a18a-66607e78624e/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "kitchen",
-  "category_en": "Kitchen & Dining",
-  "category_he": "מטבח ואירוח",
-  "posted_at": "2026-11-18T10:05:20.232918+00:00"
- },
- {
   "asin": "ali-1005012736775484",
   "title": "Crunchy Skin Dreamy Macaron color Cat paw Crispy Doughnut squishy Fidget Toy stress relief ball ASMR Toy for Adults Gift",
   "title_he": "עור קראנצ'י חולמני צבע מקרון כפת חתול קריספי סופגנייה ספוגית פידג'ט צעצוע כדור הפגת מתח ASMR צעצוע למבוגרים מתנה",
@@ -1154,5 +1125,34 @@
   "category_en": "Girls' Clothing",
   "category_he": "ביגוד לבנות",
   "posted_at": "2026-11-19T16:34:06.922755+00:00"
+ },
+ {
+  "asin": "ali-1005013125741328",
+  "title": "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden",
+  "title_he": "צג נייד בגודל 13.3 אינץ' 2K QHD, 400 ניטים, 100% SRGB, יחס גובה-רוחב של 16:10, רמקולים מובנים, VESA ניתנים להרכבה, משולב מוסתר",
+  "price": "$64.42",
+  "was": "$157.15",
+  "discount": "59%",
+  "rating": "93.7%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 354,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfef3891f980e408d8a1566b53c45dd7ft.png",
+  "variant": 141,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Coxy8SHLxV1Bq8PUxrLy2oMtxJiojqMjgok9ltvw00UAsalGujfV7hBpHiC9JDkqHzJlkDLGjQRoRqsPVDSNMqhDcF3FWDxdCUL8vyk24qPIaC9OZNerGL8CE9OVB2466rDlEfkzDesHdkXp7vcYkpVy0Qugrnhm5Vz58xDhI6ahKLbCh5sCdjD5qjzWd0M9EmyyoMctH2BQCAxOjg4BrJCjIQz5wTx1sBqAiatuU5lYTNIUdBhJ21bg2fjUhPNsC6m5dbIL8qdFNFc5z6CJgirOTUDTZzGjtc0X8wtnkhzWIJR4iAvXorvdTYkP4FslFGbKCWTx3pqu7ahzeqkQjr7scI1UJ5N4uwmpoN1XpHbQMCnvUDdJ4yTas0okGFDdrpKI8H9GVkn8u8xewAOzicSgaxed30VCLIW33O8C6kxezbDGYLgiFJRSOaZ3OLIlIFj79MCITWTZBrKRnwIlO2wulAn3qHu0mnoy3KbIIYcLUOvHT2126WcU9ffgYHIvisBJeXZMNucAq1ptclPsGUKzDBI1q0lYGbr7Utzps4GCOYDWAeDj7UL7WIqatf3QfYdCWbv8TmDEIqNrdZwQCvIMLDmRPX28CWHd14s5FRujbw6FFV4pBGn8TCXTw2Tzg5CMX3NFv5D1TOFkDUSNcAG4Z5vC04WMVSspdtQHje4MWzDjalG3FiW30Vohlu8KmSZm3pzzfuDQZZ",
+  "sold": "227",
+  "album_ids": [
+   354,
+   355,
+   356
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-19T17:00:55.579333+00:00"
  }
 ]
