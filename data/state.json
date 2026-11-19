@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 9
+  "2026-11-19": 10
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -146,6 +146,7 @@
   "sonoff sawf- p airguard": "2026-11-16T18:45:48.228424+00:00",
   "squishy antistress duck fidgets": "2026-11-17T11:31:42.970864+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
+  "stainless steel oil pot": "2026-11-19T09:30:56.971727+00:00",
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
@@ -196,7 +197,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T09:01:16.697868+00:00",
+ "last_post_at": "2026-11-19T09:30:56.971509+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -646,12 +647,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:01:03.635643+00:00",
-   "id": "3256812920450892",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3WuX9VJ"
-  },
-  {
    "at": "2026-11-18T20:01:05.057897+00:00",
    "id": "3256813144673435",
    "store": "aliexpress",
@@ -826,6 +821,7 @@
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
+  "ali-1005008557135956": "2026-11-19T09:30:56.820289+00:00",
   "ali-1005008603585460": "2026-11-18T12:01:19.204538+00:00",
   "ali-1005008639317272": "2026-11-18T19:31:00.099925+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
@@ -865,10 +861,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "sporting-goods",
   "aliexpress/gift for women",
   "home-garden",
-  "aliexpress/squishy toy"
+  "aliexpress/squishy toy",
+  "aliexpress/kitchen storage containers"
  ],
  "recent_groups": [
   "hpc",
@@ -879,17 +875,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "kids",
   "beauty",
   "home",
   "kids",
   "sport",
   "fashion",
   "home",
-  "kids"
+  "kids",
+  "kitchen"
  ],
  "recent_titles": [
-  "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
   "Nautica Men's Quarter-Zip Sweater",
   "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards",
   "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
@@ -900,7 +895,8 @@
   "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame",
   "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift",
   "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count",
-  "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs"
+  "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
+  "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
