@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 11
+  "2026-11-19": 12
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -74,6 +74,7 @@
   "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
+  "e intelligent campsite main": "2026-11-19T10:31:04.276724+00:00",
   "ea sports college football": "2026-11-19T07:34:38.275836+00:00",
   "ejeas v pro+ motorcycle": "2026-11-17T15:31:26.860159+00:00",
   "energizer aa batteries alkaline": "2026-11-18T17:00:58.235302+00:00",
@@ -198,7 +199,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T10:00:55.679400+00:00",
+ "last_post_at": "2026-11-19T10:31:04.276594+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -587,22 +588,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Osprey Axis daypack"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "Osprey Axis 24 backpack",
-   "not_before": "2026-11-19T10:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "osprey",
-    "axis"
-   ],
-   "sid": "shot-1118-5",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Teclast P30T 10.1"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -841,6 +826,7 @@
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
+  "ali-1005011838321895": "2026-11-19T10:31:04.189215+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
@@ -857,10 +843,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "home-garden",
   "aliexpress/squishy toy",
   "aliexpress/kitchen storage containers",
-  "aliexpress/solar security camera outdoor"
+  "aliexpress/solar security camera outdoor",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "hpc",
@@ -871,17 +857,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "home",
   "kids",
   "sport",
   "fashion",
   "home",
   "kids",
   "kitchen",
-  "tech"
+  "tech",
+  "sport"
  ],
  "recent_titles": [
-  "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards",
   "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
   "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
   "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
@@ -892,7 +877,8 @@
   "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count",
   "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
   "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
-  "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro"
+  "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro",
+  "E3500 Intelligent Campsite Main Light Outdoor Camping Light 20000mAh Ultra Long Endurance Lighting Tent Hanging Light"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
