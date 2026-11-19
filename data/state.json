@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 7
+  "2026-11-19": 8
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -14,6 +14,7 @@
   "B0CZGWS9MV": "2026-11-16T19:49:00.788634+00:00",
   "B0CZLLQN45": "2026-11-17T13:31:29.829628+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
+  "B0D5J4S1MZ": "2026-11-19T08:31:27.609404+00:00",
   "B0D7QD8MTR": "2026-11-18T10:05:20.234978+00:00",
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
@@ -169,6 +170,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
+  "zevo flying insect trap": "2026-11-19T08:31:27.609409+00:00",
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00",
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
@@ -193,7 +195,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T08:01:17.367908+00:00",
+ "last_post_at": "2026-11-19T08:31:27.609273+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -643,12 +645,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:01:00.635431+00:00",
-   "id": "3256810578216069",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3c0aEIN"
-  },
-  {
    "at": "2026-11-18T20:01:02.381738+00:00",
    "id": "3256810464474918",
    "store": "aliexpress",
@@ -783,6 +779,7 @@
   "B0BYNYWKC7": "2026-11-17T13:31:29.780316+00:00",
   "B0BZYCJK89": "2026-11-14T18:08:58.181961+00:00",
   "B0C26ZL5JV": "2026-11-14T07:26:49.591232+00:00",
+  "B0C3FTCYZL": "2026-11-19T08:31:27.582391+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
@@ -872,31 +869,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "office-products",
   "aliexpress/led drawing board kids",
   "sporting-goods",
-  "aliexpress/gift for women"
+  "aliexpress/gift for women",
+  "home-garden"
  ],
  "recent_groups": [
-  "beauty",
   "hpc",
   "appliances",
   "fashion",
   "office-products",
-  "sporting-goods"
+  "sporting-goods",
+  "home-garden"
  ],
  "recent_themes": [
-  "other",
   "fashion",
   "kids",
   "beauty",
   "home",
   "kids",
   "sport",
-  "fashion"
+  "fashion",
+  "home"
  ],
  "recent_titles": [
-  "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
   "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
   "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
   "Nautica Men's Quarter-Zip Sweater",
@@ -907,7 +903,8 @@
   "Sharpie S-Gel Pens, Black Barrel, Medium Point, Black Ink, 12 Count",
   "LED Light Up Drawing Board, Erasable Acrylic Writing Board, Type-C Rechargeable Glow Note Board for Kids Drawing, Bar Menu",
   "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame",
-  "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift"
+  "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift",
+  "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -919,6 +916,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136138
 }
