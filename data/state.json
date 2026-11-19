@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 29
+  "2026-11-19": 30
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -49,6 +49,7 @@
   "B0HLN1KCQY": "2026-11-18T17:00:58.235297+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
+  "B0HP7YV6F4": "2026-11-19T19:30:52.415190+00:00",
   "B0HPGZXGHZ": "2026-11-18T18:03:46.029624+00:00",
   "B0HQ6YZJJ8": "2026-11-17T17:01:01.958967+00:00",
   "B0HQJLZWFC": "2026-11-17T09:01:31.220132+00:00",
@@ -56,6 +57,7 @@
   "B0HRDR92BX": "2026-11-19T05:30:57.619742+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
+  "ai hand warmers rechargeable": "2026-11-19T19:30:52.415196+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
@@ -221,7 +223,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-19T19:01:02.116982+00:00",
+ "last_post_at": "2026-11-19T19:30:52.414998+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -697,6 +699,7 @@
   "B0BZYCJK89": "2026-11-14T18:08:58.181961+00:00",
   "B0C26ZL5JV": "2026-11-14T07:26:49.591232+00:00",
   "B0C3FTCYZL": "2026-11-19T08:31:27.582391+00:00",
+  "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
@@ -807,29 +810,28 @@
  "recent_categories": [
   "pick",
   "pick",
-  "pick",
-  "aliexpress/solar wall light motion sensor"
+  "aliexpress/solar wall light motion sensor",
+  "sporting-goods"
  ],
  "recent_groups": [
-  "sporting-goods",
   "home-garden",
   "beauty",
   "sporting-goods",
   "hpc",
-  "fashion"
+  "fashion",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "fashion",
   "tech",
   "kids",
   "tech",
   "other",
   "tech",
   "kids",
-  "home"
+  "home",
+  "sport"
  ],
  "recent_titles": [
-  "Taba Squishy Stress Balls Cube - Ocean Sensory Fidget Toy Slow Rise Squishy Toys for Kids and Adults Squeeze Relax Gift",
   "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting",
   "Original Broadlink RM4 Pro IR RF WIFI Universal Smart Remote Control RM4Pro SmartHome Automation Work With Alexa and Google Home",
   "Magnetic Train Toy For Boys Track 1:64 Electric Rail DIY Magic Vehicle Model Toys Education 3 Years Children Gifts",
@@ -840,7 +842,8 @@
   "2027 UNO ! Pokemon Board Game Anime Cartoon Pikachu Figure Pattern Family Funny Entertainment uno Cards Games Christmas Gifts",
   "Beard Trimmer for Men, Electric Razor for Men, Cordless Waterproof Trimmer with 40 Adjustable Length Settings, LED Display, USB Rechargeable, Precision Grooming Kit for Beard Face Hair Travel",
   "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff",
-  "IP65 Waterproof Solar Outdoor Garden Lights Super Bright 148 LEDs Motion Sensor Wall Light Solar Powered Security Lamp 3 Modes"
+  "IP65 Waterproof Solar Outdoor Garden Lights Super Bright 148 LEDs Motion Sensor Wall Light Solar Powered Security Lamp 3 Modes",
+  "AI Hand Warmers Rechargeable 2 Pack, AI Smart Chips Electric Hand Warmers, 20Hrs Long Safe Heat, Portable Pocket Heater, Gifts for Christmas, Outdoor, Hunting, Golf, Camping Accessories"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -852,6 +855,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136138
 }
