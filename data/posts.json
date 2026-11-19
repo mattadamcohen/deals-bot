@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B01MSSDEPK",
-  "title": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz",
-  "title_he": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz",
-  "price": "$17.39",
-  "was": "",
-  "discount": "8%",
-  "rating": "4.7",
-  "reviews": "133,660",
-  "rank": 28,
-  "source": "bestsellers",
-  "message_id": 194,
-  "image": "https://m.media-amazon.com/images/I/71V-hFCug0L._SL1500_.jpg",
-  "variant": 298,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   194,
-   195,
-   196
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/17c0419a-7963-45b2-9aef-f55bd09939c7/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-18T05:34:41.616123+00:00"
- },
- {
   "asin": "ali-1005010530284521",
   "title": "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
   "title_he": "Oneplus Charger Original 100W 80W USB Adapter SUPERVOOC Type C 10A Cable For Oppo Realme Fast Chargers One Plus 15 13 12 11 Pro",
@@ -1154,5 +1125,34 @@
   "category_en": "Home decor",
   "category_he": "עיצוב הבית",
   "posted_at": "2026-11-19T11:30:48.619085+00:00"
+ },
+ {
+  "asin": "B09V7Z4TJG",
+  "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
+  "title_he": "Medicube Toner Pads Zero Pore Pad 2.0 עבור פילינג וטיפוח נקבוביות",
+  "price": "$13.23",
+  "was": "",
+  "discount": "30%",
+  "rating": "4.6",
+  "reviews": "37,107",
+  "rank": 3,
+  "source": "bestsellers",
+  "message_id": 324,
+  "image": "https://m.media-amazon.com/images/I/71Mcspt-6AL._SL1500_.jpg",
+  "variant": 747,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   324,
+   325,
+   326
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d26a3c31-0317-47c3-9ecf-da45e2dcf237/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty",
+  "category_en": "Beauty & Personal Care",
+  "category_he": "יופי וטיפוח",
+  "posted_at": "2026-11-19T12:04:43.454161+00:00"
  }
 ]
