@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 12
+  "2026-11-19": 13
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -136,6 +136,7 @@
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
+  "random mystery fidget toys": "2026-11-19T11:01:21.142732+00:00",
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
@@ -199,7 +200,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T10:31:04.276594+00:00",
+ "last_post_at": "2026-11-19T11:01:21.142600+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -633,12 +634,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:01:06.433132+00:00",
-   "id": "3256810096195024",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3FVMShj"
-  },
-  {
    "at": "2026-11-18T20:01:07.535460+00:00",
    "id": "3256813142527060",
    "store": "aliexpress",
@@ -792,6 +787,7 @@
   "ali-1005006996242795": "2026-11-18T16:31:48.089006+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
+  "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
@@ -843,10 +839,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy toy",
   "aliexpress/kitchen storage containers",
   "aliexpress/solar security camera outdoor",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "aliexpress/squishy toy"
  ],
  "recent_groups": [
   "hpc",
@@ -857,17 +853,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "kids",
   "sport",
   "fashion",
   "home",
   "kids",
   "kitchen",
   "tech",
-  "sport"
+  "sport",
+  "kids"
  ],
  "recent_titles": [
-  "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
   "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
   "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
   "Sharpie S-Gel Pens, Black Barrel, Medium Point, Black Ink, 12 Count",
@@ -878,7 +873,8 @@
   "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
   "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
   "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro",
-  "E3500 Intelligent Campsite Main Light Outdoor Camping Light 20000mAh Ultra Long Endurance Lighting Tent Hanging Light"
+  "E3500 Intelligent Campsite Main Light Outdoor Camping Light 20000mAh Ultra Long Endurance Lighting Tent Hanging Light",
+  "Random Mystery Fidget Toys Bag Pack for Kids Cheap Sensory Toys Stress Reliver Autism ADHD Gifts Spinner Fidget Squishy Set"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
