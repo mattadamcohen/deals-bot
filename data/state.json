@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 6
+  "2026-11-19": 7
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -70,6 +70,7 @@
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
   "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
+  "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "ea sports college football": "2026-11-19T07:34:38.275836+00:00",
@@ -192,7 +193,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T07:34:38.275292+00:00",
+ "last_post_at": "2026-11-19T08:01:17.367908+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -581,22 +582,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Braun Silk Expert Pro 7 IPL PL7"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "Braun IPL PL7219",
-   "not_before": "2026-11-19T08:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "braun",
-    "ipl"
-   ],
-   "sid": "shot-1118-4",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Osprey Axis daypack"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -826,6 +811,7 @@
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
+  "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
@@ -886,10 +872,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/beard trimmer men",
   "office-products",
   "aliexpress/led drawing board kids",
-  "sporting-goods"
+  "sporting-goods",
+  "aliexpress/gift for women"
  ],
  "recent_groups": [
   "beauty",
@@ -900,17 +886,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "fashion",
   "other",
   "fashion",
   "kids",
   "beauty",
   "home",
   "kids",
-  "sport"
+  "sport",
+  "fashion"
  ],
  "recent_titles": [
-  "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
   "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
   "everydrop by Whirlpool Ice & Water Refrigerator Filter 2, Orange, EDR2RXD1",
   "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
@@ -921,7 +906,8 @@
   "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
   "Sharpie S-Gel Pens, Black Barrel, Medium Point, Black Ink, 12 Count",
   "LED Light Up Drawing Board, Erasable Acrylic Writing Board, Type-C Rechargeable Glow Note Board for Kids Drawing, Bar Menu",
-  "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame"
+  "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame",
+  "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -933,6 +919,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136138
 }
