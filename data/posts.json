@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0F1WB2PVS",
-  "title": "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
-  "title_he": "Zulay Kitchen מקציף חלב נטענת כף יד, מטרפה חשמלית, שחורה",
-  "price": "$16.99",
-  "was": "$27.99",
-  "discount": "39%",
-  "rating": "4.4",
-  "reviews": "20,573",
-  "rank": 30,
-  "source": "bestsellers",
-  "message_id": 143,
-  "image": "https://m.media-amazon.com/images/I/71NIePygSGL._AC_SL1500_.jpg",
-  "variant": 360,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   143,
-   144,
-   145
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/535a44b6-993e-451b-88b6-492c884106cd.mp4/productVideoOptimized.mp4",
-  "category_slug": "home-garden",
-  "category_en": "Home & Kitchen",
-  "category_he": "בית ומטבח",
-  "posted_at": "2026-11-17T12:01:22.930001+00:00"
- },
- {
   "asin": "ali-1005012356700292",
   "title": "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 Game Controller Para Celular Controle Cloud Gaming Xbox Game Pass STADIA",
   "title_he": "GameSir X2s Mobile Gamepad Android IOS iPhone 17 16 15 בקר משחק Para Cellular Controle Cloud Gaming Xbox Game Pass STADIA",
@@ -1154,5 +1125,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-19T05:30:57.618016+00:00"
+ },
+ {
+  "asin": "ali-1005010323750589",
+  "title": "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
+  "title_he": "גוזם שיער גוף ושיער ערווה לגברים ונשים, מכונת גילוח חשמלית לגוף ולביקיני ללא כאבים | סכין גילוח נטענת מסוג C עמיד למים",
+  "price": "$12.12",
+  "was": "$25.53",
+  "discount": "52%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 288,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7b34a5bfe418471fa623d60f82fc5b61c.jpg",
+  "variant": 782,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kJrrvnwJfEpAGg3WDnGFrjaAOdoVbp4KIHEjUD6CmSfehQEK2OGz1NFJLUzoEBpHubgq8dGzsaTlcQ97zOJTG4iP17m4UWOGCvMHx9D98yhjQ1YSHnGz36w5H2xbh1ClGCZJiqsZzJeJ2D5SyhzqO4K1pPRJdkYI4wZmcajzaPVwx7Zeo11FvJMp6CtCY2e25LAB5BPo9n6PWpM4zvjjQzwvkHaTn1xA2DbwpZU1oAySaIek0Pz01z9eRUxKZD2k6PkMq3iD5ebKjFgaRk4ubeg7WZYh0K1W5cTUgPqYnInaGLtLRUHaC1tz2ueRIRXoUoDB1ME3UN4hdvKneV8OYAzjP3SjaDalXMELFSF89fwJ8rLL6oNUJbghDpYYOzvTG04NOWs7RZMsVnZ8vQmlSHy2UIZcimBGQYUHasPSz3WUK61FvOrW8v55dg0f6Skgigf9J8KfcakwcrqOxyeVLkTx5dTsdpEnW1TGqLpZXZs0OR6hySriw6aOz3Azf09OnK9YzQOKnOqISKdxQvvkvyHUE8DMQqPi2jEWxzXnYoYtuYHyKSwZK6a4UrjaXC2pEDuV3UcGetHbHAw7usSgl7UkNN9GwfN3THF6xHWRxipFTx6U0xl2SzitMTEM2eQYEuc9oI7ARKcNpuPzpkk00ZtmR2APdf5ah9Rf3vcBYjNwIRUM2mryGe18XOUAoy331GBt1yvbyZ3RS",
+  "sold": "834",
+  "album_ids": [
+   288,
+   289,
+   290
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2673243734/p/1/e/6/t/10301/4000265694147.mp4",
+  "category_slug": "aliexpress/beard trimmer men",
+  "category_en": "Beauty",
+  "category_he": "טיפוח",
+  "posted_at": "2026-11-19T06:01:02.147925+00:00"
  }
 ]

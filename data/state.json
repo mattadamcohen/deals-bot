@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 2
+  "2026-11-19": 3
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -58,6 +58,7 @@
   "bedsure satin pillowcases queen": "2026-11-16T05:34:38.383004+00:00",
   "big size building blocks": "2026-11-15T19:15:42.408291+00:00",
   "bigfoot shower curtain": "2026-11-17T18:01:00.469469+00:00",
+  "body hair pubic hair": "2026-11-19T06:01:02.150321+00:00",
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
@@ -186,7 +187,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T19:04:38.763431+00:00",
- "last_post_at": "2026-11-19T05:30:57.619499+00:00",
+ "last_post_at": "2026-11-19T06:01:02.150192+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -639,12 +640,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:00:55.473478+00:00",
-   "id": "3256812939426576",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4WAMwMt"
-  },
-  {
    "at": "2026-11-18T20:00:56.634585+00:00",
    "id": "3256813339185332",
    "store": "aliexpress",
@@ -846,6 +841,7 @@
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
+  "ali-1005010323750589": "2026-11-19T06:01:02.107095+00:00",
   "ali-1005010323880088": "2026-11-18T17:30:57.396925+00:00",
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
@@ -869,10 +865,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "fashion/1040658",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/beard trimmer men"
  ],
  "recent_groups": [
   "kitchen",
@@ -883,17 +879,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "beauty",
   "car",
   "home",
   "sport",
   "fashion",
   "other",
   "fashion",
-  "kids"
+  "kids",
+  "beauty"
  ],
  "recent_titles": [
-  "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
   "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
   "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools",
   "12Pcs 3cm Mini Magic Cube Children Educational Toys Kindergarten Prize Kids Birthday Party Favors Goodie Bag Pinata Fillers",
@@ -904,7 +899,8 @@
   "Nautica Men's Quarter-Zip Sweater",
   "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards",
   "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
-  "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves"
+  "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
+  "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -916,6 +912,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136133
 }
