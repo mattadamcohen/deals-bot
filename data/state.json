@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 25
+  "2026-11-19": 26
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -180,6 +180,7 @@
   "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
+  "uno pokemon board game": "2026-11-19T17:30:51.560155+00:00",
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
@@ -216,7 +217,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-19T17:00:55.580776+00:00",
+ "last_post_at": "2026-11-19T17:30:51.559763+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -667,12 +668,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-19T07:31:00.141737+00:00",
-   "id": "1005013525500084",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4Bg9ZKZ"
-  },
-  {
    "at": "2026-11-19T07:31:00.892505+00:00",
    "id": "1005013488905199",
    "store": "aliexpress",
@@ -818,15 +813,16 @@
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
   "ali-1005013410819294": "2026-11-19T12:30:54.859058+00:00",
+  "ali-1005013525500084": "2026-11-19T17:30:51.321754+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32878557142": "2026-11-18T11:01:29.110017+00:00",
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/gift set for men",
   "aliexpress/phone holder car",
   "fashion/1040664",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -838,17 +834,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "beauty",
   "tech",
   "kids",
   "fashion",
   "tech",
   "kids",
-  "tech"
+  "tech",
+  "other"
  ],
  "recent_titles": [
-  "Christmas Projector Light 22 Patterns Rotating LED Projection Lamp Santa Claus Snowflake Elk Xmas Decor Night Light Rechargeable",
   "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
   "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories",
   "Owala Tumbler Stainless Steel Water Bottle 24 oz - Diet Coke Classic",
@@ -859,7 +854,8 @@
   "4PCS Men Business Watches Fashion Steel Band Analog Male's Quartz Watch Jewelry Set Relogio Masculino Clock Gift\uff08Without Box\uff09",
   "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand 360\u00b0 Rotation \u041cagnet Holder For iPhone Gym/Driving Vacuum Phone Stand",
   "Disney Toddler/Little/Big Girls' Princess Fantasy Gown Nightgown",
-  "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden"
+  "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden",
+  "2027 UNO ! Pokemon Board Game Anime Cartoon Pikachu Figure Pattern Family Funny Entertainment uno Cards Games Christmas Gifts"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
