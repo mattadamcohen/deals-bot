@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 21
+  "2026-11-19": 22
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -124,6 +124,7 @@
   "magnetic train toy for": "2026-11-19T15:01:01.313672+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "medicube toner pads zero": "2026-11-19T12:04:43.457550+00:00",
+  "men business watches fashion": "2026-11-19T15:31:12.228720+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
   "miracase silicone magnetic for": "2026-11-17T17:01:01.958971+00:00",
   "multifunctional vegetable cutter slicer": "2026-11-17T10:31:40.721471+00:00",
@@ -211,7 +212,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T12:04:39.223362+00:00",
- "last_post_at": "2026-11-19T15:01:01.313527+00:00",
+ "last_post_at": "2026-11-19T15:31:12.228580+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -626,21 +627,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Harry Potter box set children's collection"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "Harry Potter complete collection box set paperback",
-   "not_before": "2026-11-19T15:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "harry potter"
-   ],
-   "sid": "shot-1118-7",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "LOFANS TR1 hair trimmer"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -775,6 +761,7 @@
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
+  "ali-1005007805516838": "2026-11-19T15:31:12.173190+00:00",
   "ali-1005007805563822": "2026-11-18T16:01:31.926969+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
@@ -826,10 +813,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy set",
   "hpc",
   "aliexpress/smart plug wifi",
-  "aliexpress/magnetic train track toy"
+  "aliexpress/magnetic train track toy",
+  "aliexpress/gift set for men"
  ],
  "recent_groups": [
   "office-products",
@@ -840,17 +827,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "home",
   "beauty",
   "tech",
   "sport",
   "kids",
   "beauty",
   "tech",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
   "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro",
   "E3500 Intelligent Campsite Main Light Outdoor Camping Light 20000mAh Ultra Long Endurance Lighting Tent Hanging Light",
   "Random Mystery Fidget Toys Bag Pack for Kids Cheap Sensory Toys Stress Reliver Autism ADHD Gifts Spinner Fidget Squishy Set",
@@ -861,7 +847,8 @@
   "Taba Squishy Stress Balls Cube - Ocean Sensory Fidget Toy Slow Rise Squishy Toys for Kids and Adults Squeeze Relax Gift",
   "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting",
   "Original Broadlink RM4 Pro IR RF WIFI Universal Smart Remote Control RM4Pro SmartHome Automation Work With Alexa and Google Home",
-  "Magnetic Train Toy For Boys Track 1:64 Electric Rail DIY Magic Vehicle Model Toys Education 3 Years Children Gifts"
+  "Magnetic Train Toy For Boys Track 1:64 Electric Rail DIY Magic Vehicle Model Toys Education 3 Years Children Gifts",
+  "4PCS Men Business Watches Fashion Steel Band Analog Male's Quartz Watch Jewelry Set Relogio Masculino Clock Gift\uff08Without Box\uff09"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
