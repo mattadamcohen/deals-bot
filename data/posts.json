@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0HCYX8QBJ",
-  "title": "Miracase Silicone & Magnetic for iPhone 18 Pro Max Case, Burgundy",
-  "title_he": "כיסוי Miracase סיליקון ומגנטי לאייפון 18 Pro Max, בורדו",
-  "price": "$22.99",
-  "was": "$24.99",
-  "discount": "8%",
-  "rating": "4.4",
-  "reviews": "85,854",
-  "rank": 8,
-  "source": "bestsellers",
-  "message_id": 173,
-  "image": "https://m.media-amazon.com/images/I/61PxlVyu8NL._AC_SL1500_.jpg",
-  "variant": 13,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   173,
-   174,
-   175
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/24af013e-9776-48d0-bd3c-3884127a1dfc/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-17T17:01:01.957570+00:00"
- },
- {
   "asin": "ali-1005008077374870",
   "title": "Worx 4V Mini Electrical Screwdriver Set WX242 WX241 WX240 Smart Cordless Electric Screwdrivers USB Rechargeable Hand Drill Tools",
   "title_he": "סט מברגים חשמליים מיני מסוג Worx 4V WX242 WX241 WX240 מברגים חשמליים חכמים אלחוטיים נטענים USB כלי מקדחה ידנית נטענת",
@@ -1154,5 +1125,34 @@
   "category_en": "Home & Kitchen",
   "category_he": "בית ומטבח",
   "posted_at": "2026-11-19T08:31:27.607470+00:00"
+ },
+ {
+  "asin": "ali-1005013158482764",
+  "title": "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
+  "title_he": "חמודה חמודה מגוונת דמויות Squishy צעצועי מסיבה עיוורת הפתעה לאט עולה רך פידג'ט צעצוע הפגת מתח אקראי 1 יחידות",
+  "price": "$2.35",
+  "was": "$5.16",
+  "discount": "54%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 306,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se9d92fedf8e54a12b8e249cef18f6cdfr.png",
+  "variant": 60,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nxgtTCClyKmDZzS89OPTARGyHUTMRHLgaQSSNmDdSGn8O19Ldmq58J81lMFHLwkzy1CmkVpieaCNdV9NE5o51a0UNhIqfSTAN3kEHmG9V8nYksgAUWhbHveeJLOcdA5i14RvQf4bO2mzpZnVtubYI2geeOvUIkScFvh4qRyXauZI1PxWJzxjjLwgtY5VNurSSlcz2wuNItm5RS7UIjUdX8cpdIU7xA8HPiJOXPJdCRWWPBs3sgPOa2IF0EqMhOqwQf637FmYoFLteum1KvV90is9NUaqzO8Ogew8Jg2i8Sx5MiEUjZYa9zaxBygNEyeJbCPbnOpGT72qJxyDZ8ZlxxEyeXvfS2cqFWINP4tV8YJnczmUukpy1vUW5q4E9UpySohSLcNFkR8aLQnbMedPKmMwUv6F5nXnXDQM5R8HAuqNslMr6H8oBbIGZIqTxBx2c9VgYeL4fvIRI5uxdWdhIEAP0nES2y6JOxv1yKpa48UvezXvIYe9EEPICGC0iYAYNT4kC0wnjGhYsTwAkHLhcHU4joAThr14OJPINO1D7cAhbFxm61FIJkJaI7wLyikt8HftrWd9pUGi3dIAnKQFdR3UxAALcQ5lmBs3VLwYh75FSXSwBcprTtHsa4SLCliBsqn1bsZtYW6TyE6DBWpnVN8ZAvVhyGx99k2SMpbOPvWcpu6FM5jpXpNjznj749GenIw1lSAhBoNR4",
+  "sold": "7,000",
+  "album_ids": [
+   306,
+   307,
+   308
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/squishy toy",
+  "category_en": "Squishies",
+  "category_he": "סקווישים",
+  "posted_at": "2026-11-19T09:01:16.695715+00:00"
  }
 ]
