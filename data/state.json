@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 1
+  "2026-11-19": 2
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -45,6 +45,7 @@
   "B0HQ6YZJJ8": "2026-11-17T17:01:01.958967+00:00",
   "B0HQJLZWFC": "2026-11-17T09:01:31.220132+00:00",
   "B0HR99K3MK": "2026-11-17T08:01:21.527621+00:00",
+  "B0HRDR92BX": "2026-11-19T05:30:57.619742+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
@@ -109,6 +110,7 @@
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
   "miracase silicone magnetic for": "2026-11-17T17:01:01.958971+00:00",
   "multifunctional vegetable cutter slicer": "2026-11-17T10:31:40.721471+00:00",
+  "music boxing machine for": "2026-11-19T05:30:57.619746+00:00",
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
@@ -184,7 +186,7 @@
   }
  },
  "last_harvest_at": "2026-11-18T19:04:38.763431+00:00",
- "last_post_at": "2026-11-19T05:01:34.012618+00:00",
+ "last_post_at": "2026-11-19T05:30:57.619499+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -560,21 +562,6 @@
  "pick_queue": [
   {
    "alt": [
-    "music boxing machine for kids"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "kids music boxing machine dinosaur boxing gloves",
-   "not_before": "2026-11-19T05:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "boxing"
-   ],
-   "sid": "shot-1118-3",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Braun Silk Expert Pro 7 IPL PL7"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -800,6 +787,7 @@
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
+  "B0D8HYLBFS": "2026-11-19T05:30:57.561688+00:00",
   "B0D9RPX853": "2026-11-17T19:46:09.833335+00:00",
   "B0DDZN76T9": "2026-11-17T15:04:45.276241+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
@@ -881,9 +869,9 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/camping lantern",
   "fashion/1040658",
   "aliexpress/1101-1118 11.11 Sale - Big Save",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -895,17 +883,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "beauty",
   "car",
   "home",
   "sport",
   "fashion",
   "other",
-  "fashion"
+  "fashion",
+  "kids"
  ],
  "recent_titles": [
-  "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
   "Essager 240W USB C Cable for iPhone 18 17 16 Plus Pro Max Macbook iPad Supercharge Fast Charger Type C Cable for Xiaomi Samsung",
   "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
   "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools",
@@ -916,7 +903,8 @@
   "FLEXTAIL ZERO LANTERN - 56g Ultralight 2-in-1 Camping Light, 300LM Bright LED, IPX5 Waterproof for Hiking Camping",
   "Nautica Men's Quarter-Zip Sweater",
   "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards",
-  "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM"
+  "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
+  "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -928,6 +916,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136133
 }

@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005010425273195",
-  "title": "Squishy Antistress Duck Fidgets Toys Cute Goose Animals Vent Toys for Kids Adults Decompression Stretch Toys Friends Best Gift",
-  "title_he": "Squishy Antistress Duck Fidgets צעצועי אווז חמוד חיות אווז צעצועי פורקן לילדים מבוגרים שחרור לחץ צעצועי מתיחה חברים המתנה הטובה ביותר",
-  "price": "$3.39",
-  "was": "$7.96",
-  "discount": "57%",
-  "rating": "90.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 140,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1047dcbce6e44028ad5e2435efa2e186T.jpg",
-  "variant": 940,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o54rPiwkZWvia4hnjsQqiUxM7LUPG4tPgjlW8BWfwEGGIoNswkfwNPl4FaAnKxXvcThXbpFZMivf9GfnhSgZxDqpUAaO4CYNM7XpaHO4uJgKxMDmSZYVvJVEQsV33RRpDgJ7SSyjOaVWVxiEHO8wBL2seFmJyLw9SgY9Xi8mBMFBt3FunZ47EAtNaBBO5lab4ZTASF03wcWmyUhae1Bbx71w2x4uRfQljV9EeBMjdyoUNYTd4c2BVnbjJwAw2jrVkdkezzK6JUUH63Ys0uTjTAu0EHFwqWv2vZcmUZAIVzdKB0tKZY3eDIk7bCDJQRfaKapALqIJHyGvhXYjbjRwZz79OCuHx64fSZV3kOUbUc6f1klEcWV4tNjsThRpwZDIXjb9rFPuDOUfQmByLMlteQPCEJpepfrV03HY86t7xSnxwhmVHmgDOPTFGYPIN1QCqAHQKKbgtSufQQVs0saOsrJgkuDovHuSdmSzIqUnwEsnU337u9jzJ7132vVjqO4CO7v9OphUIO6k0g5lECZWMUMV8eKBl3popRNPE6gX8mJ7i2B3uJTUcxJYOQREoOPIbKPOKomxj8cn7V7hfgCQxRuLEceltNCmDVKnwTAZ907Z4atsbfu0Ma37erWD5SZ5U35Zzs6Uky82mAlxTEM1IBnBwPYY2KJriVYgfbMch5vunpiptdGykWKDkefyhQeSJwDzN9ljpt5w2",
-  "sold": "8,000",
-  "album_ids": [
-   140,
-   141,
-   142
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/squishy toy",
-  "category_en": "Squishies",
-  "category_he": "סקווישים",
-  "posted_at": "2026-11-17T11:31:42.969069+00:00"
- },
- {
   "asin": "B0F1WB2PVS",
   "title": "Zulay Kitchen Rechargeable Milk Frother Handheld, Electric Whisk, Black",
   "title_he": "Zulay Kitchen מקציף חלב נטענת כף יד, מטרפה חשמלית, שחורה",
@@ -1154,5 +1125,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-19T05:01:34.011032+00:00"
+ },
+ {
+  "asin": "B0D8HYLBFS",
+  "title": "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
+  "title_he": "מכונת אגרוף מוזיקה לילדים, מכונת אימון מוזיקת ​​אגרוף מהנה עם כפפות",
+  "price": "$49.99",
+  "was": "$79.99",
+  "discount": "38%",
+  "rating": "4.7",
+  "reviews": "17",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 285,
+  "image": "https://m.media-amazon.com/images/I/71-j1PpuDwL._AC_SL1500_.jpg",
+  "variant": 806,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   285,
+   286,
+   287
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/e3f90598-9b48-45b7-902b-86bc0b6e6dc3.mp4/productVideoOptimized.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-19T05:30:57.618016+00:00"
  }
 ]
