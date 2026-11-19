@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 16
+  "2026-11-19": 17
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -40,6 +40,7 @@
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
+  "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HLN1KCQY": "2026-11-18T17:00:58.235297+00:00",
@@ -134,6 +135,7 @@
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
+  "owala tumbler stainless steel": "2026-11-19T13:00:58.397241+00:00",
   "pc case shell for": "2026-11-19T12:30:55.031143+00:00",
   "piece bicycle dynamometer wrench": "2026-11-18T16:01:31.979475+00:00",
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
@@ -204,7 +206,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T12:04:39.223362+00:00",
- "last_post_at": "2026-11-19T12:30:55.030998+00:00",
+ "last_post_at": "2026-11-19T13:00:58.397070+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -619,22 +621,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Teclast P30T 10.1"
-   ],
-   "at": "2026-11-18T17:25:00+00:00",
-   "id": "Teclast P30T tablet",
-   "not_before": "2026-11-19T13:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "teclast",
-    "p30t"
-   ],
-   "sid": "shot-1118-6",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Harry Potter box set children's collection"
    ],
    "at": "2026-11-18T17:25:00+00:00",
@@ -786,6 +772,7 @@
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
+  "B0HHJYF7SS": "2026-11-19T13:00:58.376909+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
@@ -854,31 +841,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy toy",
   "aliexpress/kids night light",
   "beauty",
-  "aliexpress/ps5 accessories"
+  "aliexpress/ps5 accessories",
+  "sporting-goods"
  ],
  "recent_groups": [
-  "appliances",
   "fashion",
   "office-products",
   "sporting-goods",
   "home-garden",
-  "beauty"
+  "beauty",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "tech",
   "sport",
   "kids",
   "home",
   "beauty",
-  "tech"
+  "tech",
+  "sport"
  ],
  "recent_titles": [
-  "LED Light Up Drawing Board, Erasable Acrylic Writing Board, Type-C Rechargeable Glow Note Board for Kids Drawing, Bar Menu",
   "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame",
   "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift",
   "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count",
@@ -889,7 +875,8 @@
   "Random Mystery Fidget Toys Bag Pack for Kids Cheap Sensory Toys Stress Reliver Autism ADHD Gifts Spinner Fidget Squishy Set",
   "Christmas Projector Light 22 Patterns Rotating LED Projection Lamp Santa Claus Snowflake Elk Xmas Decor Night Light Rechargeable",
   "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
-  "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories"
+  "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories",
+  "Owala Tumbler Stainless Steel Water Bottle 24 oz - Diet Coke Classic"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -901,6 +888,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136138
 }
