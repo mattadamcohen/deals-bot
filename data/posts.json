@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005009344717413",
-  "title": "Kids Digital Camera Photography Instant Print Photo 1080P HD With Video Recorder Mini Thermal Printer Educational Birthday Gifts",
-  "title_he": "ילדים צילום מצלמה דיגיטלית הדפסה מיידית תמונה 1080P HD עם מקליט וידאו מיני מדפסת תרמית מתנות יום הולדת חינוכיות",
-  "price": "$25.59",
-  "was": "$54.49",
-  "discount": "53%",
-  "rating": "95.6%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 209,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a35fdf40ef54f6ab18e427b213288b6b.jpg",
-  "variant": 176,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4orPZUJyU1Pwz6ubUQtrerusyTZqe7oM5AmBJsQ1e8WdZBlb5QHcRfBQQH9HPBc6KzUwsRIIgRtvEgLRWNV5MAsaZi0gYdCYL4CehyoWGWrVKLw6QmuR5jW3oF0y2654mX6tqrUjn2uzDF1Uqi9626DZcaX0NzGtTB6tVa73TdiZWyfEeCavI9w0cbzHxsXnw2tUNnZeSs843bFp2mAj75aFIeT5mZicIaQD9ysoZNZrbjmwLTZDn4bo5PNdxZOsp4I5em92ISPx4zqprJu9OvMdjGbOAzqWIbaMuq6N297EycpU91InrY9LFARWjKjiCge4zmQlTfNYSWN6bjVlCYOKIHMzIgzHD3kkgGnJ3KFAWDJJu3GF584lLem1eZCJGg3IPtuh2G7snPyytYUSEKvAlX0c8AbhFFEoj2U6Jc97XqY0fAgnqXo4zU4WyE46MCGaakBKinltq4T3EoT5qN4ys5t0uy7eQzTeExBkk4ywQ6oeEULpuTDTSSUcAbjFXKMHe29ByLlBElcRuAjh3jxFtYe4n7SK9y54zcvkXnJN9JB6elVjAXtP0bruU1R31EGjlYMSYZQBHAL9h3rkO0UTRo9CBdGOfezY7LoFLoLDiw4jPGtO5IwWz3hkn2xKoA1BtpOZ4lCqS6mOh7AoKIStTkszSGNsj0RW33qUMVQ1VeLJ8Ft88cUd01Zv6Fh9Ly5uyqBWWYBUcR",
-  "sold": "1,000",
-  "album_ids": [
-   209,
-   210,
-   211
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/kids thermal printer",
-  "category_en": "Kids tech",
-  "category_he": "טכנולוגיה לילדים",
-  "posted_at": "2026-11-18T07:30:53.022081+00:00"
- },
- {
   "asin": "ali-1005006966123998",
   "title": "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
   "title_he": "Genuine R36S Retro Handheld Game Player Open Source ARKOS System 3.5\" IPS Screen 64/128GB Emulator Hall Effect Wireless Gamepad",
@@ -1154,5 +1125,34 @@
   "category_en": "Squishies",
   "category_he": "סקווישים",
   "posted_at": "2026-11-19T13:30:59.567310+00:00"
+ },
+ {
+  "asin": "B0035LCFNQ",
+  "title": "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting",
+  "title_he": "סוללות Duracell Coppertop AA, ספירה 24, חיי מדף של 12 שנים, עמידה לאורך זמן",
+  "price": "$21.75",
+  "was": "",
+  "discount": "",
+  "rating": "4.8",
+  "reviews": "159,318",
+  "rank": 20,
+  "source": "bestsellers",
+  "message_id": 336,
+  "image": "https://m.media-amazon.com/images/I/71F1yxjGeYL._AC_SL1500_.jpg",
+  "variant": 478,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   336,
+   337,
+   338
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/059652b9-fa1f-41bf-82e6-44df463cefb5/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "hpc",
+  "category_en": "Health & Household",
+  "category_he": "בריאות ומשק בית",
+  "posted_at": "2026-11-19T14:00:59.687306+00:00"
  }
 ]

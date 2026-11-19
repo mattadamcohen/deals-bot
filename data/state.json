@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 18
+  "2026-11-19": 19
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -23,6 +23,7 @@
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
   "B0DP4KNGWM": "2026-11-18T14:34:05.411603+00:00",
   "B0DQV9PZ8S": "2026-11-17T18:01:00.469465+00:00",
+  "B0DWY189WB": "2026-11-19T14:00:59.709483+00:00",
   "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F6V51BL4": "2026-11-17T16:01:58.139171+00:00",
@@ -77,6 +78,7 @@
   "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
+  "duracell coppertop aa batteries": "2026-11-19T14:00:59.709488+00:00",
   "e intelligent campsite main": "2026-11-19T10:31:04.276724+00:00",
   "ea sports college football": "2026-11-19T07:34:38.275836+00:00",
   "ejeas v pro+ motorcycle": "2026-11-17T15:31:26.860159+00:00",
@@ -207,7 +209,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T12:04:39.223362+00:00",
- "last_post_at": "2026-11-19T13:30:59.569089+00:00",
+ "last_post_at": "2026-11-19T14:00:59.709338+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -651,12 +653,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:30:52.793561+00:00",
-   "id": "3256812924628026",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4Xoz1cV"
-  },
-  {
    "at": "2026-11-18T20:30:54.990695+00:00",
    "id": "3256812952399385",
    "store": "aliexpress",
@@ -701,6 +697,7 @@
  ],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
+  "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
   "B00VBP8QPO": "2026-11-18T18:03:45.902851+00:00",
   "B0157T2ENY": "2026-11-16T06:31:23.775770+00:00",
@@ -837,31 +834,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "beauty",
   "aliexpress/ps5 accessories",
   "sporting-goods",
-  "aliexpress/squishy set"
+  "aliexpress/squishy set",
+  "hpc"
  ],
  "recent_groups": [
-  "fashion",
   "office-products",
   "sporting-goods",
   "home-garden",
   "beauty",
-  "sporting-goods"
+  "sporting-goods",
+  "hpc"
  ],
  "recent_themes": [
-  "tech",
   "sport",
   "kids",
   "home",
   "beauty",
   "tech",
   "sport",
-  "kids"
+  "kids",
+  "beauty"
  ],
  "recent_titles": [
-  "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift",
   "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count",
   "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
   "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
@@ -872,7 +868,8 @@
   "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
   "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories",
   "Owala Tumbler Stainless Steel Water Bottle 24 oz - Diet Coke Classic",
-  "Taba Squishy Stress Balls Cube - Ocean Sensory Fidget Toy Slow Rise Squishy Toys for Kids and Adults Squeeze Relax Gift"
+  "Taba Squishy Stress Balls Cube - Ocean Sensory Fidget Toy Slow Rise Squishy Toys for Kids and Adults Squeeze Relax Gift",
+  "Duracell Coppertop AA Batteries, 24 Count, 12-Year Shelf Life, Long-lasting"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -884,6 +881,6 @@
   "shot-1118-7",
   "shot-1118-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136138
 }
