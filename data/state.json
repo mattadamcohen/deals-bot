@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-19": 10
+  "2026-11-19": 11
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -101,6 +101,7 @@
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
+  "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
@@ -197,7 +198,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T07:34:34.389998+00:00",
- "last_post_at": "2026-11-19T09:30:56.971509+00:00",
+ "last_post_at": "2026-11-19T10:00:55.679400+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -647,12 +648,6 @@
    "url": "screenshot"
   },
   {
-   "at": "2026-11-18T20:01:05.057897+00:00",
-   "id": "3256813144673435",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3zMJF1r"
-  },
-  {
    "at": "2026-11-18T20:01:06.433132+00:00",
    "id": "3256810096195024",
    "store": "aliexpress",
@@ -831,6 +826,7 @@
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
   "ali-1005009385704664": "2026-11-18T07:01:06.726523+00:00",
   "ali-1005009522437194": "2026-11-17T15:31:26.822197+00:00",
+  "ali-1005009648930864": "2026-11-19T10:00:55.607269+00:00",
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
@@ -861,10 +857,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/gift for women",
   "home-garden",
   "aliexpress/squishy toy",
-  "aliexpress/kitchen storage containers"
+  "aliexpress/kitchen storage containers",
+  "aliexpress/solar security camera outdoor"
  ],
  "recent_groups": [
   "hpc",
@@ -875,17 +871,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "beauty",
   "home",
   "kids",
   "sport",
   "fashion",
   "home",
   "kids",
-  "kitchen"
+  "kitchen",
+  "tech"
  ],
  "recent_titles": [
-  "Nautica Men's Quarter-Zip Sweater",
   "AJAZZ AK820 Wired With Rotary Volume Buttons Hot-Swappable Keys For Office And Home Mechanical Keyboards",
   "Global Version Xiaomi Watch S5 Smartwatch 1.48\" AMOLED Screen 21 Days Battery Life Xiaomi HyperOS 3 150+ Sports Modes GPS 5ATM",
   "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
@@ -896,7 +891,8 @@
   "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift",
   "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count",
   "Hot Cute Assorted Squishy Figures Blind Box Party Surprise Toys Slow Rising Soft Fidget Squeeze Stress Relief Toy Random 1pcs",
-  "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools"
+  "304 Stainless Steel Oil Pot Kitchen Oil Tank Sauce Vinegar Drip-Proof Dust-Proof Oil Storage Container To Store Kitchen Tools",
+  "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance V380pro"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
