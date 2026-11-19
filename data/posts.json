@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DDZN76T9",
-  "title": "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warranty.",
-  "title_he": "תחליף לשלט של סמסונג לטלוויזיה, לכל 2019-2026 שלט סמסונג לטלוויזיה חכמה עם שליטה קולית. אחריות מלאה לשנתיים.",
-  "price": "$19.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.3",
-  "reviews": "10,901",
-  "rank": 23,
-  "source": "bestsellers",
-  "message_id": 161,
-  "image": "https://m.media-amazon.com/images/I/51BpdDH3e2L._AC_SL1500_.jpg",
-  "variant": 280,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   161,
-   162,
-   163
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/aaa34b55-e062-4d38-a2b0-8c37d097f1c0.mp4/productVideoOptimized.mp4",
-  "category_slug": "electronics",
-  "category_en": "Electronics",
-  "category_he": "אלקטרוניקה",
-  "posted_at": "2026-11-17T15:04:45.299547+00:00"
- },
- {
   "asin": "B0F6VKZ4FB",
   "title": "LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive",
   "title_he": "חזיות ג'לי LetsJoli לנשים ללא חוטי Push Up בגודל פלוס",
@@ -1154,5 +1125,34 @@
   "category_en": "Kids activities",
   "category_he": "פעילות לילדים",
   "posted_at": "2026-11-19T07:00:58.625306+00:00"
+ },
+ {
+  "asin": "B0H2K6W7P9",
+  "title": "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame",
+  "title_he": "EA SPORTS College Football 27 - מהדורה סטנדרטית PS5 |Disc I VideoGame",
+  "price": "$34.97",
+  "was": "$69.99",
+  "discount": "50%",
+  "rating": "4.6",
+  "reviews": "224",
+  "rank": 17,
+  "source": "bestsellers",
+  "message_id": 297,
+  "image": "https://m.media-amazon.com/images/I/71ZGsxBczrL._SX522_.jpg",
+  "variant": 366,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   297,
+   298,
+   299
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f005ae5a-6b8a-461b-8e94-3fc2a2f762e3/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "sporting-goods",
+  "category_en": "Sports & Outdoors",
+  "category_he": "ספורט וטבע",
+  "posted_at": "2026-11-19T07:34:38.273070+00:00"
  }
 ]
