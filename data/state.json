@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 15
+  "2026-11-20": 16
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -160,6 +160,7 @@
   "oneplus charger original w": "2026-11-18T06:00:57.960511+00:00",
   "original broadlink rm pro": "2026-11-19T14:30:55.884073+00:00",
   "original roborock s maxv": "2026-11-17T18:30:57.115494+00:00",
+  "outdoor solar lights bubble": "2026-11-20T12:31:27.470074+00:00",
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
@@ -247,7 +248,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
- "last_post_at": "2026-11-20T12:04:43.973368+00:00",
+ "last_post_at": "2026-11-20T12:31:27.469811+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -818,6 +819,7 @@
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
   "ali-1005007039765295": "2026-11-20T09:01:03.629317+00:00",
+  "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
@@ -889,10 +891,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/laptop screen extender",
   "pick",
-  "fashion/6358539011"
+  "fashion/6358539011",
+  "aliexpress/outdoor string lights"
  ],
  "recent_groups": [
   "hpc",
@@ -903,17 +905,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "tech",
   "kids",
   "other",
   "tech",
   "kids",
-  "fashion"
+  "fashion",
+  "home"
  ],
  "recent_titles": [
-  "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
   "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet",
   "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
   "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To",
@@ -924,7 +925,8 @@
   "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine",
   "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
   "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift",
-  "Casio A158WA Series | Unisex Digital Watch | Vintage | WR | 100 SEC Stop Watch | Daily Alarm | Regular Time Keeping: Hour, Minute, Second, PM, Date, Day | Led Light | 7 Yr Battery"
+  "Casio A158WA Series | Unisex Digital Watch | Vintage | WR | 100 SEC Stop Watch | Daily Alarm | Regular Time Keeping: Hour, Minute, Second, PM, Date, Day | Led Light | 7 Yr Battery",
+  "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -941,6 +943,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136143
 }
