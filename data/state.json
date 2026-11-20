@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 22
+  "2026-11-20": 23
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -45,6 +45,7 @@
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.178092+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GYRXHQXM": "2026-11-20T16:34:31.176210+00:00",
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
@@ -222,6 +223,7 @@
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
   "warm cold fskincare cervejeira": "2026-11-20T06:00:51.735589+00:00",
   "watches sports outdoor waterproof": "2026-11-20T14:01:00.196002+00:00",
+  "wiholl fall outfits for": "2026-11-20T16:34:31.176218+00:00",
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
   "worx v electrical screwdriver": "2026-11-17T17:31:56.535192+00:00",
   "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
@@ -268,8 +270,8 @@
   }
  },
  "last_bundle_day": "2026-11-20",
- "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
- "last_post_at": "2026-11-20T16:01:03.783920+00:00",
+ "last_harvest_at": "2026-11-20T16:34:25.912715+00:00",
+ "last_post_at": "2026-11-20T16:34:31.175374+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -325,6 +327,7 @@
   "B00E4AMFKK": "2026-11-20T07:32:48.400109+00:00",
   "B00E4GACB8": "2026-11-14T07:19:22.479822+00:00",
   "B00FXNAAW2": "2026-11-17T10:01:20.265416+00:00",
+  "B00G2XGC88": "2026-11-20T16:34:25.912703+00:00",
   "B00GL2HMES": "2026-11-18T14:33:06.711636+00:00",
   "B00JTF5TT4": "2026-11-14T12:24:25.437125+00:00",
   "B00JUM4DKC": "2026-11-18T19:02:43.014922+00:00",
@@ -404,6 +407,8 @@
   "B079KL4C91": "2026-11-19T06:32:41.064091+00:00",
   "B079M8FPTW": "2026-11-18T10:04:19.588206+00:00",
   "B079P85F4Z": "2026-11-16T15:04:43.829850+00:00",
+  "B079R8JRHB": "2026-11-20T16:32:27.723889+00:00",
+  "B079RDWCTP": "2026-11-20T16:32:41.420424+00:00",
   "B079VP6DH5": "2026-11-18T10:04:48.962873+00:00",
   "B079ZV4V3C": "2026-11-19T06:33:23.467599+00:00",
   "B07B6ZN7P8": "2026-11-14T06:59:33.254026+00:00",
@@ -417,6 +422,7 @@
   "B07CX9STN3": "2026-11-19T12:03:17.419413+00:00",
   "B07CYX989P": "2026-11-19T16:30:58.546652+00:00",
   "B07D323MFZ": "2026-11-19T12:01:40.265582+00:00",
+  "B07F28VQPS": "2026-11-20T16:32:15.086230+00:00",
   "B07FDXDB3W": "2026-11-15T17:09:26.780470+00:00",
   "B07FKYHTWP": "2026-11-15T17:07:59.465685+00:00",
   "B07FR4SVM3": "2026-11-19T16:31:19.498947+00:00",
@@ -448,6 +454,8 @@
   "B07Q1GHB5X": "2026-11-15T05:46:36.452778+00:00",
   "B07Q2H7Y3Q": "2026-11-19T16:34:02.663452+00:00",
   "B07Q394Z77": "2026-11-19T16:32:01.067301+00:00",
+  "B07QC4GD5Q": "2026-11-20T16:31:40.345860+00:00",
+  "B07QGB9B9Z": "2026-11-20T16:31:27.724253+00:00",
   "B07R8D1RHS": "2026-11-19T06:32:47.618215+00:00",
   "B07S2TDDCK": "2026-11-19T12:02:46.642158+00:00",
   "B07SR1QWVL": "2026-11-19T16:33:23.103042+00:00",
@@ -486,6 +494,7 @@
   "B08DTH86Q2": "2026-11-15T09:02:19.238144+00:00",
   "B08DXN4RR4": "2026-11-16T19:47:13.404477+00:00",
   "B08F9ZWMKD": "2026-11-14T07:07:39.663032+00:00",
+  "B08G88G21Q": "2026-11-20T16:34:18.618905+00:00",
   "B08H3JPH74": "2026-11-18T05:32:05.006417+00:00",
   "B08H8ZLKKK": "2026-11-15T17:03:16.868049+00:00",
   "B08J8GZXKZ": "2026-11-18T10:02:11.471423+00:00",
@@ -586,6 +595,7 @@
   "B0CJF94M8J": "2026-11-18T10:04:34.252659+00:00",
   "B0CKZ4ZWYG": "2026-11-16T15:04:03.723307+00:00",
   "B0CLHD89XB": "2026-11-14T19:32:11.072841+00:00",
+  "B0CLZJL26W": "2026-11-20T16:33:12.707344+00:00",
   "B0CM4NXMV2": "2026-11-18T14:32:50.537208+00:00",
   "B0CMJTSVRW": "2026-11-15T06:32:34.376532+00:00",
   "B0CMYR1CNK": "2026-11-18T05:33:58.452030+00:00",
@@ -614,6 +624,7 @@
   "B0D5RMVMWF": "2026-11-14T14:24:14.648259+00:00",
   "B0D5ZVCLVQ": "2026-11-19T16:32:49.875685+00:00",
   "B0D66XHKXR": "2026-11-19T16:33:52.677218+00:00",
+  "B0D6YMTMLG": "2026-11-20T16:33:58.371041+00:00",
   "B0D6ZPNZ4Z": "2026-11-18T05:33:33.799101+00:00",
   "B0D87PKYYK": "2026-11-14T07:01:09.478382+00:00",
   "B0D89V1RX1": "2026-11-14T14:22:42.067964+00:00",
@@ -687,6 +698,7 @@
   "B0FY2N96QG": "2026-11-17T05:02:30.354195+00:00",
   "B0FY6Y9WZT": "2026-11-16T10:32:12.043112+00:00",
   "B0FYJ7PWBY": "2026-11-20T07:32:29.842529+00:00",
+  "B0G1BK1J3B": "2026-11-20T16:31:35.499398+00:00",
   "B0G1V17DQR": "2026-11-14T07:06:18.100142+00:00",
   "B0G2STSGW3": "2026-11-17T19:34:15.100038+00:00",
   "B0G2SZQS1C": "2026-11-17T19:33:43.302455+00:00",
@@ -787,6 +799,7 @@
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
   "B0GZWZH2L8": "2026-11-14T07:10:36.637185+00:00",
+  "B0GZYMJTJH": "2026-11-20T16:34:31.134246+00:00",
   "B0H2FQ5FV1": "2026-11-16T13:46:30.672511+00:00",
   "B0H2K6W7P9": "2026-11-19T07:34:38.231616+00:00",
   "B0H4ZG39CY": "2026-11-17T09:01:31.172010+00:00",
@@ -889,31 +902,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids gift toy",
   "toys-and-games/166220011",
   "aliexpress/handheld thermal printer",
-  "pick"
+  "pick",
+  "fashion/1044456"
  ],
  "recent_groups": [
-  "sporting-goods",
   "beauty",
   "toys-and-games",
   "fashion",
   "beauty",
-  "toys-and-games"
+  "toys-and-games",
+  "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "home",
   "beauty",
   "tech",
   "home",
   "kids",
   "tech",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "Magnetic Train Set DIY 3D Cube Track Electric Train Set for Kids Flexible Magnet Track Car Toy Stem Learning Building Cube Gift",
   "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine",
   "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
   "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift",
@@ -924,7 +936,8 @@
   "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
   "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
   "NiiMbot B21 Mini Thermal Printer Wireless Barcode Label Maker Bluetooth Portable Adhesive Label Printers for Office Commercial",
-  "New 24V Electric Go-Kart Kids Outdoor Ride On Drift Racing Car Toy with Variable Speeds Up to 7.5 Mph, LED Lights, Music, USB Po"
+  "New 24V Electric Go-Kart Kids Outdoor Ride On Drift Racing Car Toy with Variable Speeds Up to 7.5 Mph, LED Lights, Music, USB Po",
+  "WIHOLL Fall Outfits for Women 2026 Hollow Out Knit Sweater Fashion Clothing"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -941,6 +954,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136146
 }
