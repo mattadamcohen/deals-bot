@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 4
+  "2026-11-20": 5
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -61,6 +61,7 @@
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
+  "automatic garbage with lids": "2026-11-20T07:00:54.847423+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
   "baseus magnetic car phone": "2026-11-19T16:01:27.640245+00:00",
   "baseus security b outdoor": "2026-11-16T12:07:54.639367+00:00",
@@ -227,7 +228,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-20T06:30:51.416195+00:00",
+ "last_post_at": "2026-11-20T07:00:54.847108+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -664,22 +665,6 @@
  "pick_queue": [
   {
    "alt": [
-    "smart trash can automatic lid bathroom"
-   ],
-   "at": "2026-11-20T05:06:00+00:00",
-   "id": "automatic trash can motion sensor small",
-   "not_before": "2026-11-20T06:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "trash",
-    "sensor"
-   ],
-   "sid": "shot-1120-1",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "electric peeling machine fruit"
    ],
    "at": "2026-11-20T05:06:00+00:00",
@@ -832,6 +817,7 @@
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005012890022315": "2026-11-20T05:30:55.529521+00:00",
+  "ali-1005013011426948": "2026-11-20T07:00:54.719891+00:00",
   "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
   "ali-1005013125741328": "2026-11-19T17:00:55.530593+00:00",
@@ -848,7 +834,7 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/Xiaomi watch",
+  "pick",
   "pick",
   "pick",
   "pick"
@@ -862,17 +848,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "home",
   "sport",
   "tech",
   "car",
   "car",
+  "tech",
   "tech"
  ],
  "recent_titles": [
-  "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand 360\u00b0 Rotation \u041cagnet Holder For iPhone Gym/Driving Vacuum Phone Stand",
   "Disney Toddler/Little/Big Girls' Princess Fantasy Gown Nightgown",
   "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden",
   "2027 UNO ! Pokemon Board Game Anime Cartoon Pikachu Figure Pattern Family Funny Entertainment uno Cards Games Christmas Gifts",
@@ -883,7 +868,8 @@
   "Toocki 2-in-1 Retractable Cable PD100W USB C Fast Charging Cable+2.5W Wireless Watch Charge for iphone/Apple Watch Xiaomi Huawei",
   "CENRR Handheld Wireless Car Vacuum Cleaner Charging Portable Strong Cleaning Appliance Mini Vacuum Cleaner For Car Household",
   "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu",
-  "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning"
+  "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
+  "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
