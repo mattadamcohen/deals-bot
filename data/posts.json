@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B09V7Z4TJG",
-  "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
-  "title_he": "Medicube Toner Pads Zero Pore Pad 2.0 עבור פילינג וטיפוח נקבוביות",
-  "price": "$13.23",
-  "was": "",
-  "discount": "30%",
-  "rating": "4.6",
-  "reviews": "37,107",
-  "rank": 3,
-  "source": "bestsellers",
-  "message_id": 324,
-  "image": "https://m.media-amazon.com/images/I/71Mcspt-6AL._SL1500_.jpg",
-  "variant": 747,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   324,
-   325,
-   326
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d26a3c31-0317-47c3-9ecf-da45e2dcf237/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-19T12:04:43.454161+00:00"
- },
- {
   "asin": "ali-1005013410819294",
   "title": "PC Clear Case Shell For PS5 Controller Skin Cover Transparent Full Protector for Sony Playstation 5 Gamepad Gaming Accessories",
   "title_he": "כיסוי כיסוי עור שקוף למחשב נקה מארז עבור בקר PS5 מגן מלא עבור סוני פלייסטיישן 5 אביזרי גיימינג",
@@ -1157,5 +1128,34 @@
   "category_en": "Beauty & Personal Care",
   "category_he": "יופי וטיפוח",
   "posted_at": "2026-11-20T17:31:34.860387+00:00"
+ },
+ {
+  "asin": "B0HG3RVZLW",
+  "title": "Pokémon TCG: Mega Evolution—Delta Reign Booster Bundle",
+  "title_he": "Pokémon TCG: Mega Evolution - חבילת ה-Delta Reign Booster",
+  "price": "$49.99",
+  "was": "",
+  "discount": "",
+  "rating": "4.7",
+  "reviews": "152",
+  "rank": 1,
+  "source": "bestsellers",
+  "message_id": 449,
+  "image": "https://m.media-amazon.com/images/I/81junkzzqfL._AC_SL1500_.jpg",
+  "variant": 883,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   449,
+   450,
+   451
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/080cbb39-a283-4830-830f-17ac28d05a13/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "toys-and-games/166220011",
+  "category_en": "Games",
+  "category_he": "משחקים",
+  "posted_at": "2026-11-20T18:01:21.594798+00:00"
  }
 ]
