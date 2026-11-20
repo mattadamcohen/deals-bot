@@ -658,7 +658,26 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "at": "2026-11-20T05:16:16.879860+00:00",
+   "id": "1005012890022315",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3F1br01"
+  },
+  {
+   "at": "2026-11-20T05:16:17.805873+00:00",
+   "id": "1005010330073102",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4nsCOvf"
+  },
+  {
+   "at": "2026-11-20T05:16:18.736161+00:00",
+   "id": "1005011608627646",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3XPM965"
+  }
+ ],
  "posted": {
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
@@ -858,5 +877,5 @@
   "shot-1118-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136139
+ "tg_offset": 260136142
 }
