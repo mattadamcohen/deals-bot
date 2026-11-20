@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 17
+  "2026-11-20": 18
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -132,6 +132,7 @@
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
+  "komery k digital camera": "2026-11-20T13:30:48.387965+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "letsjoli jelly bras for": "2026-11-17T16:01:58.139179+00:00",
@@ -250,7 +251,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
- "last_post_at": "2026-11-20T13:01:28.305856+00:00",
+ "last_post_at": "2026-11-20T13:30:48.387595+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -697,22 +698,6 @@
  "pick_queue": [
   {
    "alt": [
-    "digital camera 64MP 16X zoom vlog"
-   ],
-   "at": "2026-11-20T09:22:00+00:00",
-   "avoid": "lenovo|canon|nikon|sony|kodak",
-   "id": "4K digital camera 64MP vlogging 18X zoom",
-   "not_before": "2026-11-20T13:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "camera"
-   ],
-   "sid": "shot-1120-4",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "kids ride on go kart electric"
    ],
    "at": "2026-11-20T09:22:00+00:00",
@@ -875,6 +860,7 @@
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
+  "ali-1005012601272584": "2026-11-20T13:30:48.329162+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005012890022315": "2026-11-20T05:30:55.529521+00:00",
   "ali-1005013011426948": "2026-11-20T07:00:54.719891+00:00",
@@ -894,10 +880,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "fashion/6358539011",
   "aliexpress/outdoor string lights",
-  "beauty"
+  "beauty",
+  "pick"
  ],
  "recent_groups": [
   "fashion",
@@ -908,17 +894,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "other",
   "tech",
   "kids",
   "fashion",
   "home",
-  "beauty"
+  "beauty",
+  "tech"
  ],
  "recent_titles": [
-  "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
   "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To",
   "TALES 150 Conversation Cards, Perfect for Dinners, Road Trips, Classrooms & Game Nights, Gifts & Gatherings, Conversation Starters to Spark Creativity (Family Edition)",
   "9-in-1 Electric Cleaning Brush Electric Spin Cleaning Scrubber Electric Cleaning Tools Parlour Kitchen Bathroom Cleaning Gadgets",
@@ -929,7 +914,8 @@
   "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift",
   "Casio A158WA Series | Unisex Digital Watch | Vintage | WR | 100 SEC Stop Watch | Daily Alarm | Regular Time Keeping: Hour, Minute, Second, PM, Date, Day | Led Light | 7 Yr Battery",
   "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home",
-  "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)"
+  "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)",
+  "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
