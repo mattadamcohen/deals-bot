@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 14
+  "2026-11-20": 15
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -22,6 +22,7 @@
   "B0D9RRHH2T": "2026-11-17T19:46:09.918285+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
+  "B0DNG29JFN": "2026-11-20T12:04:43.973831+00:00",
   "B0DP4KNGWM": "2026-11-18T14:34:05.411603+00:00",
   "B0DQV9PZ8S": "2026-11-17T18:01:00.469465+00:00",
   "B0DWY189WB": "2026-11-19T14:00:59.709483+00:00",
@@ -79,6 +80,7 @@
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
+  "casio a wa series": "2026-11-20T12:04:43.973839+00:00",
   "cenrr handheld wireless car": "2026-11-20T05:30:55.605532+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
@@ -244,8 +246,8 @@
    "via": "join"
   }
  },
- "last_harvest_at": "2026-11-20T07:33:55.010534+00:00",
- "last_post_at": "2026-11-20T11:31:01.270873+00:00",
+ "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
+ "last_post_at": "2026-11-20T12:04:43.973368+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -292,6 +294,7 @@
   "B007GE75HY": "2026-11-17T19:33:35.818573+00:00",
   "B007JXVR76": "2026-11-19T12:03:37.455907+00:00",
   "B0084JUNVU": "2026-11-14T07:05:12.321506+00:00",
+  "B0094B79PA": "2026-11-20T12:02:12.686755+00:00",
   "B009IOCCD2": "2026-11-19T12:02:21.740771+00:00",
   "B009PCI2JU": "2026-11-18T14:33:44.550851+00:00",
   "B00AINMFAC": "2026-11-18T05:32:36.811230+00:00",
@@ -417,6 +420,7 @@
   "B07PCQKTCN": "2026-11-15T09:02:31.739324+00:00",
   "B07PFYT8MC": "2026-11-18T10:03:19.648891+00:00",
   "B07PJ7QC41": "2026-11-16T19:47:51.950196+00:00",
+  "B07PRJJ7DT": "2026-11-20T12:02:55.319462+00:00",
   "B07PZ8MCR7": "2026-11-19T16:31:26.382899+00:00",
   "B07PZF3QS3": "2026-11-18T10:03:43.006452+00:00",
   "B07Q1GHB5X": "2026-11-15T05:46:36.452778+00:00",
@@ -475,6 +479,7 @@
   "B08SGH7NKX": "2026-11-14T07:05:39.173527+00:00",
   "B08TLC9W4T": "2026-11-14T10:36:12.101815+00:00",
   "B08TVLYB3Q": "2026-11-15T17:06:54.310765+00:00",
+  "B08VNR3NRW": "2026-11-20T12:02:25.724393+00:00",
   "B08WLNTKVW": "2026-11-19T16:32:21.587856+00:00",
   "B08YH711XM": "2026-11-18T19:02:10.764047+00:00",
   "B08Z7467XC": "2026-11-16T05:34:30.158521+00:00",
@@ -500,10 +505,12 @@
   "B09K8YYVWV": "2026-11-19T12:02:34.809585+00:00",
   "B09M5XF6JV": "2026-11-18T10:05:08.588127+00:00",
   "B09NF7RLYH": "2026-11-18T14:31:36.443594+00:00",
+  "B09NWG459J": "2026-11-20T12:03:39.447007+00:00",
   "B09PRB1MZM": "2026-11-15T17:01:59.654835+00:00",
   "B09Q3MYDQH": "2026-11-16T19:48:04.009068+00:00",
   "B09TD2HVVQ": "2026-11-15T17:03:12.012112+00:00",
   "B09WXZWSN3": "2026-11-18T10:02:18.018483+00:00",
+  "B09YTQV2TR": "2026-11-20T12:04:21.792422+00:00",
   "B09Z6Q2MLC": "2026-11-15T08:46:57.983425+00:00",
   "B0B283QP2N": "2026-11-17T05:03:31.504704+00:00",
   "B0B4KJ3MWK": "2026-11-19T07:32:35.718864+00:00",
@@ -550,6 +557,7 @@
   "B0CFBBBSHY": "2026-11-14T07:02:21.477801+00:00",
   "B0CFGYFCYL": "2026-11-17T15:02:30.421890+00:00",
   "B0CG9N76FG": "2026-11-14T07:20:46.187130+00:00",
+  "B0CGX3SBJF": "2026-11-20T12:04:32.145572+00:00",
   "B0CGY3VF3K": "2026-11-14T14:30:20.499836+00:00",
   "B0CGY4J7QT": "2026-11-17T19:34:20.260247+00:00",
   "B0CHS2VNHC": "2026-11-14T07:07:49.794136+00:00",
@@ -579,6 +587,7 @@
   "B0D38FT41H": "2026-11-15T17:04:00.551181+00:00",
   "B0D3D5LKG9": "2026-11-16T05:31:59.138417+00:00",
   "B0D4LJ6CMW": "2026-11-14T14:23:31.721257+00:00",
+  "B0D4WM61JN": "2026-11-20T12:02:44.271580+00:00",
   "B0D51F42SW": "2026-11-14T12:23:40.352741+00:00",
   "B0D5RMVMWF": "2026-11-14T14:24:14.648259+00:00",
   "B0D5ZVCLVQ": "2026-11-19T16:32:49.875685+00:00",
@@ -716,6 +725,7 @@
   }
  ],
  "posted": {
+  "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
@@ -879,31 +889,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/building blocks set",
   "pick",
   "aliexpress/laptop screen extender",
-  "pick"
+  "pick",
+  "fashion/6358539011"
  ],
  "recent_groups": [
-  "sporting-goods",
   "hpc",
   "fashion",
   "sporting-goods",
   "beauty",
-  "toys-and-games"
+  "toys-and-games",
+  "fashion"
  ],
  "recent_themes": [
-  "home",
   "kids",
   "kitchen",
   "tech",
   "kids",
   "other",
   "tech",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu",
   "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
   "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet",
   "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
@@ -914,7 +923,8 @@
   "Magnetic Train Set DIY 3D Cube Track Electric Train Set for Kids Flexible Magnet Track Car Toy Stem Learning Building Cube Gift",
   "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine",
   "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
-  "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift"
+  "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift",
+  "Casio A158WA Series | Unisex Digital Watch | Vintage | WR | 100 SEC Stop Watch | Daily Alarm | Regular Time Keeping: Hour, Minute, Second, PM, Date, Day | Led Light | 7 Yr Battery"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -931,6 +941,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136143
 }
