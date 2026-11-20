@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 21
+  "2026-11-20": 22
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -165,6 +165,7 @@
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
+  "new v electric go-kart": "2026-11-20T16:01:03.784343+00:00",
   "niimbot b thermal printer": "2026-11-20T15:31:03.473352+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
   "oeak jelly bras wireless": "2026-11-15T16:02:06.149375+00:00",
@@ -258,11 +259,17 @@
    "name": "Ash",
    "username": "",
    "via": "join"
+  },
+  "7161752473": {
+   "at": "2026-11-20T16:00:54.731667+00:00",
+   "name": "\u05e9\u05e7\u05d3",
+   "username": "",
+   "via": "join"
   }
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
- "last_post_at": "2026-11-20T15:31:03.473133+00:00",
+ "last_post_at": "2026-11-20T16:01:03.783920+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -706,23 +713,7 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [
-  {
-   "alt": [
-    "kids ride on go kart electric"
-   ],
-   "at": "2026-11-20T09:22:00+00:00",
-   "id": "kids electric go kart LED music",
-   "not_before": "2026-11-20T16:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "kart"
-   ],
-   "sid": "shot-1120-5",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  }
- ],
+ "pick_queue": [],
  "posted": {
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
@@ -870,6 +861,7 @@
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005011838321895": "2026-11-19T10:31:04.189215+00:00",
   "ali-1005011904255432": "2026-11-20T08:00:54.303809+00:00",
+  "ali-1005011905609527": "2026-11-20T16:01:03.750781+00:00",
   "ali-1005011940311028": "2026-11-20T14:30:56.228386+00:00",
   "ali-1005011993743447": "2026-11-20T10:01:05.738903+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
@@ -897,10 +889,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/kids gift toy",
   "toys-and-games/166220011",
-  "aliexpress/handheld thermal printer"
+  "aliexpress/handheld thermal printer",
+  "pick"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -911,17 +903,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "home",
   "beauty",
   "tech",
   "home",
   "kids",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "MIJIA Electric Oral Irrigator Upgraded Version \u2013 Ultrasonic, 90-Day Gentle Use, Water Flosser Dental, 3 Modes, 200mL Tank",
   "Magnetic Train Set DIY 3D Cube Track Electric Train Set for Kids Flexible Magnet Track Car Toy Stem Learning Building Cube Gift",
   "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine",
   "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
@@ -932,7 +923,8 @@
   "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
   "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
   "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
-  "NiiMbot B21 Mini Thermal Printer Wireless Barcode Label Maker Bluetooth Portable Adhesive Label Printers for Office Commercial"
+  "NiiMbot B21 Mini Thermal Printer Wireless Barcode Label Maker Bluetooth Portable Adhesive Label Printers for Office Commercial",
+  "New 24V Electric Go-Kart Kids Outdoor Ride On Drift Racing Car Toy with Variable Speeds Up to 7.5 Mph, LED Lights, Music, USB Po"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -950,5 +942,5 @@
   "shot-1120-5"
  ],
  "since_ali": 0,
- "tg_offset": 260136143
+ "tg_offset": 260136146
 }
