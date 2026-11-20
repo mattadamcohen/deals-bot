@@ -1181,7 +1181,8 @@ def pick_details(pick, amz_factory):
         for q in [pick["id"]] + pick.get("alt", []):
             for p in aliexpress.search(keywords=q, page_size=50):
                 t = (p.get("product_title") or "").lower()
-                if all(w in t for w in req) and p.get("promotion_link"):
+                if all(w in t for w in req) and p.get("promotion_link") and money(p.get("evaluate_rate")) >= 85 \
+                        and not ALI_BLOCK.search(t) and not (pick.get("avoid") and re.search(pick["avoid"], t)):
                     found = p
                     break
             if found:
