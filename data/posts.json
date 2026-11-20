@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0D8HYLBFS",
-  "title": "Music Boxing Machine for Kids, Fun Boxing Music Workout Machine with Gloves",
-  "title_he": "מכונת אגרוף מוזיקה לילדים, מכונת אימון מוזיקת ​​אגרוף מהנה עם כפפות",
-  "price": "$49.99",
-  "was": "$79.99",
-  "discount": "38%",
-  "rating": "4.7",
-  "reviews": "17",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 285,
-  "image": "https://m.media-amazon.com/images/I/71-j1PpuDwL._AC_SL1500_.jpg",
-  "variant": 806,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   285,
-   286,
-   287
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/e3f90598-9b48-45b7-902b-86bc0b6e6dc3.mp4/productVideoOptimized.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-19T05:30:57.618016+00:00"
- },
- {
   "asin": "ali-1005010323750589",
   "title": "Body Hair & Pubic Hair Trimmer for Men & Women, Painless Electric Body & Bikini Shaver | Waterproof, Type-C Rechargeable Razor",
   "title_he": "גוזם שיער גוף ושיער ערווה לגברים ונשים, מכונת גילוח חשמלית לגוף ולביקיני ללא כאבים | סכין גילוח נטענת מסוג C עמיד למים",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-20T10:30:48.896564+00:00"
+ },
+ {
+  "asin": "ali-1005010041961832",
+  "title": "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
+  "title_he": "Amoudo 15.6 אינץ' צג נייד 1920x1080P תצוגה מורחב IPS LCD פאנל מעמד חור חור VESA USBC Mini HDMI Display Mobile",
+  "price": "$72.77",
+  "was": "$165.76",
+  "discount": "56%",
+  "rating": "94.5%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 408,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saba320c4343b44ef9ab2a4d0d155f29ay.jpg",
+  "variant": 844,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m6HBSXoHQlZB1nvlGqPshgj3KA25zhz6XZiPNiUaY8fuvy4Ckz0mosrUyw99KMXyUVbZBuLMjNvoO44d4xKFonzvnjMglBSAwf9jCPA067XxwhAwa2B36nv2oTH3yQqu8tLZDz6IDAKc2grpn9vqbieAUdSgZgjMh8KhyYNMfXPdDsPKiqPDDpfqjZz5zr9vgqynhgykynb46ARpXMNk3wPcnTznjJDSeYKy9IzSQl7cRa55Mz2KUd5nWms8Hc8sRGAl4xf1q2GeJ1vxsHq4lUNhgeIEikmVow58YLKK6iihY6RxRMvdb0is2Es1BYqCkMYKODcglasHKQbpACgQddPSROb2umvBjatsEgDaEdSMhbkJWmou6cue2oFRuNPW3EktZsrrpIQpwVazElfZ54rJ6FTgiycp4uRSy0DeahlyKGk3ejP2zVHeCFnuo2wSSCZF6BhL2DAwl22FrZw31jMu1IotjjTAEuAbG916QbfnSuZGH67TfFnY2LP0HvJ8QImKqAAnvIVxWCBwUwjgBUnBxUuxwmdBUlUBAgLtMRiLHJgiQePuBPaNoCDJGjp7UdVtH4sZQlw9LakitUYq00MUvcuRP92eGhZRK7aUfFcv0osinmUeNjiTmNf7dIi6QmvE9FJgOs8B4zXFEjywNdIlv877ltoa4oq6AIeSbiBM0GuXgYqNSE9OrxedngyGcBYcOrkVQ5n3J",
+  "sold": "2,000",
+  "album_ids": [
+   408,
+   409,
+   410
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/laptop screen extender",
+  "category_en": "Work from home",
+  "category_he": "עבודה מהבית",
+  "posted_at": "2026-11-20T11:00:57.360354+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 12
+  "2026-11-20": 13
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -62,6 +62,7 @@
   "ai hand warmers rechargeable": "2026-11-19T19:30:52.415196+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
+  "amoudo portable monitor x": "2026-11-20T11:00:57.363099+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
   "automatic electric fruit peeler": "2026-11-20T10:30:48.899396+00:00",
   "automatic garbage with lids": "2026-11-20T07:00:54.847423+00:00",
@@ -237,7 +238,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T07:33:55.010534+00:00",
- "last_post_at": "2026-11-20T10:30:48.899027+00:00",
+ "last_post_at": "2026-11-20T11:00:57.362910+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -838,6 +839,7 @@
   "ali-1005009522437194": "2026-11-17T15:31:26.822197+00:00",
   "ali-1005009648930864": "2026-11-19T10:00:55.607269+00:00",
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
+  "ali-1005010041961832": "2026-11-20T11:00:57.309222+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
@@ -884,10 +886,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen gadgets",
   "aliexpress/Mijia",
   "aliexpress/building blocks set",
-  "pick"
+  "pick",
+  "aliexpress/laptop screen extender"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -898,17 +900,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "tech",
   "beauty",
   "home",
   "kids",
   "kitchen",
   "tech",
   "kids",
-  "other"
+  "other",
+  "tech"
  ],
  "recent_titles": [
-  "Toocki 2-in-1 Retractable Cable PD100W USB C Fast Charging Cable+2.5W Wireless Watch Charge for iphone/Apple Watch Xiaomi Huawei",
   "CENRR Handheld Wireless Car Vacuum Cleaner Charging Portable Strong Cleaning Appliance Mini Vacuum Cleaner For Car Household",
   "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu",
   "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
@@ -919,7 +920,8 @@
   "9-in-1 Electric Cleaning Brush Electric Spin Cleaning Scrubber Electric Cleaning Tools Parlour Kitchen Bathroom Cleaning Gadgets",
   "MIJIA Electric Oral Irrigator Upgraded Version \u2013 Ultrasonic, 90-Day Gentle Use, Water Flosser Dental, 3 Modes, 200mL Tank",
   "Magnetic Train Set DIY 3D Cube Track Electric Train Set for Kids Flexible Magnet Track Car Toy Stem Learning Building Cube Gift",
-  "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine"
+  "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine",
+  "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
