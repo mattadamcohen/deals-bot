@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 7
+  "2026-11-20": 8
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -42,6 +42,7 @@
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
+  "B0H9NKZGB7": "2026-11-20T08:30:53.068268+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
   "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
@@ -179,6 +180,7 @@
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
   "taba squishy stress balls": "2026-11-19T13:30:59.569205+00:00",
+  "tales conversation cards": "2026-11-20T08:30:53.068274+00:00",
   "tauri for iphone pro": "2026-11-17T09:01:31.220137+00:00",
   "telesin mah battery slots": "2026-11-18T11:01:29.136545+00:00",
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
@@ -231,7 +233,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T07:33:55.010534+00:00",
- "last_post_at": "2026-11-20T08:00:54.335200+00:00",
+ "last_post_at": "2026-11-20T08:30:53.068126+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -736,6 +738,7 @@
   "B0DDZN76T9": "2026-11-17T15:04:45.276241+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
+  "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
   "B0F6VKZ4FB": "2026-11-17T16:01:58.081078+00:00",
@@ -843,30 +846,29 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "beauty",
-  "aliexpress/storage organizer"
+  "aliexpress/storage organizer",
+  "toys-and-games/166220011"
  ],
  "recent_groups": [
-  "beauty",
   "sporting-goods",
   "hpc",
   "fashion",
   "sporting-goods",
-  "beauty"
+  "beauty",
+  "toys-and-games"
  ],
  "recent_themes": [
-  "sport",
   "tech",
   "car",
   "car",
   "tech",
   "tech",
   "beauty",
-  "home"
+  "home",
+  "kids"
  ],
  "recent_titles": [
-  "2027 UNO ! Pokemon Board Game Anime Cartoon Pikachu Figure Pattern Family Funny Entertainment uno Cards Games Christmas Gifts",
   "Beard Trimmer for Men, Electric Razor for Men, Cordless Waterproof Trimmer with 40 Adjustable Length Settings, LED Display, USB Rechargeable, Precision Grooming Kit for Beard Face Hair Travel",
   "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff",
   "IP65 Waterproof Solar Outdoor Garden Lights Super Bright 148 LEDs Motion Sensor Wall Light Solar Powered Security Lamp 3 Modes",
@@ -877,7 +879,8 @@
   "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
   "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet",
   "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
-  "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To"
+  "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To",
+  "TALES 150 Conversation Cards, Perfect for Dinners, Road Trips, Classrooms & Game Nights, Gifts & Gatherings, Conversation Starters to Spark Creativity (Family Edition)"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -891,6 +894,6 @@
   "shot-1120-1",
   "shot-1120-2"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136142
 }
