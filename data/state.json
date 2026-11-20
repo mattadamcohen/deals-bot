@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 27
+  "2026-11-20": 28
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -91,6 +91,7 @@
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "brushless electric drill tapping": "2026-11-20T18:30:56.548042+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
+  "car mirror radio multimedia": "2026-11-20T19:00:59.482341+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
   "casio a wa series": "2026-11-20T12:04:43.973839+00:00",
   "cenrr handheld wireless car": "2026-11-20T05:30:55.605532+00:00",
@@ -277,7 +278,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-20T16:34:25.912715+00:00",
- "last_post_at": "2026-11-20T18:30:56.547656+00:00",
+ "last_post_at": "2026-11-20T19:00:59.482086+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -831,6 +832,7 @@
   "ali-1005006967315803": "2026-11-18T12:31:51.206916+00:00",
   "ali-1005006994669841": "2026-11-18T11:31:07.167293+00:00",
   "ali-1005006996242795": "2026-11-18T16:31:48.089006+00:00",
+  "ali-1005007002128983": "2026-11-20T19:00:59.283752+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
@@ -912,10 +914,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/wireless earbuds",
   "beauty",
   "toys-and-games/166220011",
-  "aliexpress/cordless drill brushless"
+  "aliexpress/cordless drill brushless",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "fashion",
@@ -926,17 +928,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "tech",
   "kids",
   "fashion",
   "tech",
   "beauty",
   "kids",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home",
   "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)",
   "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
   "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
@@ -947,7 +948,8 @@
   "Baseus EH10 NC ANC Wireless Headphones 45dB Adaptive Hybrid Noise Cancelling Headsets Hi-Res LDAC Headphone Bluetooth 6.0 80Hrs",
   "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
-  "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver"
+  "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
+  "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
