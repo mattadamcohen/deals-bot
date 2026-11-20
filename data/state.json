@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 1
+  "2026-11-20": 2
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -74,6 +74,7 @@
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
+  "cenrr handheld wireless car": "2026-11-20T05:30:55.605532+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
   "christmas projector light patterns": "2026-11-19T11:30:48.621221+00:00",
@@ -224,7 +225,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-20T05:01:02.300637+00:00",
+ "last_post_at": "2026-11-20T05:30:55.605217+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -660,12 +661,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-20T05:16:16.879860+00:00",
-   "id": "1005012890022315",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3F1br01"
-  },
-  {
    "at": "2026-11-20T05:16:17.805873+00:00",
    "id": "1005010330073102",
    "store": "aliexpress",
@@ -676,6 +671,37 @@
    "id": "1005011608627646",
    "store": "aliexpress",
    "url": "https://s.click.aliexpress.com/e/_c3XPM965"
+  },
+  {
+   "alt": [
+    "smart trash can automatic lid bathroom"
+   ],
+   "at": "2026-11-20T05:06:00+00:00",
+   "id": "automatic trash can motion sensor small",
+   "not_before": "2026-11-20T06:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "trash",
+    "sensor"
+   ],
+   "sid": "shot-1120-1",
+   "store": "aliexpress_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "electric peeling machine fruit"
+   ],
+   "at": "2026-11-20T05:06:00+00:00",
+   "id": "electric fruit peeler rechargeable grape tomato garlic",
+   "not_before": "2026-11-20T10:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "peel"
+   ],
+   "sid": "shot-1120-2",
+   "store": "aliexpress_search",
+   "url": "screenshot"
   }
  ],
  "posted": {
@@ -813,6 +839,7 @@
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
+  "ali-1005012890022315": "2026-11-20T05:30:55.529521+00:00",
   "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
   "ali-1005013125741328": "2026-11-19T17:00:55.530593+00:00",
@@ -829,10 +856,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/solar wall light motion sensor",
   "sporting-goods",
-  "aliexpress/Xiaomi watch"
+  "aliexpress/Xiaomi watch",
+  "pick"
  ],
  "recent_groups": [
   "home-garden",
@@ -843,17 +870,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "kids",
   "tech",
   "other",
   "tech",
   "kids",
   "home",
   "sport",
-  "tech"
+  "tech",
+  "car"
  ],
  "recent_titles": [
-  "Original Broadlink RM4 Pro IR RF WIFI Universal Smart Remote Control RM4Pro SmartHome Automation Work With Alexa and Google Home",
   "Magnetic Train Toy For Boys Track 1:64 Electric Rail DIY Magic Vehicle Model Toys Education 3 Years Children Gifts",
   "4PCS Men Business Watches Fashion Steel Band Analog Male's Quartz Watch Jewelry Set Relogio Masculino Clock Gift\uff08Without Box\uff09",
   "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand 360\u00b0 Rotation \u041cagnet Holder For iPhone Gym/Driving Vacuum Phone Stand",
@@ -864,7 +890,8 @@
   "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff",
   "IP65 Waterproof Solar Outdoor Garden Lights Super Bright 148 LEDs Motion Sensor Wall Light Solar Powered Security Lamp 3 Modes",
   "AI Hand Warmers Rechargeable 2 Pack, AI Smart Chips Electric Hand Warmers, 20Hrs Long Safe Heat, Portable Pocket Heater, Gifts for Christmas, Outdoor, Hunting, Golf, Camping Accessories",
-  "Toocki 2-in-1 Retractable Cable PD100W USB C Fast Charging Cable+2.5W Wireless Watch Charge for iphone/Apple Watch Xiaomi Huawei"
+  "Toocki 2-in-1 Retractable Cable PD100W USB C Fast Charging Cable+2.5W Wireless Watch Charge for iphone/Apple Watch Xiaomi Huawei",
+  "CENRR Handheld Wireless Car Vacuum Cleaner Charging Portable Strong Cleaning Appliance Mini Vacuum Cleaner For Car Household"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -874,7 +901,9 @@
   "shot-1118-5",
   "shot-1118-6",
   "shot-1118-7",
-  "shot-1118-8"
+  "shot-1118-8",
+  "shot-1120-1",
+  "shot-1120-2"
  ],
  "since_ali": 0,
  "tg_offset": 260136142
