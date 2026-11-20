@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 6
+  "2026-11-20": 7
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -183,6 +183,7 @@
   "telesin mah battery slots": "2026-11-18T11:01:29.136545+00:00",
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
   "toocki in- retractable cable": "2026-11-20T05:01:02.300781+00:00",
+  "toothbrush storage rack capacity": "2026-11-20T08:00:54.335447+00:00",
   "topump tb pro electric": "2026-11-18T14:02:00.032720+00:00",
   "topump tb pro portable": "2026-11-18T06:31:33.921020+00:00",
   "trendy queen fall fashion": "2026-11-16T15:04:51.206825+00:00",
@@ -230,7 +231,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T07:33:55.010534+00:00",
- "last_post_at": "2026-11-20T07:33:58.796111+00:00",
+ "last_post_at": "2026-11-20T08:00:54.335200+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -816,6 +817,7 @@
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005011838321895": "2026-11-19T10:31:04.189215+00:00",
+  "ali-1005011904255432": "2026-11-20T08:00:54.303809+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
@@ -842,8 +844,8 @@
  "recent_categories": [
   "pick",
   "pick",
-  "pick",
-  "beauty"
+  "beauty",
+  "aliexpress/storage organizer"
  ],
  "recent_groups": [
   "beauty",
@@ -854,17 +856,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "home",
   "sport",
   "tech",
   "car",
   "car",
   "tech",
   "tech",
-  "beauty"
+  "beauty",
+  "home"
  ],
  "recent_titles": [
-  "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden",
   "2027 UNO ! Pokemon Board Game Anime Cartoon Pikachu Figure Pattern Family Funny Entertainment uno Cards Games Christmas Gifts",
   "Beard Trimmer for Men, Electric Razor for Men, Cordless Waterproof Trimmer with 40 Adjustable Length Settings, LED Display, USB Rechargeable, Precision Grooming Kit for Beard Face Hair Travel",
   "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff",
@@ -875,7 +876,8 @@
   "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu",
   "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
   "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet",
-  "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)"
+  "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
+  "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -889,6 +891,6 @@
   "shot-1120-1",
   "shot-1120-2"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136142
 }

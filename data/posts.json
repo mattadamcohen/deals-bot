@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B09RTVD1GF",
-  "title": "Energizer AA Batteries Alkaline Power, 32 Count Alkaline Double A Battery Pack",
-  "title_he": "Energizer AA סוללות כוח אלקליין, 32 ספירות אלקליין כפול מארז סוללות",
-  "price": "$22.50",
-  "was": "",
-  "discount": "",
-  "rating": "4.8",
-  "reviews": "81,664",
-  "rank": 22,
-  "source": "bestsellers",
-  "message_id": 264,
-  "image": "https://m.media-amazon.com/images/I/81AX1sbArxL._AC_SL1500_.jpg",
-  "variant": 131,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   264,
-   265,
-   266
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/75c929e4-30d0-40f4-b992-65dddc09d3bd/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "hpc",
-  "category_en": "Health & Household",
-  "category_he": "בריאות ומשק בית",
-  "posted_at": "2026-11-18T17:00:58.233029+00:00"
- },
- {
   "asin": "ali-1005010323880088",
   "title": "Car Vacuum Cleaner Wireless Portable Vacuum Cleaner 95000PA Strong Suction Handheld Mini Cleaner High Power Blower for Car Home",
   "title_he": "שואב אבק לרכב שואב אבק נייד אלחוטי 95000PA יניקה חזקה מיני שואב כף יד מפוח חזק לרכב לבית",
@@ -1158,5 +1129,34 @@
   "category_en": "Beauty & Personal Care",
   "category_he": "יופי וטיפוח",
   "posted_at": "2026-11-20T07:33:58.793631+00:00"
+ },
+ {
+  "asin": "ali-1005011904255432",
+  "title": "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To",
+  "title_he": "מתלה לאחסון מברשות שיניים חדר אמבטיה עם קיבולת גדולה תיבת אחסון צמודת קיר ארגונית פלסטיק עבור מברשות שיניים משחת שיניים סכיני גילוח",
+  "price": "$5.10",
+  "was": "$11.91",
+  "discount": "57%",
+  "rating": "91.5%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 390,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scb109e2631bc41198ac21b42b13d90b8g.jpg",
+  "variant": 549,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oLZv8teMO8tqLxt3oYn6I7DnzTiXwFT9IAWB2CpAesOHuBZ7AgAvim7kXMQJACsNkVPCRGb9OhLrgbciaXFxsQVzSy4sNJP9KHCgLl3YKgUxlljwAvIc0pI15UFB66bbAZcHu64zX0JV7Vzrvmu8ridplHR5N4FUSr9r4kzQjMgbQ8ltiw3RFlUYQ69clASzEBqZdOkO4lSitDHs7euUuDv13etcYnYi6StQ26lediYlo29K3roDUV8iEl9uKjOn9cEWia84GKLHcymds5fU9BtfPacYccrvwA7tkH9Z3bMP5zz51Rh8at92FtMUs8k8lWQZaKKTaw7ZwQhjkBj6RHJuPiezNWdF5zdUY0ZdLokbSc1HLJTxUiIZDNQsmLYzLvU2P0Ah6btNokPwJA3BVLYG6tsSi5wjcnBuh5ZQFN1BGctHdQRIrXUcb314qCk7jkBrhoag520jD8QhMuvpEXRYrHDFrJVNTmcMZNPAVhglXfxMxFrPumMRmo6waUthiafgp5DsCd4HRNJz3wt6dRSie2mJM0MoqioCGTrbaeacShvPtPr2Raa3qhnvr7CRPMjd2E3Zd153rxltHIFW5MPpSdennfVWORgHO3kCucrUdSuUbFut6WRHEAHPgN4FN8X8abCOaXu5SedTWnZT2wl4Bu9HPNfL5iTfuWQI5nWUQFRownuR9eWEjY4jrohakobDpdewB0vwK",
+  "sold": "7,000",
+  "album_ids": [
+   390,
+   391,
+   392
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/storage organizer",
+  "category_en": "Home",
+  "category_he": "לבית",
+  "posted_at": "2026-11-20T08:00:54.332565+00:00"
  }
 ]
