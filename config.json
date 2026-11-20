@@ -1858,6 +1858,37 @@
       "not_before": "2026-11-19T18:00:00+00:00",
       "over_cap_ok": true,
       "sid": "shot-1118-8"
+    },
+    {
+      "sid": "shot-1120-1",
+      "store": "aliexpress_search",
+      "id": "automatic trash can motion sensor small",
+      "require": [
+        "trash",
+        "sensor"
+      ],
+      "alt": [
+        "smart trash can automatic lid bathroom"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-20T05:06:00+00:00",
+      "not_before": "2026-11-20T06:30:00+00:00",
+      "over_cap_ok": true
+    },
+    {
+      "sid": "shot-1120-2",
+      "store": "aliexpress_search",
+      "id": "electric fruit peeler rechargeable grape tomato garlic",
+      "require": [
+        "peel"
+      ],
+      "alt": [
+        "electric peeling machine fruit"
+      ],
+      "url": "screenshot",
+      "at": "2026-11-20T05:06:00+00:00",
+      "not_before": "2026-11-20T10:30:00+00:00",
+      "over_cap_ok": true
     }
   ],
   "giftbox_alternate": true,
