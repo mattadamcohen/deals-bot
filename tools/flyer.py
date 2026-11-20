@@ -50,25 +50,27 @@ def poster():
     im = Image.new("RGB", (W, H), WHITE)
     d = ImageDraw.Draw(im)
     # header band
-    d.rectangle([0, 0, W, 760], fill=BLACK)
-    text_c(d, W / 2, 110, "דילים מטורפים", F(900, 250), WHITE)
-    text_c(d, W / 2, 400, "מאמזון ואליאקספרס", F(900, 170), WHITE)
-    text_c(d, W / 2, 620, "כל יום בערוץ הטלגרם שלנו", F(800, 90), WHITE)
+    d.rectangle([0, 0, W, 900], fill=BLACK)
+    text_c(d, W / 2, 90, "דילים מטורפים", F(900, 240), WHITE)
+    text_c(d, W / 2, 370, "מאמזון ואליאקספרס", F(900, 160), WHITE)
+    text_c(d, W / 2, 580, "כל יום בערוץ הטלגרם שלנו", F(800, 86), WHITE)
+    text_c(d, W / 2, 735, "Hottest Amazon & AliExpress Deals", F(900, 92), WHITE)
     # call to action
-    text_c(d, W / 2, 840, "סרקו והצטרפו בחינם", F(900, 150), BLACK)
-    arrow_down(d, W / 2, 1040, 130)
+    text_c(d, W / 2, 960, "סרקו והצטרפו בחינם", F(900, 140), BLACK)
+    arrow_down(d, W / 2, 1150, 110)
     # QR card with a thick frame
     card = qr_card()
-    cw = 1260
+    cw = 1120
     card = card.resize((cw, int(card.height * cw / card.width)), Image.LANCZOS)
-    x, y = (W - cw) // 2, 1230
+    x, y = (W - cw) // 2, 1320
     d.rounded_rectangle([x - 36, y - 36, x + cw + 36, y + card.height + 36], radius=170, fill=BLACK)
     m = Image.new("L", card.size, 0)
     ImageDraw.Draw(m).rounded_rectangle([0, 0, card.width - 1, card.height - 1], radius=140, fill=255)
     im.paste(card, (x, y), m)
-    yb = y + card.height + 100
-    check_line(d, W / 2, yb, ["הכי נמכרים", "משלוח לארץ", "מחירים בשקלים"], F(800, 72))
-    text_c(d, W / 2, yb + 140, "Daily Amazon & AliExpress deals for Israel", F(800, 58), BLACK)
+    yb = y + card.height + 85
+    check_line(d, W / 2, yb, ["הכי נמכרים", "משלוח לארץ", "מחירים בשקלים"], F(800, 70))
+    text_c(d, W / 2, yb + 120, "Deals with free shipping to Israel", F(800, 62), BLACK)
+    text_c(d, W / 2, yb + 210, "Join our Telegram community now!", F(900, 70), BLACK)
     # tear-off tabs
     top = H - 560
     n = 8
@@ -93,19 +95,21 @@ def sticker(w, h):
     im = Image.new("RGB", (w, h), WHITE)
     d = ImageDraw.Draw(im)
     d.rounded_rectangle([12, 12, w - 12, h - 12], radius=60, outline=BLACK, width=14)
-    d.rounded_rectangle([12, 12, w - 12, 330], radius=60, fill=BLACK)
-    d.rectangle([12, 200, w - 12, 330], fill=BLACK)
-    text_c(d, w / 2, 60, "דילים מאמזון ואליאקספרס", F(900, 92), WHITE)
-    text_c(d, w / 2, 200, "סרקו והצטרפו לערוץ בחינם", F(800, 64), WHITE)
+    d.rounded_rectangle([12, 12, w - 12, 400], radius=60, fill=BLACK)
+    d.rectangle([12, 200, w - 12, 400], fill=BLACK)
+    text_c(d, w / 2, 50, "דילים מאמזון ואליאקספרס", F(900, 90), WHITE)
+    text_c(d, w / 2, 180, "סרקו והצטרפו לערוץ בחינם", F(800, 62), WHITE)
+    text_c(d, w / 2, 285, "Hottest Amazon & AliExpress Deals", F(800, 54), WHITE)
     card = qr_card()
-    cw = int(w * 0.72)
+    cw = int(w * 0.62)
     card = card.resize((cw, int(card.height * cw / card.width)), Image.LANCZOS)
     m = Image.new("L", card.size, 0)
     ImageDraw.Draw(m).rounded_rectangle([0, 0, card.width - 1, card.height - 1], radius=110, fill=255)
-    im.paste(card, ((w - cw) // 2, 370), m)
-    yy = 370 + card.height + 35
-    text_c(d, w / 2, yy, "הכי נמכרים · משלוח לארץ · מחירים בשקלים", F(800, 52), BLACK)
-    text_c(d, w / 2, yy + 85, "t.me/ilamazondeals", F(800, 50), BLACK)
+    im.paste(card, ((w - cw) // 2, 440), m)
+    yy = 440 + card.height + 30
+    text_c(d, w / 2, yy, "הכי נמכרים · משלוח לארץ · מחירים בשקלים", F(800, 50), BLACK)
+    text_c(d, w / 2, yy + 80, "Free shipping deals to Israel", F(800, 46), BLACK)
+    text_c(d, w / 2, yy + 150, "Join our Telegram community now!", F(900, 52), BLACK)
     return im
 
 
