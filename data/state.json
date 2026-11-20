@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 29
+  "2026-11-20": 30
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -91,6 +91,7 @@
   "body hair pubic hair": "2026-11-19T06:01:02.150321+00:00",
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "brushless electric drill tapping": "2026-11-20T18:30:56.548042+00:00",
+  "butter stick wax cracking": "2026-11-20T20:16:04.722638+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car mirror radio multimedia": "2026-11-20T19:00:59.482341+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
@@ -279,7 +280,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-20T16:34:25.912715+00:00",
- "last_post_at": "2026-11-20T19:30:59.986715+00:00",
+ "last_post_at": "2026-11-20T20:16:04.722308+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -898,6 +899,7 @@
   "ali-1005012601272584": "2026-11-20T13:30:48.329162+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
   "ali-1005012890022315": "2026-11-20T05:30:55.529521+00:00",
+  "ali-1005012987036887": "2026-11-20T20:16:04.316538+00:00",
   "ali-1005013011426948": "2026-11-20T07:00:54.719891+00:00",
   "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
@@ -916,10 +918,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "toys-and-games/166220011",
   "aliexpress/cordless drill brushless",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "aliexpress/1119-1129 Black/Super Friday - Top Brands"
+  "aliexpress/1119-1129 Black/Super Friday - Top Brands",
+  "aliexpress/squishy advent calendar"
  ],
  "recent_groups": [
   "fashion",
@@ -930,17 +932,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "beauty",
   "kids",
   "home",
   "tech",
-  "other"
+  "other",
+  "kids"
  ],
  "recent_titles": [
-  "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
   "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
   "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
   "NiiMbot B21 Mini Thermal Printer Wireless Barcode Label Maker Bluetooth Portable Adhesive Label Printers for Office Commercial",
@@ -951,7 +952,8 @@
   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
   "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
   "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB",
-  "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis"
+  "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis",
+  "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
