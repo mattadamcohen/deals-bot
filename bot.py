@@ -19,7 +19,7 @@ import random
 import re
 import sys
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -677,7 +677,13 @@ ALI_LICENSED = re.compile(
     r"\b(pok[eé]mon|pikachu|disney|marvel|spider-?man|avengers|"
     r"frozen|elsa|stitch|minnie|mickey|barbie|hello kitty|sanrio|kuromi|cinnamoroll|my melody|sonic|mario|"
     r"nintendo|minecraft|roblox|paw patrol|peppa|bluey|cocomelon|harry potter|star wars|naruto|anime|"
-    r"labubu|squishmallows?|lego|nike|adidas|airpods?|stanley|owala|jellycat)\b", re.I)
+    r"labubu|squishmallows?|lego|nike|adidas|airpods?|stanley|owala|jellycat|uno|hot wheels|transformers|peppa pig|sesame street|tom and jerry|snoopy|garfield|batman|superman|dc comics)\b", re.I)
+# what an official store may legitimately carry (licensed words must also come with the brand name in the title)
+OFFICIAL_FAMILY = {
+    "disney": {"disney", "marvel", "spider-man", "spiderman", "avengers", "frozen", "elsa", "stitch", "minnie", "mickey", "star wars"},
+    "pop mart": {"labubu"}, "popmart": {"labubu"},
+    "sanrio": {"sanrio", "hello kitty", "kuromi", "cinnamoroll", "my melody"},
+}
 ALI_BLOCK_CATS = re.compile(r"sex|adult|intimate|lingerie|underwear|tobacco|smok|cigarette|weapon|knife|knives|"
                             r"hunting|tattoo|novelty & special use", re.I)
 
@@ -720,8 +726,17 @@ def official_store(p, brand):
 def ali_ok(p, official=False):
     """Age-appropriate, popular, well-rated, under the price cap."""
     text = " ".join(str(p.get(k) or "") for k in ("product_title", "first_level_category_name", "second_level_category_name"))
-    if ALI_BLOCK.search(text) or (not official and ALI_LICENSED.search(text)):
+    if ALI_BLOCK.search(text):
         return False
+    hits = {m.lower() for m in ALI_LICENSED.findall(text)}
+    if hits:
+        if not official:
+            return False
+        brand = str(official).lower()
+        fam = OFFICIAL_FAMILY.get(brand, set())
+        title = (p.get("product_title") or "").lower()
+        if brand not in title or any(h not in fam and h != brand for h in hits):
+            return False
     cats = f"{p.get('first_level_category_name') or ''} {p.get('second_level_category_name') or ''}"
     if ALI_BLOCK_CATS.search(cats):
         return False
@@ -794,7 +809,7 @@ def ali_pick(state):
             continue
         if q.get("official"):  # licensed toy brands: only from the brand's official store
             prods = [p for p in prods if official_store(p, q["official"])]
-        good = [p for p in prods if ali_ok(p, official=bool(q.get("official")))]
+        good = [p for p in prods if ali_ok(p, official=q.get("official") or False)]
         if not good and arg("keyword") and arg("approved"):  # Matt approved this specific item: skip cap/sales filters
             good = [p for p in prods if not ALI_BLOCK.search(p.get("product_title") or "") and p.get("promotion_link")]
         if q.get("require"):  # brand searches: only that brand's own products, not "compatible with" items
@@ -897,10 +912,10 @@ THEME_SLUGS = {
 THEME_LABELS = {  # AliExpress search labels (config ali_queries "en")
     "tech": ["tech", "work from home", "smart home", "gaming", "phone & tablet", "top brands"],
     "kids": ["squish", "fidget", "building", "kids", "plush", "arts & crafts", "baby", "official brand store"],
-    "fashion": ["bags", "accessories", "watches", "jewelry", "travel"],
-    "home": ["home", "outdoor lighting", "tools", "school & office", "gift ideas"],
+    "fashion": ["fashion", "bags", "accessories", "watches", "jewelry", "travel", "luggage"],
+    "home": ["home", "outdoor lighting", "tools", "hanukkah", "school & office", "gift ideas"],
     "kitchen": ["kitchen", "coffee"],
-    "sport": ["fitness"],
+    "sport": ["fitness", "outdoor"],
     "pets": ["pets"],
     "car": ["car"],
 }
@@ -962,10 +977,12 @@ def clashes(state, title, slug=None):
     if brand and brand in [brand_of(x) for x in recent[-CONFIG.get("brand_gap_posts", 4):]]:
         return f"{brand} was posted recently"
     for cap in CONFIG.get("weekly_caps", []):
-        if re.search(cap["pattern"], title or "", re.I):
+        ex = cap.get("exclude")
+        hit = lambda t: re.search(cap["pattern"], t or "", re.I) and not (ex and re.search(ex, t or "", re.I))
+        if hit(title):
             since = (now() - timedelta(days=cap.get("days", 7))).isoformat()
             n = sum(1 for x in load_json(ROOT / "data" / "posts.json", [])
-                    if x.get("posted_at", "") >= since and re.search(cap["pattern"], x.get("title") or "", re.I))
+                    if x.get("posted_at", "") >= since and hit(x.get("title")))
             if n >= cap.get("max", 1):
                 return f"weekly cap reached for {cap['name']}"
     th = theme_of(slug if slug and not slug.startswith(("aliexpress", "pick")) else None, None, title)
@@ -1233,6 +1250,71 @@ def pick_details(pick, amz_factory):
 
 # ---------------------------------------------------------------- coupon posts
 
+def bundle_post(state):
+    """Every few days: 3 cheap, top-rated Amazon add-ons in one post (to fill a $49 free-shipping cart)."""
+    today = israel_now().date()
+    last = state.get("last_bundle_day")
+    every = CONFIG.get("bundle_every_days", 3)
+    if israel_now().hour < CONFIG.get("bundle_hour", 16) or (last and (today - date.fromisoformat(last)).days < every):
+        return False
+    lo, hi = CONFIG.get("bundle_price_usd", [6, 22])
+    cands = []
+    for v in pool_fresh(state):
+        info = v["info"]
+        usd = money(info.get("price"))
+        if not (lo <= usd <= hi) or float(info.get("rating") or 0) < 4.3 or not info.get("image"):
+            continue
+        tl = (info.get("title") or "").lower()
+        if blocked(tl) or (CONFIG.get("ali_niche_block") and re.search(CONFIG["ali_niche_block"], tl)) \
+                or re.search(r"\b(bands?|straps?|case|cover|screen protector|refills?|compatible|for (apple|iphone|samsung|galaxy|ipad|airpods))\b", tl):
+            continue
+        cands.append(v)
+    cands.sort(key=lambda v: int(re.sub(r"\D", "", v["info"].get("reviews") or "0") or 0), reverse=True)
+    picks, themes = [], set()
+    for v in cands:
+        th = theme_of(v["category"].get("slug"), None, v["info"].get("title"))
+        if th in themes:
+            continue
+        picks.append(v); themes.add(th)
+        if len(picks) == 3:
+            break
+    if len(picks) < 3:
+        log(f"Bundle post: only {len(picks)} suitable add-ons in the pool, skipping")
+        return False
+    total = sum(money(v["info"]["price"]) for v in picks)
+    he = ["🛒 <b>מוצרי השלמה למשלוח חינם</b>", "3 רבי מכר זולים שמשתלם להוסיף לעגלה כדי לעבור את ה-$49 ולקבל משלוח חינם לארץ", ""]
+    en = ["🛒 <b>Cart fillers for free shipping</b>", "3 cheap best sellers worth adding to reach $49 and get free shipping to Israel", ""]
+    for i, v in enumerate(picks, 1):
+        info, asin = v["info"], v["it"]["asin"]
+        url = esc(product_link(asin))
+        t_he = esc(to_hebrew(short(info["title"], 60)))
+        t_en = esc(short(info["title"], 60))
+        pr = f"{shekels(info['price'])} ({esc(info['price'])})"
+        he.append(f'{i}. {t_he}: {pr} ⭐ {info.get("rating")}\n👉 <a href="{url}">לקנייה</a>')
+        en.append(f'{i}. {t_en}: {pr}\n👉 <a href="{url}">Buy</a>')
+    he.append(f"\nביחד: {shekels(f'${total:.2f}')} (${total:.2f})")
+    text = "\n".join(he) + "\n\n〰️〰️〰️〰️〰️\n\n" + "\n".join(en)
+    if len(text) > 1000:
+        text = "\n".join(he)
+    if DRY_RUN:
+        log("---- DRY RUN bundle post ----\n" + text)
+        return True
+    media = [{"type": "photo", "media": v["info"]["image"]} for v in picks]
+    media[0].update({"caption": text, "parse_mode": "HTML"})
+    r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMediaGroup",
+                      data={"chat_id": TG_CHAT, "media": json.dumps(media), "disable_notification": "true"}, timeout=60)
+    log(f"Bundle post: {r.status_code} {r.text[:120]}")
+    if r.ok and not OWNER_TEST:
+        state["last_bundle_day"] = today.isoformat()
+        state["last_post_at"] = now().isoformat()
+        for v in picks:
+            state["posted"][v["it"]["asin"]] = now().isoformat()
+            for f in (v["info"].get("parent_asin"), title_family(v["info"].get("title"))):
+                if f:
+                    state.setdefault("families", {})[f] = now().isoformat()
+    return r.ok
+
+
 def coupon_post(state):
     """At most one coupon post a day, only while codes from config 'coupons' are valid. Returns True if posted."""
     today = israel_now().date().isoformat()
@@ -1487,7 +1569,7 @@ def main():
         else:
             log("Matt's pick (Amazon) waiting: Amazon isn't reachable right now")
 
-    if due is True and not targeted and not OWNER_TEST and coupon_post(state):
+    if due is True and not targeted and not OWNER_TEST and (coupon_post(state) or bundle_post(state)):
         save_state(state)
         return
 

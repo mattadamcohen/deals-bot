@@ -234,6 +234,162 @@
       "en": "Women's Jewelry",
       "he": "תכשיטים",
       "weight": 0.7
+    },
+    {
+      "slug": "fashion/1045830",
+      "en": "Men's Jackets & Coats",
+      "he": "מעילים לגברים",
+      "weight": 1.5
+    },
+    {
+      "slug": "fashion/1044646",
+      "en": "Women's Coats & Jackets",
+      "he": "מעילים לנשים",
+      "weight": 1.2
+    },
+    {
+      "slug": "fashion/679312011",
+      "en": "Men's Sneakers",
+      "he": "סניקרס לגברים",
+      "weight": 1
+    },
+    {
+      "slug": "fashion/679286011",
+      "en": "Men's Running Shoes",
+      "he": "נעלי ריצה לגברים",
+      "weight": 0.7
+    },
+    {
+      "slug": "fashion/2476517011",
+      "en": "Men's Shirts",
+      "he": "חולצות לגברים",
+      "weight": 0.7
+    },
+    {
+      "slug": "fashion/1045624",
+      "en": "Men's T-Shirts",
+      "he": "טישרטים לגברים",
+      "weight": 0.7
+    },
+    {
+      "slug": "fashion/1044456",
+      "en": "Women's Sweaters",
+      "he": "סוודרים לנשים",
+      "weight": 0.8
+    },
+    {
+      "slug": "pc/1232597011",
+      "en": "Tablets",
+      "he": "טאבלטים",
+      "weight": 0.6
+    },
+    {
+      "slug": "wireless/7073956011",
+      "en": "Bluetooth Speakers",
+      "he": "רמקולים ניידים",
+      "weight": 1
+    },
+    {
+      "slug": "hi/328182011",
+      "en": "Power & Hand Tools",
+      "he": "כלי עבודה",
+      "weight": 1.2
+    },
+    {
+      "slug": "pc/12879431",
+      "en": "Keyboards",
+      "he": "מקלדות",
+      "weight": 0.7
+    },
+    {
+      "slug": "pc/11036491",
+      "en": "Computer Mice",
+      "he": "עכברים",
+      "weight": 0.6
+    },
+    {
+      "slug": "videogames/402053011",
+      "en": "Gaming Headsets",
+      "he": "אוזניות גיימינג",
+      "weight": 0.8
+    },
+    {
+      "slug": "kitchen/289814",
+      "en": "Cookware",
+      "he": "כלי בישול",
+      "weight": 1.2
+    },
+    {
+      "slug": "kitchen/289913",
+      "en": "Kitchen Small Appliances",
+      "he": "מכשירי מטבח",
+      "weight": 1
+    },
+    {
+      "slug": "beauty/11060451",
+      "en": "Skin Care",
+      "he": "טיפוח העור",
+      "weight": 1
+    },
+    {
+      "slug": "beauty/11057241",
+      "en": "Hair Care",
+      "he": "טיפוח השיער",
+      "weight": 0.8
+    },
+    {
+      "slug": "beauty/3778591",
+      "en": "Shaving & Hair Removal",
+      "he": "גילוח והסרת שיער",
+      "weight": 0.8
+    },
+    {
+      "slug": "automotive/15718271",
+      "en": "Car Care",
+      "he": "טיפוח הרכב",
+      "weight": 0.8
+    },
+    {
+      "slug": "luggage/15743251",
+      "en": "Luggage",
+      "he": "מזוודות",
+      "weight": 0.5
+    },
+    {
+      "slug": "toys-and-games/166164011",
+      "en": "Kids' Electronics",
+      "he": "אלקטרוניקה לילדים",
+      "weight": 1
+    },
+    {
+      "slug": "electronics/6563140011",
+      "en": "Smart Home",
+      "he": "בית חכם",
+      "weight": 1.2
+    },
+    {
+      "slug": "electronics/172541",
+      "en": "Headphones & Earbuds",
+      "he": "אוזניות",
+      "weight": 1
+    },
+    {
+      "slug": "home-garden/510106",
+      "en": "Vacuums & Floor Care",
+      "he": "שואבי אבק",
+      "weight": 0.6
+    },
+    {
+      "slug": "sporting-goods/3400371",
+      "en": "Camping & Hiking",
+      "he": "קמפינג וטיולים",
+      "weight": 0.8
+    },
+    {
+      "slug": "pc/300189",
+      "en": "Routers",
+      "he": "ראוטרים",
+      "weight": 0.4
     }
   ],
   "max_posts_per_run": 1,
@@ -1519,6 +1675,174 @@
       "en": "Tech",
       "he": "גאדג'טים",
       "weight": 1
+    },
+    {
+      "q": "winter jacket men",
+      "en": "Fashion",
+      "he": "אופנה",
+      "weight": 1.5
+    },
+    {
+      "q": "softshell jacket",
+      "en": "Fashion",
+      "he": "אופנה",
+      "weight": 1.5
+    },
+    {
+      "q": "hiking shoes waterproof",
+      "en": "Fashion",
+      "he": "אופנה",
+      "weight": 1.5
+    },
+    {
+      "q": "women leggings with pockets",
+      "en": "Fashion",
+      "he": "אופנה",
+      "weight": 1.5
+    },
+    {
+      "q": "gaming keyboard mechanical",
+      "en": "Gaming",
+      "he": "גיימינג",
+      "weight": 1.5
+    },
+    {
+      "q": "gaming mouse wireless",
+      "en": "Gaming",
+      "he": "גיימינג",
+      "weight": 1.5
+    },
+    {
+      "q": "retro handheld game console",
+      "en": "Gaming",
+      "he": "גיימינג",
+      "weight": 1.5
+    },
+    {
+      "q": "gaming router wifi 6",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 1.5
+    },
+    {
+      "q": "external ssd",
+      "en": "Tech",
+      "he": "טק",
+      "weight": 1.5
+    },
+    {
+      "q": "GaN charger 65W",
+      "en": "Tech",
+      "he": "טק",
+      "weight": 1.5
+    },
+    {
+      "q": "car jump starter",
+      "en": "Car",
+      "he": "רכב",
+      "weight": 1.5
+    },
+    {
+      "q": "cordless drill brushless",
+      "en": "Tools",
+      "he": "כלי עבודה",
+      "weight": 1.5
+    },
+    {
+      "q": "tool bag",
+      "en": "Tools",
+      "he": "כלי עבודה",
+      "weight": 1.5
+    },
+    {
+      "q": "smart door lock fingerprint",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 1.5
+    },
+    {
+      "q": "window cleaning robot",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 1.5
+    },
+    {
+      "q": "tv backlight led sync",
+      "en": "Smart home",
+      "he": "בית חכם",
+      "weight": 1.5
+    },
+    {
+      "q": "stainless steel frying pan set",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 1.5
+    },
+    {
+      "q": "glass food storage containers",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 1.5
+    },
+    {
+      "q": "bamboo cutting board set",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 1.5
+    },
+    {
+      "q": "insulated water bottle straw",
+      "en": "Kitchen",
+      "he": "מטבח",
+      "weight": 1.5
+    },
+    {
+      "q": "cordless hair straightener",
+      "en": "Beauty",
+      "he": "יופי",
+      "weight": 1.5
+    },
+    {
+      "q": "inflatable camping tent",
+      "en": "Outdoor",
+      "he": "טבע",
+      "weight": 1.5
+    },
+    {
+      "q": "solar string lights outdoor",
+      "en": "Outdoor lighting",
+      "he": "תאורת חוץ",
+      "weight": 1.5
+    },
+    {
+      "q": "kids roller skates adjustable",
+      "en": "Kids",
+      "he": "ילדים",
+      "weight": 1.5
+    },
+    {
+      "q": "kids camera",
+      "en": "Kids",
+      "he": "ילדים",
+      "weight": 1.5
+    },
+    {
+      "q": "kids art set wooden case",
+      "en": "Arts & crafts",
+      "he": "יצירה",
+      "weight": 1.5
+    },
+    {
+      "q": "rc climbing lizard toy",
+      "en": "Kids",
+      "he": "ילדים",
+      "weight": 1.5
+    },
+    {
+      "q": "handheld thermal printer",
+      "en": "Tech",
+      "he": "טק",
+      "weight": 1.5
     }
   ],
   "ali_min_price_usd": 5,
@@ -1716,13 +2040,20 @@
       "name": "cables & chargers",
       "pattern": "\\b(cables?|chargers?|charging|adapters?|usb[- ]?c hub|hub)\\b",
       "max": 1,
-      "days": 1
+      "days": 1,
+      "exclude": "\\b(power ?banks?|portable chargers?|jump starters?|mah)\\b"
     },
     {
       "name": "batteries",
       "pattern": "\\bbatter(y|ies)\\b",
       "max": 1,
       "days": 7
+    },
+    {
+      "name": "power banks",
+      "pattern": "\\b(power ?banks?|portable chargers?|\\d{4,5} ?mah)\\b",
+      "max": 1,
+      "days": 2
     }
   ],
   "theme_gap_posts": 2,
@@ -1939,5 +2270,11 @@
   ],
   "giftbox_alternate": true,
   "giftbox_secs_per_item": 2.2,
-  "type_cooldown_hours": 48
+  "type_cooldown_hours": 48,
+  "bundle_every_days": 3,
+  "bundle_hour": 16,
+  "bundle_price_usd": [
+    6,
+    18
+  ]
 }
