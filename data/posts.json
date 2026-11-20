@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0G1VBDXYF",
-  "title": "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
-  "title_he": "Luxe Color Changing Foundation for Mature Skin, Color Matching, Medium",
-  "price": "$29.99",
-  "was": "",
-  "discount": "25%",
-  "rating": "4.0",
-  "reviews": "11,054",
-  "rank": 30,
-  "source": "bestsellers",
-  "message_id": 257,
-  "image": "https://m.media-amazon.com/images/I/61KpkNA1vKL._SL1500_.jpg",
-  "variant": 206,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   257,
-   258,
-   259
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7ad83e59-8f23-4f84-8e03-a3cf536c6358/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-18T15:30:53.595850+00:00"
- },
- {
   "asin": "ali-1005007805563822",
   "title": "15-Piece Bicycle Dynamometer Wrench Set 1/4 Inch Drive Bike Tool Set Home Improvement Tools",
   "title_he": "סט מפתח ברגים דינמומטר לאופניים 15 חלקים 1/4 אינץ' סט כלים לאופניים לשיפור הבית",
@@ -1154,5 +1125,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-20T06:00:51.733279+00:00"
+ },
+ {
+  "asin": "ali-1005011608627646",
+  "title": "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
+  "title_he": "Xiaomi Mijia Smart Jump Rope 2 בלוטות' תרגיל כושר ספירת כדור כבידה דילוג שריפת שומנים מקצועית",
+  "price": "$32.70",
+  "was": "$70.89",
+  "discount": "53%",
+  "rating": "90.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 381,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4d8770f4bfa749839b39c3dd730b611bK.jpg",
+  "variant": 415,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4EAYlNnCrAoybcBf5coLXqAHu1U1UpsMUXOMeCl0a6NOlQ87be4AV7PtX2UE3uRoFt519y7zBQRptm0m0kURktLjKgNJet0McZyh43Ap55sMc8CB90dRm5ov6WDiG0EchA88illVowbDbv0xaW6RVyrLE27I0qB5HQTQ2UKNQNwwsvXL5cjvd57ATlnqFnmOOXbOQMTECLBeM2Lr3ezl65kdMwQgdqPWcyyhuLUMUaYTIy58SD52DtdFNgiSd0XroKujFXWLXwRG5HZZym03FeKcefQAgoD2bZ8bsGwF1ZhbYOeaubIxuKAr8Y0NsO3IXXErjqEVmjHixmJOHKVyZ7lnqfBVP08uOQ3Z0GvOUXcBKViU7eZdMkeF76W9sqbv7UrLPWqcQHVFJMhcPwIYhDQu34SGQHQEDA2b7eJ44ohm2AsUl1wbGOolJgxvq3q1FoM1GG37u7SZ4blogMoZ0AH7pSNvSp6NShdJBNC6i7nzHI74ly1180xkzrsoYJadbUfA28s8DUWprdw4AiHIHeUVs5WNM0oZ3aZAVAyx2UnUxMX1e03jVLVwOHQ4wgRtRXRj19NvZvqMmh8Np7JDXI7DjAaWYOiyKOtejbSLzKpAd7u3sjIAy2W9WrBtC7oUbHPoG90hTPuayi218bTYVwMIIKk8Y030DcJE8EvBCPAJwKGaymJz6CSwN3w1X7N9PD66C2OPNU4eq",
+  "sold": "41",
+  "album_ids": [
+   381,
+   382,
+   383
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-20T06:30:51.413133+00:00"
  }
 ]

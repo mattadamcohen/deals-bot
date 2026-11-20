@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 3
+  "2026-11-20": 4
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -199,6 +199,7 @@
   "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
   "wrangler relaxed fit stretch": "2026-11-15T07:17:56.490377+00:00",
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
+  "xiaomi mijia smart jump": "2026-11-20T06:30:51.416653+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
   "zevo flying insect trap": "2026-11-19T08:31:27.609409+00:00",
@@ -226,7 +227,7 @@
   }
  },
  "last_harvest_at": "2026-11-19T16:34:02.663469+00:00",
- "last_post_at": "2026-11-20T06:00:51.735272+00:00",
+ "last_post_at": "2026-11-20T06:30:51.416195+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -662,12 +663,6 @@
  },
  "pick_queue": [
   {
-   "at": "2026-11-20T05:16:18.736161+00:00",
-   "id": "1005011608627646",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3XPM965"
-  },
-  {
    "alt": [
     "smart trash can automatic lid bathroom"
    ],
@@ -826,6 +821,7 @@
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
   "ali-1005010729128979": "2026-11-19T13:30:59.486337+00:00",
   "ali-1005010739277474": "2026-11-19T15:01:01.252967+00:00",
+  "ali-1005011608627646": "2026-11-20T06:30:51.349599+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
   "ali-1005011807734790": "2026-11-17T08:31:50.462150+00:00",
   "ali-1005011838321895": "2026-11-19T10:31:04.189215+00:00",
@@ -852,8 +848,8 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "sporting-goods",
   "aliexpress/Xiaomi watch",
+  "pick",
   "pick",
   "pick"
  ],
@@ -866,17 +862,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "other",
   "tech",
   "kids",
   "home",
   "sport",
   "tech",
   "car",
-  "car"
+  "car",
+  "tech"
  ],
  "recent_titles": [
-  "4PCS Men Business Watches Fashion Steel Band Analog Male's Quartz Watch Jewelry Set Relogio Masculino Clock Gift\uff08Without Box\uff09",
   "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand 360\u00b0 Rotation \u041cagnet Holder For iPhone Gym/Driving Vacuum Phone Stand",
   "Disney Toddler/Little/Big Girls' Princess Fantasy Gown Nightgown",
   "13.3 Inch 2K QHD Portable Monitor, 400 Nits, 100% SRGB, 16:10 Aspect Ratio, Built-in Speakers, VESA Mountable, Integrated Hidden",
@@ -887,7 +882,8 @@
   "AI Hand Warmers Rechargeable 2 Pack, AI Smart Chips Electric Hand Warmers, 20Hrs Long Safe Heat, Portable Pocket Heater, Gifts for Christmas, Outdoor, Hunting, Golf, Camping Accessories",
   "Toocki 2-in-1 Retractable Cable PD100W USB C Fast Charging Cable+2.5W Wireless Watch Charge for iphone/Apple Watch Xiaomi Huawei",
   "CENRR Handheld Wireless Car Vacuum Cleaner Charging Portable Strong Cleaning Appliance Mini Vacuum Cleaner For Car Household",
-  "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu"
+  "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu",
+  "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
