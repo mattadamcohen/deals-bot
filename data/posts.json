@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005013031310901",
-  "title": "Christmas Projector Light 22 Patterns Rotating LED Projection Lamp Santa Claus Snowflake Elk Xmas Decor Night Light Rechargeable",
-  "title_he": "אור מקרן 22 דפוסים מסתובבים מנורת הקרנה LED סנטה קלאוס פתית שלג איילים דקור לילה אור נטענת",
-  "price": "$6.98",
-  "was": "$16.09",
-  "discount": "56%",
-  "rating": "92.1%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 321,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b3514659c714cefb48646bd5eb53153Z.jpg",
-  "variant": 614,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mMNXanfonXzu6MQC38j9ZF0H92Y4xtodoWaBu5i4RE6uMV4GZX0lt6S7i3p6eWNhVMm0OqiiWAONBQ498m5ynyubin2tvTw4Yj2MFPzsJhKGPEy9B7LjtSLeCprn5OU9XSKmXGyJSZGECQFOuhojUdfoTQHYTVNAjO4e4xwm6R4iGprO1XqkxG7KvoAYFDIYaSaRIc3m18xZ6feAN9YthAv6IEjV5O4Hg6ZNt4PkakwM8ZYIwoEBqXqMZvQU8GJ3apKr81lA756xZJLfhjb0dLidi7EJgwatB61kW5EaDCVANHmqezHcqgT9KKfaW4oAPDxCDda4twW2QoMpp2z3HV3y53PcgvUMTGWZ5ZwBQar3DXGVvWzw908WMUf1SGjwHRdn8eQZKkpJgkTTBkFh5SrUyBb6YARqhh5ne0EPqvzDqne8jZaGlw7oPkz5IciwYAtgQG0MzqPj1TwzPtNpeIPjSU4cfXgyCI06EEVPPuMK9XuHeRY6hpMYWmqTqDSVO3gxaluATuURhDvg49yapy6A5fQ0cq3XYT01ExRaOXXvk1k6SiHEf77NQVwr26pTEInd37z1sBberqpoFOLYrnDmjO9WpnDgeT8lFQrAX2vH6hqRaGsGKp3ZmVO5vax1VWhcowCKC8dbuxk1koR3hphjKgbKhYbkIfKyXzHePJFAbEUsuL6Na9w5lJRxNUYXzaUAftWj68llm",
-  "sold": "539",
-  "album_ids": [
-   321,
-   322,
-   323
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/kids night light",
-  "category_en": "Home decor",
-  "category_he": "עיצוב הבית",
-  "posted_at": "2026-11-19T11:30:48.619085+00:00"
- },
- {
   "asin": "B09V7Z4TJG",
   "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
   "title_he": "Medicube Toner Pads Zero Pore Pad 2.0 עבור פילינג וטיפוח נקבוביות",
@@ -1157,5 +1128,34 @@
   "category_en": "Tech",
   "category_he": "גאדג'טים",
   "posted_at": "2026-11-20T17:01:02.346858+00:00"
+ },
+ {
+  "asin": "B0GD6R7CFJ",
+  "title": "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
+  "title_he": "BIODANCE הידרוג'ל מדבקות לעיניים מתחת לעין, קולגן פפטיד (ספירה של 60)",
+  "price": "$17.50",
+  "was": "",
+  "discount": "24%",
+  "rating": "4.6",
+  "reviews": "6,538",
+  "rank": 25,
+  "source": "bestsellers",
+  "message_id": 446,
+  "image": "https://m.media-amazon.com/images/I/61jB74Wpd5L._SL1000_.jpg",
+  "variant": 239,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   446,
+   447,
+   448
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "beauty",
+  "category_en": "Beauty & Personal Care",
+  "category_he": "יופי וטיפוח",
+  "posted_at": "2026-11-20T17:31:34.860387+00:00"
  }
 ]
