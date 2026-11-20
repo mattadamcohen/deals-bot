@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 9
+  "2026-11-20": 10
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -142,6 +142,7 @@
   "medicube toner pads zero": "2026-11-19T12:04:43.457550+00:00",
   "men business watches fashion": "2026-11-19T15:31:12.228720+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
+  "mijia electric oral irrigator": "2026-11-20T09:30:51.707539+00:00",
   "miracase silicone magnetic for": "2026-11-17T17:01:01.958971+00:00",
   "multifunctional vegetable cutter slicer": "2026-11-17T10:31:40.721471+00:00",
   "music boxing machine for": "2026-11-19T05:30:57.619746+00:00",
@@ -234,7 +235,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T07:33:55.010534+00:00",
- "last_post_at": "2026-11-20T09:01:03.673657+00:00",
+ "last_post_at": "2026-11-20T09:30:51.707380+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -686,6 +687,52 @@
    "sid": "shot-1120-2",
    "store": "aliexpress_search",
    "url": "screenshot"
+  },
+  {
+   "alt": [
+    "mini claw machine kids doll catcher"
+   ],
+   "at": "2026-11-20T09:22:00+00:00",
+   "id": "dinosaur claw machine toy",
+   "not_before": "2026-11-20T11:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "claw"
+   ],
+   "sid": "shot-1120-3",
+   "store": "aliexpress_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "digital camera 64MP 16X zoom vlog"
+   ],
+   "at": "2026-11-20T09:22:00+00:00",
+   "avoid": "lenovo|canon|nikon|sony|kodak",
+   "id": "4K digital camera 64MP vlogging 18X zoom",
+   "not_before": "2026-11-20T13:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "camera"
+   ],
+   "sid": "shot-1120-4",
+   "store": "aliexpress_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "kids ride on go kart electric"
+   ],
+   "at": "2026-11-20T09:22:00+00:00",
+   "id": "kids electric go kart LED music",
+   "not_before": "2026-11-20T16:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "kart"
+   ],
+   "sid": "shot-1120-5",
+   "store": "aliexpress_search",
+   "url": "screenshot"
   }
  ],
  "posted": {
@@ -810,6 +857,7 @@
   "ali-1005010323750589": "2026-11-19T06:01:02.107095+00:00",
   "ali-1005010323880088": "2026-11-18T17:30:57.396925+00:00",
   "ali-1005010330073102": "2026-11-20T06:00:51.600574+00:00",
+  "ali-1005010348397664": "2026-11-20T09:30:51.498552+00:00",
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
@@ -847,10 +895,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "beauty",
   "aliexpress/storage organizer",
   "toys-and-games/166220011",
-  "aliexpress/kitchen gadgets"
+  "aliexpress/kitchen gadgets",
+  "aliexpress/Mijia"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -862,16 +910,15 @@
  ],
  "recent_themes": [
   "car",
-  "car",
   "tech",
   "tech",
   "beauty",
   "home",
   "kids",
-  "kitchen"
+  "kitchen",
+  "tech"
  ],
  "recent_titles": [
-  "!Classic UNO Board Games Family Entertainment Party Early Education Puzzle Stackoed Toys Playing Cards Birthday Christmas Gift \ufeff",
   "IP65 Waterproof Solar Outdoor Garden Lights Super Bright 148 LEDs Motion Sensor Wall Light Solar Powered Security Lamp 3 Modes",
   "AI Hand Warmers Rechargeable 2 Pack, AI Smart Chips Electric Hand Warmers, 20Hrs Long Safe Heat, Portable Pocket Heater, Gifts for Christmas, Outdoor, Hunting, Golf, Camping Accessories",
   "Toocki 2-in-1 Retractable Cable PD100W USB C Fast Charging Cable+2.5W Wireless Watch Charge for iphone/Apple Watch Xiaomi Huawei",
@@ -882,7 +929,8 @@
   "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
   "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To",
   "TALES 150 Conversation Cards, Perfect for Dinners, Road Trips, Classrooms & Game Nights, Gifts & Gatherings, Conversation Starters to Spark Creativity (Family Edition)",
-  "9-in-1 Electric Cleaning Brush Electric Spin Cleaning Scrubber Electric Cleaning Tools Parlour Kitchen Bathroom Cleaning Gadgets"
+  "9-in-1 Electric Cleaning Brush Electric Spin Cleaning Scrubber Electric Cleaning Tools Parlour Kitchen Bathroom Cleaning Gadgets",
+  "MIJIA Electric Oral Irrigator Upgraded Version \u2013 Ultrasonic, 90-Day Gentle Use, Water Flosser Dental, 3 Modes, 200mL Tank"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -894,7 +942,10 @@
   "shot-1118-7",
   "shot-1118-8",
   "shot-1120-1",
-  "shot-1120-2"
+  "shot-1120-2",
+  "shot-1120-3",
+  "shot-1120-4",
+  "shot-1120-5"
  ],
  "since_ali": 0,
  "tg_offset": 260136142
