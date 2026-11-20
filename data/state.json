@@ -1,9 +1,10 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 19
+  "2026-11-20": 20
  },
  "families": {
+  "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
   "B096XNVFP1": "2026-11-19T16:34:06.926534+00:00",
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -176,6 +177,7 @@
   "owala tumbler stainless steel": "2026-11-19T13:00:58.397241+00:00",
   "pc case shell for": "2026-11-19T12:30:55.031143+00:00",
   "piece bicycle dynamometer wrench": "2026-11-18T16:01:31.979475+00:00",
+  "pokemon cards plus a": "2026-11-20T15:00:57.006964+00:00",
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
@@ -259,7 +261,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
- "last_post_at": "2026-11-20T14:30:56.295151+00:00",
+ "last_post_at": "2026-11-20T15:00:57.006708+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -729,6 +731,7 @@
   "B014E2D6BY": "2026-11-20T07:33:58.753764+00:00",
   "B0157T2ENY": "2026-11-16T06:31:23.775770+00:00",
   "B0160HYB8S": "2026-11-14T16:08:08.009745+00:00",
+  "B01CYZHGC8": "2026-11-20T15:00:56.986352+00:00",
   "B01KNM3AFQ": "2026-11-17T06:01:17.335441+00:00",
   "B01M0AGUPO": "2026-11-16T12:46:27.773496+00:00",
   "B01M16WBW1": "2026-11-15T09:02:39.794924+00:00",
@@ -892,31 +895,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/outdoor string lights",
   "beauty",
   "pick",
-  "aliexpress/kids gift toy"
+  "aliexpress/kids gift toy",
+  "toys-and-games/166220011"
  ],
  "recent_groups": [
-  "fashion",
   "sporting-goods",
   "beauty",
   "toys-and-games",
   "fashion",
-  "beauty"
+  "beauty",
+  "toys-and-games"
  ],
  "recent_themes": [
-  "other",
   "tech",
   "kids",
   "fashion",
   "home",
   "beauty",
   "tech",
-  "home"
+  "home",
+  "kids"
  ],
  "recent_titles": [
-  "TALES 150 Conversation Cards, Perfect for Dinners, Road Trips, Classrooms & Game Nights, Gifts & Gatherings, Conversation Starters to Spark Creativity (Family Edition)",
   "9-in-1 Electric Cleaning Brush Electric Spin Cleaning Scrubber Electric Cleaning Tools Parlour Kitchen Bathroom Cleaning Gadgets",
   "MIJIA Electric Oral Irrigator Upgraded Version \u2013 Ultrasonic, 90-Day Gentle Use, Water Flosser Dental, 3 Modes, 200mL Tank",
   "Magnetic Train Set DIY 3D Cube Track Electric Train Set for Kids Flexible Magnet Track Car Toy Stem Learning Building Cube Gift",
@@ -927,7 +929,8 @@
   "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home",
   "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)",
   "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
-  "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift"
+  "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
+  "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -944,6 +947,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136143
 }
