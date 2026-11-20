@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 28
+  "2026-11-20": 29
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -87,6 +87,7 @@
   "bigfoot shower curtain": "2026-11-17T18:01:00.469469+00:00",
   "biodance bio-collagen real deep": "2026-11-20T13:01:28.306052+00:00",
   "biodance hydrogel eye patches": "2026-11-20T17:31:34.862466+00:00",
+  "bitdo m g wireless": "2026-11-20T19:30:59.986978+00:00",
   "body hair pubic hair": "2026-11-19T06:01:02.150321+00:00",
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "brushless electric drill tapping": "2026-11-20T18:30:56.548042+00:00",
@@ -278,7 +279,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-20T16:34:25.912715+00:00",
- "last_post_at": "2026-11-20T19:00:59.482086+00:00",
+ "last_post_at": "2026-11-20T19:30:59.986715+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -911,13 +912,14 @@
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32878557142": "2026-11-18T11:01:29.110017+00:00",
-  "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
+  "ali-32934943614": "2026-11-16T15:31:30.606871+00:00",
+  "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty",
   "toys-and-games/166220011",
   "aliexpress/cordless drill brushless",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "aliexpress/1119-1129 Black/Super Friday - Top Brands"
  ],
  "recent_groups": [
   "fashion",
@@ -928,17 +930,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "fashion",
   "tech",
   "beauty",
   "kids",
   "home",
-  "tech"
+  "tech",
+  "other"
  ],
  "recent_titles": [
-  "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)",
   "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
   "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
   "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
@@ -949,7 +950,8 @@
   "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
   "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
-  "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB"
+  "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB",
+  "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
