@@ -99,4 +99,6 @@ if __name__ == "__main__":
         im = fn()
         im.save(out / f"{name}.png")
         im.save(out / f"{name}.pdf", resolution=300)
+        a5 = im.resize((1748, 2480), Image.LANCZOS)  # A5 @300dpi
+        a5.save(out / f"{name.replace('_a4', '_a5')}.pdf", resolution=300)
     print("ok")
