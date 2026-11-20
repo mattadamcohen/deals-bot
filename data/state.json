@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 13
+  "2026-11-20": 14
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -85,6 +85,7 @@
   "christmas projector light patterns": "2026-11-19T11:30:48.621221+00:00",
   "classic uno board games": "2026-11-19T18:30:53.440916+00:00",
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
+  "clip dolls machine unicorn": "2026-11-20T11:31:01.271202+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
   "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
@@ -230,6 +231,12 @@
    "username": "",
    "via": "join"
   },
+  "458095556": {
+   "at": "2026-11-20T11:30:53.954312+00:00",
+   "name": "Natt",
+   "username": "",
+   "via": "join"
+  },
   "6558950667": {
    "at": "2026-11-18T11:30:56.169970+00:00",
    "name": "Ash",
@@ -238,7 +245,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T07:33:55.010534+00:00",
- "last_post_at": "2026-11-20T11:00:57.362910+00:00",
+ "last_post_at": "2026-11-20T11:31:01.270873+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -678,21 +685,6 @@
  "pick_queue": [
   {
    "alt": [
-    "mini claw machine kids doll catcher"
-   ],
-   "at": "2026-11-20T09:22:00+00:00",
-   "id": "dinosaur claw machine toy",
-   "not_before": "2026-11-20T11:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "claw"
-   ],
-   "sid": "shot-1120-3",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "digital camera 64MP 16X zoom vlog"
    ],
    "at": "2026-11-20T09:22:00+00:00",
@@ -839,6 +831,7 @@
   "ali-1005009522437194": "2026-11-17T15:31:26.822197+00:00",
   "ali-1005009648930864": "2026-11-19T10:00:55.607269+00:00",
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
+  "ali-1005009937260935": "2026-11-20T11:31:01.224284+00:00",
   "ali-1005010041961832": "2026-11-20T11:00:57.309222+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
@@ -886,10 +879,10 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/Mijia",
   "aliexpress/building blocks set",
   "pick",
-  "aliexpress/laptop screen extender"
+  "aliexpress/laptop screen extender",
+  "pick"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -900,17 +893,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "beauty",
   "home",
   "kids",
   "kitchen",
   "tech",
   "kids",
   "other",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "CENRR Handheld Wireless Car Vacuum Cleaner Charging Portable Strong Cleaning Appliance Mini Vacuum Cleaner For Car Household",
   "6L warm cold fskincare cervejeira mini fridge nevera geladeira frost free Refrigerator for home in-vehicle frigobar magalu",
   "Xiaomi Mijia Smart Jump Rope 2 Bluetooth Fitness Exercise Counting Gravity Ball Skipping Professional Fat Burning",
   "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet",
@@ -921,7 +913,8 @@
   "MIJIA Electric Oral Irrigator Upgraded Version \u2013 Ultrasonic, 90-Day Gentle Use, Water Flosser Dental, 3 Modes, 200mL Tank",
   "Magnetic Train Set DIY 3D Cube Track Electric Train Set for Kids Flexible Magnet Track Car Toy Stem Learning Building Cube Gift",
   "Automatic Electric Fruit Peeler Rechargeable Grape Fruit Peeling Machine Brushless Grapes Cherry Tomatoes Garlic Peeler Machine",
-  "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display"
+  "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
+  "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -939,5 +932,5 @@
   "shot-1120-5"
  ],
  "since_ali": 0,
- "tg_offset": 260136142
+ "tg_offset": 260136143
 }
