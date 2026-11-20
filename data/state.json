@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-20": 16
+  "2026-11-20": 17
  },
  "families": {
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
@@ -35,6 +35,7 @@
   "B0FG22LPQN": "2026-11-16T16:01:02.943620+00:00",
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
+  "B0FPMN9D69": "2026-11-20T13:01:28.306048+00:00",
   "B0GCB2B52D": "2026-11-19T06:34:11.261469+00:00",
   "B0GCMKDSJB": "2026-11-19T12:04:43.457544+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.178092+00:00",
@@ -76,6 +77,7 @@
   "bedsure satin pillowcases queen": "2026-11-16T05:34:38.383004+00:00",
   "big size building blocks": "2026-11-15T19:15:42.408291+00:00",
   "bigfoot shower curtain": "2026-11-17T18:01:00.469469+00:00",
+  "biodance bio-collagen real deep": "2026-11-20T13:01:28.306052+00:00",
   "body hair pubic hair": "2026-11-19T06:01:02.150321+00:00",
   "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
@@ -248,7 +250,7 @@
   }
  },
  "last_harvest_at": "2026-11-20T12:04:38.979558+00:00",
- "last_post_at": "2026-11-20T12:31:27.469811+00:00",
+ "last_post_at": "2026-11-20T13:01:28.305856+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -759,6 +761,7 @@
   "B09BDG5RP3": "2026-11-18T10:05:20.176356+00:00",
   "B09RTVD1GF": "2026-11-18T17:00:58.161748+00:00",
   "B09V7Z4TJG": "2026-11-19T12:04:43.285904+00:00",
+  "B0B2RM68G2": "2026-11-20T13:01:28.290700+00:00",
   "B0B7535QC3": "2026-11-16T11:31:03.776706+00:00",
   "B0BGWYD9KC": "2026-11-14T12:25:03.919624+00:00",
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
@@ -891,31 +894,30 @@
   "ali-32934943614": "2026-11-16T15:31:30.606871+00:00"
  },
  "recent_categories": [
-  "aliexpress/laptop screen extender",
   "pick",
   "fashion/6358539011",
-  "aliexpress/outdoor string lights"
+  "aliexpress/outdoor string lights",
+  "beauty"
  ],
  "recent_groups": [
-  "hpc",
   "fashion",
   "sporting-goods",
   "beauty",
   "toys-and-games",
-  "fashion"
+  "fashion",
+  "beauty"
  ],
  "recent_themes": [
-  "kitchen",
   "tech",
   "kids",
   "other",
   "tech",
   "kids",
   "fashion",
-  "home"
+  "home",
+  "beauty"
  ],
  "recent_titles": [
-  "Automatic Garbage with Lids Touchless Small Trash Can Small Motion Sensor Smart Trash Can for Bedroom Office Kitchen Toilet",
   "grace & stella Award Winning Eye Patches for Women (24 Pairs, Gold)",
   "Toothbrush Storage Rack Large Capacity Bathroom Wall-Mounted Storage Box Plastic Organizer for Toothbrushes Toothpaste Razors To",
   "TALES 150 Conversation Cards, Perfect for Dinners, Road Trips, Classrooms & Game Nights, Gifts & Gatherings, Conversation Starters to Spark Creativity (Family Edition)",
@@ -926,7 +928,8 @@
   "Amoudo 15.6 Inch Portable Monitor 1920x1080P Extend Display IPS LCD Panel Penhole Stand VESA USBC Mini HDMI Mobile Display",
   "Mini Clip Dolls Machine Unicorn Rabbit Dinosaur Children Coin Operated Game Claw Crane Machine Toys Kids Birthday Christmas Gift",
   "Casio A158WA Series | Unisex Digital Watch | Vintage | WR | 100 SEC Stop Watch | Daily Alarm | Regular Time Keeping: Hour, Minute, Second, PM, Date, Day | Led Light | 7 Yr Battery",
-  "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home"
+  "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home",
+  "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -943,6 +946,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136143
 }

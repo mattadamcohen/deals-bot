@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0H2K6W7P9",
-  "title": "EA SPORTS College Football 27 - Standard Edition PS5 |Disc I VideoGame",
-  "title_he": "EA SPORTS College Football 27 - מהדורה סטנדרטית PS5 |Disc I VideoGame",
-  "price": "$34.97",
-  "was": "$69.99",
-  "discount": "50%",
-  "rating": "4.6",
-  "reviews": "224",
-  "rank": 17,
-  "source": "bestsellers",
-  "message_id": 297,
-  "image": "https://m.media-amazon.com/images/I/71ZGsxBczrL._SX522_.jpg",
-  "variant": 366,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   297,
-   298,
-   299
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f005ae5a-6b8a-461b-8e94-3fc2a2f762e3/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "sporting-goods",
-  "category_en": "Sports & Outdoors",
-  "category_he": "ספורט וטבע",
-  "posted_at": "2026-11-19T07:34:38.273070+00:00"
- },
- {
   "asin": "ali-1005005510242471",
   "title": "Custom Photo Projection Necklace with Picture Inside I Love You Necklace 100 Languages Personalized Heart Pendant Necklace Gift",
   "title_he": "שרשרת הקרנת תמונה מותאמת אישית עם תמונה בפנים I Love You שרשרת 100 שפות מתנה אישית לשרשרת תליון לב",
@@ -1158,5 +1129,34 @@
   "category_en": "Outdoor lighting",
   "category_he": "תאורת חוץ",
   "posted_at": "2026-11-20T12:31:27.467519+00:00"
+ },
+ {
+  "asin": "B0B2RM68G2",
+  "title": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)",
+  "title_he": "מסכה עמוקה אמיתית של BIODANCE ביו-קולגן להלבנת לחות וצמצום (4ea)",
+  "price": "$13.99",
+  "was": "",
+  "discount": "26%",
+  "rating": "4.5",
+  "reviews": "52,730",
+  "rank": 11,
+  "source": "bestsellers",
+  "message_id": 420,
+  "image": "https://m.media-amazon.com/images/I/51ubxqzNGIL._SL1000_.jpg",
+  "variant": 40,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   420,
+   421,
+   422
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/edd6c1e2-563b-4d48-9105-81baaf952734/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty",
+  "category_en": "Beauty & Personal Care",
+  "category_he": "יופי וטיפוח",
+  "posted_at": "2026-11-20T13:01:28.304274+00:00"
  }
 ]
