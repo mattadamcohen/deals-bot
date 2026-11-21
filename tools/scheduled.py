@@ -22,8 +22,17 @@ def item_links(asins):
     posts = posts if isinstance(posts, list) else list(posts.values())
     by = {p["asin"]: p for p in posts}
     # IG rejects long comments, and AliExpress links are long: one comment per product
-    return [f"🔗 {i}. {reel.short_he(p.get('title_he') or p.get('title'))}: {reel.item_link(p)}"
-            for i, p in enumerate((by[a] for a in asins if a in by), 1)]
+    out = []
+    for i, p in enumerate((by[a] for a in asins if a in by), 1):
+        url = reel.item_link(p)
+        if p["asin"].startswith("ali-"):
+            try:
+                import aliexpress
+                url = aliexpress.link(f"https://www.aliexpress.com/item/{p['asin'][4:]}.html") or url
+            except Exception as e:
+                print("short link failed", e)
+        out.append(f"🔗 {i}. {reel.short_he(p.get('title_he') or p.get('title'))}: {url}")
+    return out
 
 
 def comment(media, text=None):
@@ -55,6 +64,10 @@ def main():
             if ok:
                 for t in (item_links(job["link_asins"]) if job.get("link_asins") else [None]):
                     comment(media, t)
+        elif job["kind"] == "ig_delete_comments":
+            import requests
+            ok = all([requests.delete(f"https://graph.facebook.com/v23.0/{c}", params={"access_token": os.getenv("IG_ACCESS_TOKEN", "").strip()},
+                                      timeout=30).ok for c in job["comments"]])
         elif job["kind"] == "ig_comment":
             ok = all([comment(job["media"], t) for t in (item_links(job["link_asins"]) if job.get("link_asins") else [None])])
         print(job["id"], "OK" if ok else "FAILED")
