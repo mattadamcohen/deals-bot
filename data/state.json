@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 2
+  "2026-11-21": 3
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -109,6 +109,7 @@
   "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
   "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
+  "denokin portable espresso coffee": "2026-11-21T06:01:01.176222+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
   "duracell coppertop aa batteries": "2026-11-19T14:00:59.709488+00:00",
@@ -283,7 +284,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T05:31:25.483123+00:00",
+ "last_post_at": "2026-11-21T06:01:01.176060+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -874,6 +875,7 @@
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
   "ali-1005009187146996": "2026-11-19T16:01:27.484878+00:00",
+  "ali-1005009212557833": "2026-11-21T06:01:01.120479+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
   "ali-1005009385704664": "2026-11-18T07:01:06.726523+00:00",
   "ali-1005009463011323": "2026-11-20T17:01:02.325132+00:00",
@@ -933,10 +935,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Top Brands",
   "aliexpress/squishy advent calendar",
   "lawn-garden",
-  "aliexpress/video doorbell"
+  "aliexpress/video doorbell",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "beauty",
@@ -947,17 +949,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "beauty",
   "kids",
   "home",
   "tech",
   "other",
   "kids",
   "home",
-  "tech"
+  "tech",
+  "kitchen"
  ],
  "recent_titles": [
-  "NiiMbot B21 Mini Thermal Printer Wireless Barcode Label Maker Bluetooth Portable Adhesive Label Printers for Office Commercial",
   "New 24V Electric Go-Kart Kids Outdoor Ride On Drift Racing Car Toy with Variable Speeds Up to 7.5 Mph, LED Lights, Music, USB Po",
   "WIHOLL Fall Outfits for Women 2026 Hollow Out Knit Sweater Fashion Clothing",
   "Baseus EH10 NC ANC Wireless Headphones 45dB Adaptive Hybrid Noise Cancelling Headsets Hi-Res LDAC Headphone Bluetooth 6.0 80Hrs",
@@ -968,7 +969,8 @@
   "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis",
   "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
   "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
-  "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell"
+  "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
+  "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -986,5 +988,5 @@
   "shot-1120-5"
  ],
  "since_ali": 0,
- "tg_offset": 260136146
+ "tg_offset": 260136147
 }
