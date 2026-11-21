@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IL Deals: הדילים הכי חמים מאמזון ואליאקספרס</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#1d3fe0; --blue-d:#0f1f7a; --navy:#0a1240; --yellow:#ffcf2e; --orange:#ff7a1a; --pink:#ff3d8b;
+  --bg:#f3f5fb; --card:#fff; --ink:#141a33; --muted:#6b7392; --line:#e3e7f3; --green:#11a36a;
+  --amazon:#ff9900; --ali:#e62e04; --r:16px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:Heebo,system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+
+/* header */
+.top{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;box-shadow:0 2px 14px rgba(0,0,0,.25)}
+.top-in{max-width:1180px;margin:auto;display:flex;align-items:center;gap:12px;padding:10px 16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px;white-space:nowrap}
+.brand img{width:40px;height:40px;border-radius:50%;background:#fff}
+.brand small{display:block;font-weight:500;font-size:12px;opacity:.75;margin-top:-3px}
+.search{flex:1;position:relative;max-width:520px;margin-inline-start:auto}
+.search input{width:100%;border:0;border-radius:999px;padding:11px 42px 11px 16px;font:inherit;font-size:15px;outline:none}
+.search svg{position:absolute;right:14px;top:50%;transform:translateY(-50%);opacity:.5}
+.tg-btn{display:flex;align-items:center;gap:6px;background:#29a9eb;color:#fff;border-radius:999px;padding:9px 14px;font-weight:700;font-size:14px;white-space:nowrap}
+@media(max-width:720px){.tg-btn span{display:none}.brand small{display:none}.top-in{flex-wrap:wrap}.search{order:3;flex-basis:100%;max-width:none}}
+
+/* hero */
+.hero{background:linear-gradient(135deg,var(--blue) 0%,#3b25c9 55%,var(--pink) 130%);color:#fff;overflow:hidden;position:relative}
+.hero-in{max-width:1180px;margin:auto;padding:30px 16px 34px;position:relative;z-index:1}
+.hero h1{margin:0 0 6px;font-size:clamp(26px,5vw,44px);font-weight:900;line-height:1.1}
+.hero h1 em{font-style:normal;color:var(--yellow)}
+.hero p{margin:0;font-size:clamp(15px,2.4vw,18px);opacity:.92}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pill{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:500}
+.hero .dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.18) 2px,transparent 2px);background-size:22px 22px;mask-image:linear-gradient(90deg,transparent,#000)}
+
+/* filters */
+.wrap{max-width:1180px;margin:auto;padding:0 16px}
+.filters{position:sticky;top:60px;z-index:15;background:var(--bg);padding:14px 0 10px}
+@media(max-width:720px){.filters{top:106px}}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px;color:var(--ink);display:flex;align-items:center;gap:6px}
+.chip .n{font-weight:500;color:var(--muted);font-size:12px}
+.chip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.chip.on .n{color:#c8cff5}
+.row2{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+.seg{display:flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{border:0;background:none;border-radius:999px;padding:6px 12px;font-weight:700;font-size:13px;color:var(--muted)}
+.seg button.on{background:var(--yellow);color:var(--ink)}
+select{font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);border-radius:999px;padding:7px 12px;background:#fff;color:var(--ink)}
+.count{margin-inline-start:auto;color:var(--muted);font-size:13px}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:6px 0 30px}
+@media(max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:10px}}
+.card{background:var(--card);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;border:1px solid var(--line);transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(16,30,90,.12)}
+.img{position:relative;display:block;aspect-ratio:1;background:#fff;overflow:hidden}
+.img img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.badge{position:absolute;top:8px;font-size:12px;font-weight:900;border-radius:8px;padding:3px 8px;color:#fff}
+.b-store{right:8px}
+.b-store.amazon{background:var(--navy)}.b-store.amazon i{color:var(--amazon);font-style:normal}
+.b-store.aliexpress{background:var(--ali)}
+.b-off{left:8px;background:var(--pink)}
+.b-new{left:8px;top:auto;bottom:8px;background:var(--green)}
+.body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.t{font-size:14px;font-weight:500;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:38px}
+.price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.now{font-size:22px;font-weight:900;color:var(--blue-d)}
+.was{font-size:13px;color:var(--muted);text-decoration:line-through}
+.usd{font-size:12px;color:var(--muted)}
+.meta{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.meta b{color:var(--ink);font-weight:700}
+.buy{margin-top:auto;display:flex;align-items:center;justify-content:center;gap:6px;background:var(--orange);color:#fff;font-weight:900;border-radius:12px;padding:10px;font-size:15px}
+.buy:hover{filter:brightness(1.07)}
+.ship{font-size:12px;color:var(--green);font-weight:700}
+
+/* telegram banner in grid */
+.tg-card{grid-column:1/-1;background:linear-gradient(120deg,#1d8fd8,#29a9eb 60%,#5fd0ff);color:#fff;border-radius:var(--r);padding:20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.tg-card h3{margin:0;font-size:22px;font-weight:900}
+.tg-card p{margin:4px 0 0;opacity:.95}
+.tg-card a{margin-inline-start:auto;background:#fff;color:#1d8fd8;font-weight:900;border-radius:999px;padding:11px 20px}
+.tg-card .gift{font-size:40px}
+
+.empty{grid-column:1/-1;text-align:center;padding:50px 10px;color:var(--muted)}
+.empty b{display:block;font-size:20px;color:var(--ink);margin-bottom:6px}
+
+footer{background:var(--navy);color:#c9cfee;font-size:13px;line-height:1.7}
+footer .wrap{padding:26px 16px 34px}
+footer b{color:#fff}
+.draft{background:var(--yellow);color:var(--ink);text-align:center;font-weight:700;font-size:13px;padding:6px}
+</style>
+</head>
+<body>
+<div class="draft">טיוטה לתצוגה בלבד: עדיין לא באוויר · Draft preview</div>
+<header class="top"><div class="top-in">
+  <a class="brand" href="#"><img id="logo" alt="IL Deals"><div>IL Deals<small>אמזון · אליאקספרס · משלוח לארץ</small></div></a>
+  <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    <input id="q" type="search" placeholder="חפשו מוצר: אוזניות, מצלמה, צעצוע..." autocomplete="off"></label>
+  <a class="tg-btn" href="https://t.me/ilamazondeals" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M21.9 4.3 18.6 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6 13.6l-5-1.6c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.3 1.7.2 1.4 1.3z"/></svg><span>הצטרפו לטלגרם</span></a>
+</div></header>
+
+<section class="hero"><div class="dots"></div><div class="hero-in">
+  <h1>הדילים <em>הכי חמים</em><br>מאמזון ואליאקספרס</h1>
+  <p>רבי מכר שנבחרו בקפידה, עם משלוח לישראל ומחירים בשקלים. מתעדכן כל יום.</p>
+  <div class="pills"><span class="pill">🇮🇱 משלוח לארץ</span><span class="pill">₪ מחירים בשקלים</span><span class="pill">⭐ רק מוצרים עם דירוג גבוה</span><span class="pill">🔥 חדש כל יום</span></div>
+</div></section>
+
+<main class="wrap">
+  <div class="filters">
+    <div class="chips" id="cats"></div>
+    <div class="row2">
+      <div class="seg" id="stores"><button data-s="all" class="on">הכל</button><button data-s="amazon">אמזון</button><button data-s="aliexpress">אליאקספרס</button></div>
+      <select id="sort"><option value="new">החדשים ביותר</option><option value="off">ההנחה הגדולה</option><option value="low">מחיר: מהנמוך</option><option value="high">מחיר: מהגבוה</option></select>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer><div class="wrap">
+  <b>IL Deals</b> · דילים מאמזון ואליאקספרס עם משלוח לישראל.<br>
+  המחירים בשקלים הם הערכה לפי שער היום, ועשויים להשתנות. המחיר הסופי, המשלוח והמיסים מוצגים באתר החנות.<br>
+  גילוי נאות: הקישורים באתר הם קישורי שותפים. כשקונים דרכם אנחנו עשויים לקבל עמלה, בלי עלות נוספת לכם.<br>
+  As an Amazon Associate I earn from qualifying purchases. AliExpress links are affiliate links.<br>
+  📲 <a href="https://t.me/ilamazondeals" target="_blank" rel="noopener"><b>t.me/ilamazondeals</b></a>
+</div></footer>
+
+<script>
+/*DATA*/
+const RATE = /*RATE*/;
+const CATS = [
+  ["all","🔥","הכל"],["tech","🎧","טק וגיימינג"],["home","🏠","לבית"],["kitchen","🍳","מטבח"],
+  ["kids","🧸","ילדים וצעצועים"],["fashion","👟","אופנה"],["beauty","💄","יופי וטיפוח"],["sport","🏕️","ספורט וטבע"]
+];
+const usd = s => parseFloat(String(s||"").replace(/[^0-9.]/g,"")) || 0;
+const ils = s => Math.round(usd(s) * RATE).toLocaleString("en-US");
+const NOW = Math.max(...PRODUCTS.map(p => Date.parse(p.posted_at) || 0));
+let state = {cat:"all", store:"all", sort:"new", q:""};
+try { const s = JSON.parse(localStorage.getItem("ild-filters")||"{}"); Object.assign(state, s, {q:""}); } catch(e) {}
+
+document.getElementById("logo").src = LOGO;
+
+function renderCats(){
+  const el = document.getElementById("cats");
+  const counts = {};
+  PRODUCTS.forEach(p => { if (state.store==="all"||p.store===state.store) { counts[p.theme]=(counts[p.theme]||0)+1; counts.all=(counts.all||0)+1; } });
+  el.innerHTML = CATS.filter(c => counts[c[0]]).map(c =>
+    `<button class="chip ${state.cat===c[0]?"on":""}" data-c="${c[0]}">${c[1]} ${c[2]} <span class="n">${counts[c[0]]}</span></button>`).join("");
+  el.querySelectorAll(".chip").forEach(b => b.onclick = () => { state.cat=b.dataset.c; save(); render(); });
+}
+
+function card(p){
+  const fresh = NOW - Date.parse(p.posted_at) < 24*3600e3;
+  const off = parseInt(p.discount) || 0;
+  const meta = [];
+  if (p.rating) meta.push(p.store==="amazon" ? `⭐ <b dir="ltr">${p.rating}</b>` : `👍 <b dir="ltr">${p.rating}</b>`);
+  if (p.sold) meta.push(`🔥 <b dir="ltr">${p.sold}+</b> נמכרו`);
+  else if (p.reviews) meta.push(`<b>${p.reviews}</b> ביקורות`);
+  return `<article class="card">
+    <a class="img" href="${p.link}" target="_blank" rel="noopener sponsored">
+      <img src="${p.img}" alt="" loading="lazy">
+      <span class="badge b-store ${p.store}">${p.store==="amazon"?"<i>a</i> Amazon":"AliExpress"}</span>
+      ${off>=10?`<span class="badge b-off" dir="ltr">-${off}%</span>`:""}
+      ${fresh?`<span class="badge b-new">חדש היום</span>`:""}
+    </a>
+    <div class="body">
+      <div class="t">${p.title_he}</div>
+      <div class="price"><span class="now" dir="ltr">₪${ils(p.price)}</span>${p.was&&usd(p.was)>usd(p.price)?`<span class="was" dir="ltr">₪${ils(p.was)}</span>`:""}<span class="usd">${p.price}</span></div>
+      <div class="meta">${meta.join("")}</div>
+      <div class="ship">🇮🇱 משלוח לארץ</div>
+      <a class="buy" href="${p.link}" target="_blank" rel="noopener sponsored">לצפייה בדיל ←</a>
+    </div></article>`;
+}
+
+function render(){
+  renderCats();
+  document.querySelectorAll("#stores button").forEach(b => b.classList.toggle("on", b.dataset.s===state.store));
+  document.getElementById("sort").value = state.sort;
+  const q = state.q.trim().toLowerCase();
+  let list = PRODUCTS.filter(p =>
+    (state.cat==="all"||p.theme===state.cat) && (state.store==="all"||p.store===state.store) &&
+    (!q || (p.title_he+" "+p.id).toLowerCase().includes(q)));
+  const by = {new:(a,b)=>Date.parse(b.posted_at)-Date.parse(a.posted_at), off:(a,b)=>(parseInt(b.discount)||0)-(parseInt(a.discount)||0),
+              low:(a,b)=>usd(a.price)-usd(b.price), high:(a,b)=>usd(b.price)-usd(a.price)};
+  list.sort(by[state.sort]);
+  const cards = list.map(card);
+  if (cards.length > 8) cards.splice(8, 0, `<div class="tg-card"><span class="gift">🎁</span><div><h3>דילים חדשים כל יום בטלגרם</h3><p>הצטרפו לערוץ וקבלו את הדילים הכי חמים ישר לטלפון</p></div><a href="https://t.me/ilamazondeals" target="_blank" rel="noopener">הצטרפו בחינם</a></div>`);
+  document.getElementById("grid").innerHTML = cards.join("") ||
+    `<div class="empty"><b>לא מצאנו דילים כאלה</b>נסו מילה אחרת או קטגוריה אחרת</div>`;
+  document.getElementById("count").textContent = `${list.length} דילים`;
+}
+function save(){ try { localStorage.setItem("ild-filters", JSON.stringify({cat:state.cat,store:state.store,sort:state.sort})); } catch(e) {} }
+
+document.querySelectorAll("#stores button").forEach(b => b.onclick = () => { state.store=b.dataset.s; state.cat="all"; save(); render(); });
+document.getElementById("sort").onchange = e => { state.sort=e.target.value; save(); render(); };
+document.getElementById("q").oninput = e => { state.q=e.target.value; render(); };
+render();
+</script>
+</body>
+</html>
