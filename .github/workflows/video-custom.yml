@@ -1,0 +1,26 @@
+name: Custom video post
+on:
+  workflow_dispatch:
+    inputs:
+      spec: { description: "spec json path", required: true }
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get install -y -qq libfribidi0 libraqm0 > /dev/null || true
+      - run: pip install -r requirements.txt
+      - run: python tools/video_custom.py ${{ inputs.spec }}
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+      - run: |
+          git config user.name deals-bot && git config user.email deals-bot@users.noreply.github.com
+          git add data/reels.json && git commit -m "custom video post" && (git push || (git pull --rebase -X theirs && git push)) || true
