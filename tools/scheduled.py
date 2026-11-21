@@ -28,7 +28,7 @@ def comment(media, text=None):
     import requests
     r = requests.post(f"https://graph.facebook.com/v23.0/{media}/comments",
                       data={"message": text or LINK_COMMENT, "access_token": os.getenv("IG_ACCESS_TOKEN", "").strip()}, timeout=30)
-    print("link comment", media, r.status_code, r.text[:150])
+    print("link comment", media, r.status_code, r.text[:600])
     return r.ok
 
 
