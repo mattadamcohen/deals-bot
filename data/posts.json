@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005012601272584",
-  "title": "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
-  "title_he": "KOMERY 4K מצלמה דיגיטלית 64MP פוקוס אוטומטי מצלמת ווגלוג 18X זום דיגיטלי מצלמה קומפקטית עם מצלמת אינטרנט פלאש לנסיעות YouTube",
-  "price": "$42.19",
-  "was": "$95.89",
-  "discount": "56%",
-  "rating": "100.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 423,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se2c634a6a83f4eae9bd07804e0510e10F.png",
-  "variant": 198,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2Y6eSg9VO3hF0RmKgCP0RvGFUiRRNLMnpkOjxE3b1ipiCYjufvM3ZUGYPNp17e1vHp0evcdd8URbZ9IOXKeTyWIZMEABh4I75ipXUNUASdsEgNKgvOB1cdYsiURhbGUoqF1KW7inviRrxgPT3nezWXgL82TxHP8o4kpctydHe4cpKtwch5pCjDx2o8BpSEKNAQrFTqbIHfX2VsW0OXTAmrwAE3aWPvR1ASy7f6PFU58ryaviv1XGO7kCrQJWc2GfZilN5CXJCgQHa1tWLtWUFKpE14uZRccWwNvbyEWd6uFpyrZ7LsJOeYbtJMp3VmuwvlDWvkiOR5UmzwZZorbOVlvJvAyEhrc8z8OLw4oUBaQ24gyD4mjMLTJnG6cbh4xxnIwQpSE3l99j62xKORQ4PWynzJcqmsy5OujoAji2kjB5LVJDD5ZB7tvv8RJeLb6U7BST075jzRGJSogd44rxk3J1nFbMmgOfVeNGdVuutcti0I2E0n3WzebtuzXCxhiGrqkdHLCzIuhm4iyJMS0fgW2yU1WqyCF3yaV3TONnEdH1Axd4bAbIxDC3AoIWnxYxPbiimPMDpaWZyQ6sxrnCvVtnIxuEEriM5Z5h5kp4rTFGw1OhilEYs2PDKUDJkS3Z2uyXTCvY9cJifDjBQ8MGXNtae8UkiQLGlXCcfyLl2GKUJHmfPOxd9f1TPz7dqLaQPXpKGaVe7XPBc",
-  "sold": "2",
-  "album_ids": [
-   423,
-   424,
-   425
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-20T13:30:48.385298+00:00"
- },
- {
   "asin": "ali-1005011940311028",
   "title": "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
   "title_he": "HTMCK חשמלי חכם רובוטי צעצוע לילדים פעלולים מתגלגלים אינטראקטיביים פקודה קולית מתנת יום הולדת ריקוד לחיות מחמד",
@@ -1157,5 +1128,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-21T18:00:54.876916+00:00"
+ },
+ {
+  "asin": "B0H87K51V4",
+  "title": "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
+  "title_he": "צעצוע שממית מטפס על קיר לילדים, שממית שלט רחוק, שממית סורק קיר עם עיניים זוהרות לד, צעצוע זחל RC, ציאן",
+  "price": "$23.93",
+  "was": "$30.99",
+  "discount": "23%",
+  "rating": "4.1",
+  "reviews": "26",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 545,
+  "image": "https://m.media-amazon.com/images/I/7126l+v462L._AC_SL1254_.jpg",
+  "variant": 856,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   545,
+   546,
+   547
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/67b5c0dc-f18c-4e5e-b2c2-2ad8d057e989/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-21T18:31:42.633978+00:00"
  }
 ]

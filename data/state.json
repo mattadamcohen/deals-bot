@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 27
+  "2026-11-21": 28
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -68,6 +68,7 @@
   "B0HLN1KCQY": "2026-11-18T17:00:58.235297+00:00",
   "B0HMH3XK9V": "2026-11-20T07:33:58.796720+00:00",
   "B0HMSH5GKT": "2026-11-15T19:45:53.388292+00:00",
+  "B0HMWWX5ZK": "2026-11-21T18:31:42.636108+00:00",
   "B0HN83WL57": "2026-11-15T20:45:38.198154+00:00",
   "B0HP7YV6F4": "2026-11-19T19:30:52.415190+00:00",
   "B0HPGZXGHZ": "2026-11-18T18:03:46.029624+00:00",
@@ -265,6 +266,7 @@
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
   "w high temperature steam": "2026-11-21T09:00:55.308910+00:00",
+  "wall climbing gecko toy": "2026-11-21T18:31:42.636113+00:00",
   "warm cold fskincare cervejeira": "2026-11-20T06:00:51.735589+00:00",
   "watches sports outdoor waterproof": "2026-11-20T14:01:00.196002+00:00",
   "wiholl fall outfits for": "2026-11-20T16:34:31.176218+00:00",
@@ -316,7 +318,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T18:00:54.879464+00:00",
+ "last_post_at": "2026-11-21T18:31:42.635784+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -801,19 +803,6 @@
  "pick_queue": [
   {
    "alt": [
-    "UCIDCI wall climbing remote control lizard LED eyes"
-   ],
-   "at": "2026-11-21T16:17:00+00:00",
-   "id": "B0H87K51V4",
-   "not_before": "2026-11-21T17:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "shot-1121-1",
-   "store": "amazon",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Lavsonic electric lunch box food warmer",
     "cordless food warmer lunch box rechargeable 100W"
    ],
@@ -1013,6 +1002,7 @@
   "B0H4ZG39CY": "2026-11-17T09:01:31.172010+00:00",
   "B0H71RGBQ3": "2026-11-15T17:09:36.677208+00:00",
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
+  "B0H87K51V4": "2026-11-21T18:31:42.592257+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.562275+00:00",
@@ -1134,8 +1124,8 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy set",
   "fashion",
+  "pick",
   "pick",
   "pick"
  ],
@@ -1148,17 +1138,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "sport",
   "beauty",
   "kids",
   "fashion",
   "tech",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "medicube Collagen Jelly Cream, Moisturizing Cream for Plump Skin, 1.69fl.oz",
   "Kids Instant Camera Gift Set with 32GB Memory Card Color Pencil Dual Camera Flashlight - Perfect for Boys & Girls",
   "1/2/4/6Pcs 100 LED Wall Lights Outdoor Solar Lamp PIR Motion Sensor Solar Powered Sunlight Street Light for Garden Decoration",
   "Levi's Women's 318 Shaping Wide-Leg Jeans",
@@ -1169,7 +1158,8 @@
   "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
   "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
   "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards",
-  "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck"
+  "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
+  "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1197,6 +1187,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136164
 }
