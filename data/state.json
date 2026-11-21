@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 7
+  "2026-11-21": 8
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -121,6 +121,7 @@
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
+  "extra virgin olive oil": "2026-11-21T08:30:46.232481+00:00",
   "flextail zero lantern": "2026-11-18T18:31:03.689614+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
@@ -288,7 +289,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T08:00:57.702078+00:00",
+ "last_post_at": "2026-11-21T08:30:46.232371+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -865,6 +866,7 @@
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007391590551": "2026-11-20T18:30:56.482014+00:00",
+  "ali-1005007481796012": "2026-11-21T08:30:46.204977+00:00",
   "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805516838": "2026-11-19T15:31:12.173190+00:00",
@@ -943,10 +945,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy toy",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/solar garden lights outdoor",
-  "aliexpress/android tablet 10 inch"
+  "aliexpress/android tablet 10 inch",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "beauty",
@@ -957,17 +959,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "tech",
   "kitchen",
   "kids",
   "other",
   "home",
-  "tech"
+  "tech",
+  "other"
  ],
  "recent_titles": [
-  "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
   "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
   "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB",
   "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis",
@@ -978,7 +979,8 @@
   "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
   "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
   "Outdoor LED Solar Fairy String Lights Waterproof Garden Decoration Garland 8Modes Copper Wire Light For Street Patio Christmas",
-  "PRITOM 10 Inch Tablet PC with SIM Slot Android 13 64 GB Quad Core Touch Screen WiFi GPS Support 3G Phone Call"
+  "PRITOM 10 Inch Tablet PC with SIM Slot Android 13 64 GB Quad Core Touch Screen WiFi GPS Support 3G Phone Call",
+  "Extra virgin olive oil 5liters guaranteed newly packaged"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
