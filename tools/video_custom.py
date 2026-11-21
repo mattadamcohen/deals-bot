@@ -71,6 +71,13 @@ def main():
     src = (REPO / v).read_bytes() if not v.startswith("http") else requests.get(v, timeout=60).content
     p = {"asin": spec["id"], "title_he": spec["title_he"], "title": spec.get("title", ""), "price": spec["price"],
          "discount": spec.get("discount", ""), "store": spec.get("store", "aliexpress"), "link": spec.get("link", "")}
+    if p["store"] == "aliexpress" and "--no-instagram" not in sys.argv:
+        import aliexpress  # IG rejects long comments: use the short s.click.aliexpress.com/e/_xxx link
+        short = aliexpress.link(f"https://www.aliexpress.com/item/{p['asin'].removeprefix('ali-')}.html")
+        print("short link:", short)
+        if not short or len(short) > 80:
+            sys.exit("no short AliExpress link; not posting")
+        p["link"] = short
     final = render(p, src, spec.get("start", 0), spec.get("dur", 30))
     print("rendered", final, final.stat().st_size // 1024, "KB")
     if "--no-instagram" in sys.argv:
