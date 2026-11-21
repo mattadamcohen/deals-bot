@@ -80,7 +80,8 @@ def main():
     print("IG media", media)
     if media:
         reel.add_links(media, [p], st)
-        st.setdefault("media", []).append({"id": media, "asins": [p["asin"]], "at": datetime.now(timezone.utc).isoformat()})
+        st.setdefault("media", []).append({"id": media, "asins": [p["asin"]], "at": datetime.now(timezone.utc).isoformat(),
+                                           "items": {p["asin"]: {"link": p["link"], "title_he": p["title_he"]}}})
         st["media"] = st["media"][-30:]
         st["video_used"] = (st.get("video_used", []) + [p["asin"]])[-200:]
         vp.ST.write_text(json.dumps(st))

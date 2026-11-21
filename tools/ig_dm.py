@@ -21,7 +21,12 @@ TAG = CONFIG.get("amazon_tag", "")
 REPLIED = REPO / "data" / "ig_replied.json"
 
 
+LINKS = {}  # asin -> stored affiliate link (AliExpress items, custom posts)
+
+
 def link(asin):
+    if LINKS.get(asin):
+        return LINKS[asin]
     return f"https://www.amazon.com/dp/{asin}" + (f"?tag={TAG}" if TAG else "")
 
 
@@ -30,6 +35,7 @@ def media_map():
     cutoff = datetime.now(timezone.utc) - timedelta(days=7)
     posts = json.loads((REPO / "data" / "posts.json").read_text())
     by_asin = {p["asin"]: p for p in posts}
+    LINKS.update({p["asin"]: p["link"] for p in posts if p.get("link")})
     out = {}
     for p in posts:
         m = p.get("ig_media")
@@ -40,6 +46,9 @@ def media_map():
     for r in st.get("media", []):
         if datetime.fromisoformat(r["at"]) > cutoff:
             out[r["id"]] = r["asins"]
+            for a, x in (r.get("items") or {}).items():
+                LINKS[a] = x.get("link") or LINKS.get(a)
+                by_asin.setdefault(a, {"title_he": x.get("title_he", "")})
     return {m: [(a, (by_asin.get(a, {}).get("title_he") or by_asin.get(a, {}).get("title") or "")[:60]) for a in asins]
             for m, asins in out.items()}
 
@@ -50,7 +59,9 @@ def dm_text(items):
         body = f"הנה הקישור ל{t}:\n{link(a)}"
     else:
         body = "הנה הקישורים למוצרים:\n\n" + "\n\n".join(f"{i}. {t}\n{link(a)}" for i, (a, t) in enumerate(items, 1))
-    return ("היי! 👋 " + body + "\n\n📦 משלוח חינם לארץ בהזמנה מעל $49 (אפשר לשלב כמה מוצרים)"
+    ship = ("📦 משלוח לארץ" if all(a.startswith("ali-") for a, _ in items)
+            else "📦 משלוח חינם לארץ בהזמנה מעל $49 (אפשר לשלב כמה מוצרים)")
+    return ("היי! 👋 " + body + "\n\n" + ship +
             "\n🔥 עוד דילים כל יום בערוץ הטלגרם שלנו: t.me/ilamazondeals")
 
 
