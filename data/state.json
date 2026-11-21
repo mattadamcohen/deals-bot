@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 24
+  "2026-11-21": 25
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -13,6 +13,7 @@
   "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
   "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
+  "B0CLGS21T3": "2026-11-21T17:00:59.384628+00:00",
   "B0CYGCLR96": "2026-11-21T15:00:57.312819+00:00",
   "B0CZGWS9MV": "2026-11-16T19:49:00.788634+00:00",
   "B0CZLLQN45": "2026-11-17T13:31:29.829628+00:00",
@@ -129,6 +130,7 @@
   "energizer aa batteries alkaline": "2026-11-18T17:00:58.235302+00:00",
   "essager w usb c": "2026-11-18T15:01:02.608036+00:00",
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
+  "everfoams fuzzy open-toe slippers": "2026-11-21T17:00:59.384634+00:00",
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
   "extra virgin olive oil": "2026-11-21T08:30:46.232481+00:00",
@@ -312,7 +314,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T16:31:10.247853+00:00",
+ "last_post_at": "2026-11-21T17:00:59.384438+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -971,6 +973,7 @@
   "B0C3FTCYZL": "2026-11-19T08:31:27.582391+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
+  "B0CLGNYKFR": "2026-11-21T17:00:59.256447+00:00",
   "B0CQ8RSTDW": "2026-11-21T11:30:57.438982+00:00",
   "B0CSDF3YFB": "2026-11-21T15:00:57.223672+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
@@ -1127,31 +1130,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "lawn-garden",
   "aliexpress/camping lantern",
   "beauty",
-  "aliexpress/squishy set"
+  "aliexpress/squishy set",
+  "fashion"
  ],
  "recent_groups": [
-  "fashion",
   "lawn-garden",
   "beauty",
   "fashion",
   "lawn-garden",
-  "beauty"
+  "beauty",
+  "fashion"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "fashion",
   "kids",
   "home",
   "sport",
   "beauty",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "10-30PCS Colorful Telescopic Tubes Fidget Toys Plastic Sensory Pop Tubes Stress Relief Toys Adults Decompression Kids Toys Gifts",
   "Safer Home Flying Insect Trap, Plug-In Fruit Fly Trap for Indoors, 2-Pack",
   "2026 Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging Smart Sweep Mop 5-In-1 Vacuum Cleaner New",
   "medicube Collagen Jelly Cream, Moisturizing Cream for Plump Skin, 1.69fl.oz",
@@ -1162,9 +1164,11 @@
   "BEQHAUSE Dirt Trapper Door Mat 20\" x 32\", Non-Slip Washable Doormats, Beige",
   "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
   "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
-  "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor"
+  "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
+  "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes"
  ],
  "scheduled_picks_done": [
+  "pick-1121-coffee",
   "shot-1118-1",
   "shot-1118-2",
   "shot-1118-3",
@@ -1187,6 +1191,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136147
 }

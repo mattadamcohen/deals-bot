@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B000GAYQJ0",
-  "title": "Casio A158WA Series | Unisex Digital Watch | Vintage | WR | 100 SEC Stop Watch | Daily Alarm | Regular Time Keeping: Hour, Minute, Second, PM, Date, Day | Led Light | 7 Yr Battery",
-  "title_he": "סדרת Casio A158WA | שעון דיגיטלי לשני המינים | וינטג' | WR | שעון עצר 100 שניות | אזעקה יומית | שמירת זמן רגילה: שעה, דקה,...",
-  "price": "$27.31",
-  "was": "$29.95",
-  "discount": "9%",
-  "rating": "4.6",
-  "reviews": "59,577",
-  "rank": 5,
-  "source": "bestsellers",
-  "message_id": 414,
-  "image": "https://m.media-amazon.com/images/I/719bhXz4vvL._AC_SL1500_.jpg",
-  "variant": 802,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   414,
-   415,
-   416
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/78a66948-12f4-40d4-b2a7-b2c7abf14804/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/6358539011",
-  "category_en": "Men's Watches",
-  "category_he": "שעונים לגברים",
-  "posted_at": "2026-11-20T12:04:43.971896+00:00"
- },
- {
   "asin": "ali-1005007168676410",
   "title": "Outdoor Solar Lights Bubble Ball, Waterproof Warm White LED String for Garden Patio Yard Camping Christmas Party Decor Home",
   "title_he": "אורות שמש חיצוניים כדור בועה, עמיד למים מחרוזת LED לבן חם לגינה פטיו חצר קמפינג מסיבת עיצוב בית",
@@ -1157,5 +1128,34 @@
   "category_en": "Squishies",
   "category_he": "סקווישים",
   "posted_at": "2026-11-21T16:31:10.245466+00:00"
+ },
+ {
+  "asin": "B0CLGNYKFR",
+  "title": "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
+  "title_he": "EverFoams Womens נעלי בית מטושטשות פתוחות Memory Foam נעלי בית",
+  "price": "$18.02",
+  "was": "$34.99",
+  "discount": "48%",
+  "rating": "4.5",
+  "reviews": "16,741",
+  "rank": 13,
+  "source": "bestsellers",
+  "message_id": 536,
+  "image": "https://m.media-amazon.com/images/I/81rGYT3pkaL._AC_SL1500_.jpg",
+  "variant": 643,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   536,
+   537,
+   538
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cb39092c-cc31-4b1f-99b8-21481a71702e/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion",
+  "category_en": "Clothing, Shoes & Jewelry",
+  "category_he": "אופנה, נעליים ותכשיטים",
+  "posted_at": "2026-11-21T17:00:59.382081+00:00"
  }
 ]
