@@ -2027,6 +2027,27 @@
       "at": "2026-11-18T13:30",
       "kind": "ig_comment",
       "media": "18122826046982692"
+    },
+    {
+      "id": "ig-grid-3",
+      "at": "2026-11-21T09:40",
+      "kind": "ig_image",
+      "image": "assets/grid/grid_3.jpg",
+      "caption_file": "data/giveaway/ig_grid.txt"
+    },
+    {
+      "id": "ig-grid-2",
+      "at": "2026-11-21T09:40",
+      "kind": "ig_image",
+      "image": "assets/grid/grid_2.jpg",
+      "caption_file": "data/giveaway/ig_grid.txt"
+    },
+    {
+      "id": "ig-grid-1",
+      "at": "2026-11-21T09:40",
+      "kind": "ig_image",
+      "image": "assets/grid/grid_1.jpg",
+      "caption_file": "data/giveaway/ig_grid.txt"
     }
   ],
   "weekly_caps": [

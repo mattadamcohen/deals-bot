@@ -72,14 +72,18 @@ def banner():
 
 
 if __name__ == "__main__":
+    # Posts are 4:5 (1080x1350, the API max); the profile grid shows the centre 3:4 crop (1012 wide).
+    # So the visible strips (1012 each) must join up; each post carries 34px of overlap on both sides.
+    VIS, PAD, PH = 1012, 34, 1350
+    CW = 3 * VIS + 2 * PAD
+    W = round(CW * 1440 / PH)
     OUT.mkdir(exist_ok=True)
-    im = banner()
+    im = banner().resize((CW, PH), Image.LANCZOS)
     im.save(OUT / "grid_full.png")
+    pv = Image.new("RGB", (3 * VIS + 12, PH), (0, 0, 0))
     for i in range(3):
-        im.crop((i * T, 0, (i + 1) * T, H)).save(OUT / f"grid_{i + 1}.jpg", quality=95)
-    # grid preview as it appears on the profile (thin gaps)
-    pv = Image.new("RGB", (W + 12, H), (0, 0, 0))
-    for i in range(3):
-        pv.paste(im.crop((i * T, 0, (i + 1) * T, H)), (i * (T + 6), 0))
-    pv.resize((1086 // 1, 480)).save(OUT / "grid_preview.png")
+        tile = im.crop((i * VIS, 0, i * VIS + 1080, PH))
+        tile.save(OUT / f"grid_{i + 1}.jpg", quality=95)
+        pv.paste(tile.crop((PAD, 0, PAD + VIS, PH)), (i * (VIS + 6), 0))
+    pv.resize((1086, 482)).save(OUT / "grid_preview.png")
     print("ok")
