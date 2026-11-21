@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 10
+  "2026-11-21": 11
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -251,6 +251,7 @@
   "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
   "wrangler relaxed fit stretch": "2026-11-15T07:17:56.490377+00:00",
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
+  "xiaomi mijia automatic soap": "2026-11-21T10:01:04.487802+00:00",
   "xiaomi mijia smart jump": "2026-11-20T06:30:51.416653+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
@@ -292,7 +293,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T09:33:58.527918+00:00",
- "last_post_at": "2026-11-21T09:34:00.657440+00:00",
+ "last_post_at": "2026-11-21T10:01:04.487620+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -891,6 +892,7 @@
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
+  "ali-1005007987706793": "2026-11-21T10:01:04.429315+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008226452050": "2026-11-21T05:31:25.446745+00:00",
   "ali-1005008557135956": "2026-11-19T09:30:56.820289+00:00",
@@ -963,10 +965,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/android tablet 10 inch",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
-  "beauty"
+  "beauty",
+  "aliexpress/Xiaomi"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -977,17 +979,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "kitchen",
   "kids",
   "other",
   "home",
   "tech",
   "other",
   "home",
-  "beauty"
+  "beauty",
+  "tech"
  ],
  "recent_titles": [
-  "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis",
   "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
   "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
   "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
@@ -998,7 +999,8 @@
   "PRITOM 10 Inch Tablet PC with SIM Slot Android 13 64 GB Quad Core Touch Screen WiFi GPS Support 3G Phone Call",
   "Extra virgin olive oil 5liters guaranteed newly packaged",
   "2500W High Temperature Steam Cleaner 110V Portable Handheld Steam Cleaning Machine With Multiple Accessories US Plug",
-  "medicube Facial Cleanser Zero Pore Capsule Foam Cleanser"
+  "medicube Facial Cleanser Zero Pore Capsule Foam Cleanser",
+  "Xiaomi Mijia Automatic Soap Foam Dispenser 1S USB Rechargeable Hand Washer Foaming Machine for Kitchen n Bathroom Home Appliance"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -1015,6 +1017,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136147
 }
