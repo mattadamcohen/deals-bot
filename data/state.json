@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 15
+  "2026-11-21": 16
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -41,6 +41,7 @@
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
   "B0FPMN9D69": "2026-11-20T13:01:28.306048+00:00",
   "B0G2MX1GKP": "2026-11-20T14:01:00.195959+00:00",
+  "B0G56435HQ": "2026-11-21T12:30:52.972413+00:00",
   "B0G7Z963QL": "2026-11-20T14:01:00.195931+00:00",
   "B0GCB2B52D": "2026-11-19T06:34:11.261469+00:00",
   "B0GCMKDSJB": "2026-11-19T12:04:43.457544+00:00",
@@ -170,6 +171,7 @@
   "magnetic train set diy": "2026-11-20T10:01:05.815649+00:00",
   "magnetic train toy for": "2026-11-19T15:01:01.313672+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
+  "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
   "medicube facial cleanser zero": "2026-11-21T09:34:00.657943+00:00",
   "medicube toner pads zero": "2026-11-19T12:04:43.457550+00:00",
   "men business watches fashion": "2026-11-19T15:31:12.228720+00:00",
@@ -299,7 +301,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T09:33:58.527918+00:00",
- "last_post_at": "2026-11-21T12:00:55.921937+00:00",
+ "last_post_at": "2026-11-21T12:30:52.972269+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -836,6 +838,7 @@
   "B0D9RPX853": "2026-11-17T19:46:09.833335+00:00",
   "B0DDZN76T9": "2026-11-17T15:04:45.276241+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
+  "B0DGPSZVW3": "2026-11-21T12:30:52.946948+00:00",
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
   "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
   "B0DYTQ5GYQ": "2026-11-21T09:34:00.636336+00:00",
@@ -975,31 +978,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "fashion/1045624",
   "aliexpress/squishy blind box",
   "lawn-garden",
-  "aliexpress/robot vacuum cleaner"
+  "aliexpress/robot vacuum cleaner",
+  "beauty"
  ],
  "recent_groups": [
-  "beauty",
   "toys-and-games",
   "lawn-garden",
   "beauty",
   "fashion",
-  "lawn-garden"
+  "lawn-garden",
+  "beauty"
  ],
  "recent_themes": [
-  "other",
   "home",
   "beauty",
   "tech",
   "fashion",
   "kids",
   "home",
-  "tech"
+  "tech",
+  "beauty"
  ],
  "recent_titles": [
-  "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
   "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
   "Outdoor LED Solar Fairy String Lights Waterproof Garden Decoration Garland 8Modes Copper Wire Light For Street Patio Christmas",
   "PRITOM 10 Inch Tablet PC with SIM Slot Android 13 64 GB Quad Core Touch Screen WiFi GPS Support 3G Phone Call",
@@ -1010,7 +1012,8 @@
   "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL",
   "10-30PCS Colorful Telescopic Tubes Fidget Toys Plastic Sensory Pop Tubes Stress Relief Toys Adults Decompression Kids Toys Gifts",
   "Safer Home Flying Insect Trap, Plug-In Fruit Fly Trap for Indoors, 2-Pack",
-  "2026 Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging Smart Sweep Mop 5-In-1 Vacuum Cleaner New"
+  "2026 Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging Smart Sweep Mop 5-In-1 Vacuum Cleaner New",
+  "medicube Collagen Jelly Cream, Moisturizing Cream for Plump Skin, 1.69fl.oz"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -1027,6 +1030,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136147
 }
