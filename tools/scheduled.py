@@ -21,7 +21,9 @@ def item_links(asins):
     posts = json.loads((REPO / "data" / "posts.json").read_text())
     posts = posts if isinstance(posts, list) else list(posts.values())
     by = {p["asin"]: p for p in posts}
-    return reel.links_text([by[a] for a in asins if a in by]) + "\n\n📲 עוד דילים בטלגרם: t.me/ilamazondeals"
+    # IG rejects long comments, and AliExpress links are long: one comment per product
+    return [f"🔗 {i}. {reel.short_he(p.get('title_he') or p.get('title'))}: {reel.item_link(p)}"
+            for i, p in enumerate((by[a] for a in asins if a in by), 1)]
 
 
 def comment(media, text=None):
@@ -51,9 +53,10 @@ def main():
             print("instagram", job["id"], media)
             ok = bool(media)
             if ok:
-                comment(media, item_links(job["link_asins"]) if job.get("link_asins") else None)
+                for t in (item_links(job["link_asins"]) if job.get("link_asins") else [None]):
+                    comment(media, t)
         elif job["kind"] == "ig_comment":
-            ok = comment(job["media"], item_links(job["link_asins"]) if job.get("link_asins") else None)
+            ok = all([comment(job["media"], t) for t in (item_links(job["link_asins"]) if job.get("link_asins") else [None])])
         print(job["id"], "OK" if ok else "FAILED")
         if ok:
             done.append(job["id"])
