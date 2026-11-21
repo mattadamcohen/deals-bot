@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 11
+  "2026-11-21": 12
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -22,6 +22,7 @@
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0D9RRHH2T": "2026-11-17T19:46:09.918285+00:00",
+  "B0DD9X44HM": "2026-11-21T10:30:52.763989+00:00",
   "B0DF6HJYVW": "2026-11-20T14:01:00.195999+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
@@ -220,6 +221,7 @@
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "succebuy in- wi-fi weather": "2026-11-21T07:01:01.406269+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
+  "t shirts soft cotton": "2026-11-21T10:30:52.763992+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
   "taba squishy stress balls": "2026-11-19T13:30:59.569205+00:00",
   "tales conversation cards": "2026-11-20T08:30:53.068274+00:00",
@@ -293,7 +295,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T09:33:58.527918+00:00",
- "last_post_at": "2026-11-21T10:01:04.487620+00:00",
+ "last_post_at": "2026-11-21T10:30:52.763873+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -805,6 +807,7 @@
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
   "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
   "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
+  "B08XTWF6DH": "2026-11-21T10:30:52.729303+00:00",
   "B09BDG5RP3": "2026-11-18T10:05:20.176356+00:00",
   "B09RTVD1GF": "2026-11-18T17:00:58.161748+00:00",
   "B09V7Z4TJG": "2026-11-19T12:04:43.285904+00:00",
@@ -965,31 +968,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "beauty",
-  "aliexpress/Xiaomi"
+  "aliexpress/Xiaomi",
+  "fashion/1045624"
  ],
  "recent_groups": [
-  "toys-and-games",
   "fashion",
   "beauty",
   "toys-and-games",
   "lawn-garden",
-  "beauty"
+  "beauty",
+  "fashion"
  ],
  "recent_themes": [
-  "kids",
   "other",
   "home",
   "tech",
   "other",
   "home",
   "beauty",
-  "tech"
+  "tech",
+  "fashion"
  ],
  "recent_titles": [
-  "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
   "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
   "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
   "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
@@ -1000,7 +1002,8 @@
   "Extra virgin olive oil 5liters guaranteed newly packaged",
   "2500W High Temperature Steam Cleaner 110V Portable Handheld Steam Cleaning Machine With Multiple Accessories US Plug",
   "medicube Facial Cleanser Zero Pore Capsule Foam Cleanser",
-  "Xiaomi Mijia Automatic Soap Foam Dispenser 1S USB Rechargeable Hand Washer Foaming Machine for Kitchen n Bathroom Home Appliance"
+  "Xiaomi Mijia Automatic Soap Foam Dispenser 1S USB Rechargeable Hand Washer Foaming Machine for Kitchen n Bathroom Home Appliance",
+  "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -1017,6 +1020,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136147
 }
