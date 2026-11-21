@@ -1,2355 +1,2479 @@
 {
-  "amazon_tag": "ilamazondeals-20",
+ "amazon_tag": "ilamazondeals-20",
+ "categories": [
+  {
+   "slug": "electronics",
+   "en": "Electronics",
+   "he": "אלקטרוניקה",
+   "weight": 3
+  },
+  {
+   "slug": "amazon-devices",
+   "en": "Amazon Devices",
+   "he": "מכשירי אמזון",
+   "weight": 0.3
+  },
+  {
+   "slug": "pc",
+   "en": "Computers",
+   "he": "מחשבים",
+   "weight": 1.5
+  },
+  {
+   "slug": "wireless",
+   "en": "Cell Phones & Accessories",
+   "he": "סלולר ואביזרים",
+   "weight": 3
+  },
+  {
+   "slug": "photo",
+   "en": "Camera & Photo",
+   "he": "מצלמות וצילום",
+   "weight": 0.3
+  },
+  {
+   "slug": "videogames",
+   "en": "Video Games",
+   "he": "משחקי וידאו",
+   "weight": 1.5
+  },
+  {
+   "slug": "home-garden",
+   "en": "Home & Kitchen",
+   "he": "בית ומטבח",
+   "weight": 3
+  },
+  {
+   "slug": "kitchen",
+   "en": "Kitchen & Dining",
+   "he": "מטבח ואירוח",
+   "weight": 2.5
+  },
+  {
+   "slug": "appliances",
+   "en": "Appliances",
+   "he": "מכשירי חשמל",
+   "weight": 0.3
+  },
+  {
+   "slug": "hi",
+   "en": "Tools & Home Improvement",
+   "he": "כלי עבודה ושיפוצים",
+   "weight": 0.3
+  },
+  {
+   "slug": "lawn-garden",
+   "en": "Patio, Lawn & Garden",
+   "he": "גינה ומרפסת",
+   "weight": 0.3
+  },
+  {
+   "slug": "automotive",
+   "en": "Automotive",
+   "he": "רכב",
+   "weight": 1
+  },
+  {
+   "slug": "beauty",
+   "en": "Beauty & Personal Care",
+   "he": "יופי וטיפוח",
+   "weight": 3
+  },
+  {
+   "slug": "hpc",
+   "en": "Health & Household",
+   "he": "בריאות ומשק בית",
+   "weight": 2
+  },
+  {
+   "slug": "fashion",
+   "en": "Clothing, Shoes & Jewelry",
+   "he": "אופנה, נעליים ותכשיטים",
+   "weight": 2
+  },
+  {
+   "slug": "luggage",
+   "en": "Luggage",
+   "he": "מזוודות ותיקים",
+   "weight": 1.5
+  },
+  {
+   "slug": "baby-products",
+   "en": "Baby",
+   "he": "תינוקות",
+   "weight": 2
+  },
+  {
+   "slug": "toys-and-games",
+   "en": "Toys & Games",
+   "he": "צעצועים ומשחקים",
+   "weight": 3
+  },
+  {
+   "slug": "sporting-goods",
+   "en": "Sports & Outdoors",
+   "he": "ספורט וטבע",
+   "weight": 2
+  },
+  {
+   "slug": "pet-supplies",
+   "en": "Pet Supplies",
+   "he": "ציוד לחיות מחמד",
+   "weight": 2
+  },
+  {
+   "slug": "office-products",
+   "en": "Office Products",
+   "he": "ציוד משרדי",
+   "weight": 1
+  },
+  {
+   "slug": "arts-crafts",
+   "en": "Arts, Crafts & Sewing",
+   "he": "יצירה ואומנות",
+   "weight": 1
+  },
+  {
+   "slug": "musical-instruments",
+   "en": "Musical Instruments",
+   "he": "כלי נגינה",
+   "weight": 0.3
+  },
+  {
+   "slug": "industrial",
+   "en": "Industrial & Scientific",
+   "he": "תעשייה ומדע",
+   "weight": 0.3
+  },
+  {
+   "slug": "books",
+   "en": "Books",
+   "he": "ספרים",
+   "weight": 0.3
+  },
+  {
+   "slug": "fashion/1040660",
+   "en": "Women's Clothing",
+   "he": "ביגוד נשים",
+   "weight": 1
+  },
+  {
+   "slug": "fashion/1040658",
+   "en": "Men's Clothing",
+   "he": "ביגוד גברים",
+   "weight": 1
+  },
+  {
+   "slug": "fashion/679337011",
+   "en": "Women's Shoes",
+   "he": "נעלי נשים",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/679255011",
+   "en": "Men's Shoes",
+   "he": "נעלי גברים",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/1040664",
+   "en": "Girls' Clothing",
+   "he": "ביגוד לבנות",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/1040666",
+   "en": "Boys' Clothing",
+   "he": "ביגוד לבנים",
+   "weight": 0.7
+  },
+  {
+   "slug": "home-garden/1063278",
+   "en": "Home Décor",
+   "he": "עיצוב הבית",
+   "weight": 2
+  },
+  {
+   "slug": "home-garden/1063252",
+   "en": "Bedding",
+   "he": "מצעים",
+   "weight": 0.1
+  },
+  {
+   "slug": "toys-and-games/166092011",
+   "en": "Building Toys",
+   "he": "צעצועי הרכבה",
+   "weight": 3
+  },
+  {
+   "slug": "toys-and-games/166220011",
+   "en": "Games",
+   "he": "משחקים",
+   "weight": 1
+  },
+  {
+   "slug": "sporting-goods/3407731",
+   "en": "Exercise & Fitness",
+   "he": "כושר",
+   "weight": 1.5
+  },
+  {
+   "slug": "fashion/6358539011",
+   "en": "Men's Watches",
+   "he": "שעונים לגברים",
+   "weight": 1
+  },
+  {
+   "slug": "fashion/6358543011",
+   "en": "Women's Watches",
+   "he": "שעונים לנשים",
+   "weight": 1
+  },
+  {
+   "slug": "fashion/7192394011",
+   "en": "Women's Jewelry",
+   "he": "תכשיטים",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/1045830",
+   "en": "Men's Jackets & Coats",
+   "he": "מעילים לגברים",
+   "weight": 1.5
+  },
+  {
+   "slug": "fashion/1044646",
+   "en": "Women's Coats & Jackets",
+   "he": "מעילים לנשים",
+   "weight": 1.2
+  },
+  {
+   "slug": "fashion/679312011",
+   "en": "Men's Sneakers",
+   "he": "סניקרס לגברים",
+   "weight": 1
+  },
+  {
+   "slug": "fashion/679286011",
+   "en": "Men's Running Shoes",
+   "he": "נעלי ריצה לגברים",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/2476517011",
+   "en": "Men's Shirts",
+   "he": "חולצות לגברים",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/1045624",
+   "en": "Men's T-Shirts",
+   "he": "טישרטים לגברים",
+   "weight": 0.7
+  },
+  {
+   "slug": "fashion/1044456",
+   "en": "Women's Sweaters",
+   "he": "סוודרים לנשים",
+   "weight": 0.8
+  },
+  {
+   "slug": "pc/1232597011",
+   "en": "Tablets",
+   "he": "טאבלטים",
+   "weight": 0.6
+  },
+  {
+   "slug": "wireless/7073956011",
+   "en": "Bluetooth Speakers",
+   "he": "רמקולים ניידים",
+   "weight": 1
+  },
+  {
+   "slug": "hi/328182011",
+   "en": "Power & Hand Tools",
+   "he": "כלי עבודה",
+   "weight": 1.2
+  },
+  {
+   "slug": "pc/12879431",
+   "en": "Keyboards",
+   "he": "מקלדות",
+   "weight": 0.7
+  },
+  {
+   "slug": "pc/11036491",
+   "en": "Computer Mice",
+   "he": "עכברים",
+   "weight": 0.6
+  },
+  {
+   "slug": "videogames/402053011",
+   "en": "Gaming Headsets",
+   "he": "אוזניות גיימינג",
+   "weight": 0.8
+  },
+  {
+   "slug": "kitchen/289814",
+   "en": "Cookware",
+   "he": "כלי בישול",
+   "weight": 1.2
+  },
+  {
+   "slug": "kitchen/289913",
+   "en": "Kitchen Small Appliances",
+   "he": "מכשירי מטבח",
+   "weight": 1
+  },
+  {
+   "slug": "beauty/11060451",
+   "en": "Skin Care",
+   "he": "טיפוח העור",
+   "weight": 1
+  },
+  {
+   "slug": "beauty/11057241",
+   "en": "Hair Care",
+   "he": "טיפוח השיער",
+   "weight": 0.8
+  },
+  {
+   "slug": "beauty/3778591",
+   "en": "Shaving & Hair Removal",
+   "he": "גילוח והסרת שיער",
+   "weight": 0.8
+  },
+  {
+   "slug": "automotive/15718271",
+   "en": "Car Care",
+   "he": "טיפוח הרכב",
+   "weight": 0.8
+  },
+  {
+   "slug": "luggage/15743251",
+   "en": "Luggage",
+   "he": "מזוודות",
+   "weight": 0.5
+  },
+  {
+   "slug": "toys-and-games/166164011",
+   "en": "Kids' Electronics",
+   "he": "אלקטרוניקה לילדים",
+   "weight": 1
+  },
+  {
+   "slug": "electronics/6563140011",
+   "en": "Smart Home",
+   "he": "בית חכם",
+   "weight": 1.2
+  },
+  {
+   "slug": "electronics/172541",
+   "en": "Headphones & Earbuds",
+   "he": "אוזניות",
+   "weight": 1
+  },
+  {
+   "slug": "home-garden/510106",
+   "en": "Vacuums & Floor Care",
+   "he": "שואבי אבק",
+   "weight": 0.6
+  },
+  {
+   "slug": "sporting-goods/3400371",
+   "en": "Camping & Hiking",
+   "he": "קמפינג וטיולים",
+   "weight": 0.8
+  },
+  {
+   "slug": "pc/300189",
+   "en": "Routers",
+   "he": "ראוטרים",
+   "weight": 0.4
+  }
+ ],
+ "max_posts_per_run": 1,
+ "repost_after_days": 7,
+ "recheck_not_free_after_days": 3,
+ "delay_seconds": [
+  2.5,
+  6
+ ],
+ "labels": {
+  "he": {
+   "rank": [
+    "#{rank} בהכי נמכרים בקטגוריית {category}",
+    "מקום {rank} ברשימת הנמכרים של {category}",
+    "מהנמכרים ביותר באמזון: #{rank} ב{category}",
+    "כולם קונים את זה: #{rank} ב{category}"
+   ],
+   "trending": [
+    "מוצר חם בקטגוריית {category}",
+    "טס למעלה ברשימות: {category}",
+    "הטרנד של השבוע ב{category}"
+   ],
+   "intro": [
+    "",
+    "",
+    "👀 שווה בדיקה",
+    "💡 מציאה של היום",
+    "🛒 זה מה שכולם מזמינים עכשיו",
+    "⚡ דיל חדש"
+   ],
+   "free_shipping": [
+    "משלוח חינם לארץ בהזמנה מעל $49",
+    "משלוח חינם לארץ, בהזמנות מעל $49",
+    "משלוח חינם עד הבית, בהזמנה מעל $49"
+   ],
+   "view": [
+    "לצפייה באמזון",
+    "לפרטים ולהזמנה",
+    "קחו אותי לדיל"
+   ],
+   "off": "הנחה",
+   "ali_head": [
+    "נמכר יותר מ-{sold} פעמים באליאקספרס",
+    "להיט באליאקספרס: {sold}+ נמכרו",
+    "מהנמכרים באליאקספרס ב{category}"
+   ],
+   "ali_shipping": [
+    "משלוח לארץ",
+    "משלוח לארץ, עלות לפי האתר"
+   ],
+   "ali_view": [
+    "לצפייה באליאקספרס",
+    "לפרטים ולהזמנה",
+    "קחו אותי לדיל"
+   ],
+   "coupon": [
+    "קוד קופון: {code} ({off} הנחה בקנייה מעל {min})"
+   ],
+   "pick_head": [
+    "הבחירה שלנו ⭐",
+    "המלצה אישית שלנו",
+    "מצאנו בשבילכם"
+   ]
+  },
+  "en": {
+   "rank": [
+    "#{rank} best seller in {category}",
+    "Top seller: #{rank} in {category}",
+    "Everyone's buying this: #{rank} in {category}",
+    "#{rank} on Amazon's {category} chart"
+   ],
+   "trending": [
+    "Trending in {category}",
+    "Climbing fast in {category}",
+    "This week's hot pick in {category}"
+   ],
+   "intro": [
+    "",
+    "",
+    "👀 Worth a look",
+    "💡 Today's find",
+    "🛒 What everyone's ordering right now",
+    "⚡ New deal"
+   ],
+   "free_shipping": [
+    "Free shipping to Israel on orders over $49",
+    "Ships free to Israel (orders over $49)",
+    "Free delivery to Israel on $49+ orders"
+   ],
+   "view": [
+    "View on Amazon",
+    "See the deal",
+    "Get it here"
+   ],
+   "off": "off",
+   "ali_head": [
+    "{sold}+ sold on AliExpress",
+    "AliExpress hit: {sold}+ sold",
+    "Top AliExpress pick in {category}"
+   ],
+   "ali_shipping": [
+    "Ships to Israel",
+    "Ships to Israel (shipping cost shown on site)"
+   ],
+   "ali_view": [
+    "View on AliExpress",
+    "See the deal",
+    "Get it here"
+   ],
+   "coupon": [
+    "Coupon code: {code} ({off} off orders over {min})"
+   ],
+   "pick_head": [
+    "Our pick ⭐",
+    "Personally recommended",
+    "We found this for you"
+   ]
+  }
+ },
+ "checks_per_run": 10,
+ "max_lists_per_run": 4,
+ "preferred_discount": 0,
+ "brands": [
+  "Hanes",
+  "Levi's",
+  "Crocs",
+  "adidas",
+  "Nike",
+  "Under Armour",
+  "Columbia",
+  "Carhartt",
+  "Champion",
+  "Calvin Klein",
+  "Tommy Hilfiger",
+  "Ralph Lauren",
+  "Gildan",
+  "Fruit of the Loom",
+  "Skechers",
+  "New Balance",
+  "ASICS",
+  "PUMA",
+  "Reebok",
+  "Lacoste",
+  "GUESS",
+  "Michael Kors",
+  "Kate Spade",
+  "Converse",
+  "Vans",
+  "UGG",
+  "Dr. Martens",
+  "Timberland",
+  "Clarks",
+  "The North Face",
+  "Wrangler",
+  "Amazon Essentials",
+  "Speedo",
+  "Jockey",
+  "Carter's",
+  "Disney",
+  "LEGO",
+  "Hasbro",
+  "Mattel",
+  "Barbie",
+  "Hot Wheels",
+  "Melissa & Doug",
+  "Crayola",
+  "Fisher-Price",
+  "Pokemon",
+  "Squishmallows",
+  "Funko",
+  "Play-Doh",
+  "NERF",
+  "Apple",
+  "Samsung",
+  "Anker",
+  "JBL",
+  "Sony",
+  "Bose",
+  "Logitech",
+  "Stanley",
+  "Owala",
+  "YETI",
+  "Ninja",
+  "Shark",
+  "Dyson",
+  "L'Oreal",
+  "CeraVe",
+  "Neutrogena",
+  "Olay",
+  "Maybelline",
+  "e.l.f.",
+  "Revlon",
+  "Philips",
+  "Oral-B",
+  "Fossil",
+  "Casio",
+  "Ray-Ban",
+  "Belkin",
+  "UGREEN",
+  "Baseus",
+  "INIU",
+  "Satechi",
+  "Spigen",
+  "ESR",
+  "Nimble",
+  "Native Union",
+  "Soundcore",
+  "JLab",
+  "Tile",
+  "Xiaomi",
+  "Mijia",
+  "Vention",
+  "Essager",
+  "POCO",
+  "OnePlus",
+  "QOOVI",
+  "Vikefon",
+  "Toocki",
+  "GameSir",
+  "DJI",
+  "Magcubic",
+  "Sonoff",
+  "Amazfit",
+  "K&F Concept",
+  "Netac",
+  "Teclast",
+  "NiiMbot",
+  "GL.iNet",
+  "Attack Shark",
+  "Potdemiel",
+  "Bandai",
+  "Takara Tomy",
+  "Maisto",
+  "Pop Mart",
+  "Kayou",
+  "Miniso",
+  "52Toys",
+  "Beast Kingdom",
+  "Osprey",
+  "Patagonia",
+  "Herschel",
+  "JanSport",
+  "Samsonite",
+  "Garmin",
+  "Braun",
+  "Instant Pot",
+  "Hydro Flask",
+  "La Roche-Posay",
+  "The Ordinary",
+  "HyperX",
+  "Razer",
+  "SteelSeries",
+  "Frameo",
+  "Babyvue",
+  "Magna-Tiles",
+  "Tonies",
+  "Lofans",
+  "Cook with Color"
+ ],
+ "seasons": [
+  {
+   "from": "2026-11-01",
+   "to": "2026-11-26",
+   "he": "🖤 לקראת בלאק פריידיי: המחירים כבר יורדים",
+   "en": "🖤 Black Friday is coming: prices are already dropping"
+  },
+  {
+   "from": "2026-11-27",
+   "to": "2026-11-30",
+   "he": "🖤 דיל בלאק פריידיי",
+   "en": "🖤 Black Friday deal"
+  },
+  {
+   "from": "2026-12-01",
+   "to": "2026-12-03",
+   "he": "🖤 סייבר וויק: ממשיכים עם הדילים",
+   "en": "🖤 Cyber Week: the deals keep going"
+  }
+ ],
+ "gift_season": {
+  "from": "2026-11-01",
+  "to": "2026-12-12",
+  "he": "🕎 רעיון מעולה למתנת חנוכה",
+  "en": "🕎 Great Hanukkah gift idea",
+  "early_until": "2026-11-25",
+  "early_he": "📦 כדאי להזמין מוקדם כדי שיגיע עד חנוכה",
+  "early_en": "📦 Order early so it arrives for Hanukkah",
   "categories": [
-    {
-      "slug": "electronics",
-      "en": "Electronics",
-      "he": "אלקטרוניקה",
-      "weight": 3
-    },
-    {
-      "slug": "amazon-devices",
-      "en": "Amazon Devices",
-      "he": "מכשירי אמזון",
-      "weight": 0.3
-    },
-    {
-      "slug": "pc",
-      "en": "Computers",
-      "he": "מחשבים",
-      "weight": 1.5
-    },
-    {
-      "slug": "wireless",
-      "en": "Cell Phones & Accessories",
-      "he": "סלולר ואביזרים",
-      "weight": 3
-    },
-    {
-      "slug": "photo",
-      "en": "Camera & Photo",
-      "he": "מצלמות וצילום",
-      "weight": 0.3
-    },
-    {
-      "slug": "videogames",
-      "en": "Video Games",
-      "he": "משחקי וידאו",
-      "weight": 1.5
-    },
-    {
-      "slug": "home-garden",
-      "en": "Home & Kitchen",
-      "he": "בית ומטבח",
-      "weight": 3
-    },
-    {
-      "slug": "kitchen",
-      "en": "Kitchen & Dining",
-      "he": "מטבח ואירוח",
-      "weight": 2.5
-    },
-    {
-      "slug": "appliances",
-      "en": "Appliances",
-      "he": "מכשירי חשמל",
-      "weight": 0.3
-    },
-    {
-      "slug": "hi",
-      "en": "Tools & Home Improvement",
-      "he": "כלי עבודה ושיפוצים",
-      "weight": 0.3
-    },
-    {
-      "slug": "lawn-garden",
-      "en": "Patio, Lawn & Garden",
-      "he": "גינה ומרפסת",
-      "weight": 0.3
-    },
-    {
-      "slug": "automotive",
-      "en": "Automotive",
-      "he": "רכב",
-      "weight": 1
-    },
-    {
-      "slug": "beauty",
-      "en": "Beauty & Personal Care",
-      "he": "יופי וטיפוח",
-      "weight": 3
-    },
-    {
-      "slug": "hpc",
-      "en": "Health & Household",
-      "he": "בריאות ומשק בית",
-      "weight": 2
-    },
-    {
-      "slug": "fashion",
-      "en": "Clothing, Shoes & Jewelry",
-      "he": "אופנה, נעליים ותכשיטים",
-      "weight": 2
-    },
-    {
-      "slug": "luggage",
-      "en": "Luggage",
-      "he": "מזוודות ותיקים",
-      "weight": 1.5
-    },
-    {
-      "slug": "baby-products",
-      "en": "Baby",
-      "he": "תינוקות",
-      "weight": 2
-    },
-    {
-      "slug": "toys-and-games",
-      "en": "Toys & Games",
-      "he": "צעצועים ומשחקים",
-      "weight": 3
-    },
-    {
-      "slug": "sporting-goods",
-      "en": "Sports & Outdoors",
-      "he": "ספורט וטבע",
-      "weight": 2
-    },
-    {
-      "slug": "pet-supplies",
-      "en": "Pet Supplies",
-      "he": "ציוד לחיות מחמד",
-      "weight": 2
-    },
-    {
-      "slug": "office-products",
-      "en": "Office Products",
-      "he": "ציוד משרדי",
-      "weight": 1
-    },
-    {
-      "slug": "arts-crafts",
-      "en": "Arts, Crafts & Sewing",
-      "he": "יצירה ואומנות",
-      "weight": 1
-    },
-    {
-      "slug": "musical-instruments",
-      "en": "Musical Instruments",
-      "he": "כלי נגינה",
-      "weight": 0.3
-    },
-    {
-      "slug": "industrial",
-      "en": "Industrial & Scientific",
-      "he": "תעשייה ומדע",
-      "weight": 0.3
-    },
-    {
-      "slug": "books",
-      "en": "Books",
-      "he": "ספרים",
-      "weight": 0.3
-    },
-    {
-      "slug": "fashion/1040660",
-      "en": "Women's Clothing",
-      "he": "ביגוד נשים",
-      "weight": 1
-    },
-    {
-      "slug": "fashion/1040658",
-      "en": "Men's Clothing",
-      "he": "ביגוד גברים",
-      "weight": 1
-    },
-    {
-      "slug": "fashion/679337011",
-      "en": "Women's Shoes",
-      "he": "נעלי נשים",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/679255011",
-      "en": "Men's Shoes",
-      "he": "נעלי גברים",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/1040664",
-      "en": "Girls' Clothing",
-      "he": "ביגוד לבנות",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/1040666",
-      "en": "Boys' Clothing",
-      "he": "ביגוד לבנים",
-      "weight": 0.7
-    },
-    {
-      "slug": "home-garden/1063278",
-      "en": "Home Décor",
-      "he": "עיצוב הבית",
-      "weight": 2
-    },
-    {
-      "slug": "home-garden/1063252",
-      "en": "Bedding",
-      "he": "מצעים",
-      "weight": 0.1
-    },
-    {
-      "slug": "toys-and-games/166092011",
-      "en": "Building Toys",
-      "he": "צעצועי הרכבה",
-      "weight": 3
-    },
-    {
-      "slug": "toys-and-games/166220011",
-      "en": "Games",
-      "he": "משחקים",
-      "weight": 1
-    },
-    {
-      "slug": "sporting-goods/3407731",
-      "en": "Exercise & Fitness",
-      "he": "כושר",
-      "weight": 1.5
-    },
-    {
-      "slug": "fashion/6358539011",
-      "en": "Men's Watches",
-      "he": "שעונים לגברים",
-      "weight": 1
-    },
-    {
-      "slug": "fashion/6358543011",
-      "en": "Women's Watches",
-      "he": "שעונים לנשים",
-      "weight": 1
-    },
-    {
-      "slug": "fashion/7192394011",
-      "en": "Women's Jewelry",
-      "he": "תכשיטים",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/1045830",
-      "en": "Men's Jackets & Coats",
-      "he": "מעילים לגברים",
-      "weight": 1.5
-    },
-    {
-      "slug": "fashion/1044646",
-      "en": "Women's Coats & Jackets",
-      "he": "מעילים לנשים",
-      "weight": 1.2
-    },
-    {
-      "slug": "fashion/679312011",
-      "en": "Men's Sneakers",
-      "he": "סניקרס לגברים",
-      "weight": 1
-    },
-    {
-      "slug": "fashion/679286011",
-      "en": "Men's Running Shoes",
-      "he": "נעלי ריצה לגברים",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/2476517011",
-      "en": "Men's Shirts",
-      "he": "חולצות לגברים",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/1045624",
-      "en": "Men's T-Shirts",
-      "he": "טישרטים לגברים",
-      "weight": 0.7
-    },
-    {
-      "slug": "fashion/1044456",
-      "en": "Women's Sweaters",
-      "he": "סוודרים לנשים",
-      "weight": 0.8
-    },
-    {
-      "slug": "pc/1232597011",
-      "en": "Tablets",
-      "he": "טאבלטים",
-      "weight": 0.6
-    },
-    {
-      "slug": "wireless/7073956011",
-      "en": "Bluetooth Speakers",
-      "he": "רמקולים ניידים",
-      "weight": 1
-    },
-    {
-      "slug": "hi/328182011",
-      "en": "Power & Hand Tools",
-      "he": "כלי עבודה",
-      "weight": 1.2
-    },
-    {
-      "slug": "pc/12879431",
-      "en": "Keyboards",
-      "he": "מקלדות",
-      "weight": 0.7
-    },
-    {
-      "slug": "pc/11036491",
-      "en": "Computer Mice",
-      "he": "עכברים",
-      "weight": 0.6
-    },
-    {
-      "slug": "videogames/402053011",
-      "en": "Gaming Headsets",
-      "he": "אוזניות גיימינג",
-      "weight": 0.8
-    },
-    {
-      "slug": "kitchen/289814",
-      "en": "Cookware",
-      "he": "כלי בישול",
-      "weight": 1.2
-    },
-    {
-      "slug": "kitchen/289913",
-      "en": "Kitchen Small Appliances",
-      "he": "מכשירי מטבח",
-      "weight": 1
-    },
-    {
-      "slug": "beauty/11060451",
-      "en": "Skin Care",
-      "he": "טיפוח העור",
-      "weight": 1
-    },
-    {
-      "slug": "beauty/11057241",
-      "en": "Hair Care",
-      "he": "טיפוח השיער",
-      "weight": 0.8
-    },
-    {
-      "slug": "beauty/3778591",
-      "en": "Shaving & Hair Removal",
-      "he": "גילוח והסרת שיער",
-      "weight": 0.8
-    },
-    {
-      "slug": "automotive/15718271",
-      "en": "Car Care",
-      "he": "טיפוח הרכב",
-      "weight": 0.8
-    },
-    {
-      "slug": "luggage/15743251",
-      "en": "Luggage",
-      "he": "מזוודות",
-      "weight": 0.5
-    },
-    {
-      "slug": "toys-and-games/166164011",
-      "en": "Kids' Electronics",
-      "he": "אלקטרוניקה לילדים",
-      "weight": 1
-    },
-    {
-      "slug": "electronics/6563140011",
-      "en": "Smart Home",
-      "he": "בית חכם",
-      "weight": 1.2
-    },
-    {
-      "slug": "electronics/172541",
-      "en": "Headphones & Earbuds",
-      "he": "אוזניות",
-      "weight": 1
-    },
-    {
-      "slug": "home-garden/510106",
-      "en": "Vacuums & Floor Care",
-      "he": "שואבי אבק",
-      "weight": 0.6
-    },
-    {
-      "slug": "sporting-goods/3400371",
-      "en": "Camping & Hiking",
-      "he": "קמפינג וטיולים",
-      "weight": 0.8
-    },
-    {
-      "slug": "pc/300189",
-      "en": "Routers",
-      "he": "ראוטרים",
-      "weight": 0.4
-    }
-  ],
-  "max_posts_per_run": 1,
-  "repost_after_days": 7,
-  "recheck_not_free_after_days": 3,
-  "delay_seconds": [
-    2.5,
-    6
-  ],
-  "labels": {
-    "he": {
-      "rank": [
-        "#{rank} בהכי נמכרים בקטגוריית {category}",
-        "מקום {rank} ברשימת הנמכרים של {category}",
-        "מהנמכרים ביותר באמזון: #{rank} ב{category}",
-        "כולם קונים את זה: #{rank} ב{category}"
-      ],
-      "trending": [
-        "מוצר חם בקטגוריית {category}",
-        "טס למעלה ברשימות: {category}",
-        "הטרנד של השבוע ב{category}"
-      ],
-      "intro": [
-        "",
-        "",
-        "👀 שווה בדיקה",
-        "💡 מציאה של היום",
-        "🛒 זה מה שכולם מזמינים עכשיו",
-        "⚡ דיל חדש"
-      ],
-      "free_shipping": [
-        "משלוח חינם לארץ בהזמנה מעל $49",
-        "משלוח חינם לארץ, בהזמנות מעל $49",
-        "משלוח חינם עד הבית, בהזמנה מעל $49"
-      ],
-      "view": [
-        "לצפייה באמזון",
-        "לפרטים ולהזמנה",
-        "קחו אותי לדיל"
-      ],
-      "off": "הנחה",
-      "ali_head": [
-        "נמכר יותר מ-{sold} פעמים באליאקספרס",
-        "להיט באליאקספרס: {sold}+ נמכרו",
-        "מהנמכרים באליאקספרס ב{category}"
-      ],
-      "ali_shipping": [
-        "משלוח לארץ",
-        "משלוח לארץ, עלות לפי האתר"
-      ],
-      "ali_view": [
-        "לצפייה באליאקספרס",
-        "לפרטים ולהזמנה",
-        "קחו אותי לדיל"
-      ],
-      "coupon": [
-        "קוד קופון: {code} ({off} הנחה בקנייה מעל {min})"
-      ],
-      "pick_head": [
-        "הבחירה שלנו ⭐",
-        "המלצה אישית שלנו",
-        "מצאנו בשבילכם"
-      ]
-    },
-    "en": {
-      "rank": [
-        "#{rank} best seller in {category}",
-        "Top seller: #{rank} in {category}",
-        "Everyone's buying this: #{rank} in {category}",
-        "#{rank} on Amazon's {category} chart"
-      ],
-      "trending": [
-        "Trending in {category}",
-        "Climbing fast in {category}",
-        "This week's hot pick in {category}"
-      ],
-      "intro": [
-        "",
-        "",
-        "👀 Worth a look",
-        "💡 Today's find",
-        "🛒 What everyone's ordering right now",
-        "⚡ New deal"
-      ],
-      "free_shipping": [
-        "Free shipping to Israel on orders over $49",
-        "Ships free to Israel (orders over $49)",
-        "Free delivery to Israel on $49+ orders"
-      ],
-      "view": [
-        "View on Amazon",
-        "See the deal",
-        "Get it here"
-      ],
-      "off": "off",
-      "ali_head": [
-        "{sold}+ sold on AliExpress",
-        "AliExpress hit: {sold}+ sold",
-        "Top AliExpress pick in {category}"
-      ],
-      "ali_shipping": [
-        "Ships to Israel",
-        "Ships to Israel (shipping cost shown on site)"
-      ],
-      "ali_view": [
-        "View on AliExpress",
-        "See the deal",
-        "Get it here"
-      ],
-      "coupon": [
-        "Coupon code: {code} ({off} off orders over {min})"
-      ],
-      "pick_head": [
-        "Our pick ⭐",
-        "Personally recommended",
-        "We found this for you"
-      ]
-    }
-  },
-  "checks_per_run": 10,
-  "max_lists_per_run": 4,
-  "preferred_discount": 0,
-  "brands": [
-    "Hanes",
-    "Levi's",
-    "Crocs",
-    "adidas",
-    "Nike",
-    "Under Armour",
-    "Columbia",
-    "Carhartt",
-    "Champion",
-    "Calvin Klein",
-    "Tommy Hilfiger",
-    "Ralph Lauren",
-    "Gildan",
-    "Fruit of the Loom",
-    "Skechers",
-    "New Balance",
-    "ASICS",
-    "PUMA",
-    "Reebok",
-    "Lacoste",
-    "GUESS",
-    "Michael Kors",
-    "Kate Spade",
-    "Converse",
-    "Vans",
-    "UGG",
-    "Dr. Martens",
-    "Timberland",
-    "Clarks",
-    "The North Face",
-    "Wrangler",
-    "Amazon Essentials",
-    "Speedo",
-    "Jockey",
-    "Carter's",
-    "Disney",
-    "LEGO",
-    "Hasbro",
-    "Mattel",
-    "Barbie",
-    "Hot Wheels",
-    "Melissa & Doug",
-    "Crayola",
-    "Fisher-Price",
-    "Pokemon",
-    "Squishmallows",
-    "Funko",
-    "Play-Doh",
-    "NERF",
-    "Apple",
-    "Samsung",
-    "Anker",
-    "JBL",
-    "Sony",
-    "Bose",
-    "Logitech",
-    "Stanley",
-    "Owala",
-    "YETI",
-    "Ninja",
-    "Shark",
-    "Dyson",
-    "L'Oreal",
-    "CeraVe",
-    "Neutrogena",
-    "Olay",
-    "Maybelline",
-    "e.l.f.",
-    "Revlon",
-    "Philips",
-    "Oral-B",
-    "Fossil",
-    "Casio",
-    "Ray-Ban",
-    "Belkin",
-    "UGREEN",
-    "Baseus",
-    "INIU",
-    "Satechi",
-    "Spigen",
-    "ESR",
-    "Nimble",
-    "Native Union",
-    "Soundcore",
-    "JLab",
-    "Tile",
-    "Xiaomi",
-    "Mijia",
-    "Vention",
-    "Essager",
-    "POCO",
-    "OnePlus",
-    "QOOVI",
-    "Vikefon",
-    "Toocki",
-    "GameSir",
-    "DJI",
-    "Magcubic",
-    "Sonoff",
-    "Amazfit",
-    "K&F Concept",
-    "Netac",
-    "Teclast",
-    "NiiMbot",
-    "GL.iNet",
-    "Attack Shark",
-    "Potdemiel",
-    "Bandai",
-    "Takara Tomy",
-    "Maisto",
-    "Pop Mart",
-    "Kayou",
-    "Miniso",
-    "52Toys",
-    "Beast Kingdom",
-    "Osprey",
-    "Patagonia",
-    "Herschel",
-    "JanSport",
-    "Samsonite",
-    "Garmin",
-    "Braun",
-    "Instant Pot",
-    "Hydro Flask",
-    "La Roche-Posay",
-    "The Ordinary",
-    "HyperX",
-    "Razer",
-    "SteelSeries",
-    "Frameo",
-    "Babyvue",
-    "Magna-Tiles",
-    "Tonies",
-    "Lofans",
-    "Cook with Color"
-  ],
-  "seasons": [
-    {
-      "from": "2026-11-01",
-      "to": "2026-11-26",
-      "he": "🖤 לקראת בלאק פריידיי: המחירים כבר יורדים",
-      "en": "🖤 Black Friday is coming: prices are already dropping"
-    },
-    {
-      "from": "2026-11-27",
-      "to": "2026-11-30",
-      "he": "🖤 דיל בלאק פריידיי",
-      "en": "🖤 Black Friday deal"
-    },
-    {
-      "from": "2026-12-01",
-      "to": "2026-12-03",
-      "he": "🖤 סייבר וויק: ממשיכים עם הדילים",
-      "en": "🖤 Cyber Week: the deals keep going"
-    }
-  ],
-  "gift_season": {
-    "from": "2026-11-01",
-    "to": "2026-12-12",
-    "he": "🕎 רעיון מעולה למתנת חנוכה",
-    "en": "🕎 Great Hanukkah gift idea",
-    "early_until": "2026-11-25",
-    "early_he": "📦 כדאי להזמין מוקדם כדי שיגיע עד חנוכה",
-    "early_en": "📦 Order early so it arrives for Hanukkah",
-    "categories": [
-      "toys-and-games",
-      "fashion",
-      "beauty",
-      "electronics",
-      "wireless",
-      "baby-products",
-      "videogames",
-      "sporting-goods",
-      "home-garden/1063278",
-      "kitchen",
-      "luggage",
-      "arts-crafts"
-    ]
-  },
-  "owner_chat_id": "1125221452",
-  "reel_every": 4,
-  "candidates_per_run": 6,
-  "ig_user_id": "17841425400607402",
-  "ig_autopublish": true,
-  "promo_periods": [
-    {
-      "name": "Black Friday / Cyber Week",
-      "from": "2026-11-20",
-      "to": "2026-12-01",
-      "discount_weight": 2
-    }
-  ],
-  "ig_post_each_deal": false,
-  "carousel_delay_minutes": 90,
-  "posts_per_day": 30,
-  "post_window": [
-    7,
-    23
-  ],
-  "notify_min_discount": 30,
-  "notify_max_rank": 3,
-  "reel_slots": [
-    10.5,
-    18
-  ],
-  "carousel_slots": [
-    14
-  ],
-  "block_cooldown_minutes": 120,
-  "boost_keywords": {
-    "lego": 25,
-    "power bank": 15,
-    "portable charger": 15,
-    "charging cable": 0,
-    "usb c cable": 0,
-    "usb-c cable": 10,
-    "fast charger": 0,
-    "wall charger": 0,
-    "magsafe": 10,
-    "wireless charger": 10,
-    "earbuds": 10,
-    "squish": 25,
-    "stress ball": 15,
-    "fidget": 10,
-    "screen extender": 25,
-    "monitor extender": 25,
-    "portable monitor": 25,
-    "security camera": 20,
-    "solar camera": 20,
-    "indoor camera": 15,
-    "baby monitor": 15,
-    "outdoor light": 20,
-    "solar light": 20,
-    "string lights": 15,
-    "landscape light": 15,
-    "pathway light": 15,
-    "activity kit": 20,
-    "activity set": 20,
-    "craft kit": 15,
-    "science kit": 15,
-    "sticker book": 10,
-    "screwdriver set": 20,
-    "tool set": 20,
-    "tool kit": 15,
-    "sand art": 20,
-    "night light": 15,
-    "magnetic train": 20,
-    "train set": 15,
-    "marble run": 15,
-    "digital photo frame": 25,
-    "frameo": 25,
-    "baby car mirror": 20,
-    "car seat camera": 20,
-    "instant print camera": 25,
-    "kids camera": 20,
-    "sticker printer": 20,
-    "magnetic tiles": 25,
-    "magnetic blocks": 20,
-    "remote control": 15,
-    "rc car": 15,
-    "drawing board": 20,
-    "drawing tablet kids": 15,
-    "gaming headset": 20,
-    "skincare set": 15,
-    "moisturizer": 10,
-    "cleanser": 10,
-    "robot vacuum": 20,
-    "smart plug": 15,
-    "video doorbell": 20,
-    "massage gun": 20,
-    "resistance bands": 15,
-    "smart scale": 15,
-    "yoga mat": 10,
-    "dash cam": 20,
-    "car vacuum": 20,
-    "packing cubes": 15,
-    "travel adapter": 15,
-    "neck pillow": 10,
-    "pet feeder": 20,
-    "water fountain": 15,
-    "espresso": 15,
-    "knife set": 15,
-    "air fryer": 15,
-    "controller": 15,
-    "kids headphones": 15,
-    "backpack": 10,
-    "desk organizer": 10,
-    "gift set": 15,
-    "watch": 10,
-    "jewelry": 10,
-    "mixing bowl": 20,
-    "boxing machine": 25,
-    "box set": 15,
-    "ipl": 20,
-    "trimmer": 15,
-    "tablet": 10,
-    "smartwatch": 15
-  },
-  "repost_days_override": {
-    "lego": 3
-  },
-  "product_cache_hours": 6,
-  "reserve_hours": 12,
-  "reserve_min": 3,
-  "harvest_every_hours": 4,
-  "harvest_checks": 30,
-  "harvest_target": 25,
-  "harvest_extra_lists": 3,
-  "max_price_usd": 75,
-  "aliexpress_every": 2,
-  "ali_min_sold": 500,
-  "ali_min_rating_pct": 90,
-  "ali_queries": [
-    {
-      "q": "squishy toy",
-      "en": "Squishies",
-      "he": "סקווישים",
-      "weight": 4
-    },
-    {
-      "q": "fidget toy",
-      "en": "Fidget toys",
-      "he": "צעצועי פידג'ט",
-      "weight": 2
-    },
-    {
-      "q": "building blocks set",
-      "en": "Building sets",
-      "he": "ערכות בנייה",
-      "weight": 3
-    },
-    {
-      "q": "kids toys",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 3
-    },
-    {
-      "q": "plush toy",
-      "en": "Plush toys",
-      "he": "בובות פרווה",
-      "weight": 2
-    },
-    {
-      "q": "kids art craft kit",
-      "en": "Arts & crafts",
-      "he": "יצירה לילדים",
-      "weight": 2
-    },
-    {
-      "q": "power bank",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 2
-    },
-    {
-      "q": "usb c fast charging cable",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 0.3
-    },
-    {
-      "q": "wireless earbuds",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 2
-    },
-    {
-      "q": "phone holder car",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 1
-    },
-    {
-      "q": "led light room decor",
-      "en": "Home decor",
-      "he": "עיצוב הבית",
-      "weight": 2
-    },
-    {
-      "q": "kitchen gadgets",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 2
-    },
-    {
-      "q": "storage organizer",
-      "en": "Home",
-      "he": "לבית",
-      "weight": 1
-    },
-    {
-      "q": "backpack",
-      "en": "Bags",
-      "he": "תיקים",
-      "weight": 1
-    },
-    {
-      "q": "hair accessories girls",
-      "en": "Accessories",
-      "he": "אקססוריז",
-      "weight": 1
-    },
-    {
-      "q": "phone case",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 1
-    },
-    {
-      "q": "laptop screen extender",
-      "en": "Work from home",
-      "he": "עבודה מהבית",
-      "weight": 3
-    },
-    {
-      "q": "portable monitor usb c",
-      "en": "Work from home",
-      "he": "עבודה מהבית",
-      "weight": 3
-    },
-    {
-      "q": "solar security camera outdoor",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 3
-    },
-    {
-      "q": "wifi security camera outdoor",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 2
-    },
-    {
-      "q": "indoor security camera",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 2
-    },
-    {
-      "q": "baby monitor camera",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 2
-    },
-    {
-      "q": "solar garden lights outdoor",
-      "en": "Outdoor lighting",
-      "he": "תאורת חוץ",
-      "weight": 3
-    },
-    {
-      "q": "outdoor string lights",
-      "en": "Outdoor lighting",
-      "he": "תאורת חוץ",
-      "weight": 2
-    },
-    {
-      "q": "solar wall light motion sensor",
-      "en": "Outdoor lighting",
-      "he": "תאורת חוץ",
-      "weight": 2
-    },
-    {
-      "q": "kids activity set",
-      "en": "Kids activities",
-      "he": "פעילות לילדים",
-      "weight": 3
-    },
-    {
-      "q": "kids science experiment kit",
-      "en": "Kids activities",
-      "he": "פעילות לילדים",
-      "weight": 2
-    },
-    {
-      "q": "sticker activity book kids",
-      "en": "Kids activities",
-      "he": "פעילות לילדים",
-      "weight": 2
-    },
-    {
-      "q": "UGREEN",
-      "require": "ugreen",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.8
-    },
-    {
-      "q": "Baseus",
-      "require": "baseus",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.8
-    },
-    {
-      "q": "Xiaomi",
-      "require": "xiaomi",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.8
-    },
-    {
-      "q": "Mijia",
-      "require": "mijia",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Vention",
-      "require": "vention",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Essager",
-      "require": "essager",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "POCO",
-      "require": "poco",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "OnePlus",
-      "require": "oneplus",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "QOOVI",
-      "require": "qoovi",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Vikefon",
-      "require": "vikefon",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Toocki",
-      "require": "toocki",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "GameSir",
-      "require": "gamesir",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "DJI",
-      "require": "dji",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Magcubic",
-      "require": "magcubic",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Sonoff",
-      "require": "sonoff",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Amazfit",
-      "require": "amazfit",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.8
-    },
-    {
-      "q": "K&F Concept",
-      "require": "k&f",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Netac",
-      "require": "netac",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Teclast",
-      "require": "teclast",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "NiiMbot",
-      "require": "niimbot",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Logitech",
-      "require": "logitech",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.8
-    },
-    {
-      "q": "GL.iNet",
-      "require": "gl.inet",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Attack Shark",
-      "require": "attack shark",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.4
-    },
-    {
-      "q": "Potdemiel",
-      "require": "potdemiel",
-      "en": "Top brands",
-      "he": "מותגים מובילים",
-      "weight": 0.8
-    },
-    {
-      "q": "squishy advent calendar",
-      "en": "Squishies",
-      "he": "סקווישים",
-      "weight": 2
-    },
-    {
-      "q": "squishy surprise box",
-      "en": "Squishies",
-      "he": "סקווישים",
-      "weight": 2
-    },
-    {
-      "q": "squishy blind box",
-      "en": "Squishies",
-      "he": "סקווישים",
-      "weight": 2
-    },
-    {
-      "q": "squishy set",
-      "en": "Squishies",
-      "he": "סקווישים",
-      "weight": 2
-    },
-    {
-      "q": "Pop Mart",
-      "official": "Pop Mart",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Bandai",
-      "official": "Bandai",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Takara Tomy",
-      "official": "Takara Tomy",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Hasbro",
-      "official": "Hasbro",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Kayou",
-      "official": "Kayou",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Disney",
-      "official": "Disney",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Miniso",
-      "official": "Miniso",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "52Toys",
-      "official": "52Toys",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Beast Kingdom",
-      "official": "Beast Kingdom",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "Maisto",
-      "official": "Maisto",
-      "en": "Official brand store",
-      "he": "חנות רשמית",
-      "weight": 0.3
-    },
-    {
-      "q": "precision screwdriver set",
-      "en": "Tools",
-      "he": "כלי עבודה",
-      "weight": 2
-    },
-    {
-      "q": "tool set home",
-      "en": "Tools",
-      "he": "כלי עבודה",
-      "weight": 2
-    },
-    {
-      "q": "moving sand art lamp",
-      "en": "Home decor",
-      "he": "עיצוב הבית",
-      "weight": 2
-    },
-    {
-      "q": "kids night light",
-      "en": "Home decor",
-      "he": "עיצוב הבית",
-      "weight": 2
-    },
-    {
-      "q": "magnetic train track toy",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 2
-    },
-    {
-      "q": "marble run kids",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 1
-    },
-    {
-      "q": "digital photo frame wifi",
-      "en": "Gift ideas",
-      "he": "רעיונות למתנה",
-      "weight": 2
-    },
-    {
-      "q": "baby car mirror camera",
-      "en": "Baby",
-      "he": "תינוקות",
-      "weight": 2
-    },
-    {
-      "q": "kids instant print camera",
-      "en": "Kids tech",
-      "he": "טכנולוגיה לילדים",
-      "weight": 3
-    },
-    {
-      "q": "kids thermal printer",
-      "en": "Kids tech",
-      "he": "טכנולוגיה לילדים",
-      "weight": 2
-    },
-    {
-      "q": "magnetic building tiles",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 2
-    },
-    {
-      "q": "rc wall climbing car",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 2
-    },
-    {
-      "q": "led drawing board kids",
-      "en": "Kids activities",
-      "he": "פעילות לילדים",
-      "weight": 2
-    },
-    {
-      "q": "gaming headset",
-      "en": "Gaming",
-      "he": "גיימינג",
-      "weight": 2
-    },
-    {
-      "q": "gift set for men",
-      "en": "Hanukkah gifts",
-      "he": "מתנות לחנוכה",
-      "weight": 2
-    },
-    {
-      "q": "gift for women",
-      "en": "Hanukkah gifts",
-      "he": "מתנות לחנוכה",
-      "weight": 2
-    },
-    {
-      "q": "kids gift toy",
-      "en": "Hanukkah gifts",
-      "he": "מתנות לחנוכה",
-      "weight": 2
-    },
-    {
-      "q": "robot vacuum cleaner",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 2
-    },
-    {
-      "q": "smart plug wifi",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 1
-    },
-    {
-      "q": "video doorbell",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 2
-    },
-    {
-      "q": "resistance bands set",
-      "en": "Fitness",
-      "he": "כושר",
-      "weight": 1
-    },
-    {
-      "q": "massage gun",
-      "en": "Fitness",
-      "he": "כושר",
-      "weight": 2
-    },
-    {
-      "q": "smart body scale",
-      "en": "Fitness",
-      "he": "כושר",
-      "weight": 1
-    },
-    {
-      "q": "yoga mat",
-      "en": "Fitness",
-      "he": "כושר",
-      "weight": 1
-    },
-    {
-      "q": "dash cam",
-      "en": "Car",
-      "he": "לרכב",
-      "weight": 2
-    },
-    {
-      "q": "car vacuum cleaner",
-      "en": "Car",
-      "he": "לרכב",
-      "weight": 2
-    },
-    {
-      "q": "magnetic car phone holder",
-      "en": "Car",
-      "he": "לרכב",
-      "weight": 1
-    },
-    {
-      "q": "car trunk organizer",
-      "en": "Car",
-      "he": "לרכב",
-      "weight": 1
-    },
-    {
-      "q": "packing cubes travel",
-      "en": "Travel",
-      "he": "טיולים ונסיעות",
-      "weight": 1
-    },
-    {
-      "q": "universal travel adapter",
-      "en": "Travel",
-      "he": "טיולים ונסיעות",
-      "weight": 1
-    },
-    {
-      "q": "travel neck pillow",
-      "en": "Travel",
-      "he": "טיולים ונסיעות",
-      "weight": 1
-    },
-    {
-      "q": "carry on backpack",
-      "en": "Travel",
-      "he": "טיולים ונסיעות",
-      "weight": 1
-    },
-    {
-      "q": "automatic pet feeder",
-      "en": "Pets",
-      "he": "לחיות מחמד",
-      "weight": 2
-    },
-    {
-      "q": "pet water fountain",
-      "en": "Pets",
-      "he": "לחיות מחמד",
-      "weight": 2
-    },
-    {
-      "q": "dog toys",
-      "en": "Pets",
-      "he": "לחיות מחמד",
-      "weight": 1
-    },
-    {
-      "q": "cat toys",
-      "en": "Pets",
-      "he": "לחיות מחמד",
-      "weight": 1
-    },
-    {
-      "q": "milk frother",
-      "en": "Coffee & kitchen",
-      "he": "קפה ומטבח",
-      "weight": 1
-    },
-    {
-      "q": "espresso accessories",
-      "en": "Coffee & kitchen",
-      "he": "קפה ומטבח",
-      "weight": 1
-    },
-    {
-      "q": "kitchen knife set",
-      "en": "Coffee & kitchen",
-      "he": "קפה ומטבח",
-      "weight": 1
-    },
-    {
-      "q": "air fryer accessories",
-      "en": "Coffee & kitchen",
-      "he": "קפה ומטבח",
-      "weight": 1
-    },
-    {
-      "q": "switch controller",
-      "en": "Gaming",
-      "he": "גיימינג",
-      "weight": 2
-    },
-    {
-      "q": "ps5 accessories",
-      "en": "Gaming",
-      "he": "גיימינג",
-      "weight": 1
-    },
-    {
-      "q": "minimalist watch",
-      "en": "Watches & jewelry",
-      "he": "שעונים ותכשיטים",
-      "weight": 1
-    },
-    {
-      "q": "jewelry set women",
-      "en": "Watches & jewelry",
-      "he": "שעונים ותכשיטים",
-      "weight": 1
-    },
-    {
-      "q": "magsafe stand",
-      "en": "Phone & tablet",
-      "he": "טלפון וטאבלט",
-      "weight": 1
-    },
-    {
-      "q": "kids tablet case",
-      "en": "Phone & tablet",
-      "he": "טלפון וטאבלט",
-      "weight": 1
-    },
-    {
-      "q": "kids school backpack",
-      "en": "School & office",
-      "he": "בית ספר ומשרד",
-      "weight": 1
-    },
-    {
-      "q": "desk organizer",
-      "en": "School & office",
-      "he": "בית ספר ומשרד",
-      "weight": 1
-    },
-    {
-      "q": "kids headphones",
-      "en": "School & office",
-      "he": "בית ספר ומשרד",
-      "weight": 1
-    },
-    {
-      "q": "hair dryer brush",
-      "en": "Beauty",
-      "he": "טיפוח",
-      "weight": 2
-    },
-    {
-      "q": "led makeup mirror",
-      "en": "Beauty",
-      "he": "טיפוח",
-      "weight": 1
-    },
-    {
-      "q": "electric scalp massager",
-      "en": "Beauty",
-      "he": "טיפוח",
-      "weight": 1
-    },
-    {
-      "q": "camping lantern",
-      "en": "Outdoor",
-      "he": "טיולים וקמפינג",
-      "weight": 1
-    },
-    {
-      "q": "portable fan",
-      "en": "Home",
-      "he": "לבית",
-      "weight": 1
-    },
-    {
-      "q": "aroma diffuser",
-      "en": "Home decor",
-      "he": "עיצוב הבית",
-      "weight": 1
-    },
-    {
-      "q": "wall clock modern",
-      "en": "Home decor",
-      "he": "עיצוב הבית",
-      "weight": 1
-    },
-    {
-      "q": "kitchen storage containers",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 1
-    },
-    {
-      "q": "electric spin scrubber",
-      "en": "Home",
-      "he": "לבית",
-      "weight": 2
-    },
-    {
-      "q": "mini projector",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 2
-    },
-    {
-      "q": "smart watch",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 2
-    },
-    {
-      "q": "electric toothbrush",
-      "en": "Beauty",
-      "he": "טיפוח",
-      "weight": 1
-    },
-    {
-      "q": "kids scooter",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 1
-    },
-    {
-      "q": "board game family",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 1
-    },
-    {
-      "q": "waterproof phone pouch",
-      "en": "Travel",
-      "he": "טיולים ונסיעות",
-      "weight": 0.5
-    },
-    {
-      "q": "mixing bowls set with lids",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 1
-    },
-    {
-      "q": "kids boxing machine music",
-      "en": "Kids toys",
-      "he": "צעצועים לילדים",
-      "weight": 1
-    },
-    {
-      "q": "ipl hair removal",
-      "en": "Beauty",
-      "he": "טיפוח",
-      "weight": 1
-    },
-    {
-      "q": "beard trimmer men",
-      "en": "Beauty",
-      "he": "טיפוח",
-      "weight": 1
-    },
-    {
-      "q": "android tablet 10 inch",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 1
-    },
-    {
-      "q": "Xiaomi watch",
-      "en": "Tech",
-      "he": "גאדג'טים",
-      "weight": 1
-    },
-    {
-      "q": "winter jacket men",
-      "en": "Fashion",
-      "he": "אופנה",
-      "weight": 1.5
-    },
-    {
-      "q": "softshell jacket",
-      "en": "Fashion",
-      "he": "אופנה",
-      "weight": 1.5
-    },
-    {
-      "q": "hiking shoes waterproof",
-      "en": "Fashion",
-      "he": "אופנה",
-      "weight": 1.5
-    },
-    {
-      "q": "women leggings with pockets",
-      "en": "Fashion",
-      "he": "אופנה",
-      "weight": 1.5
-    },
-    {
-      "q": "gaming keyboard mechanical",
-      "en": "Gaming",
-      "he": "גיימינג",
-      "weight": 1.5
-    },
-    {
-      "q": "gaming mouse wireless",
-      "en": "Gaming",
-      "he": "גיימינג",
-      "weight": 1.5
-    },
-    {
-      "q": "retro handheld game console",
-      "en": "Gaming",
-      "he": "גיימינג",
-      "weight": 1.5
-    },
-    {
-      "q": "gaming router wifi 6",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 1.5
-    },
-    {
-      "q": "external ssd",
-      "en": "Tech",
-      "he": "טק",
-      "weight": 1.5
-    },
-    {
-      "q": "GaN charger 65W",
-      "en": "Tech",
-      "he": "טק",
-      "weight": 1.5
-    },
-    {
-      "q": "car jump starter",
-      "en": "Car",
-      "he": "רכב",
-      "weight": 1.5
-    },
-    {
-      "q": "cordless drill brushless",
-      "en": "Tools",
-      "he": "כלי עבודה",
-      "weight": 1.5
-    },
-    {
-      "q": "tool bag",
-      "en": "Tools",
-      "he": "כלי עבודה",
-      "weight": 1.5
-    },
-    {
-      "q": "smart door lock fingerprint",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 1.5
-    },
-    {
-      "q": "window cleaning robot",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 1.5
-    },
-    {
-      "q": "tv backlight led sync",
-      "en": "Smart home",
-      "he": "בית חכם",
-      "weight": 1.5
-    },
-    {
-      "q": "stainless steel frying pan set",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 1.5
-    },
-    {
-      "q": "glass food storage containers",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 1.5
-    },
-    {
-      "q": "bamboo cutting board set",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 1.5
-    },
-    {
-      "q": "insulated water bottle straw",
-      "en": "Kitchen",
-      "he": "מטבח",
-      "weight": 1.5
-    },
-    {
-      "q": "cordless hair straightener",
-      "en": "Beauty",
-      "he": "יופי",
-      "weight": 1.5
-    },
-    {
-      "q": "inflatable camping tent",
-      "en": "Outdoor",
-      "he": "טבע",
-      "weight": 1.5
-    },
-    {
-      "q": "solar string lights outdoor",
-      "en": "Outdoor lighting",
-      "he": "תאורת חוץ",
-      "weight": 1.5
-    },
-    {
-      "q": "kids roller skates adjustable",
-      "en": "Kids",
-      "he": "ילדים",
-      "weight": 1.5
-    },
-    {
-      "q": "kids camera",
-      "en": "Kids",
-      "he": "ילדים",
-      "weight": 1.5
-    },
-    {
-      "q": "kids art set wooden case",
-      "en": "Arts & crafts",
-      "he": "יצירה",
-      "weight": 1.5
-    },
-    {
-      "q": "rc climbing lizard toy",
-      "en": "Kids",
-      "he": "ילדים",
-      "weight": 1.5
-    },
-    {
-      "q": "handheld thermal printer",
-      "en": "Tech",
-      "he": "טק",
-      "weight": 1.5
-    }
-  ],
-  "ali_min_price_usd": 5,
-  "ali_min_price_exempt": [
-    "squish",
-    "fidget",
-    "stress ball",
-    "stress relief"
-  ],
-  "preferred_min_price_usd": 25,
-  "higher_value_share": 0.6,
-  "higher_value_bonus": 25,
-  "product_types": [
-    "fan",
-    "projector",
-    "scale",
-    "hair dryer",
-    "shaver",
-    "trimmer",
-    "floor mat",
-    "pump",
-    "tire inflator",
-    "flashlight",
-    "batter",
-    "mouse",
-    "keyboard",
-    "charger",
-    "cable",
-    "power bank",
-    "earbuds",
-    "headphones",
-    "headset",
-    "speaker",
-    "bottle",
-    "tumbler",
-    "mug",
-    "cup",
-    "sheets",
-    "pillow",
-    "blanket",
-    "towel",
-    "backpack",
-    "bag",
-    "squish",
-    "fidget",
-    "plush",
-    "stress ball",
-    "lego",
-    "building block",
-    "camera",
-    "string lights",
-    "solar light",
-    "lamp",
-    "light",
-    "monitor",
-    "screen extender",
-    "watch",
-    "phone case",
-    "phone holder",
-    "phone stand",
-    "stand",
-    "organizer",
-    "storage",
-    "puzzle",
-    "slicer",
-    "opener",
-    "knife",
-    "pan",
-    "air fryer",
-    "blender",
-    "vacuum",
-    "toothbrush",
-    "hair",
-    "shoes",
-    "sneakers",
-    "socks",
-    "hoodie",
-    "jacket",
-    "shirt",
-    "pants",
-    "leggings",
-    "dress",
-    "sweater",
-    "controller",
-    "gamepad",
-    "ssd",
-    "flash drive",
-    "memory card",
-    "hub",
-    "adapter",
-    "router",
-    "tablet",
-    "laptop",
-    "drone",
-    "printer",
-    "craft",
-    "sticker",
-    "slime",
-    "doll",
-    "car toy",
-    "figure",
-    "game",
-    "book",
-    "candle",
-    "diffuser",
-    "humidifier"
-  ],
-  "diversity_posts": 6,
-  "brand_gap_posts": 4,
-  "photos_per_post": 3,
-  "demote_keywords": {
-    "pillowcase": 45,
-    "pillow case": 45,
-    "pillow cover": 45,
-    "cushion cover": 40,
-    "duvet": 45,
-    "comforter": 45,
-    "bedspread": 45,
-    "quilt": 40,
-    "coverlet": 45,
-    "mattress protector": 45,
-    "mattress pad": 45,
-    "mattress topper": 40,
-    "bed skirt": 45,
-    "linen": 40,
-    "bedding": 45,
-    "throw pillow": 35,
-    "bed pillow": 35,
-    "pillows for sleeping": 35,
-    "blanket": 20,
-    "bed sheets": 45,
-    "sheet set": 45,
-    "sheets set": 45,
-    "fitted sheet": 45,
-    "flat sheet": 45,
-    "shower curtain": 40,
-    "shower liner": 40,
-    "curtain liner": 40,
-    "toilet": 40,
-    "plunger": 40,
-    "trash bag": 40,
-    "garbage bag": 40,
-    "liner": 40
-  },
-  "coupon_min_off_usd": 2,
-  "ali_sale_share": 0.25,
-  "coupon_hour": 11,
-  "coupons": [],
-  "ali_min_sold_exempt": 200,
-  "brand_bonus": 35,
-  "ali_niche_block": "\\b(replacement|spare parts?|repair|module|hardwire|wiring|harness|adapter plate|mount bracket|for (tesla|bmw|toyota|honda|mercedes|audi|vw|volkswagen|ford|kia|hyundai|byd|model [3ysx])|compatible with|oem|universal fit|motorcycle|motorbike|helmet intercom|replacement remote|remote for|water filters?|filter cartridges?|replacement filters?|filters? for|refill(s)? for|for samsung|for lg|for whirlpool|for dyson|for roomba)\\b",
-  "group_gap_posts": 2,
-  "giveaway": {
-    "start": "2026-11-18",
-    "end": "2026-11-30",
-    "draw": "2026-12-01",
-    "draw_hour": 12,
-    "prize_he": "גיפט קארד של $50 לאמזון"
-  },
-  "scheduled": [
-    {
-      "id": "giveaway-channel",
-      "at": "2026-11-18T09:00",
-      "kind": "tg_giveaway"
-    },
-    {
-      "id": "ig-promo-a",
-      "at": "2026-11-18T13:30",
-      "kind": "ig_image",
-      "image": "assets/promo/promo_a.png",
-      "caption_file": "data/giveaway/ig_a.txt"
-    },
-    {
-      "id": "ig-promo-b",
-      "at": "2026-11-19T13:30",
-      "kind": "ig_image",
-      "image": "assets/promo/promo_b.png",
-      "caption_file": "data/giveaway/ig_b.txt"
-    },
-    {
-      "id": "ig-promo-a-link",
-      "at": "2026-11-18T13:30",
-      "kind": "ig_comment",
-      "media": "18122826046982692"
-    },
-    {
-      "id": "ig-grid-3",
-      "at": "2026-11-21T09:40",
-      "kind": "ig_image",
-      "image": "assets/grid/grid_3.jpg",
-      "caption_file": "data/giveaway/ig_grid.txt"
-    },
-    {
-      "id": "ig-grid-2",
-      "at": "2026-11-21T09:40",
-      "kind": "ig_image",
-      "image": "assets/grid/grid_2.jpg",
-      "caption_file": "data/giveaway/ig_grid.txt"
-    },
-    {
-      "id": "ig-grid-1",
-      "at": "2026-11-21T09:40",
-      "kind": "ig_image",
-      "image": "assets/grid/grid_1.jpg",
-      "caption_file": "data/giveaway/ig_grid.txt"
-    },
-    {
-      "id": "ig-dealcity-home",
-      "at": "2026-11-21T14:00",
-      "kind": "ig_image",
-      "image": "assets/posts/dealcity_home.jpg",
-      "caption_file": "data/giveaway/ig_dealcity_home.txt",
-      "link_asins": [
-        "ali-1005009212557833",
-        "ali-1005011991969247",
-        "ali-1005009463011323",
-        "ali-1005007540007398"
-      ]
-    },
-    {
-      "id": "ig-dealcity-home-links2",
-      "at": "2026-11-21T14:00",
-      "kind": "ig_comment",
-      "media": "18120332371805885",
-      "link_asins": [
-        "ali-1005009212557833",
-        "ali-1005011991969247",
-        "ali-1005009463011323",
-        "ali-1005007540007398"
-      ]
-    },
-    {
-      "id": "ig-dealcity-home-test",
-      "at": "2026-11-21T14:00",
-      "kind": "ig_comment",
-      "media": "18120332371805885"
-    },
-    {
-      "id": "ig-dealcity-home-dellong",
-      "at": "2026-11-21T14:00",
-      "kind": "ig_delete_comments",
-      "comments": [
-        "18121010642063882",
-        "17917658817500844",
-        "18121309202073614",
-        "18128472484904246"
-      ]
-    },
-    {
-      "id": "ig-dealcity-home-links3",
-      "at": "2026-11-21T14:00",
-      "kind": "ig_comment",
-      "media": "18120332371805885",
-      "link_asins": [
-        "ali-1005009212557833",
-        "ali-1005011991969247",
-        "ali-1005009463011323",
-        "ali-1005007540007398"
-      ]
-    }
-  ],
-  "weekly_caps": [
-    {
-      "name": "bras & underwear",
-      "pattern": "\\b(bras?|bralettes?|sports bra|underwear|panties|briefs|boxer briefs|lingerie|shapewear)\\b",
-      "max": 1,
-      "days": 7
-    },
-    {
-      "name": "cables & chargers",
-      "pattern": "\\b(cables?|chargers?|charging|adapters?|usb[- ]?c hub|hub)\\b",
-      "max": 1,
-      "days": 1,
-      "exclude": "\\b(power ?banks?|portable chargers?|jump starters?|mah)\\b"
-    },
-    {
-      "name": "batteries",
-      "pattern": "\\bbatter(y|ies)\\b",
-      "max": 1,
-      "days": 7
-    },
-    {
-      "name": "power banks",
-      "pattern": "\\b(power ?banks?|portable chargers?|\\d{4,5} ?mah)\\b",
-      "max": 1,
-      "days": 2
-    }
-  ],
-  "theme_gap_posts": 2,
-  "block_keywords": "\\b(neck ?ties?|bow ?ties?|ties? for men|men'?s ties?|tie sets?|tie clips?|cufflinks?|dropshipping|drop shipping|wholesale|bulk lot|refrigerator filters?|fridge filters?|refrigerator water|ice ?& ?water filter|water filter|everydrop|filter cartridges?|replacement filters?)\\b",
-  "reel_items": 6,
-  "reel_secs_per_item": 2.6,
-  "carousel_every_days": 3,
-  "video_slots": [
-    14,
-    21
-  ],
-  "scheduled_picks": [
-    {
-      "store": "amazon_search",
-      "id": "COOK WITH COLOR 12 piece mixing bowls with lids",
-      "require": [
-        "mixing bowl"
-      ],
-      "alt": [
-        "Cook with Color mixing bowls set"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-18T17:40:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-1"
-    },
-    {
-      "store": "aliexpress_search",
-      "id": "Xiaomi Watch S5 global version",
-      "require": [
-        "xiaomi",
-        "watch s5"
-      ],
-      "alt": [
-        "Xiaomi Watch S5"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-18T20:00:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-2"
-    },
-    {
-      "store": "amazon_search",
-      "id": "kids music boxing machine dinosaur boxing gloves",
-      "require": [
-        "boxing"
-      ],
-      "alt": [
-        "music boxing machine for kids"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-19T05:30:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-3"
-    },
-    {
-      "store": "amazon_search",
-      "id": "Braun IPL PL7219",
-      "require": [
-        "braun",
-        "ipl"
-      ],
-      "alt": [
-        "Braun Silk Expert Pro 7 IPL PL7"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-19T08:00:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-4"
-    },
-    {
-      "store": "amazon_search",
-      "id": "Osprey Axis 24 backpack",
-      "require": [
-        "osprey",
-        "axis"
-      ],
-      "alt": [
-        "Osprey Axis daypack"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-19T10:30:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-5"
-    },
-    {
-      "store": "aliexpress_search",
-      "id": "Teclast P30T tablet",
-      "require": [
-        "teclast",
-        "p30t"
-      ],
-      "alt": [
-        "Teclast P30T 10.1"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-19T13:00:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-6"
-    },
-    {
-      "store": "amazon_search",
-      "id": "Harry Potter complete collection box set paperback",
-      "require": [
-        "harry potter"
-      ],
-      "alt": [
-        "Harry Potter box set children's collection"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-19T15:30:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-7"
-    },
-    {
-      "store": "amazon_search",
-      "id": "Lofans beard trimmer",
-      "require": [
-        "lofans"
-      ],
-      "alt": [
-        "LOFANS TR1 hair trimmer"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-18T17:25:00+00:00",
-      "not_before": "2026-11-19T18:00:00+00:00",
-      "over_cap_ok": true,
-      "sid": "shot-1118-8"
-    },
-    {
-      "sid": "shot-1120-1",
-      "store": "aliexpress_search",
-      "id": "automatic trash can motion sensor small",
-      "require": [
-        "trash",
-        "sensor"
-      ],
-      "alt": [
-        "smart trash can automatic lid bathroom"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-20T05:06:00+00:00",
-      "not_before": "2026-11-20T06:30:00+00:00",
-      "over_cap_ok": true
-    },
-    {
-      "sid": "shot-1120-2",
-      "store": "aliexpress_search",
-      "id": "electric fruit peeler rechargeable grape tomato garlic",
-      "require": [
-        "peel"
-      ],
-      "alt": [
-        "electric peeling machine fruit"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-20T05:06:00+00:00",
-      "not_before": "2026-11-20T10:30:00+00:00",
-      "over_cap_ok": true
-    },
-    {
-      "sid": "shot-1120-3",
-      "store": "aliexpress_search",
-      "id": "dinosaur claw machine toy",
-      "require": [
-        "claw"
-      ],
-      "alt": [
-        "mini claw machine kids doll catcher"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-20T09:22:00+00:00",
-      "not_before": "2026-11-20T11:30:00+00:00",
-      "over_cap_ok": true
-    },
-    {
-      "sid": "shot-1120-4",
-      "store": "aliexpress_search",
-      "id": "4K digital camera 64MP vlogging 18X zoom",
-      "require": [
-        "camera"
-      ],
-      "alt": [
-        "digital camera 64MP 16X zoom vlog"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-20T09:22:00+00:00",
-      "not_before": "2026-11-20T13:30:00+00:00",
-      "over_cap_ok": true,
-      "avoid": "lenovo|canon|nikon|sony|kodak"
-    },
-    {
-      "sid": "shot-1120-5",
-      "store": "aliexpress_search",
-      "id": "kids electric go kart LED music",
-      "require": [
-        "kart"
-      ],
-      "alt": [
-        "kids ride on go kart electric"
-      ],
-      "url": "screenshot",
-      "at": "2026-11-20T09:22:00+00:00",
-      "not_before": "2026-11-20T16:00:00+00:00",
-      "over_cap_ok": true
-    }
-  ],
-  "giftbox_alternate": true,
-  "giftbox_secs_per_item": 2.2,
-  "type_cooldown_hours": 48,
-  "bundle_every_days": 3,
-  "bundle_hour": 16,
-  "bundle_price_usd": [
-    6,
-    18
+   "toys-and-games",
+   "fashion",
+   "beauty",
+   "electronics",
+   "wireless",
+   "baby-products",
+   "videogames",
+   "sporting-goods",
+   "home-garden/1063278",
+   "kitchen",
+   "luggage",
+   "arts-crafts"
   ]
+ },
+ "owner_chat_id": "1125221452",
+ "reel_every": 4,
+ "candidates_per_run": 6,
+ "ig_user_id": "17841425400607402",
+ "ig_autopublish": true,
+ "promo_periods": [
+  {
+   "name": "Black Friday / Cyber Week",
+   "from": "2026-11-20",
+   "to": "2026-12-01",
+   "discount_weight": 2
+  }
+ ],
+ "ig_post_each_deal": false,
+ "carousel_delay_minutes": 90,
+ "posts_per_day": 30,
+ "post_window": [
+  7,
+  23
+ ],
+ "notify_min_discount": 30,
+ "notify_max_rank": 3,
+ "reel_slots": [
+  10.5,
+  18
+ ],
+ "carousel_slots": [
+  14
+ ],
+ "block_cooldown_minutes": 120,
+ "boost_keywords": {
+  "lego": 25,
+  "power bank": 15,
+  "portable charger": 15,
+  "charging cable": 0,
+  "usb c cable": 0,
+  "usb-c cable": 10,
+  "fast charger": 0,
+  "wall charger": 0,
+  "magsafe": 10,
+  "wireless charger": 10,
+  "earbuds": 10,
+  "squish": 25,
+  "stress ball": 15,
+  "fidget": 10,
+  "screen extender": 25,
+  "monitor extender": 25,
+  "portable monitor": 25,
+  "security camera": 20,
+  "solar camera": 20,
+  "indoor camera": 15,
+  "baby monitor": 15,
+  "outdoor light": 20,
+  "solar light": 20,
+  "string lights": 15,
+  "landscape light": 15,
+  "pathway light": 15,
+  "activity kit": 20,
+  "activity set": 20,
+  "craft kit": 15,
+  "science kit": 15,
+  "sticker book": 10,
+  "screwdriver set": 20,
+  "tool set": 20,
+  "tool kit": 15,
+  "sand art": 20,
+  "night light": 15,
+  "magnetic train": 20,
+  "train set": 15,
+  "marble run": 15,
+  "digital photo frame": 25,
+  "frameo": 25,
+  "baby car mirror": 20,
+  "car seat camera": 20,
+  "instant print camera": 25,
+  "kids camera": 20,
+  "sticker printer": 20,
+  "magnetic tiles": 25,
+  "magnetic blocks": 20,
+  "remote control": 15,
+  "rc car": 15,
+  "drawing board": 20,
+  "drawing tablet kids": 15,
+  "gaming headset": 20,
+  "skincare set": 15,
+  "moisturizer": 10,
+  "cleanser": 10,
+  "robot vacuum": 20,
+  "smart plug": 15,
+  "video doorbell": 20,
+  "massage gun": 20,
+  "resistance bands": 15,
+  "smart scale": 15,
+  "yoga mat": 10,
+  "dash cam": 20,
+  "car vacuum": 20,
+  "packing cubes": 15,
+  "travel adapter": 15,
+  "neck pillow": 10,
+  "pet feeder": 20,
+  "water fountain": 15,
+  "espresso": 15,
+  "knife set": 15,
+  "air fryer": 15,
+  "controller": 15,
+  "kids headphones": 15,
+  "backpack": 10,
+  "desk organizer": 10,
+  "gift set": 15,
+  "watch": 10,
+  "jewelry": 10,
+  "mixing bowl": 20,
+  "boxing machine": 25,
+  "box set": 15,
+  "ipl": 20,
+  "trimmer": 15,
+  "tablet": 10,
+  "smartwatch": 15
+ },
+ "repost_days_override": {
+  "lego": 3
+ },
+ "product_cache_hours": 6,
+ "reserve_hours": 12,
+ "reserve_min": 3,
+ "harvest_every_hours": 4,
+ "harvest_checks": 30,
+ "harvest_target": 25,
+ "harvest_extra_lists": 3,
+ "max_price_usd": 75,
+ "aliexpress_every": 2,
+ "ali_min_sold": 500,
+ "ali_min_rating_pct": 90,
+ "ali_queries": [
+  {
+   "q": "squishy toy",
+   "en": "Squishies",
+   "he": "סקווישים",
+   "weight": 4
+  },
+  {
+   "q": "fidget toy",
+   "en": "Fidget toys",
+   "he": "צעצועי פידג'ט",
+   "weight": 2
+  },
+  {
+   "q": "building blocks set",
+   "en": "Building sets",
+   "he": "ערכות בנייה",
+   "weight": 3
+  },
+  {
+   "q": "kids toys",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 3
+  },
+  {
+   "q": "plush toy",
+   "en": "Plush toys",
+   "he": "בובות פרווה",
+   "weight": 2
+  },
+  {
+   "q": "kids art craft kit",
+   "en": "Arts & crafts",
+   "he": "יצירה לילדים",
+   "weight": 2
+  },
+  {
+   "q": "power bank",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 2
+  },
+  {
+   "q": "usb c fast charging cable",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 0.3
+  },
+  {
+   "q": "wireless earbuds",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 2
+  },
+  {
+   "q": "phone holder car",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 1
+  },
+  {
+   "q": "led light room decor",
+   "en": "Home decor",
+   "he": "עיצוב הבית",
+   "weight": 2
+  },
+  {
+   "q": "kitchen gadgets",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 2
+  },
+  {
+   "q": "storage organizer",
+   "en": "Home",
+   "he": "לבית",
+   "weight": 1
+  },
+  {
+   "q": "backpack",
+   "en": "Bags",
+   "he": "תיקים",
+   "weight": 1
+  },
+  {
+   "q": "hair accessories girls",
+   "en": "Accessories",
+   "he": "אקססוריז",
+   "weight": 1
+  },
+  {
+   "q": "phone case",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 1
+  },
+  {
+   "q": "laptop screen extender",
+   "en": "Work from home",
+   "he": "עבודה מהבית",
+   "weight": 3
+  },
+  {
+   "q": "portable monitor usb c",
+   "en": "Work from home",
+   "he": "עבודה מהבית",
+   "weight": 3
+  },
+  {
+   "q": "solar security camera outdoor",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 3
+  },
+  {
+   "q": "wifi security camera outdoor",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 2
+  },
+  {
+   "q": "indoor security camera",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 2
+  },
+  {
+   "q": "baby monitor camera",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 2
+  },
+  {
+   "q": "solar garden lights outdoor",
+   "en": "Outdoor lighting",
+   "he": "תאורת חוץ",
+   "weight": 3
+  },
+  {
+   "q": "outdoor string lights",
+   "en": "Outdoor lighting",
+   "he": "תאורת חוץ",
+   "weight": 2
+  },
+  {
+   "q": "solar wall light motion sensor",
+   "en": "Outdoor lighting",
+   "he": "תאורת חוץ",
+   "weight": 2
+  },
+  {
+   "q": "kids activity set",
+   "en": "Kids activities",
+   "he": "פעילות לילדים",
+   "weight": 3
+  },
+  {
+   "q": "kids science experiment kit",
+   "en": "Kids activities",
+   "he": "פעילות לילדים",
+   "weight": 2
+  },
+  {
+   "q": "sticker activity book kids",
+   "en": "Kids activities",
+   "he": "פעילות לילדים",
+   "weight": 2
+  },
+  {
+   "q": "UGREEN",
+   "require": "ugreen",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.8
+  },
+  {
+   "q": "Baseus",
+   "require": "baseus",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.8
+  },
+  {
+   "q": "Xiaomi",
+   "require": "xiaomi",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.8
+  },
+  {
+   "q": "Mijia",
+   "require": "mijia",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Vention",
+   "require": "vention",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Essager",
+   "require": "essager",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "POCO",
+   "require": "poco",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "OnePlus",
+   "require": "oneplus",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "QOOVI",
+   "require": "qoovi",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Vikefon",
+   "require": "vikefon",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Toocki",
+   "require": "toocki",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "GameSir",
+   "require": "gamesir",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "DJI",
+   "require": "dji",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Magcubic",
+   "require": "magcubic",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Sonoff",
+   "require": "sonoff",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Amazfit",
+   "require": "amazfit",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.8
+  },
+  {
+   "q": "K&F Concept",
+   "require": "k&f",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Netac",
+   "require": "netac",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Teclast",
+   "require": "teclast",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "NiiMbot",
+   "require": "niimbot",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Logitech",
+   "require": "logitech",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.8
+  },
+  {
+   "q": "GL.iNet",
+   "require": "gl.inet",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Attack Shark",
+   "require": "attack shark",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.4
+  },
+  {
+   "q": "Potdemiel",
+   "require": "potdemiel",
+   "en": "Top brands",
+   "he": "מותגים מובילים",
+   "weight": 0.8
+  },
+  {
+   "q": "squishy advent calendar",
+   "en": "Squishies",
+   "he": "סקווישים",
+   "weight": 2
+  },
+  {
+   "q": "squishy surprise box",
+   "en": "Squishies",
+   "he": "סקווישים",
+   "weight": 2
+  },
+  {
+   "q": "squishy blind box",
+   "en": "Squishies",
+   "he": "סקווישים",
+   "weight": 2
+  },
+  {
+   "q": "squishy set",
+   "en": "Squishies",
+   "he": "סקווישים",
+   "weight": 2
+  },
+  {
+   "q": "Pop Mart",
+   "official": "Pop Mart",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Bandai",
+   "official": "Bandai",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Takara Tomy",
+   "official": "Takara Tomy",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Hasbro",
+   "official": "Hasbro",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Kayou",
+   "official": "Kayou",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Disney",
+   "official": "Disney",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Miniso",
+   "official": "Miniso",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "52Toys",
+   "official": "52Toys",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Beast Kingdom",
+   "official": "Beast Kingdom",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "Maisto",
+   "official": "Maisto",
+   "en": "Official brand store",
+   "he": "חנות רשמית",
+   "weight": 0.3
+  },
+  {
+   "q": "precision screwdriver set",
+   "en": "Tools",
+   "he": "כלי עבודה",
+   "weight": 2
+  },
+  {
+   "q": "tool set home",
+   "en": "Tools",
+   "he": "כלי עבודה",
+   "weight": 2
+  },
+  {
+   "q": "moving sand art lamp",
+   "en": "Home decor",
+   "he": "עיצוב הבית",
+   "weight": 2
+  },
+  {
+   "q": "kids night light",
+   "en": "Home decor",
+   "he": "עיצוב הבית",
+   "weight": 2
+  },
+  {
+   "q": "magnetic train track toy",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 2
+  },
+  {
+   "q": "marble run kids",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 1
+  },
+  {
+   "q": "digital photo frame wifi",
+   "en": "Gift ideas",
+   "he": "רעיונות למתנה",
+   "weight": 2
+  },
+  {
+   "q": "baby car mirror camera",
+   "en": "Baby",
+   "he": "תינוקות",
+   "weight": 2
+  },
+  {
+   "q": "kids instant print camera",
+   "en": "Kids tech",
+   "he": "טכנולוגיה לילדים",
+   "weight": 3
+  },
+  {
+   "q": "kids thermal printer",
+   "en": "Kids tech",
+   "he": "טכנולוגיה לילדים",
+   "weight": 2
+  },
+  {
+   "q": "magnetic building tiles",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 2
+  },
+  {
+   "q": "rc wall climbing car",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 2
+  },
+  {
+   "q": "led drawing board kids",
+   "en": "Kids activities",
+   "he": "פעילות לילדים",
+   "weight": 2
+  },
+  {
+   "q": "gaming headset",
+   "en": "Gaming",
+   "he": "גיימינג",
+   "weight": 2
+  },
+  {
+   "q": "gift set for men",
+   "en": "Hanukkah gifts",
+   "he": "מתנות לחנוכה",
+   "weight": 2
+  },
+  {
+   "q": "gift for women",
+   "en": "Hanukkah gifts",
+   "he": "מתנות לחנוכה",
+   "weight": 2
+  },
+  {
+   "q": "kids gift toy",
+   "en": "Hanukkah gifts",
+   "he": "מתנות לחנוכה",
+   "weight": 2
+  },
+  {
+   "q": "robot vacuum cleaner",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 2
+  },
+  {
+   "q": "smart plug wifi",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 1
+  },
+  {
+   "q": "video doorbell",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 2
+  },
+  {
+   "q": "resistance bands set",
+   "en": "Fitness",
+   "he": "כושר",
+   "weight": 1
+  },
+  {
+   "q": "massage gun",
+   "en": "Fitness",
+   "he": "כושר",
+   "weight": 2
+  },
+  {
+   "q": "smart body scale",
+   "en": "Fitness",
+   "he": "כושר",
+   "weight": 1
+  },
+  {
+   "q": "yoga mat",
+   "en": "Fitness",
+   "he": "כושר",
+   "weight": 1
+  },
+  {
+   "q": "dash cam",
+   "en": "Car",
+   "he": "לרכב",
+   "weight": 2
+  },
+  {
+   "q": "car vacuum cleaner",
+   "en": "Car",
+   "he": "לרכב",
+   "weight": 2
+  },
+  {
+   "q": "magnetic car phone holder",
+   "en": "Car",
+   "he": "לרכב",
+   "weight": 1
+  },
+  {
+   "q": "car trunk organizer",
+   "en": "Car",
+   "he": "לרכב",
+   "weight": 1
+  },
+  {
+   "q": "packing cubes travel",
+   "en": "Travel",
+   "he": "טיולים ונסיעות",
+   "weight": 1
+  },
+  {
+   "q": "universal travel adapter",
+   "en": "Travel",
+   "he": "טיולים ונסיעות",
+   "weight": 1
+  },
+  {
+   "q": "travel neck pillow",
+   "en": "Travel",
+   "he": "טיולים ונסיעות",
+   "weight": 1
+  },
+  {
+   "q": "carry on backpack",
+   "en": "Travel",
+   "he": "טיולים ונסיעות",
+   "weight": 1
+  },
+  {
+   "q": "automatic pet feeder",
+   "en": "Pets",
+   "he": "לחיות מחמד",
+   "weight": 2
+  },
+  {
+   "q": "pet water fountain",
+   "en": "Pets",
+   "he": "לחיות מחמד",
+   "weight": 2
+  },
+  {
+   "q": "dog toys",
+   "en": "Pets",
+   "he": "לחיות מחמד",
+   "weight": 1
+  },
+  {
+   "q": "cat toys",
+   "en": "Pets",
+   "he": "לחיות מחמד",
+   "weight": 1
+  },
+  {
+   "q": "milk frother",
+   "en": "Coffee & kitchen",
+   "he": "קפה ומטבח",
+   "weight": 1
+  },
+  {
+   "q": "espresso accessories",
+   "en": "Coffee & kitchen",
+   "he": "קפה ומטבח",
+   "weight": 1
+  },
+  {
+   "q": "kitchen knife set",
+   "en": "Coffee & kitchen",
+   "he": "קפה ומטבח",
+   "weight": 1
+  },
+  {
+   "q": "air fryer accessories",
+   "en": "Coffee & kitchen",
+   "he": "קפה ומטבח",
+   "weight": 1
+  },
+  {
+   "q": "switch controller",
+   "en": "Gaming",
+   "he": "גיימינג",
+   "weight": 2
+  },
+  {
+   "q": "ps5 accessories",
+   "en": "Gaming",
+   "he": "גיימינג",
+   "weight": 1
+  },
+  {
+   "q": "minimalist watch",
+   "en": "Watches & jewelry",
+   "he": "שעונים ותכשיטים",
+   "weight": 1
+  },
+  {
+   "q": "jewelry set women",
+   "en": "Watches & jewelry",
+   "he": "שעונים ותכשיטים",
+   "weight": 1
+  },
+  {
+   "q": "magsafe stand",
+   "en": "Phone & tablet",
+   "he": "טלפון וטאבלט",
+   "weight": 1
+  },
+  {
+   "q": "kids tablet case",
+   "en": "Phone & tablet",
+   "he": "טלפון וטאבלט",
+   "weight": 1
+  },
+  {
+   "q": "kids school backpack",
+   "en": "School & office",
+   "he": "בית ספר ומשרד",
+   "weight": 1
+  },
+  {
+   "q": "desk organizer",
+   "en": "School & office",
+   "he": "בית ספר ומשרד",
+   "weight": 1
+  },
+  {
+   "q": "kids headphones",
+   "en": "School & office",
+   "he": "בית ספר ומשרד",
+   "weight": 1
+  },
+  {
+   "q": "hair dryer brush",
+   "en": "Beauty",
+   "he": "טיפוח",
+   "weight": 2
+  },
+  {
+   "q": "led makeup mirror",
+   "en": "Beauty",
+   "he": "טיפוח",
+   "weight": 1
+  },
+  {
+   "q": "electric scalp massager",
+   "en": "Beauty",
+   "he": "טיפוח",
+   "weight": 1
+  },
+  {
+   "q": "camping lantern",
+   "en": "Outdoor",
+   "he": "טיולים וקמפינג",
+   "weight": 1
+  },
+  {
+   "q": "portable fan",
+   "en": "Home",
+   "he": "לבית",
+   "weight": 1
+  },
+  {
+   "q": "aroma diffuser",
+   "en": "Home decor",
+   "he": "עיצוב הבית",
+   "weight": 1
+  },
+  {
+   "q": "wall clock modern",
+   "en": "Home decor",
+   "he": "עיצוב הבית",
+   "weight": 1
+  },
+  {
+   "q": "kitchen storage containers",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 1
+  },
+  {
+   "q": "electric spin scrubber",
+   "en": "Home",
+   "he": "לבית",
+   "weight": 2
+  },
+  {
+   "q": "mini projector",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 2
+  },
+  {
+   "q": "smart watch",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 2
+  },
+  {
+   "q": "electric toothbrush",
+   "en": "Beauty",
+   "he": "טיפוח",
+   "weight": 1
+  },
+  {
+   "q": "kids scooter",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 1
+  },
+  {
+   "q": "board game family",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 1
+  },
+  {
+   "q": "waterproof phone pouch",
+   "en": "Travel",
+   "he": "טיולים ונסיעות",
+   "weight": 0.5
+  },
+  {
+   "q": "mixing bowls set with lids",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 1
+  },
+  {
+   "q": "kids boxing machine music",
+   "en": "Kids toys",
+   "he": "צעצועים לילדים",
+   "weight": 1
+  },
+  {
+   "q": "ipl hair removal",
+   "en": "Beauty",
+   "he": "טיפוח",
+   "weight": 1
+  },
+  {
+   "q": "beard trimmer men",
+   "en": "Beauty",
+   "he": "טיפוח",
+   "weight": 1
+  },
+  {
+   "q": "android tablet 10 inch",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 1
+  },
+  {
+   "q": "Xiaomi watch",
+   "en": "Tech",
+   "he": "גאדג'טים",
+   "weight": 1
+  },
+  {
+   "q": "winter jacket men",
+   "en": "Fashion",
+   "he": "אופנה",
+   "weight": 1.5
+  },
+  {
+   "q": "softshell jacket",
+   "en": "Fashion",
+   "he": "אופנה",
+   "weight": 1.5
+  },
+  {
+   "q": "hiking shoes waterproof",
+   "en": "Fashion",
+   "he": "אופנה",
+   "weight": 1.5
+  },
+  {
+   "q": "women leggings with pockets",
+   "en": "Fashion",
+   "he": "אופנה",
+   "weight": 1.5
+  },
+  {
+   "q": "gaming keyboard mechanical",
+   "en": "Gaming",
+   "he": "גיימינג",
+   "weight": 1.5
+  },
+  {
+   "q": "gaming mouse wireless",
+   "en": "Gaming",
+   "he": "גיימינג",
+   "weight": 1.5
+  },
+  {
+   "q": "retro handheld game console",
+   "en": "Gaming",
+   "he": "גיימינג",
+   "weight": 1.5
+  },
+  {
+   "q": "gaming router wifi 6",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 1.5
+  },
+  {
+   "q": "external ssd",
+   "en": "Tech",
+   "he": "טק",
+   "weight": 1.5
+  },
+  {
+   "q": "GaN charger 65W",
+   "en": "Tech",
+   "he": "טק",
+   "weight": 1.5
+  },
+  {
+   "q": "car jump starter",
+   "en": "Car",
+   "he": "רכב",
+   "weight": 1.5
+  },
+  {
+   "q": "cordless drill brushless",
+   "en": "Tools",
+   "he": "כלי עבודה",
+   "weight": 1.5
+  },
+  {
+   "q": "tool bag",
+   "en": "Tools",
+   "he": "כלי עבודה",
+   "weight": 1.5
+  },
+  {
+   "q": "smart door lock fingerprint",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 1.5
+  },
+  {
+   "q": "window cleaning robot",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 1.5
+  },
+  {
+   "q": "tv backlight led sync",
+   "en": "Smart home",
+   "he": "בית חכם",
+   "weight": 1.5
+  },
+  {
+   "q": "stainless steel frying pan set",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 1.5
+  },
+  {
+   "q": "glass food storage containers",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 1.5
+  },
+  {
+   "q": "bamboo cutting board set",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 1.5
+  },
+  {
+   "q": "insulated water bottle straw",
+   "en": "Kitchen",
+   "he": "מטבח",
+   "weight": 1.5
+  },
+  {
+   "q": "cordless hair straightener",
+   "en": "Beauty",
+   "he": "יופי",
+   "weight": 1.5
+  },
+  {
+   "q": "inflatable camping tent",
+   "en": "Outdoor",
+   "he": "טבע",
+   "weight": 1.5
+  },
+  {
+   "q": "solar string lights outdoor",
+   "en": "Outdoor lighting",
+   "he": "תאורת חוץ",
+   "weight": 1.5
+  },
+  {
+   "q": "kids roller skates adjustable",
+   "en": "Kids",
+   "he": "ילדים",
+   "weight": 1.5
+  },
+  {
+   "q": "kids camera",
+   "en": "Kids",
+   "he": "ילדים",
+   "weight": 1.5
+  },
+  {
+   "q": "kids art set wooden case",
+   "en": "Arts & crafts",
+   "he": "יצירה",
+   "weight": 1.5
+  },
+  {
+   "q": "rc climbing lizard toy",
+   "en": "Kids",
+   "he": "ילדים",
+   "weight": 1.5
+  },
+  {
+   "q": "handheld thermal printer",
+   "en": "Tech",
+   "he": "טק",
+   "weight": 1.5
+  }
+ ],
+ "ali_min_price_usd": 5,
+ "ali_min_price_exempt": [
+  "squish",
+  "fidget",
+  "stress ball",
+  "stress relief"
+ ],
+ "preferred_min_price_usd": 25,
+ "higher_value_share": 0.6,
+ "higher_value_bonus": 25,
+ "product_types": [
+  "fan",
+  "projector",
+  "scale",
+  "hair dryer",
+  "shaver",
+  "trimmer",
+  "floor mat",
+  "pump",
+  "tire inflator",
+  "flashlight",
+  "batter",
+  "mouse",
+  "keyboard",
+  "charger",
+  "cable",
+  "power bank",
+  "earbuds",
+  "headphones",
+  "headset",
+  "speaker",
+  "bottle",
+  "tumbler",
+  "mug",
+  "cup",
+  "sheets",
+  "pillow",
+  "blanket",
+  "towel",
+  "backpack",
+  "bag",
+  "squish",
+  "fidget",
+  "plush",
+  "stress ball",
+  "lego",
+  "building block",
+  "camera",
+  "string lights",
+  "solar light",
+  "lamp",
+  "light",
+  "monitor",
+  "screen extender",
+  "watch",
+  "phone case",
+  "phone holder",
+  "phone stand",
+  "stand",
+  "organizer",
+  "storage",
+  "puzzle",
+  "slicer",
+  "opener",
+  "knife",
+  "pan",
+  "air fryer",
+  "blender",
+  "vacuum",
+  "toothbrush",
+  "hair",
+  "shoes",
+  "sneakers",
+  "socks",
+  "hoodie",
+  "jacket",
+  "shirt",
+  "pants",
+  "leggings",
+  "dress",
+  "sweater",
+  "controller",
+  "gamepad",
+  "ssd",
+  "flash drive",
+  "memory card",
+  "hub",
+  "adapter",
+  "router",
+  "tablet",
+  "laptop",
+  "drone",
+  "printer",
+  "craft",
+  "sticker",
+  "slime",
+  "doll",
+  "car toy",
+  "figure",
+  "game",
+  "book",
+  "candle",
+  "diffuser",
+  "humidifier"
+ ],
+ "diversity_posts": 6,
+ "brand_gap_posts": 4,
+ "photos_per_post": 3,
+ "demote_keywords": {
+  "pillowcase": 45,
+  "pillow case": 45,
+  "pillow cover": 45,
+  "cushion cover": 40,
+  "duvet": 45,
+  "comforter": 45,
+  "bedspread": 45,
+  "quilt": 40,
+  "coverlet": 45,
+  "mattress protector": 45,
+  "mattress pad": 45,
+  "mattress topper": 40,
+  "bed skirt": 45,
+  "linen": 40,
+  "bedding": 45,
+  "throw pillow": 35,
+  "bed pillow": 35,
+  "pillows for sleeping": 35,
+  "blanket": 20,
+  "bed sheets": 45,
+  "sheet set": 45,
+  "sheets set": 45,
+  "fitted sheet": 45,
+  "flat sheet": 45,
+  "shower curtain": 40,
+  "shower liner": 40,
+  "curtain liner": 40,
+  "toilet": 40,
+  "plunger": 40,
+  "trash bag": 40,
+  "garbage bag": 40,
+  "liner": 40
+ },
+ "coupon_min_off_usd": 2,
+ "ali_sale_share": 0.25,
+ "coupon_hour": 11,
+ "coupons": [],
+ "ali_min_sold_exempt": 200,
+ "brand_bonus": 35,
+ "ali_niche_block": "\\b(replacement|spare parts?|repair|module|hardwire|wiring|harness|adapter plate|mount bracket|for (tesla|bmw|toyota|honda|mercedes|audi|vw|volkswagen|ford|kia|hyundai|byd|model [3ysx])|compatible with|oem|universal fit|motorcycle|motorbike|helmet intercom|replacement remote|remote for|water filters?|filter cartridges?|replacement filters?|filters? for|refill(s)? for|for samsung|for lg|for whirlpool|for dyson|for roomba)\\b",
+ "group_gap_posts": 2,
+ "giveaway": {
+  "start": "2026-11-18",
+  "end": "2026-11-30",
+  "draw": "2026-12-01",
+  "draw_hour": 12,
+  "prize_he": "גיפט קארד של $50 לאמזון"
+ },
+ "scheduled": [
+  {
+   "id": "giveaway-channel",
+   "at": "2026-11-18T09:00",
+   "kind": "tg_giveaway"
+  },
+  {
+   "id": "ig-promo-a",
+   "at": "2026-11-18T13:30",
+   "kind": "ig_image",
+   "image": "assets/promo/promo_a.png",
+   "caption_file": "data/giveaway/ig_a.txt"
+  },
+  {
+   "id": "ig-promo-b",
+   "at": "2026-11-19T13:30",
+   "kind": "ig_image",
+   "image": "assets/promo/promo_b.png",
+   "caption_file": "data/giveaway/ig_b.txt"
+  },
+  {
+   "id": "ig-promo-a-link",
+   "at": "2026-11-18T13:30",
+   "kind": "ig_comment",
+   "media": "18122826046982692"
+  },
+  {
+   "id": "ig-grid-3",
+   "at": "2026-11-21T09:40",
+   "kind": "ig_image",
+   "image": "assets/grid/grid_3.jpg",
+   "caption_file": "data/giveaway/ig_grid.txt"
+  },
+  {
+   "id": "ig-grid-2",
+   "at": "2026-11-21T09:40",
+   "kind": "ig_image",
+   "image": "assets/grid/grid_2.jpg",
+   "caption_file": "data/giveaway/ig_grid.txt"
+  },
+  {
+   "id": "ig-grid-1",
+   "at": "2026-11-21T09:40",
+   "kind": "ig_image",
+   "image": "assets/grid/grid_1.jpg",
+   "caption_file": "data/giveaway/ig_grid.txt"
+  },
+  {
+   "id": "ig-dealcity-home",
+   "at": "2026-11-21T14:00",
+   "kind": "ig_image",
+   "image": "assets/posts/dealcity_home.jpg",
+   "caption_file": "data/giveaway/ig_dealcity_home.txt",
+   "link_asins": [
+    "ali-1005009212557833",
+    "ali-1005011991969247",
+    "ali-1005009463011323",
+    "ali-1005007540007398"
+   ]
+  },
+  {
+   "id": "ig-dealcity-home-links2",
+   "at": "2026-11-21T14:00",
+   "kind": "ig_comment",
+   "media": "18120332371805885",
+   "link_asins": [
+    "ali-1005009212557833",
+    "ali-1005011991969247",
+    "ali-1005009463011323",
+    "ali-1005007540007398"
+   ]
+  },
+  {
+   "id": "ig-dealcity-home-test",
+   "at": "2026-11-21T14:00",
+   "kind": "ig_comment",
+   "media": "18120332371805885"
+  },
+  {
+   "id": "ig-dealcity-home-dellong",
+   "at": "2026-11-21T14:00",
+   "kind": "ig_delete_comments",
+   "comments": [
+    "18121010642063882",
+    "17917658817500844",
+    "18121309202073614",
+    "18128472484904246"
+   ]
+  },
+  {
+   "id": "ig-dealcity-home-links3",
+   "at": "2026-11-21T14:00",
+   "kind": "ig_comment",
+   "media": "18120332371805885",
+   "link_asins": [
+    "ali-1005009212557833",
+    "ali-1005011991969247",
+    "ali-1005009463011323",
+    "ali-1005007540007398"
+   ]
+  }
+ ],
+ "weekly_caps": [
+  {
+   "name": "bras & underwear",
+   "pattern": "\\b(bras?|bralettes?|sports bra|underwear|panties|briefs|boxer briefs|lingerie|shapewear)\\b",
+   "max": 1,
+   "days": 7
+  },
+  {
+   "name": "cables & chargers",
+   "pattern": "\\b(cables?|chargers?|charging|adapters?|usb[- ]?c hub|hub)\\b",
+   "max": 1,
+   "days": 1,
+   "exclude": "\\b(power ?banks?|portable chargers?|jump starters?|mah)\\b"
+  },
+  {
+   "name": "batteries",
+   "pattern": "\\bbatter(y|ies)\\b",
+   "max": 1,
+   "days": 7
+  },
+  {
+   "name": "power banks",
+   "pattern": "\\b(power ?banks?|portable chargers?|\\d{4,5} ?mah)\\b",
+   "max": 1,
+   "days": 2
+  }
+ ],
+ "theme_gap_posts": 2,
+ "block_keywords": "\\b(neck ?ties?|bow ?ties?|ties? for men|men'?s ties?|tie sets?|tie clips?|cufflinks?|dropshipping|drop shipping|wholesale|bulk lot|refrigerator filters?|fridge filters?|refrigerator water|ice ?& ?water filter|water filter|everydrop|filter cartridges?|replacement filters?)\\b",
+ "reel_items": 6,
+ "reel_secs_per_item": 2.6,
+ "carousel_every_days": 3,
+ "video_slots": [
+  14,
+  21
+ ],
+ "scheduled_picks": [
+  {
+   "store": "amazon_search",
+   "id": "COOK WITH COLOR 12 piece mixing bowls with lids",
+   "require": [
+    "mixing bowl"
+   ],
+   "alt": [
+    "Cook with Color mixing bowls set"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-18T17:40:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-1"
+  },
+  {
+   "store": "aliexpress_search",
+   "id": "Xiaomi Watch S5 global version",
+   "require": [
+    "xiaomi",
+    "watch s5"
+   ],
+   "alt": [
+    "Xiaomi Watch S5"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-18T20:00:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-2"
+  },
+  {
+   "store": "amazon_search",
+   "id": "kids music boxing machine dinosaur boxing gloves",
+   "require": [
+    "boxing"
+   ],
+   "alt": [
+    "music boxing machine for kids"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-19T05:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-3"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Braun IPL PL7219",
+   "require": [
+    "braun",
+    "ipl"
+   ],
+   "alt": [
+    "Braun Silk Expert Pro 7 IPL PL7"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-19T08:00:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-4"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Osprey Axis 24 backpack",
+   "require": [
+    "osprey",
+    "axis"
+   ],
+   "alt": [
+    "Osprey Axis daypack"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-19T10:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-5"
+  },
+  {
+   "store": "aliexpress_search",
+   "id": "Teclast P30T tablet",
+   "require": [
+    "teclast",
+    "p30t"
+   ],
+   "alt": [
+    "Teclast P30T 10.1"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-19T13:00:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-6"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Harry Potter complete collection box set paperback",
+   "require": [
+    "harry potter"
+   ],
+   "alt": [
+    "Harry Potter box set children's collection"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-19T15:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-7"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Lofans beard trimmer",
+   "require": [
+    "lofans"
+   ],
+   "alt": [
+    "LOFANS TR1 hair trimmer"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-18T17:25:00+00:00",
+   "not_before": "2026-11-19T18:00:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1118-8"
+  },
+  {
+   "sid": "shot-1120-1",
+   "store": "aliexpress_search",
+   "id": "automatic trash can motion sensor small",
+   "require": [
+    "trash",
+    "sensor"
+   ],
+   "alt": [
+    "smart trash can automatic lid bathroom"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-20T05:06:00+00:00",
+   "not_before": "2026-11-20T06:30:00+00:00",
+   "over_cap_ok": true
+  },
+  {
+   "sid": "shot-1120-2",
+   "store": "aliexpress_search",
+   "id": "electric fruit peeler rechargeable grape tomato garlic",
+   "require": [
+    "peel"
+   ],
+   "alt": [
+    "electric peeling machine fruit"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-20T05:06:00+00:00",
+   "not_before": "2026-11-20T10:30:00+00:00",
+   "over_cap_ok": true
+  },
+  {
+   "sid": "shot-1120-3",
+   "store": "aliexpress_search",
+   "id": "dinosaur claw machine toy",
+   "require": [
+    "claw"
+   ],
+   "alt": [
+    "mini claw machine kids doll catcher"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-20T09:22:00+00:00",
+   "not_before": "2026-11-20T11:30:00+00:00",
+   "over_cap_ok": true
+  },
+  {
+   "sid": "shot-1120-4",
+   "store": "aliexpress_search",
+   "id": "4K digital camera 64MP vlogging 18X zoom",
+   "require": [
+    "camera"
+   ],
+   "alt": [
+    "digital camera 64MP 16X zoom vlog"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-20T09:22:00+00:00",
+   "not_before": "2026-11-20T13:30:00+00:00",
+   "over_cap_ok": true,
+   "avoid": "lenovo|canon|nikon|sony|kodak"
+  },
+  {
+   "sid": "shot-1120-5",
+   "store": "aliexpress_search",
+   "id": "kids electric go kart LED music",
+   "require": [
+    "kart"
+   ],
+   "alt": [
+    "kids ride on go kart electric"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-20T09:22:00+00:00",
+   "not_before": "2026-11-20T16:00:00+00:00",
+   "over_cap_ok": true
+  },
+  {
+   "store": "amazon",
+   "id": "B0H87K51V4",
+   "require": [],
+   "alt": [
+    "UCIDCI wall climbing remote control lizard LED eyes"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-21T17:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-1"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Lavsonic 100W portable food warmer lunch box battery 1.5L",
+   "require": [
+    "lavsonic"
+   ],
+   "alt": [
+    "Lavsonic electric lunch box food warmer",
+    "cordless food warmer lunch box rechargeable 100W"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-21T19:00:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-2"
+  },
+  {
+   "store": "amazon_search",
+   "id": "New Balance 515 sneakers",
+   "require": [
+    "new balance",
+    "515"
+   ],
+   "alt": [
+    "New Balance Men's 515 V3 Sneaker",
+    "New Balance Women's 515 V3 Sneaker"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-22T05:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-3"
+  },
+  {
+   "store": "aliexpress_search",
+   "id": "Vention 50000mAh 65W power bank",
+   "require": [
+    "vention",
+    "50000"
+   ],
+   "alt": [
+    "Vention power bank 50000mAh"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-22T07:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-4"
+  },
+  {
+   "store": "amazon_search",
+   "id": "SULIFEEL light up inline skates kids adjustable",
+   "require": [
+    "sulifeel"
+   ],
+   "alt": [
+    "SULIFEEL adjustable inline skates girls light up wheels"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-22T09:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-5"
+  },
+  {
+   "store": "amazon_search",
+   "id": "BOTTLE BOTTLE insulated water bottle 24oz straw lid",
+   "require": [
+    "bottle bottle"
+   ],
+   "alt": [
+    "BOTTLE BOTTLE 24oz stainless steel water bottle"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-22T11:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-6"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Columbia men's Powder Lite II jacket",
+   "require": [
+    "columbia",
+    "powder lite"
+   ],
+   "alt": [
+    "Columbia Powder Lite jacket men"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-22T14:00:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-7"
+  },
+  {
+   "store": "amazon_search",
+   "id": "Osprey Daylite Expandable travel pack 26+6",
+   "require": [
+    "osprey",
+    "daylite"
+   ],
+   "alt": [
+    "Osprey Daylite expandable backpack"
+   ],
+   "url": "screenshot",
+   "at": "2026-11-21T16:17:00+00:00",
+   "not_before": "2026-11-22T16:30:00+00:00",
+   "over_cap_ok": true,
+   "sid": "shot-1121-8"
+  }
+ ],
+ "giftbox_alternate": true,
+ "giftbox_secs_per_item": 2.2,
+ "type_cooldown_hours": 48,
+ "bundle_every_days": 3,
+ "bundle_hour": 16,
+ "bundle_price_usd": [
+  6,
+  18
+ ]
 }
