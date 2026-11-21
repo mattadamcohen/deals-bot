@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 4
+  "2026-11-21": 5
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -213,6 +213,7 @@
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
   "stainless steel oil pot": "2026-11-19T09:30:56.971727+00:00",
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
+  "succebuy in- wi-fi weather": "2026-11-21T07:01:01.406269+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
   "taba squishy stress balls": "2026-11-19T13:30:59.569205+00:00",
@@ -285,7 +286,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T06:31:24.904801+00:00",
+ "last_post_at": "2026-11-21T07:01:01.406121+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -842,6 +843,7 @@
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
+  "ali-1005006674062256": "2026-11-21T07:01:01.342436+00:00",
   "ali-1005006678192161": "2026-11-18T09:30:54.342358+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
@@ -937,10 +939,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "lawn-garden",
   "aliexpress/video doorbell",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "aliexpress/squishy toy"
+  "aliexpress/squishy toy",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "beauty",
@@ -951,17 +953,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "other",
   "kids",
   "home",
   "tech",
   "kitchen",
-  "kids"
+  "kids",
+  "other"
  ],
  "recent_titles": [
-  "WIHOLL Fall Outfits for Women 2026 Hollow Out Knit Sweater Fashion Clothing",
   "Baseus EH10 NC ANC Wireless Headphones 45dB Adaptive Hybrid Noise Cancelling Headsets Hi-Res LDAC Headphone Bluetooth 6.0 80Hrs",
   "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
@@ -972,7 +973,8 @@
   "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
   "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
   "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
-  "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze"
+  "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
+  "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
