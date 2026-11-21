@@ -46,3 +46,14 @@ for url in os.environ.get("URLS", "").split():
         r = requests.get(v, headers=UA, timeout=60)
         if r.ok and len(r.content) > 50_000:
             (OUT / f"{pid}.mp4").write_bytes(r.content); print("video saved", len(r.content))
+
+# diagnose: what the bot's pick path returns for these ids
+if os.environ.get("DIAG"):
+    sys.path.insert(0, str(ROOT))
+    import bot
+    for pid in os.environ["DIAG"].split():
+        try:
+            r = bot.pick_details({"store": "aliexpress", "id": pid, "url": "diag"}, lambda: None)
+            print("DIAG", pid, r if isinstance(r, str) else ("OK", r[1].get("title", "")[:60], r[1].get("price"), (r[1].get("link") or "")[:60], r[2]))
+        except Exception as e:
+            import traceback; traceback.print_exc(); print("DIAG EXC", pid, repr(e))

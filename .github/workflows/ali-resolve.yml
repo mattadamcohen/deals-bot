@@ -2,7 +2,8 @@ name: AliExpress resolve
 on:
   workflow_dispatch:
     inputs:
-      urls: { description: "links separated by spaces", required: true }
+      urls: { description: "links separated by spaces", required: false, default: "" }
+      diag: { description: "ids to test through the pick path", required: false, default: "" }
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -16,6 +17,7 @@ jobs:
       - run: python tools/ali_resolve.py
         env:
           URLS: ${{ inputs.urls }}
+          DIAG: ${{ inputs.diag }}
           ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
       - run: |
