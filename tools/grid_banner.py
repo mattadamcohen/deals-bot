@@ -54,7 +54,7 @@ def banner():
     tw, th, _ = size(d, he, f)
     d.rectangle([W / 2 - tw / 2 - 50, 850, W / 2 + tw / 2 + 50, 850 + th + 60], fill=BLACK)
     text_c(d, W / 2, 878, he, f, WHITE)
-    parts = ["AMAZON", "ALIEXPRESS", "משלוח לארץ", "t.me/ilamazondeals"]
+    parts = ["AMAZON", "ALIEXPRESS", "משלוח חינם", "t.me/ilamazondeals"]
     pill_f, gap = F(800, 72), 110
     ws = [size(d, t, pill_f)[0] for t in parts]
     total = sum(ws) + gap * (len(parts) - 1)
