@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 3
+  "2026-11-21": 4
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -177,6 +177,7 @@
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
+  "new squishy watermelon fidget": "2026-11-21T06:31:24.904936+00:00",
   "new v electric go-kart": "2026-11-20T16:01:03.784343+00:00",
   "niimbot b thermal printer": "2026-11-20T15:31:03.473352+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
@@ -284,7 +285,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T06:01:01.176060+00:00",
+ "last_post_at": "2026-11-21T06:31:24.904801+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -907,6 +908,7 @@
   "ali-1005011904255432": "2026-11-20T08:00:54.303809+00:00",
   "ali-1005011905609527": "2026-11-20T16:01:03.750781+00:00",
   "ali-1005011940311028": "2026-11-20T14:30:56.228386+00:00",
+  "ali-1005011971017841": "2026-11-21T06:31:24.886780+00:00",
   "ali-1005011993743447": "2026-11-20T10:01:05.738903+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
@@ -935,10 +937,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy advent calendar",
   "lawn-garden",
   "aliexpress/video doorbell",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "aliexpress/squishy toy"
  ],
  "recent_groups": [
   "beauty",
@@ -949,17 +951,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "tech",
   "other",
   "kids",
   "home",
   "tech",
-  "kitchen"
+  "kitchen",
+  "kids"
  ],
  "recent_titles": [
-  "New 24V Electric Go-Kart Kids Outdoor Ride On Drift Racing Car Toy with Variable Speeds Up to 7.5 Mph, LED Lights, Music, USB Po",
   "WIHOLL Fall Outfits for Women 2026 Hollow Out Knit Sweater Fashion Clothing",
   "Baseus EH10 NC ANC Wireless Headphones 45dB Adaptive Hybrid Noise Cancelling Headsets Hi-Res LDAC Headphone Bluetooth 6.0 80Hrs",
   "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
@@ -970,7 +971,8 @@
   "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
   "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
   "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
-  "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker"
+  "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
+  "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
