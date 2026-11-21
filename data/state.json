@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 22
+  "2026-11-21": 23
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -48,6 +48,7 @@
   "B0GCB2B52D": "2026-11-19T06:34:11.261469+00:00",
   "B0GCMKDSJB": "2026-11-19T12:04:43.457544+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.178092+00:00",
+  "B0GHMZXX8Y": "2026-11-21T16:01:21.299090+00:00",
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
@@ -180,6 +181,7 @@
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
   "medicube facial cleanser zero": "2026-11-21T09:34:00.657943+00:00",
+  "medicube pdrn collagen volume": "2026-11-21T16:01:21.299095+00:00",
   "medicube toner pads zero": "2026-11-19T12:04:43.457550+00:00",
   "men business watches fashion": "2026-11-19T15:31:12.228720+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
@@ -309,7 +311,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T15:30:50.781806+00:00",
+ "last_post_at": "2026-11-21T16:01:21.298924+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -872,6 +874,7 @@
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
+  "B0GHMZXX8Y": "2026-11-21T16:01:21.144762+00:00",
   "B0GZWZH2L8": "2026-11-14T07:10:36.637185+00:00",
   "B0GZYMJTJH": "2026-11-20T16:34:31.134246+00:00",
   "B0H2FQ5FV1": "2026-11-16T13:46:30.672511+00:00",
@@ -997,31 +1000,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "fashion",
   "aliexpress/plush toy",
   "lawn-garden",
-  "aliexpress/camping lantern"
+  "aliexpress/camping lantern",
+  "beauty"
  ],
  "recent_groups": [
-  "beauty",
   "fashion",
   "lawn-garden",
   "beauty",
   "fashion",
-  "lawn-garden"
+  "lawn-garden",
+  "beauty"
  ],
  "recent_themes": [
-  "tech",
   "beauty",
   "kids",
   "home",
   "fashion",
   "kids",
   "home",
-  "sport"
+  "sport",
+  "beauty"
  ],
  "recent_titles": [
-  "Xiaomi Mijia Automatic Soap Foam Dispenser 1S USB Rechargeable Hand Washer Foaming Machine for Kitchen n Bathroom Home Appliance",
   "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL",
   "10-30PCS Colorful Telescopic Tubes Fidget Toys Plastic Sensory Pop Tubes Stress Relief Toys Adults Decompression Kids Toys Gifts",
   "Safer Home Flying Insect Trap, Plug-In Fruit Fly Trap for Indoors, 2-Pack",
@@ -1032,7 +1034,8 @@
   "Levi's Women's 318 Shaping Wide-Leg Jeans",
   "Big Mouth Monster Cute Funny Onesie Pajamas Thickened Coral Fleece Homewear For Couples Men Women Autumn Cartoon Winter Pajamas",
   "BEQHAUSE Dirt Trapper Door Mat 20\" x 32\", Non-Slip Washable Doormats, Beige",
-  "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping"
+  "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
+  "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -1049,6 +1052,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136147
 }
