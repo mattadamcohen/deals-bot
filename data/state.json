@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 26
+  "2026-11-21": 27
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -168,6 +168,7 @@
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "led wall lights outdoor": "2026-11-21T13:31:03.898090+00:00",
+  "lesown portable gaming monitor": "2026-11-21T18:00:54.879853+00:00",
   "letsjoli jelly bras for": "2026-11-17T16:01:58.139179+00:00",
   "levi's cinch baggy": "2026-11-17T13:02:08.033568+00:00",
   "levi's shaping wide-leg jeans": "2026-11-21T14:04:37.236250+00:00",
@@ -315,7 +316,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T17:30:54.378383+00:00",
+ "last_post_at": "2026-11-21T18:00:54.879464+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -799,17 +800,6 @@
  },
  "pick_queue": [
   {
-   "alt": [],
-   "at": "2026-11-21T17:00:00+00:00",
-   "id": "1005013261781803",
-   "not_before": "2026-11-21T17:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1121-monitor",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3LDfJVT"
-  },
-  {
    "alt": [
     "UCIDCI wall climbing remote control lizard LED eyes"
    ],
@@ -1130,6 +1120,7 @@
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
+  "ali-1005013261781803": "2026-11-21T18:00:54.788125+00:00",
   "ali-1005013336234331": "2026-11-21T16:31:10.164992+00:00",
   "ali-1005013410767445": "2026-11-20T05:01:02.226983+00:00",
   "ali-1005013410819294": "2026-11-19T12:30:54.859058+00:00",
@@ -1143,9 +1134,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty",
   "aliexpress/squishy set",
   "fashion",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -1157,17 +1148,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "kids",
   "home",
   "sport",
   "beauty",
   "kids",
   "fashion",
+  "tech",
   "tech"
  ],
  "recent_titles": [
-  "2026 Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging Smart Sweep Mop 5-In-1 Vacuum Cleaner New",
   "medicube Collagen Jelly Cream, Moisturizing Cream for Plump Skin, 1.69fl.oz",
   "Kids Instant Camera Gift Set with 32GB Memory Card Color Pencil Dual Camera Flashlight - Perfect for Boys & Girls",
   "1/2/4/6Pcs 100 LED Wall Lights Outdoor Solar Lamp PIR Motion Sensor Solar Powered Sunlight Street Light for Garden Decoration",
@@ -1178,7 +1168,8 @@
   "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
   "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
   "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
-  "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards"
+  "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards",
+  "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",

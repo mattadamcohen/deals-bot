@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0B2RM68G2",
-  "title": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)",
-  "title_he": "מסכה עמוקה אמיתית של BIODANCE ביו-קולגן להלבנת לחות וצמצום (4ea)",
-  "price": "$13.99",
-  "was": "",
-  "discount": "26%",
-  "rating": "4.5",
-  "reviews": "52,730",
-  "rank": 11,
-  "source": "bestsellers",
-  "message_id": 420,
-  "image": "https://m.media-amazon.com/images/I/51ubxqzNGIL._SL1000_.jpg",
-  "variant": 40,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   420,
-   421,
-   422
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/edd6c1e2-563b-4d48-9105-81baaf952734/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-20T13:01:28.304274+00:00"
- },
- {
   "asin": "ali-1005012601272584",
   "title": "KOMERY 4K Digital Camera 64MP Autofocus Vlogging Camera 18X Digital Zoom Compact Camera with Flash Webcam for Travel YouTube",
   "title_he": "KOMERY 4K מצלמה דיגיטלית 64MP פוקוס אוטומטי מצלמת ווגלוג 18X זום דיגיטלי מצלמה קומפקטית עם מצלמת אינטרנט פלאש לנסיעות YouTube",
@@ -1157,5 +1128,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-21T17:30:54.376223+00:00"
+ },
+ {
+  "asin": "ali-1005013261781803",
+  "title": "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
+  "title_he": "צג משחקים נייד של LESOWN 12.3 אינץ' 60Hz 80% NTSC Slim Display עם רמקולים חיבור מיידי ל-Steam Deck",
+  "price": "$126.69",
+  "was": "$294.63",
+  "discount": "57%",
+  "rating": "",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 542,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S648f2dbc7f554c58a20c25b1fd153258n.jpg",
+  "variant": 249,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2TEg2ePTWzFHvVxJESHR2WByDGehGiAM8X71lVMszV9KS9CmAz23xzyYNH1sRSPvoNbJPGFU4ulWTgOl7QOnGh5t7usO6H3KXAlZUf8jMAmrzDaJUk5lm9LyQhu6r8GcDcHa3Dro3AqGnDPnC2uEWHfbjsnBbPUNPk7UH3TTfLsVASmCNg0Y9zpSsS2En5HDEkTpqtrzWgfrEw24Ry4iB7aNpIlQb2AJH9BiqFMndP5MRl7xMa86k5GWsq3S71DWj84Z10gyXi0I33K3heYM359gt4YuuKD9kdTc0z28HSYufExJuP0tggXdKjGxPxBslh0PvkXfTe2nBvYnexnqFi2u0PaMttVpsq6sDi0UfKorT2r7PevcPDDTRxL9ugMJNs8orjAUiOcBk2x9VAEOvuj7YgVGwVCPm7jh4I7J8ohnSRmQuWVJdJ6DKoTPHWNB2JwX9IRbKgXhDt4PiLvAnEvnecFqRvDhorfC5u7X86oDlfKjsolCbS1ZXPOL1LEeUPt8jO54z6iVXCRdwwzKs7eDPcrTnuTKb7DZUtatTvB1oCZyPmarlCtVOQ7XrE4NniDQp0dQRTcRXu2efh3g5Y5M0vmdyDZyd0bvBCHcdk2OdYaASgvGIGBzxVQnykhuZDbJuPDaZ6uFblWTgSmTQzKD3IJiojjCsOoHqBkgJgQToBIIDo09Gtkk50StgmTmWSJwHIKwkVqCd",
+  "sold": "0",
+  "album_ids": [
+   542,
+   543,
+   544
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-21T18:00:54.876916+00:00"
  }
 ]
