@@ -78,7 +78,7 @@ def gradient_text(base, cx, cy, s, f, stops, outline=BLACK, ow=10, shadow=(12, 1
     base.paste(full, (0, 0), tmp)
 
 
-def title_panel(w, h, big=170):
+def title_panel(w, h, big=170, sub="הדילים הכי חמים בעיר"):
     im = p2.gradient(w, h, SUNSET).convert("RGB")
     d = ImageDraw.Draw(im)
     sx, sy, r = w * .5, h * .62, h * .36
@@ -99,7 +99,7 @@ def title_panel(w, h, big=170):
     palm(d, w * .93, h, int(h * 1.0), -1.0, (20, 0, 30))
     gradient_text(im, w / 2, h * .38, "DEAL CITY", ANTON(big), [(255, 250, 190), (255, 160, 60), (255, 50, 140)], ow=9)
     d = ImageDraw.Draw(im)
-    he = "הדילים הכי חמים בעיר"
+    he = sub
     f = F(900, int(big * .36))
     tw, th, _ = size(d, he, f)
     d.rectangle([w / 2 - tw / 2 - 26, h * .66 - 10, w / 2 + tw / 2 + 26, h * .66 + th + 26], fill=BLACK)
@@ -169,7 +169,97 @@ def story():
     return compose(W, H, P, 320)
 
 
-if __name__ == "__main__":
+RATE = 3.3428
+
+
+def ils(usd):
+    return f"{round(usd * RATE):,}₪"
+
+
+def photo_contain(name, box):
+    w, h = box[2] - box[0], box[3] - box[1]
+    src = Image.open(AD / f"{name}.jpg").convert("RGB")
+    bg = grade(ImageOps.fit(src, (w, h), Image.LANCZOS)).filter(ImageFilter.GaussianBlur(28))
+    bg = Image.blend(bg, Image.new("RGB", bg.size, (40, 5, 60)), 0.45)
+    fg = src.copy()
+    fg.thumbnail((int(w * .94), int((h - 74) * .97)), Image.LANCZOS)
+    tint = p2.gradient(fg.width, fg.height, [(255, 120, 180), (255, 190, 110)]).convert("RGB")
+    fg = Image.blend(fg, ImageChops.multiply(fg, tint), 0.12)
+    x, y = (w - fg.width) // 2, max(6, (h - 74 - fg.height) // 2)
+    sh = Image.new("L", bg.size, 0)
+    ImageDraw.Draw(sh).rectangle([x + 10, y + 14, x + fg.width + 10, y + fg.height + 14], fill=170)
+    bg.paste((10, 0, 20), (0, 0), sh.filter(ImageFilter.GaussianBlur(14)))
+    bg.paste(fg, (x, y))
+    return bg
+
+
+def price_sticker(im, x, y, price, angle=-8):
+    num = price.replace("₪", "")
+    f, fs = F(900, 62), F(900, 50)
+    d0 = ImageDraw.Draw(im)
+    nw, nh, nb = size(d0, num, f)
+    sw, sh_, sb = size(d0, "₪", fs)
+    st = Image.new("RGBA", (int(nw + sw + 82), int(nh + 50)), (0, 0, 0, 0))
+    d = ImageDraw.Draw(st)
+    d.rounded_rectangle([6, 6, st.width - 1, st.height - 1], radius=18, fill=(0, 0, 0, 255))
+    d.rounded_rectangle([0, 0, st.width - 7, st.height - 7], radius=18, fill=PINK + (255,), outline=(255, 240, 150, 255), width=5)
+    d.text((28 - sb[0], 20 + (nh - sh_) - sb[1]), "₪", font=fs, fill=WHITE)
+    d.text((28 + sw + 10 - nb[0], 20 - nb[1]), num, font=f, fill=WHITE, direction="ltr")
+    st = st.rotate(angle, expand=True, resample=Image.BICUBIC)
+    im.paste(st, (int(x - st.width), int(y)), st)
+
+
+def name_tag(im, x, y, s, maxw):
+    d = ImageDraw.Draw(im)
+    fs = 46
+    while size(d, s, F(900, fs))[0] > maxw - 40 and fs > 26:
+        fs -= 2
+    f = F(900, fs)
+    w, h, b = size(d, s, f)
+    d.rectangle([x, y - h - 26, x + w + 32, y], fill=BLACK)
+    text_c(d, x + 16 + w / 2, y - h - 14, s, f, WHITE)
+
+
+def product_post(title_sub, panels, title_h):
+    """panels: (img, box, he_name, usd, focus). Title panel spans the top; CTA band at the bottom."""
+    W, H, g = 1080, 1350, 10
+    im = Image.new("RGB", (W, H), BLACK)
+    im.paste(title_panel(W - 2 * g, title_h - 2 * g, big=190, sub=title_sub), (g, g))
+    for name, box, he, usd, focus in panels:
+        bx = (box[0] + g, box[1] + g, box[2] - g, box[3] - g)
+        im.paste(photo_contain(name, bx), bx[:2])
+        price_sticker(im, bx[2] - 8, bx[1] + 14, ils(usd))
+        name_tag(im, bx[0] + 12, bx[3] - 12, he, bx[2] - bx[0] - 24)
+    cta = compose(W, H, [], 190)  # reuse the CTA band
+    im.paste(cta.crop((0, H - 190, W, H)), (0, H - 190))
+    return im
+
+
+def post_home():
+    T, M, B = 330, 740, 1160
+    P = [("gta_espresso", (0, T, 540, M), "מכונת אספרסו ניידת", 41.56, (.85, .5)),
+         ("gta_robot", (540, T, 1080, M), "רובוט שואב ושוטף", 15.06, (.5, .85)),
+         ("gta_headphones", (0, M, 540, B), "אוזניות Baseus ANC", 41.44, (1, .6)),
+         ("gta_tablet", (540, M, 1080, B), "טאבלט 10 אינץ'", 63.03, (.5, .5))]
+    return product_post("בית וטק במחירי רחוב", P, T)
+
+
+def post_gifts():
+    T, M, B = 300, 730, 1160
+    P = [("gta_kart", (0, T, 540, M), "קארטינג חשמלי", 381.29, None),
+         ("gta_camera", (540, T, 1080, M), "מצלמה דיגיטלית 4K", 42.19, None),
+         ("gta_train", (0, M, 360, B), "רכבת מגנטית", 27.73, None),
+         ("gta_eyepatch", (360, M, 720, B), "מדבקות עיניים", 17.50, None),
+         ("gta_sweater", (720, M, 1080, B), "סוודר לנשים", 17.08, None)]
+    return product_post("מתנות לחנוכה", P, T)
+
+
+if __name__ == "__main__" and "--posts" in sys.argv:
+    OUT.mkdir(exist_ok=True)
+    post_home().save(OUT / "dealcity_home.jpg", quality=95)
+    post_gifts().save(OUT / "dealcity_gifts.jpg", quality=95)
+    print("posts ok")
+elif __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     feed().save(OUT / "dealcity_feed.png")
     story().save(OUT / "dealcity_story.png")
