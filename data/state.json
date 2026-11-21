@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 23
+  "2026-11-21": 24
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -158,6 +158,7 @@
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
+  "kawaii rainbow dumpling squishy": "2026-11-21T16:31:10.248017+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "komery k digital camera": "2026-11-20T13:30:48.387965+00:00",
@@ -311,7 +312,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T16:01:21.298924+00:00",
+ "last_post_at": "2026-11-21T16:31:10.247853+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -793,7 +794,132 @@
   "B0HJB69GJL": "2026-11-15T08:46:43.575781+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "alt": [
+    "UCIDCI wall climbing remote control lizard LED eyes"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "B0H87K51V4",
+   "not_before": "2026-11-21T17:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "shot-1121-1",
+   "store": "amazon",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "Lavsonic electric lunch box food warmer",
+    "cordless food warmer lunch box rechargeable 100W"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "Lavsonic 100W portable food warmer lunch box battery 1.5L",
+   "not_before": "2026-11-21T19:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "lavsonic"
+   ],
+   "sid": "shot-1121-2",
+   "store": "amazon_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "New Balance Men's 515 V3 Sneaker",
+    "New Balance Women's 515 V3 Sneaker"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "New Balance 515 sneakers",
+   "not_before": "2026-11-22T05:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "new balance",
+    "515"
+   ],
+   "sid": "shot-1121-3",
+   "store": "amazon_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "Vention power bank 50000mAh"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "Vention 50000mAh 65W power bank",
+   "not_before": "2026-11-22T07:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "vention",
+    "50000"
+   ],
+   "sid": "shot-1121-4",
+   "store": "aliexpress_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "SULIFEEL adjustable inline skates girls light up wheels"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "SULIFEEL light up inline skates kids adjustable",
+   "not_before": "2026-11-22T09:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "sulifeel"
+   ],
+   "sid": "shot-1121-5",
+   "store": "amazon_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "BOTTLE BOTTLE 24oz stainless steel water bottle"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "BOTTLE BOTTLE insulated water bottle 24oz straw lid",
+   "not_before": "2026-11-22T11:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "bottle bottle"
+   ],
+   "sid": "shot-1121-6",
+   "store": "amazon_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "Columbia Powder Lite jacket men"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "Columbia men's Powder Lite II jacket",
+   "not_before": "2026-11-22T14:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "columbia",
+    "powder lite"
+   ],
+   "sid": "shot-1121-7",
+   "store": "amazon_search",
+   "url": "screenshot"
+  },
+  {
+   "alt": [
+    "Osprey Daylite expandable backpack"
+   ],
+   "at": "2026-11-21T16:17:00+00:00",
+   "id": "Osprey Daylite Expandable travel pack 26+6",
+   "not_before": "2026-11-22T16:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [
+    "osprey",
+    "daylite"
+   ],
+   "sid": "shot-1121-8",
+   "store": "amazon_search",
+   "url": "screenshot"
+  }
+ ],
  "posted": {
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
@@ -989,6 +1115,7 @@
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
+  "ali-1005013336234331": "2026-11-21T16:31:10.164992+00:00",
   "ali-1005013410767445": "2026-11-20T05:01:02.226983+00:00",
   "ali-1005013410819294": "2026-11-19T12:30:54.859058+00:00",
   "ali-1005013488905199": "2026-11-19T18:30:53.393687+00:00",
@@ -1000,10 +1127,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/plush toy",
   "lawn-garden",
   "aliexpress/camping lantern",
-  "beauty"
+  "beauty",
+  "aliexpress/squishy set"
  ],
  "recent_groups": [
   "fashion",
@@ -1014,17 +1141,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "beauty",
   "kids",
   "home",
   "fashion",
   "kids",
   "home",
   "sport",
-  "beauty"
+  "beauty",
+  "kids"
  ],
  "recent_titles": [
-  "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL",
   "10-30PCS Colorful Telescopic Tubes Fidget Toys Plastic Sensory Pop Tubes Stress Relief Toys Adults Decompression Kids Toys Gifts",
   "Safer Home Flying Insect Trap, Plug-In Fruit Fly Trap for Indoors, 2-Pack",
   "2026 Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging Smart Sweep Mop 5-In-1 Vacuum Cleaner New",
@@ -1035,7 +1161,8 @@
   "Big Mouth Monster Cute Funny Onesie Pajamas Thickened Coral Fleece Homewear For Couples Men Women Autumn Cartoon Winter Pajamas",
   "BEQHAUSE Dirt Trapper Door Mat 20\" x 32\", Non-Slip Washable Doormats, Beige",
   "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
-  "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm"
+  "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
+  "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -1050,8 +1177,16 @@
   "shot-1120-2",
   "shot-1120-3",
   "shot-1120-4",
-  "shot-1120-5"
+  "shot-1120-5",
+  "shot-1121-1",
+  "shot-1121-2",
+  "shot-1121-3",
+  "shot-1121-4",
+  "shot-1121-5",
+  "shot-1121-6",
+  "shot-1121-7",
+  "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136147
 }
