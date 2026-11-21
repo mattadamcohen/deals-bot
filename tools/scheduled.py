@@ -53,7 +53,7 @@ def main():
             if ok:
                 comment(media, item_links(job["link_asins"]) if job.get("link_asins") else None)
         elif job["kind"] == "ig_comment":
-            ok = comment(job["media"])
+            ok = comment(job["media"], item_links(job["link_asins"]) if job.get("link_asins") else None)
         print(job["id"], "OK" if ok else "FAILED")
         if ok:
             done.append(job["id"])
