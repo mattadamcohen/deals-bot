@@ -2476,6 +2476,17 @@
       "not_before": "2026-11-21T16:55:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1121-coffee"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005013261781803",
+      "require": [],
+      "alt": [],
+      "url": "https://s.click.aliexpress.com/e/_c3LDfJVT",
+      "at": "2026-11-21T17:00:00+00:00",
+      "not_before": "2026-11-21T17:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1121-monitor"
     }
   ],
   "giftbox_alternate": true,
