@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 28
+  "2026-11-21": 29
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -64,6 +64,7 @@
   "B0HG3RVZLW": "2026-11-20T18:01:21.598106+00:00",
   "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
+  "B0HJLJ87KD": "2026-11-21T19:01:12.081604+00:00",
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HLN1KCQY": "2026-11-18T17:00:58.235297+00:00",
   "B0HMH3XK9V": "2026-11-20T07:33:58.796720+00:00",
@@ -265,6 +266,7 @@
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
+  "w heated lunch box": "2026-11-21T19:01:12.081611+00:00",
   "w high temperature steam": "2026-11-21T09:00:55.308910+00:00",
   "wall climbing gecko toy": "2026-11-21T18:31:42.636113+00:00",
   "warm cold fskincare cervejeira": "2026-11-20T06:00:51.735589+00:00",
@@ -318,7 +320,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T18:31:42.635784+00:00",
+ "last_post_at": "2026-11-21T19:01:12.081183+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -803,22 +805,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Lavsonic electric lunch box food warmer",
-    "cordless food warmer lunch box rechargeable 100W"
-   ],
-   "at": "2026-11-21T16:17:00+00:00",
-   "id": "Lavsonic 100W portable food warmer lunch box battery 1.5L",
-   "not_before": "2026-11-21T19:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "lavsonic"
-   ],
-   "sid": "shot-1121-2",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "New Balance Men's 515 V3 Sneaker",
     "New Balance Women's 515 V3 Sneaker"
    ],
@@ -1007,6 +993,7 @@
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.562275+00:00",
   "B0HHJYF7SS": "2026-11-19T13:00:58.376909+00:00",
+  "B0HMC3TGW7": "2026-11-21T19:01:11.969851+00:00",
   "ali-1005004370747413": "2026-11-20T15:31:03.427709+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
   "ali-1005005972760920": "2026-11-19T19:01:02.038780+00:00",
@@ -1124,7 +1111,7 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "fashion",
+  "pick",
   "pick",
   "pick",
   "pick"
@@ -1138,17 +1125,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "sport",
   "beauty",
   "kids",
   "fashion",
   "tech",
   "tech",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "Kids Instant Camera Gift Set with 32GB Memory Card Color Pencil Dual Camera Flashlight - Perfect for Boys & Girls",
   "1/2/4/6Pcs 100 LED Wall Lights Outdoor Solar Lamp PIR Motion Sensor Solar Powered Sunlight Street Light for Garden Decoration",
   "Levi's Women's 318 Shaping Wide-Leg Jeans",
   "Big Mouth Monster Cute Funny Onesie Pajamas Thickened Coral Fleece Homewear For Couples Men Women Autumn Cartoon Winter Pajamas",
@@ -1159,7 +1145,8 @@
   "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
   "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards",
   "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
-  "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan"
+  "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
+  "100W Heated Lunch Box for Adults with Insulated Bag \uff08Black\uff09"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1187,6 +1174,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 3,
  "tg_offset": 260136164
 }

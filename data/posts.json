@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005011940311028",
-  "title": "HTMCK Electric Smart Robotic Dog Toy for Kids Interactive Rolling Stunts Voice Command Programmable Dance Pet Birthday Gift",
-  "title_he": "HTMCK חשמלי חכם רובוטי צעצוע לילדים פעלולים מתגלגלים אינטראקטיביים פקודה קולית מתנת יום הולדת ריקוד לחיות מחמד",
-  "price": "$26.07",
-  "was": "$60.93",
-  "discount": "57%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 429,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S865d94312b52446c977a292393a4a241M.jpg",
-  "variant": 943,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mWVxrnRdqNSR3VES3mC4TotT24ddhJSHr3xiQOyiSt8Plv5o2rd698l1ppCDwvtLiEZgaqS1kUWXaaxd3AHiNcqWrJ7FAp4fCoCAdNBqIRV01eBPVqacJST4qyG0WJ1DQYjUnYsd0yINwaSOEzRmpgAVFZLqnD61acEHr1jYhDbQjDrzlYlZp3lKYzdOVvoksiFWcqmNbWEDjnEbdkpYh2tAoN0YKaSJ63jwVaKLYAGY3U5YuMlFWGAOf0zKXWJL44EWRpDGMwtfZTOs3okwzVZ1iiCEOUQUzlhmbgys617iI36JuhMZwqYPsR2oYiP1abjl01cjrdUV8mnoqDrrpO0PmXGNFQSqsocrGryNXgETgUSWsdj8ZNxq38xpXuVtv8wJ2ZT4MYY58C0MWPGCAY27VGq0iK8zCjdZWKZ2dJzIEBKRJJlMhW9CzX1z9lCsJnvztK701aBvAhxjRSpMqambBEmFiXhfpGxLv7HiosZe0Rn1n3I8k0OkTicrW6heKCUlZHAtwkrQkoTzwr9XTc6cSKr8771Urq1RTV6TRovQcdZ7gp52gymuDjKB89LlX12ayHeRkXriWe2nTai7sqv45vtmev17pv39TjrL1WqfTGRf3orjQK4OUf6rH3Bk1zUiXshxDl0zcoOoGOzAddis9x1Bzm3YPu6aa0zHILGpCMUZyax0Mrpii2UqxJldBfryShgvtUzJv",
-  "sold": "2,000",
-  "album_ids": [
-   429,
-   430,
-   431
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/kids gift toy",
-  "category_en": "Hanukkah gifts",
-  "category_he": "מתנות לחנוכה",
-  "posted_at": "2026-11-20T14:30:56.292488+00:00"
- },
- {
   "asin": "B01CYZHGC8",
   "title": "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
   "title_he": "50 קלפי פוקימון פלוס קלף פוקימון אגדי נדיר | חבילה עם LCC Deck Box",
@@ -1157,5 +1128,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-21T18:31:42.633978+00:00"
+ },
+ {
+  "asin": "B0HMC3TGW7",
+  "title": "100W Heated Lunch Box for Adults with Insulated Bag （Black）",
+  "title_he": "קופסת אוכל מחוממת 100W למבוגרים עם תיק מבודד (שחור)",
+  "price": "$59.99",
+  "was": "$69.99",
+  "discount": "14%",
+  "rating": "4.8",
+  "reviews": "8",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 548,
+  "image": "https://m.media-amazon.com/images/I/81TkSGniWLL._AC_SL1500_.jpg",
+  "variant": 878,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   548,
+   549,
+   550
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/977a21c6-35c8-4824-a050-6a4d832ea0d6/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-21T19:01:12.078803+00:00"
  }
 ]
