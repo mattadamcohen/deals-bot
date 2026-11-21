@@ -1563,8 +1563,14 @@ def main():
                 tg_owner(f"📢 Posted your pick: {info['title'][:60]}")
                 save_state(state)
                 return
+            log(f"Matt's pick {pk.get('id')}: Telegram send failed")
+            if pk.get("tries", 0) < 2:
+                state["pick_queue"].insert(0, {**pk, "tries": pk.get("tries", 0) + 1})
+            else:
+                tg_owner(f"⚠️ Couldn't send your pick to the channel after 3 tries: {info['title'][:60]}")
         elif isinstance(found, str):
             state["pick_queue"].remove(pk)
+            log(f"Matt's pick {pk.get('id')} dropped: {found}")
             tg_owner(f"⚠️ Couldn't post your pick ({pk['url'][:80]}): {found}")
         else:
             log("Matt's pick (Amazon) waiting: Amazon isn't reachable right now")
