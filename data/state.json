@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 5
+  "2026-11-21": 6
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -185,6 +185,7 @@
   "oneplus charger original w": "2026-11-18T06:00:57.960511+00:00",
   "original broadlink rm pro": "2026-11-19T14:30:55.884073+00:00",
   "original roborock s maxv": "2026-11-17T18:30:57.115494+00:00",
+  "outdoor led solar fairy": "2026-11-21T07:30:51.988022+00:00",
   "outdoor solar lights bubble": "2026-11-20T12:31:27.470074+00:00",
   "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
@@ -286,7 +287,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T07:01:01.406121+00:00",
+ "last_post_at": "2026-11-21T07:30:51.987862+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -856,6 +857,7 @@
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
+  "ali-1005007016024919": "2026-11-21T07:30:51.873176+00:00",
   "ali-1005007039765295": "2026-11-20T09:01:03.629317+00:00",
   "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
@@ -939,10 +941,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/video doorbell",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/squishy toy",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "aliexpress/solar garden lights outdoor"
  ],
  "recent_groups": [
   "beauty",
@@ -953,17 +955,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "tech",
   "other",
   "kids",
   "home",
   "tech",
   "kitchen",
   "kids",
-  "other"
+  "other",
+  "home"
  ],
  "recent_titles": [
-  "Baseus EH10 NC ANC Wireless Headphones 45dB Adaptive Hybrid Noise Cancelling Headsets Hi-Res LDAC Headphone Bluetooth 6.0 80Hrs",
   "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
   "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
@@ -974,7 +975,8 @@
   "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
   "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
   "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
-  "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity"
+  "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
+  "Outdoor LED Solar Fairy String Lights Waterproof Garden Decoration Garland 8Modes Copper Wire Light For Street Patio Christmas"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
