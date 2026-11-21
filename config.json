@@ -2465,6 +2465,17 @@
       "not_before": "2026-11-22T16:30:00+00:00",
       "over_cap_ok": true,
       "sid": "shot-1121-8"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005013547461208",
+      "require": [],
+      "alt": [],
+      "url": "https://s.click.aliexpress.com/e/_c3219lQl",
+      "at": "2026-11-21T16:53:00+00:00",
+      "not_before": "2026-11-21T16:55:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1121-coffee"
     }
   ],
   "giftbox_alternate": true,
