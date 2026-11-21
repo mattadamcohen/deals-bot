@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 25
+  "2026-11-21": 26
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -119,6 +119,7 @@
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
   "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
   "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
+  "d printed camera for": "2026-11-21T17:30:54.378778+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "denokin portable espresso coffee": "2026-11-21T06:01:01.176222+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
@@ -314,7 +315,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T14:04:31.690154+00:00",
- "last_post_at": "2026-11-21T17:00:59.384438+00:00",
+ "last_post_at": "2026-11-21T17:30:54.378383+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -799,17 +800,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-21T17:10:00+00:00",
-   "id": "1005013547461208",
-   "not_before": "2026-11-21T17:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1121-coffee-b",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3219lQl"
-  },
-  {
-   "alt": [],
    "at": "2026-11-21T17:00:00+00:00",
    "id": "1005013261781803",
    "not_before": "2026-11-21T17:00:00+00:00",
@@ -1145,6 +1135,7 @@
   "ali-1005013410819294": "2026-11-19T12:30:54.859058+00:00",
   "ali-1005013488905199": "2026-11-19T18:30:53.393687+00:00",
   "ali-1005013525500084": "2026-11-19T17:30:51.321754+00:00",
+  "ali-1005013547461208": "2026-11-21T17:30:54.319219+00:00",
   "ali-32835019753": "2026-11-17T14:01:29.414213+00:00",
   "ali-32863704575": "2026-11-17T07:31:35.264773+00:00",
   "ali-32878557142": "2026-11-18T11:01:29.110017+00:00",
@@ -1152,10 +1143,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/camping lantern",
   "beauty",
   "aliexpress/squishy set",
-  "fashion"
+  "fashion",
+  "pick"
  ],
  "recent_groups": [
   "lawn-garden",
@@ -1166,17 +1157,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "fashion",
   "kids",
   "home",
   "sport",
   "beauty",
   "kids",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Safer Home Flying Insect Trap, Plug-In Fruit Fly Trap for Indoors, 2-Pack",
   "2026 Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging Smart Sweep Mop 5-In-1 Vacuum Cleaner New",
   "medicube Collagen Jelly Cream, Moisturizing Cream for Plump Skin, 1.69fl.oz",
   "Kids Instant Camera Gift Set with 32GB Memory Card Color Pencil Dual Camera Flashlight - Perfect for Boys & Girls",
@@ -1187,7 +1177,8 @@
   "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
   "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
   "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
-  "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes"
+  "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
+  "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
