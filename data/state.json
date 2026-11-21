@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 6
+  "2026-11-21": 7
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -196,6 +196,7 @@
   "pok mon tcg mega": "2026-11-20T18:01:21.598112+00:00",
   "pokemon cards plus a": "2026-11-20T15:00:57.006964+00:00",
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
+  "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
@@ -287,7 +288,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T07:30:51.987862+00:00",
+ "last_post_at": "2026-11-21T08:00:57.702078+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -864,6 +865,7 @@
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
   "ali-1005007391590551": "2026-11-20T18:30:56.482014+00:00",
+  "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805516838": "2026-11-19T15:31:12.173190+00:00",
   "ali-1005007805563822": "2026-11-18T16:01:31.926969+00:00",
@@ -941,10 +943,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/squishy toy",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "aliexpress/solar garden lights outdoor"
+  "aliexpress/solar garden lights outdoor",
+  "aliexpress/android tablet 10 inch"
  ],
  "recent_groups": [
   "beauty",
@@ -955,17 +957,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "other",
   "kids",
   "home",
   "tech",
   "kitchen",
   "kids",
   "other",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count)",
   "Pok\u00e9mon TCG: Mega Evolution\u2014Delta Reign Booster Bundle",
   "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
   "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB",
@@ -976,7 +977,8 @@
   "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
   "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
   "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
-  "Outdoor LED Solar Fairy String Lights Waterproof Garden Decoration Garland 8Modes Copper Wire Light For Street Patio Christmas"
+  "Outdoor LED Solar Fairy String Lights Waterproof Garden Decoration Garland 8Modes Copper Wire Light For Street Patio Christmas",
+  "PRITOM 10 Inch Tablet PC with SIM Slot Android 13 64 GB Quad Core Touch Screen WiFi GPS Support 3G Phone Call"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
