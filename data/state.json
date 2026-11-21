@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 13
+  "2026-11-21": 14
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -54,6 +54,7 @@
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0H9NKZGB7": "2026-11-20T08:30:53.068268+00:00",
+  "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.598106+00:00",
   "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
@@ -210,6 +211,7 @@
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
+  "safer home flying insect": "2026-11-21T11:30:57.493045+00:00",
   "samsung haf-qin exp genuine": "2026-11-18T14:34:05.411608+00:00",
   "sharpie s-gel pens": "2026-11-19T06:34:11.261476+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
@@ -296,7 +298,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T09:33:58.527918+00:00",
- "last_post_at": "2026-11-21T11:01:03.290467+00:00",
+ "last_post_at": "2026-11-21T11:30:57.492908+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -825,6 +827,7 @@
   "B0C3FTCYZL": "2026-11-19T08:31:27.582391+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
+  "B0CQ8RSTDW": "2026-11-21T11:30:57.438982+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
@@ -970,31 +973,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty",
   "aliexpress/Xiaomi",
   "fashion/1045624",
-  "aliexpress/squishy blind box"
+  "aliexpress/squishy blind box",
+  "lawn-garden"
  ],
  "recent_groups": [
-  "fashion",
   "beauty",
   "toys-and-games",
   "lawn-garden",
   "beauty",
-  "fashion"
+  "fashion",
+  "lawn-garden"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "other",
   "home",
   "beauty",
   "tech",
   "fashion",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
   "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
   "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
   "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
@@ -1005,7 +1007,8 @@
   "medicube Facial Cleanser Zero Pore Capsule Foam Cleanser",
   "Xiaomi Mijia Automatic Soap Foam Dispenser 1S USB Rechargeable Hand Washer Foaming Machine for Kitchen n Bathroom Home Appliance",
   "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL",
-  "10-30PCS Colorful Telescopic Tubes Fidget Toys Plastic Sensory Pop Tubes Stress Relief Toys Adults Decompression Kids Toys Gifts"
+  "10-30PCS Colorful Telescopic Tubes Fidget Toys Plastic Sensory Pop Tubes Stress Relief Toys Adults Decompression Kids Toys Gifts",
+  "Safer Home Flying Insect Trap, Plug-In Fruit Fly Trap for Indoors, 2-Pack"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -1022,6 +1025,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136147
 }
