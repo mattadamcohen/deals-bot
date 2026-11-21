@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 1
+  "2026-11-21": 2
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -155,6 +155,7 @@
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
+  "low-power wifi video doorbell": "2026-11-21T05:31:25.483514+00:00",
   "luxe color changing foundation": "2026-11-18T15:30:53.597951+00:00",
   "magic cube children educational": "2026-11-18T16:31:48.162309+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
@@ -282,7 +283,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T05:04:19.866075+00:00",
+ "last_post_at": "2026-11-21T05:31:25.483123+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -864,6 +865,7 @@
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
+  "ali-1005008226452050": "2026-11-21T05:31:25.446745+00:00",
   "ali-1005008557135956": "2026-11-19T09:30:56.820289+00:00",
   "ali-1005008603585460": "2026-11-18T12:01:19.204538+00:00",
   "ali-1005008639317272": "2026-11-18T19:31:00.099925+00:00",
@@ -931,10 +933,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/1119-1129 Black/Super Friday - Top Brands",
   "aliexpress/squishy advent calendar",
-  "lawn-garden"
+  "lawn-garden",
+  "aliexpress/video doorbell"
  ],
  "recent_groups": [
   "beauty",
@@ -945,17 +947,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "tech",
   "beauty",
   "kids",
   "home",
   "tech",
   "other",
   "kids",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "50 Pokemon Cards Plus a Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
   "NiiMbot B21 Mini Thermal Printer Wireless Barcode Label Maker Bluetooth Portable Adhesive Label Printers for Office Commercial",
   "New 24V Electric Go-Kart Kids Outdoor Ride On Drift Racing Car Toy with Variable Speeds Up to 7.5 Mph, LED Lights, Music, USB Po",
   "WIHOLL Fall Outfits for Women 2026 Hollow Out Knit Sweater Fashion Clothing",
@@ -966,7 +967,8 @@
   "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB",
   "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis",
   "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
-  "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital"
+  "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
+  "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
@@ -983,6 +985,6 @@
   "shot-1120-4",
   "shot-1120-5"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136146
 }
