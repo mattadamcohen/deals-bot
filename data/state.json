@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-21": 8
+  "2026-11-21": 9
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -239,6 +239,7 @@
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
+  "w high temperature steam": "2026-11-21T09:00:55.308910+00:00",
   "warm cold fskincare cervejeira": "2026-11-20T06:00:51.735589+00:00",
   "watches sports outdoor waterproof": "2026-11-20T14:01:00.196002+00:00",
   "wiholl fall outfits for": "2026-11-20T16:34:31.176218+00:00",
@@ -289,7 +290,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-21T05:04:16.018268+00:00",
- "last_post_at": "2026-11-21T08:30:46.232371+00:00",
+ "last_post_at": "2026-11-21T09:00:55.308767+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -918,6 +919,7 @@
   "ali-1005011940311028": "2026-11-20T14:30:56.228386+00:00",
   "ali-1005011971017841": "2026-11-21T06:31:24.886780+00:00",
   "ali-1005011993743447": "2026-11-20T10:01:05.738903+00:00",
+  "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
@@ -945,10 +947,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/solar garden lights outdoor",
   "aliexpress/android tablet 10 inch",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "beauty",
@@ -959,17 +961,16 @@
   "lawn-garden"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "kitchen",
   "kids",
   "other",
   "home",
   "tech",
-  "other"
+  "other",
+  "home"
  ],
  "recent_titles": [
-  "Brushless Electric Drill Tapping Cordless Impact Drill Metal Ratchet Chuck Electric Hand Drill Household Electric Screwdriver",
   "10.26\" Car Mirror Radio Multimedia Video Player Universal Wireless Carplay Android Auto Screen With Bluetooth AUX USB",
   "8BitDo M30 2.4G Wireless Gamepad for the Original Sega Genesis and Sega Mega Drive - Sega Genesis",
   "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
@@ -980,7 +981,8 @@
   "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
   "Outdoor LED Solar Fairy String Lights Waterproof Garden Decoration Garland 8Modes Copper Wire Light For Street Patio Christmas",
   "PRITOM 10 Inch Tablet PC with SIM Slot Android 13 64 GB Quad Core Touch Screen WiFi GPS Support 3G Phone Call",
-  "Extra virgin olive oil 5liters guaranteed newly packaged"
+  "Extra virgin olive oil 5liters guaranteed newly packaged",
+  "2500W High Temperature Steam Cleaner 110V Portable Handheld Steam Cleaning Machine With Multiple Accessories US Plug"
  ],
  "scheduled_picks_done": [
   "shot-1118-1",
