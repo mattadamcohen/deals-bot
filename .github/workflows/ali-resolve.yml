@@ -1,0 +1,23 @@
+name: AliExpress resolve
+on:
+  workflow_dispatch:
+    inputs:
+      urls: { description: "links separated by spaces", required: true }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python tools/ali_resolve.py
+        env:
+          URLS: ${{ inputs.urls }}
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+      - run: |
+          git config user.name deals-bot && git config user.email deals-bot@users.noreply.github.com
+          git add data/ad/vopt && git commit -m "ali resolve" && (git push || (git pull --rebase -X theirs && git push)) || true
