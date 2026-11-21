@@ -2048,6 +2048,19 @@
       "kind": "ig_image",
       "image": "assets/grid/grid_1.jpg",
       "caption_file": "data/giveaway/ig_grid.txt"
+    },
+    {
+      "id": "ig-dealcity-home",
+      "at": "2026-11-21T14:00",
+      "kind": "ig_image",
+      "image": "assets/posts/dealcity_home.jpg",
+      "caption_file": "data/giveaway/ig_dealcity_home.txt",
+      "link_asins": [
+        "ali-1005009212557833",
+        "ali-1005011991969247",
+        "ali-1005009463011323",
+        "ali-1005007540007398"
+      ]
     }
   ],
   "weekly_caps": [

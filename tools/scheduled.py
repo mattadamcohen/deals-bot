@@ -16,10 +16,18 @@ LINK_COMMENT = ("📲 הצטרפו לערוץ הטלגרם שלנו ואתם ב�
                 "(הקישור הלחיץ נמצא בביו)\n\n🇬🇧 Join our Telegram channel: t.me/ilamazondeals")
 
 
-def comment(media):
+def item_links(asins):
+    import reel
+    posts = json.loads((REPO / "data" / "posts.json").read_text())
+    posts = posts if isinstance(posts, list) else list(posts.values())
+    by = {p["asin"]: p for p in posts}
+    return reel.links_text([by[a] for a in asins if a in by]) + "\n\n📲 עוד דילים בטלגרם: t.me/ilamazondeals"
+
+
+def comment(media, text=None):
     import requests
     r = requests.post(f"https://graph.facebook.com/v23.0/{media}/comments",
-                      data={"message": LINK_COMMENT, "access_token": os.getenv("IG_ACCESS_TOKEN", "").strip()}, timeout=30)
+                      data={"message": text or LINK_COMMENT, "access_token": os.getenv("IG_ACCESS_TOKEN", "").strip()}, timeout=30)
     print("link comment", media, r.status_code, r.text[:150])
     return r.ok
 
@@ -43,7 +51,7 @@ def main():
             print("instagram", job["id"], media)
             ok = bool(media)
             if ok:
-                comment(media)
+                comment(media, item_links(job["link_asins"]) if job.get("link_asins") else None)
         elif job["kind"] == "ig_comment":
             ok = comment(job["media"])
         print(job["id"], "OK" if ok else "FAILED")
