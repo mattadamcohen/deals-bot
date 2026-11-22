@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 29
+  "2026-11-22": 30
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -136,6 +136,7 @@
   "clip dolls machine unicorn": "2026-11-20T11:31:01.271202+00:00",
   "coffee knock box anti": "2026-11-22T08:45:48.488821+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
+  "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
   "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
@@ -498,7 +499,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T17:16:16.095416+00:00",
+ "last_post_at": "2026-11-22T17:30:56.726229+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1150,6 +1151,7 @@
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006291767331": "2026-11-22T07:45:46.193302+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
+  "ali-1005006490267843": "2026-11-22T17:30:56.650609+00:00",
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
   "ali-1005006674062256": "2026-11-21T07:01:01.342436+00:00",
   "ali-1005006678192161": "2026-11-18T09:30:54.342358+00:00",
@@ -1277,10 +1279,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "sporting-goods/3407731",
   "aliexpress/vacuum storage bags",
   "pick",
-  "beauty/11060451"
+  "beauty/11060451",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "kitchen",
@@ -1291,17 +1293,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "home",
   "kitchen",
   "kids",
   "kids",
   "sport",
   "home",
   "kids",
-  "beauty"
+  "beauty",
+  "tech"
  ],
  "recent_titles": [
-  "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games",
   "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd",
   "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard",
   "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)",
@@ -1312,7 +1313,8 @@
   "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted",
   "EVA Storage Case for Game Console, Projector and Vacuum Cleaner, Large-Capacity Multi-Functional Tool Bag for Outdoor Travel",
   "NeeDoh-style Textured Slow Rebound Gel Stress Ball, Anxiety Relief Fidget Sensory Toy, Holiday & Back to School Gift, Random Color",
-  "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant"
+  "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant",
+  "COOSPO HW9 Armband Heart Rate Monitor with HR Zones/Calories HRM Sensor for Fitness Cycling BLE5.0 ANT+ for Peloton,Zwift,Wahoo"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1340,6 +1342,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136201
 }
