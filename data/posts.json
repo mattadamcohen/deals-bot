@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B07XXSYLL8",
-  "title": "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
-  "title_he": "TempPro TempSwift TP19H 1 שניות קריאה מיידית מדחום בשר דיגיטלי",
-  "price": "$12.59",
-  "was": "$19.99",
-  "discount": "37%",
-  "rating": "4.7",
-  "reviews": "56,849",
-  "rank": 7,
-  "source": "bestsellers",
-  "message_id": 464,
-  "image": "https://m.media-amazon.com/images/I/71GAhr0v1hL._AC_SL1500_.jpg",
-  "variant": 394,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   464,
-   465,
-   466
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7ccb5184-d0b4-430c-b207-7df7aa967c02/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "lawn-garden",
-  "category_en": "Patio, Lawn & Garden",
-  "category_he": "גינה ומרפסת",
-  "posted_at": "2026-11-21T05:04:19.863212+00:00"
- },
- {
   "asin": "ali-1005008226452050",
   "title": "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
   "title_he": "פעמון דלת וידאו WiFi בעוצמה נמוכה נטען HD Night Vision Smart Security 1 ל-1 פעמון דלת אינטרקום ביתי",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-22T09:45:59.093415+00:00"
+ },
+ {
+  "asin": "ali-1005006997695145",
+  "title": "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance",
+  "title_he": "מצלמת IP 4K POE IK10 חיצונית חסינת פיצוץ H.265 Onvif מתכת כיפת טלוויזיה במעגל סגור הגנת אבטחה 4MP מעקב וידאו",
+  "price": "$49.29",
+  "was": "$101.62",
+  "discount": "51%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 584,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scc8befada567436c8c7d930af71ea304C.jpg",
+  "variant": 801,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTplme79MhCfaOiKD36bGvmxy1KSEHmBmVjcVt2kceGVwb5QSbYaKntqcOphx4gwoKYbvdLhVgYyscdM5gZ0LgjEdvQVgupMlwSklFMmDMBu54YqqR2r0jx5FtnlabsGm4vFS4txYuGKma1VEarpkUp5RNJnCy4Wb8dx4gyV4Q9XV5sHepO1mJhnTJvfbveg7LLsJYtuaLpJW0NqzCtIVQ0ZnabtVB9FltZETLBi6VrgXwoUCrn6LX5buxUrZur4osoOsDk1UKywFo7upFTyUSvrrST52CtJZ8VZEeEn8CQAqyqfbaf9rvnxi8sDRtbyYTojaQAt4ZHYcSY3bMNv7X7kaIRJOBoEvssW6V9WC2q3Gt98QGK3XhctrKixPB3hHWVRbAiAbsaR30NOSdxSgyDSM4i3d73fO7fF8DXYTs3boWxPnrj0xgmIsXBw9mcz9BsrR2opaAkGyA6UyElV6Je5PDvmxt8d5bnIoaRr3K68njLmrgGGhPS9CqjugR2nTmE1Dy0pt40tZi62XlObH4VL8hOieFLAJp8Yk6T9E0kJCUujo8YcGjydL6dRGGInX1RBYKTaXDD5SY60GdCRPByAR1GGLcWYS99oyYw93qHnMxOPzWZk95jyFTegkVoYHLb8viLtYD8htfU4ozFjQuhxiXqhkhTwajLgj3FvspJ8f8HRIqDWiWc2TPVkqNRDK01RDdGXdhYZG",
+  "sold": "1,000",
+  "album_ids": [
+   584,
+   585,
+   586
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/202104842/p/1/e/6/t/10301/1100134982598.mp4",
+  "category_slug": "aliexpress/indoor security camera",
+  "category_en": "Smart home",
+  "category_he": "בית חכם",
+  "posted_at": "2026-11-22T10:16:11.059595+00:00"
  }
 ]

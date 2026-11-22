@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 10
+  "2026-11-22": 11
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -173,6 +173,7 @@
   "ip waterproof solar outdoor": "2026-11-19T19:01:02.117170+00:00",
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
+  "k poe ip camera": "2026-11-22T10:16:11.061535+00:00",
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
   "kawaii rainbow dumpling squishy": "2026-11-21T16:31:10.248017+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
@@ -326,6 +327,12 @@
    "username": "",
    "via": "join"
   },
+  "6775188076": {
+   "at": "2026-11-22T10:15:59.181279+00:00",
+   "name": "Nati",
+   "username": "",
+   "via": "join"
+  },
   "6933767219": {
    "at": "2026-11-21T20:46:01.433697+00:00",
    "name": "Meri Riyanna",
@@ -341,7 +348,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T06:08:56.239957+00:00",
- "last_post_at": "2026-11-22T09:45:59.095620+00:00",
+ "last_post_at": "2026-11-22T10:16:11.061373+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1033,6 +1040,7 @@
   "ali-1005006967315803": "2026-11-18T12:31:51.206916+00:00",
   "ali-1005006994669841": "2026-11-18T11:31:07.167293+00:00",
   "ali-1005006996242795": "2026-11-18T16:31:48.089006+00:00",
+  "ali-1005006997695145": "2026-11-22T10:16:11.030434+00:00",
   "ali-1005007002128983": "2026-11-20T19:00:59.283752+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
@@ -1138,10 +1146,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "videogames/402053011",
   "aliexpress/espresso accessories",
   "hpc",
-  "pick"
+  "pick",
+  "aliexpress/indoor security camera"
  ],
  "recent_groups": [
   "beauty",
@@ -1152,17 +1160,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "sport",
   "tech",
   "home",
   "car",
   "tech",
   "kitchen",
   "beauty",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "100W Heated Lunch Box for Adults with Insulated Bag \uff08Black\uff09",
   "VGN Dragonfly 3 Master Plus Pro MAX Wireless Gaming Mouse Tri-Mode SuperLight Rechargeable Esports FPS Mice TurboPlus Bluetooth",
   "Energizer AA and AAA Batteries, 48 Count, Combo Pack Contains 24 Max Double A and 24 Max Triple A Batteries",
   "IKAPE V6 Impact Espresso Tamper,Breville Calibrated Meta Coffee Tamper,Coffee Machine,Fits Over 51/54/58mm Portafilters",
@@ -1173,7 +1180,8 @@
   "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
   "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools",
   "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
-  "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12"
+  "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
+  "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1201,6 +1209,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
- "tg_offset": 260136166
+ "since_ali": 0,
+ "tg_offset": 260136167
 }
