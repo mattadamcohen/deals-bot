@@ -385,6 +385,15 @@
    "via": "join"
   }
  },
+ "giveaway_link_owner": {
+  "https://t.me/+6AHeSsixu5syZWM8": "1125221452"
+ },
+ "giveaway_refs": {
+  "1125221452": {
+   "joined": [],
+   "link": "https://t.me/+6AHeSsixu5syZWM8"
+  }
+ },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
  "last_post_at": "2026-11-22T15:46:33.323409+00:00",
@@ -1241,5 +1250,5 @@
   "shot-1121-8"
  ],
  "since_ali": 1,
- "tg_offset": 260136185
+ "tg_offset": 260136186
 }
