@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005012987036887",
-  "title": "Butter Stick Wax Cracking Squeeze Toy Crackable Texture Crispy Feel Crispy Stress Balls Cheese Handmade Craft",
-  "title_he": "חמאה סטיק שעווה פיצוח צעצוע לחיצה מרקם פריך תחושה פריכה כדורי מאמץ גבינה עבודת יד",
-  "price": "$3.00",
-  "was": "$6.65",
-  "discount": "54%",
-  "rating": "91.4%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 461,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb6478b5bac274d23a5c65922fa9977723.jpg",
-  "variant": 786,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTZG6T1NFgvwHFNGaCoBWURidpRnBJVI46t1mPEKRDqwbi6TyPS6wo9wx7YAUmLmfNGtiSpUj6czkpiQ1iCiPiz39oMAF53kfudnVcHAFrilmEHgsVvi2H7bFDLgInQMLzEAv42rn9sIjGxopSeyi5QI6B7rEzZKG2SmxLvfBqsycikk2vifUqQhnlPsK5UDnp5QWsr9f5SVyYDc6IHtyJvsLioOUgnplbjX0LMT1m5ScfyhN0HrZQ4hfmFZRrhdcCz2fBGTMpoMCeD6Hvyq0uHp39I8PVcGqDUFmqAKDgI7GNnBmB1XQLNhR4FAe1SUcVEQcJ82N7kMghgwcYPZF24jCKEycNIInHap01X580dyEBvykzVFA0yhPLV5YZ1gfoHZbRJb1HZRzPNSDRy54BIzK1iUoq3AKYiKJBzHWwkcilgCoAhKJnVz89oQFIJXDAKosDTYlLPntWsX0bmNwgK7HbHdztvfBrOEKzTEwLSAMycxsP0bC2bkwHI8ZsND653UUHacngT5FHYc1b43NkUkbKmLbloq4eG2M7l1C4XaZlh39piA2EciktuqSrddd79MWrT35Z9GeLoxYzOutnjWfGo8MlFphTk6R8UvFu63pFI3mGWbdj3JTUaSMPweq3G4mXnaqpwxV8jdJweiGqmjVu4VSKUSz8a7sNjDXw0mFRXpqaXXH3eNagAEal9KYONKl2phbd5um",
-  "sold": "228",
-  "album_ids": [
-   461,
-   462,
-   463
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/squishy advent calendar",
-  "category_en": "Squishies",
-  "category_he": "סקווישים",
-  "posted_at": "2026-11-20T20:16:04.719946+00:00"
- },
- {
   "asin": "B07XXSYLL8",
   "title": "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital",
   "title_he": "TempPro TempSwift TP19H 1 שניות קריאה מיידית מדחום בשר דיגיטלי",
@@ -1158,5 +1129,34 @@
   "category_en": "Health & Household",
   "category_he": "בריאות ומשק בית",
   "posted_at": "2026-11-22T09:15:55.384820+00:00"
+ },
+ {
+  "asin": "B0GYRPLKQ9",
+  "title": "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
+  "title_he": "גלגיליות מוטבעות לילדים מתכווננות קליפה קשה בנים בנות 4-12",
+  "price": "$25.06",
+  "was": "$29.48",
+  "discount": "15%",
+  "rating": "4.6",
+  "reviews": "38",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 581,
+  "image": "https://m.media-amazon.com/images/I/81u8ZpqYFVL._AC_SL1500_.jpg",
+  "variant": 971,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   581,
+   582,
+   583
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b1b81651-5319-4110-9cbe-2d56dcc2f960/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-22T09:45:59.093415+00:00"
  }
 ]
