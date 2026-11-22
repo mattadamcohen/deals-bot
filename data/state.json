@@ -1,11 +1,12 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 15
+  "2026-11-22": 16
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
   "B01MZBTUOZ": "2026-11-22T05:04:10.388165+00:00",
+  "B07WV49Q56": "2026-11-22T12:45:48.707561+00:00",
   "B0846KM4RB": "2026-11-18T19:04:43.016428+00:00",
   "B096XNVFP1": "2026-11-19T16:34:06.926534+00:00",
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
@@ -170,6 +171,7 @@
   "htmck electric smart robotic": "2026-11-20T14:30:56.295405+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
+  "idegg women men no": "2026-11-22T12:45:48.707567+00:00",
   "ikape v impact espresso": "2026-11-22T05:31:18.328577+00:00",
   "in- electric cleaning brush": "2026-11-20T09:01:03.673794+00:00",
   "instant camera gift set": "2026-11-21T13:01:04.756891+00:00",
@@ -366,7 +368,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T12:15:46.795741+00:00",
+ "last_post_at": "2026-11-22T12:45:48.707401+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -955,6 +957,7 @@
   "B07GB3NVN1": "2026-11-20T14:01:00.195902+00:00",
   "B07GQ8J4QX": "2026-11-15T05:46:42.354565+00:00",
   "B07PBXXNCY": "2026-11-15T05:02:05.967654+00:00",
+  "B07V4VFKKD": "2026-11-22T12:45:48.674388+00:00",
   "B07XXSYLL8": "2026-11-21T05:04:19.807607+00:00",
   "B07YH1SJ8V": "2026-11-17T08:01:21.499158+00:00",
   "B07ZSWRKZY": "2026-11-14T19:32:53.716210+00:00",
@@ -1157,31 +1160,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "kitchen",
   "aliexpress/magnetic train track toy",
   "pick",
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
+  "sporting-goods/3407731"
  ],
  "recent_groups": [
-  "fashion",
   "hpc",
   "sporting-goods",
   "videogames",
   "hpc",
-  "kitchen"
+  "kitchen",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "kitchen",
   "beauty",
   "kids",
   "tech",
   "kitchen",
   "kids",
   "kitchen",
-  "other"
+  "other",
+  "sport"
  ],
  "recent_titles": [
-  "55NRobot Window Cleaner for Home Appliance - Automatic Robotic Window Washer for Clean Glass Windows Specialty Cleaners",
   "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts",
   "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
   "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
@@ -1192,7 +1194,8 @@
   "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
   "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
   "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
-  "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card"
+  "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
+  "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1220,6 +1223,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136181
 }
