@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CLGNYKFR",
-  "title": "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
-  "title_he": "EverFoams Womens נעלי בית מטושטשות פתוחות Memory Foam נעלי בית",
-  "price": "$18.02",
-  "was": "$34.99",
-  "discount": "48%",
-  "rating": "4.5",
-  "reviews": "16,741",
-  "rank": 13,
-  "source": "bestsellers",
-  "message_id": 536,
-  "image": "https://m.media-amazon.com/images/I/81rGYT3pkaL._AC_SL1500_.jpg",
-  "variant": 643,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   536,
-   537,
-   538
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cb39092c-cc31-4b1f-99b8-21481a71702e/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion",
-  "category_en": "Clothing, Shoes & Jewelry",
-  "category_he": "אופנה, נעליים ותכשיטים",
-  "posted_at": "2026-11-21T17:00:59.382081+00:00"
- },
- {
   "asin": "ali-1005013547461208",
   "title": "Coffee Stencil Maker: Latte Art at Home",
   "title_he": "מכשיר שבלונות לקפה: לאטה ארט בבית",
@@ -1158,5 +1129,34 @@
   "category_en": "Kids toys",
   "category_he": "צעצועים לילדים",
   "posted_at": "2026-11-22T18:30:59.069859+00:00"
+ },
+ {
+  "asin": "ali-1005005210163156",
+  "title": "Baseus GaN3 100/ 65W Desktop Charger Quick Charge QC 3.04.0 USB C Type C Phone Charger For iPhone15 Huawei Xiaomi MacBook Laptop",
+  "title_he": "Baseus GaN3 100/65W מטען שולחני טעינה מהירה QC 3.04.0 USB C Type C מטען טלפון עבור iPhone15 Huawei Xiaomi MacBook Laptop",
+  "price": "$29.00",
+  "was": "$70.26",
+  "discount": "58%",
+  "rating": "97.8%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 658,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S53ed111d0bdb4e11bb882b01e23b8b58W.jpg",
+  "variant": 493,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4odtPo353DXAEM7IcaU1F8Y46IXllYa2NPkEyhV4R8xR8voj2E65QjcDEDHJgndCJjbufhC8go9zYGJmQeVcLv8HHHSGKtLlvMWRVqdls9L5r8RrDaT3ssqgpYYL7JFeRiQPAmFG7IHD4hnDZNJmFNGU9ruoqktkhaapTCnqX9DiwrtzUgRdaccnXIjCoJnxVBsNJYHo18KtDzLiwftK00tuzWLLYHbMoQtmj8eqXBbqQhAFlP3RoR4aZlCQ6g5qxuZegTXzQgXr1cfA178sZBVEpKdkfTBnfsYzOJMRwzW9RlI3zYryOLQ8QrZb15lQVjl8EHtkPdp7KETOmGkcPvnyKr9yX9hq8xxiMNUNC8QTR4d8hC2obuvLkq2aGh9Zo0x8bPrOfuUqjwWypT4q9AmzfcxnSEjezKXKpBSGQHn58DIDpSSvhKOMUJoBri1Smox4KILyiZ2BGmHN0KbjKJWgqqxRD2CSG0uMwXrdwAkdx4EnHnYsYfRnb0enBzEQwqMxpzYEYMemqMLOl06SWQM31YnRKYSfuP3PYCPiBlNrlZ3FAdAnf0i3UtfAjTGo0diVR1jZvzdM9VRyUvO15UbMGNxcvLYI3ZvnsgzPbGSEnDojVrSqrkW0rklLlqmZJ2CHfGXYAST0yNvMcLuYiZXoNeSgE1OAsVgbqJ2Hf7cYgjtwEZXEBoizscABSvOmZ6NTI15e0Wm2wF",
+  "sold": "2,000",
+  "album_ids": [
+   658,
+   659,
+   660
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/231246967/p/1/e/6/t/10301/1100064385810.mp4",
+  "category_slug": "aliexpress/GaN charger 65W",
+  "category_en": "Tech",
+  "category_he": "טק",
+  "posted_at": "2026-11-22T18:45:55.846156+00:00"
  }
 ]
