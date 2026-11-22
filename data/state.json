@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 7
+  "2026-11-22": 8
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -119,6 +119,7 @@
   "classic uno board games": "2026-11-19T18:30:53.440916+00:00",
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
   "clip dolls machine unicorn": "2026-11-20T11:31:01.271202+00:00",
+  "coffee knock box anti": "2026-11-22T08:45:48.488821+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
@@ -337,7 +338,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T06:08:56.239957+00:00",
- "last_post_at": "2026-11-22T08:15:43.912124+00:00",
+ "last_post_at": "2026-11-22T08:45:48.488647+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1056,6 +1057,7 @@
   "ali-1005007391590551": "2026-11-20T18:30:56.482014+00:00",
   "ali-1005007481796012": "2026-11-21T08:30:46.204977+00:00",
   "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
+  "ali-1005007605939585": "2026-11-22T08:45:48.430699+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007805516838": "2026-11-19T15:31:12.173190+00:00",
   "ali-1005007805563822": "2026-11-18T16:01:31.926969+00:00",
@@ -1146,10 +1148,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/robot vacuum cleaner",
   "aliexpress/kids gift toy",
   "aliexpress/dash cam",
-  "videogames/402053011"
+  "videogames/402053011",
+  "aliexpress/espresso accessories"
  ],
  "recent_groups": [
   "lawn-garden",
@@ -1160,17 +1162,16 @@
   "videogames"
  ],
  "recent_themes": [
-  "tech",
   "beauty",
   "kitchen",
   "sport",
   "tech",
   "home",
   "car",
-  "tech"
+  "tech",
+  "kitchen"
  ],
  "recent_titles": [
-  "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards",
   "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
   "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
   "100W Heated Lunch Box for Adults with Insulated Bag \uff08Black\uff09",
@@ -1181,7 +1182,8 @@
   "55NRobot Window Cleaner for Home Appliance - Automatic Robotic Window Washer for Clean Glass Windows Specialty Cleaners",
   "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts",
   "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
-  "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC"
+  "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
+  "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1209,6 +1211,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136166
 }
