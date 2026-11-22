@@ -390,6 +390,24 @@
       "en": "Routers",
       "he": "ראוטרים",
       "weight": 0.4
+    },
+    {
+      "slug": "home-garden/3610841",
+      "en": "Home Storage & Organization",
+      "he": "אחסון וסידור לבית",
+      "weight": 3
+    },
+    {
+      "slug": "kitchen/510136",
+      "en": "Kitchen Storage & Organization",
+      "he": "אחסון וסידור למטבח",
+      "weight": 3
+    },
+    {
+      "slug": "home-garden/2422430011",
+      "en": "Storage Baskets, Bins & Containers",
+      "he": "סלים וקופסאות אחסון",
+      "weight": 3
     }
   ],
   "max_posts_per_run": 1,
@@ -1843,6 +1861,66 @@
       "en": "Tech",
       "he": "טק",
       "weight": 1.5
+    },
+    {
+      "q": "reusable zip lock bags",
+      "en": "Kitchen storage",
+      "he": "אחסון למטבח",
+      "weight": 3
+    },
+    {
+      "q": "silicone food storage bags",
+      "en": "Kitchen storage",
+      "he": "אחסון למטבח",
+      "weight": 2
+    },
+    {
+      "q": "vacuum storage bags",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 3
+    },
+    {
+      "q": "drawer organizer",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 2
+    },
+    {
+      "q": "closet organizer",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 2
+    },
+    {
+      "q": "under bed storage",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 2
+    },
+    {
+      "q": "fridge organizer",
+      "en": "Kitchen storage",
+      "he": "אחסון למטבח",
+      "weight": 2
+    },
+    {
+      "q": "makeup organizer",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 1
+    },
+    {
+      "q": "toy storage organizer",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 2
+    },
+    {
+      "q": "travel packing cubes",
+      "en": "Home storage",
+      "he": "אחסון לבית",
+      "weight": 2
     }
   ],
   "ali_min_price_usd": 5,
