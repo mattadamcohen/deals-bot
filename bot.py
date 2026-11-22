@@ -1747,6 +1747,8 @@ def main():
             found = None
         if isinstance(found, tuple):
             it, info, category = found
+            if pk.get("title"):  # Matt-approved honest title (e.g. drop "4K"/brand claims the listing can't back up)
+                info["title"] = pk["title"]
             state["pick_queue"].remove(pk)
             before = posted_now
             post(it, info, category)
