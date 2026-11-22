@@ -2510,5 +2510,27 @@
     18
   ],
   "site_days": 60,
-  "site_domain": "israelideals.com"
+  "site_domain": "israelideals.com",
+  "focus": {
+    "name": "NeeDoh",
+    "queries": [
+      "Schylling NeeDoh",
+      "NeeDoh squishy",
+      "Nee Doh stress ball Schylling",
+      "NeeDoh Nice Cube",
+      "NeeDoh Gumdrop"
+    ],
+    "require_any": [
+      "needoh",
+      "nee doh",
+      "nee-doh"
+    ],
+    "avoid": "compatible|like needoh|similar to|alternative",
+    "hours": [
+      10,
+      14,
+      19
+    ],
+    "repost_days": 14
+  }
 }

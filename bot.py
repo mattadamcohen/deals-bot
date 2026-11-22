@@ -261,6 +261,22 @@ class Amazon:
                 return asin
         return None
 
+    def search_all(self, query, require_any=()):
+        """All organic search results whose title contains any of `require_any`: [(asin, title)]."""
+        from urllib.parse import quote_plus
+        soup = BeautifulSoup(self.get(f"{BASE}/s?k={quote_plus(query)}").text, "html.parser")
+        out = []
+        for card in soup.select('div[data-component-type="s-search-result"][data-asin]'):
+            asin = card.get("data-asin")
+            if not re.fullmatch(r"[A-Z0-9]{10}", asin or "") or "AdHolder" in " ".join(card.get("class", [])) \
+                    or card.select_one(".puis-sponsored-label-text, .s-sponsored-label-info-icon"):
+                continue
+            h = card.select_one("h2")
+            title = h.get_text(" ", strip=True) if h else ""
+            if not require_any or any(w.lower() in title.lower() for w in require_any):
+                out.append((asin, title))
+        return out
+
     def best_sellers(self, slug, page=1, kind="bestsellers"):
         url = f"{BASE}/gp/{kind}/{slug}/" + (f"?pg={page}" if page > 1 else "")
         page = self.get(url).text
@@ -1207,6 +1223,23 @@ def pick_details(pick, amz_factory):
         if not found:
             return f"couldn't find \"{pick['id']}\" on AliExpress"
         pick = {**pick, "store": "aliexpress", "id": str(found["product_id"])}
+    if pick["store"] == "amazon_focus":  # a brand Matt wants a steady selection of (e.g. NeeDoh)
+        amz = amz_factory()
+        if not amz:
+            return None
+        fc = CONFIG.get("focus", {})
+        st = load_json(STATE_FILE, {}) if not isinstance(pick.get("_state"), dict) else pick["_state"]
+        recent_days = fc.get("repost_days", 14)
+        seen = []
+        for q in fc.get("queries", []):
+            for asin, title in amz.search_all(q, fc.get("require_any", [])):
+                if asin in seen or (fc.get("avoid") and re.search(fc["avoid"], title, re.I)):
+                    continue
+                seen.append(asin)
+        fresh = [a for a in seen if not (st.get("posted", {}).get(a) and is_recent(st["posted"][a], recent_days))]
+        if not fresh:
+            return "no new %s items right now" % fc.get("name", "focus")
+        pick = {**pick, "store": "amazon", "id": fresh[0], "_candidates": fresh[1:6]}
     if pick["store"] == "amazon_search":
         amz = amz_factory()
         if not amz:
@@ -1523,6 +1556,18 @@ def main():
             state.setdefault("pick_queue", []).append(dict(sp))
             state["scheduled_picks_done"] = sorted(done | {sp["sid"]})
             done.add(sp["sid"])
+    # focus brand (config "focus"): a few posts a day at fixed Israel hours, ahead of the normal mix
+    fc = CONFIG.get("focus") or {}
+    if fc.get("hours"):
+        today, hr = israel_now().date().isoformat(), israel_now().hour
+        fdone = set(state.get("focus_done", []))
+        for h in fc["hours"]:
+            sid = f"focus-{today}-{h}"
+            if hr >= h and sid not in fdone and not any(x.get("sid") == sid for x in state.get("pick_queue", [])):
+                state.setdefault("pick_queue", []).insert(0, {"store": "amazon_focus", "id": fc.get("name", "focus"),
+                                                              "url": "focus", "over_cap_ok": True, "sid": sid, "focus": True})
+                fdone.add(sid)
+        state["focus_done"] = sorted(fdone)[-30:]
     # Matt's own picks (links he sent the bot) go first
     pk = None
     if due and not targeted and not OWNER_TEST and state.get("pick_queue"):
@@ -1552,7 +1597,8 @@ def main():
         if isinstance(found, tuple) and state["posted"].get(found[0]["asin"]) and \
                 is_recent(state["posted"][found[0]["asin"]], CONFIG["repost_after_days"]):
             state["pick_queue"].remove(pk)
-            tg_owner(f"🔁 Skipped your pick ({pk.get('id')}): it was already posted in the last 7 days")
+            if not pk.get("focus"):
+                tg_owner(f"🔁 Skipped your pick ({pk.get('id')}): it was already posted in the last 7 days")
             found = None
         if isinstance(found, tuple):
             it, info, category = found
@@ -1560,7 +1606,8 @@ def main():
             before = posted_now
             post(it, info, category)
             if posted_now > before:
-                tg_owner(f"📢 Posted your pick: {info['title'][:60]}")
+                if not pk.get("focus"):
+                    tg_owner(f"📢 Posted your pick: {info['title'][:60]}")
                 save_state(state)
                 return
             log(f"Matt's pick {pk.get('id')}: Telegram send failed")
@@ -1571,7 +1618,8 @@ def main():
         elif isinstance(found, str):
             state["pick_queue"].remove(pk)
             log(f"Matt's pick {pk.get('id')} dropped: {found}")
-            tg_owner(f"⚠️ Couldn't post your pick ({pk['url'][:80]}): {found}")
+            if not pk.get("focus"):
+                tg_owner(f"⚠️ Couldn't post your pick ({pk['url'][:80]}): {found}")
         else:
             log("Matt's pick (Amazon) waiting: Amazon isn't reachable right now")
 
