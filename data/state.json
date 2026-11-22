@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 5
+  "2026-11-22": 6
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -125,6 +125,7 @@
   "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
   "d printed camera for": "2026-11-21T17:30:54.378778+00:00",
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
+  "ddpai dash cam n": "2026-11-22T07:45:46.251648+00:00",
   "denokin portable espresso coffee": "2026-11-21T06:01:01.176222+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
@@ -334,7 +335,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T06:08:56.239957+00:00",
- "last_post_at": "2026-11-22T07:15:50.624022+00:00",
+ "last_post_at": "2026-11-22T07:45:46.251459+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -862,22 +863,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Vention power bank 50000mAh"
-   ],
-   "at": "2026-11-21T16:17:00+00:00",
-   "id": "Vention 50000mAh 65W power bank",
-   "not_before": "2026-11-22T07:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "vention",
-    "50000"
-   ],
-   "sid": "shot-1121-4",
-   "store": "aliexpress_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "SULIFEEL adjustable inline skates girls light up wheels"
    ],
    "at": "2026-11-21T16:17:00+00:00",
@@ -1041,6 +1026,7 @@
   "ali-1005005972760920": "2026-11-19T19:01:02.038780+00:00",
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
+  "ali-1005006291767331": "2026-11-22T07:45:46.193302+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
   "ali-1005006674062256": "2026-11-21T07:01:01.342436+00:00",
@@ -1157,10 +1143,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "sporting-goods/3407731",
   "aliexpress/robot vacuum cleaner",
-  "aliexpress/kids gift toy"
+  "aliexpress/kids gift toy",
+  "aliexpress/dash cam"
  ],
  "recent_groups": [
   "fashion",
@@ -1171,17 +1157,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "beauty",
   "kitchen",
   "sport",
   "tech",
-  "home"
+  "home",
+  "car"
  ],
  "recent_titles": [
-  "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
   "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
   "3D Printed Camera for Coffee Printer Latte Art Mechanical Coffee Stencil Maker for Cappuccino Chocolate Cafe with Stencil Cards",
   "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
@@ -1192,7 +1177,8 @@
   "IKAPE V6 Impact Espresso Tamper,Breville Calibrated Meta Coffee Tamper,Coffee Machine,Fits Over 51/54/58mm Portafilters",
   "Trendy Queen Womens Hoodies Oversized Sweatshirt",
   "55NRobot Window Cleaner for Home Appliance - Automatic Robotic Window Washer for Clean Glass Windows Specialty Cleaners",
-  "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts"
+  "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts",
+  "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
