@@ -1175,6 +1175,15 @@
    "sid": "pick-1122-amz5",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0C9SS3W9K"
+  },
+  {
+   "alt": [],
+   "id": "B0971NTY4Q",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1122-amz6",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0971NTY4Q"
   }
  ],
  "posted": {
