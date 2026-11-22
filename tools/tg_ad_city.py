@@ -13,8 +13,8 @@ W = H = 1080
 G, T, CTA = 10, 330, 190
 
 
-def giveaway_badge(im, cx, cy):
-    bw, bh = 820, 96
+def giveaway_badge(im, cx, cy, bw=820):
+    bh = 96
     b = Image.new("RGBA", (bw + 12, bh + 12), (0, 0, 0, 0))
     d = ImageDraw.Draw(b)
     d.rounded_rectangle([10, 12, bw + 10, bh + 10], radius=22, fill=(0, 0, 0, 255))
