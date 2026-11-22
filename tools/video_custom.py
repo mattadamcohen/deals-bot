@@ -46,15 +46,16 @@ def tg_badge(im):
     return im
 
 
-def render(p, src_bytes, start=0, dur=30):
+def render(p, src_bytes, start=0, dur=30, crop_bottom=0.0):
     vp.OUT.mkdir(exist_ok=True)
     raw = vp.OUT / "src.mp4"
     raw.write_bytes(src_bytes)
     ov = vp.OUT / "overlay.png"
     tg_badge(vp.banner(p)).save(ov)
     final = vp.OUT / "product-video.mp4"
-    vf = ("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg];"
-          "[0:v]scale=1080:1170:force_original_aspect_ratio=decrease[fg];"
+    pre = f"[0:v]crop=iw:ih*{1 - crop_bottom:.3f}:0:0[src];[src]split[s1][s2];" if crop_bottom else "[0:v]split[s1][s2];"
+    vf = (pre + "[s1]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg];"
+          "[s2]scale=1080:1170:force_original_aspect_ratio=decrease[fg];"
           "[bg][fg]overlay=(W-w)/2:330+(1170-h)/2[v1];[v1][1:v]overlay=0:0,format=yuv420p[v]")
     r = subprocess.run([reel.FFMPEG, "-y", "-loglevel", "error", "-ss", str(start), "-t", str(dur), "-i", str(raw), "-i", str(ov),
                         "-filter_complex", vf, "-map", "[v]", "-map", "0:a?", "-r", "30", "-c:v", "libx264",
@@ -78,7 +79,7 @@ def main():
         if not short or len(short) > 80:
             sys.exit("no short AliExpress link; not posting")
         p["link"] = short
-    final = render(p, src, spec.get("start", 0), spec.get("dur", 30))
+    final = render(p, src, spec.get("start", 0), spec.get("dur", 30), spec.get("crop_bottom", 0.0))
     print("rendered", final, final.stat().st_size // 1024, "KB")
     if "--no-instagram" in sys.argv:
         return
