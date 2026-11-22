@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 8
+  "2026-11-22": 9
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -56,6 +56,7 @@
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GYPPKBF3": "2026-11-22T09:15:55.387256+00:00",
   "B0GYRXHQXM": "2026-11-20T16:34:31.176210+00:00",
   "B0H1RDP1NS": "2026-11-20T17:31:34.862461+00:00",
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
@@ -105,7 +106,7 @@
   "biodance hydrogel eye patches": "2026-11-20T17:31:34.862466+00:00",
   "bitdo m g wireless": "2026-11-20T19:30:59.986978+00:00",
   "body hair pubic hair": "2026-11-19T06:01:02.150321+00:00",
-  "boka toothpaste": "2026-11-14T17:08:14.169989+00:00",
+  "boka toothpaste": "2026-11-22T09:15:55.387262+00:00",
   "brushless electric drill tapping": "2026-11-20T18:30:56.548042+00:00",
   "butter stick wax cracking": "2026-11-20T20:16:04.722638+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
@@ -338,7 +339,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T06:08:56.239957+00:00",
- "last_post_at": "2026-11-22T08:45:48.488647+00:00",
+ "last_post_at": "2026-11-22T09:15:55.387054+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -957,6 +958,7 @@
   "B07YH1SJ8V": "2026-11-17T08:01:21.499158+00:00",
   "B07ZSWRKZY": "2026-11-14T19:32:53.716210+00:00",
   "B082PN4X5J": "2026-11-19T06:34:11.167876+00:00",
+  "B083JHCCV2": "2026-11-22T09:15:55.313274+00:00",
   "B0846KKHK2": "2026-11-18T19:04:42.905275+00:00",
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B087GMJXMC": "2026-11-22T05:04:10.307317+00:00",
@@ -1148,31 +1150,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids gift toy",
   "aliexpress/dash cam",
   "videogames/402053011",
-  "aliexpress/espresso accessories"
+  "aliexpress/espresso accessories",
+  "hpc"
  ],
  "recent_groups": [
-  "lawn-garden",
   "beauty",
   "fashion",
   "hpc",
   "sporting-goods",
-  "videogames"
+  "videogames",
+  "hpc"
  ],
  "recent_themes": [
-  "beauty",
   "kitchen",
   "sport",
   "tech",
   "home",
   "car",
   "tech",
-  "kitchen"
+  "kitchen",
+  "beauty"
  ],
  "recent_titles": [
-  "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
   "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
   "100W Heated Lunch Box for Adults with Insulated Bag \uff08Black\uff09",
   "VGN Dragonfly 3 Master Plus Pro MAX Wireless Gaming Mouse Tri-Mode SuperLight Rechargeable Esports FPS Mice TurboPlus Bluetooth",
@@ -1183,7 +1184,8 @@
   "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts",
   "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
   "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
-  "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools"
+  "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools",
+  "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1211,6 +1213,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136166
 }
