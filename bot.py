@@ -1408,10 +1408,16 @@ def post_due(state):
     if state.get("day_counts", {}).get(today, 0) >= per_day:
         log("Daily post limit reached")
         return False
+    # Pace by schedule, not by a fixed gap: the trigger only fires every ~15 minutes, so a fixed gap
+    # would round up to 30 minutes and cap the day at ~32 posts whatever posts_per_day says.
     gap = (end - start) * 60 / per_day
+    done_today = state.get("day_counts", {}).get(today, 0)
+    elapsed = (local.hour - start) * 60 + local.minute
+    expected = per_day * elapsed / ((end - start) * 60)
     last = state.get("last_post_at")
-    if last and (now() - datetime.fromisoformat(last)).total_seconds() / 60 < gap - 8:
-        log(f"Last post was less than {gap:.0f} minutes ago, waiting")
+    since = (now() - datetime.fromisoformat(last)).total_seconds() / 60 if last else 1e9
+    if since < min(12, gap - 4) or (done_today >= expected + 1 and since < gap - 8):
+        log(f"On schedule ({done_today} posted, ~{expected:.0f} due by now; last {since:.0f} min ago), waiting")
         return False
     if state.get("blocked_until", "") > now().isoformat():
         log(f"Amazon cooldown until {state['blocked_until'][11:16]} UTC: posting from the reserve instead")
