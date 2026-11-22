@@ -1749,6 +1749,8 @@ def main():
             it, info, category = found
             if pk.get("title"):  # Matt-approved honest title (e.g. drop "4K"/brand claims the listing can't back up)
                 info["title"] = pk["title"]
+            if pk.get("style_of"):  # unofficial brand-style item: label it "בסגנון X"
+                info["style_of"] = pk["style_of"]
             state["pick_queue"].remove(pk)
             before = posted_now
             post(it, info, category)
