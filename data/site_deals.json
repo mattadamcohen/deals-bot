@@ -1,5 +1,28 @@
 [
 {
+"id": "B0F7K6G16L",
+"store": "amazon",
+"theme": "kitchen",
+"title_he": "STANLEY Everyday Camp Mug, 24 oz, Hammertone Green",
+"title_en": "STANLEY Everyday Camp Mug, 24 oz, Hammertone Green",
+"price": "$25.88",
+"was": "$30.00",
+"discount": "14%",
+"rating": "4.5",
+"reviews": "2,583",
+"sold": "",
+"pop": 2583.0,
+"img": "https://m.media-amazon.com/images/I/711zI++UQ-L._AC_SL1500_.jpg",
+"link": "https://www.amazon.com/dp/B0F7K6G16L?tag=ilamazondeals-20",
+"posted_at": "2026-11-22T15:46:33.321249+00:00",
+"msg": [
+621,
+621,
+622,
+623
+]
+},
+{
 "id": "ali-1005005968742948",
 "store": "aliexpress",
 "theme": "home",
