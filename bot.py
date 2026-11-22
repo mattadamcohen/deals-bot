@@ -271,8 +271,8 @@ class Amazon:
             if not re.fullmatch(r"[A-Z0-9]{10}", asin or "") or "AdHolder" in " ".join(card.get("class", [])) \
                     or card.select_one(".puis-sponsored-label-text, .s-sponsored-label-info-icon"):
                 continue
-            h = card.select_one("h2")
-            title = h.get_text(" ", strip=True) if h else ""
+            # the h2 is sometimes just the brand ("Schylling"); match against the whole card text
+            title = card.get_text(" ", strip=True)[:300]
             if not require_any or any(w.lower() in title.lower() for w in require_any):
                 out.append((asin, title))
         return out
@@ -1240,6 +1240,7 @@ def pick_details(pick, amz_factory):
         if not fresh:
             return "no new %s items right now" % fc.get("name", "focus")
         tried = []
+        log(f"  focus {fc.get('name')}: {len(seen)} search results, {len(fresh)} not posted recently")
         for asin in fresh[:8]:  # first one that actually has a price and ships free to Israel
             info = amz.product(asin)
             if not info.get("price") or info.get("shipping") in ("paid", "no"):
