@@ -922,6 +922,14 @@
  },
  "pick_queue": [
   {
+   "focus": true,
+   "id": "NeeDoh",
+   "over_cap_ok": true,
+   "sid": "focus-2026-11-22-retry",
+   "store": "amazon_focus",
+   "url": "focus"
+  },
+  {
    "alt": [
     "Osprey Daylite expandable backpack"
    ],
