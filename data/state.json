@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 3
+  "2026-11-22": 4
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -211,6 +211,7 @@
   "new v electric go-kart": "2026-11-20T16:01:03.784343+00:00",
   "niimbot b thermal printer": "2026-11-20T15:31:03.473352+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
+  "nrobot window cleaner for": "2026-11-22T06:45:56.730169+00:00",
   "oeak jelly bras wireless": "2026-11-15T16:02:06.149375+00:00",
   "oneplus charger original w": "2026-11-18T06:00:57.960511+00:00",
   "original broadlink rm pro": "2026-11-19T14:30:55.884073+00:00",
@@ -332,7 +333,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T06:08:56.239957+00:00",
- "last_post_at": "2026-11-22T06:08:59.422634+00:00",
+ "last_post_at": "2026-11-22T06:45:56.729938+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1141,6 +1142,7 @@
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
   "ali-1005013261781803": "2026-11-21T18:00:54.788125+00:00",
   "ali-1005013336234331": "2026-11-21T16:31:10.164992+00:00",
+  "ali-1005013336246252": "2026-11-22T06:45:56.685489+00:00",
   "ali-1005013410767445": "2026-11-20T05:01:02.226983+00:00",
   "ali-1005013410819294": "2026-11-19T12:30:54.859058+00:00",
   "ali-1005013488905199": "2026-11-19T18:30:53.393687+00:00",
@@ -1153,10 +1155,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/gaming mouse wireless",
   "hpc",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "sporting-goods/3407731"
+  "sporting-goods/3407731",
+  "aliexpress/robot vacuum cleaner"
  ],
  "recent_groups": [
   "fashion",
@@ -1168,16 +1170,15 @@
  ],
  "recent_themes": [
   "tech",
-  "tech",
   "kids",
   "fashion",
   "tech",
   "beauty",
   "kitchen",
-  "sport"
+  "sport",
+  "tech"
  ],
  "recent_titles": [
-  "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
   "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
   "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
   "EverFoams Womens Fuzzy Open-toe Slippers Memory Foam Indoor House Shoes",
@@ -1188,7 +1189,8 @@
   "VGN Dragonfly 3 Master Plus Pro MAX Wireless Gaming Mouse Tri-Mode SuperLight Rechargeable Esports FPS Mice TurboPlus Bluetooth",
   "Energizer AA and AAA Batteries, 48 Count, Combo Pack Contains 24 Max Double A and 24 Max Triple A Batteries",
   "IKAPE V6 Impact Espresso Tamper,Breville Calibrated Meta Coffee Tamper,Coffee Machine,Fits Over 51/54/58mm Portafilters",
-  "Trendy Queen Womens Hoodies Oversized Sweatshirt"
+  "Trendy Queen Womens Hoodies Oversized Sweatshirt",
+  "55NRobot Window Cleaner for Home Appliance - Automatic Robotic Window Washer for Clean Glass Windows Specialty Cleaners"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1216,6 +1218,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136166
 }
