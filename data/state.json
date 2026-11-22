@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 21
+  "2026-11-22": 22
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -118,6 +118,7 @@
   "bottle bottle insulated water": "2026-11-22T11:46:07.988435+00:00",
   "brushless electric drill tapping": "2026-11-20T18:30:56.548042+00:00",
   "butter stick wax cracking": "2026-11-20T20:16:04.722638+00:00",
+  "capacity clothes storage bag": "2026-11-22T15:32:30.042662+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car mirror radio multimedia": "2026-11-20T19:00:59.482341+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
@@ -384,7 +385,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T15:19:53.179105+00:00",
+ "last_post_at": "2026-11-22T15:32:30.042369+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -922,14 +923,6 @@
  },
  "pick_queue": [
   {
-   "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-22-retry",
-   "store": "amazon_focus",
-   "url": "focus"
-  },
-  {
    "alt": [
     "Osprey Daylite expandable backpack"
    ],
@@ -1052,6 +1045,7 @@
   "B0HMC3TGW7": "2026-11-21T19:01:11.969851+00:00",
   "ali-1005004370747413": "2026-11-20T15:31:03.427709+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
+  "ali-1005005968742948": "2026-11-22T15:32:29.922830+00:00",
   "ali-1005005972760920": "2026-11-19T19:01:02.038780+00:00",
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
@@ -1180,10 +1174,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/board game family",
   "aliexpress/backpack",
   "aliexpress/Attack Shark",
-  "beauty/11060451"
+  "beauty/11060451",
+  "aliexpress/under bed storage"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1194,17 +1188,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "kitchen",
   "other",
   "sport",
   "pets",
   "kids",
   "fashion",
   "tech",
-  "beauty"
+  "beauty",
+  "home"
  ],
  "recent_titles": [
-  "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
   "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance",
   "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
   "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
@@ -1215,7 +1208,8 @@
   "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games",
   "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd",
   "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard",
-  "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)"
+  "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)",
+  "Large Capacity Clothes Storage Bag Foldable Blanket Storage Containers for Organizing Bedroom Closet"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1243,6 +1237,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136185
 }
