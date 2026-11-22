@@ -2508,5 +2508,7 @@
   "bundle_price_usd": [
     6,
     18
-  ]
+  ],
+  "site_days": 30,
+  "site_domain": "israelideals.com"
 }
