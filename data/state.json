@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 17
+  "2026-11-22": 18
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -183,6 +183,7 @@
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
   "kawaii rainbow dumpling squishy": "2026-11-21T16:31:10.248017+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
+  "kid picture guessing board": "2026-11-22T13:45:48.670233+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "komery k digital camera": "2026-11-20T13:30:48.387965+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
@@ -375,7 +376,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T13:15:44.562968+00:00",
+ "last_post_at": "2026-11-22T13:45:48.670031+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1115,6 +1116,7 @@
   "ali-1005010348397664": "2026-11-20T09:30:51.498552+00:00",
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
+  "ali-1005010487272796": "2026-11-22T13:45:48.478789+00:00",
   "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
@@ -1168,10 +1170,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "sporting-goods/3407731",
-  "aliexpress/pet water fountain"
+  "aliexpress/pet water fountain",
+  "aliexpress/board game family"
  ],
  "recent_groups": [
   "hpc",
@@ -1182,17 +1184,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "kids",
   "tech",
   "kitchen",
   "kids",
   "kitchen",
   "other",
   "sport",
-  "pets"
+  "pets",
+  "kids"
  ],
  "recent_titles": [
-  "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
   "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
   "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools",
   "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
@@ -1203,7 +1204,8 @@
   "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
   "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
   "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks",
-  "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window"
+  "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window",
+  "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1232,5 +1234,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136182
+ "tg_offset": 260136184
 }
