@@ -16,6 +16,13 @@ def main():
     im = Image.new("RGB", (W, H), D.BLACK)
     im.paste(D.title_panel(LW - 2 * G, H - CTA - 2 * G, big=150, sub="."), (G, G))
     giveaway_badge(im, LW / 2, (H - CTA) * 0.70, bw=660)
+    d = ImageDraw.Draw(im)
+    more, fm = "ועוד מאות מוצרים!", F(900, 64)
+    from ad import size
+    mw, mh, _ = size(d, more, fm)
+    my = (H - CTA) * 0.70 + 90
+    d.rectangle([LW / 2 - mw / 2 - 30, my, LW / 2 + mw / 2 + 30, my + mh + 34], fill=D.BLACK, outline=D.TEAL, width=4)
+    text_c(d, LW / 2, my + 15, more, fm, D.TEAL)
     pw = (W - LW) / 3
     P = [("tga_gecko", "שממית מטפסת", 23.93), ("tga_monitor", "מסך גיימינג נייד", 126.69), ("tga_coffee", "שבלונות לקפה", 16.63)]
     for i, (name, he, usd) in enumerate(P):
