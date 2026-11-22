@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0GZYMJTJH",
-  "title": "WIHOLL Fall Outfits for Women 2026 Hollow Out Knit Sweater Fashion Clothing",
-  "title_he": "WIHOLL תלבושות סתיו לנשים 2026 סוודר סרוג חלול בגדי אופנה",
-  "price": "$17.08",
-  "was": "$36.99",
-  "discount": "54%",
-  "rating": "4.4",
-  "reviews": "298",
-  "rank": 23,
-  "source": "bestsellers",
-  "message_id": 440,
-  "image": "https://m.media-amazon.com/images/I/81oUXqrTupL._AC_SL1500_.jpg",
-  "variant": 508,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   440,
-   441,
-   442
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/93b51a73-56cd-4cec-8e34-20dda1219a32/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1044456",
-  "category_en": "Women's Sweaters",
-  "category_he": "סוודרים לנשים",
-  "posted_at": "2026-11-20T16:34:31.173074+00:00"
- },
- {
   "asin": "ali-1005009463011323",
   "title": "Baseus EH10 NC ANC Wireless Headphones 45dB Adaptive Hybrid Noise Cancelling Headsets Hi-Res LDAC Headphone Bluetooth 6.0 80Hrs",
   "title_he": "Baseus EH10 NC ANC אוזניות אלחוטיות 45dB אדפטיביות היברידיות ביטול רעשים אוזניות Hi-Res LDAC אוזניות Bluetooth 6.0 80Hrs",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-22T05:31:18.326274+00:00"
+ },
+ {
+  "asin": "B0C65S55Q2",
+  "title": "Trendy Queen Womens Hoodies Oversized Sweatshirt",
+  "title_he": "סווטשירט אוברסייז עם קפוצ'ונים לנשים קווין טרנדי",
+  "price": "$18.99",
+  "was": "$36.99",
+  "discount": "49%",
+  "rating": "4.5",
+  "reviews": "11,001",
+  "rank": 21,
+  "source": "bestsellers",
+  "message_id": 560,
+  "image": "https://m.media-amazon.com/images/I/61glUTGQnUL._AC_SL1500_.jpg",
+  "variant": 294,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   560,
+   561,
+   562
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/30f72c0d-fec1-4c05-8549-b378e7270450/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "sporting-goods/3407731",
+  "category_en": "Exercise & Fitness",
+  "category_he": "כושר",
+  "posted_at": "2026-11-22T06:08:59.420485+00:00"
  }
 ]
