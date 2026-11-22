@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 24
+  "2026-11-22": 25
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -227,6 +227,7 @@
   "music boxing machine for": "2026-11-19T05:30:57.619746+00:00",
   "native aluminum-free deodorant for": "2026-11-20T14:01:00.195934+00:00",
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
+  "needoh cloud pleaser slow": "2026-11-22T16:16:26.968771+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
   "new squishy watermelon fidget": "2026-11-21T06:31:24.904936+00:00",
@@ -349,6 +350,12 @@
    "username": "",
    "via": "join"
   },
+  "1580434942": {
+   "at": "2026-11-22T16:15:15.214413+00:00",
+   "name": "Richard",
+   "username": "Ricwoolf",
+   "via": "join"
+  },
   "1607434488": {
    "at": "2026-11-22T16:11:51.820238+00:00",
    "name": "Mat",
@@ -433,9 +440,27 @@
    "username": "",
    "via": "join"
   },
+  "7233704494": {
+   "at": "2026-11-22T16:15:15.214390+00:00",
+   "name": "Alan",
+   "username": "",
+   "via": "join"
+  },
   "7753885054": {
    "at": "2026-11-22T16:05:29.652128+00:00",
    "name": "Matan",
+   "username": "",
+   "via": "join"
+  },
+  "8792830168": {
+   "at": "2026-11-22T16:15:15.214403+00:00",
+   "name": "Harris",
+   "username": "harrisgan",
+   "via": "join"
+  },
+  "8848378338": {
+   "at": "2026-11-22T16:15:15.214351+00:00",
+   "name": "adammm",
    "username": "",
    "via": "join"
   }
@@ -458,11 +483,15 @@
   "6262171791",
   "6356648161",
   "1878655917",
-  "1607434488"
+  "1607434488",
+  "8848378338",
+  "7233704494",
+  "8792830168",
+  "1580434942"
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T16:01:17.524909+00:00",
+ "last_post_at": "2026-11-22T16:16:26.968444+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1000,14 +1029,6 @@
  },
  "pick_queue": [
   {
-   "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-22-retry3",
-   "store": "amazon_focus",
-   "url": "focus"
-  },
-  {
    "alt": [
     "Osprey Daylite expandable backpack"
    ],
@@ -1242,6 +1263,7 @@
   "ali-1005013011426948": "2026-11-20T07:00:54.719891+00:00",
   "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
+  "ali-1005013040550311": "2026-11-22T16:16:26.938851+00:00",
   "ali-1005013125741328": "2026-11-19T17:00:55.530593+00:00",
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
@@ -1261,10 +1283,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty/11060451",
   "aliexpress/under bed storage",
   "kitchen/510136",
-  "aliexpress/kids toys"
+  "aliexpress/kids toys",
+  "pick"
  ],
  "recent_groups": [
   "videogames",
@@ -1275,17 +1297,16 @@
   "kitchen"
  ],
  "recent_themes": [
-  "pets",
   "kids",
   "fashion",
   "tech",
   "beauty",
   "home",
   "kitchen",
+  "kids",
   "kids"
  ],
  "recent_titles": [
-  "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
   "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
   "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
   "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks",
@@ -1296,7 +1317,8 @@
   "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)",
   "Large Capacity Clothes Storage Bag Foldable Blanket Storage Containers for Organizing Bedroom Closet",
   "STANLEY Everyday Camp Mug, 24 oz, Hammertone Green",
-  "Cute Kawaii Cat Squishy Soft Silicone Stress Relief Squeeze Toy Anxiety Relief Desk Buddy Gift for Kids Adults Desk Decor Gift"
+  "Cute Kawaii Cat Squishy Soft Silicone Stress Relief Squeeze Toy Anxiety Relief Desk Buddy Gift for Kids Adults Desk Decor Gift",
+  "NeeDoh-style Cloud Pleaser Slow Rising Squishy Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1325,5 +1347,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136195
+ "tg_offset": 260136199
 }
