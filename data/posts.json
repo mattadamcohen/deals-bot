@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0GHMZXX8Y",
-  "title": "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
-  "title_he": "medicube PDRN Collagen Volume Multi Balm Stick, ממצק פנים וגוף",
-  "price": "$11.90",
-  "was": "$34.00",
-  "discount": "41%",
-  "rating": "4.0",
-  "reviews": "7,469",
-  "rank": 29,
-  "source": "bestsellers",
-  "message_id": 530,
-  "image": "https://m.media-amazon.com/images/I/613iSS1QL9L._SL1500_.jpg",
-  "variant": 534,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   530,
-   531,
-   532
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8f714671-9a14-4907-8315-99734b706a92.mov/productVideoOptimized.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-21T16:01:21.296377+00:00"
- },
- {
   "asin": "ali-1005013336234331",
   "title": "Kawaii Rainbow Dumpling Squishy Party Tableware Disposable Cartoon Paper Plates Cups Napkins Kids Steamed Bun Birthday Decor",
   "title_he": "Kawaii Rainbow Dumpling כלי שולחן חד פעמי צלחות נייר מצוירות מצוירות כוסות מפיות ילדים לחמנייה מאודה עיצוב יום הולדת",
@@ -1158,5 +1129,34 @@
   "category_en": "Car",
   "category_he": "לרכב",
   "posted_at": "2026-11-22T18:01:10.936678+00:00"
+ },
+ {
+  "asin": "ali-1005010109614553",
+  "title": "12m/7m Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Lights For Outdoor Holiday Decoration Lighting",
+  "title_he": "12m/7m סולארי מחרוזת אורות גן עמיד למים צינור צינור מנורת זר אורות עבור חיצוני חג קישוט תאורת",
+  "price": "$6.42",
+  "was": "$12.84",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 652,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S37179dc9fcca49a3a23b700d83127fbb3.jpg",
+  "variant": 954,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTpP7an20NTZlfggRVXw19TG36INSFaTblOyVv7AUuDywRu12zWMGDyWZEzQKkUmBeGeHBpQOCwWeRJpwJxxs5l46ejCeYgwsBHnqP7l9hTv4FfFXOEcc30YhriRvPKRvS1PNHvBNdqufND7majimU70f7x5k89lvncURhs0EmRsNesvKEmRXOLl8MOOdS1E3eEgdmOMc2BbuSLKBAinHnWZ324bwZLqF7mq97opmKCeU4cm7V2hiZ9WcKXfYZbjiN6W5DiLUT7uKGn9mImNSKuiNgfIxjxmSXnsv9rSHwqk1Kr9j2tlrnSlzFINRoVr9CTMp9jSEXRvAIp0MJbMRHAO1w5WJA3WNOUnz050g0q1pKm3ZjVsWPvK0hJ4s34OHMYDI3zjQBHVW5Pc7bT5P3xiaS6hjke3r1hIE8vaYjRh9vKApRdc42mxnghEDtMdBbVmcFemh238BlOl1VkfCf7w6dYoVpeQlqINFfdSIsz5e2p38JD1Ox6IOPyfyHwMKn0KfDpvJKG37zsbH9KmAgOrwdCWKBfhPeLOKIyZ4QW93N3XaITI6wRdRZZsvMl9jMyOO543jhUKjpKbQ3ag8M6b7zpFIPtW28SacKc8iAaXL3TP1u0hPRu6zRH4z8Qpd3ZGm3ep2wiUvO2Rv4TphxDtzx6nCVM3cQuN49bbroCRmMEw1RBxd6pehSL40znzKjZXkCHr8mZ0W",
+  "sold": "561",
+  "album_ids": [
+   652,
+   653,
+   654
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/solar string lights outdoor",
+  "category_en": "Outdoor lighting",
+  "category_he": "תאורת חוץ",
+  "posted_at": "2026-11-22T18:15:51.748539+00:00"
  }
 ]
