@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 37
+  "2026-11-22": 38
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -201,6 +201,7 @@
   "kid picture guessing board": "2026-11-22T13:45:48.670233+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "komery k digital camera": "2026-11-20T13:30:48.387965+00:00",
+  "latest wifi camera features": "2026-11-22T20:01:26.796564+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "led wall lights outdoor": "2026-11-21T13:31:03.898090+00:00",
@@ -522,7 +523,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-22T19:34:12.138055+00:00",
+ "last_post_at": "2026-11-22T20:01:26.796255+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1066,15 +1067,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "1005013067433161",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-minicam",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3qS03I9"
-  },
-  {
-   "alt": [],
    "id": "1005012505016533",
    "over_cap_ok": true,
    "require": [],
@@ -1389,6 +1381,7 @@
   "ali-1005013031310901": "2026-11-19T11:30:48.582494+00:00",
   "ali-1005013040484406": "2026-11-19T07:00:58.579945+00:00",
   "ali-1005013040550311": "2026-11-22T16:16:26.938851+00:00",
+  "ali-1005013067433161": "2026-11-22T20:01:26.753313+00:00",
   "ali-1005013125741328": "2026-11-19T17:00:55.530593+00:00",
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
@@ -1408,10 +1401,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids toys",
   "aliexpress/GaN charger 65W",
   "aliexpress/tool set home",
-  "toys-and-games/166092011"
+  "toys-and-games/166092011",
+  "pick"
  ],
  "recent_groups": [
   "beauty",
@@ -1422,17 +1415,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "tech",
   "kitchen",
   "car",
   "home",
   "kids",
   "tech",
   "home",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted",
   "EVA Storage Case for Game Console, Projector and Vacuum Cleaner, Large-Capacity Multi-Functional Tool Bag for Outdoor Travel",
   "NeeDoh-style Textured Slow Rebound Gel Stress Ball, Anxiety Relief Fidget Sensory Toy, Holiday & Back to School Gift, Random Color",
   "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant",
@@ -1443,7 +1435,8 @@
   "Medium Size Magnetic Building Blocks, DIY STEM Construction Magnet Toys, Educational Learning Playset for Kids",
   "Baseus GaN3 100/ 65W Desktop Charger Quick Charge QC 3.04.0 USB C Type C Phone Charger For iPhone15 Huawei Xiaomi MacBook Laptop",
   "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance",
-  "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand"
+  "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
+  "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",

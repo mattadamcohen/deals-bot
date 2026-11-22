@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0H87K51V4",
-  "title": "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
-  "title_he": "צעצוע שממית מטפס על קיר לילדים, שממית שלט רחוק, שממית סורק קיר עם עיניים זוהרות לד, צעצוע זחל RC, ציאן",
-  "price": "$23.93",
-  "was": "$30.99",
-  "discount": "23%",
-  "rating": "4.1",
-  "reviews": "26",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 545,
-  "image": "https://m.media-amazon.com/images/I/7126l+v462L._AC_SL1254_.jpg",
-  "variant": 856,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   545,
-   546,
-   547
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/67b5c0dc-f18c-4e5e-b2c2-2ad8d057e989/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-21T18:31:42.633978+00:00"
- },
- {
   "asin": "B0HMC3TGW7",
   "title": "100W Heated Lunch Box for Adults with Insulated Bag （Black）",
   "title_he": "קופסת אוכל מחוממת 100W למבוגרים עם תיק מבודד (שחור)",
@@ -1158,5 +1129,34 @@
   "category_en": "Building Toys",
   "category_he": "צעצועי הרכבה",
   "posted_at": "2026-11-22T19:34:12.135765+00:00"
+ },
+ {
+  "asin": "ali-1005013067433161",
+  "title": "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection",
+  "title_he": "2026 מצלמת מיני WiFi האחרונה. כולל צפייה ישירה מרחוק באמצעות טלפון נייד, קליטת אודיו חד כיוונית, זיהוי תנועה",
+  "price": "$10.33",
+  "was": "$25.95",
+  "discount": "60%",
+  "rating": "84.1%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 667,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1b4e7c1ee5544cbead11addd1db13d68O.jpg",
+  "variant": 593,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2OFcir6ci25LI7q17bhDnWmpkJ6TG5Ej3RBHykw1wQ0fBK3OjKKqqBfAVHLfkdR0Z323MmJqYfCnONWkiOgG2HcW2CeDdqn6cW37RteldihBHzU1z1jb9PqZu06PjFQsAQbE5aKTYB5Xn8D8QBvmcJLvTmGevg3seuWafEStweNQaLZZLauzI4WcDVqL96nrL7qmIrBwJSyXGJJZiGnVgqgm6zsAvVOOfmnaXFUifXNyebEHDK5nAilr24F3f8SClxdCc7vywZ6jCZc0fAH4POLiewnVoN371HZtXPyOtdqnRlNZc44rPhDllg192VujsD17RHcL7vtijsCmvVAinfWWaWccfd40N8t61IscpRoNWkPjSfua0YeOpLYBD2EFwhsJZfOUQdw4u4P641s97PUwZIdvOAxlHGUX9VevxZyrXL5YK8lYQU3x08EFolXIxX0B5EDd3uftqQ7t6x0rpoBdTLIt09zTDc2nWKhVwwJMKLLDK0q7eEnFkH7gkf3yMcayESKHQo3fpS1N6ECEGNh47QLqN0y054rvYkNlXwtI9L3AxMdiDoqsODFbtB5evuXZaV4B7Wh5QhD0rf68dubFoLJp0uvb7ekFQaVztzX4ceOTq4tmnTu8kus3C3LxBP8L40hiR0UCsQWrcY1tIjwDGVO40GAaPjeq9NsWRDtkST7qyLBFS6xXYTYhCU2fuCgQpjPKuWEBV",
+  "sold": "4,000",
+  "album_ids": [
+   667,
+   668,
+   669
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-22T20:01:26.794704+00:00"
  }
 ]
