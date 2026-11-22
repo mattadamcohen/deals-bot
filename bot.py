@@ -485,7 +485,15 @@ def drop_christmas(title):
 def caption(item, category):
     L = CONFIG["labels"]
     title = strip_junk(drop_christmas(item["title"] or "Best seller"))
-    title_he = to_hebrew(short(title))
+    if item.get("style_of"):  # unofficial "brand-style" item (e.g. NeeDoh-style squishy): never present it as the brand
+        brand = item["style_of"]
+        rest = re.sub(r"(?i)@|\bschylling\b|\bsuper\b(?=\s*nee)|\bnee[\s-]?doh\b", " ", title)
+        rest = re.sub(r"\s{2,}", " ", rest).strip(" ,-|") or "squishy"
+        title = f"{brand}-style {rest}"
+        item["title"] = title  # the log and the website show the honest name too
+        title_he = f"בסגנון {brand}: " + to_hebrew(short(rest))
+    else:
+        title_he = to_hebrew(short(title))
     item["title_he"] = title_he
     v = item.setdefault("variant", random.randrange(1000))  # same variant for both languages; stable on re-edits
     he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he"), v)
@@ -1281,6 +1289,46 @@ def giveaway_draw(state):
     tg_owner("⚠️ Giveaway draw: no eligible entrants found.")
 
 
+def focus_ali(fc, st):
+    """Focus fallback on AliExpress (Matt, Nov 22): well-reviewed "brand-style" items, labelled as such."""
+    a = fc.get("aliexpress") or {}
+    if not a.get("queries"):
+        return None
+    sys.path.insert(0, str(ROOT / "tools"))
+    import aliexpress
+    cands, seen = [], set()
+    for q in a["queries"]:
+        try:
+            prods = aliexpress.search(keywords=q, page_size=50)
+        except Exception as e:
+            log(f"  focus ali search failed: {e}")
+            continue
+        for p in prods:
+            pid = str(p.get("product_id"))
+            t = (p.get("product_title") or "").lower()
+            if pid in seen or not p.get("promotion_link"):
+                continue
+            seen.add(pid)
+            if not any(w in t for w in fc.get("require_any", [])) or ALI_BLOCK.search(t) \
+                    or (a.get("avoid") and re.search(a["avoid"], t, re.I)):
+                continue
+            if money(p.get("evaluate_rate")) < a.get("min_rating", 95) or int(p.get("lastest_volume") or 0) < a.get("min_sold", 5000):
+                continue
+            key = f"ali-{pid}"
+            if st.get("posted", {}).get(key) and is_recent(st["posted"][key], fc.get("repost_days", 14)):
+                continue
+            cands.append(p)
+    if not cands:
+        log("  focus ali: nothing suitable")
+        return None
+    p = random.choice(sorted(cands, key=lambda x: -int(x.get("lastest_volume") or 0))[:5])
+    info = ali_info(p)
+    info["style_of"] = fc.get("name", "")
+    log(f"  focus ali: {p.get('product_id')} {info['title'][:60]}")
+    return ({"asin": f"ali-{p['product_id']}", "rank": 0, "source": "pick", "store": "aliexpress"}, info,
+            {"slug": "pick", "en": "Our pick", "he": "הבחירה שלנו"})
+
+
 def pick_details(pick, amz_factory):
     """Look up a queued pick. Returns (it, info, category) or a string with the reason it can't be posted."""
     cat = {"slug": "pick", "en": "Our pick", "he": "הבחירה שלנו"}
@@ -1316,7 +1364,7 @@ def pick_details(pick, amz_factory):
                 seen.append(asin)
         fresh = [a for a in seen if not (st.get("posted", {}).get(a) and is_recent(st["posted"][a], recent_days))]
         if not fresh:
-            return "no new %s items right now" % fc.get("name", "focus")
+            return focus_ali(fc, st) or "no new %s items right now" % fc.get("name", "focus")
         tried = []
         log(f"  focus {fc.get('name')}: {len(seen)} search results, {len(fresh)} not posted recently")
         for asin in fresh[:8]:  # first one that actually has a price and ships free to Israel
@@ -1327,6 +1375,9 @@ def pick_details(pick, amz_factory):
             if not info.get("discount") and discount_pct(info):
                 info["discount"] = f"{discount_pct(info)}%"
             return {"asin": asin, "rank": 0, "source": "pick"}, info, cat
+        ali = focus_ali(fc, st)
+        if ali:
+            return ali
         return f"none of {len(tried)} {fc.get('name', 'focus')} items had a price with free shipping to Israel"
     if pick["store"] == "amazon_search":
         amz = amz_factory()

@@ -2609,6 +2609,19 @@
       14,
       19
     ],
-    "repost_days": 14
+    "repost_days": 14,
+    "aliexpress": {
+      "queries": [
+        "needoh",
+        "nee doh squishy",
+        "needoh nice cube",
+        "needoh fuzz ball",
+        "needoh cloud",
+        "needoh jelly"
+      ],
+      "min_rating": 95,
+      "min_sold": 5000,
+      "avoid": "advent|calendar|blind box|100\\+ pieces"
+    }
   }
 }
