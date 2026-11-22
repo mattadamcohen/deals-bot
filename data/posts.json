@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005008226452050",
-  "title": "Low-Power WiFi Video Doorbell Rechargeable HD Night Vision Smart Security 1 to 1 Home Intercom Door Bell",
-  "title_he": "פעמון דלת וידאו WiFi בעוצמה נמוכה נטען HD Night Vision Smart Security 1 ל-1 פעמון דלת אינטרקום ביתי",
-  "price": "$7.52",
-  "was": "$16.52",
-  "discount": "54%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 467,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S03f196b9200f4ffcb13cc9093efe386cg.jpg",
-  "variant": 961,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTnNsaiTDnfYr3XixOL0pk6S0ljcaSL5ZVOCatdQjq0kbkWFi8RCfaT1cqj7ba0PaCFuePG9c7BILYiSBVhw9kayb1srnmAJUwZajbtQVnQrHPkUEm0W7JUS9zmcll9PKHmWcjH8kqgSZCmC9f71xam7UwSpxmuJtAESRMJDhDMo2L8Wp0FmwCFO8CJTdvmfeE6V3CLXAH5tIqwMStlrfKWXQV5183UjxRNOAzSYosqquhyuNtlOowDlifyhk3dUetDkHmnGm0V8k7jYhZSlUCb4v6IKKFUVbkXabYGHvMDxFT78XJRxHCgcZQ9CkRLW7qqT6xWt561XReTdlJH6UaetvWfkkYUWmE5haG0UFhGqVKo9etcJS9s4HENhRFePX0zzoWjNkALzstYNvYOWYzKj6Do7D4oMKwNKRbPiKu2Nw0wUCOQ4PKycSF2vj7e7r1KAp4PpGOsPGubikOv5R5A7v28FYTpiCn32lfpH6ty8ghWO5r1ffnBkBHpCi0nUDM0AUs8I3p6A39soicgvgYguEqTYpq3ldEMvpTv3O6zFN7mtXW4IOESrv3ieX9KsBsz9FUD3q2KJoV0VTBPmkIcWLsXFgP3tlq7Q1MkFGgxyfii9DesJme17HWJu1rP12WpLXt9ccEihaLEkvFsuyxWNe3hCACLz0i4rNf2W3Ai4mxGuUymG17gkNrvzd2pZdqTjzxQr5R5ms",
-  "sold": "519",
-  "album_ids": [
-   467,
-   468,
-   469
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/video doorbell",
-  "category_en": "Smart home",
-  "category_he": "בית חכם",
-  "posted_at": "2026-11-21T05:31:25.481348+00:00"
- },
- {
   "asin": "ali-1005009212557833",
   "title": "DENOKIN Portable Espresso Coffee Machine With Digital Display 3-in-1 Capsule Coffee Maker for Car & Home Camping Coffee Maker",
   "title_he": "מכונת קפה אספרסו ניידת DENOKIN עם תצוגה דיגיטלית מכונת קפה קפסולה 3 ב-1 למכונת קפה לרכב ולבית קמפינג",
@@ -1158,5 +1129,34 @@
   "category_en": "Smart home",
   "category_he": "בית חכם",
   "posted_at": "2026-11-22T10:16:11.059595+00:00"
+ },
+ {
+  "asin": "B0FG7RQXJ9",
+  "title": "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
+  "title_he": "מחצלת חימום לאוכל, 26x15 אינץ', אוף ווייט, חום מהיר, נעילת ילדים",
+  "price": "$32.48",
+  "was": "$49.99",
+  "discount": "35%",
+  "rating": "4.7",
+  "reviews": "1,115",
+  "rank": 22,
+  "source": "bestsellers",
+  "message_id": 587,
+  "image": "https://m.media-amazon.com/images/I/71pQnAcgcYL._AC_SL1500_.jpg",
+  "variant": 504,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   587,
+   588,
+   589
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9acb8bbd-6530-416f-b25c-6a20fe8483b8/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "kitchen",
+  "category_en": "Kitchen & Dining",
+  "category_he": "מטבח ואירוח",
+  "posted_at": "2026-11-22T10:49:03.019284+00:00"
  }
 ]
