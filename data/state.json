@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 28
+  "2026-11-22": 29
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -60,6 +60,7 @@
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GX2WYTJL": "2026-11-22T17:16:16.095589+00:00",
   "B0GYPPKBF3": "2026-11-22T09:15:55.387256+00:00",
   "B0GYRKHXQL": "2026-11-22T09:45:59.095917+00:00",
   "B0GYRXHQXM": "2026-11-20T16:34:31.176210+00:00",
@@ -249,6 +250,7 @@
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
   "owala tumbler stainless steel": "2026-11-19T13:00:58.397241+00:00",
+  "paula's choice skin perfecting": "2026-11-22T17:16:16.095593+00:00",
   "pc case shell for": "2026-11-19T12:30:55.031143+00:00",
   "piece bicycle dynamometer wrench": "2026-11-18T16:01:31.979475+00:00",
   "pocket zipper card binder": "2026-11-22T12:15:46.795919+00:00",
@@ -496,7 +498,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T17:02:02.059356+00:00",
+ "last_post_at": "2026-11-22T17:16:16.095416+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1037,6 +1039,7 @@
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
+  "B00949CTQQ": "2026-11-22T17:16:16.059958+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
   "B00VBP8QPO": "2026-11-18T18:03:45.902851+00:00",
   "B00YXO5U40": "2026-11-22T08:15:43.862275+00:00",
@@ -1274,31 +1277,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "sporting-goods/3407731",
   "aliexpress/vacuum storage bags",
-  "pick"
+  "pick",
+  "beauty/11060451"
  ],
  "recent_groups": [
-  "hpc",
   "kitchen",
   "sporting-goods",
   "beauty",
   "kitchen",
-  "sporting-goods"
+  "sporting-goods",
+  "beauty"
  ],
  "recent_themes": [
-  "beauty",
   "home",
   "kitchen",
   "kids",
   "kids",
   "sport",
   "home",
-  "kids"
+  "kids",
+  "beauty"
  ],
  "recent_titles": [
-  "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window",
   "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games",
   "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd",
   "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard",
@@ -1309,7 +1311,8 @@
   "NeeDoh-style Cloud Pleaser Slow Rising Squishy Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
   "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted",
   "EVA Storage Case for Game Console, Projector and Vacuum Cleaner, Large-Capacity Multi-Functional Tool Bag for Outdoor Travel",
-  "NeeDoh-style Textured Slow Rebound Gel Stress Ball, Anxiety Relief Fidget Sensory Toy, Holiday & Back to School Gift, Random Color"
+  "NeeDoh-style Textured Slow Rebound Gel Stress Ball, Anxiety Relief Fidget Sensory Toy, Holiday & Back to School Gift, Random Color",
+  "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1337,6 +1340,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136201
 }

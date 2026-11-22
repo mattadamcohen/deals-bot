@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DJWNZFMN",
-  "title": "Levi's Women's 318 Shaping Wide-Leg Jeans",
-  "title_he": "ג'ינס 318 בעיצוב רחב לנשים של Levi's",
-  "price": "$59.06",
-  "was": "$74.95",
-  "discount": "21%",
-  "rating": "4.3",
-  "reviews": "1,104",
-  "rank": 8,
-  "source": "bestsellers",
-  "message_id": 518,
-  "image": "https://m.media-amazon.com/images/I/41aNyv-SvYL._AC_SL1000_.jpg",
-  "variant": 247,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   518,
-   519,
-   520
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/caca7b37-7865-48e4-9984-a529c5da83ca/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion",
-  "category_en": "Clothing, Shoes & Jewelry",
-  "category_he": "אופנה, נעליים ותכשיטים",
-  "posted_at": "2026-11-21T14:04:37.234306+00:00"
- },
- {
   "asin": "ali-1005012655800023",
   "title": "Big Mouth Monster Cute Funny Onesie Pajamas Thickened Coral Fleece Homewear For Couples Men Women Autumn Cartoon Winter Pajamas",
   "title_he": "מפלצת פה גדול חמודה מצחיקה Onesie פיג'מה מעובה צמר אלמוגים בגדי בית לזוגות גברים נשים סתיו מצויר חורף פיג'מה",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-22T17:02:02.055936+00:00"
+ },
+ {
+  "asin": "B00949CTQQ",
+  "title": "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant",
+  "title_he": "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On פילינג",
+  "price": "$25.90",
+  "was": "",
+  "discount": "30%",
+  "rating": "4.5",
+  "reviews": "117,502",
+  "rank": 26,
+  "source": "bestsellers",
+  "message_id": 640,
+  "image": "https://m.media-amazon.com/images/I/61RHq4MT34L._SL1500_.jpg",
+  "variant": 357,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   640,
+   641,
+   642
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8e8c69ee-7507-4496-bdf0-6d184f09e6ea/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty/11060451",
+  "category_en": "Skin Care",
+  "category_he": "טיפוח העור",
+  "posted_at": "2026-11-22T17:16:16.093691+00:00"
  }
 ]
