@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CSDF3YFB",
-  "title": "BEQHAUSE Dirt Trapper Door Mat 20\" x 32\", Non-Slip Washable Doormats, Beige",
-  "title_he": "BEQHAUSE Dirt Trapper Door Mat 20 אינץ' x 32\", שטיחי דלת ניתנים לשטיפה מונעי החלקה, בז'",
-  "price": "$14.39",
-  "was": "$17.99",
-  "discount": "20%",
-  "rating": "4.6",
-  "reviews": "4,364",
-  "rank": 14,
-  "source": "bestsellers",
-  "message_id": 524,
-  "image": "https://m.media-amazon.com/images/I/91zrx7VZChL._AC_SL1500_.jpg",
-  "variant": 663,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   524,
-   525,
-   526
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6b0c97a2-206c-45f3-a969-5f78847146b8/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "lawn-garden",
-  "category_en": "Patio, Lawn & Garden",
-  "category_he": "גינה ומרפסת",
-  "posted_at": "2026-11-21T15:00:57.310499+00:00"
- },
- {
   "asin": "ali-1005012863295710",
   "title": "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
   "title_he": "מעמד לקירור קמפינג מתקפל רב תכליתי סל אחסון נייד מחזיק דלי קרח כרית מיקום אחסון חיצונית לקמפינג",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-22T17:30:56.723849+00:00"
+ },
+ {
+  "asin": "B09NKZFTXS",
+  "title": "Geedel Rotary Cheese Grater Hand Crank, Cheese Shredder Vegetable Slicer",
+  "title_he": "ארכובה ידנית של פומפיה גבינה סיבובית Geedel, פורסת ירקות מגרסת גבינה",
+  "price": "$23.98",
+  "was": "$28.97",
+  "discount": "17%",
+  "rating": "4.6",
+  "reviews": "39,983",
+  "rank": 27,
+  "source": "bestsellers",
+  "message_id": 646,
+  "image": "https://m.media-amazon.com/images/I/71IJrbjPnUL._AC_SL1500_.jpg",
+  "variant": 118,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   646,
+   647,
+   648
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c1696f04-0877-429d-a550-8058aaa49613/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "kitchen",
+  "category_en": "Kitchen & Dining",
+  "category_he": "מטבח ואירוח",
+  "posted_at": "2026-11-22T17:45:47.026829+00:00"
  }
 ]
