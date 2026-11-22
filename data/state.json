@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 14
+  "2026-11-22": 15
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -236,6 +236,7 @@
   "owala tumbler stainless steel": "2026-11-19T13:00:58.397241+00:00",
   "pc case shell for": "2026-11-19T12:30:55.031143+00:00",
   "piece bicycle dynamometer wrench": "2026-11-18T16:01:31.979475+00:00",
+  "pocket zipper card binder": "2026-11-22T12:15:46.795919+00:00",
   "pok mon tcg mega": "2026-11-20T18:01:21.598112+00:00",
   "pokemon cards plus a": "2026-11-20T15:00:57.006964+00:00",
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
@@ -359,7 +360,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T11:46:07.988101+00:00",
+ "last_post_at": "2026-11-22T12:15:46.795741+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1083,6 +1084,7 @@
   "ali-1005009522437194": "2026-11-17T15:31:26.822197+00:00",
   "ali-1005009648930864": "2026-11-19T10:00:55.607269+00:00",
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
+  "ali-1005009812128178": "2026-11-22T12:15:46.736054+00:00",
   "ali-1005009937260935": "2026-11-20T11:31:01.224284+00:00",
   "ali-1005010041961832": "2026-11-20T11:00:57.309222+00:00",
   "ali-1005010064173908": "2026-11-22T05:31:18.289285+00:00",
@@ -1149,10 +1151,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/indoor security camera",
   "kitchen",
   "aliexpress/magnetic train track toy",
-  "pick"
+  "pick",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "fashion",
@@ -1163,17 +1165,16 @@
   "kitchen"
  ],
  "recent_themes": [
-  "tech",
   "kitchen",
   "beauty",
   "kids",
   "tech",
   "kitchen",
   "kids",
-  "kitchen"
+  "kitchen",
+  "other"
  ],
  "recent_titles": [
-  "Trendy Queen Womens Hoodies Oversized Sweatshirt",
   "55NRobot Window Cleaner for Home Appliance - Automatic Robotic Window Washer for Clean Glass Windows Specialty Cleaners",
   "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts",
   "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
@@ -1184,7 +1185,8 @@
   "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance",
   "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
   "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
-  "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports"
+  "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
+  "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1212,6 +1214,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136168
 }
