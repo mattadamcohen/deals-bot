@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005011971017841",
-  "title": "2026 New Squishy Watermelon Fidget Toy Stress Reliever Funny Pressure Reducer Prop Anti-Stress Slow Rising Fruit Pinch Squeeze",
-  "title_he": "צעצוע אבטיח רטוב משכך מתח מצחיק מפחית לחץ אבזר אנטי סטרס פרי עולה איטי צביטה סחיטה",
-  "price": "$1.54",
-  "was": "$3.63",
-  "discount": "57%",
-  "rating": "92.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 473,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S889d036f72b64a71bbb7d20bd7f498b1x.jpg",
-  "variant": 564,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTZ4Q5y1lZHoji2yhopgo1Nfc42mHfxaHKwDKoKLuCaUhvgPrxTSRCmeH60cbdvhLnU2ZmOvo03gWMXL6zEC3B9x8PajBPDqc5CFUN8QpySu098Kf9XM82iXEElBpiwisaVNiIDKtOGvZwTc86UqGocs9OFVqxoPmgQjhViF0IIvfCl6N27UK7asM0eBZanhg5sqAm3mPTGaZ1leZ2XPdhHADjSoyhS5oUXlLZe1EXzZQBlcKi8D6E8uleKZbaFQYrFdTT6bHrNYmeJGLFertOe1qxoKYehuzDhbS3gzk81YMEYZFtFHXyiC1CkMezG6ywG8SWfbVezWawhMUD8nsKHpVj61KjdpByUoORk45XxO4VRS59Jmd1nn8RpZqVe5XuJPGMuk2nLum4tjTbfsS7zaANJG9EhEdfd0hlgv5X77S35prTFOJ8dacKGmGWaqMOjqYqcG6Ypb9Ndi1KGGSGQxCWidflKt01zOxYh7LLOPJwGDUazGepNMEJrC8A90emLVPeyHAIjiktdFXzbj2gjFszlFCNbB7y1OKjqNXbNsUwQXHRGztYYoIREy0PjH7IGfbPJCqXzX2r1xJWp1ujWABHLDYGRw59WYPSCL9R7lrxW77qlXoWhjMy2OJVlVrsuVwiteCAR1Df7eSa6bxkJRI1JjBFjowckzVOGJbLUGXH3LIjmsHMziew7JK3b3YrNgdJ5dKA710",
-  "sold": "8,000",
-  "album_ids": [
-   473,
-   474,
-   475
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/squishy toy",
-  "category_en": "Squishies",
-  "category_he": "סקווישים",
-  "posted_at": "2026-11-21T06:31:24.903201+00:00"
- },
- {
   "asin": "ali-1005006674062256",
   "title": "SucceBuy 7-in-1 Wi-Fi Weather Station 7.5 in Color Display + Solar Wireless Outdoor Sensor Alarm Alerts for Temperature Humidity",
   "title_he": "SucceBuy 7-in-1 Wi-Fi תחנת מזג אוויר 7.5 אינץ' תצוגה צבעונית + אזעקת חיישן חיצוני אלחוטי סולארי עבור טמפרטורה לחות",
@@ -1158,5 +1129,34 @@
   "category_en": "Kids toys",
   "category_he": "צעצועים לילדים",
   "posted_at": "2026-11-22T11:15:44.384048+00:00"
+ },
+ {
+  "asin": "B0C3V7VTT7",
+  "title": "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
+  "title_he": "בקבוק בקבוק בקבוק מים מבודד 24oz עם מכסה קש וידית ספורט",
+  "price": "$18.99",
+  "was": "$24.99",
+  "discount": "24%",
+  "rating": "4.6",
+  "reviews": "9,886",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 593,
+  "image": "https://m.media-amazon.com/images/I/518XxNh1lTL._AC_SL1500_.jpg",
+  "variant": 794,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   593,
+   594,
+   595
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/51db621b-d401-4aef-a857-1cce635b71ec/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-22T11:46:07.985601+00:00"
  }
 ]
