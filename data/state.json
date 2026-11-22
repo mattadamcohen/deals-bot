@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 1
+  "2026-11-22": 2
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -159,6 +159,7 @@
   "htmck electric smart robotic": "2026-11-20T14:30:56.295405+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
+  "ikape v impact espresso": "2026-11-22T05:31:18.328577+00:00",
   "in- electric cleaning brush": "2026-11-20T09:01:03.673794+00:00",
   "instant camera gift set": "2026-11-21T13:01:04.756891+00:00",
   "ip waterproof solar outdoor": "2026-11-19T19:01:02.117170+00:00",
@@ -329,7 +330,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T05:04:05.505718+00:00",
- "last_post_at": "2026-11-22T05:04:10.387668+00:00",
+ "last_post_at": "2026-11-22T05:31:18.328430+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -819,23 +820,6 @@
  "pick_queue": [
   {
    "alt": [
-    "New Balance Men's 515 V3 Sneaker",
-    "New Balance Women's 515 V3 Sneaker"
-   ],
-   "at": "2026-11-21T16:17:00+00:00",
-   "id": "New Balance 515 sneakers",
-   "not_before": "2026-11-22T05:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "new balance",
-    "515"
-   ],
-   "sid": "shot-1121-3",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Vention power bank 50000mAh"
    ],
    "at": "2026-11-21T16:17:00+00:00",
@@ -1067,6 +1051,7 @@
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
   "ali-1005009937260935": "2026-11-20T11:31:01.224284+00:00",
   "ali-1005010041961832": "2026-11-20T11:00:57.309222+00:00",
+  "ali-1005010064173908": "2026-11-22T05:31:18.289285+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
@@ -1128,9 +1113,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/gaming mouse wireless",
-  "hpc"
+  "hpc",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "beauty",
@@ -1141,17 +1126,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "tech",
   "kids",
   "fashion",
   "tech",
-  "beauty"
+  "beauty",
+  "kitchen"
  ],
  "recent_titles": [
-  "Big Mouth Monster Cute Funny Onesie Pajamas Thickened Coral Fleece Homewear For Couples Men Women Autumn Cartoon Winter Pajamas",
   "BEQHAUSE Dirt Trapper Door Mat 20\" x 32\", Non-Slip Washable Doormats, Beige",
   "Multifunctional Foldable Camping Cooler Stand Portable Storage Bin Ice Bucket Holder Outdoor Storage Placement Pad for Camping",
   "medicube PDRN Collagen Volume Multi Balm Stick, Firming Face & Body Balm",
@@ -1162,7 +1146,8 @@
   "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
   "100W Heated Lunch Box for Adults with Insulated Bag \uff08Black\uff09",
   "VGN Dragonfly 3 Master Plus Pro MAX Wireless Gaming Mouse Tri-Mode SuperLight Rechargeable Esports FPS Mice TurboPlus Bluetooth",
-  "Energizer AA and AAA Batteries, 48 Count, Combo Pack Contains 24 Max Double A and 24 Max Triple A Batteries"
+  "Energizer AA and AAA Batteries, 48 Count, Combo Pack Contains 24 Max Double A and 24 Max Triple A Batteries",
+  "IKAPE V6 Impact Espresso Tamper,Breville Calibrated Meta Coffee Tamper,Coffee Machine,Fits Over 51/54/58mm Portafilters"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1190,6 +1175,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136165
 }
