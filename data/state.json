@@ -1063,7 +1063,17 @@
   "B0HJSW1G3J": "2026-11-22T06:02:17.631013+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "alt": [],
+   "id": "1005013067433161",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1122-minicam",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3qS03I9"
+  }
+ ],
  "posted": {
   "B000CBSNKQ": "2026-11-22T19:34:12.037819+00:00",
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
