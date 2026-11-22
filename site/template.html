@@ -3,7 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IL Deals: הדילים הכי חמים מאמזון ואליאקספרס</title>
+<title>IL Deals: הדילים הכי חמים מאמזון ואליאקספרס | israelideals.com</title>
+<meta name="description" content="דילים יומיים מאמזון ואליאקספרס עם משלוח לישראל, מחירים בשקלים. Daily Amazon and AliExpress deals that ship to Israel.">
+<meta property="og:title" content="IL Deals: הדילים הכי חמים מאמזון ואליאקספרס">
+<meta property="og:description" content="דילים יומיים עם משלוח לישראל, מחירים בשקלים">
+<meta property="og:image" content="https://israelideals.com/logo.png">
+<meta property="og:url" content="https://israelideals.com/">
+<link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
@@ -25,8 +31,9 @@ button{font:inherit;cursor:pointer}
 .brand img{width:40px;height:40px;border-radius:50%;background:#fff}
 .brand small{display:block;font-weight:500;font-size:12px;opacity:.75;margin-top:-3px}
 .search{flex:1;position:relative;max-width:520px;margin-inline-start:auto}
-.search input{width:100%;border:0;border-radius:999px;padding:11px 42px 11px 16px;font:inherit;font-size:15px;outline:none}
-.search svg{position:absolute;right:14px;top:50%;transform:translateY(-50%);opacity:.5}
+.search input{width:100%;border:0;border-radius:999px;padding-block:11px;padding-inline:42px 16px;font:inherit;font-size:15px;outline:none}
+.search svg{position:absolute;inset-inline-start:14px;top:50%;transform:translateY(-50%);opacity:.5}
+.lang{border:1px solid rgba(255,255,255,.35);background:none;color:#fff;border-radius:999px;padding:8px 12px;font-weight:700;font-size:13px;white-space:nowrap}
 .tg-btn{display:flex;align-items:center;gap:6px;background:#29a9eb;color:#fff;border-radius:999px;padding:9px 14px;font-weight:700;font-size:14px;white-space:nowrap}
 @media(max-width:720px){.tg-btn span{display:none}.brand small{display:none}.top-in{flex-wrap:wrap}.search{order:3;flex-basis:100%;max-width:none}}
 
@@ -99,26 +106,26 @@ footer b{color:#fff}
 </style>
 </head>
 <body>
-<div class="draft">טיוטה לתצוגה בלבד: עדיין לא באוויר · Draft preview</div>
 <header class="top"><div class="top-in">
-  <a class="brand" href="#"><img id="logo" alt="IL Deals"><div>IL Deals<small>אמזון · אליאקספרס · משלוח לארץ</small></div></a>
+  <a class="brand" href="./"><img src="logo.png" alt="IL Deals"><div>IL Deals<small data-i="tag"></small></div></a>
   <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-    <input id="q" type="search" placeholder="חפשו מוצר: אוזניות, מצלמה, צעצוע..." autocomplete="off"></label>
-  <a class="tg-btn" href="https://t.me/ilamazondeals" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M21.9 4.3 18.6 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6 13.6l-5-1.6c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.3 1.7.2 1.4 1.3z"/></svg><span>הצטרפו לטלגרם</span></a>
+    <input id="q" type="search" autocomplete="off"></label>
+  <a class="tg-btn" href="https://t.me/ilamazondeals" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M21.9 4.3 18.6 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6 13.6l-5-1.6c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.3 1.7.2 1.4 1.3z"/></svg><span data-i="tgjoin"></span></a>
+  <button class="lang" id="lang" type="button"></button>
 </div></header>
 
 <section class="hero"><div class="dots"></div><div class="hero-in">
-  <h1>הדילים <em>הכי חמים</em><br>מאמזון ואליאקספרס</h1>
-  <p>רבי מכר שנבחרו בקפידה, עם משלוח לישראל ומחירים בשקלים. מתעדכן כל יום.</p>
-  <div class="pills"><span class="pill">🇮🇱 משלוח לארץ</span><span class="pill">₪ מחירים בשקלים</span><span class="pill">⭐ רק מוצרים עם דירוג גבוה</span><span class="pill">🔥 חדש כל יום</span></div>
+  <h1 data-i="h1"></h1>
+  <p data-i="sub"></p>
+  <div class="pills"><span class="pill" data-i="p1"></span><span class="pill" data-i="p2"></span><span class="pill" data-i="p3"></span><span class="pill" data-i="p4"></span></div>
 </div></section>
 
 <main class="wrap">
   <div class="filters">
     <div class="chips" id="cats"></div>
     <div class="row2">
-      <div class="seg" id="stores"><button data-s="all" class="on">הכל</button><button data-s="amazon">אמזון</button><button data-s="aliexpress">אליאקספרס</button></div>
-      <select id="sort"><option value="new">החדשים ביותר</option><option value="off">ההנחה הגדולה</option><option value="low">מחיר: מהנמוך</option><option value="high">מחיר: מהגבוה</option></select>
+      <div class="seg" id="stores"><button data-s="all" class="on" data-i="all"></button><button data-s="amazon" data-i="amazon"></button><button data-s="aliexpress" data-i="ali"></button></div>
+      <select id="sort"><option value="new" data-i="s_new"></option><option value="pop" data-i="s_pop"></option><option value="off" data-i="s_off"></option><option value="low" data-i="s_low"></option><option value="high" data-i="s_high"></option></select>
       <span class="count" id="count"></span>
     </div>
   </div>
@@ -126,9 +133,9 @@ footer b{color:#fff}
 </main>
 
 <footer><div class="wrap">
-  <b>IL Deals</b> · דילים מאמזון ואליאקספרס עם משלוח לישראל.<br>
-  המחירים בשקלים הם הערכה לפי שער היום, ועשויים להשתנות. המחיר הסופי, המשלוח והמיסים מוצגים באתר החנות.<br>
-  גילוי נאות: הקישורים באתר הם קישורי שותפים. כשקונים דרכם אנחנו עשויים לקבל עמלה, בלי עלות נוספת לכם.<br>
+  <b>IL Deals</b> · <span data-i="f1"></span><br>
+  <span data-i="f2"></span><br>
+  <span data-i="f3"></span><br>
   As an Amazon Associate I earn from qualifying purchases. AliExpress links are affiliate links.<br>
   📲 <a href="https://t.me/ilamazondeals" target="_blank" rel="noopener"><b>t.me/ilamazondeals</b></a>
 </div></footer>
@@ -136,72 +143,105 @@ footer b{color:#fff}
 <script>
 /*DATA*/
 const RATE = /*RATE*/;
-const CATS = [
-  ["all","🔥","הכל"],["tech","🎧","טק וגיימינג"],["home","🏠","לבית"],["kitchen","🍳","מטבח"],
-  ["kids","🧸","ילדים וצעצועים"],["fashion","👟","אופנה"],["beauty","💄","יופי וטיפוח"],["sport","🏕️","ספורט וטבע"]
-];
+const T = {
+ he:{tag:"אמזון · אליאקספרס · משלוח לארץ", q:"חפשו מוצר: אוזניות, מצלמה, צעצוע...", tgjoin:"הצטרפו לטלגרם", lang:"English",
+  h1:'הדילים <em>הכי חמים</em><br>מאמזון ואליאקספרס', sub:"רבי מכר שנבחרו בקפידה, עם משלוח לישראל ומחירים בשקלים. מתעדכן כל יום.",
+  p1:"🇮🇱 משלוח לארץ", p2:"₪ מחירים בשקלים", p3:"⭐ רק מוצרים עם דירוג גבוה", p4:"🔥 חדש כל יום",
+  all:"הכל", amazon:"אמזון", ali:"אליאקספרס", s_new:"החדשים ביותר", s_pop:"הכי נמכרים", s_off:"ההנחה הגדולה", s_low:"מחיר: מהנמוך", s_high:"מחיר: מהגבוה",
+  deals:n=>`${n} דילים`, sold:"נמכרו", reviews:"ביקורות", ship:"🇮🇱 משלוח לארץ", buy:"לצפייה בדיל ←", fresh:"חדש היום",
+  tgh:"דילים חדשים כל יום בטלגרם", tgp:"הצטרפו לערוץ וקבלו את הדילים הכי חמים ישר לטלפון", tga:"הצטרפו בחינם",
+  e1:"לא מצאנו דילים כאלה", e2:"נסו מילה אחרת או קטגוריה אחרת",
+  f1:"דילים מאמזון ואליאקספרס עם משלוח לישראל.", f2:"המחירים בשקלים הם הערכה לפי שער היום, ועשויים להשתנות. המחיר הסופי, המשלוח והמיסים מוצגים באתר החנות.",
+  f3:"גילוי נאות: הקישורים באתר הם קישורי שותפים. כשקונים דרכם אנחנו עשויים לקבל עמלה, בלי עלות נוספת לכם.",
+  cats:{all:"הכל",tech:"טק וגיימינג",home:"לבית",kitchen:"מטבח",kids:"ילדים וצעצועים",fashion:"אופנה",beauty:"יופי וטיפוח",sport:"ספורט וטבע",car:"לרכב",other:"עוד"}},
+ en:{tag:"Amazon · AliExpress · Ships to Israel", q:"Search: headphones, camera, toy...", tgjoin:"Join on Telegram", lang:"עברית",
+  h1:'The <em>hottest deals</em><br>from Amazon & AliExpress', sub:"Hand-picked best sellers that ship to Israel, with prices in shekels. Updated every day.",
+  p1:"🇮🇱 Ships to Israel", p2:"₪ Prices in shekels", p3:"⭐ Highly rated only", p4:"🔥 New every day",
+  all:"All", amazon:"Amazon", ali:"AliExpress", s_new:"Newest", s_pop:"Most purchased", s_off:"Biggest discount", s_low:"Price: low to high", s_high:"Price: high to low",
+  deals:n=>`${n} deals`, sold:"sold", reviews:"reviews", ship:"🇮🇱 Ships to Israel", buy:"View deal →", fresh:"New today",
+  tgh:"New deals every day on Telegram", tgp:"Join the channel and get the hottest deals straight to your phone", tga:"Join free",
+  e1:"No deals found", e2:"Try another word or category",
+  f1:"Amazon and AliExpress deals that ship to Israel.", f2:"Shekel prices are estimates at today's rate and may change. The final price, shipping and taxes are shown on the store's site.",
+  f3:"Disclosure: links on this site are affiliate links. When you buy through them we may earn a commission, at no extra cost to you.",
+  cats:{all:"All",tech:"Tech & gaming",home:"Home",kitchen:"Kitchen",kids:"Kids & toys",fashion:"Fashion",beauty:"Beauty",sport:"Sport & outdoors",car:"Car",other:"More"}}
+};
+const ICONS = {all:"🔥",tech:"🎧",home:"🏠",kitchen:"🍳",kids:"🧸",fashion:"👟",beauty:"💄",sport:"🏕️",car:"🚗",other:"✨"};
+const ORDER = ["all","tech","home","kitchen","kids","fashion","beauty","sport","car","other"];
 const usd = s => parseFloat(String(s||"").replace(/[^0-9.]/g,"")) || 0;
 const ils = s => Math.round(usd(s) * RATE).toLocaleString("en-US");
-const NOW = Math.max(...PRODUCTS.map(p => Date.parse(p.posted_at) || 0));
-let state = {cat:"all", store:"all", sort:"new", q:""};
+const esc = s => String(s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const NOW = Date.now();
+let state = {cat:"all", store:"all", sort:"new", q:"", lang:"he"};
 try { const s = JSON.parse(localStorage.getItem("ild-filters")||"{}"); Object.assign(state, s, {q:""}); } catch(e) {}
+const qp = new URLSearchParams(location.search).get("lang"); if (qp==="en"||qp==="he") state.lang = qp;
+const L = () => T[state.lang];
 
-document.getElementById("logo").src = LOGO;
+function applyLang(){
+  const t = L();
+  document.documentElement.lang = state.lang; document.documentElement.dir = state.lang==="he" ? "rtl" : "ltr";
+  document.querySelectorAll("[data-i]").forEach(el => { const v = t[el.dataset.i]; if (typeof v === "string") el.innerHTML = v; });
+  document.getElementById("q").placeholder = t.q;
+  document.getElementById("lang").textContent = t.lang;
+}
 
 function renderCats(){
   const el = document.getElementById("cats");
   const counts = {};
   PRODUCTS.forEach(p => { if (state.store==="all"||p.store===state.store) { counts[p.theme]=(counts[p.theme]||0)+1; counts.all=(counts.all||0)+1; } });
-  el.innerHTML = CATS.filter(c => counts[c[0]]).map(c =>
-    `<button class="chip ${state.cat===c[0]?"on":""}" data-c="${c[0]}">${c[1]} ${c[2]} <span class="n">${counts[c[0]]}</span></button>`).join("");
+  el.innerHTML = ORDER.filter(c => counts[c]).map(c =>
+    `<button class="chip ${state.cat===c?"on":""}" data-c="${c}">${ICONS[c]} ${L().cats[c]} <span class="n">${counts[c]}</span></button>`).join("");
   el.querySelectorAll(".chip").forEach(b => b.onclick = () => { state.cat=b.dataset.c; save(); render(); });
 }
 
 function card(p){
+  const t = L();
   const fresh = NOW - Date.parse(p.posted_at) < 24*3600e3;
   const off = parseInt(p.discount) || 0;
   const meta = [];
-  if (p.rating) meta.push(p.store==="amazon" ? `⭐ <b dir="ltr">${p.rating}</b>` : `👍 <b dir="ltr">${p.rating}</b>`);
-  if (p.sold) meta.push(`🔥 <b dir="ltr">${p.sold}+</b> נמכרו`);
-  else if (p.reviews) meta.push(`<b>${p.reviews}</b> ביקורות`);
+  if (p.rating) meta.push(p.store==="amazon" ? `⭐ <b dir="ltr">${esc(p.rating)}</b>` : `👍 <b dir="ltr">${esc(p.rating)}</b>`);
+  if (p.sold) meta.push(`🔥 <b dir="ltr">${esc(p.sold)}+</b> ${t.sold}`);
+  else if (p.reviews) meta.push(`<b dir="ltr">${esc(p.reviews)}</b> ${t.reviews}`);
+  const title = state.lang==="en" ? (p.title_en||p.title_he) : (p.title_he||p.title_en);
   return `<article class="card">
-    <a class="img" href="${p.link}" target="_blank" rel="noopener sponsored">
-      <img src="${p.img}" alt="" loading="lazy">
+    <a class="img" href="${esc(p.link)}" target="_blank" rel="noopener sponsored">
+      <img src="${esc(p.img)}" alt="${esc(title)}" loading="lazy">
       <span class="badge b-store ${p.store}">${p.store==="amazon"?"<i>a</i> Amazon":"AliExpress"}</span>
       ${off>=10?`<span class="badge b-off" dir="ltr">-${off}%</span>`:""}
-      ${fresh?`<span class="badge b-new">חדש היום</span>`:""}
+      ${fresh?`<span class="badge b-new">${t.fresh}</span>`:""}
     </a>
     <div class="body">
-      <div class="t">${p.title_he}</div>
-      <div class="price"><span class="now" dir="ltr">₪${ils(p.price)}</span>${p.was&&usd(p.was)>usd(p.price)?`<span class="was" dir="ltr">₪${ils(p.was)}</span>`:""}<span class="usd">${p.price}</span></div>
+      <div class="t">${esc(title)}</div>
+      <div class="price"><span class="now" dir="ltr">₪${ils(p.price)}</span>${p.was&&usd(p.was)>usd(p.price)?`<span class="was" dir="ltr">₪${ils(p.was)}</span>`:""}<span class="usd" dir="ltr">${esc(p.price)}</span></div>
       <div class="meta">${meta.join("")}</div>
-      <div class="ship">🇮🇱 משלוח לארץ</div>
-      <a class="buy" href="${p.link}" target="_blank" rel="noopener sponsored">לצפייה בדיל ←</a>
+      <div class="ship">${t.ship}</div>
+      <a class="buy" href="${esc(p.link)}" target="_blank" rel="noopener sponsored">${t.buy}</a>
     </div></article>`;
 }
 
 function render(){
-  renderCats();
+  const t = L();
+  applyLang(); renderCats();
   document.querySelectorAll("#stores button").forEach(b => b.classList.toggle("on", b.dataset.s===state.store));
   document.getElementById("sort").value = state.sort;
   const q = state.q.trim().toLowerCase();
   let list = PRODUCTS.filter(p =>
     (state.cat==="all"||p.theme===state.cat) && (state.store==="all"||p.store===state.store) &&
-    (!q || (p.title_he+" "+p.id).toLowerCase().includes(q)));
-  const by = {new:(a,b)=>Date.parse(b.posted_at)-Date.parse(a.posted_at), off:(a,b)=>(parseInt(b.discount)||0)-(parseInt(a.discount)||0),
+    (!q || (p.title_he+" "+p.title_en).toLowerCase().includes(q)));
+  const by = {new:(a,b)=>Date.parse(b.posted_at)-Date.parse(a.posted_at), pop:(a,b)=>(b.pop||0)-(a.pop||0),
+              off:(a,b)=>(parseInt(b.discount)||0)-(parseInt(a.discount)||0),
               low:(a,b)=>usd(a.price)-usd(b.price), high:(a,b)=>usd(b.price)-usd(a.price)};
-  list.sort(by[state.sort]);
+  list.sort(by[state.sort]||by.new);
   const cards = list.map(card);
-  if (cards.length > 8) cards.splice(8, 0, `<div class="tg-card"><span class="gift">🎁</span><div><h3>דילים חדשים כל יום בטלגרם</h3><p>הצטרפו לערוץ וקבלו את הדילים הכי חמים ישר לטלפון</p></div><a href="https://t.me/ilamazondeals" target="_blank" rel="noopener">הצטרפו בחינם</a></div>`);
-  document.getElementById("grid").innerHTML = cards.join("") ||
-    `<div class="empty"><b>לא מצאנו דילים כאלה</b>נסו מילה אחרת או קטגוריה אחרת</div>`;
-  document.getElementById("count").textContent = `${list.length} דילים`;
+  if (cards.length > 8) cards.splice(8, 0, `<div class="tg-card"><span class="gift">🎁</span><div><h3>${t.tgh}</h3><p>${t.tgp}</p></div><a href="https://t.me/ilamazondeals" target="_blank" rel="noopener">${t.tga}</a></div>`);
+  document.getElementById("grid").innerHTML = cards.join("") || `<div class="empty"><b>${t.e1}</b>${t.e2}</div>`;
+  document.getElementById("count").textContent = t.deals(list.length);
 }
-function save(){ try { localStorage.setItem("ild-filters", JSON.stringify({cat:state.cat,store:state.store,sort:state.sort})); } catch(e) {} }
+function save(){ try { localStorage.setItem("ild-filters", JSON.stringify({cat:state.cat,store:state.store,sort:state.sort,lang:state.lang})); } catch(e) {} }
 
 document.querySelectorAll("#stores button").forEach(b => b.onclick = () => { state.store=b.dataset.s; state.cat="all"; save(); render(); });
 document.getElementById("sort").onchange = e => { state.sort=e.target.value; save(); render(); };
 document.getElementById("q").oninput = e => { state.q=e.target.value; render(); };
+document.getElementById("lang").onclick = () => { state.lang = state.lang==="he"?"en":"he"; save(); render(); };
 render();
 </script>
 </body>

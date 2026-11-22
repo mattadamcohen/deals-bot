@@ -42,7 +42,7 @@ jobs:
           ACTION: ${{ inputs.action }}
           VALUE: ${{ inputs.value }}
       - name: Save message ids
-        if: ${{ inputs.action == 'edit-posts' || inputs.action == 'ig-post' || inputs.action == 'fix-prices' || inputs.action == 'cleanup' || inputs.action == 'retitle' }}
+        if: ${{ inputs.action == 'edit-posts' || inputs.action == 'ig-post' || inputs.action == 'fix-prices' || inputs.action == 'cleanup' || inputs.action == 'retitle' || inputs.action == 'delete' }}
         run: |
           git config user.name "deals-bot"; git config user.email "deals-bot@users.noreply.github.com"
           git add data/; git diff --staged --quiet || (git commit -m "Save message ids" && git pull --rebase && git push)

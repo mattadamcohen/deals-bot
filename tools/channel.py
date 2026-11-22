@@ -52,9 +52,18 @@ elif action == "pin-id":
     print("pinned now:", pm.get("message_id"), (pm.get("text") or pm.get("caption") or "")[:80].replace("\n", " "))
 elif action == "delete":
     # value: comma separated message ids
+    gone = []
     for mid in [m.strip() for m in value.split(",") if m.strip()]:
         r = requests.post(f"{api}/deleteMessage", data={"chat_id": chat, "message_id": mid})
         print("delete", mid, r.status_code, r.text[:120])
+        if r.ok:
+            gone.append(mid)
+    if gone:  # keep the website in step: deleted Telegram posts come off israelideals.com
+        import json as _j
+        from pathlib import Path as _P
+        rf = _P(__file__).resolve().parent.parent / "data" / "site_removed.json"
+        old = _j.loads(rf.read_text()) if rf.exists() else []
+        rf.write_text(_j.dumps(sorted(set(map(str, old)) | set(gone))))
 elif action == "repin":
     # edit the current pinned post in place (no new notification); post + pin a new one if there isn't one
     pinned = (requests.get(f"{api}/getChat", params={"chat_id": chat}).json().get("result") or {}).get("pinned_message") or {}
