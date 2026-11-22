@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 16
+  "2026-11-22": 17
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -93,6 +93,7 @@
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "amoudo portable monitor x": "2026-11-20T11:00:57.363099+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
+  "automatic cat fountain stainless": "2026-11-22T13:15:44.563158+00:00",
   "automatic electric fruit peeler": "2026-11-20T10:30:48.899396+00:00",
   "automatic garbage with lids": "2026-11-20T07:00:54.847423+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
@@ -374,7 +375,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T12:45:48.707401+00:00",
+ "last_post_at": "2026-11-22T13:15:44.562968+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1101,6 +1102,7 @@
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
   "ali-1005009812128178": "2026-11-22T12:15:46.736054+00:00",
   "ali-1005009937260935": "2026-11-20T11:31:01.224284+00:00",
+  "ali-1005010037325307": "2026-11-22T13:15:44.525647+00:00",
   "ali-1005010041961832": "2026-11-20T11:00:57.309222+00:00",
   "ali-1005010064173908": "2026-11-22T05:31:18.289285+00:00",
   "ali-1005010088982420": "2026-11-22T07:15:50.588103+00:00",
@@ -1166,10 +1168,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/magnetic train track toy",
   "pick",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
-  "sporting-goods/3407731"
+  "sporting-goods/3407731",
+  "aliexpress/pet water fountain"
  ],
  "recent_groups": [
   "hpc",
@@ -1180,17 +1182,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "beauty",
   "kids",
   "tech",
   "kitchen",
   "kids",
   "kitchen",
   "other",
-  "sport"
+  "sport",
+  "pets"
  ],
  "recent_titles": [
-  "DIY Automatic Doll Machine Kids Coin Operated Play Game Mini Claw Catch Toys Crane Machines Music Doll for Christmas gifts",
   "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
   "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
   "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools",
@@ -1201,7 +1202,8 @@
   "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
   "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
   "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
-  "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks"
+  "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks",
+  "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1229,6 +1231,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136182
 }
