@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 38
+  "2026-11-22": 39
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -185,6 +185,7 @@
   "hot cute assorted squishy": "2026-11-19T09:01:16.698013+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
   "htmck electric smart robotic": "2026-11-20T14:30:56.295405+00:00",
+  "hy portable projector": "2026-11-22T20:16:14.350326+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
   "idegg women men no": "2026-11-22T12:45:48.707567+00:00",
@@ -523,7 +524,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-22T20:01:26.796255+00:00",
+ "last_post_at": "2026-11-22T20:16:14.349988+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1067,16 +1068,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "1005012505016533",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-projector",
-   "store": "aliexpress",
-   "title": "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
-   "url": "https://s.click.aliexpress.com/e/_c4kBYwEZ"
-  },
-  {
-   "alt": [],
    "id": "1005012649468795",
    "over_cap_ok": true,
    "require": [],
@@ -1451,6 +1442,7 @@
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
+  "ali-1005012505016533": "2026-11-22T20:16:14.290918+00:00",
   "ali-1005012533883941": "2026-11-22T14:46:21.740033+00:00",
   "ali-1005012601272584": "2026-11-20T13:30:48.329162+00:00",
   "ali-1005012655800023": "2026-11-21T14:30:53.629622+00:00",
@@ -1485,9 +1477,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/GaN charger 65W",
   "aliexpress/tool set home",
   "toys-and-games/166092011",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -1499,17 +1491,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kitchen",
   "car",
   "home",
   "kids",
   "tech",
   "home",
   "kids",
+  "tech",
   "tech"
  ],
  "recent_titles": [
-  "EVA Storage Case for Game Console, Projector and Vacuum Cleaner, Large-Capacity Multi-Functional Tool Bag for Outdoor Travel",
   "NeeDoh-style Textured Slow Rebound Gel Stress Ball, Anxiety Relief Fidget Sensory Toy, Holiday & Back to School Gift, Random Color",
   "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant",
   "COOSPO HW9 Armband Heart Rate Monitor with HR Zones/Calories HRM Sensor for Fitness Cycling BLE5.0 ANT+ for Peloton,Zwift,Wahoo",
@@ -1520,7 +1511,8 @@
   "Baseus GaN3 100/ 65W Desktop Charger Quick Charge QC 3.04.0 USB C Type C Phone Charger For iPhone15 Huawei Xiaomi MacBook Laptop",
   "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance",
   "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
-  "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection"
+  "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection",
+  "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",

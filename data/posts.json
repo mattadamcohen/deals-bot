@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0HMC3TGW7",
-  "title": "100W Heated Lunch Box for Adults with Insulated Bag （Black）",
-  "title_he": "קופסת אוכל מחוממת 100W למבוגרים עם תיק מבודד (שחור)",
-  "price": "$59.99",
-  "was": "$69.99",
-  "discount": "14%",
-  "rating": "4.8",
-  "reviews": "8",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 548,
-  "image": "https://m.media-amazon.com/images/I/81TkSGniWLL._AC_SL1500_.jpg",
-  "variant": 878,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   548,
-   549,
-   550
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/977a21c6-35c8-4824-a050-6a4d832ea0d6/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-21T19:01:12.078803+00:00"
- },
- {
   "asin": "ali-1005012756822033",
   "title": "VGN Dragonfly 3 Master Plus Pro MAX Wireless Gaming Mouse Tri-Mode SuperLight Rechargeable Esports FPS Mice TurboPlus Bluetooth",
   "title_he": "VGN Dragonfly 3 Master Plus Pro MAX Wireless Gaming Mouse Tri-Mode SuperLight נטענת Esports FPS עכברים TurboPlus Bluetooth",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-22T20:01:26.794704+00:00"
+ },
+ {
+  "asin": "ali-1005012505016533",
+  "title": "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
+  "title_he": "HY300 מיני מקרן נייד, אנדרואיד 11, WiFi 6, Bluetooth 5.0, 720p מקורי (תומך בקלט 1080p/4K)",
+  "price": "$51.34",
+  "was": "$127.19",
+  "discount": "59%",
+  "rating": "85.4%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 670,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/A368e41327a4d4a14b5e7a32b04d9795dy.png",
+  "variant": 913,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4EAA64YrHWyatCnBcxJe5WThwzS1y18JVmAM1ZnRa9jhQvUYUWSNPiy7kHpGUqABweniY5MACRyWnlyv4FEKx1Gd25JAM4FTE0ahV86GgmgKSAqT1HYlUPVpl96vJfEnTDn74xdrYibBwme2E7Yb0RKKa5atTwXgXAUzSN68zKNjaydpLA6qrUrehCYSGOXJ5Q8VaKxKjv455Ir8YfjJ6sTituaBgVOXzr26OjyArgzlCVlzwi4OgPm7GaUyUSyIeA7L5LMmTxFWQzbJYI5dsHxI4QeaJtUZAKeKzHSAFOdKJ3iPe0SOSPG90PCZrIv3cU8GHKmOP0rtdrBWANj3e9rbo3ejDnc3YQn034K6iX0JpufCfNfvkaSvYHBQGJTUxd3NVTZl00qYczvlkeWXgxTTaUUXDlzMNwLouMTTeRJQF7GTlGbMCe52ElK2p2KbFJzD27gHylcNrvW7SVheCOb7gEE4mOVys4sgX4z3DtFS00sMOSj5OO22BaMoQIhbH5mAWAx4g35M5K1qaj5SEFza6deSQMaMuwPXYSl25bBzBUsvWcaMKqxr9snJpdHAmn3xzHq8SCP101nlMUYPG5Mim0RGFmkdeBK6DlqhxbreuGqEaT1K0oCOOqjwmNkeRWLSmfdD96a1aB1Y92jHCIXRsFGTjGEBF8bwDnTTYtNsh9l6m6ZYDlYZ3NRoshdAi3rGI23Yuy997",
+  "sold": "1,000",
+  "album_ids": [
+   670,
+   671,
+   672
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-22T20:16:14.348145+00:00"
  }
 ]
