@@ -1061,6 +1061,9 @@ def inbox(state):
             giveaway_join(state, u["chat_member"])
             continue
         m = u.get("message") or {}
+        if (m.get("text") or "").strip().lower() in ("/status", "סטטוס", "status") and giveaway_open():
+            giveaway_status(state, m)
+            continue
         if (m.get("text") or "").startswith("/start") or (m.get("text") or "").strip() in ("הגרלה", "giveaway"):
             if str((m.get("chat") or {}).get("id")) != owner or "giveaway" in (m.get("text") or ""):
                 giveaway_start(state, m)
@@ -1144,13 +1147,75 @@ def add_entrant(state, user, via):
     return True
 
 
+REF_MAX = 10
+
+
+def ref_link(state, uid):
+    """Personal invite link for an entrant (created once by the bot, which is a channel admin)."""
+    refs = state.setdefault("giveaway_refs", {})
+    r = refs.setdefault(str(uid), {"link": "", "joined": []})
+    if not r["link"]:
+        res = tg("createChatInviteLink", chat_id=TG_CHAT, name=f"ref-{uid}"[:32])
+        r["link"] = (res.get("result") or {}).get("invite_link", "")
+        if r["link"]:
+            state.setdefault("giveaway_link_owner", {})[r["link"]] = str(uid)
+    return r["link"]
+
+
+def share_buttons(link):
+    from urllib.parse import quote
+    msg = ("🎁 מגרילים גיפט קארד של $50 לאמזון! מצטרפים לערוץ הדילים IL Deals (אמזון ואליאקספרס עם משלוח לארץ) "
+           "ונכנסים להגרלה אוטומטית 👇\n" + link)
+    return json.dumps({"inline_keyboard": [
+        [{"text": "📲 שיתוף בוואטסאפ", "url": "https://wa.me/?text=" + quote(msg)}],
+        [{"text": "✈️ שיתוף בטלגרם", "url": "https://t.me/share/url?url=" + quote(link) + "&text=" + quote(msg.rsplit("\n", 1)[0])}],
+    ]})
+
+
+def entries_of(state, uid, check=False):
+    joined = (state.get("giveaway_refs", {}).get(str(uid)) or {}).get("joined", [])
+    if check:
+        joined = [j for j in joined if is_member(j)]
+    return 1 + min(REF_MAX, len(joined))
+
+
+def giveaway_status(state, m):
+    user, chat = m.get("from") or {}, (m.get("chat") or {}).get("id")
+    uid = str(user.get("id"))
+    if uid not in state.get("giveaway_entries", {}):
+        return giveaway_start(state, m)
+    link = ref_link(state, uid)
+    n = entries_of(state, uid)
+    tg("sendMessage", chat_id=chat, disable_web_page_preview="true", reply_markup=share_buttons(link) if link else None, text=(
+        f"🎟️ יש לך {n} כרטיסים בהגרלה (מתוך 11 אפשריים)\n"
+        f"👥 חברים שהצטרפו דרכך: {n - 1}\n\n"
+        f"כל חבר שמצטרף דרך הקישור האישי שלך = עוד כרטיס 🎁\n👉 {link}"))
+
+
 def giveaway_join(state, cm):
     """Someone joined the channel: enter them automatically while the giveaway is open."""
     if not giveaway_open():
         return
     new, old = cm.get("new_chat_member") or {}, cm.get("old_chat_member") or {}
     if new.get("status") == "member" and old.get("status") in ("left", "kicked", None):
-        add_entrant(state, new.get("user") or {}, "join")
+        user = new.get("user") or {}
+        uid = str(user.get("id"))
+        seen = state.setdefault("giveaway_seen", [])
+        first_time = uid not in seen and uid not in state.get("giveaway_entries", {})
+        if uid not in seen:
+            seen.append(uid)
+        add_entrant(state, user, "join")
+        link = ((cm.get("invite_link") or {}).get("invite_link") or "")
+        owner = state.get("giveaway_link_owner", {}).get(link)
+        if owner and owner != uid and first_time and not user.get("is_bot"):
+            r = state["giveaway_refs"].setdefault(owner, {"link": link, "joined": []})
+            if uid not in r["joined"]:
+                r["joined"].append(uid)
+                n = entries_of(state, owner)
+                log(f"Giveaway referral: {owner} brought {uid} ({len(r['joined'])} so far)")
+                name = (user.get("first_name") or "חבר/ה")[:30]
+                more = "הגעת למקסימום, כל הכבוד! 🏆" if len(r["joined"]) >= REF_MAX else "ממשיכים? כל חבר נוסף = עוד כרטיס 👇"
+                tg("sendMessage", chat_id=owner, text=f"🎉 {name} הצטרף/ה דרך הקישור שלך! יש לך עכשיו {n} כרטיסים בהגרלה.\n{more}")
 
 
 def giveaway_start(state, m):
@@ -1168,11 +1233,17 @@ def giveaway_start(state, m):
         return
     new = add_entrant(state, user, "bot")
     draw = g["draw"]
-    tg("sendMessage", chat_id=chat, text=(
-        f"✅ {'אתם בהגרלה!' if new else 'אתם כבר רשומים להגרלה 👍'} בהצלחה!\n\n"
+    link = ref_link(state, user.get("id"))
+    n = entries_of(state, user.get("id"))
+    tg("sendMessage", chat_id=chat, disable_web_page_preview="true",
+       reply_markup=share_buttons(link) if link else None, text=(
+        f"✅ {'אתם בהגרלה!' if new else 'אתם כבר רשומים להגרלה 👍'} יש לכם {n} {'כרטיס' if n == 1 else 'כרטיסים'}.\n\n"
+        f"🚀 רוצים להגדיל את הסיכוי? הזמינו חברים!\n"
+        f"כל חבר שמצטרף לערוץ דרך הקישור האישי שלכם = עוד כרטיס, עד 10 חברים (11 כרטיסים).\n\n"
+        f"👇 הקישור האישי שלכם (או פשוט לחצו על הכפתורים לשיתוף):\n{link}\n\n"
         f"🎁 הפרס: {g.get('prize_he', 'גיפט קארד של $50 לאמזון')}\n"
-        f"🗓️ ההגרלה תתקיים ב-{draw[8:10]}/{draw[5:7]} והזוכה יוכרז בערוץ, ונשלח לו הודעה כאן.\n"
-        f"שימו לב: צריך להישאר בערוץ עד ההגרלה."))
+        f"🗓️ ההגרלה ב-{draw[8:10]}/{draw[5:7]} בצהריים. רק חברים שעדיין בערוץ בזמן ההגרלה נספרים.\n"
+        f"📊 לבדוק כמה כרטיסים יש לכם: שלחו כאן \"סטטוס\""))
 
 
 def giveaway_draw(state):
@@ -1184,8 +1255,15 @@ def giveaway_draw(state):
     if now_il.date().isoformat() < g["draw"] or now_il.hour < g.get("draw_hour", 12):
         return
     ent = state.get("giveaway_entries", {})
-    ids = list(ent)
-    random.shuffle(ids)
+    # one ticket each + one per friend they brought who is still in the channel (max 10 extra)
+    weights = {uid: entries_of(state, uid, check=True) for uid in ent}
+    ids = []
+    pool = dict(weights)
+    while pool:  # weighted shuffle: draw without replacement
+        uid = random.choices(list(pool), weights=list(pool.values()))[0]
+        ids.append(uid)
+        pool.pop(uid)
+    tg_owner(f"🎟️ Draw tickets: {sum(weights.values())} across {len(weights)} entrants")
     for uid in ids:
         if is_member(uid):
             w = ent[uid]
