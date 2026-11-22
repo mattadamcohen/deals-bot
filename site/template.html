@@ -96,6 +96,8 @@ select{font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);
 .tg-card a{margin-inline-start:auto;background:#fff;color:#1d8fd8;font-weight:900;border-radius:999px;padding:11px 20px}
 .tg-card .gift{font-size:40px}
 
+.more{display:block;margin:4px auto 34px;border:0;background:var(--navy);color:#fff;font-weight:900;font-size:16px;border-radius:999px;padding:13px 30px}
+.more small{font-weight:500;opacity:.75;margin-inline-start:6px}
 .empty{grid-column:1/-1;text-align:center;padding:50px 10px;color:var(--muted)}
 .empty b{display:block;font-size:20px;color:var(--ink);margin-bottom:6px}
 
@@ -130,6 +132,7 @@ footer b{color:#fff}
     </div>
   </div>
   <div class="grid" id="grid"></div>
+  <button class="more" id="more" type="button" hidden></button>
 </main>
 
 <footer><div class="wrap">
@@ -150,7 +153,7 @@ const T = {
   all:"הכל", amazon:"אמזון", ali:"אליאקספרס", s_new:"החדשים ביותר", s_pop:"הכי נמכרים", s_off:"ההנחה הגדולה", s_low:"מחיר: מהנמוך", s_high:"מחיר: מהגבוה",
   deals:n=>`${n} דילים`, sold:"נמכרו", reviews:"ביקורות", ship:"🇮🇱 משלוח לארץ", buy:"לצפייה בדיל ←", fresh:"חדש היום",
   tgh:"דילים חדשים כל יום בטלגרם", tgp:"הצטרפו לערוץ וקבלו את הדילים הכי חמים ישר לטלפון", tga:"הצטרפו בחינם",
-  e1:"לא מצאנו דילים כאלה", e2:"נסו מילה אחרת או קטגוריה אחרת",
+  more:"הצגת דילים נוספים", left:n=>`(עוד ${n})`, e1:"לא מצאנו דילים כאלה", e2:"נסו מילה אחרת או קטגוריה אחרת",
   f1:"דילים מאמזון ואליאקספרס עם משלוח לישראל.", f2:"המחירים בשקלים הם הערכה לפי שער היום, ועשויים להשתנות. המחיר הסופי, המשלוח והמיסים מוצגים באתר החנות.",
   f3:"גילוי נאות: הקישורים באתר הם קישורי שותפים. כשקונים דרכם אנחנו עשויים לקבל עמלה, בלי עלות נוספת לכם.",
   cats:{all:"הכל",tech:"טק וגיימינג",home:"לבית",kitchen:"מטבח",kids:"ילדים וצעצועים",fashion:"אופנה",beauty:"יופי וטיפוח",sport:"ספורט וטבע",car:"לרכב",other:"עוד"}},
@@ -160,7 +163,7 @@ const T = {
   all:"All", amazon:"Amazon", ali:"AliExpress", s_new:"Newest", s_pop:"Most purchased", s_off:"Biggest discount", s_low:"Price: low to high", s_high:"Price: high to low",
   deals:n=>`${n} deals`, sold:"sold", reviews:"reviews", ship:"🇮🇱 Ships to Israel", buy:"View deal →", fresh:"New today",
   tgh:"New deals every day on Telegram", tgp:"Join the channel and get the hottest deals straight to your phone", tga:"Join free",
-  e1:"No deals found", e2:"Try another word or category",
+  more:"Show more deals", left:n=>`(${n} more)`, e1:"No deals found", e2:"Try another word or category",
   f1:"Amazon and AliExpress deals that ship to Israel.", f2:"Shekel prices are estimates at today's rate and may change. The final price, shipping and taxes are shown on the store's site.",
   f3:"Disclosure: links on this site are affiliate links. When you buy through them we may earn a commission, at no extra cost to you.",
   cats:{all:"All",tech:"Tech & gaming",home:"Home",kitchen:"Kitchen",kids:"Kids & toys",fashion:"Fashion",beauty:"Beauty",sport:"Sport & outdoors",car:"Car",other:"More"}}
@@ -175,6 +178,7 @@ let state = {cat:"all", store:"all", sort:"new", q:"", lang:"he"};
 try { const s = JSON.parse(localStorage.getItem("ild-filters")||"{}"); Object.assign(state, s, {q:""}); } catch(e) {}
 const qp = new URLSearchParams(location.search).get("lang"); if (qp==="en"||qp==="he") state.lang = qp;
 const L = () => T[state.lang];
+const PAGE = 24; let shown = PAGE;
 
 function applyLang(){
   const t = L();
@@ -190,7 +194,7 @@ function renderCats(){
   PRODUCTS.forEach(p => { if (state.store==="all"||p.store===state.store) { counts[p.theme]=(counts[p.theme]||0)+1; counts.all=(counts.all||0)+1; } });
   el.innerHTML = ORDER.filter(c => counts[c]).map(c =>
     `<button class="chip ${state.cat===c?"on":""}" data-c="${c}">${ICONS[c]} ${L().cats[c]} <span class="n">${counts[c]}</span></button>`).join("");
-  el.querySelectorAll(".chip").forEach(b => b.onclick = () => { state.cat=b.dataset.c; save(); render(); });
+  el.querySelectorAll(".chip").forEach(b => b.onclick = () => { state.cat=b.dataset.c; shown=PAGE; save(); render(); });
 }
 
 function card(p){
@@ -231,16 +235,21 @@ function render(){
               off:(a,b)=>(parseInt(b.discount)||0)-(parseInt(a.discount)||0),
               low:(a,b)=>usd(a.price)-usd(b.price), high:(a,b)=>usd(b.price)-usd(a.price)};
   list.sort(by[state.sort]||by.new);
-  const cards = list.map(card);
+  const total = list.length;
+  const cards = list.slice(0, shown).map(card);
   if (cards.length > 8) cards.splice(8, 0, `<div class="tg-card"><span class="gift">🎁</span><div><h3>${t.tgh}</h3><p>${t.tgp}</p></div><a href="https://t.me/ilamazondeals" target="_blank" rel="noopener">${t.tga}</a></div>`);
   document.getElementById("grid").innerHTML = cards.join("") || `<div class="empty"><b>${t.e1}</b>${t.e2}</div>`;
-  document.getElementById("count").textContent = t.deals(list.length);
+  document.getElementById("count").textContent = t.deals(total);
+  const more = document.getElementById("more");
+  more.hidden = shown >= total;
+  more.innerHTML = `${t.more} <small>${t.left(total - shown)}</small>`;
 }
 function save(){ try { localStorage.setItem("ild-filters", JSON.stringify({cat:state.cat,store:state.store,sort:state.sort,lang:state.lang})); } catch(e) {} }
 
-document.querySelectorAll("#stores button").forEach(b => b.onclick = () => { state.store=b.dataset.s; state.cat="all"; save(); render(); });
-document.getElementById("sort").onchange = e => { state.sort=e.target.value; save(); render(); };
-document.getElementById("q").oninput = e => { state.q=e.target.value; render(); };
+document.querySelectorAll("#stores button").forEach(b => b.onclick = () => { state.store=b.dataset.s; state.cat="all"; shown=PAGE; save(); render(); });
+document.getElementById("more").onclick = () => { shown += PAGE; render(); };
+document.getElementById("sort").onchange = e => { state.sort=e.target.value; shown=PAGE; save(); render(); };
+document.getElementById("q").oninput = e => { state.q=e.target.value; shown=PAGE; render(); };
 document.getElementById("lang").onclick = () => { state.lang = state.lang==="he"?"en":"he"; save(); render(); };
 render();
 </script>
