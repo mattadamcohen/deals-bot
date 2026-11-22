@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 18
+  "2026-11-22": 19
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -286,6 +286,7 @@
   "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
+  "ultralight compact self inflating": "2026-11-22T14:16:27.503392+00:00",
   "uno pokemon board game": "2026-11-19T17:30:51.560155+00:00",
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
@@ -376,7 +377,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T13:45:48.670031+00:00",
+ "last_post_at": "2026-11-22T14:16:27.503247+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -908,22 +909,6 @@
  "pick_queue": [
   {
    "alt": [
-    "Columbia Powder Lite jacket men"
-   ],
-   "at": "2026-11-21T16:17:00+00:00",
-   "id": "Columbia men's Powder Lite II jacket",
-   "not_before": "2026-11-22T14:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "columbia",
-    "powder lite"
-   ],
-   "sid": "shot-1121-7",
-   "store": "amazon_search",
-   "url": "screenshot"
-  },
-  {
-   "alt": [
     "Osprey Daylite expandable backpack"
    ],
    "at": "2026-11-21T16:17:00+00:00",
@@ -1063,6 +1048,7 @@
   "ali-1005006997695145": "2026-11-22T10:16:11.030434+00:00",
   "ali-1005007002128983": "2026-11-20T19:00:59.283752+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
+  "ali-1005007010322211": "2026-11-22T14:16:27.476149+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
   "ali-1005007016024919": "2026-11-21T07:30:51.873176+00:00",
@@ -1170,10 +1156,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "sporting-goods/3407731",
   "aliexpress/pet water fountain",
-  "aliexpress/board game family"
+  "aliexpress/board game family",
+  "aliexpress/backpack"
  ],
  "recent_groups": [
   "hpc",
@@ -1184,17 +1170,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "tech",
   "kitchen",
   "kids",
   "kitchen",
   "other",
   "sport",
   "pets",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
   "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools",
   "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
   "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
@@ -1205,7 +1190,8 @@
   "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
   "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks",
   "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window",
-  "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games"
+  "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games",
+  "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
