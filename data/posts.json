@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DGPSZVW3",
-  "title": "medicube Collagen Jelly Cream, Moisturizing Cream for Plump Skin, 1.69fl.oz",
-  "title_he": "Medicube Collagen Jelly Cream, קרם לחות לעור שמנמן, 1.69fl.oz",
-  "price": "$9.60",
-  "was": "",
-  "discount": "36%",
-  "rating": "4.5",
-  "reviews": "43,787",
-  "rank": 8,
-  "source": "bestsellers",
-  "message_id": 509,
-  "image": "https://m.media-amazon.com/images/I/61aDluwKSxL._SL1500_.jpg",
-  "variant": 856,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   509,
-   510,
-   511
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/fdd57898-2280-4104-809a-7567cb805ab0.mp4/productVideoOptimized.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-21T12:30:52.970199+00:00"
- },
- {
   "asin": "ali-1005008406502228",
   "title": "Kids Instant Camera Gift Set with 32GB Memory Card Color Pencil Dual Camera Flashlight - Perfect for Boys & Girls",
   "title_he": "סט מתנות למצלמה מיידית לילדים עם עיפרון צבעוני של כרטיס זיכרון בנפח 32GB פנס מצלמה כפול - מושלם לבנים ובנות",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-22T16:16:26.966438+00:00"
+ },
+ {
+  "asin": "B0C7ZBNWL5",
+  "title": "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted",
+  "title_he": "מכנסי יוגה G4Free לנשים מכנסי רגליים רחבות עם כיסים מותניים גבוהים",
+  "price": "$28.08",
+  "was": "$36.99",
+  "discount": "24%",
+  "rating": "4.3",
+  "reviews": "7,132",
+  "rank": 9,
+  "source": "bestsellers",
+  "message_id": 631,
+  "image": "https://m.media-amazon.com/images/I/51Pds-VK2bL._AC_SL1500_.jpg",
+  "variant": 222,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   631,
+   632,
+   633
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cfd77d54-9654-4357-bbe3-a03531396a52/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "sporting-goods/3407731",
+  "category_en": "Exercise & Fitness",
+  "category_he": "כושר",
+  "posted_at": "2026-11-22T16:31:06.507921+00:00"
  }
 ]

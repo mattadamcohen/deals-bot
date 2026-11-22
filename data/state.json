@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 25
+  "2026-11-22": 26
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -24,6 +24,7 @@
   "B0D2RYC8T1": "2026-11-21T05:04:19.867253+00:00",
   "B0D2YC2GGH": "2026-11-16T06:31:23.838493+00:00",
   "B0D5J4S1MZ": "2026-11-19T08:31:27.609404+00:00",
+  "B0D6V79DLZ": "2026-11-22T16:31:06.510433+00:00",
   "B0D7QD8MTR": "2026-11-18T10:05:20.234978+00:00",
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
@@ -165,6 +166,7 @@
   "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
   "friends princess luxury ice": "2026-11-18T05:01:00.254571+00:00",
   "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
+  "g free yoga pants": "2026-11-22T16:31:06.510441+00:00",
   "gamesir nova lite wireless": "2026-11-18T11:31:07.230391+00:00",
   "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
   "genuine r s retro": "2026-11-18T08:01:06.645825+00:00",
@@ -491,7 +493,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T16:16:26.968444+00:00",
+ "last_post_at": "2026-11-22T16:31:06.510237+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1027,24 +1029,7 @@
   "B0HJSW1G3J": "2026-11-22T06:02:17.631013+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [
-  {
-   "alt": [
-    "Osprey Daylite expandable backpack"
-   ],
-   "at": "2026-11-21T16:17:00+00:00",
-   "id": "Osprey Daylite Expandable travel pack 26+6",
-   "not_before": "2026-11-22T16:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [
-    "osprey",
-    "daylite"
-   ],
-   "sid": "shot-1121-8",
-   "store": "amazon_search",
-   "url": "screenshot"
-  }
- ],
+ "pick_queue": [],
  "posted": {
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
@@ -1100,6 +1085,7 @@
   "B0C3FTCYZL": "2026-11-19T08:31:27.582391+00:00",
   "B0C3V7VTT7": "2026-11-22T11:46:07.952193+00:00",
   "B0C65S55Q2": "2026-11-22T06:08:59.385292+00:00",
+  "B0C7ZBNWL5": "2026-11-22T16:31:06.474029+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
   "B0CLGNYKFR": "2026-11-21T17:00:59.256447+00:00",
@@ -1283,31 +1269,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/under bed storage",
   "kitchen/510136",
   "aliexpress/kids toys",
-  "pick"
+  "pick",
+  "sporting-goods/3407731"
  ],
  "recent_groups": [
-  "videogames",
   "hpc",
   "kitchen",
   "sporting-goods",
   "beauty",
-  "kitchen"
+  "kitchen",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "beauty",
   "home",
   "kitchen",
   "kids",
-  "kids"
+  "kids",
+  "sport"
  ],
  "recent_titles": [
-  "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
   "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
   "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks",
   "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window",
@@ -1318,7 +1303,8 @@
   "Large Capacity Clothes Storage Bag Foldable Blanket Storage Containers for Organizing Bedroom Closet",
   "STANLEY Everyday Camp Mug, 24 oz, Hammertone Green",
   "Cute Kawaii Cat Squishy Soft Silicone Stress Relief Squeeze Toy Anxiety Relief Desk Buddy Gift for Kids Adults Desk Decor Gift",
-  "NeeDoh-style Cloud Pleaser Slow Rising Squishy Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population"
+  "NeeDoh-style Cloud Pleaser Slow Rising Squishy Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
+  "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1346,6 +1332,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
- "tg_offset": 260136199
+ "since_ali": 1,
+ "tg_offset": 260136201
 }
