@@ -895,6 +895,12 @@
    "sid": "shot-1121-8",
    "store": "amazon_search",
    "url": "screenshot"
+  },
+  {
+   "at": "2026-11-22T05:45:44.861291+00:00",
+   "id": "3256813278753405",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4Te9lTP"
   }
  ],
  "posted": {
@@ -1176,5 +1182,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136165
+ "tg_offset": 260136166
 }
