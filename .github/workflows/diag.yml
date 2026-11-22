@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       script: { description: "tools/<script>.py", required: true }
+      args: { description: "arguments", required: false, default: "" }
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -12,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
-      - run: python ${{ inputs.script }}
+      - run: python ${{ inputs.script }} ${{ inputs.args }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
