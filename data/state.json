@@ -1,9 +1,10 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 36
+  "2026-11-22": 37
  },
  "families": {
+  "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
   "B01MZBTUOZ": "2026-11-22T05:04:10.388165+00:00",
   "B07WV49Q56": "2026-11-22T12:45:48.707561+00:00",
@@ -215,6 +216,7 @@
   "m m solar string": "2026-11-22T18:15:51.750745+00:00",
   "magic cube children educational": "2026-11-18T16:31:48.162309+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
+  "magna-tiles classic piece magnetic": "2026-11-22T19:34:12.138469+00:00",
   "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
   "magnetic car phone holder": "2026-11-18T09:30:54.394163+00:00",
   "magnetic track children's toy": "2026-11-22T11:15:44.386295+00:00",
@@ -478,6 +480,12 @@
    "name": "adammm",
    "username": "",
    "via": "join"
+  },
+  "9255242793": {
+   "at": "2026-11-22T19:30:45.190610+00:00",
+   "name": "Mhmod",
+   "username": "",
+   "via": "join"
   }
  },
  "giveaway_link_owner": {
@@ -502,11 +510,12 @@
   "8848378338",
   "7233704494",
   "8792830168",
-  "1580434942"
+  "1580434942",
+  "9255242793"
  ],
  "last_bundle_day": "2026-11-20",
- "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T19:00:55.566033+00:00",
+ "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
+ "last_post_at": "2026-11-22T19:34:12.138055+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -554,7 +563,7 @@
   "B006QF3TW4": "2026-11-19T07:31:28.704131+00:00",
   "B006W6YHYQ": "2026-11-19T12:02:59.127956+00:00",
   "B00730QW70": "2026-11-21T05:02:48.387255+00:00",
-  "B007GE75HY": "2026-11-17T19:33:35.818573+00:00",
+  "B007GE75HY": "2026-11-22T19:32:07.259245+00:00",
   "B007JXVR76": "2026-11-19T12:03:37.455907+00:00",
   "B0084JUNVU": "2026-11-14T07:05:12.321506+00:00",
   "B0094B79PA": "2026-11-20T12:02:12.686755+00:00",
@@ -588,6 +597,7 @@
   "B00PBX3L7K": "2026-11-22T15:17:43.137425+00:00",
   "B00Q7OAW1U": "2026-11-17T10:01:12.884659+00:00",
   "B00QSR9URI": "2026-11-19T06:34:07.103952+00:00",
+  "B00RWNEN9W": "2026-11-22T19:31:17.464166+00:00",
   "B00S93EQUK": "2026-11-22T10:46:17.840349+00:00",
   "B00SDJG51S": "2026-11-14T12:23:35.323198+00:00",
   "B00T0C9XRK": "2026-11-18T05:33:03.595860+00:00",
@@ -863,8 +873,9 @@
   "B0CFGYFCYL": "2026-11-17T15:02:30.421890+00:00",
   "B0CG9N76FG": "2026-11-21T05:02:34.497300+00:00",
   "B0CGX3SBJF": "2026-11-20T12:04:32.145572+00:00",
-  "B0CGY3VF3K": "2026-11-14T14:30:20.499836+00:00",
-  "B0CGY4J7QT": "2026-11-17T19:34:20.260247+00:00",
+  "B0CGY3VF3K": "2026-11-22T19:31:33.260534+00:00",
+  "B0CGY4J7QT": "2026-11-22T19:32:56.814962+00:00",
+  "B0CHJTD1FS": "2026-11-22T19:33:29.891947+00:00",
   "B0CHN5D13P": "2026-11-22T05:03:05.375302+00:00",
   "B0CHS2VNHC": "2026-11-14T07:07:49.794136+00:00",
   "B0CJF94M8J": "2026-11-18T10:04:34.252659+00:00",
@@ -875,6 +886,7 @@
   "B0CMJTSVRW": "2026-11-15T06:32:34.376532+00:00",
   "B0CMYR1CNK": "2026-11-18T05:33:58.452030+00:00",
   "B0CNX6MMK3": "2026-11-15T06:33:06.671647+00:00",
+  "B0CP4BSFB9": "2026-11-22T19:33:56.360862+00:00",
   "B0CQ53RVTW": "2026-11-22T06:02:57.036276+00:00",
   "B0CQF6T2K1": "2026-11-15T17:07:44.231865+00:00",
   "B0CQMJFR1S": "2026-11-22T05:02:11.371197+00:00",
@@ -936,7 +948,7 @@
   "B0DJWQ3S8T": "2026-11-15T16:01:30.231642+00:00",
   "B0DKSKNC1K": "2026-11-15T17:03:32.292686+00:00",
   "B0DMCBMCZ7": "2026-11-19T16:33:48.052524+00:00",
-  "B0DMSVXBDV": "2026-11-17T19:34:27.582643+00:00",
+  "B0DMSVXBDV": "2026-11-22T19:32:43.743935+00:00",
   "B0DMV3BMGP": "2026-11-22T06:02:24.118880+00:00",
   "B0DN2ZCZX6": "2026-11-22T06:01:30.880313+00:00",
   "B0DP7GYWF7": "2026-11-19T06:33:42.107155+00:00",
@@ -946,6 +958,7 @@
   "B0DQYP1L95": "2026-11-22T05:01:09.897021+00:00",
   "B0DQYR6X8R": "2026-11-22T05:01:59.508583+00:00",
   "B0DRCKDWD1": "2026-11-16T10:32:41.612927+00:00",
+  "B0DRW69H11": "2026-11-22T19:31:04.473561+00:00",
   "B0DS1S2Z7L": "2026-11-16T10:34:36.310662+00:00",
   "B0DSH5V1TT": "2026-11-14T20:17:42.592882+00:00",
   "B0DSJXBMTC": "2026-11-22T06:03:45.727544+00:00",
@@ -1009,8 +1022,9 @@
   "B0FYJ7PWBY": "2026-11-20T07:32:29.842529+00:00",
   "B0G1BK1J3B": "2026-11-20T16:31:35.499398+00:00",
   "B0G1V17DQR": "2026-11-14T07:06:18.100142+00:00",
-  "B0G2STSGW3": "2026-11-17T19:34:15.100038+00:00",
-  "B0G2SZQS1C": "2026-11-17T19:33:43.302455+00:00",
+  "B0G2STSGW3": "2026-11-22T19:33:24.036994+00:00",
+  "B0G2SZQS1C": "2026-11-22T19:31:22.542855+00:00",
+  "B0G2T25FMG": "2026-11-22T19:33:04.416930+00:00",
   "B0G38FGSKL": "2026-11-21T09:31:56.489771+00:00",
   "B0G3GGVJD5": "2026-11-14T07:06:43.583628+00:00",
   "B0G3Y2FSKT": "2026-11-14T07:01:35.558918+00:00",
@@ -1044,6 +1058,7 @@
  },
  "pick_queue": [],
  "posted": {
+  "B000CBSNKQ": "2026-11-22T19:34:12.037819+00:00",
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
@@ -1292,31 +1307,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/solar string lights outdoor",
   "aliexpress/kids toys",
   "aliexpress/GaN charger 65W",
-  "aliexpress/tool set home"
+  "aliexpress/tool set home",
+  "toys-and-games/166092011"
  ],
  "recent_groups": [
-  "sporting-goods",
   "beauty",
   "kitchen",
   "sporting-goods",
   "beauty",
-  "kitchen"
+  "kitchen",
+  "toys-and-games"
  ],
  "recent_themes": [
-  "beauty",
   "tech",
   "kitchen",
   "car",
   "home",
   "kids",
   "tech",
-  "home"
+  "home",
+  "kids"
  ],
  "recent_titles": [
-  "NeeDoh-style Cloud Pleaser Slow Rising Squishy Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
   "G4Free Yoga Pants for Women Wide Leg Pants with Pockets High Waisted",
   "EVA Storage Case for Game Console, Projector and Vacuum Cleaner, Large-Capacity Multi-Functional Tool Bag for Outdoor Travel",
   "NeeDoh-style Textured Slow Rebound Gel Stress Ball, Anxiety Relief Fidget Sensory Toy, Holiday & Back to School Gift, Random Color",
@@ -1327,7 +1341,8 @@
   "12m/7m Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Lights For Outdoor Holiday Decoration Lighting",
   "Medium Size Magnetic Building Blocks, DIY STEM Construction Magnet Toys, Educational Learning Playset for Kids",
   "Baseus GaN3 100/ 65W Desktop Charger Quick Charge QC 3.04.0 USB C Type C Phone Charger For iPhone15 Huawei Xiaomi MacBook Laptop",
-  "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance"
+  "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance",
+  "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1355,6 +1370,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
- "tg_offset": 260136202
+ "since_ali": 1,
+ "tg_offset": 260136203
 }

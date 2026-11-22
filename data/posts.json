@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005013261781803",
-  "title": "LESOWN 12.3\" Portable Gaming Monitor 60Hz 80% NTSC Slim Display with Speakers Instant Connection for Steam Deck",
-  "title_he": "צג משחקים נייד של LESOWN 12.3 אינץ' 60Hz 80% NTSC Slim Display עם רמקולים חיבור מיידי ל-Steam Deck",
-  "price": "$126.69",
-  "was": "$294.63",
-  "discount": "57%",
-  "rating": "",
-  "reviews": "",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 542,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S648f2dbc7f554c58a20c25b1fd153258n.jpg",
-  "variant": 249,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2TEg2ePTWzFHvVxJESHR2WByDGehGiAM8X71lVMszV9KS9CmAz23xzyYNH1sRSPvoNbJPGFU4ulWTgOl7QOnGh5t7usO6H3KXAlZUf8jMAmrzDaJUk5lm9LyQhu6r8GcDcHa3Dro3AqGnDPnC2uEWHfbjsnBbPUNPk7UH3TTfLsVASmCNg0Y9zpSsS2En5HDEkTpqtrzWgfrEw24Ry4iB7aNpIlQb2AJH9BiqFMndP5MRl7xMa86k5GWsq3S71DWj84Z10gyXi0I33K3heYM359gt4YuuKD9kdTc0z28HSYufExJuP0tggXdKjGxPxBslh0PvkXfTe2nBvYnexnqFi2u0PaMttVpsq6sDi0UfKorT2r7PevcPDDTRxL9ugMJNs8orjAUiOcBk2x9VAEOvuj7YgVGwVCPm7jh4I7J8ohnSRmQuWVJdJ6DKoTPHWNB2JwX9IRbKgXhDt4PiLvAnEvnecFqRvDhorfC5u7X86oDlfKjsolCbS1ZXPOL1LEeUPt8jO54z6iVXCRdwwzKs7eDPcrTnuTKb7DZUtatTvB1oCZyPmarlCtVOQ7XrE4NniDQp0dQRTcRXu2efh3g5Y5M0vmdyDZyd0bvBCHcdk2OdYaASgvGIGBzxVQnykhuZDbJuPDaZ6uFblWTgSmTQzKD3IJiojjCsOoHqBkgJgQToBIIDo09Gtkk50StgmTmWSJwHIKwkVqCd",
-  "sold": "0",
-  "album_ids": [
-   542,
-   543,
-   544
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-21T18:00:54.876916+00:00"
- },
- {
   "asin": "B0H87K51V4",
   "title": "Wall Climbing Gecko Toy for Kids, Remote Control Gecko, Wall Crawler Gecko with LED Glowing Eyes, RC Crawler Toy,Cyan",
   "title_he": "צעצוע שממית מטפס על קיר לילדים, שממית שלט רחוק, שממית סורק קיר עם עיניים זוהרות לד, צעצוע זחל RC, ציאן",
@@ -1158,5 +1129,34 @@
   "category_en": "Tools",
   "category_he": "כלי עבודה",
   "posted_at": "2026-11-22T19:00:55.563946+00:00"
+ },
+ {
+  "asin": "B000CBSNKQ",
+  "title": "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
+  "title_he": "MAGNA-TILES סט בנייה מגנטי קלאסי בן 32 חלקים, מותג הבנייה המגנטי המקורי",
+  "price": "$34.99",
+  "was": "$49.99",
+  "discount": "30%",
+  "rating": "4.9",
+  "reviews": "13,973",
+  "rank": 9,
+  "source": "bestsellers",
+  "message_id": 664,
+  "image": "https://m.media-amazon.com/images/I/81CeQrdhosL._SL1500_.jpg",
+  "variant": 523,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   664,
+   665,
+   666
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac8c2aa4-acec-54d9-ada8-80b64e8b7b88/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+  "category_slug": "toys-and-games/166092011",
+  "category_en": "Building Toys",
+  "category_he": "צעצועי הרכבה",
+  "posted_at": "2026-11-22T19:34:12.135765+00:00"
  }
 ]
