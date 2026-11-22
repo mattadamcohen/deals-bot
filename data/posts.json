@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005007987706793",
-  "title": "Xiaomi Mijia Automatic Soap Foam Dispenser 1S USB Rechargeable Hand Washer Foaming Machine for Kitchen n Bathroom Home Appliance",
-  "title_he": "Xiaomi Mijia מתקן קצף סבון אוטומטי 1S USB נטענת מכונת כביסה ידנית מכונת קצף למטבח n חדר רחצה מכשיר ביתי",
-  "price": "$26.29",
-  "was": "$54.20",
-  "discount": "51%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 494,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S603a4e0a00064842a1b46aeee38cf0c9S.jpg",
-  "variant": 241,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mLlaL7O7vPOnfX43hr2MsMIxIwMQZspTxMX3Aiyib8X1SfFFyzlp0njasssUW07Oqk7fhtiILwIZymkzNbT20MsztoerA7JBaUOGF9rSF2CVfDwpcsro4i5o7mW7yLoDsNYn4kwS4ys3holTI8mFOn2PTgvpS45HebieKyY16Atv0pVGTrxNV2yqTXbiYrUt0HWzMAEeqO0QIyuXQm1djWwRNKRQsW8WRBtyqjPTsJDHQWvlSZeUrGpeCkP7XkEwXAyidmcn4ZvDA9LhtIzDc1vFRIh72t4D1z8b5rcWrjbcZ4Kstd38kBDWWE0hOOvGIOIaUzZPfhpeHudH6nbWDJgpHX4nQDJljU3rPq5THWChI6mb4dFbz9sCaLVt9Q02L5wGEyS4rzVlWSw7wBzqmxHvOwoqexjSyXm0UOqygTXYoWpnCGgEfP3FPmCAzs6FHeujQ6ZYlCKFRxVrm1Vy2qDY5DYVa5JqKzK849UfjjLLpt13QuSKBaTCNlAMD1RmPMnJRnqMCv3FuwZJkwiiIUHWliI4jAPfGz6Zzq6epeaKn1Kc6bjr2PMQiSRqa9pWnD9TTibOeDwWwxRxyBaGvvj8oTUmpVlO58BY7V2lhWZVoR5D98G3xPbXdif6UrHkWC0ktBILR9Xlz1O7ISsJzBfvwNyKmRwtUFDOJziHn2tgQ1NJvhRF3tt06qG1MF2dNhGFLH8anUijN",
-  "sold": "1,000",
-  "album_ids": [
-   494,
-   495,
-   496
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/Xiaomi",
-  "category_en": "Top brands",
-  "category_he": "מותגים מובילים",
-  "posted_at": "2026-11-21T10:01:04.485236+00:00"
- },
- {
   "asin": "B08XTWF6DH",
   "title": "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL",
   "title_he": "Mens T Shirts Soft Cotton Crew Neck Athletic Fit Casual Tees S-4XL",
@@ -1158,5 +1129,34 @@
   "category_en": "Top brands",
   "category_he": "מותגים מובילים",
   "posted_at": "2026-11-22T14:46:21.773236+00:00"
+ },
+ {
+  "asin": "B0DK4Y2YP3",
+  "title": "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)",
+  "title_he": "celimax מאיץ הידוק זריקת רשתית Vita A (0.51 fl.oz)",
+  "price": "$14.00",
+  "was": "$24.00",
+  "discount": "42%",
+  "rating": "4.4",
+  "reviews": "33,423",
+  "rank": 20,
+  "source": "bestsellers",
+  "message_id": 614,
+  "image": "https://m.media-amazon.com/images/I/51zdLqgadJL._SL1500_.jpg",
+  "variant": 942,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   614,
+   615,
+   616
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/01f55a9d-c263-4132-97cc-00e29d1470f1/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty/11060451",
+  "category_en": "Skin Care",
+  "category_he": "טיפוח העור",
+  "posted_at": "2026-11-22T15:19:53.176592+00:00"
  }
 ]

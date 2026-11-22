@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 20
+  "2026-11-22": 21
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -66,6 +66,7 @@
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0H9NKZGB7": "2026-11-20T08:30:53.068268+00:00",
+  "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
   "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.598106+00:00",
@@ -121,6 +122,7 @@
   "car mirror radio multimedia": "2026-11-20T19:00:59.482341+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
   "casio a wa series": "2026-11-20T12:04:43.973839+00:00",
+  "celimax the vita a": "2026-11-22T15:19:53.179672+00:00",
   "cenrr handheld wireless car": "2026-11-20T05:30:55.605532+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
@@ -381,8 +383,8 @@
   }
  },
  "last_bundle_day": "2026-11-20",
- "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T14:46:21.775316+00:00",
+ "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
+ "last_post_at": "2026-11-22T15:19:53.179105+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -412,7 +414,7 @@
   "B001QCKS4O": "2026-11-19T12:02:05.563170+00:00",
   "B001STX13U": "2026-11-19T12:03:23.638733+00:00",
   "B00262227E": "2026-11-21T09:32:09.825858+00:00",
-  "B0028JURDQ": "2026-11-18T10:03:37.798919+00:00",
+  "B0028JURDQ": "2026-11-22T15:18:42.930855+00:00",
   "B002BWOS5I": "2026-11-14T06:54:48.553145+00:00",
   "B002G9UD8C": "2026-11-21T14:01:51.004301+00:00",
   "B002G9UDYG": "2026-11-21T14:02:35.790097+00:00",
@@ -461,6 +463,7 @@
   "B00NABTC8M": "2026-11-18T19:04:38.763418+00:00",
   "B00NHQF6MG": "2026-11-14T14:28:59.319561+00:00",
   "B00NTCH52W": "2026-11-22T05:02:04.654619+00:00",
+  "B00PBX3L7K": "2026-11-22T15:17:43.137425+00:00",
   "B00Q7OAW1U": "2026-11-17T10:01:12.884659+00:00",
   "B00QSR9URI": "2026-11-19T06:34:07.103952+00:00",
   "B00S93EQUK": "2026-11-22T10:46:17.840349+00:00",
@@ -504,7 +507,7 @@
   "B06XWN65JF": "2026-11-18T19:03:05.150670+00:00",
   "B06ZY9LP74": "2026-11-19T06:33:01.831358+00:00",
   "B0714K41PB": "2026-11-14T14:23:26.267083+00:00",
-  "B071914GGL": "2026-11-18T05:32:44.479851+00:00",
+  "B071914GGL": "2026-11-22T15:17:35.743358+00:00",
   "B071JM699B": "2026-11-19T06:33:28.362272+00:00",
   "B071WWY2X3": "2026-11-14T16:06:35.469949+00:00",
   "B0727R5C5Q": "2026-11-19T12:03:56.208287+00:00",
@@ -512,6 +515,7 @@
   "B072FVQNWM": "2026-11-19T06:33:35.299095+00:00",
   "B073H8STZ7": "2026-11-16T05:32:05.395239+00:00",
   "B0748J34WZ": "2026-11-22T05:03:10.203750+00:00",
+  "B07531HM8Q": "2026-11-22T15:18:49.270074+00:00",
   "B07543D21Q": "2026-11-17T10:03:56.989965+00:00",
   "B075JTR46M": "2026-11-22T06:06:07.255111+00:00",
   "B075JV36VN": "2026-11-18T19:04:07.017435+00:00",
@@ -596,6 +600,7 @@
   "B07WCR5Y4B": "2026-11-18T14:34:01.241802+00:00",
   "B07WQXBZ41": "2026-11-16T10:33:35.268195+00:00",
   "B07WRBDXZ8": "2026-11-17T05:03:52.602786+00:00",
+  "B07X3XTCHW": "2026-11-22T15:18:56.246511+00:00",
   "B07YFDF3YK": "2026-11-16T10:32:57.904104+00:00",
   "B07YKLSMFM": "2026-11-15T09:02:26.335903+00:00",
   "B07ZTD3JZH": "2026-11-21T14:02:19.278102+00:00",
@@ -605,6 +610,7 @@
   "B0828WNJXC": "2026-11-19T12:03:49.807941+00:00",
   "B0829FT44S": "2026-11-20T07:32:35.855487+00:00",
   "B083933VFT": "2026-11-22T06:03:04.180042+00:00",
+  "B083TCZDMT": "2026-11-22T15:19:06.655777+00:00",
   "B083XFGRHT": "2026-11-19T16:33:08.779795+00:00",
   "B084131T6G": "2026-11-19T06:32:27.267692+00:00",
   "B0841K3CJG": "2026-11-19T16:31:06.215010+00:00",
@@ -688,6 +694,7 @@
   "B0B283QP2N": "2026-11-17T05:03:31.504704+00:00",
   "B0B3DN72R8": "2026-11-22T06:02:30.555528+00:00",
   "B0B4KJ3MWK": "2026-11-19T07:32:35.718864+00:00",
+  "B0B56CHMSC": "2026-11-22T15:19:20.094808+00:00",
   "B0B6PLG6G2": "2026-11-22T10:48:31.220846+00:00",
   "B0B7CJT5SP": "2026-11-15T08:01:53.336818+00:00",
   "B0B7RJXZX1": "2026-11-14T06:54:54.902484+00:00",
@@ -717,7 +724,7 @@
   "B0C2C9NHZW": "2026-11-19T06:31:10.029216+00:00",
   "B0C2CY22B8": "2026-11-22T05:01:54.479614+00:00",
   "B0C3HCD34R": "2026-11-15T17:06:44.687903+00:00",
-  "B0C3QZ7SNF": "2026-11-16T05:34:22.918356+00:00",
+  "B0C3QZ7SNF": "2026-11-22T15:19:26.181720+00:00",
   "B0C4G1YZY4": "2026-11-14T10:35:52.710114+00:00",
   "B0C4LVGM18": "2026-11-19T16:32:34.110678+00:00",
   "B0C4Z6SKCS": "2026-11-17T10:02:41.384276+00:00",
@@ -764,6 +771,7 @@
   "B0CX1FRR27": "2026-11-22T06:01:57.113284+00:00",
   "B0CXGTGPZQ": "2026-11-16T10:33:12.466979+00:00",
   "B0CYZM5RSM": "2026-11-21T14:01:04.288666+00:00",
+  "B0CZJMQXSY": "2026-11-22T15:17:50.855605+00:00",
   "B0CZPLV566": "2026-11-21T14:04:25.672907+00:00",
   "B0D18VS397": "2026-11-14T06:54:40.234437+00:00",
   "B0D1VMFWYN": "2026-11-16T05:32:53.237961+00:00",
@@ -788,6 +796,7 @@
   "B0D9Q2MRB4": "2026-11-14T16:07:31.004171+00:00",
   "B0DB1753RZ": "2026-11-22T06:01:50.041011+00:00",
   "B0DB8YG2TW": "2026-11-19T16:33:01.996767+00:00",
+  "B0DBDKT4QC": "2026-11-22T15:19:34.251433+00:00",
   "B0DCH8VDXF": "2026-11-21T14:03:55.292384+00:00",
   "B0DCJXLDR9": "2026-11-16T15:03:56.889689+00:00",
   "B0DF8RSVJK": "2026-11-22T05:02:41.436195+00:00",
@@ -913,14 +922,6 @@
  },
  "pick_queue": [
   {
-   "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-22-10",
-   "store": "amazon_focus",
-   "url": "focus"
-  },
-  {
    "alt": [
     "Osprey Daylite expandable backpack"
    ],
@@ -1007,6 +1008,7 @@
   "B0DGPSZVW3": "2026-11-21T12:30:52.946948+00:00",
   "B0DJWNZFMN": "2026-11-21T14:04:37.205457+00:00",
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
+  "B0DK4Y2YP3": "2026-11-22T15:19:53.142312+00:00",
   "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
   "B0DYTQ5GYQ": "2026-11-21T09:34:00.636336+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
@@ -1170,31 +1172,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/pet water fountain",
   "aliexpress/board game family",
   "aliexpress/backpack",
-  "aliexpress/Attack Shark"
+  "aliexpress/Attack Shark",
+  "beauty/11060451"
  ],
  "recent_groups": [
-  "hpc",
   "sporting-goods",
   "videogames",
   "hpc",
   "kitchen",
-  "sporting-goods"
+  "sporting-goods",
+  "beauty"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "other",
   "sport",
   "pets",
   "kids",
   "fashion",
-  "tech"
+  "tech",
+  "beauty"
  ],
  "recent_titles": [
-  "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
   "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
   "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance",
   "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
@@ -1205,7 +1206,8 @@
   "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window",
   "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games",
   "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd",
-  "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard"
+  "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard",
+  "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1233,6 +1235,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136184
 }
