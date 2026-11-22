@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 19
+  "2026-11-22": 20
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -93,6 +93,7 @@
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "amoudo portable monitor x": "2026-11-20T11:00:57.363099+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
+  "attack shark x pro": "2026-11-22T14:46:21.775462+00:00",
   "automatic cat fountain stainless": "2026-11-22T13:15:44.563158+00:00",
   "automatic electric fruit peeler": "2026-11-20T10:30:48.899396+00:00",
   "automatic garbage with lids": "2026-11-20T07:00:54.847423+00:00",
@@ -313,6 +314,10 @@
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00",
   "zulay kitchen rechargeable milk": "2026-11-17T12:01:22.931806+00:00"
  },
+ "focus_done": [
+  "focus-2026-11-22-10",
+  "focus-2026-11-22-14"
+ ],
  "giveaway_entries": {
   "1125221452": {
    "at": "2026-11-18T07:06:11.963429+00:00",
@@ -377,7 +382,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T10:48:59.859962+00:00",
- "last_post_at": "2026-11-22T14:16:27.503247+00:00",
+ "last_post_at": "2026-11-22T14:46:21.775316+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -908,6 +913,14 @@
  },
  "pick_queue": [
   {
+   "focus": true,
+   "id": "NeeDoh",
+   "over_cap_ok": true,
+   "sid": "focus-2026-11-22-10",
+   "store": "amazon_focus",
+   "url": "focus"
+  },
+  {
    "alt": [
     "Osprey Daylite expandable backpack"
    ],
@@ -1126,6 +1139,7 @@
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
+  "ali-1005012533883941": "2026-11-22T14:46:21.740033+00:00",
   "ali-1005012601272584": "2026-11-20T13:30:48.329162+00:00",
   "ali-1005012655800023": "2026-11-21T14:30:53.629622+00:00",
   "ali-1005012736775484": "2026-11-18T10:31:15.994859+00:00",
@@ -1156,10 +1170,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "sporting-goods/3407731",
   "aliexpress/pet water fountain",
   "aliexpress/board game family",
-  "aliexpress/backpack"
+  "aliexpress/backpack",
+  "aliexpress/Attack Shark"
  ],
  "recent_groups": [
   "hpc",
@@ -1170,17 +1184,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "kitchen",
   "kids",
   "kitchen",
   "other",
   "sport",
   "pets",
   "kids",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Coffee Knock Box Anti Slip Shock-Absorbent Grind Dump Espresso Grounds Waste Bin Cafe For Barista Portafilter Accessories Tools",
   "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
   "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
   "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance",
@@ -1191,7 +1204,8 @@
   "IDEGG Women & Men No Show Low Cut Anti\u2011Slip Casual Sports Running Socks",
   "2.2L/74OZ Automatic Cat Fountain Stainless Steel Pet Water Dispenser Silent Water Pump Circulation Filtering Visual Window",
   "Kid Picture Guessing Board Game Who Is It Game For Kids Children Board Parent-Child Interactive Games For The Family Party Games",
-  "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd"
+  "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd",
+  "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
