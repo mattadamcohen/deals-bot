@@ -496,8 +496,8 @@ def caption(item, category):
         title_he = to_hebrew(short(title))
     item["title_he"] = title_he
     v = item.setdefault("variant", random.randrange(1000))  # same variant for both languages; stable on re-edits
-    he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he"), v)
-    en = block(item, category["en"], title, L["en"], seasonal_lines(category["slug"], "en"), v)
+    he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he") + ([item["note_he"]] if item.get("note_he") else []), v)
+    en = block(item, category["en"], title, L["en"], seasonal_lines(category["slug"], "en") + ([item["note_en"]] if item.get("note_en") else []), v)
     sep = pick(["〰️〰️〰️〰️〰️", "• • • • •", "➖➖➖➖➖", "✨✨✨"], v // 5)
     return he + f"\n\n{sep}\n\n" + en
 
@@ -1413,7 +1413,7 @@ def pick_details(pick, amz_factory):
     info = amz.product(pick["id"])
     if not info.get("price"):
         return "no price found on Amazon"
-    if info.get("shipping") in ("paid", "no"):
+    if info.get("shipping") in ("paid", "no") and not pick.get("ship_ok"):  # ship_ok: Matt checked shipping himself
         return "Amazon doesn't ship it free to Israel"
     if not info.get("discount") and discount_pct(info):
         info["discount"] = f"{discount_pct(info)}%"
@@ -1709,7 +1709,7 @@ def main():
         for h in fc["hours"]:
             sid = f"focus-{today}-{h}"
             if hr >= h and sid not in fdone and not any(x.get("sid") == sid for x in state.get("pick_queue", [])):
-                state.setdefault("pick_queue", []).insert(0, {"store": "amazon_focus", "id": fc.get("name", "focus"),
+                state.setdefault("pick_queue", []).append({"store": "amazon_focus", "id": fc.get("name", "focus"),
                                                               "url": "focus", "over_cap_ok": True, "sid": sid, "focus": True})
                 fdone.add(sid)
         state["focus_done"] = sorted(fdone)[-30:]
@@ -1751,6 +1751,9 @@ def main():
                 info["title"] = pk["title"]
             if pk.get("style_of"):  # unofficial brand-style item: label it "בסגנון X"
                 info["style_of"] = pk["style_of"]
+            for k in ("note_he", "note_en"):  # a line Matt wants added (e.g. import charges)
+                if pk.get(k):
+                    info[k] = pk[k]
             state["pick_queue"].remove(pk)
             before = posted_now
             post(it, info, category)

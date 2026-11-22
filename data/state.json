@@ -1220,6 +1220,18 @@
    "sid": "pick-1122-amz10",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0HDYQXT81"
+  },
+  {
+   "alt": [],
+   "id": "B0GTFH1DNL",
+   "note_en": "\ud83d\udce6 Free shipping to Israel, you only pay the import charges at Amazon checkout",
+   "note_he": "\ud83d\udce6 \u05de\u05e9\u05dc\u05d5\u05d7 \u05d7\u05d9\u05e0\u05dd \u05dc\u05d0\u05e8\u05e5, \u05de\u05e9\u05dc\u05de\u05d9\u05dd \u05e8\u05e7 \u05d0\u05ea \u05d3\u05de\u05d9 \u05d4\u05d9\u05d1\u05d5\u05d0 (\u05de\u05e1\u05d9\u05dd) \u05d1\u05e7\u05d5\u05e4\u05d4 \u05e9\u05dc \u05d0\u05de\u05d6\u05d5\u05df",
+   "over_cap_ok": true,
+   "require": [],
+   "ship_ok": true,
+   "sid": "pick-1122-amz11",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0GTFH1DNL"
   }
  ],
  "posted": {
