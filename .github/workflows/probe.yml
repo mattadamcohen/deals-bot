@@ -1,5 +1,8 @@
 name: Probe Amazon access
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      slugs: { description: "space-separated best-seller slugs (default: built-in list)", required: false, default: "" }
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -9,4 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install curl_cffi
-      - run: python tools/probe.py fashion/1045830 fashion/1044646 fashion/679312011 fashion/679286011 fashion/2476517011 fashion/1045624 fashion/1044456 pc/1232597011 amazon-devices/6669702011 wireless/7073956011 hi/551236 hi/328182011 pc/12879431 pc/11036491 pc/1292115011 videogames/402053011 videogames/14210751 kitchen/289814 kitchen/289913 beauty/11060451 beauty/11057241 beauty/3778591 automotive/15718271 luggage/15743251 toys-and-games/166164011 sporting-goods/3742221 pc/300189 electronics/6563140011 electronics/172541 home-garden/510106 hi/2400141011 kitchen/2423035011 sporting-goods/3400371
+      - run: python tools/probe.py ${{ inputs.slugs }} || true
+        if: ${{ inputs.slugs != '' }}
+      - if: ${{ inputs.slugs == '' }}
+        run: python tools/probe.py fashion/1045830 fashion/1044646 fashion/679312011 fashion/679286011 fashion/2476517011 fashion/1045624 fashion/1044456 pc/1232597011 amazon-devices/6669702011 wireless/7073956011 hi/551236 hi/328182011 pc/12879431 pc/11036491 pc/1292115011 videogames/402053011 videogames/14210751 kitchen/289814 kitchen/289913 beauty/11060451 beauty/11057241 beauty/3778591 automotive/15718271 luggage/15743251 toys-and-games/166164011 sporting-goods/3742221 pc/300189 electronics/6563140011 electronics/172541 home-garden/510106 hi/2400141011 kitchen/2423035011 sporting-goods/3400371
