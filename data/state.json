@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 40
+  "2026-11-22": 41
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -334,6 +334,7 @@
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
   "xiaomi mijia automatic soap": "2026-11-21T10:01:04.487802+00:00",
   "xiaomi mijia smart jump": "2026-11-20T06:30:51.416653+00:00",
+  "xiaomi new electric rechargeable": "2026-11-22T20:45:46.321561+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
   "zevo flying insect trap": "2026-11-19T08:31:27.609409+00:00",
@@ -525,7 +526,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-22T20:30:52.516645+00:00",
+ "last_post_at": "2026-11-22T20:45:46.321183+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1069,15 +1070,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "1005008678152252",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-trimmer",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c4NP9UI1"
-  },
-  {
-   "alt": [],
    "id": "1005008129487750",
    "over_cap_ok": true,
    "require": [],
@@ -1380,6 +1372,7 @@
   "ali-1005008603585460": "2026-11-18T12:01:19.204538+00:00",
   "ali-1005008639317272": "2026-11-18T19:31:00.099925+00:00",
   "ali-1005008660141760": "2026-11-22T17:02:02.015534+00:00",
+  "ali-1005008678152252": "2026-11-22T20:45:46.294994+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005008979722815": "2026-11-18T13:01:51.316344+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
@@ -1470,7 +1463,7 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "toys-and-games/166092011",
+  "pick",
   "pick",
   "pick",
   "pick"
@@ -1484,17 +1477,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "home",
   "kids",
   "tech",
   "home",
   "kids",
   "tech",
   "tech",
-  "kids"
+  "kids",
+  "beauty"
  ],
  "recent_titles": [
-  "Paula's Choice SKIN PERFECTING 2% BHA Liquid Leave-On Exfoliant",
   "COOSPO HW9 Armband Heart Rate Monitor with HR Zones/Calories HRM Sensor for Fitness Cycling BLE5.0 ANT+ for Peloton,Zwift,Wahoo",
   "Geedel Rotary Cheese Grater Hand Crank, Cheese Shredder Vegetable Slicer",
   "\u3010New\u301170mai Dash Cam A410 Neo 2.5K HDR+1080P Supercapacitor F1.6 Aperture GPS 24H Parking Max 256GB Car DVR 70mai A410 Neo",
@@ -1505,7 +1497,8 @@
   "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
   "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection",
   "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
-  "Hot Mini Glitter Dumpling Squishy with Box, Steamer-Shaped TPR Sensory Fidget Ball, Stress Relief Toy & Gift"
+  "Hot Mini Glitter Dumpling Squishy with Box, Steamer-Shaped TPR Sensory Fidget Ball, Stress Relief Toy & Gift",
+  "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
