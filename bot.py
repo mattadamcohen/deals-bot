@@ -1239,7 +1239,16 @@ def pick_details(pick, amz_factory):
         fresh = [a for a in seen if not (st.get("posted", {}).get(a) and is_recent(st["posted"][a], recent_days))]
         if not fresh:
             return "no new %s items right now" % fc.get("name", "focus")
-        pick = {**pick, "store": "amazon", "id": fresh[0], "_candidates": fresh[1:6]}
+        tried = []
+        for asin in fresh[:8]:  # first one that actually has a price and ships free to Israel
+            info = amz.product(asin)
+            if not info.get("price") or info.get("shipping") in ("paid", "no"):
+                tried.append(asin)
+                continue
+            if not info.get("discount") and discount_pct(info):
+                info["discount"] = f"{discount_pct(info)}%"
+            return {"asin": asin, "rank": 0, "source": "pick"}, info, cat
+        return f"none of {len(tried)} {fc.get('name', 'focus')} items had a price with free shipping to Israel"
     if pick["store"] == "amazon_search":
         amz = amz_factory()
         if not amz:
