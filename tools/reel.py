@@ -438,6 +438,22 @@ def due_slot(st, slots_key, done_key):
     return None
 
 
+import re as _re
+_BATT = _re.compile(r"\bbatter(y|ies)\b|\bAAA?\b|סוללות|סוללה|סוללת(?! גיבוי)", _re.I)
+_PBANK = _re.compile(r"power ?bank|סוללת גיבוי|פאוור ?בנק|מטען נייד", _re.I)
+_BATT_MENTION = _re.compile(r"batter(y|ies) (not )?(included|required|operated|powered|life)|(rechargeable|built-in|long) batter(y|ies)|"
+                            r"(not )?(included|requires?|with) batter(y|ies)|(battery|batteries)[- ]?(operated|powered)|"
+                            r"סוללות (לא )?כלולות|מופעל(ת)? (על |ב)?סוללות|על סוללות|סוללה נטענת|סוללה מובנית", _re.I)
+
+
+def is_battery(p):
+    """Matt (Nov 22): no batteries in any Instagram video (reels or video posts). Power banks are fine."""
+    t = f"{p.get('title', '')} {p.get('title_he', '')}"
+    if _PBANK.search(t):
+        return False
+    return bool(_BATT.search(_BATT_MENTION.sub(" ", t)))
+
+
 def pick_best(log, since, k):
     """Top-k deals posted since `since` (fallback: most recent ones), kept in posting order."""
     fresh = [p for p in log if p["posted_at"] > since] if since else list(log)
@@ -448,7 +464,7 @@ def pick_best(log, since, k):
 
 def main():
     log = json.loads((REPO / "data" / "posts.json").read_text())
-    log = [p for p in log if p.get("store") != "aliexpress" and (IMG / f"{p['asin']}.jpg").exists()]
+    log = [p for p in log if p.get("store") != "aliexpress" and not is_battery(p) and (IMG / f"{p['asin']}.jpg").exists()]
     state_f = REPO / "data" / "reels.json"
     st = json.loads(state_f.read_text()) if state_f.exists() else {}
     global LINKS_IN_CAPTION

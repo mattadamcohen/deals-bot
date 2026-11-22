@@ -94,7 +94,8 @@ def main():
     posts = json.loads((REPO / "data" / "posts.json").read_text())
     used = set(st.get("video_used", []))
     since = (datetime.now(timezone.utc) - timedelta(hours=CONFIG.get("video_lookback_hours", 36))).isoformat()
-    cands = [p for p in posts if p.get("video") and p["posted_at"] > since and p["asin"] not in used]
+    cands = [p for p in posts if p.get("video") and p["posted_at"] > since and p["asin"] not in used
+             and not reel.is_battery(p)]
     cands.sort(key=reel.deal_score, reverse=True)
     media, chosen = None, None
     for p in cands[:5]:
