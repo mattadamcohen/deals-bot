@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-22": 22
+  "2026-11-22": 23
  },
  "families": {
   "B01CYZHGC8": "2026-11-20T15:00:57.006955+00:00",
@@ -48,6 +48,7 @@
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
   "B0FPMN9D69": "2026-11-20T13:01:28.306048+00:00",
+  "B0FR7RVK1T": "2026-11-22T15:46:33.323604+00:00",
   "B0G2MX1GKP": "2026-11-20T14:01:00.195959+00:00",
   "B0G56435HQ": "2026-11-21T12:30:52.972413+00:00",
   "B0G7Z963QL": "2026-11-20T14:01:00.195931+00:00",
@@ -267,6 +268,7 @@
   "squishy antistress duck fidgets": "2026-11-17T11:31:42.970864+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
   "stainless steel oil pot": "2026-11-19T09:30:56.971727+00:00",
+  "stanley everyday camp mug": "2026-11-22T15:46:33.323611+00:00",
   "stylus pen for apple": "2026-11-16T11:31:03.848182+00:00",
   "succebuy in- wi-fi weather": "2026-11-21T07:01:01.406269+00:00",
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
@@ -385,7 +387,7 @@
  },
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T15:19:48.947952+00:00",
- "last_post_at": "2026-11-22T15:32:30.042369+00:00",
+ "last_post_at": "2026-11-22T15:46:33.323409+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -923,14 +925,6 @@
  },
  "pick_queue": [
   {
-   "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-22-retry2",
-   "store": "amazon_focus",
-   "url": "focus"
-  },
-  {
    "alt": [
     "Osprey Daylite expandable backpack"
    ],
@@ -1023,6 +1017,7 @@
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
   "B0F6VKZ4FB": "2026-11-17T16:01:58.081078+00:00",
+  "B0F7K6G16L": "2026-11-22T15:46:33.280623+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
   "B0FBGR7Z6K": "2026-11-17T11:00:51.987332+00:00",
   "B0FDQ3PWCX": "2026-11-15T20:45:38.125646+00:00",
@@ -1182,31 +1177,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/backpack",
   "aliexpress/Attack Shark",
   "beauty/11060451",
-  "aliexpress/under bed storage"
+  "aliexpress/under bed storage",
+  "kitchen/510136"
  ],
  "recent_groups": [
-  "sporting-goods",
   "videogames",
   "hpc",
   "kitchen",
   "sporting-goods",
-  "beauty"
+  "beauty",
+  "kitchen"
  ],
  "recent_themes": [
-  "other",
   "sport",
   "pets",
   "kids",
   "fashion",
   "tech",
   "beauty",
-  "home"
+  "home",
+  "kitchen"
  ],
  "recent_titles": [
-  "4K POE IP Camera IK10 Explosion-proof Outdoor H.265 Onvif Metal Dome CCTV Security Protection 4MP Video Surveillance",
   "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
   "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
   "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
@@ -1217,7 +1211,8 @@
   "Ultralight Compact Self Inflating Camping Pillow, 3D Ergonomic Neck Support Sponge Travel Pillow for Backpacking Hiking Car Outd",
   "ATTACK SHARK X68PRO HE Tri-Mode Magnetic Gaming Keyboard 0.125ms 0.01mm RT Accuracy RGB Web Driven 1000Hz Wireless Keyboard",
   "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)",
-  "Large Capacity Clothes Storage Bag Foldable Blanket Storage Containers for Organizing Bedroom Closet"
+  "Large Capacity Clothes Storage Bag Foldable Blanket Storage Containers for Organizing Bedroom Closet",
+  "STANLEY Everyday Camp Mug, 24 oz, Hammertone Green"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1245,6 +1240,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136185
 }
