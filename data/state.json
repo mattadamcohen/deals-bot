@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 33
+  "2026-11-23": 34
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -242,6 +242,7 @@
   "level massage gun fascia": "2026-11-23T05:45:47.881494+00:00",
   "levi's cinch baggy": "2026-11-17T13:02:08.033568+00:00",
   "levi's shaping wide-leg jeans": "2026-11-21T14:04:37.236250+00:00",
+  "lige smart watch women": "2026-11-23T16:01:20.845500+00:00",
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
@@ -596,7 +597,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-23T13:49:05.202645+00:00",
- "last_post_at": "2026-11-23T15:15:56.036972+00:00",
+ "last_post_at": "2026-11-23T16:01:20.845351+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1318,6 +1319,7 @@
   "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
   "ali-1005007016024919": "2026-11-21T07:30:51.873176+00:00",
   "ali-1005007039765295": "2026-11-20T09:01:03.629317+00:00",
+  "ali-1005007043908778": "2026-11-23T16:01:20.777237+00:00",
   "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
@@ -1447,10 +1449,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "home-garden/1063278",
   "aliexpress/smart watch",
   "aliexpress/board game family",
-  "aliexpress/espresso accessories"
+  "aliexpress/espresso accessories",
+  "aliexpress/smart watch"
  ],
  "recent_groups": [
   "beauty",
@@ -1461,17 +1463,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "home",
   "kids",
   "tech",
   "fashion",
   "home",
   "tech",
   "kids",
-  "kitchen"
+  "kitchen",
+  "tech"
  ],
  "recent_titles": [
-  "Stylish Men's PU Leather Belt - Fashion Belts for Daily Life, Leisure, Party, Festival, Work, and Business Automatic Buckle",
   "HT208A/D AC/DC Digital Clamp Meter Meter Multimeter Pinza Amperimetrica True RMS High Precision Capacitance NCV Ohm Hz Tester",
   "2-in-1 Mini Hair Straightener & Curler - Ceramic Fast Heating 140-220\u00b0C - Portable Flat Iron for Short Hair Travel Styling",
   "UGREEN Ultra Slim 20W Qi2 15W Magnetic Power Bank 5000mAh Magflow Air PowerBank for Magsafe Wireless Charging for iPhone 17 Pro",
@@ -1482,7 +1483,8 @@
   "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black",
   "New Zeblaze Stratos 4 Pro GPS Smart Watch 1.43''AMOLED Display Dual-Color Flashlight Music Storage 170+ Workout Modes SmartWatch",
   "Balance Stacking Board Games Buliding Blocks Adults Kids Tower Block Bricks Toys For Boys Girls Puzzle Toy Family Parties Games",
-  "IKAPE Carrying Bag, Convenient to Carry for Car & Home Camping Kapo K2 Portable Coffee Machine Bag"
+  "IKAPE Carrying Bag, Convenient to Carry for Car & Home Camping Kapo K2 Portable Coffee Machine Bag",
+  "LIGE 2026 Smart Watch Women Men Ladies Gift Sport Fitness Men Watches Heart Rate Monitor Waterproof Smartwatch For Android IOS"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
