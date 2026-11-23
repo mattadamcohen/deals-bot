@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 1
+  "2026-11-23": 2
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -242,6 +242,7 @@
   "native aluminum-free deodorant for": "2026-11-20T14:01:00.195934+00:00",
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
   "needoh cloud pleaser slow": "2026-11-22T16:16:26.968771+00:00",
+  "needoh holographic ribbon squeeze": "2026-11-23T05:15:43.489626+00:00",
   "needoh textured slow rebound": "2026-11-22T17:02:02.059944+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
   "new mai dash cam": "2026-11-22T18:01:10.958851+00:00",
@@ -527,7 +528,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T05:00:55.556513+00:00",
+ "last_post_at": "2026-11-23T05:15:43.489375+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1071,16 +1072,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "1005013466299104",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-ribbon",
-   "store": "aliexpress",
-   "style_of": "NeeDoh",
-   "url": "https://s.click.aliexpress.com/e/_c3eGQgHJ"
-  },
-  {
-   "alt": [],
    "id": "1005008599770638",
    "over_cap_ok": true,
    "require": [],
@@ -1445,6 +1436,7 @@
   "ali-1005013336246252": "2026-11-22T06:45:56.685489+00:00",
   "ali-1005013410767445": "2026-11-20T05:01:02.226983+00:00",
   "ali-1005013410819294": "2026-11-19T12:30:54.859058+00:00",
+  "ali-1005013466299104": "2026-11-23T05:15:43.432134+00:00",
   "ali-1005013488905199": "2026-11-19T18:30:53.393687+00:00",
   "ali-1005013525500084": "2026-11-19T17:30:51.321754+00:00",
   "ali-1005013547461208": "2026-11-21T17:30:54.319219+00:00",
@@ -1469,17 +1461,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "kids",
   "tech",
   "tech",
   "kids",
   "beauty",
-  "car"
+  "car",
+  "other"
  ],
  "recent_titles": [
-  "Geedel Rotary Cheese Grater Hand Crank, Cheese Shredder Vegetable Slicer",
   "\u3010New\u301170mai Dash Cam A410 Neo 2.5K HDR+1080P Supercapacitor F1.6 Aperture GPS 24H Parking Max 256GB Car DVR 70mai A410 Neo",
   "12m/7m Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Lights For Outdoor Holiday Decoration Lighting",
   "Medium Size Magnetic Building Blocks, DIY STEM Construction Magnet Toys, Educational Learning Playset for Kids",
@@ -1490,7 +1481,8 @@
   "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
   "Hot Mini Glitter Dumpling Squishy with Box, Steamer-Shaped TPR Sensory Fidget Ball, Stress Relief Toy & Gift",
   "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver",
-  "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner"
+  "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
+  "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",

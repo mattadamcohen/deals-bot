@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0C65S55Q2",
-  "title": "Trendy Queen Womens Hoodies Oversized Sweatshirt",
-  "title_he": "סווטשירט אוברסייז עם קפוצ'ונים לנשים קווין טרנדי",
-  "price": "$18.99",
-  "was": "$36.99",
-  "discount": "49%",
-  "rating": "4.5",
-  "reviews": "11,001",
-  "rank": 21,
-  "source": "bestsellers",
-  "message_id": 560,
-  "image": "https://m.media-amazon.com/images/I/61glUTGQnUL._AC_SL1500_.jpg",
-  "variant": 294,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   560,
-   561,
-   562
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/30f72c0d-fec1-4c05-8549-b378e7270450/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "sporting-goods/3407731",
-  "category_en": "Exercise & Fitness",
-  "category_he": "כושר",
-  "posted_at": "2026-11-22T06:08:59.420485+00:00"
- },
- {
   "asin": "ali-1005013336246252",
   "title": "55NRobot Window Cleaner for Home Appliance - Automatic Robotic Window Washer for Clean Glass Windows Specialty Cleaners",
   "title_he": "55NRobot מנקה חלונות למכשירי חשמל ביתיים - מכונת שטיפה אוטומטית רובוטית לחלונות זכוכית נקיים לניקוי מיוחדים",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-23T05:00:55.554185+00:00"
+ },
+ {
+  "asin": "ali-1005013466299104",
+  "title": "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
+  "title_he": "בסגנון NeeDoh: סרט הולוגרפי ללחוץ חושי צבעוני לישה מתיחה הקלה על חרדה הפרעת קשב וריכוז פנאי מתנה למבוגרים",
+  "price": "$5.83",
+  "was": "$12.93",
+  "discount": "54%",
+  "rating": "100.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 682,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S54a8297247df4cf2a3cc3a0c43f486efh.jpg",
+  "variant": 883,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C3zGJETr7oisWHdIvbJ2x6KmyYjjR80zsMmmmpn5dmx2pJaEZecyFhCANmfo6xZkYglLrsqF9QIVdsg3vdvBqLYR4qCu17QmVGZPwlkyo2tjNWjKzVOYhQ1fc7t9hyQD5W6fSqAsHwuXJDWmkqqojGw4aLNR7xPIbqKx1RjM8SCEPdM62O3cPA4R5m44Gs3ZH3UWRJNYTnKYRbHZVy8wm8dsj2fBaiV3v8cvA9fUkUEL3sGN32AL9BZrX1m8RfxwlckoriOMulUIR8dXitkhi1074LkbXmFBHUb2ilg05ikhQqcqg3uU1Na9ijfDRLQbQdIDyhC59WORRgKLVKW5son9YsszmTFitaFsX5OQVLkTRgSyNGBmUhlNHbcmwr0j94ZudVEc78mOk1gsXbPtCFroox477RU2UAX2vWYYnJtewkVkAYGkMgXLaEAMxSa0aQszk0G78xonIlogqkb31OasJtO6UZSCGVrvRC3DqOHc7hpPC4JWfQ1SQesCvT2BVust8t8ZHZrCzQrWuHBdK8xx6UxKLa5CYWu4In7ETmMHSsDkVJWiu0wTeka5IFqDNzf3Sb0MLuPutWP4ZxFZThlGvuU2tjB9p44J7A8WrUVvRpQJ3Z1OWGekladKmia4IDhgUGfAmgBCO3eKdrd7Uydi2U1KQzCRtvvWfWwFULC2jyVc5cYfjbQD6YuoHQ1XIsuLNfpVyXq9P2",
+  "sold": "12",
+  "album_ids": [
+   682,
+   683,
+   684
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T05:15:43.487778+00:00"
  }
 ]
