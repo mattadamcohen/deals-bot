@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 11
+  "2026-11-23": 12
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -14,6 +14,7 @@
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
   "B09QT4DRMB": "2026-11-17T05:04:11.018855+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
+  "B0BLXPNPQV": "2026-11-23T07:46:01.761914+00:00",
   "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0C65V5FGJ": "2026-11-22T06:08:59.423262+00:00",
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
@@ -148,6 +149,7 @@
   "coffee knock box anti": "2026-11-22T08:45:48.488821+00:00",
   "cole haan grand crosscourt": "2026-11-23T07:01:06.831773+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
+  "columbia benton springs full": "2026-11-23T07:46:01.761921+00:00",
   "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
@@ -543,7 +545,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T07:31:21.099053+00:00",
+ "last_post_at": "2026-11-23T07:46:01.761539+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1087,15 +1089,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B003NX8DH8",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz8",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B003NX8DH8"
-  },
-  {
-   "alt": [],
    "id": "B0H85JSPWJ",
    "over_cap_ok": true,
    "require": [],
@@ -1130,6 +1123,7 @@
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
   "B000OR2RNM": "2026-11-15T06:33:10.959018+00:00",
   "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
+  "B003NX8DH8": "2026-11-23T07:46:01.714845+00:00",
   "B00949CTQQ": "2026-11-22T17:16:16.059958+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
   "B00VBP8QPO": "2026-11-18T18:03:45.902851+00:00",
@@ -1403,17 +1397,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "sport",
   "kids",
   "kids",
   "other",
   "other",
   "other",
   "fashion",
+  "other",
   "other"
  ],
  "recent_titles": [
-  "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver",
   "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
   "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
   "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
@@ -1424,7 +1417,8 @@
   "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
   "Cole Haan Men's Grand Crosscourt Premier Sneaker",
   "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
-  "adidas Women's Runfalcon 6"
+  "adidas Women's Runfalcon 6",
+  "Columbia Women's Benton Springs Full Zip"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1452,6 +1446,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 8,
+ "since_ali": 9,
  "tg_offset": 260136206
 }

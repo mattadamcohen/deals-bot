@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005012959367143",
-  "title": "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
-  "title_he": "מסלול מגנטי צעצוע לילדים חינוכי לבני 3 עד 6 שנים בנים 8 סט רכבות 12 קטן 4 בנים 10 משחק פאזל תלת מימד",
-  "price": "$34.49",
-  "was": "$77.44",
-  "discount": "55%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 590,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf04012b5310c4e74b604652807bacd6dw.png",
-  "variant": 701,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUcsdEzVJDALWznDxiZB2B9covWe8fcqhYiN1effKkdUFoD2U7Iwla2Tc1pXOL80EaaAimzsPHmvKcnTZSUcH1XzsYZXDAbALH3AFtk37vXqGzfojMJus44c7eQNcIGnNvUEwrewvBlMo4B9M5IvZaixpQ3TVtP51ZtAxAhSSdgdbfk8r669j571EgPRMafr2n5sjU8mPMc14B4WYLxamS1PadtdCZm4kmD4CKOlOrmLEtCXahH1vUVqTFyexadsKwtNtodBIuvvnVEAOxtJRmlWZyV84wWorV3Hqc92X5e5TSq4yIlfVX4EixbLsRICKoKtEKyrD0OS60APDYASsOwO7yAyYdGeFgppLOlrmSps7rAGfJiSLybkMvd0CYUswCYSdTHuyyXZIiFl3KjtZxG3AXfD1xAIQlPFDetaFyUiUzwEJPqz0p6OcHQUmd39FqHycvvWcaunXczmxVUoYgd5FkNi5VlqTRQYZQN6PfQpQFAim2QgKps62JqlcN0GngcBWVG2FzQiZoggxd94F7De69SpqQ3oecZEZPnJYq17FY9jLLVjmzMDd4CJrVVcoAq8ECsk6pi2FeG6Y3IBrwbyU3eWzhjpeleF5gvX54wSFJmlAQO7xHLyrwyfGC64W7GLrtVv6jKoCgvO7gNNHzDgFcQyhzgOTm442XWneD5ZQF4cfv8H0TL7qMITP90DOoGhqNDh6Rakr",
-  "sold": "781",
-  "album_ids": [
-   590,
-   591,
-   592
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/magnetic train track toy",
-  "category_en": "Kids toys",
-  "category_he": "צעצועים לילדים",
-  "posted_at": "2026-11-22T11:15:44.384048+00:00"
- },
- {
   "asin": "B0C3V7VTT7",
   "title": "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
   "title_he": "בקבוק בקבוק בקבוק מים מבודד 24oz עם מכסה קש וידית ספורט",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-23T07:31:21.097452+00:00"
+ },
+ {
+  "asin": "B003NX8DH8",
+  "title": "Columbia Women's Benton Springs Full Zip",
+  "title_he": "קולומביה נשים בנטון ספרינגס רוכסן מלא",
+  "price": "$42.99",
+  "was": "$65.00",
+  "discount": "34%",
+  "rating": "4.6",
+  "reviews": "53,271",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 712,
+  "image": "https://m.media-amazon.com/images/I/71arDJlYYZL._AC_SL1500_.jpg",
+  "variant": 173,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   712,
+   713,
+   714
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5f5d5f2a-71e0-4beb-a4df-3d20484ba740/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T07:46:01.758930+00:00"
  }
 ]
