@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 16
+  "2026-11-23": 17
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -256,6 +256,7 @@
   "multifunctional foldable camping cooler": "2026-11-21T15:30:50.781999+00:00",
   "multifunctional vegetable cutter slicer": "2026-11-17T10:31:40.721471+00:00",
   "music boxing machine for": "2026-11-19T05:30:57.619746+00:00",
+  "n m gears inch": "2026-11-23T09:05:43.844086+00:00",
   "native aluminum-free deodorant for": "2026-11-20T14:01:00.195934+00:00",
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
   "needoh cloud pleaser slow": "2026-11-22T16:16:26.968771+00:00",
@@ -553,7 +554,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T08:47:00.308137+00:00",
+ "last_post_at": "2026-11-23T09:05:43.843810+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1223,6 +1224,7 @@
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006291767331": "2026-11-22T07:45:46.193302+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
+  "ali-1005006444409403": "2026-11-23T09:05:43.791805+00:00",
   "ali-1005006490267843": "2026-11-22T17:30:56.650609+00:00",
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
   "ali-1005006674062256": "2026-11-21T07:01:01.342436+00:00",
@@ -1367,7 +1369,7 @@
   "pick",
   "pick",
   "pick",
-  "pick"
+  "aliexpress/cordless drill brushless"
  ],
  "recent_groups": [
   "beauty",
@@ -1378,17 +1380,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "other",
   "fashion",
   "other",
   "other",
   "fashion",
   "home",
   "tech",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
   "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
   "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden",
   "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
@@ -1399,7 +1400,8 @@
   "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
   "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump",
   "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z",
-  "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy"
+  "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy",
+  "688N.m 8 Gears 1/4-Inch Brushless Electric Screwdriver Cordless Electric Drill Impact Screw Driver Kit for Makita 18V Battery"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1427,6 +1429,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 12,
+ "since_ali": 0,
  "tg_offset": 260136206
 }
