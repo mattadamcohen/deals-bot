@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 28
+  "2026-11-23": 29
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -296,6 +296,7 @@
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
   "powerful led solar outdoor": "2026-11-23T11:45:50.786347+00:00",
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
+  "quartz watch luxury women": "2026-11-23T13:01:33.084305+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
@@ -584,7 +585,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T12:30:54.387255+00:00",
+ "last_post_at": "2026-11-23T13:01:33.084173+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1269,6 +1270,7 @@
   "ali-1005006079966569": "2026-11-16T17:46:40.021592+00:00",
   "ali-1005006291767331": "2026-11-22T07:45:46.193302+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
+  "ali-1005006316786561": "2026-11-23T13:01:33.054888+00:00",
   "ali-1005006444409403": "2026-11-23T09:05:43.791805+00:00",
   "ali-1005006490267843": "2026-11-22T17:30:56.650609+00:00",
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
@@ -1419,10 +1421,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/UGREEN",
   "aliexpress/solar wall light motion sensor",
   "pick",
-  "aliexpress/mini projector"
+  "aliexpress/mini projector",
+  "aliexpress/jewelry set women"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1433,17 +1435,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "other",
   "beauty",
   "tech",
   "home",
   "kids",
-  "tech"
+  "tech",
+  "fashion"
  ],
  "recent_titles": [
-  "688N.m 8 Gears 1/4-Inch Brushless Electric Screwdriver Cordless Electric Drill Impact Screw Driver Kit for Makita 18V Battery",
   "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
   "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
   "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts",
@@ -1454,7 +1455,8 @@
   "UGREEN Ultra Slim 20W Qi2 15W Magnetic Power Bank 5000mAh Magflow Air PowerBank for Magsafe Wireless Charging for iPhone 17 Pro",
   "Powerful LED Solar Outdoor Led Courtyard Wall Lamp Rechargeable Human Body Induction Garden Terrace Garage Door Street Lighting",
   "NeeDoh-style Nice Cube Sensory Fidget Toy Stress Relief Squishy Squeeze Cube Anti-Anxiety Focus Toy for Adults ADHD Autism",
-  "Remote Control Air Mouse Voice Gyroscope 7 Color Backlit mini Keyboard Dual Mode 2.4G BT5.2 Wireless for Android Smart TV Box PC"
+  "Remote Control Air Mouse Voice Gyroscope 7 Color Backlit mini Keyboard Dual Mode 2.4G BT5.2 Wireless for Android Smart TV Box PC",
+  "Women's Quartz Watch Gold Luxury Women Ring Necklace Earring Rhinestone Fashion Wristwatch Casual Ladies Watches Jewelry Set"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
