@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 6
+  "2026-11-23": 7
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -40,6 +40,7 @@
   "B0DQV9PZ8S": "2026-11-17T18:01:00.469465+00:00",
   "B0DWY189WB": "2026-11-19T14:00:59.709483+00:00",
   "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
+  "B0F1Y8WH4Y": "2026-11-23T06:31:02.420314+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F6V51BL4": "2026-11-17T16:01:58.139171+00:00",
   "B0F99ZZRJY": "2026-11-17T06:01:17.389965+00:00",
@@ -288,6 +289,7 @@
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
   "size magnetic building blocks": "2026-11-22T18:30:59.072057+00:00",
   "skechers max cushioning endeavour": "2026-11-16T19:49:00.788641+00:00",
+  "solar fence lights": "2026-11-23T06:31:02.420319+00:00",
   "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
   "sonoff sawf- p airguard": "2026-11-16T18:45:48.228424+00:00",
   "squishy antistress duck fidgets": "2026-11-17T11:31:42.970864+00:00",
@@ -533,7 +535,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T06:15:47.070669+00:00",
+ "last_post_at": "2026-11-23T06:31:02.420025+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1077,15 +1079,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0DN154461",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz3",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0DN154461"
-  },
-  {
-   "alt": [],
    "id": "B0DD8FF6B7",
    "over_cap_ok": true,
    "require": [],
@@ -1235,6 +1228,7 @@
   "B0DJWNZFMN": "2026-11-21T14:04:37.205457+00:00",
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
   "B0DK4Y2YP3": "2026-11-22T15:19:53.142312+00:00",
+  "B0DN154461": "2026-11-23T06:31:02.375398+00:00",
   "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
   "B0DYTQ5GYQ": "2026-11-21T09:34:00.636336+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
@@ -1433,17 +1427,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "beauty",
   "car",
   "other",
   "kids",
   "sport",
   "kids",
-  "kids"
+  "kids",
+  "other"
  ],
  "recent_titles": [
-  "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance",
   "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
   "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection",
   "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
@@ -1454,7 +1447,8 @@
   "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
   "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female",
   "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
-  "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys"
+  "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
+  "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1482,6 +1476,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 3,
+ "since_ali": 4,
  "tg_offset": 260136206
 }
