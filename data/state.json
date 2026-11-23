@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 27
+  "2026-11-23": 28
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -303,6 +303,7 @@
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
   "reebok fleece jacket": "2026-11-23T08:01:13.266313+00:00",
+  "remote control air mouse": "2026-11-23T12:30:54.387393+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
@@ -390,6 +391,12 @@
    "at": "2026-11-18T07:06:11.963429+00:00",
    "name": "MC",
    "username": "mac0309",
+   "via": "bot"
+  },
+  "1139221366": {
+   "at": "2026-11-23T12:30:47.831430+00:00",
+   "name": "Zz",
+   "username": "",
    "via": "bot"
   },
   "1253392672": {
@@ -544,12 +551,17 @@
   }
  },
  "giveaway_link_owner": {
-  "https://t.me/+6AHeSsixu5syZWM8": "1125221452"
+  "https://t.me/+6AHeSsixu5syZWM8": "1125221452",
+  "https://t.me/+IB0QTwZALxtjNDQ8": "1139221366"
  },
  "giveaway_refs": {
   "1125221452": {
    "joined": [],
    "link": "https://t.me/+6AHeSsixu5syZWM8"
+  },
+  "1139221366": {
+   "joined": [],
+   "link": "https://t.me/+IB0QTwZALxtjNDQ8"
   }
  },
  "giveaway_seen": [
@@ -572,7 +584,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T12:02:06.293018+00:00",
+ "last_post_at": "2026-11-23T12:30:54.387255+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1361,6 +1373,7 @@
   "ali-1005011991969247": "2026-11-21T12:00:55.872707+00:00",
   "ali-1005011993743447": "2026-11-20T10:01:05.738903+00:00",
   "ali-1005012013972727": "2026-11-23T08:47:00.265977+00:00",
+  "ali-1005012014144008": "2026-11-23T12:30:54.356825+00:00",
   "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
@@ -1406,10 +1419,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/cordless hair straightener",
   "aliexpress/UGREEN",
   "aliexpress/solar wall light motion sensor",
-  "pick"
+  "pick",
+  "aliexpress/mini projector"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1420,17 +1433,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "tech",
   "home",
   "other",
   "beauty",
   "tech",
   "home",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy",
   "688N.m 8 Gears 1/4-Inch Brushless Electric Screwdriver Cordless Electric Drill Impact Screw Driver Kit for Makita 18V Battery",
   "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
   "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
@@ -1441,7 +1453,8 @@
   "2-in-1 Mini Hair Straightener & Curler - Ceramic Fast Heating 140-220\u00b0C - Portable Flat Iron for Short Hair Travel Styling",
   "UGREEN Ultra Slim 20W Qi2 15W Magnetic Power Bank 5000mAh Magflow Air PowerBank for Magsafe Wireless Charging for iPhone 17 Pro",
   "Powerful LED Solar Outdoor Led Courtyard Wall Lamp Rechargeable Human Body Induction Garden Terrace Garage Door Street Lighting",
-  "NeeDoh-style Nice Cube Sensory Fidget Toy Stress Relief Squishy Squeeze Cube Anti-Anxiety Focus Toy for Adults ADHD Autism"
+  "NeeDoh-style Nice Cube Sensory Fidget Toy Stress Relief Squishy Squeeze Cube Anti-Anxiety Focus Toy for Adults ADHD Autism",
+  "Remote Control Air Mouse Voice Gyroscope 7 Color Backlit mini Keyboard Dual Mode 2.4G BT5.2 Wireless for Android Smart TV Box PC"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1470,5 +1483,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136207
+ "tg_offset": 260136209
 }
