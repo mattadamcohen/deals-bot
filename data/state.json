@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 40
+  "2026-11-23": 41
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -152,6 +152,7 @@
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
   "casio a wa series": "2026-11-20T12:04:43.973839+00:00",
   "casual belt": "2026-11-23T16:15:54.830998+00:00",
+  "ceiling fan lamps speeds": "2026-11-23T19:30:56.109634+00:00",
   "celimax the vita a": "2026-11-22T15:19:53.179672+00:00",
   "cenrr handheld wireless car": "2026-11-20T05:30:55.605532+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
@@ -604,7 +605,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-23T18:04:24.637412+00:00",
- "last_post_at": "2026-11-23T19:00:57.069159+00:00",
+ "last_post_at": "2026-11-23T19:30:56.109486+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1361,6 +1362,7 @@
   "ali-1005007481796012": "2026-11-21T08:30:46.204977+00:00",
   "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
   "ali-1005007605939585": "2026-11-22T08:45:48.430699+00:00",
+  "ali-1005007628433434": "2026-11-23T19:30:56.080876+00:00",
   "ali-1005007668695524": "2026-11-16T12:07:54.554430+00:00",
   "ali-1005007676922245": "2026-11-23T11:45:50.743383+00:00",
   "ali-1005007805516838": "2026-11-19T15:31:12.173190+00:00",
@@ -1486,10 +1488,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "hpc",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
-  "aliexpress/squishy toy"
+  "aliexpress/squishy toy",
+  "aliexpress/led light room decor"
  ],
  "recent_groups": [
   "kitchen",
@@ -1500,17 +1502,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "kitchen",
   "tech",
   "home",
   "kids",
   "kitchen",
   "beauty",
   "tech",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "Women's Quartz Watch Gold Luxury Women Ring Necklace Earring Rhinestone Fashion Wristwatch Casual Ladies Watches Jewelry Set",
   "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black",
   "New Zeblaze Stratos 4 Pro GPS Smart Watch 1.43''AMOLED Display Dual-Color Flashlight Music Storage 170+ Workout Modes SmartWatch",
   "Balance Stacking Board Games Buliding Blocks Adults Kids Tower Block Bricks Toys For Boys Girls Puzzle Toy Family Parties Games",
@@ -1521,7 +1522,8 @@
   "TIMEMORE Basic 3 Black Mirror Pour Over Coffee Scale Espresso Scale,Flow Rate, Auto Timer,Ratio, 3 Brewing Modes, 2kg Capacity",
   "nodpod Patented Gentle Pressure Sleep Mask, Weighted Eye Mask",
   "8BitDo Ultimate 2 Wireless Gaming Controller for PC & Android with TMR Joysticks, Switchable Triggers, Motion Control, 8Speed",
-  "Mini Squeeze Stress Relief Dumplings in Boxes, Soft and Transparent TPR Toys, Sensory Squeeze Stress Relief Toys"
+  "Mini Squeeze Stress Relief Dumplings in Boxes, Soft and Transparent TPR Toys, Sensory Squeeze Stress Relief Toys",
+  "2 In 1 Ceiling Fan Lamps 3 Speeds Adjustable E27 Base Infinitely Dimmable for Living Room Bedroom Study LED Decorative Light"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
