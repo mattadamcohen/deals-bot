@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 14
+  "2026-11-23": 15
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -84,6 +84,7 @@
   "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
   "B0HDYQXT81": "2026-11-23T08:15:54.292655+00:00",
+  "B0HFK98KBK": "2026-11-23T08:31:07.196747+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.598106+00:00",
   "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
@@ -102,6 +103,7 @@
   "B0HRDR92BX": "2026-11-19T05:30:57.619742+00:00",
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "B0HRSRQYZT": "2026-11-22T10:49:03.022899+00:00",
+  "acer aspire go ai": "2026-11-23T08:31:07.196751+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
   "adidas runfalcon": "2026-11-23T07:31:21.099373+00:00",
   "adjustable light up inline": "2026-11-22T09:45:59.095922+00:00",
@@ -550,7 +552,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T08:15:54.292243+00:00",
+ "last_post_at": "2026-11-23T08:31:07.196457+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1093,18 +1095,6 @@
  },
  "pick_queue": [
   {
-   "alt": [],
-   "id": "B0GTFH1DNL",
-   "note_en": "\ud83d\udce6 Free shipping to Israel, you only pay the import charges at Amazon checkout",
-   "note_he": "\ud83d\udce6 \u05de\u05e9\u05dc\u05d5\u05d7 \u05d7\u05d9\u05e0\u05dd \u05dc\u05d0\u05e8\u05e5, \u05de\u05e9\u05dc\u05de\u05d9\u05dd \u05e8\u05e7 \u05d0\u05ea \u05d3\u05de\u05d9 \u05d4\u05d9\u05d1\u05d5\u05d0 (\u05de\u05e1\u05d9\u05dd) \u05d1\u05e7\u05d5\u05e4\u05d4 \u05e9\u05dc \u05d0\u05de\u05d6\u05d5\u05df",
-   "over_cap_ok": true,
-   "require": [],
-   "ship_ok": true,
-   "sid": "pick-1122-amz11",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0GTFH1DNL"
-  },
-  {
    "focus": true,
    "id": "NeeDoh",
    "over_cap_ok": true,
@@ -1215,6 +1205,7 @@
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
   "B0GHMZXX8Y": "2026-11-21T16:01:21.144762+00:00",
+  "B0GTFH1DNL": "2026-11-23T08:31:07.168583+00:00",
   "B0GYRPLKQ9": "2026-11-22T09:45:59.050772+00:00",
   "B0GZWZH2L8": "2026-11-23T06:00:58.822817+00:00",
   "B0GZYMJTJH": "2026-11-20T16:34:31.134246+00:00",
@@ -1396,15 +1387,14 @@
  "recent_themes": [
   "other",
   "other",
-  "other",
   "fashion",
   "other",
   "other",
   "fashion",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
   "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female",
   "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
   "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
@@ -1415,7 +1405,8 @@
   "adidas Women's Runfalcon 6",
   "Columbia Women's Benton Springs Full Zip",
   "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
-  "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump"
+  "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump",
+  "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1443,6 +1434,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 11,
+ "since_ali": 12,
  "tg_offset": 260136206
 }
