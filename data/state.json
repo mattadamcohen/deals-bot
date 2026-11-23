@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 39
+  "2026-11-23": 40
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -336,6 +336,7 @@
   "solar fence lights": "2026-11-23T06:31:02.420319+00:00",
   "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
   "sonoff sawf- p airguard": "2026-11-16T18:45:48.228424+00:00",
+  "squeeze stress relief dumplings": "2026-11-23T19:00:57.069250+00:00",
   "squishy antistress duck fidgets": "2026-11-17T11:31:42.970864+00:00",
   "stackable tool box organizer": "2026-11-22T19:00:55.566215+00:00",
   "stainless steel can opener": "2026-11-16T07:01:27.354021+00:00",
@@ -603,7 +604,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-23T18:04:24.637412+00:00",
- "last_post_at": "2026-11-23T18:31:29.503889+00:00",
+ "last_post_at": "2026-11-23T19:00:57.069159+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1456,6 +1457,7 @@
   "ali-1005012863295710": "2026-11-21T15:30:50.640872+00:00",
   "ali-1005012890022315": "2026-11-20T05:30:55.529521+00:00",
   "ali-1005012918240718": "2026-11-22T19:00:55.421495+00:00",
+  "ali-1005012925166688": "2026-11-23T19:00:57.004740+00:00",
   "ali-1005012959367143": "2026-11-22T11:15:44.234592+00:00",
   "ali-1005012987036887": "2026-11-20T20:16:04.316538+00:00",
   "ali-1005013011426948": "2026-11-20T07:00:54.719891+00:00",
@@ -1484,10 +1486,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "hpc",
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
+  "aliexpress/squishy toy"
  ],
  "recent_groups": [
   "kitchen",
@@ -1498,17 +1500,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "tech",
   "home",
   "kids",
   "kitchen",
   "beauty",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "Remote Control Air Mouse Voice Gyroscope 7 Color Backlit mini Keyboard Dual Mode 2.4G BT5.2 Wireless for Android Smart TV Box PC",
   "Women's Quartz Watch Gold Luxury Women Ring Necklace Earring Rhinestone Fashion Wristwatch Casual Ladies Watches Jewelry Set",
   "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black",
   "New Zeblaze Stratos 4 Pro GPS Smart Watch 1.43''AMOLED Display Dual-Color Flashlight Music Storage 170+ Workout Modes SmartWatch",
@@ -1519,7 +1520,8 @@
   "NeeDoh-style Nice Cube Sensory Nice-Sicle Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
   "TIMEMORE Basic 3 Black Mirror Pour Over Coffee Scale Espresso Scale,Flow Rate, Auto Timer,Ratio, 3 Brewing Modes, 2kg Capacity",
   "nodpod Patented Gentle Pressure Sleep Mask, Weighted Eye Mask",
-  "8BitDo Ultimate 2 Wireless Gaming Controller for PC & Android with TMR Joysticks, Switchable Triggers, Motion Control, 8Speed"
+  "8BitDo Ultimate 2 Wireless Gaming Controller for PC & Android with TMR Joysticks, Switchable Triggers, Motion Control, 8Speed",
+  "Mini Squeeze Stress Relief Dumplings in Boxes, Soft and Transparent TPR Toys, Sensory Squeeze Stress Relief Toys"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
