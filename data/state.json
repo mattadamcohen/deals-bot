@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 3
+  "2026-11-23": 4
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -210,6 +210,7 @@
   "led wall lights outdoor": "2026-11-21T13:31:03.898090+00:00",
   "lesown portable gaming monitor": "2026-11-21T18:00:54.879853+00:00",
   "letsjoli jelly bras for": "2026-11-17T16:01:58.139179+00:00",
+  "level massage gun fascia": "2026-11-23T05:45:47.881494+00:00",
   "levi's cinch baggy": "2026-11-17T13:02:08.033568+00:00",
   "levi's shaping wide-leg jeans": "2026-11-21T14:04:37.236250+00:00",
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
@@ -529,7 +530,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T05:30:55.623719+00:00",
+ "last_post_at": "2026-11-23T05:45:47.881092+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1073,15 +1074,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "1005010111453617",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-massagegun",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3bwU0NJ"
-  },
-  {
-   "alt": [],
    "id": "B0GZWZH2L8",
    "over_cap_ok": true,
    "require": [],
@@ -1371,6 +1363,7 @@
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010109614553": "2026-11-22T18:15:51.568598+00:00",
+  "ali-1005010111453617": "2026-11-23T05:45:47.839435+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
   "ali-1005010323750589": "2026-11-19T06:01:02.107095+00:00",
   "ali-1005010323880088": "2026-11-18T17:30:57.396925+00:00",
@@ -1454,17 +1447,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "tech",
   "tech",
   "kids",
   "beauty",
   "car",
   "other",
-  "kids"
+  "kids",
+  "sport"
  ],
  "recent_titles": [
-  "12m/7m Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Lights For Outdoor Holiday Decoration Lighting",
   "Medium Size Magnetic Building Blocks, DIY STEM Construction Magnet Toys, Educational Learning Playset for Kids",
   "Baseus GaN3 100/ 65W Desktop Charger Quick Charge QC 3.04.0 USB C Type C Phone Charger For iPhone15 Huawei Xiaomi MacBook Laptop",
   "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance",
@@ -1475,7 +1467,8 @@
   "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver",
   "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
   "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
-  "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock"
+  "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
+  "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
