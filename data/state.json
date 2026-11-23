@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 32
+  "2026-11-23": 33
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -216,6 +216,7 @@
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
   "ibayam art supplies": "2026-11-16T17:01:49.105023+00:00",
   "idegg women men no": "2026-11-22T12:45:48.707567+00:00",
+  "ikape carrying bag": "2026-11-23T15:15:56.037110+00:00",
   "ikape v impact espresso": "2026-11-22T05:31:18.328577+00:00",
   "in- electric cleaning brush": "2026-11-20T09:01:03.673794+00:00",
   "in- hair straightener curler": "2026-11-23T11:15:47.931315+00:00",
@@ -595,7 +596,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-23T13:49:05.202645+00:00",
- "last_post_at": "2026-11-23T15:01:13.989332+00:00",
+ "last_post_at": "2026-11-23T15:15:56.036972+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1380,6 +1381,7 @@
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010487272796": "2026-11-22T13:45:48.478789+00:00",
+  "ali-1005010494917050": "2026-11-23T15:15:55.981299+00:00",
   "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
@@ -1445,10 +1447,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/jewelry set women",
   "home-garden/1063278",
   "aliexpress/smart watch",
-  "aliexpress/board game family"
+  "aliexpress/board game family",
+  "aliexpress/espresso accessories"
  ],
  "recent_groups": [
   "beauty",
@@ -1459,17 +1461,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "kids",
   "tech",
   "fashion",
   "home",
   "tech",
-  "kids"
+  "kids",
+  "kitchen"
  ],
  "recent_titles": [
-  "Baseus Bass EP10 Ultra Wireless Earphones -55dB Noise Reduction 65Hrs Long Playtime Bluetooth 6.0 Earbuds 6 Mics AI Call Clear",
   "Stylish Men's PU Leather Belt - Fashion Belts for Daily Life, Leisure, Party, Festival, Work, and Business Automatic Buckle",
   "HT208A/D AC/DC Digital Clamp Meter Meter Multimeter Pinza Amperimetrica True RMS High Precision Capacitance NCV Ohm Hz Tester",
   "2-in-1 Mini Hair Straightener & Curler - Ceramic Fast Heating 140-220\u00b0C - Portable Flat Iron for Short Hair Travel Styling",
@@ -1480,7 +1481,8 @@
   "Women's Quartz Watch Gold Luxury Women Ring Necklace Earring Rhinestone Fashion Wristwatch Casual Ladies Watches Jewelry Set",
   "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black",
   "New Zeblaze Stratos 4 Pro GPS Smart Watch 1.43''AMOLED Display Dual-Color Flashlight Music Storage 170+ Workout Modes SmartWatch",
-  "Balance Stacking Board Games Buliding Blocks Adults Kids Tower Block Bricks Toys For Boys Girls Puzzle Toy Family Parties Games"
+  "Balance Stacking Board Games Buliding Blocks Adults Kids Tower Block Bricks Toys For Boys Girls Puzzle Toy Family Parties Games",
+  "IKAPE Carrying Bag, Convenient to Carry for Car & Home Camping Kapo K2 Portable Coffee Machine Bag"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
