@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0C3V7VTT7",
-  "title": "BOTTLE BOTTLE Insulated Water Bottle 24oz with Straw Lid and Handle Sports",
-  "title_he": "בקבוק בקבוק בקבוק מים מבודד 24oz עם מכסה קש וידית ספורט",
-  "price": "$18.99",
-  "was": "$24.99",
-  "discount": "24%",
-  "rating": "4.6",
-  "reviews": "9,886",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 593,
-  "image": "https://m.media-amazon.com/images/I/518XxNh1lTL._AC_SL1500_.jpg",
-  "variant": 794,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   593,
-   594,
-   595
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/51db621b-d401-4aef-a857-1cce635b71ec/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-22T11:46:07.985601+00:00"
- },
- {
   "asin": "ali-1005009812128178",
   "title": "9 Pocket Zipper Card Binder, 360 Trading Card Holder Book, Premium PU Cover Zip Binder for Cards, Durable Side Loading Card",
   "title_he": "קלסר כרטיס רוכסן עם 9 כיסים, ספר מחזיק כרטיס מסחר 360, קלסר רוכסן כיסוי PU פרימיום לכרטיסים, כרטיס טעינה צדדי עמיד",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-23T07:46:01.758930+00:00"
+ },
+ {
+  "asin": "B0H85JSPWJ",
+  "title": "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
+  "title_he": "מעיל פליס לנשים של ריבוק - מעיל קפוצ'ון עם רוכסן מלא עם כיסים, בינוני",
+  "price": "$33.99",
+  "was": "",
+  "discount": "",
+  "rating": "4.5",
+  "reviews": "572",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 715,
+  "image": "https://m.media-amazon.com/images/I/619LF+sty9L._AC_SL1254_.jpg",
+  "variant": 486,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   715,
+   716,
+   717
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T08:01:13.263581+00:00"
  }
 ]

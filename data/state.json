@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 12
+  "2026-11-23": 13
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -17,6 +17,7 @@
   "B0BLXPNPQV": "2026-11-23T07:46:01.761914+00:00",
   "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0C65V5FGJ": "2026-11-22T06:08:59.423262+00:00",
+  "B0C9S3ZD41": "2026-11-23T08:01:13.266307+00:00",
   "B0CF2DP48G": "2026-11-15T14:26:34.499970+00:00",
   "B0CGD5TGFX": "2026-11-22T11:46:07.988429+00:00",
   "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
@@ -289,6 +290,7 @@
   "random mystery fidget toys": "2026-11-19T11:01:21.142732+00:00",
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
+  "reebok fleece jacket": "2026-11-23T08:01:13.266313+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
@@ -363,7 +365,8 @@
  "focus_done": [
   "focus-2026-11-22-10",
   "focus-2026-11-22-14",
-  "focus-2026-11-22-19"
+  "focus-2026-11-22-19",
+  "focus-2026-11-23-10"
  ],
  "giveaway_entries": {
   "1125221452": {
@@ -545,7 +548,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T07:46:01.761539+00:00",
+ "last_post_at": "2026-11-23T08:01:13.265984+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1089,15 +1092,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0H85JSPWJ",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz9",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0H85JSPWJ"
-  },
-  {
-   "alt": [],
    "id": "B0HDYQXT81",
    "over_cap_ok": true,
    "require": [],
@@ -1116,6 +1110,14 @@
    "sid": "pick-1122-amz11",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0GTFH1DNL"
+  },
+  {
+   "focus": true,
+   "id": "NeeDoh",
+   "over_cap_ok": true,
+   "sid": "focus-2026-11-23-10",
+   "store": "amazon_focus",
+   "url": "focus"
   }
  ],
  "posted": {
@@ -1228,6 +1230,7 @@
   "B0H4ZG39CY": "2026-11-17T09:01:31.172010+00:00",
   "B0H71RGBQ3": "2026-11-15T17:09:36.677208+00:00",
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
+  "B0H85JSPWJ": "2026-11-23T08:01:13.160982+00:00",
   "B0H87K51V4": "2026-11-21T18:31:42.592257+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
@@ -1398,16 +1401,15 @@
  ],
  "recent_themes": [
   "kids",
-  "kids",
   "other",
   "other",
   "other",
   "fashion",
   "other",
-  "other"
+  "other",
+  "fashion"
  ],
  "recent_titles": [
-  "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
   "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
   "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
   "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female",
@@ -1418,7 +1420,8 @@
   "Cole Haan Men's Grand Crosscourt Premier Sneaker",
   "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
   "adidas Women's Runfalcon 6",
-  "Columbia Women's Benton Springs Full Zip"
+  "Columbia Women's Benton Springs Full Zip",
+  "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1446,6 +1449,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 9,
+ "since_ali": 10,
  "tg_offset": 260136206
 }
