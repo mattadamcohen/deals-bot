@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 20
+  "2026-11-23": 21
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -118,6 +118,7 @@
   "automatic electric fruit peeler": "2026-11-20T10:30:48.899396+00:00",
   "automatic garbage with lids": "2026-11-20T07:00:54.847423+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
+  "baseus bass ep ultra": "2026-11-23T10:31:23.565832+00:00",
   "baseus eh nc anc": "2026-11-20T17:01:02.349362+00:00",
   "baseus gan w desktop": "2026-11-22T18:45:55.848099+00:00",
   "baseus magnetic car phone": "2026-11-19T16:01:27.640245+00:00",
@@ -557,7 +558,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T10:15:55.012320+00:00",
+ "last_post_at": "2026-11-23T10:31:23.565688+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1246,6 +1247,7 @@
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
   "ali-1005006674062256": "2026-11-21T07:01:01.342436+00:00",
   "ali-1005006678192161": "2026-11-18T09:30:54.342358+00:00",
+  "ali-1005006685436528": "2026-11-23T10:31:23.525512+00:00",
   "ali-1005006738672284": "2026-11-21T11:01:03.255132+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
@@ -1384,10 +1386,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/cordless drill brushless",
   "wireless",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "fashion/2476517011"
+  "fashion/2476517011",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1398,17 +1400,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "home",
   "tech",
   "kids",
   "home",
   "tech",
   "pets",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Cole Haan Men's Grand Crosscourt Premier Sneaker",
   "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
   "adidas Women's Runfalcon 6",
   "Columbia Women's Benton Springs Full Zip",
@@ -1419,7 +1420,8 @@
   "688N.m 8 Gears 1/4-Inch Brushless Electric Screwdriver Cordless Electric Drill Impact Screw Driver Kit for Makita 18V Battery",
   "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
   "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
-  "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts"
+  "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts",
+  "Baseus Bass EP10 Ultra Wireless Earphones -55dB Noise Reduction 65Hrs Long Playtime Bluetooth 6.0 Earbuds 6 Mics AI Call Clear"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1447,6 +1449,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136206
 }
