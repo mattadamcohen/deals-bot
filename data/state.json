@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 9
+  "2026-11-23": 10
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -55,6 +55,7 @@
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
   "B0FPMN9D69": "2026-11-20T13:01:28.306048+00:00",
   "B0FR7RVK1T": "2026-11-22T15:46:33.323604+00:00",
+  "B0FY3SNNXH": "2026-11-23T07:15:54.072633+00:00",
   "B0G2MX1GKP": "2026-11-20T14:01:00.195959+00:00",
   "B0G55V7L24": "2026-11-23T06:15:47.071060+00:00",
   "B0G56435HQ": "2026-11-21T12:30:52.972413+00:00",
@@ -283,6 +284,7 @@
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
   "random mystery fidget toys": "2026-11-19T11:01:21.142732+00:00",
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
+  "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
@@ -539,7 +541,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T07:01:06.831326+00:00",
+ "last_post_at": "2026-11-23T07:15:54.072215+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1083,15 +1085,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0971NTY4Q",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz6",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0971NTY4Q"
-  },
-  {
-   "alt": [],
    "id": "B0FVF4FLGM",
    "over_cap_ok": true,
    "require": [],
@@ -1180,6 +1173,7 @@
   "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
   "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
   "B08XTWF6DH": "2026-11-21T10:30:52.729303+00:00",
+  "B0971NTY4Q": "2026-11-23T07:15:54.050627+00:00",
   "B09BDG5RP3": "2026-11-18T10:05:20.176356+00:00",
   "B09NKZFTXS": "2026-11-22T17:45:46.941670+00:00",
   "B09RTVD1GF": "2026-11-18T17:00:58.161748+00:00",
@@ -1415,17 +1409,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "other",
   "kids",
   "sport",
   "kids",
   "kids",
   "other",
   "other",
-  "other"
+  "other",
+  "fashion"
  ],
  "recent_titles": [
-  "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
   "Hot Mini Glitter Dumpling Squishy with Box, Steamer-Shaped TPR Sensory Fidget Ball, Stress Relief Toy & Gift",
   "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver",
   "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
@@ -1436,7 +1429,8 @@
   "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
   "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden",
   "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
-  "Cole Haan Men's Grand Crosscourt Premier Sneaker"
+  "Cole Haan Men's Grand Crosscourt Premier Sneaker",
+  "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1464,6 +1458,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 6,
+ "since_ali": 7,
  "tg_offset": 260136206
 }
