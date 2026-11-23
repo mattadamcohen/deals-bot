@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 13
+  "2026-11-23": 14
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -83,6 +83,7 @@
   "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
   "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
+  "B0HDYQXT81": "2026-11-23T08:15:54.292655+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.598106+00:00",
   "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
@@ -299,6 +300,7 @@
   "sharpie s-gel pens": "2026-11-19T06:34:11.261476+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
   "size magnetic building blocks": "2026-11-22T18:30:59.072057+00:00",
+  "size vacuum storage bags": "2026-11-23T08:15:54.292663+00:00",
   "skechers afterburn e'lite grill": "2026-11-23T06:46:02.457867+00:00",
   "skechers max cushioning endeavour": "2026-11-16T19:49:00.788641+00:00",
   "solar fence lights": "2026-11-23T06:31:02.420319+00:00",
@@ -548,7 +550,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T08:01:13.265984+00:00",
+ "last_post_at": "2026-11-23T08:15:54.292243+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1092,15 +1094,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0HDYQXT81",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz10",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0HDYQXT81"
-  },
-  {
-   "alt": [],
    "id": "B0GTFH1DNL",
    "note_en": "\ud83d\udce6 Free shipping to Israel, you only pay the import charges at Amazon checkout",
    "note_he": "\ud83d\udce6 \u05de\u05e9\u05dc\u05d5\u05d7 \u05d7\u05d9\u05e0\u05dd \u05dc\u05d0\u05e8\u05e5, \u05de\u05e9\u05dc\u05de\u05d9\u05dd \u05e8\u05e7 \u05d0\u05ea \u05d3\u05de\u05d9 \u05d4\u05d9\u05d1\u05d5\u05d0 (\u05de\u05e1\u05d9\u05dd) \u05d1\u05e7\u05d5\u05e4\u05d4 \u05e9\u05dc \u05d0\u05de\u05d6\u05d5\u05df",
@@ -1234,6 +1227,7 @@
   "B0H87K51V4": "2026-11-21T18:31:42.592257+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-15T18:00:49.107238+00:00",
+  "B0HDYQXT81": "2026-11-23T08:15:54.267868+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.562275+00:00",
   "B0HHJYF7SS": "2026-11-19T13:00:58.376909+00:00",
   "B0HMC3TGW7": "2026-11-21T19:01:11.969851+00:00",
@@ -1400,17 +1394,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "other",
   "other",
   "other",
   "fashion",
   "other",
   "other",
-  "fashion"
+  "fashion",
+  "home"
  ],
  "recent_titles": [
-  "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
   "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
   "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female",
   "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
@@ -1421,7 +1414,8 @@
   "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
   "adidas Women's Runfalcon 6",
   "Columbia Women's Benton Springs Full Zip",
-  "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight"
+  "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
+  "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1449,6 +1443,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 10,
+ "since_ali": 11,
  "tg_offset": 260136206
 }
