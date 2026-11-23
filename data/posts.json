@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FG7RQXJ9",
-  "title": "Warming Mat for Food, 26x15 Inch, Off White, Fast Heat, Child Lock",
-  "title_he": "מחצלת חימום לאוכל, 26x15 אינץ', אוף ווייט, חום מהיר, נעילת ילדים",
-  "price": "$32.48",
-  "was": "$49.99",
-  "discount": "35%",
-  "rating": "4.7",
-  "reviews": "1,115",
-  "rank": 22,
-  "source": "bestsellers",
-  "message_id": 587,
-  "image": "https://m.media-amazon.com/images/I/71pQnAcgcYL._AC_SL1500_.jpg",
-  "variant": 504,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   587,
-   588,
-   589
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9acb8bbd-6530-416f-b25c-6a20fe8483b8/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "kitchen",
-  "category_en": "Kitchen & Dining",
-  "category_he": "מטבח ואירוח",
-  "posted_at": "2026-11-22T10:49:03.019284+00:00"
- },
- {
   "asin": "ali-1005012959367143",
   "title": "Magnetic Track Children's Toy Educational 3 to 6 Years Old Boys 8 Train Set 12 Small 4 Boys 10 3D Puzzle Game",
   "title_he": "מסלול מגנטי צעצוע לילדים חינוכי לבני 3 עד 6 שנים בנים 8 סט רכבות 12 קטן 4 בנים 10 משחק פאזל תלת מימד",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-23T07:15:54.069939+00:00"
+ },
+ {
+  "asin": "B0FVF4FLGM",
+  "title": "adidas Women's Runfalcon 6",
+  "title_he": "אדידס Runfalcon 6 לנשים",
+  "price": "$49.20",
+  "was": "$65.00",
+  "discount": "24%",
+  "rating": "4.6",
+  "reviews": "287",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 709,
+  "image": "https://m.media-amazon.com/images/I/611qioo6YAL._AC_SL1500_.jpg",
+  "variant": 76,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   709,
+   710,
+   711
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T07:31:21.097452+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 10
+  "2026-11-23": 11
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -72,6 +72,7 @@
   "B0GYRKHXQL": "2026-11-22T09:45:59.095917+00:00",
   "B0GYRXHQXM": "2026-11-20T16:34:31.176210+00:00",
   "B0H1RDP1NS": "2026-11-20T17:31:34.862461+00:00",
+  "B0H275Q96B": "2026-11-23T07:31:21.099369+00:00",
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H6WFTW7G": "2026-11-23T06:00:58.848495+00:00",
@@ -99,6 +100,7 @@
   "B0HRKBC8T1": "2026-11-15T18:00:49.135859+00:00",
   "B0HRSRQYZT": "2026-11-22T10:49:03.022899+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
+  "adidas runfalcon": "2026-11-23T07:31:21.099373+00:00",
   "adjustable light up inline": "2026-11-22T09:45:59.095922+00:00",
   "ai hand warmers rechargeable": "2026-11-19T19:30:52.415196+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
@@ -541,7 +543,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T07:15:54.072215+00:00",
+ "last_post_at": "2026-11-23T07:31:21.099053+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1085,15 +1087,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0FVF4FLGM",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz7",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0FVF4FLGM"
-  },
-  {
-   "alt": [],
    "id": "B003NX8DH8",
    "over_cap_ok": true,
    "require": [],
@@ -1227,6 +1220,7 @@
   "B0FK124QCT": "2026-11-16T09:31:23.847385+00:00",
   "B0FK1LF5PM": "2026-11-15T12:07:07.358554+00:00",
   "B0FV3TY5LH": "2026-11-19T16:34:06.856541+00:00",
+  "B0FVF4FLGM": "2026-11-23T07:31:21.047741+00:00",
   "B0FYMN9QWG": "2026-11-23T06:15:47.029993+00:00",
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
@@ -1409,17 +1403,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "sport",
   "kids",
   "kids",
   "other",
   "other",
   "other",
-  "fashion"
+  "fashion",
+  "other"
  ],
  "recent_titles": [
-  "Hot Mini Glitter Dumpling Squishy with Box, Steamer-Shaped TPR Sensory Fidget Ball, Stress Relief Toy & Gift",
   "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver",
   "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
   "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
@@ -1430,7 +1423,8 @@
   "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden",
   "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
   "Cole Haan Men's Grand Crosscourt Premier Sneaker",
-  "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers"
+  "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
+  "adidas Women's Runfalcon 6"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1458,6 +1452,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 7,
+ "since_ali": 8,
  "tg_offset": 260136206
 }
