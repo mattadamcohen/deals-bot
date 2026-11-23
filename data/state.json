@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 22
+  "2026-11-23": 23
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -204,6 +204,7 @@
   "hot cute assorted squishy": "2026-11-19T09:01:16.698013+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
   "hot glitter dumpling squishy": "2026-11-22T20:30:52.517048+00:00",
+  "ht a d ac": "2026-11-23T11:01:10.658817+00:00",
   "htmck electric smart robotic": "2026-11-20T14:30:56.295405+00:00",
   "hy portable projector": "2026-11-22T20:16:14.350326+00:00",
   "hydrojug traveler": "2026-11-16T13:46:30.722463+00:00",
@@ -512,6 +513,12 @@
    "username": "",
    "via": "join"
   },
+  "7959476928": {
+   "at": "2026-11-23T11:01:04.841523+00:00",
+   "name": "Gina",
+   "username": "",
+   "via": "join"
+  },
   "8792830168": {
    "at": "2026-11-22T16:15:15.214403+00:00",
    "name": "Harris",
@@ -555,11 +562,12 @@
   "8792830168",
   "1580434942",
   "9255242793",
-  "7071336803"
+  "7071336803",
+  "7959476928"
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T10:45:57.548395+00:00",
+ "last_post_at": "2026-11-23T11:01:10.658675+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1237,6 +1245,7 @@
   "ali-1005004370747413": "2026-11-20T15:31:03.427709+00:00",
   "ali-1005005210163156": "2026-11-22T18:45:55.684321+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
+  "ali-1005005703405239": "2026-11-23T11:01:10.622447+00:00",
   "ali-1005005968742948": "2026-11-22T15:32:29.922830+00:00",
   "ali-1005005972760920": "2026-11-19T19:01:02.038780+00:00",
   "ali-1005005979337870": "2026-11-18T09:01:36.975500+00:00",
@@ -1388,10 +1397,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "fashion/2476517011",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "aliexpress/gift set for men"
+  "aliexpress/gift set for men",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1402,17 +1411,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "home",
   "tech",
   "pets",
   "fashion",
   "tech",
-  "home"
+  "home",
+  "other"
  ],
  "recent_titles": [
-  "adidas Women's Runfalcon 6",
   "Columbia Women's Benton Springs Full Zip",
   "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
   "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump",
@@ -1423,7 +1431,8 @@
   "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
   "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts",
   "Baseus Bass EP10 Ultra Wireless Earphones -55dB Noise Reduction 65Hrs Long Playtime Bluetooth 6.0 Earbuds 6 Mics AI Call Clear",
-  "Stylish Men's PU Leather Belt - Fashion Belts for Daily Life, Leisure, Party, Festival, Work, and Business Automatic Buckle"
+  "Stylish Men's PU Leather Belt - Fashion Belts for Daily Life, Leisure, Party, Festival, Work, and Business Automatic Buckle",
+  "HT208A/D AC/DC Digital Clamp Meter Meter Multimeter Pinza Amperimetrica True RMS High Precision Capacitance NCV Ohm Hz Tester"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1452,5 +1461,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136206
+ "tg_offset": 260136207
 }
