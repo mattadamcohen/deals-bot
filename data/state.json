@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 30
+  "2026-11-23": 31
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -281,6 +281,7 @@
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
   "new squishy watermelon fidget": "2026-11-21T06:31:24.904936+00:00",
   "new v electric go-kart": "2026-11-20T16:01:03.784343+00:00",
+  "new zeblaze stratos pro": "2026-11-23T14:31:46.327848+00:00",
   "niimbot b thermal printer": "2026-11-20T15:31:03.473352+00:00",
   "ninja blast rechargeable game": "2026-11-14T12:25:03.949514+00:00",
   "nrobot window cleaner for": "2026-11-22T06:45:56.730169+00:00",
@@ -593,7 +594,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-23T13:49:05.202645+00:00",
- "last_post_at": "2026-11-23T14:05:33.168516+00:00",
+ "last_post_at": "2026-11-23T14:31:46.327688+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1401,6 +1402,7 @@
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012370649612": "2026-11-22T16:01:17.473481+00:00",
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
+  "ali-1005012418286028": "2026-11-23T14:31:46.286503+00:00",
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012505016533": "2026-11-22T20:16:14.290918+00:00",
@@ -1441,10 +1443,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/mini projector",
   "aliexpress/jewelry set women",
-  "home-garden/1063278"
+  "home-garden/1063278",
+  "aliexpress/smart watch"
  ],
  "recent_groups": [
   "beauty",
@@ -1455,17 +1457,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "other",
   "beauty",
   "tech",
   "home",
   "kids",
   "tech",
   "fashion",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
   "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts",
   "Baseus Bass EP10 Ultra Wireless Earphones -55dB Noise Reduction 65Hrs Long Playtime Bluetooth 6.0 Earbuds 6 Mics AI Call Clear",
   "Stylish Men's PU Leather Belt - Fashion Belts for Daily Life, Leisure, Party, Festival, Work, and Business Automatic Buckle",
@@ -1476,7 +1477,8 @@
   "NeeDoh-style Nice Cube Sensory Fidget Toy Stress Relief Squishy Squeeze Cube Anti-Anxiety Focus Toy for Adults ADHD Autism",
   "Remote Control Air Mouse Voice Gyroscope 7 Color Backlit mini Keyboard Dual Mode 2.4G BT5.2 Wireless for Android Smart TV Box PC",
   "Women's Quartz Watch Gold Luxury Women Ring Necklace Earring Rhinestone Fashion Wristwatch Casual Ladies Watches Jewelry Set",
-  "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black"
+  "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black",
+  "New Zeblaze Stratos 4 Pro GPS Smart Watch 1.43''AMOLED Display Dual-Color Flashlight Music Storage 170+ Workout Modes SmartWatch"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1504,6 +1506,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136209
 }
