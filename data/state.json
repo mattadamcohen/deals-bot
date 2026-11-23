@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 15
+  "2026-11-23": 16
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -259,6 +259,7 @@
   "native aluminum-free deodorant for": "2026-11-20T14:01:00.195934+00:00",
   "nautica quarter-zip sweater": "2026-11-18T19:04:43.016436+00:00",
   "needoh cloud pleaser slow": "2026-11-22T16:16:26.968771+00:00",
+  "needoh fuzz ball smile": "2026-11-23T08:47:00.308445+00:00",
   "needoh holographic ribbon squeeze": "2026-11-23T05:15:43.489626+00:00",
   "needoh textured slow rebound": "2026-11-22T17:02:02.059944+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
@@ -552,7 +553,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T08:31:07.196457+00:00",
+ "last_post_at": "2026-11-23T08:47:00.308137+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1093,16 +1094,7 @@
   "B0HJSW1G3J": "2026-11-22T06:02:17.631013+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [
-  {
-   "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-23-10",
-   "store": "amazon_focus",
-   "url": "focus"
-  }
- ],
+ "pick_queue": [],
  "posted": {
   "B000CBSNKQ": "2026-11-22T19:34:12.037819+00:00",
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
@@ -1327,6 +1319,7 @@
   "ali-1005011971017841": "2026-11-21T06:31:24.886780+00:00",
   "ali-1005011991969247": "2026-11-21T12:00:55.872707+00:00",
   "ali-1005011993743447": "2026-11-20T10:01:05.738903+00:00",
+  "ali-1005012013972727": "2026-11-23T08:47:00.265977+00:00",
   "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
@@ -1386,16 +1379,15 @@
  ],
  "recent_themes": [
   "other",
-  "other",
   "fashion",
   "other",
   "other",
   "fashion",
   "home",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female",
   "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
   "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
   "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden",
@@ -1406,7 +1398,8 @@
   "Columbia Women's Benton Springs Full Zip",
   "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
   "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump",
-  "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z"
+  "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z",
+  "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
