@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 38
+  "2026-11-23": 39
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -140,6 +140,7 @@
   "biodance bio-collagen real deep": "2026-11-20T13:01:28.306052+00:00",
   "biodance hydrogel eye patches": "2026-11-20T17:31:34.862466+00:00",
   "bitdo m g wireless": "2026-11-20T19:30:59.986978+00:00",
+  "bitdo ultimate wireless gaming": "2026-11-23T18:31:29.504024+00:00",
   "body hair pubic hair": "2026-11-19T06:01:02.150321+00:00",
   "boka toothpaste": "2026-11-22T09:15:55.387262+00:00",
   "bottle bottle insulated water": "2026-11-22T11:46:07.988435+00:00",
@@ -602,7 +603,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-23T18:04:24.637412+00:00",
- "last_post_at": "2026-11-23T18:04:28.429958+00:00",
+ "last_post_at": "2026-11-23T18:31:29.503889+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1383,6 +1384,7 @@
   "ali-1005008979722815": "2026-11-18T13:01:51.316344+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
+  "ali-1005009157516970": "2026-11-23T18:31:29.402197+00:00",
   "ali-1005009187146996": "2026-11-19T16:01:27.484878+00:00",
   "ali-1005009212557833": "2026-11-21T06:01:01.120479+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
@@ -1482,10 +1484,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/gift set for men",
   "pick",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "hpc"
+  "hpc",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "kitchen",
@@ -1496,17 +1498,16 @@
   "hpc"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "kitchen",
   "tech",
   "home",
   "kids",
   "kitchen",
-  "beauty"
+  "beauty",
+  "tech"
  ],
  "recent_titles": [
-  "NeeDoh-style Nice Cube Sensory Fidget Toy Stress Relief Squishy Squeeze Cube Anti-Anxiety Focus Toy for Adults ADHD Autism",
   "Remote Control Air Mouse Voice Gyroscope 7 Color Backlit mini Keyboard Dual Mode 2.4G BT5.2 Wireless for Android Smart TV Box PC",
   "Women's Quartz Watch Gold Luxury Women Ring Necklace Earring Rhinestone Fashion Wristwatch Casual Ladies Watches Jewelry Set",
   "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black",
@@ -1517,7 +1518,8 @@
   "3 Men's Casual Belt, Men's Business Outdoor Belt, Versatile Suit Pants, Jeans, Casual Pants",
   "NeeDoh-style Nice Cube Sensory Nice-Sicle Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
   "TIMEMORE Basic 3 Black Mirror Pour Over Coffee Scale Espresso Scale,Flow Rate, Auto Timer,Ratio, 3 Brewing Modes, 2kg Capacity",
-  "nodpod Patented Gentle Pressure Sleep Mask, Weighted Eye Mask"
+  "nodpod Patented Gentle Pressure Sleep Mask, Weighted Eye Mask",
+  "8BitDo Ultimate 2 Wireless Gaming Controller for PC & Android with TMR Joysticks, Switchable Triggers, Motion Control, 8Speed"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1545,6 +1547,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136210
 }
