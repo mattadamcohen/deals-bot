@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B083JHCCV2",
-  "title": "Boka Toothpaste - Nano Hydroxyapatite Toothpaste, Fluoride Free Toothpaste",
-  "title_he": "משחת שיניים Boka - משחת שיניים ננו הידרוקסיאפטית, משחת שיניים ללא פלואוריד",
-  "price": "$9.88",
-  "was": "",
-  "discount": "15%",
-  "rating": "4.5",
-  "reviews": "65,075",
-  "rank": 15,
-  "source": "bestsellers",
-  "message_id": 578,
-  "image": "https://m.media-amazon.com/images/I/61SXorC8y6L._AC_SL1500_.jpg",
-  "variant": 819,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   578,
-   579,
-   580
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/898aec6f-2ace-4221-adca-3dcc84b7bc92/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "hpc",
-  "category_en": "Health & Household",
-  "category_he": "בריאות ומשק בית",
-  "posted_at": "2026-11-22T09:15:55.384820+00:00"
- },
- {
   "asin": "B0GYRPLKQ9",
   "title": "Adjustable Light Up Kids Inline Skates Hard Shell Boys Girls 4-12",
   "title_he": "גלגיליות מוטבעות לילדים מתכווננות קליפה קשה בנים בנות 4-12",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-23T06:31:02.418263+00:00"
+ },
+ {
+  "asin": "B0DD8FF6B7",
+  "title": "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
+  "title_he": "Skechers Men's Afterburn Elite Grill Corporal Hands Free Slip-in",
+  "price": "$63.00",
+  "was": "$81.22",
+  "discount": "22%",
+  "rating": "4.6",
+  "reviews": "1,304",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 700,
+  "image": "https://m.media-amazon.com/images/I/81s3Aq3qqRL._AC_SL1500_.jpg",
+  "variant": 858,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   700,
+   701,
+   702
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/782d9e32-9f10-4ce1-a81c-707fad6085ae.mp4/productVideoOptimized.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T06:46:02.454938+00:00"
  }
 ]
