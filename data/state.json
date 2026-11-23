@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 18
+  "2026-11-23": 19
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -232,6 +232,7 @@
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "low-power wifi video doorbell": "2026-11-21T05:31:25.483514+00:00",
+  "lubluelu v w hot": "2026-11-23T10:01:23.251585+00:00",
   "luxe color changing foundation": "2026-11-18T15:30:53.597951+00:00",
   "m m solar string": "2026-11-22T18:15:51.750745+00:00",
   "magic cube children educational": "2026-11-18T16:31:48.162309+00:00",
@@ -554,7 +555,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T09:34:52.106728+00:00",
+ "last_post_at": "2026-11-23T10:01:23.251326+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1300,6 +1301,7 @@
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
   "ali-1005009812128178": "2026-11-22T12:15:46.736054+00:00",
   "ali-1005009937260935": "2026-11-20T11:31:01.224284+00:00",
+  "ali-1005009984118747": "2026-11-23T10:01:23.227151+00:00",
   "ali-1005010037325307": "2026-11-22T13:15:44.525647+00:00",
   "ali-1005010041961832": "2026-11-20T11:00:57.309222+00:00",
   "ali-1005010044157341": "2026-11-22T18:30:59.017288+00:00",
@@ -1380,9 +1382,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/cordless drill brushless",
-  "wireless"
+  "wireless",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "kitchen",
@@ -1394,16 +1396,15 @@
  ],
  "recent_themes": [
   "other",
-  "other",
   "fashion",
   "home",
   "tech",
   "kids",
   "home",
-  "tech"
+  "tech",
+  "pets"
  ],
  "recent_titles": [
-  "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden",
   "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
   "Cole Haan Men's Grand Crosscourt Premier Sneaker",
   "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
@@ -1414,7 +1415,8 @@
   "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z",
   "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy",
   "688N.m 8 Gears 1/4-Inch Brushless Electric Screwdriver Cordless Electric Drill Impact Screw Driver Kit for Makita 18V Battery",
-  "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black"
+  "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
+  "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1442,6 +1444,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136206
 }
