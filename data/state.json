@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 8
+  "2026-11-23": 9
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -36,6 +36,7 @@
   "B0DF6HJYVW": "2026-11-20T14:01:00.195999+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
+  "B0DJWTCSML": "2026-11-23T07:01:06.831765+00:00",
   "B0DNG29JFN": "2026-11-20T12:04:43.973831+00:00",
   "B0DP4KNGWM": "2026-11-18T14:34:05.411603+00:00",
   "B0DQV9PZ8S": "2026-11-17T18:01:00.469465+00:00",
@@ -142,6 +143,7 @@
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
   "clip dolls machine unicorn": "2026-11-20T11:31:01.271202+00:00",
   "coffee knock box anti": "2026-11-22T08:45:48.488821+00:00",
+  "cole haan grand crosscourt": "2026-11-23T07:01:06.831773+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
   "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
@@ -537,7 +539,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T06:46:02.457400+00:00",
+ "last_post_at": "2026-11-23T07:01:06.831326+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1081,15 +1083,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0C9SS3W9K",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz5",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0C9SS3W9K"
-  },
-  {
-   "alt": [],
    "id": "B0971NTY4Q",
    "over_cap_ok": true,
    "require": [],
@@ -1205,6 +1198,7 @@
   "B0C3V7VTT7": "2026-11-22T11:46:07.952193+00:00",
   "B0C65S55Q2": "2026-11-22T06:08:59.385292+00:00",
   "B0C7ZBNWL5": "2026-11-22T16:31:06.474029+00:00",
+  "B0C9SS3W9K": "2026-11-23T07:01:06.786453+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
   "B0CLGNYKFR": "2026-11-21T17:00:59.256447+00:00",
@@ -1421,17 +1415,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "car",
   "other",
   "kids",
   "sport",
   "kids",
   "kids",
   "other",
+  "other",
   "other"
  ],
  "recent_titles": [
-  "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection",
   "HY300 Portable Mini Projector, Android 11, WiFi 6, Bluetooth 5.0, 720p native (supports 1080p/4K input)",
   "Hot Mini Glitter Dumpling Squishy with Box, Steamer-Shaped TPR Sensory Fidget Ball, Stress Relief Toy & Gift",
   "XIAOMI New 3 in 1 Electric Rechargeable Nose Ear Hair Trimmer for Men Painless Sideburns Eyebrows Beard Hair Clipper Shaver",
@@ -1442,7 +1435,8 @@
   "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
   "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
   "Solar Fence Lights, 12 Pack Up and Down Solar Lights Outdoor Waterproof, 8 Colors Lens LED Dusk to Dawn Wall Lights for Fence, Patio, Deck, Backyard, Garden",
-  "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in"
+  "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
+  "Cole Haan Men's Grand Crosscourt Premier Sneaker"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1470,6 +1464,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 5,
+ "since_ali": 6,
  "tg_offset": 260136206
 }
