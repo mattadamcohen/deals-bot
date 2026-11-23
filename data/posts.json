@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005006291767331",
-  "title": "DDPAI Dash Cam N1 Dual Front & Rear Recording NightVIS 1296P Dash Cam Recorder Car DVR App Control",
-  "title_he": "DDPAI Dash Cam N1 Dual קדמי ואחורי הקלטה NightVIS 1296P מקליט מצלמת דש לרכב בקרת אפליקציית DVR",
-  "price": "$60.39",
-  "was": "$141.74",
-  "discount": "57%",
-  "rating": "96.7%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 569,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S56e6516e1c9042fdb427df62922014e53.jpg",
-  "variant": 949,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mZPCKTmZCsflIpCfFDuGnFa9rYKaKdgzQ2zk7GWZrslBlpt6oaJ74ZUNexWG90eB8aetj8v98toCvZrNr2zYGqYleYoFYE928hLGyRnjfaq6AyFujcvEYJmowaNprFZ5vtubaOOnTbuMcOlVzGrJc1mutEQa4e1qx86nf7haXRJdJpr6VGWbFTERtcpTFQXKyYkfpBQ8jw592xjempC9Dr7T0CpcwJ30bjdPtKwQlFp33erJp3AAUbBYHkwA12PJADZMZE7WttvUGo6UgoC4QB0Jgzsq6bs1NrXbTArLSlRBhFfdWUtlqWcMWA2jfPpCvGxTWVAo4WDpcfAc1jNafH9jIbTGn7ibJauR9qVpgEz68HAYV3ULTQ3Ih4Anj5HZmeHAXMxowiJYpLuhnUfrZ8il6D2Za1VXKoP7iUkdljyxy29ezs0uUPMyxzjKLC2u6djHlYq2SIkk8fuuRyGOVk8vPIjc4SyuaNlUWJWfUmIho4W8dsTQfI1BSpIVLvZnpvmSWLfdUrvTSsVaRifCHREJ5yPNpAcpxktX7dKruVVzF4rsVtABTCI0t4vG7hmJQoPKfKs9pcAmE89HKjNbnDdp2vOhJib9dMRB4EkpkJ3YgBiwiibYF0GxWvGQbpRgGz7ihTtvtt77HIV74rMVfPK7rHFWdXPlUZPBFhi6zr5CFHnqGiaTd6ARB5RbBF6zf7dONSblMr7DY",
-  "sold": "3,000",
-  "album_ids": [
-   569,
-   570,
-   571
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/dash cam",
-  "category_en": "Car",
-  "category_he": "לרכב",
-  "posted_at": "2026-11-22T07:45:46.249444+00:00"
- },
- {
   "asin": "B00YXO5U40",
   "title": "Turtle Beach Recon 50 Wired Multiplatform Gaming Headset for Xbox, PS5, PC",
   "title_he": "אוזניות גיימינג מרובות פלטפורמות Wired Turtle Beach Recon 50 עבור Xbox, PS5, PC",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-23T05:45:47.879141+00:00"
+ },
+ {
+  "asin": "B0GZWZH2L8",
+  "title": "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
+  "title_he": "ערכת הכנת טאבה סקווישי לילדים - ערכות יצירה של סקווישי",
+  "price": "$23.99",
+  "was": "$31.99",
+  "discount": "25%",
+  "rating": "4.1",
+  "reviews": "1,689",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 691,
+  "image": "https://m.media-amazon.com/images/I/81y-GXnvBXL._AC_SL1500_.jpg",
+  "variant": 536,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   691,
+   692,
+   693
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T06:00:58.846055+00:00"
  }
 ]

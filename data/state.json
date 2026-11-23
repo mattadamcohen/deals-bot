@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 4
+  "2026-11-23": 5
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -69,6 +69,7 @@
   "B0H1RDP1NS": "2026-11-20T17:31:34.862461+00:00",
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
+  "B0H6WFTW7G": "2026-11-23T06:00:58.848495+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0H9NKZGB7": "2026-11-20T08:30:53.068268+00:00",
   "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
@@ -298,7 +299,7 @@
   "supfine magnetic for iphone": "2026-11-15T19:45:53.388296+00:00",
   "szuk cordless handheld car": "2026-11-23T05:00:55.556931+00:00",
   "t shirts soft cotton": "2026-11-21T10:30:52.763992+00:00",
-  "taba squishy making kit": "2026-11-14T07:25:51.099075+00:00",
+  "taba squishy making kit": "2026-11-23T06:00:58.848503+00:00",
   "taba squishy stress balls": "2026-11-19T13:30:59.569205+00:00",
   "tales conversation cards": "2026-11-20T08:30:53.068274+00:00",
   "tauri for iphone pro": "2026-11-17T09:01:31.220137+00:00",
@@ -530,7 +531,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-22T19:34:08.787027+00:00",
- "last_post_at": "2026-11-23T05:45:47.881092+00:00",
+ "last_post_at": "2026-11-23T06:00:58.848095+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1074,15 +1075,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "id": "B0GZWZH2L8",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1122-amz1",
-   "store": "amazon",
-   "url": "https://link.amazon/B08YkZH28"
-  },
-  {
-   "alt": [],
    "id": "B0FYMN9QWG",
    "over_cap_ok": true,
    "require": [],
@@ -1271,7 +1263,7 @@
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
   "B0GHMZXX8Y": "2026-11-21T16:01:21.144762+00:00",
   "B0GYRPLKQ9": "2026-11-22T09:45:59.050772+00:00",
-  "B0GZWZH2L8": "2026-11-14T07:10:36.637185+00:00",
+  "B0GZWZH2L8": "2026-11-23T06:00:58.822817+00:00",
   "B0GZYMJTJH": "2026-11-20T16:34:31.134246+00:00",
   "B0H2FQ5FV1": "2026-11-16T13:46:30.672511+00:00",
   "B0H2K6W7P9": "2026-11-19T07:34:38.231616+00:00",
@@ -1448,16 +1440,15 @@
  ],
  "recent_themes": [
   "tech",
-  "tech",
   "kids",
   "beauty",
   "car",
   "other",
   "kids",
-  "sport"
+  "sport",
+  "kids"
  ],
  "recent_titles": [
-  "Medium Size Magnetic Building Blocks, DIY STEM Construction Magnet Toys, Educational Learning Playset for Kids",
   "Baseus GaN3 100/ 65W Desktop Charger Quick Charge QC 3.04.0 USB C Type C Phone Charger For iPhone15 Huawei Xiaomi MacBook Laptop",
   "Stackable Tool Box Organizer Set with Medium 37x30x11cm and Large 37x30x19cm Sizes for Home Hardware Storage Maintenance",
   "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
@@ -1468,7 +1459,8 @@
   "SZUK Cordless Handheld Car Vacuum Cleaner, Strong Suction, Portable Mini Car Cleaner",
   "NeeDoh-style Holographic Ribbon Squeeze Sensory Colorful Knead Stretch Anxiety Relief ADHD Fidget Leisure Adult Gift",
   "Cute Expression Alarm Clock Snooze Child Kids Digital Alarm Clocks Voice Control Intelligence LED Night Light Alarm Clock",
-  "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female"
+  "30 Level Massage Gun Fascia Deep Muscle Relax Body Neck Massager Electric Fitness Equipment Noise Reduction Male Female",
+  "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1496,6 +1488,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136205
 }
