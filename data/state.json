@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 24
+  "2026-11-23": 25
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -344,6 +344,7 @@
   "true wireless earphone noise": "2026-11-18T13:31:21.404512+00:00",
   "turtle beach recon wired": "2026-11-22T08:15:43.912267+00:00",
   "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
+  "ugreen ultra slim w": "2026-11-23T11:30:57.650238+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
   "ultralight compact self inflating": "2026-11-22T14:16:27.503392+00:00",
@@ -568,7 +569,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T11:15:47.931187+00:00",
+ "last_post_at": "2026-11-23T11:30:57.650089+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1259,6 +1260,7 @@
   "ali-1005006674062256": "2026-11-21T07:01:01.342436+00:00",
   "ali-1005006678192161": "2026-11-18T09:30:54.342358+00:00",
   "ali-1005006685436528": "2026-11-23T10:31:23.525512+00:00",
+  "ali-1005006713514328": "2026-11-23T11:30:57.598076+00:00",
   "ali-1005006738672284": "2026-11-21T11:01:03.255132+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
@@ -1399,10 +1401,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/gift set for men",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "aliexpress/cordless hair straightener"
+  "aliexpress/cordless hair straightener",
+  "aliexpress/UGREEN"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1413,17 +1415,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "pets",
   "fashion",
   "tech",
   "home",
   "other",
-  "beauty"
+  "beauty",
+  "tech"
  ],
  "recent_titles": [
-  "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
   "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump",
   "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z",
   "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy",
@@ -1434,7 +1435,8 @@
   "Baseus Bass EP10 Ultra Wireless Earphones -55dB Noise Reduction 65Hrs Long Playtime Bluetooth 6.0 Earbuds 6 Mics AI Call Clear",
   "Stylish Men's PU Leather Belt - Fashion Belts for Daily Life, Leisure, Party, Festival, Work, and Business Automatic Buckle",
   "HT208A/D AC/DC Digital Clamp Meter Meter Multimeter Pinza Amperimetrica True RMS High Precision Capacitance NCV Ohm Hz Tester",
-  "2-in-1 Mini Hair Straightener & Curler - Ceramic Fast Heating 140-220\u00b0C - Portable Flat Iron for Short Hair Travel Styling"
+  "2-in-1 Mini Hair Straightener & Curler - Ceramic Fast Heating 140-220\u00b0C - Portable Flat Iron for Short Hair Travel Styling",
+  "UGREEN Ultra Slim 20W Qi2 15W Magnetic Power Bank 5000mAh Magflow Air PowerBank for Magsafe Wireless Charging for iPhone 17 Pro"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
