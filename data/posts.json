@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DK4Y2YP3",
-  "title": "celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz)",
-  "title_he": "celimax מאיץ הידוק זריקת רשתית Vita A (0.51 fl.oz)",
-  "price": "$14.00",
-  "was": "$24.00",
-  "discount": "42%",
-  "rating": "4.4",
-  "reviews": "33,423",
-  "rank": 20,
-  "source": "bestsellers",
-  "message_id": 614,
-  "image": "https://m.media-amazon.com/images/I/51zdLqgadJL._SL1500_.jpg",
-  "variant": 942,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   614,
-   615,
-   616
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/01f55a9d-c263-4132-97cc-00e29d1470f1/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty/11060451",
-  "category_en": "Skin Care",
-  "category_he": "טיפוח העור",
-  "posted_at": "2026-11-22T15:19:53.176592+00:00"
- },
- {
   "asin": "ali-1005005968742948",
   "title": "Large Capacity Clothes Storage Bag Foldable Blanket Storage Containers for Organizing Bedroom Closet",
   "title_he": "שקית אחסון בגדים מתקפלת שמיכה מתקפלת מיכלי אחסון לארגון ארון חדר השינה",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-23T10:01:23.249581+00:00"
+ },
+ {
+  "asin": "B0G545MLV3",
+  "title": "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts",
+  "title_he": "חולצת טריקו לגברים של COOFANDY שרוולים קצרים בתערובת כותנה חולצות טריקו עם צווארון עגול חולצות קיץ בסיסיות מזדמנות",
+  "price": "$9.45",
+  "was": "$22.99",
+  "discount": "59%",
+  "rating": "4.4",
+  "reviews": "935",
+  "rank": 23,
+  "source": "bestsellers",
+  "message_id": 736,
+  "image": "https://m.media-amazon.com/images/I/7142xkNuRrL._AC_SL1500_.jpg",
+  "variant": 827,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   736,
+   737,
+   738
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b090ca0b-f059-4104-9bc2-376ab6804bfb/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/2476517011",
+  "category_en": "Men's Shirts",
+  "category_he": "חולצות לגברים",
+  "posted_at": "2026-11-23T10:15:55.010252+00:00"
  }
 ]

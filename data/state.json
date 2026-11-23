@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 19
+  "2026-11-23": 20
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -59,6 +59,7 @@
   "B0FR7RVK1T": "2026-11-22T15:46:33.323604+00:00",
   "B0FY3SNNXH": "2026-11-23T07:15:54.072633+00:00",
   "B0G2MX1GKP": "2026-11-20T14:01:00.195959+00:00",
+  "B0G545PFB3": "2026-11-23T10:15:55.012442+00:00",
   "B0G55V7L24": "2026-11-23T06:15:47.071060+00:00",
   "B0G56435HQ": "2026-11-21T12:30:52.972413+00:00",
   "B0G7Z963QL": "2026-11-20T14:01:00.195931+00:00",
@@ -154,6 +155,7 @@
   "cole haan grand crosscourt": "2026-11-23T07:01:06.831773+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
   "columbia benton springs full": "2026-11-23T07:46:01.761921+00:00",
+  "coofandy t shirt short": "2026-11-23T10:15:55.012446+00:00",
   "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
@@ -555,7 +557,7 @@
  ],
  "last_bundle_day": "2026-11-20",
  "last_harvest_at": "2026-11-23T09:34:45.761361+00:00",
- "last_post_at": "2026-11-23T10:01:23.251326+00:00",
+ "last_post_at": "2026-11-23T10:15:55.012320+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1209,6 +1211,7 @@
   "B0FVF4FLGM": "2026-11-23T07:31:21.047741+00:00",
   "B0FYMN9QWG": "2026-11-23T06:15:47.029993+00:00",
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
+  "B0G545MLV3": "2026-11-23T10:15:54.971116+00:00",
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
   "B0GHMZXX8Y": "2026-11-21T16:01:21.144762+00:00",
@@ -1381,31 +1384,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/cordless drill brushless",
   "wireless",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "fashion/2476517011"
  ],
  "recent_groups": [
-  "kitchen",
   "sporting-goods",
   "beauty",
   "kitchen",
   "toys-and-games",
-  "wireless"
+  "wireless",
+  "fashion"
  ],
  "recent_themes": [
-  "other",
   "fashion",
   "home",
   "tech",
   "kids",
   "home",
   "tech",
-  "pets"
+  "pets",
+  "fashion"
  ],
  "recent_titles": [
-  "Skechers Men's Afterburn E'lite Grill Corporal Hands Free Slip-in",
   "Cole Haan Men's Grand Crosscourt Premier Sneaker",
   "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
   "adidas Women's Runfalcon 6",
@@ -1416,7 +1418,8 @@
   "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy",
   "688N.m 8 Gears 1/4-Inch Brushless Electric Screwdriver Cordless Electric Drill Impact Screw Driver Kit for Makita 18V Battery",
   "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
-  "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank"
+  "Lubluelu V8 800W Hot Water Carpet Cleaner 60\u00b0C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
+  "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1444,6 +1447,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136206
 }
