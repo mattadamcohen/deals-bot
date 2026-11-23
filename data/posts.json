@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B000CBSNKQ",
-  "title": "MAGNA-TILES Classic 32-Piece Magnetic Construction Set, The Original Magnetic Building Brand",
-  "title_he": "MAGNA-TILES סט בנייה מגנטי קלאסי בן 32 חלקים, מותג הבנייה המגנטי המקורי",
-  "price": "$34.99",
-  "was": "$49.99",
-  "discount": "30%",
-  "rating": "4.9",
-  "reviews": "13,973",
-  "rank": 9,
-  "source": "bestsellers",
-  "message_id": 664,
-  "image": "https://m.media-amazon.com/images/I/81CeQrdhosL._SL1500_.jpg",
-  "variant": 523,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   664,
-   665,
-   666
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/ac8c2aa4-acec-54d9-ada8-80b64e8b7b88/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
-  "category_slug": "toys-and-games/166092011",
-  "category_en": "Building Toys",
-  "category_he": "צעצועי הרכבה",
-  "posted_at": "2026-11-22T19:34:12.135765+00:00"
- },
- {
   "asin": "ali-1005013067433161",
   "title": "2026 Latest Mini WiFi Camera. Features Remote Live Viewing Via Mobile Phone, One-way Audio Reception, Motion Detection",
   "title_he": "2026 מצלמת מיני WiFi האחרונה. כולל צפייה ישירה מרחוק באמצעות טלפון נייד, קליטת אודיו חד כיוונית, זיהוי תנועה",
@@ -1158,5 +1129,34 @@
   "category_en": "Hanukkah gifts",
   "category_he": "מתנות לחנוכה",
   "posted_at": "2026-11-23T16:15:54.828758+00:00"
+ },
+ {
+  "asin": "ali-1005011867786289",
+  "title": "NeeDoh-style Nice Cube Sensory Nice-Sicle Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
+  "title_he": "בסגנון NeeDoh: Nice Cube חושי Nice-Sicle הפגת מתחים קוביית Squishy Anti-Squeeze אובייקט לפוקוס אוכלוסיית ADHD",
+  "price": "$6.55",
+  "was": "$13.10",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 787,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/A70fdb41300634980ac638b2563ce28f3s.jpg",
+  "variant": 441,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EhUFbOOODosu9fyWzuO25TTuMUE5WVmftSxp8TreVz7zgOHK5jo4viGXQP8Q1rX6x24hLfUxtjFwRh7Qh47YLU9fV9zPLn8P9iec6Tq6ey8aNnFIkRZDAd8eWoiajxHDxWNxq2Y8Qv2R6qRDCEUqQNlI1AuBPUyJehAHIXgP6BTqTvI949xbWWZLNhuq6NOdDUWzpLyGGZT5igrX5VFVrVQnzwgciPaGKoPP1SiM97q8rLisczXsMso4cjINCuMvtzdpMBtXgrmymXs6DQINqUC1BLUgePQvIfz7orOmiZ6RhFuE3dC5SU50rOrPNtOqr9W4KYmsA4Qx0Z6nGzLkdYCYJcAw3OhIwDnOn0GznboZ48dCRNXkfxhisInkZs9krHSbX3BFNFNQgJBbyb2z7UrKEs3RtDrnxLEm6PLM5xVJ9kgondlURXctTy53shmhbZFDVeH9FmXRWitxzdco0Ep7eqpQt2b7HwUZfjvGs5p1QD9kDHm8bfFrFQH2m0RY0uBiP0aFBhLwcQuqeH1kkcaK3yFVvBDr10zCOolEQmPx1W6092Bo08WeHHXLe1JOYGfv3YmJwRSeN8EuVuHuT4OdVVInvH5CcvJdsbtjJZ0ZZEGoD2uMkiEN56ykUYrc9rHG3wgfj9OoqlvWVKH88MlUWST53JbZE4Lx3QaBrcmlOEOGzwlUehp0zF1bd6WlwtJd6wNoOalby",
+  "sold": "21,000",
+  "album_ids": [
+   787,
+   788,
+   789
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-23T17:02:27.401322+00:00"
  }
 ]
