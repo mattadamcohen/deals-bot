@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0971NTY4Q",
-  "title": "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
-  "title_he": "Reebok Womens Club C Double Revenge Platform נעלי טניס לנשים, נעלי ספורט אופנה לנשים",
-  "price": "$59.98",
-  "was": "$77.65",
-  "discount": "23%",
-  "rating": "4.5",
-  "reviews": "2,034",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 706,
-  "image": "https://m.media-amazon.com/images/I/71NQC8hf-XL._AC_SL1500_.jpg",
-  "variant": 412,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   706,
-   707,
-   708
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cb5ff5ce-ca28-45a0-94cb-f9e8c6113b4a/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-23T07:15:54.069939+00:00"
- },
- {
   "asin": "B0FVF4FLGM",
   "title": "adidas Women's Runfalcon 6",
   "title_he": "אדידס Runfalcon 6 לנשים",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-24T07:00:57.062303+00:00"
+ },
+ {
+  "asin": "ali-1005007146966040",
+  "title": "OYIFAN Men Belt Genuine Leather Belt for men Automatic belts Adjustable waistband Business belts 허리띠",
+  "title_he": "OYIFAN חגורת גברים חגורות עור אמיתי לגברים חגורות אוטומטיות חגורות מותניים מתכווננות חגורות עסקיות 허리띠",
+  "price": "$7.16",
+  "was": "$8.24",
+  "discount": "13%",
+  "rating": "93.4%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 829,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b318d627eaa4e269b98f7615bf36388f.jpg",
+  "variant": 44,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FDhLJOUeJrCHpiYpPCLPP6usSJ2oKT0gT4CGw608D5acTslWnJfZf9UfHofXQt9xEOgtyB2X5a4sO6KfzSEl4KJgHhXR0WF01gUv0PNjv8ZIbRpty57Olp6ryrlPIfefHLNOtruAgORYoTT6E7bvRt4TL5YcBjYN1ZGHMFThqeGgQxk3IGIBNnSBbJhfGTRv3WS4YEypdAHVpTpqzzj5EBX4hkcJEny14xOuieZ4FlHHSxTJN4WrnHjJJ0xs5Y1sruXLY6leXp6d8pQzdsOsky55rfyoDZ4UCwv7DEOM5eKG4tOT2rvvoggQsDDc62UgDLZnjg3V6WEOJH2KZEGRcd0q20zilhuN7orlYABGpQxapt5vRAblf12kKHYU3qF0tnz2fEc7hUAbEdkUjmAE29a4epVrwAnEt6QwQWz4Sjowy28G7qWbjxtJ22d3Og1kE4xLUBddahPfsD1XF763C4mwyrtnen12JNsJTGUCAMviEnXvKPV6z97veSUsM7BdLhwrjXbPt0Ya3WTKQDVMRAA39FyhsFctB4EbMxJT30cGLevAlsycrFpEmqRyCgRtnJXK8HAFhW6j1F4xGAA38D2wb4239maGiMeGBGbmVDRPF76n6SdHCAhAOYxmZcDgGBpSP8gQWKgVyVjAKumr2WBsemu40e5pHmzsOfJcoxwkg1mxZJQDG3qYNvZy4NH0Uz5nEB5FJS9uq",
+  "sold": "1,000",
+  "album_ids": [
+   829,
+   830,
+   831
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/gift set for men",
+  "category_en": "Hanukkah gifts",
+  "category_he": "מתנות לחנוכה",
+  "posted_at": "2026-11-24T07:15:44.443552+00:00"
  }
 ]
