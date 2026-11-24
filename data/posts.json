@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0C9SS3W9K",
-  "title": "Cole Haan Men's Grand Crosscourt Premier Sneaker",
-  "title_he": "סניקרס גראנד קרוסקורט פרמייר של קול האן לגברים",
-  "price": "$74.99",
-  "was": "$120.00",
-  "discount": "38%",
-  "rating": "4.7",
-  "reviews": "1,288",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 703,
-  "image": "https://m.media-amazon.com/images/I/71+2addNRqL._AC_SL1500_.jpg",
-  "variant": 506,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   703,
-   704,
-   705
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/91bcfcd4-dd4c-49c6-b2ba-e516f5612d80/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-23T07:01:06.828652+00:00"
- },
- {
   "asin": "B0971NTY4Q",
   "title": "Reebok Womens Club C Double Revenge Platform Tennis Shoes for Women, Fashion Womens Sneakers",
   "title_he": "Reebok Womens Club C Double Revenge Platform נעלי טניס לנשים, נעלי ספורט אופנה לנשים",
@@ -1158,5 +1129,34 @@
   "category_en": "Gaming",
   "category_he": "גיימינג",
   "posted_at": "2026-11-24T06:45:46.207783+00:00"
+ },
+ {
+  "asin": "ali-1005007650509472",
+  "title": "Coca-cola zero sugar, pack of 24*330 ml-cocacola original 48*33cl -cocacola zero 48*33cl",
+  "title_he": "סוכר קוקה קולה זירו, חבילה של 24*330 מ\"ל-קוקולה מקורית 48*33קל -קוקולה זירו 48*33קל",
+  "price": "$39.97",
+  "was": "$55.17",
+  "discount": "27%",
+  "rating": "95.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 826,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/E9eedde3fc27c46fdaedc243dc8af4e91W.jpg",
+  "variant": 483,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/LxyiVOQKofy2yqnzLspKCOBwWmqLiGyoT8G0rv63A6JblkIACPQIlDv0GexRDN3gavU044kzzDHKshgQFMefe3ZI50JWr3Sni4i3vxKtyTZuiG2MFNIB8Ieqq8HgMDY8UUn97UNDXpZqHUsXBZEwt81a1fy8THCokq9h8GeAqJP5DyMBBdBY2CfPA0ZvbWiyhnUE93QUhKR94dvdXiYQUBzfIHy6N1UaWJmaWul93J8TXAbo5zKFNh6ZFTurHIsA25MFeLe3Gp4Zj6jD2OhiWRVPa6hz8lLE1i44PCdYdC29gYe8NuzZaBBI3gMtxAHEq06ZfV7jAmHniHaeb6RxYdi55f4XivMOV8NSSWrq56xfR4JEC4mFQMsjU5KoEq7BFy4zBAaqIQZI2XnSP6MrKAmuTPh5vj6EdHsC9FgweEkfqviOKWtvBQtRdF9arm9Snk0lBG2vYzCn7tAUtWTY80vCodH85nzi3UIewuToddhGDSqbTynhWGkIYfyTMx3phKxiBorqrR8OshcVM56DmgfQTv1HIKpfxSIk3IFwZ82pRseBIH6mC3EaMAnhwvEJ1oCcU8KqBiCoKWHkl8BVEfNcoxdpVvKlfDpteV3Xmr8XNaOHNEYL87fpm6wLDMO1OvzWCnaNjQV99MmR3tXjUUaxFVTucz2HXYGtrzGvsl6fBWxVUfrS2VQNuJh2JZBRcPh9PbU5qN0WwlCOh2GvuM2OKCUNn4QwqSuU2NXOwpEBNexwUA4SAhTTzoXu4MaqD8PxfBKAsOUFG2ddnDt5dU8AN1CF9yHWD15GWnjLK7SKbhNdKYVmbQZ4LKX7GNXjsDOBRzioixBmVV8bX5XTWPVlMTULeAJvtsNOJVO6kNnj7c4vniuszkTqDpU3P5JbJnM5pHad7dXwDzVOKoO29oORififCIUfRorT6QIlvGrrLtPlEZAiSer9dAe5k6kKk5406qXlAVP30tMukSYk2AcKu8Hl0h3sbr9pcF6h2SsnTaTdKdNDs7AJ3sERbopLYP6uiuAluOV7VkL6EYE76lhJa199XLD2e3bk9f5HiGGGbtoQDk4bwf5lpFJz6fW5e5l",
+  "sold": "10,000",
+  "album_ids": [
+   826,
+   827,
+   828
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "category_en": "AliExpress sale",
+  "category_he": "מבצע אליאקספרס",
+  "posted_at": "2026-11-24T07:00:57.062303+00:00"
  }
 ]
