@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 33
+  "2026-11-24": 34
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -292,6 +292,7 @@
   "magnetic train set diy": "2026-11-20T10:01:05.815649+00:00",
   "magnetic train toy for": "2026-11-19T15:01:01.313672+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
+  "mayjam set essential oils": "2026-11-24T15:45:53.336470+00:00",
   "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
   "medicube facial cleanser zero": "2026-11-21T09:34:00.657943+00:00",
   "medicube pdrn collagen volume": "2026-11-21T16:01:21.299095+00:00",
@@ -674,7 +675,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T15:30:55.738159+00:00",
+ "last_post_at": "2026-11-24T15:45:53.336302+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1476,6 +1477,7 @@
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
   "ali-1005007171042908": "2026-11-24T11:45:51.446318+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
+  "ali-1005007344995863": "2026-11-24T15:45:53.275941+00:00",
   "ali-1005007345135328": "2026-11-24T07:31:04.842089+00:00",
   "ali-1005007345490854": "2026-11-23T19:46:10.661275+00:00",
   "ali-1005007351557375": "2026-11-21T13:31:03.852700+00:00",
@@ -1627,10 +1629,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "beauty",
   "aliexpress/inflatable camping tent",
-  "fashion/679312011"
+  "fashion/679312011",
+  "aliexpress/aroma diffuser"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1641,17 +1643,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "home",
   "sport",
   "other",
   "beauty",
   "sport",
-  "fashion"
+  "fashion",
+  "home"
  ],
  "recent_titles": [
-  "Springrain Men's Wool Blend Pea Coat Single Breasted Overcoat",
   "Push Up Board, Portable PushUp Board, Foldable 20 in 1 Push Up Bar",
   "Magnetic Screwdriver Set Phillips Flat Head Non\u2011Slip Handle Multi\u2011Size Hand Screwdrivers Kit for Home ApplianceElectronicsRepair",
   "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask",
@@ -1662,7 +1663,8 @@
   "SOLOKING GKA300 Baitcasting Reel Sea Fishing Power Handle 9.5KG Drag Force 6.4 Gear Ratio Brass Gear Deep Spool Fishing Reel",
   "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g",
   "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak",
-  "Skechers Men's Summits High Range Slip-in"
+  "Skechers Men's Summits High Range Slip-in",
+  "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1690,6 +1692,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136213
 }
