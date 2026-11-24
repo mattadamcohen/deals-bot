@@ -1,1 +1,23 @@
-{"count": 0}
+{
+ "count": 1,
+ "last_palette": 1,
+ "last_theme": "brands",
+ "history": [
+  {
+   "at": "2026-11-24T16:16:29.802607+00:00",
+   "theme": "brands",
+   "ids": [
+    "B0971NTY4Q",
+    "ali-1005007668695524",
+    "B0FFTLNC5S"
+   ],
+   "image": "promo-202611241616",
+   "media": "17913910695580681"
+  }
+ ],
+ "used": [
+  "B0971NTY4Q",
+  "ali-1005007668695524",
+  "B0FFTLNC5S"
+ ]
+}
