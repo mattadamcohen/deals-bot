@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0GZWZH2L8",
-  "title": "Taba Squishy Making Kit for Kids - Squishies Craft Kits - Christmas Gifts",
-  "title_he": "ערכת הכנת טאבה סקווישי לילדים - ערכות יצירה של סקווישי",
-  "price": "$23.99",
-  "was": "$31.99",
-  "discount": "25%",
-  "rating": "4.1",
-  "reviews": "1,689",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 691,
-  "image": "https://m.media-amazon.com/images/I/81y-GXnvBXL._AC_SL1500_.jpg",
-  "variant": 536,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   691,
-   692,
-   693
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-23T06:00:58.846055+00:00"
- },
- {
   "asin": "B0FYMN9QWG",
   "title": "Umatoll Toddler Balance Bike 2 Year Old, Kids Bike Gift for 2-3 Girls Boys",
   "title_he": "אומאטול לפעוטות אופני איזון לגיל שנתיים, מתנת אופניים לילדים ל-2-3 בנות בנים",
@@ -1158,5 +1129,34 @@
   "category_en": "Sports & Outdoors",
   "category_he": "ספורט וטבע",
   "posted_at": "2026-11-24T05:04:23.592435+00:00"
+ },
+ {
+  "asin": "B01H1V7WQU",
+  "title": "LAURA GELLER Baked Balance-n-Brighten Powder Foundation – Light",
+  "title_he": "LAURA GELLER Baked Balance-n-Brighten Powder Foundation – אור",
+  "price": "$18.99",
+  "was": "$59.34",
+  "discount": "50%",
+  "rating": "4.2",
+  "reviews": "73,106",
+  "rank": 27,
+  "source": "bestsellers",
+  "message_id": 814,
+  "image": "https://m.media-amazon.com/images/I/71SZsYmswwL._SL1500_.jpg",
+  "variant": 19,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   814,
+   815,
+   816
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bb280c0c-95b3-445d-bd8b-6f5e9f2f3a16/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty",
+  "category_en": "Beauty & Personal Care",
+  "category_he": "יופי וטיפוח",
+  "posted_at": "2026-11-24T05:31:38.803389+00:00"
  }
 ]

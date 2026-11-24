@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 1
+  "2026-11-24": 2
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -74,6 +74,7 @@
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GWRSTNMJ": "2026-11-24T05:31:38.805664+00:00",
   "B0GX2WYTJL": "2026-11-22T17:16:16.095589+00:00",
   "B0GYPPKBF3": "2026-11-22T09:15:55.387256+00:00",
   "B0GYRKHXQL": "2026-11-22T09:45:59.095917+00:00",
@@ -239,6 +240,7 @@
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
   "komery k digital camera": "2026-11-20T13:30:48.387965+00:00",
   "latest wifi camera features": "2026-11-22T20:01:26.796564+00:00",
+  "laura geller baked balance-n-brighten": "2026-11-24T05:31:38.805669+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "led wall lights outdoor": "2026-11-21T13:31:03.898090+00:00",
@@ -465,6 +467,12 @@
    "username": "",
    "via": "join"
   },
+  "493107092": {
+   "at": "2026-11-24T05:31:25.750231+00:00",
+   "name": "Avishay",
+   "username": "abs59il",
+   "via": "join"
+  },
   "539481228": {
    "at": "2026-11-22T16:05:29.652089+00:00",
    "name": "SF",
@@ -604,11 +612,12 @@
   "1580434942",
   "9255242793",
   "7071336803",
-  "7959476928"
+  "7959476928",
+  "493107092"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T05:04:21.553867+00:00",
- "last_post_at": "2026-11-24T05:04:23.594729+00:00",
+ "last_post_at": "2026-11-24T05:31:38.805497+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1216,6 +1225,7 @@
   "B015DJ5JV2": "2026-11-23T14:05:33.168606+00:00",
   "B0160HYB8S": "2026-11-14T16:08:08.009745+00:00",
   "B01CYZHGC8": "2026-11-20T15:00:56.986352+00:00",
+  "B01H1V7WQU": "2026-11-24T05:31:38.762751+00:00",
   "B01KNM3AFQ": "2026-11-17T06:01:17.335441+00:00",
   "B01M0AGUPO": "2026-11-16T12:46:27.773496+00:00",
   "B01M16WBW1": "2026-11-15T09:02:39.794924+00:00",
@@ -1500,31 +1510,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/led light room decor",
   "aliexpress/external ssd",
   "aliexpress/car jump starter",
-  "sporting-goods"
+  "sporting-goods",
+  "beauty"
  ],
  "recent_groups": [
-  "toys-and-games",
   "wireless",
   "fashion",
   "home-garden",
   "hpc",
-  "sporting-goods"
+  "sporting-goods",
+  "beauty"
  ],
  "recent_themes": [
-  "kitchen",
   "beauty",
   "tech",
   "kids",
   "home",
   "tech",
   "car",
-  "sport"
+  "sport",
+  "beauty"
  ],
  "recent_titles": [
-  "IKAPE Carrying Bag, Convenient to Carry for Car & Home Camping Kapo K2 Portable Coffee Machine Bag",
   "LIGE 2026 Smart Watch Women Men Ladies Gift Sport Fitness Men Watches Heart Rate Monitor Waterproof Smartwatch For Android IOS",
   "3 Men's Casual Belt, Men's Business Outdoor Belt, Versatile Suit Pants, Jeans, Casual Pants",
   "NeeDoh-style Nice Cube Sensory Nice-Sicle Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
@@ -1535,7 +1544,8 @@
   "2 In 1 Ceiling Fan Lamps 3 Speeds Adjustable E27 Base Infinitely Dimmable for Living Room Bedroom Study LED Decorative Light",
   "ORICO-NVMe Enclosure for PCIe SSD Transparent External Adapter M.2 to USB Type C Mini 2230 M.2 SSD Case 10Gbps",
   "Wireless Peak Car Jump Starter, Portable Emergency Booster & Car Power Supply, All-in-One Backup Power for Vehicle SUV Truck",
-  "Owala FreeSip Stainless Steel Water Bottle 24 oz Daybreak"
+  "Owala FreeSip Stainless Steel Water Bottle 24 oz Daybreak",
+  "LAURA GELLER Baked Balance-n-Brighten Powder Foundation \u2013 Light"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1563,6 +1573,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136210
+ "since_ali": 2,
+ "tg_offset": 260136211
 }
