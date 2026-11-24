@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 22
+  "2026-11-24": 23
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -77,6 +77,7 @@
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GWHQPFS2": "2026-11-24T12:31:01.926835+00:00",
   "B0GWMM2QRN": "2026-11-24T10:31:25.532727+00:00",
   "B0GWRSTNMJ": "2026-11-24T05:31:38.805664+00:00",
   "B0GX2WYTJL": "2026-11-22T17:16:16.095589+00:00",
@@ -336,6 +337,7 @@
   "powerful led solar outdoor": "2026-11-23T11:45:50.786347+00:00",
   "precision screwdriver set with": "2026-11-24T11:15:53.887482+00:00",
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
+  "push up board": "2026-11-24T12:31:01.926840+00:00",
   "quartz watch luxury women": "2026-11-23T13:01:33.084305+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
@@ -650,7 +652,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T09:19:36.647986+00:00",
- "last_post_at": "2026-11-24T12:02:22.390647+00:00",
+ "last_post_at": "2026-11-24T12:31:01.926681+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1315,6 +1317,7 @@
   "B0B1RWJ4QJ": "2026-11-23T18:04:28.402742+00:00",
   "B0B2RM68G2": "2026-11-20T13:01:28.290700+00:00",
   "B0B6B25BKW": "2026-11-20T14:01:00.195937+00:00",
+  "B0B73XM8ZB": "2026-11-24T12:31:01.844488+00:00",
   "B0B7535QC3": "2026-11-16T11:31:03.776706+00:00",
   "B0BGWYD9KC": "2026-11-14T12:25:03.919624+00:00",
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
@@ -1578,31 +1581,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/packing cubes travel",
   "aliexpress/precision screwdriver set",
   "aliexpress/baby monitor camera",
-  "fashion/1045830"
+  "fashion/1045830",
+  "sporting-goods"
  ],
  "recent_groups": [
-  "sporting-goods",
   "beauty",
   "fashion",
   "sporting-goods",
   "beauty",
-  "fashion"
+  "fashion",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "tech",
   "sport",
   "car",
   "beauty",
   "fashion",
   "home",
   "tech",
-  "fashion"
+  "fashion",
+  "sport"
  ],
  "recent_titles": [
-  "Controller Gaming Accessories For Playstation 5 4 3 2 PS5 PS4 PS3 Dualsense Dualshock Switch Pro Xbox Control Stand Support Game",
   "Electric Toothbrush Mental Thin Brush Body Specially for Women Pure Wisdom Beauty Soft DuPont Bristle",
   "Circle Chain Picture Customiz Photo Necklace Men Women Personalized Jewelry Customized Any Picture Pendant Mothers or Lover Gift",
   "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies",
@@ -1613,7 +1615,8 @@
   "6/8Pcs Set Travel Bag Organizer Clothes Luggage Travel Organizer Blanket Shoes Organizers Bag Suitcase Pouch Packing Cubes",
   "25 in 1 Precision Screwdriver Set with Aluminium Alloy Handle Highly Hardened Metal Bits Swivelling Design Disassembly Kit",
   "3.2Inch Video Baby Monitor With Pan Tilt Security Camera Night Vision VOX Two Way Talk Temperature Monitoring Lullaby Babysitter",
-  "Springrain Men's Wool Blend Pea Coat Single Breasted Overcoat"
+  "Springrain Men's Wool Blend Pea Coat Single Breasted Overcoat",
+  "Push Up Board, Portable PushUp Board, Foldable 20 in 1 Push Up Bar"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1641,6 +1644,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136212
 }
