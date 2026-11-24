@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0H85JSPWJ",
-  "title": "Reebok Womens Fleece Jacket - Full Zip Hooded Coat with Pockets, Midweight",
-  "title_he": "מעיל פליס לנשים של ריבוק - מעיל קפוצ'ון עם רוכסן מלא עם כיסים, בינוני",
-  "price": "$33.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.5",
-  "reviews": "572",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 715,
-  "image": "https://m.media-amazon.com/images/I/619LF+sty9L._AC_SL1254_.jpg",
-  "variant": 486,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   715,
-   716,
-   717
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-23T08:01:13.263581+00:00"
- },
- {
   "asin": "B0HDYQXT81",
   "title": "15 Pack 3 Size Vacuum Storage Bags for Travel with Rechargeable 5000Pa Pump",
   "title_he": "שקיות אחסון ואקום בגודל 3 בגודל 15 לנסיעות עם משאבת 5000Pa נטענת",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-24T07:45:43.676360+00:00"
+ },
+ {
+  "asin": "ali-1005013212982440",
+  "title": "Needoh Halloween Christmas Squeeze Toys Sensory Toy Colorful Knead Stretch Anxiety Relief ADHD Fidget Toy Leisure Gift",
+  "title_he": "Needoh ליל כל הקדושים צעצועי לחיצה צעצוע חושי ללוש צבעוני מתיחה להקלה על חרדה ADHD Fidget צעצוע מתנת פנאי",
+  "price": "$3.61",
+  "was": "$8.04",
+  "discount": "55%",
+  "rating": "92.9%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 838,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S851f2cb0b72b49bf84322b47ec5a3a1b1.jpg",
+  "variant": 995,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kvThmIdIOqI1bx5JRkQEIj8qJdfCaS1ZqTNlQ7WpEael1otY1WnbeiQeVHm4rSf313xBxQY0V1wHoOpzLCPWyGNrAGdXLjEC7BZtIwWN98K8ryoVZxvEXhCQoAYpElLgtgN54Z327RjUoCEUSQsxsTNzw24LMSstehH9gFqiXAScdPAwf0hgxiCScQeBpBx2dhS5QiZX3iFmWtK3i3rUjphSQCTn4P0ItvJrgIE7Vp3XDCFLsVuUDIjgV98VunbwuncYq79s1R5toMVKk4l37WrNywE5TJlucdPq96K087zljYUJiBoIlHtjbEIdDkk3YheUaO47JTruXVrmHTf3ItkddgoKrlAzcp9PFubyLVTspa8CUbMGsHTdYznLT2FKQCQa3dMw4cOxMUIJg2uqN4ABui5eTHa7cSfbAf4LYjRUZF75fNrgTv7yoipWM3D9KrJDJ5vKDxlxwM60E9kAnhYAbhhbPShh3iudDtSJDR28Ajv6OtEqGZW3sE3ltovKzR9RHK0WrHKk8hmJWuL1oLDRW4NRN85jwrDr9KqJ5lq13Ff49KEYRmaGuUWtyZewE6tspq4H9hxcAs6Ho2Zq9qNO5g6S3KhYmD7dQVta4BDQcRgOvHgjQ73RqKudfCKyjnXu3LbRozDRfT7mp0BCEIzNUDh5q5pTfQ2DmgwV79rVctPkoVk2PTEzlgmfPLrzHqGyuubvyY7pg",
+  "sold": "322",
+  "album_ids": [
+   838,
+   839,
+   840
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/squishy advent calendar",
+  "category_en": "Squishies",
+  "category_he": "סקווישים",
+  "posted_at": "2026-11-24T08:02:05.263585+00:00"
  }
 ]
