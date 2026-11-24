@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 42
+  "2026-11-24": 43
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -137,6 +137,7 @@
   "automatic electric fruit peeler": "2026-11-20T10:30:48.899396+00:00",
   "automatic garbage with lids": "2026-11-20T07:00:54.847423+00:00",
   "baby head protector backpack": "2026-11-16T08:01:44.321795+00:00",
+  "backpack school bag girl": "2026-11-24T20:31:35.812339+00:00",
   "balance stacking board games": "2026-11-23T15:01:13.989479+00:00",
   "baseus bass ep ultra": "2026-11-23T10:31:23.565832+00:00",
   "baseus eh nc anc": "2026-11-20T17:01:02.349362+00:00",
@@ -684,7 +685,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T17:49:31.440888+00:00",
- "last_post_at": "2026-11-24T20:01:43.154867+00:00",
+ "last_post_at": "2026-11-24T20:31:35.812153+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1488,6 +1489,7 @@
   "ali-1005006997695145": "2026-11-22T10:16:11.030434+00:00",
   "ali-1005007002128983": "2026-11-20T19:00:59.283752+00:00",
   "ali-1005007003840474": "2026-11-16T07:01:27.311145+00:00",
+  "ali-1005007010160781": "2026-11-24T20:31:35.757108+00:00",
   "ali-1005007010322211": "2026-11-22T14:16:27.476149+00:00",
   "ali-1005007010579208": "2026-11-15T19:15:42.273142+00:00",
   "ali-1005007011535785": "2026-11-19T11:01:21.077597+00:00",
@@ -1656,10 +1658,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy blind box",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "wireless",
-  "kitchen/510136"
+  "kitchen/510136",
+  "aliexpress/kids school backpack"
  ],
  "recent_groups": [
   "fashion",
@@ -1670,17 +1672,16 @@
   "kitchen"
  ],
  "recent_themes": [
-  "tech",
   "pets",
   "kitchen",
   "fashion",
   "kids",
   "sport",
   "tech",
-  "kitchen"
+  "kitchen",
+  "home"
  ],
  "recent_titles": [
-  "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g",
   "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak",
   "Skechers Men's Summits High Range Slip-in",
   "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box",
@@ -1691,7 +1692,8 @@
   "Taba Squishy Yogurt Cake Bread Squeeze Toy Soft Stress Relief Slow Rising Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "GPS Bike Computer IGPSPORT BSC100S Cycle Wireless Speedometer Bicycle Digital Stopwatch Cycling Odometer Cycling Computer",
   "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black",
-  "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)"
+  "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)",
+  "Backpack School Bag Girl Back Pack For Children Kid Child Teenager Female Class Schoolbag Primary Women Bagpack Teen Bookbag Kit"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1719,6 +1721,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136213
 }
