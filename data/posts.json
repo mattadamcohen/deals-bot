@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FFTLNC5S",
-  "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Daybreak",
-  "title_he": "Owala FreeSip בקבוק מים מפלדת אל-חלד 24 oz",
-  "price": "$22.79",
-  "was": "$29.99",
-  "discount": "24%",
-  "rating": "4.6",
-  "reviews": "146,922",
-  "rank": 1,
-  "source": "bestsellers",
-  "message_id": 811,
-  "image": "https://m.media-amazon.com/images/I/51SbWPkLSRL._AC_SL1500_.jpg",
-  "variant": 210,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   811,
-   812,
-   813
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "sporting-goods",
-  "category_en": "Sports & Outdoors",
-  "category_he": "ספורט וטבע",
-  "posted_at": "2026-11-24T05:04:23.592435+00:00"
- },
- {
   "asin": "B01H1V7WQU",
   "title": "LAURA GELLER Baked Balance-n-Brighten Powder Foundation – Light",
   "title_he": "LAURA GELLER Baked Balance-n-Brighten Powder Foundation – אור",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-24T17:30:59.542993+00:00"
+ },
+ {
+  "asin": "B0HDST6F85",
+  "title": "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black",
+  "title_he": "כיסוי FNTCASE לאייפון Duo, עם הגנת צירים מלאה, שחור",
+  "price": "$12.23",
+  "was": "$24.99",
+  "discount": "51%",
+  "rating": "4.5",
+  "reviews": "28,381",
+  "rank": 8,
+  "source": "bestsellers",
+  "message_id": 932,
+  "image": "https://m.media-amazon.com/images/I/61MvuwnNwFL._AC_SL1446_.jpg",
+  "variant": 486,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   932,
+   933,
+   934
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8ffdbf2d-bf3d-4d13-b8cf-3b676690c7b5/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "wireless",
+  "category_en": "Cell Phones & Accessories",
+  "category_he": "סלולר ואביזרים",
+  "posted_at": "2026-11-24T17:49:35.764270+00:00"
  }
 ]
