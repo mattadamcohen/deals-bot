@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 17
+  "2026-11-24": 18
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -76,6 +76,7 @@
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GWMM2QRN": "2026-11-24T10:31:25.532727+00:00",
   "B0GWRSTNMJ": "2026-11-24T05:31:38.805664+00:00",
   "B0GX2WYTJL": "2026-11-22T17:16:16.095589+00:00",
   "B0GYPPKBF3": "2026-11-22T09:15:55.387256+00:00",
@@ -283,6 +284,7 @@
   "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
   "medicube facial cleanser zero": "2026-11-21T09:34:00.657943+00:00",
   "medicube pdrn collagen volume": "2026-11-21T16:01:21.299095+00:00",
+  "medicube pdrn peptide serum": "2026-11-24T10:31:25.532731+00:00",
   "medicube toner pads zero": "2026-11-19T12:04:43.457550+00:00",
   "men business watches fashion": "2026-11-19T15:31:12.228720+00:00",
   "mighty patch hero cosmetics": "2026-11-14T10:36:43.455648+00:00",
@@ -642,7 +644,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T09:19:36.647986+00:00",
- "last_post_at": "2026-11-24T10:15:56.687524+00:00",
+ "last_post_at": "2026-11-24T10:31:25.532575+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1330,6 +1332,7 @@
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
   "B0D8HYLBFS": "2026-11-19T05:30:57.561688+00:00",
   "B0D9RPX853": "2026-11-17T19:46:09.833335+00:00",
+  "B0DBF65JYY": "2026-11-24T10:31:25.512658+00:00",
   "B0DD8FF6B7": "2026-11-23T06:46:02.335759+00:00",
   "B0DDZN76T9": "2026-11-17T15:04:45.276241+00:00",
   "B0DF472VMZ": "2026-11-16T07:30:55.204640+00:00",
@@ -1565,31 +1568,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "fashion/1045830",
   "aliexpress/switch controller",
   "sporting-goods",
-  "aliexpress/car jump starter"
+  "aliexpress/car jump starter",
+  "beauty"
  ],
  "recent_groups": [
-  "home-garden",
   "hpc",
   "sporting-goods",
   "beauty",
   "fashion",
-  "sporting-goods"
+  "sporting-goods",
+  "beauty"
  ],
  "recent_themes": [
-  "kids",
   "tech",
   "other",
   "home",
   "fashion",
   "tech",
   "sport",
-  "car"
+  "car",
+  "beauty"
  ],
  "recent_titles": [
-  "Coca-cola zero sugar, pack of 24*330 ml-cocacola original 48*33cl -cocacola zero 48*33cl",
   "OYIFAN Men Belt Genuine Leather Belt for men Automatic belts Adjustable waistband Business belts \ud5c8\ub9ac\ub760",
   "GMK87 Mechanical Keyboard KIT With Display Screen RGB Backlit Gasket Structure Gaming Hot Swap Keyboard for VIA Customized",
   "Magcubic Projector 8K Android 14 HY300 Pro Wifi6 290ANSI Allwinner H726 BT5.4 1080P * 720P Outdoor Outdoor Portable Projectors",
@@ -1600,7 +1602,8 @@
   "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies",
   "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control",
   "Fun Boomerang for Kids - Stocking Stuffers for Boys and Girls - Soft & Easy Use - Best Gifts for 6 7 8 9 10 11 12 13 Year Old Boy Gifts - 2026 Top Toys for Boys Age 8-12 + Teens Outdoor Boy Gift Ideas",
-  "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40\u00b0C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring"
+  "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40\u00b0C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring",
+  "medicube PDRN Pink Peptide Serum with Salmon DNA, Firmer, Even-Looking Skin"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1628,6 +1631,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136212
 }
