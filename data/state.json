@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 37
+  "2026-11-24": 38
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -371,6 +371,7 @@
   "scentsicles winter fir scented": "2026-11-23T14:05:33.168625+00:00",
   "schylling needoh nice cube": "2026-11-23T17:02:27.404089+00:00",
   "scodi flannel shirt jacket": "2026-11-24T09:19:41.368323+00:00",
+  "set color chic jewelry": "2026-11-24T16:46:17.417173+00:00",
   "set travel bag organizer": "2026-11-24T10:46:00.174614+00:00",
   "sharpie s-gel pens": "2026-11-19T06:34:11.261476+00:00",
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
@@ -678,7 +679,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T16:31:01.682031+00:00",
+ "last_post_at": "2026-11-24T16:46:17.417015+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1499,6 +1500,7 @@
   "ali-1005007805563822": "2026-11-18T16:01:31.926969+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
+  "ali-1005007806183543": "2026-11-24T16:46:17.360259+00:00",
   "ali-1005007857255208": "2026-11-24T06:05:46.229490+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005007904830534": "2026-11-24T08:45:57.104028+00:00",
@@ -1635,10 +1637,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/aroma diffuser",
   "aliexpress/power bank",
   "aliexpress/cat toys",
-  "aliexpress/fridge organizer"
+  "aliexpress/fridge organizer",
+  "aliexpress/jewelry set women"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1649,17 +1651,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "other",
   "beauty",
   "sport",
   "fashion",
   "home",
   "tech",
   "pets",
-  "kitchen"
+  "kitchen",
+  "fashion"
  ],
  "recent_titles": [
-  "MK6025 NEW Technical Classic Performance RB21 White Sports Car Building Blocks MOC DIY Assembly Model Set Boys Toy Gift",
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
   "2.1M 400LEDs Christmas Lights Holiday String Lights with Star Shape, Smart LED Xmas Tree for Indoor Outdoor Decor",
   "OLIGHT IMINI 2 Rechargeable EDC Keychain Mini Flashlight Black",
@@ -1670,7 +1671,8 @@
   "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box",
   "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26",
   "Creative Meowl OMG Cute Cat Plush Keychain Plush Charm with Sound Squeeze Toy Funny Bag Pendant Charm Gift Cute Fidget Toy",
-  "Transparent Storage Box, Laundry Bead Storage Box, Container for Hair Rings and Hair Clips, Desktop Miscellaneous Box"
+  "Transparent Storage Box, Laundry Bead Storage Box, Container for Hair Rings and Hair Clips, Desktop Miscellaneous Box",
+  "51 Pcs/Set Silver Color Chic Jewelry Set For Women Fashion Butterfly Heart Pearl Necklaces, Earrings, Rings, Match Daily Outfits"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
