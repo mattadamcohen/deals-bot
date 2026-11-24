@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0GTFH1DNL",
-  "title": "Acer Aspire Go 15 AI Ready Laptop | 15.6\" FHD (1920 x 1080) IPS Display | Intel Core 3 Processor N355 | Intel Graphics | 8GB DDR5 | 128GB UFS | Wi-Fi 6 | Windows 11 Home in S Mode | AG15-32P-352Z",
-  "title_he": "מחשב נייד Acer Aspire Go 15 AI Ready | מסך IPS בגודל 15.6 אינץ' FHD (1920 x 1080) | מעבד Intel Core 3 N355 | גרפיקה של אינטל | 8GB DDR5 |…",
-  "price": "$299.99",
-  "was": "$390.70",
-  "discount": "23%",
-  "rating": "4.2",
-  "reviews": "43",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 721,
-  "image": "https://m.media-amazon.com/images/I/71H8XhwlwpL._AC_SL1500_.jpg",
-  "variant": 27,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   721,
-   722,
-   723
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a9a8857c-b884-4ab9-9568-8a2bf331db54/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-23T08:31:07.194345+00:00"
- },
- {
   "asin": "ali-1005012013972727",
   "title": "NeeDoh-style Fuzz Ball Smile Soft Jellyfish Squish Squeeze Toy Stress Anxiety Relief Stress Sensory Waterproof Water Play Sensory Toy",
   "title_he": "בסגנון NeeDoh: Fuzz Ball חיוך רך מדוזה לחיצה צעצוע לחץ חרדה הקלה על מתח חושי עמיד למים צעצוע חושי משחק",
@@ -1158,5 +1129,34 @@
   "category_en": "Gaming",
   "category_he": "גיימינג",
   "posted_at": "2026-11-24T08:30:48.598385+00:00"
+ },
+ {
+  "asin": "ali-1005007904830534",
+  "title": "Electric Toothbrush Mental Thin Brush Body Specially for Women Pure Wisdom Beauty Soft DuPont Bristle",
+  "title_he": "מברשת שיניים חשמלית גוף מברשת דק נפשית במיוחד לנשים חוכמה טהורה יופי רך זיפי דופונט",
+  "price": "$11.84",
+  "was": "$34.93",
+  "discount": "66%",
+  "rating": "95.4%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 844,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sec6ff2521e7a424cabb3f6003a8332cbm.jpg",
+  "variant": 261,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kJhZKkIDe4bgbuvd9X51mHep3bGhbY5r4SV4e2tJcGcJ57zXF0K4uQ6C9d0cPs2PVNAawESHlfEifCMvGWyiKbtSM11abA5735HHKX8IchGH0DcfRamK29qh7LvCxtGJDPQM59udH31hqHnvRZ8UFbqExnpHzx9yGAE4RA8bc9Hy6U2ZFCGf3LUkmRnnmCvRgdwuBBfByxFoznUGK6LQR5GU2PB5PtMQBOy3xM4YCe6LWOwdwpik7aWzWXLzMkqcq6rOzQ1HzTnm5L34V3RMgNq4QxLzGmiwFe6nc7w7CoiMZGeFW0GQAxhotVBsGIEg8AfIFAD8wpZDUYY7lCTjSxwEorJR7fEX7DzFEHE29naGx2aNQ391utMYF5wRM68KtLPAwweadZ50b3wUg8tlDE62kJGN6q6mt6tTjaBosTgffYs6ez2aO7SYSK28oDCmnh9FAmHWeEmaoSBhx9uwK4oYgwagUO3iaiueQCFdDNq2AEmHPV7pM7KbGz3K3p3vzLyjWKJdRxqH45y9JscnQPAAfvjSUz5Kg6umjKP8116TDrEiYnVeKfeyD8eySgEvGoWERiODAFgcCUT1jABMVJQWlU66R01ty9wO8pijGd24ufNdeXnbvLuBPMkMusWobj1905DnANamI5k6Qu9YO5yk2mwdKdL8SwREWoT7UlI6OimMB4WLp3aAQgCbjZP4KGT1PEGyurzg8",
+  "sold": "1,000",
+  "album_ids": [
+   844,
+   845,
+   846
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/electric toothbrush",
+  "category_en": "Beauty",
+  "category_he": "טיפוח",
+  "posted_at": "2026-11-24T08:45:57.235530+00:00"
  }
 ]
