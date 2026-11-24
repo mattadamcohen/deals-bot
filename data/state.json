@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 4
+  "2026-11-24": 5
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -197,6 +197,7 @@
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
   "extra virgin olive oil": "2026-11-21T08:30:46.232481+00:00",
+  "fifine rgb gaming headset": "2026-11-24T06:45:46.210184+00:00",
   "flextail zero lantern": "2026-11-18T18:31:03.689614+00:00",
   "fntcase for iphone duo": "2026-11-15T18:00:49.135864+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
@@ -619,7 +620,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T05:04:21.553867+00:00",
- "last_post_at": "2026-11-24T06:05:46.293856+00:00",
+ "last_post_at": "2026-11-24T06:45:46.209998+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1360,6 +1361,7 @@
   "ali-1005006738672284": "2026-11-21T11:01:03.255132+00:00",
   "ali-1005006817161380": "2026-11-23T15:01:13.932210+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
+  "ali-1005006860959251": "2026-11-24T06:45:46.165980+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
   "ali-1005006904438915": "2026-11-18T08:31:39.200481+00:00",
   "ali-1005006966123998": "2026-11-18T08:01:06.593615+00:00",
@@ -1514,10 +1516,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "sporting-goods",
   "beauty",
   "aliexpress/toy storage organizer",
-  "aliexpress/car vacuum cleaner"
+  "aliexpress/car vacuum cleaner",
+  "aliexpress/gaming headset"
  ],
  "recent_groups": [
   "wireless",
@@ -1528,17 +1530,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "tech",
   "car",
   "sport",
   "beauty",
   "home",
-  "car"
+  "car",
+  "tech"
  ],
  "recent_titles": [
-  "NeeDoh-style Nice Cube Sensory Nice-Sicle Stress Relief Squishy Cube Anti-Anxiety Squeeze Object For Focus ADHD Population",
   "TIMEMORE Basic 3 Black Mirror Pour Over Coffee Scale Espresso Scale,Flow Rate, Auto Timer,Ratio, 3 Brewing Modes, 2kg Capacity",
   "nodpod Patented Gentle Pressure Sleep Mask, Weighted Eye Mask",
   "8BitDo Ultimate 2 Wireless Gaming Controller for PC & Android with TMR Joysticks, Switchable Triggers, Motion Control, 8Speed",
@@ -1549,7 +1550,8 @@
   "Owala FreeSip Stainless Steel Water Bottle 24 oz Daybreak",
   "LAURA GELLER Baked Balance-n-Brighten Powder Foundation \u2013 Light",
   "Acrylic Organizer for Collectible Figure and Blind Box Toy Large-Capacity High Definition Transparent Miniature Display Shelves",
-  "CENRR 998000PA Car Vacuum Cleaner Powerful Portable HandHeld Vacuum Cleaner For Car Wireless Cleaner Robot Car Accessories"
+  "CENRR 998000PA Car Vacuum Cleaner Powerful Portable HandHeld Vacuum Cleaner For Car Wireless Cleaner Robot Car Accessories",
+  "FIFINE RGB Gaming Headset with 7.1 Surround Sound/3-EQ/MIC,Over-ear Headphone with In-line Control for PC PS4 PS5 Ampligame-H6W"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
