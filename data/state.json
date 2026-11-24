@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 41
+  "2026-11-24": 42
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -116,6 +116,7 @@
   "B0HPTHLY7T": "2026-11-23T14:05:33.168602+00:00",
   "B0HQ6YZJJ8": "2026-11-17T17:01:01.958967+00:00",
   "B0HQJLZWFC": "2026-11-17T09:01:31.220132+00:00",
+  "B0HR7NZD7Z": "2026-11-24T20:01:43.155022+00:00",
   "B0HR99K3MK": "2026-11-17T08:01:21.527621+00:00",
   "B0HRDR92BX": "2026-11-19T05:30:57.619742+00:00",
   "B0HRKBC8T1": "2026-11-24T17:49:35.767002+00:00",
@@ -221,6 +222,7 @@
   "for iphone pro max": "2026-11-15T17:09:36.727958+00:00",
   "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
   "friends princess luxury ice": "2026-11-18T05:01:00.254571+00:00",
+  "frost buddy universal can": "2026-11-24T20:01:43.155026+00:00",
   "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
   "fun boomerang for": "2026-11-24T10:01:08.455492+00:00",
   "g free yoga pants": "2026-11-22T16:31:06.510441+00:00",
@@ -682,7 +684,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T17:49:31.440888+00:00",
- "last_post_at": "2026-11-24T17:49:35.766432+00:00",
+ "last_post_at": "2026-11-24T20:01:43.154867+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1358,6 +1360,7 @@
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B087GMJXMC": "2026-11-22T05:04:10.307317+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
+  "B08C7YS3YW": "2026-11-24T20:01:43.111320+00:00",
   "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
   "B08HN2V7GY": "2026-11-24T10:01:08.434484+00:00",
   "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
@@ -1653,31 +1656,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/jewelry set women",
   "aliexpress/squishy blind box",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
-  "wireless"
+  "wireless",
+  "kitchen/510136"
  ],
  "recent_groups": [
-  "beauty",
   "fashion",
   "sporting-goods",
   "beauty",
   "fashion",
-  "wireless"
+  "wireless",
+  "kitchen"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "pets",
   "kitchen",
   "fashion",
   "kids",
   "sport",
-  "tech"
+  "tech",
+  "kitchen"
  ],
  "recent_titles": [
-  "SOLOKING GKA300 Baitcasting Reel Sea Fishing Power Handle 9.5KG Drag Force 6.4 Gear Ratio Brass Gear Deep Spool Fishing Reel",
   "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g",
   "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak",
   "Skechers Men's Summits High Range Slip-in",
@@ -1688,7 +1690,8 @@
   "51 Pcs/Set Silver Color Chic Jewelry Set For Women Fashion Butterfly Heart Pearl Necklaces, Earrings, Rings, Match Daily Outfits",
   "Taba Squishy Yogurt Cake Bread Squeeze Toy Soft Stress Relief Slow Rising Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "GPS Bike Computer IGPSPORT BSC100S Cycle Wireless Speedometer Bicycle Digital Stopwatch Cycling Odometer Cycling Computer",
-  "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black"
+  "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black",
+  "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1716,6 +1719,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136213
 }
