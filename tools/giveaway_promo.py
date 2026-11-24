@@ -36,6 +36,9 @@ if sys.argv[1] == "preview":
          reply_markup=join_btn, disable_web_page_preview="true")
     call("sendMessage", chat_id=owner, parse_mode="HTML", text="👀 PREVIEW 3/3: new broadcast post\n\n" + bc,
          reply_markup=bc_btn, disable_web_page_preview="true")
+elif sys.argv[1] == "reminder":
+    call("sendMessage", chat_id=CHAT, parse_mode="HTML", text=(BASE / "reminder.txt").read_text(), reply_markup=bc_btn,
+         disable_web_page_preview="true")
 elif sys.argv[1] == "publish":
     call("editMessageText", chat_id=CHAT, message_id=RULES_ID, text=rules)
     call("editMessageText", chat_id=CHAT, message_id=PINNED_ID, parse_mode="HTML", text=post,

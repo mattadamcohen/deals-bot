@@ -1537,6 +1537,10 @@ def post_due(state):
     """Spread ~posts_per_day posts evenly across the posting window. The trigger fires every 15 minutes."""
     if arg("category") or arg("force") or DRY_RUN or OWNER_TEST:
         return True
+    pause = CONFIG.get("pause_until")
+    if pause and datetime.fromisoformat(pause) > now():
+        log(f"Posting paused until {pause} (config pause_until)")
+        return False
     local = israel_now()
     start, end = CONFIG.get("post_window", [7, 23])
     if not (start <= local.hour < end):
