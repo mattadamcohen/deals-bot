@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 31
+  "2026-11-24": 32
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -196,6 +196,7 @@
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
   "diy automatic doll machine": "2026-11-22T07:15:50.624225+00:00",
+  "dotwise psi portable outdoor": "2026-11-24T15:01:21.189409+00:00",
   "duracell coppertop aa batteries": "2026-11-19T14:00:59.709488+00:00",
   "e intelligent campsite main": "2026-11-19T10:31:04.276724+00:00",
   "ea sports college football": "2026-11-19T07:34:38.275836+00:00",
@@ -671,7 +672,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T14:45:49.614708+00:00",
+ "last_post_at": "2026-11-24T15:01:21.189211+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1520,6 +1521,7 @@
   "ali-1005009449232221": "2026-11-24T10:46:00.140499+00:00",
   "ali-1005009463011323": "2026-11-20T17:01:02.325132+00:00",
   "ali-1005009494354327": "2026-11-23T10:45:57.335195+00:00",
+  "ali-1005009508758842": "2026-11-24T15:01:21.128021+00:00",
   "ali-1005009522437194": "2026-11-17T15:31:26.822197+00:00",
   "ali-1005009648930864": "2026-11-19T10:00:55.607269+00:00",
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
@@ -1622,10 +1624,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/outdoor string lights",
   "sporting-goods",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "beauty"
+  "beauty",
+  "aliexpress/inflatable camping tent"
  ],
  "recent_groups": [
   "fashion",
@@ -1636,17 +1638,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "home",
   "beauty",
   "kids",
   "fashion",
   "home",
   "sport",
   "other",
-  "beauty"
+  "beauty",
+  "sport"
  ],
  "recent_titles": [
-  "25 in 1 Precision Screwdriver Set with Aluminium Alloy Handle Highly Hardened Metal Bits Swivelling Design Disassembly Kit",
   "3.2Inch Video Baby Monitor With Pan Tilt Security Camera Night Vision VOX Two Way Talk Temperature Monitoring Lullaby Babysitter",
   "Springrain Men's Wool Blend Pea Coat Single Breasted Overcoat",
   "Push Up Board, Portable PushUp Board, Foldable 20 in 1 Push Up Bar",
@@ -1657,7 +1658,8 @@
   "2.1M 400LEDs Christmas Lights Holiday String Lights with Star Shape, Smart LED Xmas Tree for Indoor Outdoor Decor",
   "OLIGHT IMINI 2 Rechargeable EDC Keychain Mini Flashlight Black",
   "SOLOKING GKA300 Baitcasting Reel Sea Fishing Power Handle 9.5KG Drag Force 6.4 Gear Ratio Brass Gear Deep Spool Fishing Reel",
-  "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g"
+  "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g",
+  "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1685,6 +1687,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136213
 }
