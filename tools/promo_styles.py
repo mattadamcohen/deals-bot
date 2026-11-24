@@ -34,15 +34,15 @@ def T(d, xy, txt, font, fill, anchor="mm", **kw):
     d.text(xy, txt, font=font, fill=fill, anchor=anchor, direction="rtl" if rtl else None, **kw)
 
 
-def glow_text(im, xy, txt, font, color, core=(255, 255, 255), blur=(30,), anchor="mm"):
+def glow_text(im, xy, txt, font, color, core=(255, 255, 255), anchor="mm", **_):
     lay = Image.new("RGBA", im.size, (0, 0, 0, 0))
-    d = ImageDraw.Draw(lay)
-    T(d, xy, txt, font, color + (200,), anchor, stroke_width=4, stroke_fill=color + (200,))
-    for r in blur:
-        im.alpha_composite(lay.filter(ImageFilter.GaussianBlur(r)))
-    d2 = ImageDraw.Draw(im)
-    T(d2, xy, txt, font, color, anchor, stroke_width=7, stroke_fill=color)
-    T(d2, xy, txt, font, core, anchor)
+    T(ImageDraw.Draw(lay), xy, txt, font, color + (110,), anchor, stroke_width=14, stroke_fill=color + (110,))
+    im.alpha_composite(lay.filter(ImageFilter.GaussianBlur(40)))
+    d = ImageDraw.Draw(im)
+    x, y = xy
+    T(d, (x + 8, y + 10), txt, font, (0, 0, 0), anchor, stroke_width=10, stroke_fill=(0, 0, 0))
+    T(d, xy, txt, font, color, anchor, stroke_width=10, stroke_fill=color)
+    T(d, xy, txt, font, core, anchor)
 
 
 def glow_line(im, p1, p2, color, w=10):
@@ -132,13 +132,13 @@ def neon(tag="אירוע הדילים הכי גדול של השנה!", l1="BLACK
     g = ImageDraw.Draw(im)
     for y in range(H):
         t = y / H
-        g.line([(0, y), (W, y)], fill=(int(18 + 30 * t), int(8 + 4 * t), int(40 + 30 * (1 - t)), 255))
+        g.line([(0, y), (W, y)], fill=(int(28 - 18 * t), int(14 + 6 * t), int(150 - 90 * t), 255))
     # vignette spot
     spot = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(spot).ellipse([-200, 380, W + 200, 1500], fill=(70, 20, 140, 120))
+    ImageDraw.Draw(spot).ellipse([-200, 380, W + 200, 1500], fill=(60, 90, 255, 110))
     im.alpha_composite(spot.filter(ImageFilter.GaussianBlur(160)))
     random.seed(4)
-    PINK, CYAN, LIME, YEL = (255, 60, 200), (40, 220, 255), (90, 255, 120), (255, 225, 60)
+    PINK, CYAN, LIME, YEL = (255, 96, 32), (198, 255, 0), (0, 240, 200), (255, 255, 255)
     for (x, y, ang, L, c) in [(40, 120, -25, 150, CYAN), (900, 90, 20, 140, PINK), (30, 760, 20, 120, PINK),
                               (960, 700, -25, 110, CYAN), (20, 1560, -30, 140, CYAN), (930, 1600, 30, 130, PINK),
                               (880, 1180, -20, 90, LIME), (60, 1150, 15, 90, YEL)]:
@@ -148,7 +148,7 @@ def neon(tag="אירוע הדילים הכי גדול של השנה!", l1="BLACK
     pill(im, W / 2, 175, tag, heb(800, 46), (20, 10, 40), (255, 255, 255), rot=4)
     glow_text(im, (W / 2, 360), l1, anton(big), PINK)
     glow_text(im, (W / 2, 590), l2, anton(big), CYAN)
-    glow_text(im, (W / 2, 770), sub, heb(900, 92 if len(sub) < 16 else 68), YEL, core=(255, 250, 220))
+    glow_text(im, (W / 2, 770), sub, heb(900, 92 if len(sub) < 16 else 68), (198, 255, 0), core=(198, 255, 0))
     # three product cards with neon frames
     cw, chh = 300, 360
     xs = [W / 2 - cw - 40, W / 2, W / 2 + cw + 40]
@@ -160,7 +160,7 @@ def neon(tag="אירוע הדילים הכי גדול של השנה!", l1="BLACK
         im.alpha_composite(fr.filter(ImageFilter.GaussianBlur(16)), (int(cx - cw / 2 - 40), top - 40))
         im.alpha_composite(c, (int(cx - cw / 2), top))
         ImageDraw.Draw(im).rounded_rectangle([cx - cw / 2, top, cx + cw / 2, top + chh], radius=34, outline=col, width=5)
-        pill(im, cx, top + chh + 10, ils(P[k][2]), heb(900, 58), (255, 255, 255), (230, 30, 150), padx=30, outline=(255, 255, 255))
+        pill(im, cx, top + chh + 10, ils(P[k][2]), heb(900, 58), (15, 15, 30), (198, 255, 0), padx=30, outline=(15, 15, 30))
         T(ImageDraw.Draw(im), (cx, top + chh + 90), P[k][1], heb(800, 38), (255, 255, 255))
     # neon CTA box
     bx = (70, 1500, W - 70, 1680)
@@ -168,10 +168,10 @@ def neon(tag="אירוע הדילים הכי גדול של השנה!", l1="BLACK
     ImageDraw.Draw(fr).rounded_rectangle(bx, radius=90, outline=LIME + (255,), width=18)
     im.alpha_composite(fr.filter(ImageFilter.GaussianBlur(18)))
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle(bx, radius=90, fill=(10, 6, 20), outline=LIME, width=7)
+    d.rounded_rectangle(bx, radius=90, fill=(12, 10, 40), outline=LIME, width=7)
     T(d, (W / 2, 1560), cta1, heb(900, 60), (255, 255, 255))
-    T(d, (W / 2, 1632), cta2, heb(700, 38), (200, 255, 210))
-    pill(im, W / 2, 1790, "@ilamazondeals  ·  israelideals.com", heb(800, 44), (20, 10, 40), YEL, padx=44)
+    T(d, (W / 2, 1632), cta2, heb(700, 38), (180, 255, 240))
+    pill(im, W / 2, 1790, "@ilamazondeals  ·  israelideals.com", heb(800, 44), (255, 255, 255), (255, 96, 32), padx=44)
     return im
 
 
@@ -224,18 +224,18 @@ def brush(w, h, color, seed=1, jag=26):
 
 
 def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילים", w1="דילים מתחת ל-", w2="₪35",
-           w3="על מאות מוצרים", keys=("dumpling", "screw", "cubes"), w2size=230, l2color=(235, 25, 35)):
+           w3="על מאות מוצרים", keys=("dumpling", "screw", "cubes"), w2size=230, l2color=(255, 46, 126)):
     im = Image.new("RGBA", (W, H))
     g = ImageDraw.Draw(im)
     for y in range(H):
         t = y / H
-        g.line([(0, y), (W, y)], fill=(int(110 + 120 * t), int(190 - 20 * t), int(250 - 120 * t), 255))
+        g.line([(0, y), (W, y)], fill=(255, int(214 - 40 * t), int(10 + 30 * t), 255))
     # confetti
     random.seed(7)
     for _ in range(40):
         x, y = random.randint(0, W), random.randint(0, H)
         c = Image.new("RGBA", (40, 22), (0, 0, 0, 0))
-        ImageDraw.Draw(c).rectangle([0, 0, 39, 21], fill=random.choice([(230, 20, 30), (255, 255, 255), (20, 20, 20)]) + (255,))
+        ImageDraw.Draw(c).rectangle([0, 0, 39, 21], fill=random.choice([(255, 46, 126), (45, 91, 255), (20, 20, 20), (255, 255, 255)]) + (255,))
         c = c.rotate(random.randint(0, 180), expand=True)
         im.alpha_composite(c, (x, y))
     # wooden poles
@@ -253,7 +253,7 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
     b.alpha_composite(lay)
     shadow_paste(im, b.rotate(-2, expand=True, resample=Image.BICUBIC), (60, 120), alpha=140)
     # red strip
-    r = brush(980, 190, (220, 25, 35), 3, jag=18)
+    r = brush(980, 190, (45, 91, 255), 3, jag=18)
     rd = ImageDraw.Draw(r)
     inner = brush(820, 120, (15, 15, 15), 5, jag=12)
     r.alpha_composite(inner, (80, 35))
@@ -264,7 +264,7 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
     wd = ImageDraw.Draw(wb)
     wd.rectangle([0, 0, 919, 419], fill=(250, 250, 248))
     T(wd, (460, 90), w1, heb(900, 96 if len(w1) < 15 else 62), (15, 15, 15))
-    T(wd, (460, 250), w2, heb(900, w2size), (225, 20, 30))
+    T(wd, (460, 250), w2, heb(900, w2size), (255, 46, 126))
     sub = brush(640, 90, (15, 15, 15), 9, jag=12)
     T(ImageDraw.Draw(sub), (320, 45), w3, heb(900, 52), (255, 255, 255))
     wb.alpha_composite(sub, (140, 320))
@@ -276,13 +276,13 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
         c = card(img(k), cw, chh, radius=30, pad=10, fit="contain")
         c = c.rotate([-4, 0, 4][i], expand=True, resample=Image.BICUBIC)
         shadow_paste(im, c, (x, y), alpha=150)
-        pill(im, x + c.width / 2, y + c.height - 6, ils(P[k][2]), heb(900, 58), (255, 255, 255), (225, 20, 30), padx=28,
+        pill(im, x + c.width / 2, y + c.height - 6, ils(P[k][2]), heb(900, 58), (255, 255, 255), (255, 46, 126), padx=28,
              outline=(255, 255, 255))
     # CTA
     bar = brush(1000, 170, (15, 15, 15), 11, jag=16)
     bdd = ImageDraw.Draw(bar)
     T(bdd, (500, 60), "הצטרפו לערוץ בטלגרם", heb(900, 60), (255, 255, 255))
-    T(bdd, (500, 125), "@ilamazondeals  ·  israelideals.com", heb(800, 40), (255, 210, 80))
+    T(bdd, (500, 125), "@ilamazondeals  ·  israelideals.com", heb(800, 40), (255, 214, 10))
     shadow_paste(im, bar, (40, 1700), alpha=140)
     return im
 
@@ -292,9 +292,9 @@ def main():
     gadgets = lambda: neon(tag="הגאדג'טים הכי שווים של השבוע", l1="COOL", l2="GADGETS", big=230,
                            sub="שלא ידעתם שאתם צריכים", keys=("olight", "controller", "keyboard"),
                            cta1="גאדג'טים, אופנה ומותגים", cta2="דילים חדשים כל יום · אמזון ואליאקספרס")
-    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="PUMA · Skechers · LANEIGE",
+    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="PUMA · LANEIGE · Owala",
                             w2="החל מ-62 ש״ח", w2size=130, w3="נעליים · אופנה · ביוטי",
-                            keys=("puma", "skechers", "laneige"))
+                            keys=("puma", "laneige", "owala"))
     for name, fn in [("bf_neon", neon), ("bf_collage", collage), ("bf_banner", banner),
                      ("neon_gadgets", gadgets), ("banner_brands", brands)]:
         p = OUT / f"{name}.png"
