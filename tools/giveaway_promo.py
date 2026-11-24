@@ -39,6 +39,14 @@ if sys.argv[1] == "preview":
 elif sys.argv[1] == "reminder":
     call("sendMessage", chat_id=CHAT, parse_mode="HTML", text=(BASE / "reminder.txt").read_text(), reply_markup=bc_btn,
          disable_web_page_preview="true")
+elif sys.argv[1] == "reminder_photo":
+    # replace the text reminder (message id in argv[2]) with the image version
+    if len(sys.argv) > 2:
+        call("deleteMessage", chat_id=CHAT, message_id=sys.argv[2])
+    with open(BASE / "reminder.png", "rb") as f:
+        r = requests.post(f"{API}/sendPhoto", data=dict(chat_id=CHAT, caption=(BASE / "reminder.txt").read_text(),
+                          parse_mode="HTML", reply_markup=bc_btn), files={"photo": f}, timeout=60).json()
+    print("sendPhoto", r.get("ok"), r.get("description", ""), r.get("result", {}).get("message_id"))
 elif sys.argv[1] == "publish":
     call("editMessageText", chat_id=CHAT, message_id=RULES_ID, text=rules)
     call("editMessageText", chat_id=CHAT, message_id=PINNED_ID, parse_mode="HTML", text=post,

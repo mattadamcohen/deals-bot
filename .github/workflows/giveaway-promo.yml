@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       action: { description: "preview (to Matt) or publish (channel)", required: true, default: "preview" }
+      arg: { description: "extra argument (e.g. message id to replace)", required: false, default: "" }
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -12,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests
-      - run: python tools/giveaway_promo.py ${{ inputs.action }}
+      - run: python tools/giveaway_promo.py ${{ inputs.action }} ${{ inputs.arg }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
