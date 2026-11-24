@@ -90,7 +90,7 @@ def title(p):
 
 def brand_of(p):
     # the maker's name comes first in the title; later mentions are usually "for iPhone/Xiaomi..." compatibility
-    head = " ".join(re.split(r"\b(?:for|compatible|fits|with)\b", title(p), 1, flags=re.I)[0].split()[:4])
+    head = " ".join(re.split(r"\b(?:for|compatible|fits|with)\b", title(p), maxsplit=1, flags=re.I)[0].split()[:4])
     m = re.search(rf"\b(?:{BRANDS})\b", head, re.I)
     if not m:
         return None
@@ -335,6 +335,8 @@ def main():
     n = st.get("count", 0)
     hist = st.get("history", [])
     pal_i = (st.get("last_palette", -1) + 1) % len(PALETTES)
+    if "--palette" in sys.argv:
+        pal_i = [p["name"] for p in PALETTES].index(sys.argv[sys.argv.index("--palette") + 1])
     pal = PALETTES[pal_i]
     import ig_post
 
@@ -370,7 +372,13 @@ def main():
     if "--theme" in sys.argv:
         theme = sys.argv[sys.argv.index("--theme") + 1]
     used = set(st.get("used", []))
-    items = pick(theme, used)
+    if "--ids" in sys.argv:
+        by = {p["id"]: p for p in json.loads((REPO / "data" / "site_deals.json").read_text())}
+        items = [by[i] for i in sys.argv[sys.argv.index("--ids") + 1].split(",") if i in by and fetch_img(by[i])]
+    else:
+        items = pick(theme, used)
+    if "--w3" in sys.argv:
+        THEMES[theme]["w3"] = sys.argv[sys.argv.index("--w3") + 1].replace("_", " ")
     if len(items) < 3:
         print("not enough items for", theme, "- falling back to blackfriday/any")
         theme = "brands" if theme != "brands" else "gadgets"

@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       theme: { description: "optional theme (brands, gadgets, under35, home, kids, beauty, blackfriday)", required: false, default: "" }
+      args: { description: "extra args e.g. --ids a,b,c --palette pink-orange --w3 text_with_underscores", required: false, default: "" }
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -13,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
-      - run: python tools/ig_promo.py --now ${{ inputs.theme && format('--theme {0}', inputs.theme) || '' }}
+      - run: python tools/ig_promo.py --now ${{ inputs.theme && format('--theme {0}', inputs.theme) || '' }} ${{ inputs.args }}
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
