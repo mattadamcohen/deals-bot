@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 15
+  "2026-11-24": 16
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -16,6 +16,7 @@
   "B09QT4DRMB": "2026-11-17T05:04:11.018855+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
   "B0B9WN3PFY": "2026-11-24T09:19:41.368315+00:00",
+  "B0BGT8RYVC": "2026-11-24T10:01:08.455485+00:00",
   "B0BLXPNPQV": "2026-11-23T07:46:01.761914+00:00",
   "B0BVLDFF2S": "2026-11-16T11:31:03.848175+00:00",
   "B0C65V5FGJ": "2026-11-22T06:08:59.423262+00:00",
@@ -210,6 +211,7 @@
   "fossil minimalist quartz stainless": "2026-11-16T18:16:27.065909+00:00",
   "friends princess luxury ice": "2026-11-18T05:01:00.254571+00:00",
   "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
+  "fun boomerang for": "2026-11-24T10:01:08.455492+00:00",
   "g free yoga pants": "2026-11-22T16:31:06.510441+00:00",
   "gamesir nova lite wireless": "2026-11-18T11:31:07.230391+00:00",
   "gamesir x s mobile": "2026-11-17T12:30:56.593447+00:00",
@@ -639,7 +641,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T09:19:36.647986+00:00",
- "last_post_at": "2026-11-24T09:45:55.521234+00:00",
+ "last_post_at": "2026-11-24T10:01:08.455282+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1290,6 +1292,7 @@
   "B087GMJXMC": "2026-11-22T05:04:10.307317+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
   "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
+  "B08HN2V7GY": "2026-11-24T10:01:08.434484+00:00",
   "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
   "B08XTWF6DH": "2026-11-21T10:30:52.729303+00:00",
   "B0971NTY4Q": "2026-11-23T07:15:54.050627+00:00",
@@ -1560,31 +1563,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/electric toothbrush",
   "aliexpress/gift for women",
   "fashion/1045830",
-  "aliexpress/switch controller"
+  "aliexpress/switch controller",
+  "sporting-goods"
  ],
  "recent_groups": [
-  "fashion",
   "home-garden",
   "hpc",
   "sporting-goods",
   "beauty",
-  "fashion"
+  "fashion",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "tech",
   "other",
   "kids",
   "tech",
   "other",
   "home",
   "fashion",
-  "tech"
+  "tech",
+  "sport"
  ],
  "recent_titles": [
-  "CENRR 998000PA Car Vacuum Cleaner Powerful Portable HandHeld Vacuum Cleaner For Car Wireless Cleaner Robot Car Accessories",
   "FIFINE RGB Gaming Headset with 7.1 Surround Sound/3-EQ/MIC,Over-ear Headphone with In-line Control for PC PS4 PS5 Ampligame-H6W",
   "Coca-cola zero sugar, pack of 24*330 ml-cocacola original 48*33cl -cocacola zero 48*33cl",
   "OYIFAN Men Belt Genuine Leather Belt for men Automatic belts Adjustable waistband Business belts \ud5c8\ub9ac\ub760",
@@ -1595,7 +1597,8 @@
   "Electric Toothbrush Mental Thin Brush Body Specially for Women Pure Wisdom Beauty Soft DuPont Bristle",
   "Circle Chain Picture Customiz Photo Necklace Men Women Personalized Jewelry Customized Any Picture Pendant Mothers or Lover Gift",
   "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies",
-  "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control"
+  "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control",
+  "Fun Boomerang for Kids - Stocking Stuffers for Boys and Girls - Soft & Easy Use - Best Gifts for 6 7 8 9 10 11 12 13 Year Old Boy Gifts - 2026 Top Toys for Boys Age 8-12 + Teens Outdoor Boy Gift Ideas"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1623,6 +1626,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136212
 }
