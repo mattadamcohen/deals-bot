@@ -1,6 +1,6 @@
 {
- "count": 1,
- "last_palette": 1,
+ "count": 2,
+ "last_palette": 2,
  "last_theme": "brands",
  "history": [
   {
@@ -13,11 +13,29 @@
    ],
    "image": "promo-202611241616",
    "media": "17913910695580681"
+  },
+  {
+   "at": "2026-11-24T18:01:33.928196+00:00",
+   "theme": "brands",
+   "ids": [
+    "B01H1V7WQU",
+    "ali-1005010724501614",
+    "ali-1005009157516970"
+   ],
+   "image": "promo-202611241800",
+   "media": "18109863347341268"
   }
  ],
  "used": [
-  "B0971NTY4Q",
   "ali-1005007668695524",
-  "B0FFTLNC5S"
+  "B0971NTY4Q",
+  "B0FFTLNC5S",
+  "B01H1V7WQU",
+  "ali-1005010724501614",
+  "ali-1005009157516970"
+ ],
+ "rotation": 1,
+ "slots_done": [
+  "2026-11-24-20"
  ]
 }
