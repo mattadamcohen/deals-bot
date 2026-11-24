@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FH655984",
-  "title": "SUPFINE Magnetic for iPhone 18 Pro Max Case/17 Pro Max Case Black",
-  "title_he": "SUPFINE Magnetic לאייפון 18 Pro Max Case/17 Pro Max Case שחור",
-  "price": "$5.30",
-  "was": "$9.99",
-  "discount": "47%",
-  "rating": "4.5",
-  "reviews": "88,747",
-  "rank": 3,
-  "source": "bestsellers",
-  "message_id": 730,
-  "image": "https://m.media-amazon.com/images/I/71Vo32MVCWL._AC_SL1500_.jpg",
-  "variant": 2,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   730,
-   731,
-   732
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/82825c01-98b3-46a1-9674-69d198cd8a00.mp4/productVideoOptimized.mp4",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-23T09:34:52.105070+00:00"
- },
- {
   "asin": "ali-1005009984118747",
   "title": "Lubluelu V8 800W Hot Water Carpet Cleaner 60°C Deep Clean Pet Stains 15kPa Strong Suction 5M Long Power Cord 1.75L Tank",
   "title_he": "Lubluelu V8 800W מנקה שטיחים מים חמים 60°C ניקוי עמוק כתמי חיות מחמד 15kPa יניקה חזקה 5M כבל חשמל ארוך 1.75L מיכל",
@@ -1158,5 +1129,34 @@
   "category_en": "Men's Jackets & Coats",
   "category_he": "מעילים לגברים",
   "posted_at": "2026-11-24T09:19:41.366241+00:00"
+ },
+ {
+  "asin": "ali-1005007540124409",
+  "title": "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control",
+  "title_he": "LoraTap Tuya Smart Life WiFi וילונות תריסים מתג תריסי גלילה מנוע מתג תאורה אחורית בסגנון Google Home Alexa Voice Control",
+  "price": "$12.89",
+  "was": "$28.01",
+  "discount": "53%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 853,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S091bd73362924415a5405d2745f1621bA.jpg",
+  "variant": 415,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4msqK57GJVJmcAeuN67JUPNfQhIV8ozOpIkggBxkQMWlp1upC6L1NQqbxTjL1EGzyFanDIZwCHcSszkitneyFzRpqCGxfMiaso03QsfXR6ttrB40nVH0E8bNcJTG3LOdHh34LZA8D3dAsz6AQ66jIObEqfr6psIZW4M3YOw29JU1ObCaWxysiPuOs02BzqVm9h2D2PW7TWEM7psVRIV7txLWkFI8wCOEVzQl4Eg5tq3OLfT00ljWQ88Muspe3mUHzN9W5iTLk17o1z6yD3Gpltbsje29R08CzHNuyEDqZsDhlaCcZDyiJ9oMOXodqgMSKbwq1GftFr062QzqF12yx0CUgvMROlOKBJuTaN1Ozm1maasAeUr2IU9xOFQKSX1jw1X07HYlLUMJRJDqW8oYQkeHQHeqWXEFaWQif102LT50ITkvexKioFPGaamCB4gYHTTjcOTRRc3jaImlUqvoZPt9qg9uNBJOqNQixrgfewzQYOSlqSpfxt3GPHTmKaOQyRG7fDjmy2CSfeWBQIZWVbfnTSYBckq8nKx3cHMEhsWwzDHbBrMKXmsWZ3oq7jmuK5uyRRyPrurrRxtWjBMUdEzHneMNAscDK1DGrc96wkruBByIpNTlnu0MNZh4tkRZfipY5XgPRNZ25iSiu6CpQBrAxUZttxHSNeoWs4gpD1RgKhpJOIKe30Q4MZCYae9ymFdZPYSWsUNRAo",
+  "sold": "3,000",
+  "album_ids": [
+   853,
+   854,
+   855
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/switch controller",
+  "category_en": "Gaming",
+  "category_he": "גיימינג",
+  "posted_at": "2026-11-24T09:45:55.519543+00:00"
  }
 ]

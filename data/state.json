@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 14
+  "2026-11-24": 15
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -262,6 +262,7 @@
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
+  "loratap tuya smart life": "2026-11-24T09:45:55.521379+00:00",
   "low-power wifi video doorbell": "2026-11-21T05:31:25.483514+00:00",
   "lubluelu v w hot": "2026-11-23T10:01:23.251585+00:00",
   "luxe color changing foundation": "2026-11-18T15:30:53.597951+00:00",
@@ -638,7 +639,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T09:19:36.647986+00:00",
- "last_post_at": "2026-11-24T09:19:41.367933+00:00",
+ "last_post_at": "2026-11-24T09:45:55.521234+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1424,6 +1425,7 @@
   "ali-1005007476830338": "2026-11-24T08:30:48.570633+00:00",
   "ali-1005007481796012": "2026-11-21T08:30:46.204977+00:00",
   "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
+  "ali-1005007540124409": "2026-11-24T09:45:55.479241+00:00",
   "ali-1005007605939585": "2026-11-22T08:45:48.430699+00:00",
   "ali-1005007628433434": "2026-11-23T19:30:56.080876+00:00",
   "ali-1005007650509472": "2026-11-24T07:00:57.011408+00:00",
@@ -1558,10 +1560,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/ps5 accessories",
   "aliexpress/electric toothbrush",
   "aliexpress/gift for women",
-  "fashion/1045830"
+  "fashion/1045830",
+  "aliexpress/switch controller"
  ],
  "recent_groups": [
   "fashion",
@@ -1572,17 +1574,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "other",
   "kids",
   "tech",
   "other",
   "home",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Acrylic Organizer for Collectible Figure and Blind Box Toy Large-Capacity High Definition Transparent Miniature Display Shelves",
   "CENRR 998000PA Car Vacuum Cleaner Powerful Portable HandHeld Vacuum Cleaner For Car Wireless Cleaner Robot Car Accessories",
   "FIFINE RGB Gaming Headset with 7.1 Surround Sound/3-EQ/MIC,Over-ear Headphone with In-line Control for PC PS4 PS5 Ampligame-H6W",
   "Coca-cola zero sugar, pack of 24*330 ml-cocacola original 48*33cl -cocacola zero 48*33cl",
@@ -1593,7 +1594,8 @@
   "Controller Gaming Accessories For Playstation 5 4 3 2 PS5 PS4 PS3 Dualsense Dualshock Switch Pro Xbox Control Stand Support Game",
   "Electric Toothbrush Mental Thin Brush Body Specially for Women Pure Wisdom Beauty Soft DuPont Bristle",
   "Circle Chain Picture Customiz Photo Necklace Men Women Personalized Jewelry Customized Any Picture Pendant Mothers or Lover Gift",
-  "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies"
+  "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies",
+  "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1621,6 +1623,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136212
 }
