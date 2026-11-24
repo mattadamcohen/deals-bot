@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-23": 43
+  "2026-11-24": 1
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -58,6 +58,7 @@
   "B0FHSQT1QS": "2026-11-22T08:15:43.912262+00:00",
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
   "B0FLKGV6K2": "2026-11-16T09:31:23.900311+00:00",
+  "B0FLKGX4B7": "2026-11-24T05:04:23.595311+00:00",
   "B0FPMN9D69": "2026-11-20T13:01:28.306048+00:00",
   "B0FR7RVK1T": "2026-11-22T15:46:33.323604+00:00",
   "B0FY3SNNXH": "2026-11-23T07:15:54.072633+00:00",
@@ -300,7 +301,7 @@
   "original roborock s maxv": "2026-11-17T18:30:57.115494+00:00",
   "outdoor led solar fairy": "2026-11-21T07:30:51.988022+00:00",
   "outdoor solar lights bubble": "2026-11-20T12:31:27.470074+00:00",
-  "owala freesip stainless steel": "2026-11-15T12:07:07.430962+00:00",
+  "owala freesip stainless steel": "2026-11-24T05:04:23.595319+00:00",
   "owala freesip sway stainless": "2026-11-16T09:31:23.900315+00:00",
   "owala smoothsip slider insulated": "2026-11-16T07:30:55.317376+00:00",
   "owala tumbler stainless steel": "2026-11-19T13:00:58.397241+00:00",
@@ -606,8 +607,8 @@
   "7959476928"
  ],
  "last_bundle_day": "2026-11-23",
- "last_harvest_at": "2026-11-23T18:04:24.637412+00:00",
- "last_post_at": "2026-11-23T20:01:08.097543+00:00",
+ "last_harvest_at": "2026-11-24T05:04:21.553867+00:00",
+ "last_post_at": "2026-11-24T05:04:23.594729+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -617,7 +618,8 @@
   "B00000IZKX": "2026-11-14T07:05:19.301127+00:00",
   "B00004YO0Y": "2026-11-20T07:33:43.375692+00:00",
   "B00006IFHD": "2026-11-19T06:32:34.702292+00:00",
-  "B0007ZF4OA": "2026-11-19T07:31:46.855469+00:00",
+  "B0007ZF4OA": "2026-11-24T05:02:43.977235+00:00",
+  "B0007ZF4Q8": "2026-11-24T05:03:51.691473+00:00",
   "B0009X29WK": "2026-11-19T12:01:27.252917+00:00",
   "B000E28UQU": "2026-11-21T05:03:23.332921+00:00",
   "B000I0TZO4": "2026-11-19T06:33:53.278397+00:00",
@@ -652,7 +654,7 @@
   "B005OB3E30": "2026-11-18T19:04:23.891081+00:00",
   "B0060OUV5Y": "2026-11-18T05:32:49.777177+00:00",
   "B006HKA6II": "2026-11-19T12:03:30.503051+00:00",
-  "B006QF3TW4": "2026-11-19T07:31:28.704131+00:00",
+  "B006QF3TW4": "2026-11-24T05:03:44.764170+00:00",
   "B006W6YHYQ": "2026-11-19T12:02:59.127956+00:00",
   "B00730QW70": "2026-11-21T05:02:48.387255+00:00",
   "B007GE75HY": "2026-11-22T19:32:07.259245+00:00",
@@ -720,6 +722,7 @@
   "B01LNB6SA0": "2026-11-19T12:01:33.041320+00:00",
   "B01LR5RG08": "2026-11-15T08:01:42.793523+00:00",
   "B01LR5S6HK": "2026-11-19T07:31:39.318891+00:00",
+  "B01LR5SM74": "2026-11-24T05:03:12.510027+00:00",
   "B01LYHE49W": "2026-11-19T06:33:19.061416+00:00",
   "B01LYNW421": "2026-11-15T09:02:03.599949+00:00",
   "B01M0PENYV": "2026-11-18T19:02:17.014846+00:00",
@@ -744,6 +747,7 @@
   "B072FVQNWM": "2026-11-19T06:33:35.299095+00:00",
   "B073H8STZ7": "2026-11-16T05:32:05.395239+00:00",
   "B0748J34WZ": "2026-11-22T05:03:10.203750+00:00",
+  "B074P8MZW9": "2026-11-24T05:04:10.969527+00:00",
   "B07531HM8Q": "2026-11-22T15:18:49.270074+00:00",
   "B07543D21Q": "2026-11-17T10:03:56.989965+00:00",
   "B075JTR46M": "2026-11-22T06:06:07.255111+00:00",
@@ -851,6 +855,7 @@
   "B084TC8D4L": "2026-11-16T05:34:04.383749+00:00",
   "B0852WLH7M": "2026-11-14T19:32:01.853112+00:00",
   "B0869D5PZP": "2026-11-19T07:32:48.167433+00:00",
+  "B0869D64HL": "2026-11-24T05:03:37.712482+00:00",
   "B0869F6JYB": "2026-11-19T07:34:02.041623+00:00",
   "B086PKMZ21": "2026-11-22T06:08:50.205761+00:00",
   "B086YJWKSN": "2026-11-14T07:26:35.708838+00:00",
@@ -862,7 +867,7 @@
   "B089T7PX27": "2026-11-14T07:02:09.518552+00:00",
   "B08BBZKSTS": "2026-11-16T05:33:05.752733+00:00",
   "B08BR9HBZ3": "2026-11-22T10:47:05.032710+00:00",
-  "B08D66HCXW": "2026-11-19T07:31:53.633881+00:00",
+  "B08D66HCXW": "2026-11-24T05:02:49.866426+00:00",
   "B08DTH86Q2": "2026-11-15T09:02:19.238144+00:00",
   "B08DXN4RR4": "2026-11-16T19:47:13.404477+00:00",
   "B08F9ZWMKD": "2026-11-14T07:07:39.663032+00:00",
@@ -896,7 +901,7 @@
   "B08Z7467XC": "2026-11-16T05:34:30.158521+00:00",
   "B08ZJQ1XD4": "2026-11-22T05:03:42.381068+00:00",
   "B08ZK2BHP2": "2026-11-15T17:03:05.768945+00:00",
-  "B091MMRXCK": "2026-11-19T07:33:46.690372+00:00",
+  "B091MMRXCK": "2026-11-24T05:04:04.620318+00:00",
   "B092VC7VK2": "2026-11-23T13:47:24.686677+00:00",
   "B092W7D64G": "2026-11-14T07:07:30.589298+00:00",
   "B09319MZJN": "2026-11-21T14:03:15.094863+00:00",
@@ -1043,7 +1048,7 @@
   "B0D66XHKXR": "2026-11-19T16:33:52.677218+00:00",
   "B0D6WD2QSQ": "2026-11-22T06:01:36.982592+00:00",
   "B0D6YMTMLG": "2026-11-20T16:33:58.371041+00:00",
-  "B0D6ZPNZ4Z": "2026-11-18T05:33:33.799101+00:00",
+  "B0D6ZPNZ4Z": "2026-11-24T05:01:24.983532+00:00",
   "B0D7FVQ1ZB": "2026-11-23T18:01:55.948601+00:00",
   "B0D83B4S38": "2026-11-22T10:48:46.222538+00:00",
   "B0D87PKYYK": "2026-11-14T07:01:09.478382+00:00",
@@ -1166,8 +1171,10 @@
   "B0GFN6W8CG": "2026-11-15T17:04:22.048736+00:00",
   "B0GFQ25QWY": "2026-11-16T10:34:14.085202+00:00",
   "B0GHY4PR3N": "2026-11-23T18:02:04.083863+00:00",
+  "B0GJF9Z9TQ": "2026-11-24T05:04:21.553852+00:00",
   "B0GJTFXNRX": "2026-11-21T14:04:09.390943+00:00",
   "B0GMTNSFR3": "2026-11-23T18:03:00.819435+00:00",
+  "B0GP8SDMNW": "2026-11-24T05:02:27.358937+00:00",
   "B0GRKC9NJP": "2026-11-21T14:04:31.690144+00:00",
   "B0GRSZ5TDC": "2026-11-14T06:59:50.644572+00:00",
   "B0GSS4SGZR": "2026-11-23T18:03:54.946563+00:00",
@@ -1183,7 +1190,7 @@
   "B0H37MKQ64": "2026-11-16T10:33:47.738644+00:00",
   "B0H81WQBHR": "2026-11-21T05:03:34.084024+00:00",
   "B0H829K5TD": "2026-11-23T18:03:20.571875+00:00",
-  "B0H9SYK5Q7": "2026-11-19T07:32:05.708595+00:00",
+  "B0H9SYK5Q7": "2026-11-24T05:02:37.386581+00:00",
   "B0HC429YGR": "2026-11-22T10:46:58.613014+00:00",
   "B0HGGJZ92H": "2026-11-15T17:03:54.472094+00:00",
   "B0HGHB3V16": "2026-11-16T10:33:27.385052+00:00",
@@ -1288,6 +1295,7 @@
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
   "B0FBGR7Z6K": "2026-11-17T11:00:51.987332+00:00",
   "B0FDQ3PWCX": "2026-11-15T20:45:38.125646+00:00",
+  "B0FFTLNC5S": "2026-11-24T05:04:23.574396+00:00",
   "B0FG25KJLY": "2026-11-16T16:01:02.864687+00:00",
   "B0FG7RQXJ9": "2026-11-22T10:49:02.968469+00:00",
   "B0FH655984": "2026-11-23T09:34:52.064238+00:00",
@@ -1492,31 +1500,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/squishy toy",
   "aliexpress/led light room decor",
   "aliexpress/external ssd",
-  "aliexpress/car jump starter"
+  "aliexpress/car jump starter",
+  "sporting-goods"
  ],
  "recent_groups": [
-  "kitchen",
   "toys-and-games",
   "wireless",
   "fashion",
   "home-garden",
-  "hpc"
+  "hpc",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "beauty",
   "tech",
   "kids",
   "home",
   "tech",
-  "car"
+  "car",
+  "sport"
  ],
  "recent_titles": [
-  "Balance Stacking Board Games Buliding Blocks Adults Kids Tower Block Bricks Toys For Boys Girls Puzzle Toy Family Parties Games",
   "IKAPE Carrying Bag, Convenient to Carry for Car & Home Camping Kapo K2 Portable Coffee Machine Bag",
   "LIGE 2026 Smart Watch Women Men Ladies Gift Sport Fitness Men Watches Heart Rate Monitor Waterproof Smartwatch For Android IOS",
   "3 Men's Casual Belt, Men's Business Outdoor Belt, Versatile Suit Pants, Jeans, Casual Pants",
@@ -1527,7 +1534,8 @@
   "Mini Squeeze Stress Relief Dumplings in Boxes, Soft and Transparent TPR Toys, Sensory Squeeze Stress Relief Toys",
   "2 In 1 Ceiling Fan Lamps 3 Speeds Adjustable E27 Base Infinitely Dimmable for Living Room Bedroom Study LED Decorative Light",
   "ORICO-NVMe Enclosure for PCIe SSD Transparent External Adapter M.2 to USB Type C Mini 2230 M.2 SSD Case 10Gbps",
-  "Wireless Peak Car Jump Starter, Portable Emergency Booster & Car Power Supply, All-in-One Backup Power for Vehicle SUV Truck"
+  "Wireless Peak Car Jump Starter, Portable Emergency Booster & Car Power Supply, All-in-One Backup Power for Vehicle SUV Truck",
+  "Owala FreeSip Stainless Steel Water Bottle 24 oz Daybreak"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1555,6 +1563,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136210
 }
