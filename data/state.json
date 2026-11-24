@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 27
+  "2026-11-24": 28
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -274,6 +274,7 @@
   "low-power wifi video doorbell": "2026-11-21T05:31:25.483514+00:00",
   "lubluelu v w hot": "2026-11-23T10:01:23.251585+00:00",
   "luxe color changing foundation": "2026-11-18T15:30:53.597951+00:00",
+  "m leds christmas lights": "2026-11-24T14:01:03.014986+00:00",
   "m m solar string": "2026-11-22T18:15:51.750745+00:00",
   "magcubic projector k android": "2026-11-24T07:45:43.678226+00:00",
   "magic cube children educational": "2026-11-18T16:31:48.162309+00:00",
@@ -665,7 +666,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T13:34:08.659919+00:00",
+ "last_post_at": "2026-11-24T14:01:03.014747+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1597,6 +1598,7 @@
   "ali-1005013212982440": "2026-11-24T08:02:05.199716+00:00",
   "ali-1005013255675231": "2026-11-18T15:01:02.388792+00:00",
   "ali-1005013261781803": "2026-11-21T18:00:54.788125+00:00",
+  "ali-1005013277989107": "2026-11-24T14:01:02.990771+00:00",
   "ali-1005013336234331": "2026-11-21T16:31:10.164992+00:00",
   "ali-1005013336246252": "2026-11-22T06:45:56.685489+00:00",
   "ali-1005013410767445": "2026-11-20T05:01:02.226983+00:00",
@@ -1612,10 +1614,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/tool set home",
   "beauty",
   "aliexpress/building blocks set",
-  "fashion/679312011"
+  "fashion/679312011",
+  "aliexpress/outdoor string lights"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1626,17 +1628,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "fashion",
   "sport",
   "home",
   "beauty",
   "kids",
-  "fashion"
+  "fashion",
+  "home"
  ],
  "recent_titles": [
-  "Fun Boomerang for Kids - Stocking Stuffers for Boys and Girls - Soft & Easy Use - Best Gifts for 6 7 8 9 10 11 12 13 Year Old Boy Gifts - 2026 Top Toys for Boys Age 8-12 + Teens Outdoor Boy Gift Ideas",
   "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40\u00b0C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring",
   "medicube PDRN Pink Peptide Serum with Salmon DNA, Firmer, Even-Looking Skin",
   "6/8Pcs Set Travel Bag Organizer Clothes Luggage Travel Organizer Blanket Shoes Organizers Bag Suitcase Pouch Packing Cubes",
@@ -1647,7 +1648,8 @@
   "Magnetic Screwdriver Set Phillips Flat Head Non\u2011Slip Handle Multi\u2011Size Hand Screwdrivers Kit for Home ApplianceElectronicsRepair",
   "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask",
   "MK6025 NEW Technical Classic Performance RB21 White Sports Car Building Blocks MOC DIY Assembly Model Set Boys Toy Gift",
-  "PUMA Men's Voltaic Evo Cross Trainer Shoes"
+  "PUMA Men's Voltaic Evo Cross Trainer Shoes",
+  "2.1M 400LEDs Christmas Lights Holiday String Lights with Star Shape, Smart LED Xmas Tree for Indoor Outdoor Decor"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1675,6 +1677,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136213
 }
