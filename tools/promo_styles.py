@@ -117,6 +117,8 @@ P = {
     "olight": ("B0C54ZH8WW.jpg", "פנס OLIGHT", 11.99),
     "keyboard": ("ali-1005007345135328.jpg", "מקלדת GMK87", 54.59),
     "medicube": ("B0DBF65JYY.jpg", "medicube", 13.23),
+    "reebok": ("../ad/b_reebok.jpg", "Reebok Club C", 59.98),
+    "g305": ("../ad/b_g305.jpg", "Logitech G305", 29.49),
     "fan": ("ali-1005007628433434.jpg", "מנורה עם מאוורר", 11.36),
 }
 
@@ -245,8 +247,8 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
         im.alpha_composite(c, (x, y))
     # wooden poles
     for px in (70, W - 110):
-        g.rectangle([px, 60, px + 40, 1180], fill=(120, 80, 45))
-        g.rectangle([px + 8, 60, px + 16, 1180], fill=(150, 105, 65))
+        g.rectangle([px, 60, px + 40, 1180], fill=DK)
+        g.rectangle([px + 8, 60, px + 16, 1180], fill=(60, 60, 70))
     # black banner with BLACK FRIDAY
     b = brush(940, 380, DK, 2)
     bd = ImageDraw.Draw(b)
@@ -270,7 +272,7 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
     wd.rectangle([0, 0, 919, 419], fill=(250, 250, 248))
     T(wd, (460, 90), w1, heb(900, 96 if len(w1) < 15 else 62), DK)
     T(wd, (460, 250), w2, heb(900, w2size), HOT)
-    sw = 640 if len(w3) < 18 else 780
+    sw = 640 if len(w3) < 18 else 860
     sub = brush(sw, 90, DK, 9, jag=12)
     T(ImageDraw.Draw(sub), (sw / 2, 45), w3, heb(900, 52), (255, 255, 255))
     wb.alpha_composite(sub, ((920 - sw) // 2, 320))
@@ -298,11 +300,11 @@ def main():
     gadgets = lambda: neon(tag="הגאדג'טים הכי שווים של השבוע", l1="COOL", l2="GADGETS", big=230,
                            sub="שלא ידעתם שאתם צריכים", keys=("olight", "controller", "keyboard"),
                            cta1="גאדג'טים, אופנה ומותגים", cta2="דילים חדשים כל יום · אמזון ואליאקספרס")
-    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="Skechers · medicube · Owala",
-                            w2="החל מ-44 ש״ח", w2size=130, w3="נעליים · ביוטי · לייף סטייל",
-                            keys=("skechers", "medicube", "owala"), l2color=(255, 94, 91),
-                            pal=dict(bg1=(255, 236, 160), bg2=(255, 200, 120), dark=(22, 33, 62),
-                                     strip=(255, 94, 91), hot=(255, 94, 91), gold=(255, 220, 130)))
+    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="Reebok · Logitech · Owala",
+                            w2="החל מ-76 ש״ח", w2size=130, w3="נעליים · גיימינג · לייף סטייל",
+                            keys=("reebok", "g305", "owala"), l2color=(255, 40, 60),
+                            pal=dict(bg1=(30, 110, 255), bg2=(8, 30, 120), dark=(8, 8, 14),
+                                     strip=(255, 40, 60), hot=(255, 40, 60), gold=(255, 214, 60)))
     for name, fn in [("bf_neon", neon), ("bf_collage", collage), ("bf_banner", banner),
                      ("neon_gadgets", gadgets), ("banner_brands", brands)]:
         p = OUT / f"{name}.png"
