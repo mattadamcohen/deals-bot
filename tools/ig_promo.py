@@ -89,7 +89,9 @@ def title(p):
 
 
 def brand_of(p):
-    m = re.search(BRANDS, title(p), re.I)
+    # the maker's name comes first in the title; later mentions are usually "for iPhone/Xiaomi..." compatibility
+    head = " ".join(re.split(r"\b(?:for|compatible|fits|with)\b", title(p), 1, flags=re.I)[0].split()[:4])
+    m = re.search(rf"\b(?:{BRANDS})\b", head, re.I)
     if not m:
         return None
     b = m.group(0)
