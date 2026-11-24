@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FVF4FLGM",
-  "title": "adidas Women's Runfalcon 6",
-  "title_he": "אדידס Runfalcon 6 לנשים",
-  "price": "$49.20",
-  "was": "$65.00",
-  "discount": "24%",
-  "rating": "4.6",
-  "reviews": "287",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 709,
-  "image": "https://m.media-amazon.com/images/I/611qioo6YAL._AC_SL1500_.jpg",
-  "variant": 76,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   709,
-   710,
-   711
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-23T07:31:21.097452+00:00"
- },
- {
   "asin": "B003NX8DH8",
   "title": "Columbia Women's Benton Springs Full Zip",
   "title_he": "קולומביה נשים בנטון ספרינגס רוכסן מלא",
@@ -1158,5 +1129,34 @@
   "category_en": "Hanukkah gifts",
   "category_he": "מתנות לחנוכה",
   "posted_at": "2026-11-24T07:15:44.443552+00:00"
+ },
+ {
+  "asin": "ali-1005007345135328",
+  "title": "GMK87 Mechanical Keyboard KIT With Display Screen RGB Backlit Gasket Structure Gaming Hot Swap Keyboard for VIA Customized",
+  "title_he": "ערכת מקלדת מכנית GMK87 עם מסך תצוגה RGB מבנה אטם עם תאורה אחורית למשחקים מקלדת החלפה חמה עבור VIA מותאמת אישית",
+  "price": "$54.59",
+  "was": "$119.32",
+  "discount": "54%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 832,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4da7f1d3be5a42728eea353babea1d60e.jpg",
+  "variant": 901,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m8e22WHJ2BTHOfr3VIZD1HKX8hG7iAlZQ6vBJF8dPZWBriY3n4ioT8jc3eLAIj9mjhElk8InWQOMk8aJs8wd0a1m65WOrg7cbRag0YFCNznCTzj3ZXkKb8rZ88WB9p3yhgtR3dvIrtx4zo0yKQv3UM05b0RJmmDkl82kGdp4Zm4IGuH9U1uhBm2n2kxkBgzZDSs6ydhnLoVE96xBB39LXOMzaGD00Y3T40TxkzaZhhN8WiZdMubR9ExoDfELZKztBtVn9oE87QoFUZMu6uUP7j1XNnxwxB5gRG7SjlqTUy3O9Y7ErlnBb4s51MpFCNPjiAneMbfviWRffqTrP2UPvyswUcjqmoig3HNlwOHII6NS9BHaHdS4e52koDoVpGnXizFvClILFGZMbLsqK91hKQihZFnx3Vrk9Kg5bb99iJZugkgZzL2F135vdLLrSYHBaOgZRCiZcNrZRmCoF4OYVTHExQKkpuOqzF5qHVoqVBg5a57gIoeKURYtOa0dOuD6jbBYDVhxHMQXOayLd3DKIdvrPAHX9V0oQI295lcLRIdf3zPP0uZmyYo4669kiIlyCX0r2zVj6i2roBej6nL2dHyY7crq7Q4FsmicdqADVfsgtNFVFsGm65lCNATL826scygS22FdZpYoPzz98QMvmVXlRDf730iKf5Z2Y9zu95XyvuYQi9DJbb3Vht2jVl8TP43a0ZOvfmjkq",
+  "sold": "512",
+  "album_ids": [
+   832,
+   833,
+   834
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/239350914/p/1/e/6/t/10301/1100202701879.mp4",
+  "category_slug": "aliexpress/gaming keyboard mechanical",
+  "category_en": "Gaming",
+  "category_he": "גיימינג",
+  "posted_at": "2026-11-24T07:31:04.876723+00:00"
  }
 ]
