@@ -119,6 +119,7 @@ P = {
     "medicube": ("B0DBF65JYY.jpg", "medicube", 13.23),
     "reebok": ("../ad/b_reebok.jpg", "Reebok Club C", 59.98),
     "g305": ("../ad/b_g305.jpg", "Logitech G305", 29.49),
+    "baseus": ("../ad/b_baseus.jpg", "מצלמת אבטחה Baseus", 74.47),
     "fan": ("ali-1005007628433434.jpg", "מנורה עם מאוורר", 11.36),
 }
 
@@ -300,12 +301,17 @@ def main():
     gadgets = lambda: neon(tag="הגאדג'טים הכי שווים של השבוע", l1="COOL", l2="GADGETS", big=230,
                            sub="שלא ידעתם שאתם צריכים", keys=("olight", "controller", "keyboard"),
                            cta1="גאדג'טים, אופנה ומותגים", cta2="דילים חדשים כל יום · אמזון ואליאקספרס")
-    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="Reebok · Logitech · Owala",
-                            w2="החל מ-76 ש״ח", w2size=130, w3="נעליים · גיימינג · לייף סטייל",
-                            keys=("reebok", "g305", "owala"), l2color=(255, 40, 60),
+    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="Reebok · Baseus · Owala",
+                            w2="החל מ-76 ש״ח", w2size=130, w3="נעליים · אבטחה · לייף סטייל",
+                            keys=("reebok", "baseus", "owala"), l2color=(255, 40, 60),
                             pal=dict(bg1=(30, 110, 255), bg2=(8, 30, 120), dark=(8, 8, 14),
                                      strip=(255, 40, 60), hot=(255, 40, 60), gold=(255, 214, 60)))
-    for name, fn in [("bf_neon", neon), ("bf_collage", collage), ("bf_banner", banner),
+    brands_b = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="Reebok · Baseus · Owala",
+                              w2="החל מ-76 ש״ח", w2size=130, w3="נעליים · אבטחה · לייף סטייל",
+                              keys=("reebok", "baseus", "owala"), l2color=(255, 230, 0),
+                              pal=dict(bg1=(255, 30, 140), bg2=(110, 0, 230), dark=(10, 6, 20),
+                                       strip=(255, 120, 0), hot=(255, 90, 0), gold=(255, 230, 0)))
+    for name, fn in [("banner_brands_b", brands_b), ("bf_neon", neon), ("bf_collage", collage), ("bf_banner", banner),
                      ("neon_gadgets", gadgets), ("banner_brands", brands)]:
         p = OUT / f"{name}.png"
         fn().convert("RGB").save(p)
