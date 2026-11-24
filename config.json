@@ -732,13 +732,8 @@
   ],
   "notify_min_discount": 30,
   "notify_max_rank": 3,
-  "reel_slots": [
-    10.5,
-    18
-  ],
-  "carousel_slots": [
-    14
-  ],
+  "reel_slots": [],
+  "carousel_slots": [],
   "block_cooldown_minutes": 120,
   "boost_keywords": {
     "lego": 25,
@@ -2214,10 +2209,7 @@
   "reel_items": 6,
   "reel_secs_per_item": 2.6,
   "carousel_every_days": 3,
-  "video_slots": [
-    14,
-    21
-  ],
+  "video_slots": [],
   "scheduled_picks": [
     {
       "store": "amazon_search",
@@ -2623,5 +2615,10 @@
       "min_sold": 5000,
       "avoid": "advent|calendar|blind box|100\\+ pieces"
     }
-  }
+  },
+  "promo_slots": [
+    12,
+    20
+  ],
+  "promo_bf_until": "2026-11-29"
 }

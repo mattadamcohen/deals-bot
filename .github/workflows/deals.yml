@@ -113,6 +113,15 @@ jobs:
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
         run: python tools/scheduled.py
 
+      - name: Instagram promo post (banner style, promo_slots)
+        if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
+        continue-on-error: true
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+        run: python tools/ig_promo.py
+
       - name: Instagram reel (10:30 / 18:00 slots, 6 items)
         if: ${{ !inputs.dry_run && !inputs.test_telegram && !inputs.backfill }}
         continue-on-error: true
