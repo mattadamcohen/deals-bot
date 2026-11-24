@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 20
+  "2026-11-24": 21
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -402,6 +402,7 @@
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
   "vgn dragonfly master plus": "2026-11-21T19:30:55.965608+00:00",
+  "video baby monitor with": "2026-11-24T11:45:51.546585+00:00",
   "w heated lunch box": "2026-11-21T19:01:12.081611+00:00",
   "w high temperature steam": "2026-11-21T09:00:55.308910+00:00",
   "wall climbing gecko toy": "2026-11-21T18:31:42.636113+00:00",
@@ -646,7 +647,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T09:19:36.647986+00:00",
- "last_post_at": "2026-11-24T11:15:53.887305+00:00",
+ "last_post_at": "2026-11-24T11:45:51.546385+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1425,6 +1426,7 @@
   "ali-1005007146966040": "2026-11-24T07:15:44.339976+00:00",
   "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
+  "ali-1005007171042908": "2026-11-24T11:45:51.446318+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007345135328": "2026-11-24T07:31:04.842089+00:00",
   "ali-1005007345490854": "2026-11-23T19:46:10.661275+00:00",
@@ -1572,10 +1574,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/car jump starter",
   "beauty",
   "aliexpress/packing cubes travel",
-  "aliexpress/precision screwdriver set"
+  "aliexpress/precision screwdriver set",
+  "aliexpress/baby monitor camera"
  ],
  "recent_groups": [
   "hpc",
@@ -1586,17 +1588,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "home",
   "fashion",
   "tech",
   "sport",
   "car",
   "beauty",
   "fashion",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Magcubic Projector 8K Android 14 HY300 Pro Wifi6 290ANSI Allwinner H726 BT5.4 1080P * 720P Outdoor Outdoor Portable Projectors",
   "Needoh Halloween Christmas Squeeze Toys Sensory Toy Colorful Knead Stretch Anxiety Relief ADHD Fidget Toy Leisure Gift",
   "Controller Gaming Accessories For Playstation 5 4 3 2 PS5 PS4 PS3 Dualsense Dualshock Switch Pro Xbox Control Stand Support Game",
   "Electric Toothbrush Mental Thin Brush Body Specially for Women Pure Wisdom Beauty Soft DuPont Bristle",
@@ -1607,7 +1608,8 @@
   "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40\u00b0C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring",
   "medicube PDRN Pink Peptide Serum with Salmon DNA, Firmer, Even-Looking Skin",
   "6/8Pcs Set Travel Bag Organizer Clothes Luggage Travel Organizer Blanket Shoes Organizers Bag Suitcase Pouch Packing Cubes",
-  "25 in 1 Precision Screwdriver Set with Aluminium Alloy Handle Highly Hardened Metal Bits Swivelling Design Disassembly Kit"
+  "25 in 1 Precision Screwdriver Set with Aluminium Alloy Handle Highly Hardened Metal Bits Swivelling Design Disassembly Kit",
+  "3.2Inch Video Baby Monitor With Pan Tilt Security Camera Night Vision VOX Two Way Talk Temperature Monitoring Lullaby Babysitter"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
