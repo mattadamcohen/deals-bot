@@ -116,6 +116,7 @@ P = {
     "laneige": ("B0B9HPYZJH.jpg", "LANEIGE", 18.40),
     "olight": ("B0C54ZH8WW.jpg", "פנס OLIGHT", 11.99),
     "keyboard": ("ali-1005007345135328.jpg", "מקלדת GMK87", 54.59),
+    "medicube": ("B0DBF65JYY.jpg", "medicube", 13.23),
     "fan": ("ali-1005007628433434.jpg", "מנורה עם מאוורר", 11.36),
 }
 
@@ -224,18 +225,22 @@ def brush(w, h, color, seed=1, jag=26):
 
 
 def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילים", w1="דילים מתחת ל-", w2="₪35",
-           w3="על מאות מוצרים", keys=("dumpling", "screw", "cubes"), w2size=230, l2color=(255, 46, 126)):
+           w3="על מאות מוצרים", keys=("dumpling", "screw", "cubes"), w2size=230, l2color=(255, 46, 126),
+           pal=None):
+    pal = pal or dict(bg1=(255, 214, 10), bg2=(255, 174, 40), dark=(15, 15, 15), strip=(45, 91, 255),
+                      hot=(255, 46, 126), gold=(255, 214, 10))
+    DK, HOT = pal["dark"], pal["hot"]
     im = Image.new("RGBA", (W, H))
     g = ImageDraw.Draw(im)
     for y in range(H):
         t = y / H
-        g.line([(0, y), (W, y)], fill=(255, int(214 - 40 * t), int(10 + 30 * t), 255))
+        g.line([(0, y), (W, y)], fill=tuple(int(a + (b - a) * t) for a, b in zip(pal["bg1"], pal["bg2"])) + (255,))
     # confetti
     random.seed(7)
     for _ in range(40):
         x, y = random.randint(0, W), random.randint(0, H)
         c = Image.new("RGBA", (40, 22), (0, 0, 0, 0))
-        ImageDraw.Draw(c).rectangle([0, 0, 39, 21], fill=random.choice([(255, 46, 126), (45, 91, 255), (20, 20, 20), (255, 255, 255)]) + (255,))
+        ImageDraw.Draw(c).rectangle([0, 0, 39, 21], fill=random.choice([HOT, pal["strip"], DK, (255, 255, 255)]) + (255,))
         c = c.rotate(random.randint(0, 180), expand=True)
         im.alpha_composite(c, (x, y))
     # wooden poles
@@ -243,7 +248,7 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
         g.rectangle([px, 60, px + 40, 1180], fill=(120, 80, 45))
         g.rectangle([px + 8, 60, px + 16, 1180], fill=(150, 105, 65))
     # black banner with BLACK FRIDAY
-    b = brush(940, 380, (15, 15, 15), 2)
+    b = brush(940, 380, DK, 2)
     bd = ImageDraw.Draw(b)
     lay = Image.new("RGBA", b.size, (0, 0, 0, 0))
     ld = ImageDraw.Draw(lay)
@@ -253,9 +258,9 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
     b.alpha_composite(lay)
     shadow_paste(im, b.rotate(-2, expand=True, resample=Image.BICUBIC), (60, 120), alpha=140)
     # red strip
-    r = brush(980, 190, (45, 91, 255), 3, jag=18)
+    r = brush(980, 190, pal["strip"], 3, jag=18)
     rd = ImageDraw.Draw(r)
-    inner = brush(820, 120, (15, 15, 15), 5, jag=12)
+    inner = brush(820, 120, DK, 5, jag=12)
     r.alpha_composite(inner, (80, 35))
     T(rd, (490, 95), strip, heb(900, 74 if len(strip) < 22 else 62), (255, 255, 255))
     shadow_paste(im, r.rotate(1.5, expand=True, resample=Image.BICUBIC), (40, 510), alpha=140)
@@ -263,11 +268,12 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
     wb = Image.new("RGBA", (920, 420), (0, 0, 0, 0))
     wd = ImageDraw.Draw(wb)
     wd.rectangle([0, 0, 919, 419], fill=(250, 250, 248))
-    T(wd, (460, 90), w1, heb(900, 96 if len(w1) < 15 else 62), (15, 15, 15))
-    T(wd, (460, 250), w2, heb(900, w2size), (255, 46, 126))
-    sub = brush(640, 90, (15, 15, 15), 9, jag=12)
-    T(ImageDraw.Draw(sub), (320, 45), w3, heb(900, 52), (255, 255, 255))
-    wb.alpha_composite(sub, (140, 320))
+    T(wd, (460, 90), w1, heb(900, 96 if len(w1) < 15 else 62), DK)
+    T(wd, (460, 250), w2, heb(900, w2size), HOT)
+    sw = 640 if len(w3) < 18 else 780
+    sub = brush(sw, 90, DK, 9, jag=12)
+    T(ImageDraw.Draw(sub), (sw / 2, 45), w3, heb(900, 52), (255, 255, 255))
+    wb.alpha_composite(sub, ((920 - sw) // 2, 320))
     shadow_paste(im, wb.rotate(-1, expand=True, resample=Image.BICUBIC), (70, 730), alpha=150)
     # product row
     cw, chh = 300, 330
@@ -276,13 +282,13 @@ def banner(l1="BLACK", l2="FRIDAY", strip="כבר הגיע לערוץ הדילי
         c = card(img(k), cw, chh, radius=30, pad=10, fit="contain")
         c = c.rotate([-4, 0, 4][i], expand=True, resample=Image.BICUBIC)
         shadow_paste(im, c, (x, y), alpha=150)
-        pill(im, x + c.width / 2, y + c.height - 6, ils(P[k][2]), heb(900, 58), (255, 255, 255), (255, 46, 126), padx=28,
+        pill(im, x + c.width / 2, y + c.height - 6, ils(P[k][2]), heb(900, 58), (255, 255, 255), HOT, padx=28,
              outline=(255, 255, 255))
     # CTA
-    bar = brush(1000, 170, (15, 15, 15), 11, jag=16)
+    bar = brush(1000, 170, DK, 11, jag=16)
     bdd = ImageDraw.Draw(bar)
     T(bdd, (500, 60), "הצטרפו לערוץ בטלגרם", heb(900, 60), (255, 255, 255))
-    T(bdd, (500, 125), "@ilamazondeals  ·  israelideals.com", heb(800, 40), (255, 214, 10))
+    T(bdd, (500, 125), "@ilamazondeals  ·  israelideals.com", heb(800, 40), pal["gold"])
     shadow_paste(im, bar, (40, 1700), alpha=140)
     return im
 
@@ -292,9 +298,11 @@ def main():
     gadgets = lambda: neon(tag="הגאדג'טים הכי שווים של השבוע", l1="COOL", l2="GADGETS", big=230,
                            sub="שלא ידעתם שאתם צריכים", keys=("olight", "controller", "keyboard"),
                            cta1="גאדג'טים, אופנה ומותגים", cta2="דילים חדשים כל יום · אמזון ואליאקספרס")
-    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="PUMA · LANEIGE · Owala",
-                            w2="החל מ-62 ש״ח", w2size=130, w3="נעליים · אופנה · ביוטי",
-                            keys=("puma", "laneige", "owala"))
+    brands = lambda: banner(l1="BRAND", l2="DEALS", strip="המותגים שאתם אוהבים", w1="Skechers · medicube · Owala",
+                            w2="החל מ-44 ש״ח", w2size=130, w3="נעליים · ביוטי · לייף סטייל",
+                            keys=("skechers", "medicube", "owala"), l2color=(255, 94, 91),
+                            pal=dict(bg1=(255, 236, 160), bg2=(255, 200, 120), dark=(22, 33, 62),
+                                     strip=(255, 94, 91), hot=(255, 94, 91), gold=(255, 220, 130)))
     for name, fn in [("bf_neon", neon), ("bf_collage", collage), ("bf_banner", banner),
                      ("neon_gadgets", gadgets), ("banner_brands", brands)]:
         p = OUT / f"{name}.png"
