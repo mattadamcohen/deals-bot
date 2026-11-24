@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0B1RWJ4QJ",
-  "title": "nodpod Patented Gentle Pressure Sleep Mask, Weighted Eye Mask",
-  "title_he": "Nodpod פטנט מסכת שינה עדין לחץ, מסכת עיניים משוקלל",
-  "price": "$28.50",
-  "was": "",
-  "discount": "25%",
-  "rating": "4.5",
-  "reviews": "9,113",
-  "rank": 30,
-  "source": "bestsellers",
-  "message_id": 793,
-  "image": "https://m.media-amazon.com/images/I/71VxZ7DGqkL._AC_SL1500_.jpg",
-  "variant": 286,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   793,
-   794,
-   795
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8f30b10a-d00e-48c8-999e-831a8603dfd0/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "hpc",
-  "category_en": "Health & Household",
-  "category_he": "בריאות ומשק בית",
-  "posted_at": "2026-11-23T18:04:28.427109+00:00"
- },
- {
   "asin": "ali-1005009157516970",
   "title": "8BitDo Ultimate 2 Wireless Gaming Controller for PC & Android with TMR Joysticks, Switchable Triggers, Motion Control, 8Speed",
   "title_he": "בקר משחקים אלחוטיים 8BitDo Ultimate 2 למחשב ולאנדרואיד עם ג'ויסטיקים TMR, טריגרים ניתנים להחלפה, בקרת תנועה, 8Speed",
@@ -1158,5 +1129,34 @@
   "category_en": "Home decor",
   "category_he": "עיצוב הבית",
   "posted_at": "2026-11-24T15:45:53.334337+00:00"
+ },
+ {
+  "asin": "ali-1005010724501614",
+  "title": "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26",
+  "title_he": "Baseus 45W Mini Power Bank 10000mAh מובנה בכבל USB-C בגודל כיס קטן יותר טעינה מהירה נייד לאייפון 18 17 Samsung S26",
+  "price": "$37.30",
+  "was": "$89.99",
+  "discount": "58%",
+  "rating": "98.1%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 913,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3f2f7fdbbb044527a7a69ad9d1ee73abv.jpg",
+  "variant": 333,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k6MeA6ml9iqTzp18DD5DFDgWTX6XJ0RhFWmkvo7TKkrtt0GscOUCr5pXRdrlo5wKiN0cxmOMnr9C5pMwTBk6cBvFqID4trYqlDSZGNhFjG6TgjSJ5ODxZ2N8Cxy2Rp6xwIKGtVU27onaTu3gUdKwqLwdr0rxHjzVcAOXkH21z0O18NRnJacvTGDF8gNeZM21OsBjwhkR9kIt2gmYEUdicQFGCaS8Niszf7uOJcOQdQ3kX2g7Sn0H67r3vyWUBmN4tK3CtSWFgmMzBQLypF5ssJH0JdU6Z2uDTLgdVYiSzW3pQsq4sHtIEfrm0y3y45OCa3eoh1AJQ3fT4B9UuenwDvbJ8KH8BBQmraLqqJMO3TomBPbRZwPYl7aM09wMM13l9cOr60yrt5szxptN1qzVRG3eaqUSQqjg81RrEBLKhEo76FA99OXPYdSa3Bq4wSFYUp196dC5a7d9SohyOnnMpinVOYN4Mt73oSaE8PxeXijwx3tbGhZDGgl8C93kjLGhCygSOYJTZMrgffnYlbproPkwprCzkEcvap58Ylj9QFbvaDO7yJCywWXlvIUiruqeS3gLrxlUNBtjP04WirIgc3oGZCNopywx6ERra9fAzWdB8qw8UJbiES6FbJ9BCbl62bASk6nsi0QSePg3LYW01ai1OvX1Vd0d0OKMrNafBqiMbai7hrkw1kY7Wm2CYHPLE1J3FBx6vrtZo",
+  "sold": "37,000",
+  "album_ids": [
+   913,
+   914,
+   915
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/power bank",
+  "category_en": "Tech",
+  "category_he": "גאדג'טים",
+  "posted_at": "2026-11-24T16:01:32.498800+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 34
+  "2026-11-24": 35
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -142,6 +142,7 @@
   "baseus gan w desktop": "2026-11-22T18:45:55.848099+00:00",
   "baseus magnetic car phone": "2026-11-19T16:01:27.640245+00:00",
   "baseus security b outdoor": "2026-11-16T12:07:54.639367+00:00",
+  "baseus w power bank": "2026-11-24T16:01:32.500546+00:00",
   "beard trimmer for men": "2026-11-19T18:01:09.178097+00:00",
   "bedsure fleece bed blankets": "2026-11-16T06:31:23.838497+00:00",
   "bedsure gentlesoft throw blanket": "2026-11-15T14:26:34.499976+00:00",
@@ -675,7 +676,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T15:45:53.336302+00:00",
+ "last_post_at": "2026-11-24T16:01:32.500338+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1559,6 +1560,7 @@
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
   "ali-1005010576787767": "2026-11-23T20:01:08.036088+00:00",
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
+  "ali-1005010724501614": "2026-11-24T16:01:32.465190+00:00",
   "ali-1005010729128979": "2026-11-19T13:30:59.486337+00:00",
   "ali-1005010739277474": "2026-11-19T15:01:01.252967+00:00",
   "ali-1005011574489164": "2026-11-23T17:46:19.947172+00:00",
@@ -1629,10 +1631,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty",
   "aliexpress/inflatable camping tent",
   "fashion/679312011",
-  "aliexpress/aroma diffuser"
+  "aliexpress/aroma diffuser",
+  "aliexpress/power bank"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1643,17 +1645,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "home",
   "sport",
   "other",
   "beauty",
   "sport",
   "fashion",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "Push Up Board, Portable PushUp Board, Foldable 20 in 1 Push Up Bar",
   "Magnetic Screwdriver Set Phillips Flat Head Non\u2011Slip Handle Multi\u2011Size Hand Screwdrivers Kit for Home ApplianceElectronicsRepair",
   "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask",
   "MK6025 NEW Technical Classic Performance RB21 White Sports Car Building Blocks MOC DIY Assembly Model Set Boys Toy Gift",
@@ -1664,7 +1665,8 @@
   "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g",
   "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak",
   "Skechers Men's Summits High Range Slip-in",
-  "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box"
+  "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box",
+  "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
