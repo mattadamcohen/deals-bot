@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 38
+  "2026-11-24": 39
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -399,6 +399,7 @@
   "t shirts soft cotton": "2026-11-21T10:30:52.763992+00:00",
   "taba squishy making kit": "2026-11-23T06:00:58.848503+00:00",
   "taba squishy stress balls": "2026-11-19T13:30:59.569205+00:00",
+  "taba squishy yogurt cake": "2026-11-24T17:02:18.016987+00:00",
   "tales conversation cards": "2026-11-20T08:30:53.068274+00:00",
   "tauri for iphone pro": "2026-11-17T09:01:31.220137+00:00",
   "telesin mah battery slots": "2026-11-18T11:01:29.136545+00:00",
@@ -458,7 +459,8 @@
   "focus-2026-11-23-14",
   "focus-2026-11-23-19",
   "focus-2026-11-24-10",
-  "focus-2026-11-24-14"
+  "focus-2026-11-24-14",
+  "focus-2026-11-24-19"
  ],
  "giveaway_entries": {
   "1125221452": {
@@ -679,7 +681,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T16:46:17.417015+00:00",
+ "last_post_at": "2026-11-24T17:02:18.016847+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1559,6 +1561,7 @@
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
   "ali-1005010487272796": "2026-11-22T13:45:48.478789+00:00",
+  "ali-1005010493813951": "2026-11-24T17:02:17.962882+00:00",
   "ali-1005010494917050": "2026-11-23T15:15:55.981299+00:00",
   "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
@@ -1637,10 +1640,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/power bank",
   "aliexpress/cat toys",
   "aliexpress/fridge organizer",
-  "aliexpress/jewelry set women"
+  "aliexpress/jewelry set women",
+  "aliexpress/squishy blind box"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1651,17 +1654,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "beauty",
   "sport",
   "fashion",
   "home",
   "tech",
   "pets",
   "kitchen",
-  "fashion"
+  "fashion",
+  "kids"
  ],
  "recent_titles": [
-  "PUMA Men's Voltaic Evo Cross Trainer Shoes",
   "2.1M 400LEDs Christmas Lights Holiday String Lights with Star Shape, Smart LED Xmas Tree for Indoor Outdoor Decor",
   "OLIGHT IMINI 2 Rechargeable EDC Keychain Mini Flashlight Black",
   "SOLOKING GKA300 Baitcasting Reel Sea Fishing Power Handle 9.5KG Drag Force 6.4 Gear Ratio Brass Gear Deep Spool Fishing Reel",
@@ -1672,7 +1674,8 @@
   "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26",
   "Creative Meowl OMG Cute Cat Plush Keychain Plush Charm with Sound Squeeze Toy Funny Bag Pendant Charm Gift Cute Fidget Toy",
   "Transparent Storage Box, Laundry Bead Storage Box, Container for Hair Rings and Hair Clips, Desktop Miscellaneous Box",
-  "51 Pcs/Set Silver Color Chic Jewelry Set For Women Fashion Butterfly Heart Pearl Necklaces, Earrings, Rings, Match Daily Outfits"
+  "51 Pcs/Set Silver Color Chic Jewelry Set For Women Fashion Butterfly Heart Pearl Necklaces, Earrings, Rings, Match Daily Outfits",
+  "Taba Squishy Yogurt Cake Bread Squeeze Toy Soft Stress Relief Slow Rising Sensory Fidget Toys for Kids and Adults Relaxing Gifts"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
