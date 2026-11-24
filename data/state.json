@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 35
+  "2026-11-24": 36
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -186,6 +186,7 @@
   "coofandy t shirt short": "2026-11-23T10:15:55.012446+00:00",
   "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
   "crayola twistables colored pencil": "2026-11-14T20:17:43.923492+00:00",
+  "creative meowl omg cute": "2026-11-24T16:15:57.235868+00:00",
   "crock-pot electric lunch box": "2026-11-18T10:05:20.234985+00:00",
   "crunchy skin dreamy macaron": "2026-11-18T10:31:16.036445+00:00",
   "custom photo projection necklace": "2026-11-19T08:01:17.368084+00:00",
@@ -676,7 +677,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T13:34:04.471484+00:00",
- "last_post_at": "2026-11-24T16:01:32.500338+00:00",
+ "last_post_at": "2026-11-24T16:15:57.235736+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1587,6 +1588,7 @@
   "ali-1005012399474701": "2026-11-18T18:31:03.540637+00:00",
   "ali-1005012418286028": "2026-11-23T14:31:46.286503+00:00",
   "ali-1005012438054801": "2026-11-19T05:01:33.981533+00:00",
+  "ali-1005012479147490": "2026-11-24T16:15:57.174340+00:00",
   "ali-1005012491011983": "2026-11-17T19:01:48.005483+00:00",
   "ali-1005012505016533": "2026-11-22T20:16:14.290918+00:00",
   "ali-1005012533883941": "2026-11-22T14:46:21.740033+00:00",
@@ -1631,10 +1633,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/inflatable camping tent",
   "fashion/679312011",
   "aliexpress/aroma diffuser",
-  "aliexpress/power bank"
+  "aliexpress/power bank",
+  "aliexpress/cat toys"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1645,17 +1647,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "sport",
   "other",
   "beauty",
   "sport",
   "fashion",
   "home",
-  "tech"
+  "tech",
+  "pets"
  ],
  "recent_titles": [
-  "Magnetic Screwdriver Set Phillips Flat Head Non\u2011Slip Handle Multi\u2011Size Hand Screwdrivers Kit for Home ApplianceElectronicsRepair",
   "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask",
   "MK6025 NEW Technical Classic Performance RB21 White Sports Car Building Blocks MOC DIY Assembly Model Set Boys Toy Gift",
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
@@ -1666,7 +1667,8 @@
   "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak",
   "Skechers Men's Summits High Range Slip-in",
   "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box",
-  "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26"
+  "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26",
+  "Creative Meowl OMG Cute Cat Plush Keychain Plush Charm with Sound Squeeze Toy Funny Bag Pendant Charm Gift Cute Fidget Toy"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
