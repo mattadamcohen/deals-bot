@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-24": 16
+  "2026-11-24": 17
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -242,6 +242,7 @@
   "iphone charger fast charging": "2026-11-23T14:05:33.168604+00:00",
   "j ver dress shirts": "2026-11-23T14:05:33.168577+00:00",
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
+  "jkuoo car jump starter": "2026-11-24T10:15:56.687739+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "k poe ip camera": "2026-11-22T10:16:11.061535+00:00",
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
@@ -641,7 +642,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-24T09:19:36.647986+00:00",
- "last_post_at": "2026-11-24T10:01:08.455282+00:00",
+ "last_post_at": "2026-11-24T10:15:56.687524+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1486,6 +1487,7 @@
   "ali-1005010323750589": "2026-11-19T06:01:02.107095+00:00",
   "ali-1005010323880088": "2026-11-18T17:30:57.396925+00:00",
   "ali-1005010330073102": "2026-11-20T06:00:51.600574+00:00",
+  "ali-1005010332506017": "2026-11-24T10:15:56.623186+00:00",
   "ali-1005010348397664": "2026-11-20T09:30:51.498552+00:00",
   "ali-1005010425273195": "2026-11-17T11:31:42.914902+00:00",
   "ali-1005010462727340": "2026-11-16T14:16:40.484488+00:00",
@@ -1563,10 +1565,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/gift for women",
   "fashion/1045830",
   "aliexpress/switch controller",
-  "sporting-goods"
+  "sporting-goods",
+  "aliexpress/car jump starter"
  ],
  "recent_groups": [
   "home-garden",
@@ -1577,17 +1579,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "other",
   "kids",
   "tech",
   "other",
   "home",
   "fashion",
   "tech",
-  "sport"
+  "sport",
+  "car"
  ],
  "recent_titles": [
-  "FIFINE RGB Gaming Headset with 7.1 Surround Sound/3-EQ/MIC,Over-ear Headphone with In-line Control for PC PS4 PS5 Ampligame-H6W",
   "Coca-cola zero sugar, pack of 24*330 ml-cocacola original 48*33cl -cocacola zero 48*33cl",
   "OYIFAN Men Belt Genuine Leather Belt for men Automatic belts Adjustable waistband Business belts \ud5c8\ub9ac\ub760",
   "GMK87 Mechanical Keyboard KIT With Display Screen RGB Backlit Gasket Structure Gaming Hot Swap Keyboard for VIA Customized",
@@ -1598,7 +1599,8 @@
   "Circle Chain Picture Customiz Photo Necklace Men Women Personalized Jewelry Customized Any Picture Pendant Mothers or Lover Gift",
   "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies",
   "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control",
-  "Fun Boomerang for Kids - Stocking Stuffers for Boys and Girls - Soft & Easy Use - Best Gifts for 6 7 8 9 10 11 12 13 Year Old Boy Gifts - 2026 Top Toys for Boys Age 8-12 + Teens Outdoor Boy Gift Ideas"
+  "Fun Boomerang for Kids - Stocking Stuffers for Boys and Girls - Soft & Easy Use - Best Gifts for 6 7 8 9 10 11 12 13 Year Old Boy Gifts - 2026 Top Toys for Boys Age 8-12 + Teens Outdoor Boy Gift Ideas",
+  "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40\u00b0C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1626,6 +1628,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136212
 }

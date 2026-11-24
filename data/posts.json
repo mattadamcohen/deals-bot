@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0G545MLV3",
-  "title": "COOFANDY Men's T Shirt Short Sleeve Cotton Blend T-Shirts Crew Neck Casual Summer Basic Tee Shirts",
-  "title_he": "חולצת טריקו לגברים של COOFANDY שרוולים קצרים בתערובת כותנה חולצות טריקו עם צווארון עגול חולצות קיץ בסיסיות מזדמנות",
-  "price": "$9.45",
-  "was": "$22.99",
-  "discount": "59%",
-  "rating": "4.4",
-  "reviews": "935",
-  "rank": 23,
-  "source": "bestsellers",
-  "message_id": 736,
-  "image": "https://m.media-amazon.com/images/I/7142xkNuRrL._AC_SL1500_.jpg",
-  "variant": 827,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   736,
-   737,
-   738
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b090ca0b-f059-4104-9bc2-376ab6804bfb/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/2476517011",
-  "category_en": "Men's Shirts",
-  "category_he": "חולצות לגברים",
-  "posted_at": "2026-11-23T10:15:55.010252+00:00"
- },
- {
   "asin": "ali-1005006685436528",
   "title": "Baseus Bass EP10 Ultra Wireless Earphones -55dB Noise Reduction 65Hrs Long Playtime Bluetooth 6.0 Earbuds 6 Mics AI Call Clear",
   "title_he": "Baseus Bass EP10 Ultra Wireless אוזניות -55dB הפחתת רעש 65 שעות משחק ארוך אוזניות Bluetooth 6.0 6 Mics AI Call Clear",
@@ -1158,5 +1129,34 @@
   "category_en": "Sports & Outdoors",
   "category_he": "ספורט וטבע",
   "posted_at": "2026-11-24T10:01:08.452934+00:00"
+ },
+ {
+  "asin": "ali-1005010332506017",
+  "title": "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40°C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring",
+  "title_he": "JKUOO רכב קפיצה מתנע ומנפח אוויר 10.2 בר מילוי מהיר -40°C עבודה בטמפ' נמוכה 12V סוללת עופרת חומצה עם ניטור צמיגים",
+  "price": "$52.49",
+  "was": "$114.72",
+  "discount": "54%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 859,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0ce48340a9ac4e1fbd91b34f384e4fc60.png",
+  "variant": 764,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kJaWSnhtkLxh0NC1TwmERe2lOmIbSjeQC55oMxOWPGrU2j0Y2rXNL3PiYGcuyyoQRszxhp521EMeJrFDnMDTDfHiaokAyJjfBXHAdRHeQID4oNpYYBKj4hKgnLk8eLykTjwhZGvfawCYAy9vqxV3wgrUlhUblV9uVHAhSaIvYZB8oLxRvRJBm4HFiinmd6a2yUdNSpk8fEXe7FP3URvdJaS4ywKKhsrn48BbvIeouRKp3BzYOOkRwohsRosRg50UEs0KMSBPUP5Cm4knnT8IG1yeFFELiwLnqKUj1zf9RABzSnHj9WVLRd8zV6xlDAe6bfOoYn3X9XdTV2JnUzs9aip4dpxVBdYqG9ckLBD7SU6eWeHS7xJEG4S18Vj9rCvBgFQDSVemNosGEEyH928l3xxUnZOS4xHDi5zvRgtWCQSFcKKwufBfutyTAGPMTNKjQUqYrbBrEUWvtb17BaTsmqvrX6aTiNBYhsNNok8W7YGK8MID2m4uIMwrwO9KNdn8JLWQMJcl0upnBS9BwBMyLM4UN16e7nikZhUiYCdq7w3VUvtDL2Xmto04al8rzSPnX1P0XVgMSyF4jqGAydpkgVzlqt3nM2ouN1UMhKDRBya6fuoOou45lQZngwB8UJj65SDoKl5LCg03EeOKOrqQMIQF2WZMGY1Jk7lHGzJeXozo6RBoPb5zO0djA9AT3AaOLgGDAiAVY9vRk",
+  "sold": "586",
+  "album_ids": [
+   859,
+   860,
+   861
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/car jump starter",
+  "category_en": "Car",
+  "category_he": "רכב",
+  "posted_at": "2026-11-24T10:15:56.685134+00:00"
  }
 ]
