@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B09YPRWH1T",
-  "title": "SCODI Men's Flannel Shirt Jacket Fleece Sherpa Lined Plaid Zip Up Hoodies",
-  "title_he": "חולצת פלנל לגברים SCODI ג'קט צמר שריפה משובץ קפוצ'ונים עם רוכסן משובץ",
-  "price": "$37.98",
-  "was": "$79.99",
-  "discount": "53%",
-  "rating": "4.5",
-  "reviews": "2,526",
-  "rank": 8,
-  "source": "bestsellers",
-  "message_id": 850,
-  "image": "https://m.media-amazon.com/images/I/61nqHKST+bL._AC_.jpg",
-  "variant": 913,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   850,
-   851,
-   852
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f8195244-38e7-4193-bf70-228bb91a48b9/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/1045830",
-  "category_en": "Men's Jackets & Coats",
-  "category_he": "מעילים לגברים",
-  "posted_at": "2026-11-24T09:19:41.366241+00:00"
- },
- {
   "asin": "ali-1005007540124409",
   "title": "LoraTap Tuya Smart Life WiFi Curtains Blinds Switch Roller Shutters Motor Switch Backlight Style Google Home Alexa Voice Control",
   "title_he": "LoraTap Tuya Smart Life WiFi וילונות תריסים מתג תריסי גלילה מנוע מתג תאורה אחורית בסגנון Google Home Alexa Voice Control",
@@ -1163,5 +1134,34 @@
   "category_en": "Plush toys",
   "category_he": "בובות פרווה",
   "posted_at": "2026-11-25T07:45:43.795272+00:00"
+ },
+ {
+  "asin": "ali-1005009414655478",
+  "title": "LED Solar Lights Outdoor Waterproof External Solar Lamp Motion Sensor Garden Lights Solar Power Sunlight Yard Wall Street Light",
+  "title_he": "אורות שמש LED חיצוניים עמיד למים חיצוני מנורת שמש חיישן תנועה אורות גן אור שמש אור שמש חצר וול סטריט אור",
+  "price": "$19.95",
+  "was": "$39.90",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 972,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5666e9b80ae549e29f28e3d2dc470922F.jpg",
+  "variant": 20,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ml55EvU5o1pmcANgfcNMTXaIdPGAOkzzucFdeEj9NtyzPM2W9MffDM5JLy7lGBqDtAKfQ8MNmwb8SOOKlj8N7z2M5H6gUBJTHUC22Z93aBXGzAY2yDJOnpAcgFIyo7WpJHv7tLJwfX2Y9dwEBJRPZDVwkcBwJV9yk5muOOGjvcFbcC4WpqMkqJEOrwel78gUJ5QhLY7Z3Z3qayZQwFkrNE9ya7yhK7A9o1rPA3gx71ugEWKdtpiMPhCa2M95fuJeXrksDmH9Ibi7NocqMpm7GCmQtsa9JlaXbfyrI45yqe6FqrGI7vjXEUztorNHQyAWFlb9Cd2e5OScZpUjlOn1XNmpnCWeXJmVgvTfNZa8eNamrtuWtiMGb9QCV40QlRhHDVt9KdR4xYiAjl0hzG0Lhq8CuBm0BpmBh1DttQgY5Rod8MUxNnmz1fEOoQ30RfOpbE1kWS5tEsiIYDHP6nKGvAJV9DoPrXCnwYn1IpbuICNx1THU6rLxxWHgcZTzUlMmmZlLboJl5eFcehJDwhqSi6WbWIeHMcvLzevHHh3O95W2n5uBCDc2sZ9bmHc0HuZ5q1SEuKU19AvJDNXRSB4NbpFTsP5EoxvKudZ40uQ0sXumdIQL5sRw1dcl199NcijxUcwRjgheOh3xynvT57LcG4ZolKxVsQ7T3qRENW4o1OMm9tlCIBLtXCxgBKBknziQDhCK1DFxIzlbD",
+  "sold": "6,000",
+  "album_ids": [
+   972,
+   973,
+   974
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/solar garden lights outdoor",
+  "category_en": "Outdoor lighting",
+  "category_he": "תאורת חוץ",
+  "posted_at": "2026-11-25T08:02:23.668746+00:00"
  }
 ]

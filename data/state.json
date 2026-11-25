@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 10
+  "2026-11-25": 11
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -276,6 +276,7 @@
   "latest wifi camera features": "2026-11-22T20:01:26.796564+00:00",
   "laura geller baked balance-n-brighten": "2026-11-24T05:31:38.805669+00:00",
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
+  "led solar lights outdoor": "2026-11-25T08:02:23.671574+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
   "led wall lights outdoor": "2026-11-21T13:31:03.898090+00:00",
   "lesown portable gaming monitor": "2026-11-21T18:00:54.879853+00:00",
@@ -475,7 +476,8 @@
   "focus-2026-11-23-19",
   "focus-2026-11-24-10",
   "focus-2026-11-24-14",
-  "focus-2026-11-24-19"
+  "focus-2026-11-24-19",
+  "focus-2026-11-25-10"
  ],
  "giveaway_entries": {
   "1125221452": {
@@ -696,7 +698,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T05:04:39.694657+00:00",
- "last_post_at": "2026-11-25T07:45:43.796888+00:00",
+ "last_post_at": "2026-11-25T08:02:23.671404+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1570,6 +1572,7 @@
   "ali-1005009212557833": "2026-11-21T06:01:01.120479+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
   "ali-1005009385704664": "2026-11-18T07:01:06.726523+00:00",
+  "ali-1005009414655478": "2026-11-25T08:02:23.508532+00:00",
   "ali-1005009426432453": "2026-11-23T11:15:47.752708+00:00",
   "ali-1005009449232221": "2026-11-24T10:46:00.140499+00:00",
   "ali-1005009463011323": "2026-11-20T17:01:02.325132+00:00",
@@ -1686,10 +1689,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen gadgets",
   "aliexpress/kids gift toy",
   "aliexpress/dash cam",
-  "aliexpress/plush toy"
+  "aliexpress/plush toy",
+  "aliexpress/solar garden lights outdoor"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1700,17 +1703,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kitchen",
   "home",
   "kids",
   "tech",
   "kitchen",
   "home",
   "car",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)",
   "Backpack School Bag Girl Back Pack For Children Kid Child Teenager Female Class Schoolbag Primary Women Bagpack Teen Bookbag Kit",
   "Fossil Men's Watch, Grant Quartz Chronograph Watch",
   "FIFINE USB/XLR Dynamic Microphone with RGB Control/Headphone jack/Mute,MIC for PC Gaming Recording Streaming AmpliGame-AM8",
@@ -1721,7 +1723,8 @@
   "3-in-1Hand-cranked Rotating Fruit/Vegetable Peeler Stainless Steel Blades Apple Cutter Household Peeling Machine Kitchen Gadgets",
   "2PCS Kids Video Walkie Talkies USB Charging Indoor and Outdoor High Definition Intercom Children's Toys Birthday Gifts Ages 3-12",
   "\u3010New\u301170mai A210 Dash Cam 1080P HDR Night Vision Support Dual-Channel Supercapacitor Built-in GPS Wi-Fi6 24H Parking Surveillance",
-  "19 Inch Realistic Finished Reborn Doll Soft Vinyl Cloth Body Doll LouLou Handmade Toy For Christmas Gift"
+  "19 Inch Realistic Finished Reborn Doll Soft Vinyl Cloth Body Doll LouLou Handmade Toy For Christmas Gift",
+  "LED Solar Lights Outdoor Waterproof External Solar Lamp Motion Sensor Garden Lights Solar Power Sunlight Yard Wall Street Light"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
