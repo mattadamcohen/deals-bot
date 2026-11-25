@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 34
+  "2026-11-25": 35
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -136,6 +136,7 @@
   "adjustable light up inline": "2026-11-22T09:45:59.095922+00:00",
   "ai hand warmers rechargeable": "2026-11-19T19:30:52.415196+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
+  "ajazz ak mechanical gaming": "2026-11-25T17:16:48.728349+00:00",
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "amoudo portable monitor x": "2026-11-20T11:00:57.363099+00:00",
   "aothia non-slip waterproof pu": "2026-11-14T07:29:50.467825+00:00",
@@ -748,7 +749,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T17:01:07.519295+00:00",
+ "last_post_at": "2026-11-25T17:16:48.728139+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1469,12 +1470,59 @@
    "url": "https://www.amazon.com/dp/B0D68XZY2S"
   },
   {
-   "focus": true,
-   "id": "NeeDoh",
+   "alt": [],
+   "at": "2026-11-25T20:00:00+00:00",
+   "id": "B0F4GY83Q1",
+   "not_before": "2026-11-25T20:00:00+00:00",
    "over_cap_ok": true,
-   "sid": "focus-2026-11-25-19",
-   "store": "amazon_focus",
-   "url": "focus"
+   "require": [],
+   "sid": "pick-1125b-B0F4GY83Q1",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0F4GY83Q1"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T07:00:00+00:00",
+   "id": "B09ZJDPFWT",
+   "not_before": "2026-11-26T07:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125b-B09ZJDPFWT",
+   "store": "amazon",
+   "url": "https://link.amazon/B0iBE2Dov"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T09:15:00+00:00",
+   "id": "B0D4215HCX",
+   "not_before": "2026-11-26T09:15:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125b-B0D4215HCX",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0D4215HCX"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T14:00:00+00:00",
+   "id": "B0FMYXQVSQ",
+   "not_before": "2026-11-26T14:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125b-B0FMYXQVSQ",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0FMYXQVSQ"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T17:30:00+00:00",
+   "id": "B0FMPL7CBN",
+   "not_before": "2026-11-26T17:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125b-B0FMPL7CBN",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0FMPL7CBN"
   }
  ],
  "posted": {
@@ -1679,6 +1727,7 @@
   "ali-1005007391590551": "2026-11-20T18:30:56.482014+00:00",
   "ali-1005007476830338": "2026-11-24T08:30:48.570633+00:00",
   "ali-1005007481796012": "2026-11-21T08:30:46.204977+00:00",
+  "ali-1005007539958713": "2026-11-25T17:16:48.693461+00:00",
   "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
   "ali-1005007540124409": "2026-11-24T09:45:55.479241+00:00",
   "ali-1005007605939585": "2026-11-22T08:45:48.430699+00:00",
@@ -1851,10 +1900,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "toys-and-games/166220011",
   "aliexpress/vacuum storage bags",
   "sporting-goods",
-  "pick"
+  "pick",
+  "aliexpress/gaming keyboard mechanical"
  ],
  "recent_groups": [
   "fashion",
@@ -1865,17 +1914,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "tech",
   "fashion",
   "home",
   "tech",
   "kids",
   "home",
   "sport",
-  "other"
+  "other",
+  "tech"
  ],
  "recent_titles": [
-  "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset",
   "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
   "A Pair of Brown Plush Capybara Animal-Patterned Furry Home Slippers with Soft Soles, Comfortable and Warm, Non-Slip Indoor Slippers Suitable for Men and Women, Lightweight, Silent, and Comfortable Shoes, the Perfect Holiday Gift Choice",
   "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide",
@@ -1886,7 +1934,8 @@
   "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players",
   "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable",
   "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men",
-  "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men"
+  "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men",
+  "AJAZZ AK820 Mechanical Gaming Keyboard Tri-Mode Bluetooth 5.1 Wireless Wired Knob Hot Swap Gasket Custom Keyboard"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1900,6 +1949,11 @@
   "pick-1125-B0FX7MG53F",
   "pick-1125-B0H9XMRTKL",
   "pick-1125-servo-s27",
+  "pick-1125b-B09ZJDPFWT",
+  "pick-1125b-B0D4215HCX",
+  "pick-1125b-B0F4GY83Q1",
+  "pick-1125b-B0FMPL7CBN",
+  "pick-1125b-B0FMYXQVSQ",
   "shot-1118-1",
   "shot-1118-2",
   "shot-1118-3",
@@ -1922,6 +1976,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136217
 }
