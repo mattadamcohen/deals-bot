@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0BJ291V2G",
-  "title": "Skechers Men's Summits High Range Slip-in",
-  "title_he": "Skechers Men's Summits High Range Slip-in",
-  "price": "$57.32",
-  "was": "$84.00",
-  "discount": "32%",
-  "rating": "4.6",
-  "reviews": "29,504",
-  "rank": 2,
-  "source": "bestsellers",
-  "message_id": 907,
-  "image": "https://m.media-amazon.com/images/I/81u93DKpg9L._AC_SL1500_.jpg",
-  "variant": 648,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   907,
-   908,
-   909
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/955cba65-5473-4822-ace4-33b869864db5/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "fashion/679312011",
-  "category_en": "Men's Sneakers",
-  "category_he": "סניקרס לגברים",
-  "posted_at": "2026-11-24T15:30:55.735907+00:00"
- },
- {
   "asin": "ali-1005007344995863",
   "title": "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box",
   "title_he": "MAYJAM 35 יח'\\סט שמנים אתריים עבור מפזר עשה זאת בעצמך ריח מבער עיסוי נרות מטהר אוויר תיבת שמן ארומה",
@@ -1163,5 +1134,34 @@
   "category_en": "Tools",
   "category_he": "כלי עבודה",
   "posted_at": "2026-11-25T15:01:09.624649+00:00"
+ },
+ {
+  "asin": "ali-1005012943464471",
+  "title": "SERVO S27 Mini 4G LTE Smartphone 4.0\" Display Android 3GB RAM 64GB ROM Dual SIM Face Unlock GPS WiFi HD Camera Pocket Cell Phone",
+  "title_he": "SERVO S27 Mini 4G LTE סמארטפון 4.0 אינץ' צג אנדרואיד 3GB RAM 64GB ROM Dual SIM ביטול נעילת פנים GPS WiFi HD טלפון נייד כיס מצלמה",
+  "price": "$67.09",
+  "was": "$149.09",
+  "discount": "55%",
+  "rating": "60.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1029,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb544ec62761e4a9f8800611c1b4e0dfbj.jpg",
+  "variant": 454,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4LEZSgZWNsLlqu7jreReQnLdcve0dVk7ZpvgT3TNbJNpXfI3mbjDZkvyHoLT7Uep6Gtir3Mlzw8E7oJ8iGgubeQZagoa4d8OapI1ig7ogs1hfVVOcVG8cWuRpAmf0PAGHo334itbQl3Y8zaGnRC42iB19nJmlbHCaRxYNHgY2VQQTO2gH66UwXu5pz6KjElA1DrnJc0ZLIw0kb9JoBAGp2akLGQhgcYFUgLnqegaJHReijTZCZ8rHRmFOyQvNOU7OIIXbS1bWSXvRY9X8KyxpNgpGaij71b8mztc0ZzEI9AM7DRsmwTq4n3KdZzbqnttC2wAQjRX0J0z6yRMn5zELoq6UVT3j7kygrB7D7TGp3YVTNEqISmy0PKpXKITfMQL52c6LaC9GHCWBtUZZVDaepFXaDoq7wZfSJECiFr7ph3ImUTbhaRD6Zp4YjBqf2QBMt2UNmos12w5Fo2had2aoQZHbZ2Adbzea15jBTRUQ7bu3yNINoPCfmcjkfN5DJEiHl8L1z6V6uB8xVfH5QoxrZUULN5LuRjMgxDnjnM9xDX94vgVsbR39pOG2ZG55eAhTyKDGQ121hpnSvyoRv6oMxHsL0MQFwXNxys0BUXoTSbVxIIay8SSJjxbS87ehZ3oELYQX4dlohKUw05n0V3l6EWTpsIgmRP0OtIdFKumy0rd3zNJEbGJlimqsqigO12GI925QNVYSZ5iN",
+  "sold": "4",
+  "album_ids": [
+   1029,
+   1030,
+   1031
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-25T15:04:35.704056+00:00"
  }
 ]
