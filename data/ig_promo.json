@@ -1,7 +1,7 @@
 {
- "count": 3,
- "last_palette": 3,
- "last_theme": "blackfriday",
+ "count": 4,
+ "last_palette": 0,
+ "last_theme": "gadgets",
  "history": [
   {
    "at": "2026-11-24T16:16:29.802607+00:00",
@@ -35,22 +35,37 @@
    ],
    "image": "promo-202611251001",
    "media": "18078931010743162"
+  },
+  {
+   "at": "2026-11-25T18:01:45.633135+00:00",
+   "theme": "gadgets",
+   "ids": [
+    "B0HDST6F85",
+    "ali-1005006994669841",
+    "B0H71RGBQ3"
+   ],
+   "image": "promo-202611251801",
+   "media": "18150342310576707"
   }
  ],
  "used": [
-  "B0FFTLNC5S",
+  "B0FH655984",
+  "B0725WFLMB",
   "ali-1005010724501614",
+  "B01H1V7WQU",
+  "B07V4VFKKD",
+  "ali-1005009157516970",
+  "B0FFTLNC5S",
   "B0971NTY4Q",
   "ali-1005007668695524",
-  "ali-1005009157516970",
-  "B01H1V7WQU",
-  "B0725WFLMB",
-  "B0FH655984",
-  "B07V4VFKKD"
+  "B0HDST6F85",
+  "ali-1005006994669841",
+  "B0H71RGBQ3"
  ],
- "rotation": 1,
+ "rotation": 2,
  "slots_done": [
   "2026-11-24-20",
-  "2026-11-25-12"
+  "2026-11-25-12",
+  "2026-11-25-20"
  ]
 }
