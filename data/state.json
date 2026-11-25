@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 16
+  "2026-11-25": 17
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -376,6 +376,7 @@
   "queen size sheet set": "2026-11-15T09:02:39.924136+00:00",
   "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
   "random mystery fidget toys": "2026-11-19T11:01:21.142732+00:00",
+  "rapoo vt max vt": "2026-11-25T10:31:31.672195+00:00",
   "realistic finished reborn doll": "2026-11-25T07:45:43.797000+00:00",
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
@@ -704,7 +705,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T09:34:06.063083+00:00",
- "last_post_at": "2026-11-25T10:01:28.702449+00:00",
+ "last_post_at": "2026-11-25T10:31:31.671995+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1577,6 +1578,7 @@
   "ali-1005008893241017": "2026-11-25T06:45:51.385556+00:00",
   "ali-1005008979722815": "2026-11-18T13:01:51.316344+00:00",
   "ali-1005008993557730": "2026-11-24T14:30:56.320963+00:00",
+  "ali-1005009070126028": "2026-11-25T10:31:31.646083+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
   "ali-1005009157516970": "2026-11-23T18:31:29.402197+00:00",
@@ -1704,10 +1706,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/power bank",
   "aliexpress/cordless drill brushless",
   "toys-and-games/166220011",
-  "aliexpress/kitchen gadgets"
+  "aliexpress/kitchen gadgets",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "beauty",
@@ -1718,17 +1720,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "car",
   "kids",
   "home",
   "kitchen",
   "tech",
   "home",
   "kids",
-  "kitchen"
+  "kitchen",
+  "tech"
  ],
  "recent_titles": [
-  "5-20pcs Glow in the Dark Bouncy Balls Rubber Stress Relief Toys for Kids Birthday Party Favor Valentine Gifts Classroom Prizes",
   "FANTECH NOVA II WGP16 Wireless Gamepad Gyro Sensor Hall Joystick and Effect Trigger for PS4 NS2 Wired Controller Gamer",
   "3-in-1Hand-cranked Rotating Fruit/Vegetable Peeler Stainless Steel Blades Apple Cutter Household Peeling Machine Kitchen Gadgets",
   "2PCS Kids Video Walkie Talkies USB Charging Indoor and Outdoor High Definition Intercom Children's Toys Birthday Gifts Ages 3-12",
@@ -1739,7 +1740,8 @@
   "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
   "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only",
   "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
-  "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories"
+  "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
+  "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
