@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 33
+  "2026-11-25": 34
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -97,6 +97,7 @@
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H6WFTW7G": "2026-11-23T06:00:58.848495+00:00",
+  "B0H73CC1MD": "2026-11-25T17:01:07.519624+00:00",
   "B0H73XNBPS": "2026-11-17T12:01:22.931802+00:00",
   "B0H9NKZGB7": "2026-11-20T08:30:53.068268+00:00",
   "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
@@ -384,6 +385,7 @@
   "powerful led solar outdoor": "2026-11-23T11:45:50.786347+00:00",
   "precision screwdriver set with": "2026-11-24T11:15:53.887482+00:00",
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
+  "project cloud sandals genuine": "2026-11-25T17:01:07.519629+00:00",
   "puma voltaic evo cross": "2026-11-24T13:34:08.660480+00:00",
   "push up board": "2026-11-24T12:31:01.926840+00:00",
   "quartz watch luxury women": "2026-11-23T13:01:33.084305+00:00",
@@ -503,7 +505,8 @@
   "focus-2026-11-24-19",
   "focus-2026-11-25-10",
   "focus-2026-11-25-11",
-  "focus-2026-11-25-14"
+  "focus-2026-11-25-14",
+  "focus-2026-11-25-19"
  ],
  "giveaway_entries": {
   "1125221452": {
@@ -745,7 +748,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T16:45:53.588674+00:00",
+ "last_post_at": "2026-11-25T17:01:07.519295+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1401,17 +1404,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-25T17:00:00+00:00",
-   "id": "B0FX7MG53F",
-   "not_before": "2026-11-25T17:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-B0FX7MG53F",
-   "store": "amazon",
-   "url": "https://link.amazon/B0irk16ix"
-  },
-  {
-   "alt": [],
    "at": "2026-11-25T19:00:00+00:00",
    "id": "B0CL7JYSP5",
    "not_before": "2026-11-25T19:00:00+00:00",
@@ -1475,6 +1467,14 @@
    "sid": "pick-1125-B0D68XZY2S",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0D68XZY2S"
+  },
+  {
+   "focus": true,
+   "id": "NeeDoh",
+   "over_cap_ok": true,
+   "sid": "focus-2026-11-25-19",
+   "store": "amazon_focus",
+   "url": "focus"
   }
  ],
  "posted": {
@@ -1598,6 +1598,7 @@
   "B0FK1LF5PM": "2026-11-15T12:07:07.358554+00:00",
   "B0FV3TY5LH": "2026-11-19T16:34:06.856541+00:00",
   "B0FVF4FLGM": "2026-11-23T07:31:21.047741+00:00",
+  "B0FX7MG53F": "2026-11-25T17:01:07.408939+00:00",
   "B0FYMN9QWG": "2026-11-23T06:15:47.029993+00:00",
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0G545MLV3": "2026-11-23T10:15:54.971116+00:00",
@@ -1850,10 +1851,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "toys-and-games/166220011",
   "aliexpress/vacuum storage bags",
-  "sporting-goods"
+  "sporting-goods",
+  "pick"
  ],
  "recent_groups": [
   "fashion",
@@ -1864,17 +1865,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "sport",
   "tech",
   "fashion",
   "home",
   "tech",
   "kids",
   "home",
-  "sport"
+  "sport",
+  "other"
  ],
  "recent_titles": [
-  "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY",
   "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset",
   "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
   "A Pair of Brown Plush Capybara Animal-Patterned Furry Home Slippers with Soft Soles, Comfortable and Warm, Non-Slip Indoor Slippers Suitable for Men and Women, Lightweight, Silent, and Comfortable Shoes, the Perfect Holiday Gift Choice",
@@ -1885,7 +1885,8 @@
   "SERVO S27 Mini 4G LTE Smartphone 4.0\" Display Android 3GB RAM 64GB ROM Dual SIM Face Unlock GPS WiFi HD Camera Pocket Cell Phone",
   "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players",
   "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable",
-  "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men"
+  "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men",
+  "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1921,6 +1922,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136217
 }

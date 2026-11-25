@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005009464686280",
-  "title": "Transparent Storage Box, Laundry Bead Storage Box, Container for Hair Rings and Hair Clips, Desktop Miscellaneous Box",
-  "title_he": "קופסת אחסון שקופה, קופסת אחסון חרוזי כביסה, מיכל לטבעות שיער וקליפסים לשיער, קופסה לשולחן עבודה שונים",
-  "price": "$6.94",
-  "was": "$14.62",
-  "discount": "52%",
-  "rating": "91.1%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 919,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02ac53cfe5cf4fbe87b240590fd86421E.jpg",
-  "variant": 102,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k1BIlgTjtt0Aowe731mvFo7Ml2FcJFzDXurWUJ18XExgjJwIobks78OMgom2Hke12sh7bi8a2n5RevjUu78EclAf5zvXo6Xu0LUBHRLJhAYiSQWwZatqUrvUs0GMAzfe2tMoZRYiJy0mQNwrNalxzqNkCQSg8FEvYPLmEoTBu106s2PFP1AXHZ2l4rbDzff3wu0ua6tXZNmIO6IHOurI5SLnMyDTyKH4E7COnVi33FxKxC0rGnMucPe75EcXZSLkGLqUEKNpUvvAo9Ru4483OPXtGmlLrjT8Sbnvw4Cgf45Y58XfxUWZwyO09wDJVo7m3OeyDy0InfagLwhkH2QbhOrcoDdjEJG0glEZCBkFqzI588oTjaSBg1oUYoNEfTFe0rEgWE6vBmdzoZVPgFFVVlMff2o1vrXdU3EWZqeDakzIDoNQMvIoxv5u28PDiVjBzm4y1ThY8AUiw0LdKbv8TYEnHbvZX5KaQKj32S6LucWLrNa9NknvRrMPuUhOD2hg13gbHCRJ4Zu0ux03hvrBHYhJ5e9KiEgeYrZgwiPUpwtXhU62QddZqckx6HNPHm0wAKw0DsiWScp8TUUiw8zkFnEfc7wFQ0Mdb5l60d8ygnKgNlxlOt8feGh24BIuqpKkKMsswkGJ5PPM7RckOCnrhMfBfWJZzd6RdAPrqy4ayAUIIjkQS5AcHL7MFG0GWmV2NnIB7QlEybMQO",
-  "sold": "520",
-  "album_ids": [
-   919,
-   920,
-   921
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/fridge organizer",
-  "category_en": "Kitchen storage",
-  "category_he": "אחסון למטבח",
-  "posted_at": "2026-11-24T16:31:01.679684+00:00"
- },
- {
   "asin": "ali-1005007806183543",
   "title": "51 Pcs/Set Silver Color Chic Jewelry Set For Women Fashion Butterfly Heart Pearl Necklaces, Earrings, Rings, Match Daily Outfits",
   "title_he": "51 יח'\\סט סט תכשיטים שיק בצבע כסף לנשים אופנה פרפר לב שרשראות פנינים, עגילים, טבעות, התאמת תלבושות יומיות",
@@ -1163,5 +1134,34 @@
   "category_en": "Sports & Outdoors",
   "category_he": "ספורט וטבע",
   "posted_at": "2026-11-25T16:45:53.586128+00:00"
+ },
+ {
+  "asin": "B0FX7MG53F",
+  "title": "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men",
+  "title_he": "סנדלי גברים PROJECT CLOUD 100% עור אמיתי סנדלי גברים לגברים",
+  "price": "$22.94",
+  "was": "$79.99",
+  "discount": "71%",
+  "rating": "4.0",
+  "reviews": "2,257",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1041,
+  "image": "https://m.media-amazon.com/images/I/71qoLMLbZxL._AC_SL1254_.jpg",
+  "variant": 939,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1041,
+   1042,
+   1043
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/54a72a11-35fc-4a76-8967-36a62c946cc1/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-25T17:01:07.517222+00:00"
  }
 ]
