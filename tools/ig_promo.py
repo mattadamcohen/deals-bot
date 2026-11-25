@@ -143,10 +143,45 @@ def matches(theme, p):
     return True  # blackfriday: anything good
 
 
+KINDS = [
+    ("phone-acc", r"\bcase\b|screen protector|lens protector|phone (holder|stand|grip|mount)|magsafe|for iphone|for samsung|for galaxy|for pixel"),
+    ("charging", r"charger|charging|cable|power bank|adapter|usb[- ]?c hub|\bhub\b"),
+    ("audio", r"earbud|headphone|headset|speaker|soundbar|earphone"),
+    ("gaming", r"controller|gamepad|joystick|gaming|console|nintendo|switch|playstation|xbox"),
+    ("computer", r"keyboard|mouse|monitor|laptop|ssd|webcam|tablet|ipad"),
+    ("camera", r"camera|projector|drone|dash ?cam"),
+    ("watch", r"watch|smartwatch|fitness tracker"),
+    ("light", r"\blamp\b|\blight|led\b|flashlight|lantern"),
+    ("shoes", r"shoe|sneaker|boot|slipper|sandal"),
+    ("clothing", r"jacket|coat|hoodie|shirt|sweater|dress|pants|jeans|legging|sock|hat\b|scarf|glove"),
+    ("bag", r"\bbag\b|backpack|wallet|luggage|suitcase|packing cube"),
+    ("drinkware", r"bottle|tumbler|\bmug\b|\bcup\b|flask"),
+    ("kitchen", r"kitchen|pan\b|pot\b|knife|blender|air fryer|coffee|utensil|cutting board"),
+    ("storage", r"organizer|storage|container|drawer|shelf|rack|bin\b"),
+    ("beauty", r"serum|cream|lotion|cleanser|makeup|mascara|lipstick|shampoo|hair|skin|nail|perfume"),
+    ("tools", r"drill|screwdriver|tool kit|toolset|wrench|plier|tool\b"),
+    ("toy", r"squish|needoh|fidget|lego|toy|plush|puzzle|doll|building block"),
+    ("car", r"\bcar\b|vehicle|tire|dashboard"),
+]
+
+
+def kind_of(p):
+    t = title(p).lower()
+    for k, rx in KINDS:
+        if re.search(rx, t):
+            return k
+    return "other:" + " ".join(re.findall(r"[a-z]+", t)[:2])
+
+
 def pick(theme, used):
     cands = sorted([p for p in pool() if matches(theme, p) and p["id"] not in used], key=score, reverse=True)
-    out, fashion, brands = [], 0, set()
+    out, fashion, brands, kinds = [], 0, set(), set()
     for p in cands:
+        k = kind_of(p)
+        if k in kinds:  # every item from a different category (Matt, Nov 25)
+            continue
+        if theme in ("gadgets", "brands", "blackfriday") and k == "phone-acc":
+            continue  # cases / screen protectors aren't "cool gadgets"
         is_f = bool(FASHION.search(title(p))) or p.get("theme") == "fashion"
         if is_f and fashion:
             continue
@@ -155,6 +190,7 @@ def pick(theme, used):
         if not fetch_img(p):
             continue
         out.append(p)
+        kinds.add(k)
         fashion += is_f
         brands.add(brand_of(p))
         if len(out) == 3:
