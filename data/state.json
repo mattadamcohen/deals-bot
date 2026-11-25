@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 22
+  "2026-11-25": 23
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -175,6 +175,7 @@
   "cenrr handheld wireless car": "2026-11-20T05:30:55.605532+00:00",
   "cenrr pa car vacuum": "2026-11-24T06:05:46.293966+00:00",
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
+  "choice lenovo le wireless": "2026-11-25T12:46:29.709699+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
   "christmas projector light patterns": "2026-11-19T11:30:48.621221+00:00",
   "circle chain picture customiz": "2026-11-24T09:01:02.175909+00:00",
@@ -711,7 +712,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T09:34:06.063083+00:00",
- "last_post_at": "2026-11-25T12:31:06.296685+00:00",
+ "last_post_at": "2026-11-25T12:46:29.709518+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1602,6 +1603,7 @@
   "ali-1005009494354327": "2026-11-23T10:45:57.335195+00:00",
   "ali-1005009508758842": "2026-11-24T15:01:21.128021+00:00",
   "ali-1005009522437194": "2026-11-17T15:31:26.822197+00:00",
+  "ali-1005009548888829": "2026-11-25T12:46:29.668968+00:00",
   "ali-1005009648930864": "2026-11-19T10:00:55.607269+00:00",
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
   "ali-1005009759780480": "2026-11-25T05:45:58.722928+00:00",
@@ -1717,10 +1719,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/espresso accessories",
   "aliexpress/magnetic train track toy",
   "aliexpress/hair dryer brush",
-  "aliexpress/cordless drill brushless"
+  "aliexpress/cordless drill brushless",
+  "aliexpress/gaming headset"
  ],
  "recent_groups": [
   "beauty",
@@ -1731,17 +1733,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "tech",
   "home",
   "kitchen",
   "kids",
   "beauty",
-  "home"
+  "home",
+  "tech"
  ],
  "recent_titles": [
-  "LED Solar Lights Outdoor Waterproof External Solar Lamp Motion Sensor Garden Lights Solar Power Sunlight Yard Wall Street Light",
   "Fermented Glass Weights Clear with Handle Wide Mouth Mason Jar Lid Sealed Kitchen Gadgets Heavy Fermenting Weights Kimchi Making",
   "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
   "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only",
@@ -1752,7 +1753,8 @@
   "Coffee Knock Box Espresso Grounds Container Anti Slip Espresso Dump Bin Grind Breville Barista Goods Cafe Bar Accessories",
   "DIY Assemble Magnetic Track Train Toys for Kids Electronic Magical Rail Car Construction Children Educational Toy Christmas Gift",
   "SenCiciMen X9 Multi Hair Styler Curling Iron Hair Hot Air Brush Curling Barrel Hair Dryer Salon Professional Curly Hair Styler",
-  "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY"
+  "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY",
+  "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
