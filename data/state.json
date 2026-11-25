@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 1
+  "2026-11-25": 2
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -218,6 +218,7 @@
   "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
   "extra virgin olive oil": "2026-11-21T08:30:46.232481+00:00",
   "fifine rgb gaming headset": "2026-11-24T06:45:46.210184+00:00",
+  "fifine usb xlr dynamic": "2026-11-25T05:31:00.423879+00:00",
   "flextail zero lantern": "2026-11-18T18:31:03.689614+00:00",
   "fntcase for iphone duo": "2026-11-24T17:49:35.767033+00:00",
   "fntcase for iphone pro": "2026-11-15T20:45:38.198157+00:00",
@@ -687,7 +688,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T05:04:39.694657+00:00",
- "last_post_at": "2026-11-25T05:04:43.328900+00:00",
+ "last_post_at": "2026-11-25T05:31:00.423635+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1478,6 +1479,7 @@
   "ali-1005006291767331": "2026-11-22T07:45:46.193302+00:00",
   "ali-1005006304425302": "2026-11-16T09:01:42.249767+00:00",
   "ali-1005006316786561": "2026-11-23T13:01:33.054888+00:00",
+  "ali-1005006356702381": "2026-11-25T05:31:00.377419+00:00",
   "ali-1005006444409403": "2026-11-23T09:05:43.791805+00:00",
   "ali-1005006490267843": "2026-11-22T17:30:56.650609+00:00",
   "ali-1005006648981013": "2026-11-19T14:30:55.749161+00:00",
@@ -1668,10 +1670,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "wireless",
   "kitchen/510136",
   "aliexpress/kids school backpack",
-  "fashion/6358539011"
+  "fashion/6358539011",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1682,17 +1684,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kitchen",
   "fashion",
   "kids",
   "sport",
   "tech",
   "kitchen",
   "home",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Skechers Men's Summits High Range Slip-in",
   "MAYJAM 35pcs/set Essential Oils For Diffuser DIY Making Scent Candle Massage Burner Air freshener Aroma Oil Christmas Gift Box",
   "Baseus 45W Mini Power Bank 10000mAh Built-In USB-C Cable Pocket-Sized Smaller Fast Charge Portable For iPhone 18 17 Samsung S26",
   "Creative Meowl OMG Cute Cat Plush Keychain Plush Charm with Sound Squeeze Toy Funny Bag Pendant Charm Gift Cute Fidget Toy",
@@ -1703,7 +1704,8 @@
   "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black",
   "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)",
   "Backpack School Bag Girl Back Pack For Children Kid Child Teenager Female Class Schoolbag Primary Women Bagpack Teen Bookbag Kit",
-  "Fossil Men's Watch, Grant Quartz Chronograph Watch"
+  "Fossil Men's Watch, Grant Quartz Chronograph Watch",
+  "FIFINE USB/XLR Dynamic Microphone with RGB Control/Headphone jack/Mute,MIC for PC Gaming Recording Streaming AmpliGame-AM8"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1731,6 +1733,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136213
 }
