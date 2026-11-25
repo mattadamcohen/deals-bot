@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CL7L523F",
-  "title": "PUMA Men's Voltaic Evo Cross Trainer Shoes",
-  "title_he": "נעלי PUMA Cross Trainer Voltaic Evo לגברים",
-  "price": "$41.79",
-  "was": "$85.00",
-  "discount": "51%",
-  "rating": "4.5",
-  "reviews": "3,625",
-  "rank": 18,
-  "source": "bestsellers",
-  "message_id": 889,
-  "image": "https://m.media-amazon.com/images/I/71D8bDU-IVL._AC_SL1500_.jpg",
-  "variant": 750,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   889,
-   890,
-   891
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/7b0b0c68-24b4-4681-b256-d33973548a92.mp4/productVideoOptimized.mp4",
-  "category_slug": "fashion/679312011",
-  "category_en": "Men's Sneakers",
-  "category_he": "סניקרס לגברים",
-  "posted_at": "2026-11-24T13:34:08.657366+00:00"
- },
- {
   "asin": "ali-1005013277989107",
   "title": "2.1M 400LEDs Christmas Lights Holiday String Lights with Star Shape, Smart LED Xmas Tree for Indoor Outdoor Decor",
   "title_he": "2.1M 400 LEDs אורות מחרוזת חגים עם צורת כוכב, עץ LED חכם לעיצוב חיצוני פנימי",
@@ -1163,5 +1134,34 @@
   "category_en": "Gaming",
   "category_he": "גיימינג",
   "posted_at": "2026-11-25T12:46:29.707718+00:00"
+ },
+ {
+  "asin": "ali-1005008821131809",
+  "title": "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
+  "title_he": "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display בקרת קול 24/7 ניטור חניה ראיית לילה Supercapacitor DVR לרכב",
+  "price": "$39.66",
+  "was": "$99.78",
+  "discount": "60%",
+  "rating": "95.1%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1011,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S81286badd15241cb9a482571e407f0daa.jpg",
+  "variant": 713,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mmpMwmkcwwkMoWS9eHu8qPRM9uXIDAR2qyKa7rALRrlze6U940X1iQax7GOPsWrvOV6HsuD5NpwBOPLgs6zC77mOYwJnusfifajgJTqNIoD4PsFXXeaK7mKUuNok85ILPn2XA8PfJlPpViUfTOFvWyPx64h36Yg7mTSWMeGAU2td9xOdMfXeTTwr8pHoCbgPH3UFnkKy2yEPCL9ri6fB2uTqj2gWIJNriE8omDKchkF2nGK5mhfvtwRKRSDW0t03lKYvxlxgTyMK2yX7zEHoEhQz1u854wJKER0FUSgn6M5pKBoiHTuDpEF8JvoqxrNPrgda6b8AVI7tqdyCQkf3JLzfhBKTzYaAYDHr3jW6wusc4zCmnsOZU5vjHraZ7lc84sz3xpEdLCF5vROITLFpDnenGewF2co1ocuiCUq8ssddiuihP5a5LqkKka7I2lsbjOeVuqvS2TxaRgN9C36kWR5RejzjYeJsY1ps3yRASpEnCz5Wzv1PgIe09Vji7Ipks1yl9ZusGnCVsUohyWVSRFMhLiLdYeWbaJB5NHHt0Itc5zjtDzXA4LRjGTwODhviAA6kw31dfbR8vsfBRXyFlNjXamMYO9wPVQa7u7oLWDq4BUPIkXazB7EHH272YieBBDLHwecRwkisdAh5UDYOa1CHYar1Y0XFCnSwRovrnZ2XlcDaIWnV3P5tBsK9nuPRN0yhrefaqiCbV",
+  "sold": "730",
+  "album_ids": [
+   1011,
+   1012,
+   1013
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/dash cam",
+  "category_en": "Car",
+  "category_he": "לרכב",
+  "posted_at": "2026-11-25T13:15:48.812560+00:00"
  }
 ]
