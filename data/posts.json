@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0C54ZH8WW",
-  "title": "OLIGHT IMINI 2 Rechargeable EDC Keychain Mini Flashlight Black",
-  "title_he": "OLIGHT IMINI 2 מחזיק מפתחות EDC נטענת מיני פנס שחור",
-  "price": "$11.99",
-  "was": "$19.99",
-  "discount": "40%",
-  "rating": "4.7",
-  "reviews": "10,081",
-  "rank": 11,
-  "source": "bestsellers",
-  "message_id": 895,
-  "image": "https://m.media-amazon.com/images/I/61lxVb8FBKL._AC_SL1500_.jpg",
-  "variant": 733,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   895,
-   896,
-   897
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4d6b6676-28be-45d4-a18b-42523de7c5ff/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "sporting-goods",
-  "category_en": "Sports & Outdoors",
-  "category_he": "ספורט וטבע",
-  "posted_at": "2026-11-24T14:15:43.280143+00:00"
- },
- {
   "asin": "ali-1005008993557730",
   "title": "SOLOKING GKA300 Baitcasting Reel Sea Fishing Power Handle 9.5KG Drag Force 6.4 Gear Ratio Brass Gear Deep Spool Fishing Reel",
   "title_he": "SOLOKING GKA300 Baitcasting Reel ידית כוח דיג ים 9.5KG כוח גרירה 6.4 יחס הילוך פליז ציוד דיג סליל עמוק",
@@ -1163,5 +1134,34 @@
   "category_en": "Hanukkah gifts",
   "category_he": "מתנות לחנוכה",
   "posted_at": "2026-11-25T13:31:24.201692+00:00"
+ },
+ {
+  "asin": "B0FK1C3GDW",
+  "title": "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide",
+  "title_he": "Owala FreeSip Sway בקבוק מים מפלדת אל חלד 40 oz Foggy Tide",
+  "price": "$40.62",
+  "was": "$44.99",
+  "discount": "10%",
+  "rating": "4.6",
+  "reviews": "14,894",
+  "rank": 2,
+  "source": "bestsellers",
+  "message_id": 1017,
+  "image": "https://m.media-amazon.com/images/I/61s+DOVawZL._AC_SL1500_.jpg",
+  "variant": 200,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1017,
+   1018,
+   1019
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "sporting-goods",
+  "category_en": "Sports & Outdoors",
+  "category_he": "ספורט וטבע",
+  "posted_at": "2026-11-25T14:04:48.778672+00:00"
  }
 ]
