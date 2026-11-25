@@ -1289,6 +1289,11 @@ def giveaway_draw(state):
     tg_owner("⚠️ Giveaway draw: no eligible entrants found.")
 
 
+def all_focus():
+    """config "focus" (NeeDoh) plus "focus_extra" (e.g. brand fashion), each with its own hours."""
+    return [f for f in [CONFIG.get("focus") or {}] + list(CONFIG.get("focus_extra", [])) if f.get("hours")]
+
+
 def focus_ali(fc, st):
     """Focus fallback on AliExpress (Matt, Nov 22): well-reviewed "brand-style" items, labelled as such."""
     a = fc.get("aliexpress") or {}
@@ -1353,11 +1358,15 @@ def pick_details(pick, amz_factory):
         amz = amz_factory()
         if not amz:
             return None
-        fc = CONFIG.get("focus", {})
+        fc = next((f for f in all_focus() if f.get("name") == pick.get("id")), CONFIG.get("focus", {}))
         st = load_json(STATE_FILE, {}) if not isinstance(pick.get("_state"), dict) else pick["_state"]
         recent_days = fc.get("repost_days", 14)
         seen = []
-        for q in fc.get("queries", []):
+        qs = list(fc.get("queries", []))
+        if fc.get("queries_per_run"):  # big query lists (fashion): a random few each time, for variety
+            random.shuffle(qs)
+            qs = qs[:fc["queries_per_run"]]
+        for q in qs:
             for asin, title in amz.search_all(q, fc.get("require_any", [])):
                 if asin in seen or (fc.get("avoid") and re.search(fc["avoid"], title, re.I)):
                     continue
@@ -1706,17 +1715,17 @@ def main():
             state["scheduled_picks_done"] = sorted(done | {sp["sid"]})
             done.add(sp["sid"])
     # focus brand (config "focus"): a few posts a day at fixed Israel hours, ahead of the normal mix
-    fc = CONFIG.get("focus") or {}
-    if fc.get("hours"):
-        today, hr = israel_now().date().isoformat(), israel_now().hour
-        fdone = set(state.get("focus_done", []))
+    today, hr = israel_now().date().isoformat(), israel_now().hour
+    fdone = set(state.get("focus_done", []))
+    for fc in all_focus():
+        tag = "" if fc is CONFIG.get("focus") else re.sub(r"\W+", "-", fc.get("name", "x")).lower() + "-"
         for h in fc["hours"]:
-            sid = f"focus-{today}-{h}"
+            sid = f"focus-{tag}{today}-{h}"
             if hr >= h and sid not in fdone and not any(x.get("sid") == sid for x in state.get("pick_queue", [])):
                 state.setdefault("pick_queue", []).append({"store": "amazon_focus", "id": fc.get("name", "focus"),
                                                               "url": "focus", "over_cap_ok": True, "sid": sid, "focus": True})
                 fdone.add(sid)
-        state["focus_done"] = sorted(fdone)[-30:]
+    state["focus_done"] = sorted(fdone)[-60:]
     # Matt's own picks (links he sent the bot) go first
     pk = None
     if due and not targeted and not OWNER_TEST and state.get("pick_queue"):

@@ -2763,5 +2763,65 @@
     20
   ],
   "promo_bf_until": "2026-11-29",
-  "pause_until": "2026-11-24T19:50:00+00:00"
+  "pause_until": "2026-11-24T19:50:00+00:00",
+  "focus_extra": [
+    {
+      "name": "Brand fashion",
+      "hours": [
+        9,
+        13,
+        17
+      ],
+      "repost_days": 30,
+      "queries_per_run": 3,
+      "queries": [
+        "Levi's men's jeans",
+        "Levi's women's jeans",
+        "Tommy Hilfiger men's jacket",
+        "Tommy Hilfiger women's sweater",
+        "Calvin Klein men's t-shirt",
+        "Calvin Klein women's top",
+        "Columbia men's jacket",
+        "Columbia women's fleece jacket",
+        "The North Face women's jacket",
+        "The North Face men's jacket",
+        "Carhartt men's t-shirt",
+        "Wrangler men's jeans",
+        "Lacoste men's polo",
+        "Under Armour women's hoodie",
+        "Nautica men's sweater",
+        "Guess women's jeans",
+        "adidas women's track jacket",
+        "Champion men's hoodie",
+        "Polo Ralph Lauren men's shirt",
+        "Dickies men's work pants",
+        "Lee Riders women's jeans",
+        "Timberland men's jacket"
+      ],
+      "require_any": [
+        "levi",
+        "tommy hilfiger",
+        "calvin klein",
+        "columbia",
+        "north face",
+        "carhartt",
+        "wrangler",
+        "lacoste",
+        "under armour",
+        "nautica",
+        "guess",
+        "adidas",
+        "champion",
+        "ralph lauren",
+        "dickies",
+        "nike",
+        "puma",
+        "timberland",
+        "hanes",
+        "ralph lauren",
+        "lee jeans"
+      ],
+      "avoid": "\\b(kids?|boys?|girls?|toddler|baby|infant|youth|costume|toy)\\b"
+    }
+  ]
 }
