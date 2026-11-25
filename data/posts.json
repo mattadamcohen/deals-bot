@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005009759780480",
-  "title": "Space Saving 2 Tier Under Sink Organizer,Pull Out Storage Box Durable Large Capacity Kitchen Bathroom Essential Drawer Organizer",
-  "title_he": "חיסכון במקום ארגונית 2 קומות מתחת לכיור, קופסת אחסון עמידה קיבולת גדולה ארגונית מגירה חיונית למטבח",
-  "price": "$5.94",
-  "was": "$15.81",
-  "discount": "62%",
-  "rating": "90.7%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 948,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8c76ff4ef00417587b77558a559a044d.jpg",
-  "variant": 202,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mnbuOxi2rYlZ8HyxUgyVHO06wWob4l4Ps11FufQeh6oDvSrN1XWVpxorom1rSB61EqAEFHL2UvB1Q1V0VILqVa7h6ZmD6V9PD9eR4LNHoAPr3gyboMGCEudNPbsWicKcUmPBi81ppWSZ2uHcBUk8dT9LNAeeFVZzOMQr6xniESqXFrKZujIdJ51tqe4iagoOIZ8a0LHVr5yhkyVEgLtnyYC9qsPP9s9SU2S0TDvNPtvaSnUgn2vqlDQlTvOGlBkP4jziVf8etdmUpf1HYn92T7jHd0wCMAplG7JB9LJk8F3r07lRpe1AxoXBqgMZVMtQLCRfBD33ErPKTsmJqM0bgNPA1rF5qnbiIVVhHfjnjZDFURq4GK4orvKqFygjnUqUzQmNePZIXj8XHdl59GVFyxu0lY6WYMIbYQzLpu2DyPmgwI1Dnr17c4kJi63Dwz8EPMJeGMBG0U7sMWkRUhL0IKIpR4R5EY7DZQ2J4EO5eFNpwLAEtTpP9NRrNcWbXL0n5vVKSPuAjtICCUxubtZpky1uMtN8UaCwbbwEeYgG3Tc9veLaomEAiCbp4Q0eJmuV3MTFKTsTIXSw3uDyYTSjeatlkW9IDG3pvU05P739Py2hn4LjFyIA9UFkgug0rTiGsHZUV7NZ5PhghHnlaaBb3b5eYV2QUFw3LQJXUQ6P93gmZcYvFgo8sKW6rz5TM6DWp94L6V6EnSGgu",
-  "sold": "5,000",
-  "album_ids": [
-   948,
-   949,
-   950
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/fridge organizer",
-  "category_en": "Kitchen storage",
-  "category_he": "אחסון למטבח",
-  "posted_at": "2026-11-25T05:45:58.766728+00:00"
- },
- {
   "asin": "ali-1005011822737841",
   "title": "Makita 18V Brushless Drill Driver DDF487 High Torque Screwdriver For Indoor Mounting Household Maintenance Jobs",
   "title_he": "מברג מקיטה 18V ללא מברשות DDF487 מברג מומנט גבוה להרכבה פנימית עבודות תחזוקה ביתיות",
@@ -1158,5 +1129,34 @@
   "category_en": "Automotive",
   "category_he": "רכב",
   "posted_at": "2026-11-25T19:30:54.774988+00:00"
+ },
+ {
+  "asin": "B0D3692N4F",
+  "title": "Dickies Mens Loose Fit Double Knee Work Pants",
+  "title_he": "מכנסי עבודה כפולים ברכיים של Dickies Mens Loose Fit",
+  "price": "$24.49",
+  "was": "$34.99",
+  "discount": "30%",
+  "rating": "4.4",
+  "reviews": "2,229",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1068,
+  "image": "https://m.media-amazon.com/images/I/515ha7C4U0L._AC_SL1500_.jpg",
+  "variant": 790,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1068,
+   1069,
+   1070
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/c0ed236a-2411-4e40-bcc8-1e5f969620ec.mp4/productVideoOptimized.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-25T19:46:12.924460+00:00"
  }
 ]

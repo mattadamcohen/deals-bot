@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 42
+  "2026-11-25": 43
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -84,6 +84,7 @@
   "B0GK125F3B": "2026-11-21T09:34:00.657935+00:00",
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
+  "B0GR574X4L": "2026-11-25T19:46:12.926997+00:00",
   "B0GVL5W1BZ": "2026-11-24T15:30:55.738330+00:00",
   "B0GWHQPFS2": "2026-11-24T12:31:01.926835+00:00",
   "B0GWMM2QRN": "2026-11-24T10:31:25.532727+00:00",
@@ -211,6 +212,7 @@
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "ddpai dash cam n": "2026-11-22T07:45:46.251648+00:00",
   "denokin portable espresso coffee": "2026-11-21T06:01:01.176222+00:00",
+  "dickies loose fit double": "2026-11-25T19:46:12.927002+00:00",
   "digital camera p vedio": "2026-11-25T14:30:58.408646+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
@@ -515,7 +517,10 @@
   "focus-2026-11-25-10",
   "focus-2026-11-25-11",
   "focus-2026-11-25-14",
-  "focus-2026-11-25-19"
+  "focus-2026-11-25-19",
+  "focus-brand-fashion-2026-11-25-13",
+  "focus-brand-fashion-2026-11-25-17",
+  "focus-brand-fashion-2026-11-25-9"
  ],
  "giveaway_entries": {
   "1125221452": {
@@ -799,7 +804,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-25T19:30:54.776896+00:00",
+ "last_post_at": "2026-11-25T19:46:12.926711+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1573,6 +1578,22 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
+  },
+  {
+   "focus": true,
+   "id": "Brand fashion",
+   "over_cap_ok": true,
+   "sid": "focus-brand-fashion-2026-11-25-13",
+   "store": "amazon_focus",
+   "url": "focus"
+  },
+  {
+   "focus": true,
+   "id": "Brand fashion",
+   "over_cap_ok": true,
+   "sid": "focus-brand-fashion-2026-11-25-17",
+   "store": "amazon_focus",
+   "url": "focus"
   }
  ],
  "posted": {
@@ -1668,6 +1689,7 @@
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0CZJMQXSY": "2026-11-25T18:19:10.654476+00:00",
+  "B0D3692N4F": "2026-11-25T19:46:12.908778+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
   "B0D8HYLBFS": "2026-11-19T05:30:57.561688+00:00",
   "B0D9RPX853": "2026-11-17T19:46:09.833335+00:00",
@@ -1957,10 +1979,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/aroma diffuser",
   "pick",
   "aliexpress/building blocks set",
-  "automotive"
+  "automotive",
+  "pick"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1971,17 +1993,16 @@
   "automotive"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "kids",
   "beauty",
   "home",
   "fashion",
   "kids",
-  "car"
+  "car",
+  "fashion"
  ],
  "recent_titles": [
-  "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players",
   "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable",
   "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men",
   "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men",
@@ -1992,7 +2013,8 @@
   "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
   "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
-  "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in"
+  "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
+  "Dickies Mens Loose Fit Double Knee Work Pants"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2033,6 +2055,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136223
 }
