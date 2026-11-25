@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0BRMYHMS5",
-  "title": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask",
-  "title_he": "מסכת עטיפה של medicube קולגן - מסיכת פילינג לפנים ללילה",
-  "price": "$13.30",
-  "was": "",
-  "discount": "30%",
-  "rating": "4.5",
-  "reviews": "26,950",
-  "rank": 21,
-  "source": "bestsellers",
-  "message_id": 883,
-  "image": "https://m.media-amazon.com/images/I/61occWCJN-L._SL1500_.jpg",
-  "variant": 468,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   883,
-   884,
-   885
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d6002198-0c6b-4c33-b6d7-f4bd9496a38c/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-24T13:01:00.220284+00:00"
- },
- {
   "asin": "ali-1005012649943924",
   "title": "MK6025 NEW Technical Classic Performance RB21 White Sports Car Building Blocks MOC DIY Assembly Model Set Boys Toy Gift",
   "title_he": "MK6025 חדש טכני קלאסי ביצועים RB21 לבן מכונית ספורט אבני בניין MOC DIY דגם הרכבה סט מתנה צעצוע לבנים",
@@ -1163,5 +1134,34 @@
   "category_en": "Beauty",
   "category_he": "טיפוח",
   "posted_at": "2026-11-25T12:01:57.194064+00:00"
+ },
+ {
+  "asin": "ali-1005012873002832",
+  "title": "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY",
+  "title_he": "Makita DTD173 כחול 18V ללא מברשות אלחוטי נהג אימפקט 180Nm 3600RPM כלי יד להרכבת עץ עשה זאת בעצמך ביתי",
+  "price": "$38.77",
+  "was": "$87.76",
+  "discount": "55%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1005,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf98981e788c14fcfa6009b4bd99be43bX.jpg",
+  "variant": 195,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EHAnrih3yPQm6vm5xhAAjnEwqFRHmTTXcP6jzaFR0uJyDbJDdb3kpWYwm884g8ISCEIYyv4o9KBp8K0NFm2NqjEjYsHKFshPU7TRQXW9sCjmILq6MfUe9g60EigMs0FJcNhJDWoT5WXIRkPa6b1Bbhct3UF20Z5IGDr3WQh0cxjS6SZVGKVXvBXxNKBEGLgpMEFT4y0IPVL9yidXV84vwoKrzBvheVioVMbOnJR3JwGlFyyvp875cdbtSxa7GjVajHevMVJ6UXybRKGXDlqbQiYD1F9gk29rLjbsBCKW5E10Q93W3ubIEzVqi6vXtdPXajMxBrk0zlv4P4tfnHscbfm9v5PcOfDmbckH4ykhZCWUNAcGiM43rIFsEi0Y0Vyqx6gvnAmJT230FUUGayn5DxIFZhlqELizg6kCl2xQlY30HpWJ7a49aroZaYbnWalf2Xaj0qWhD15GDiNTDaHSCDu0VJBv3i4lK8VW6N8BMuORRTcx9KI3P2V0EEoGpYeweAEFYx2nQwHWdfsQWgaiSH9CT2BA9fBnhDryphP8saMqbjtAXTjyx5vvvGOHY37w4LKYETGa3rKRuU8eo3NCSidGOrsHCsloDiK65hZG94x1lLpdGKFeVENBnxUVCJgr2sN9SGck7y6Qh7MZOFAFD28Hk2m2G9bMnhN8z18izrwzPwUqj6fOK06dN7LlvlJLumv2vuiGhmO6F",
+  "sold": "775",
+  "album_ids": [
+   1005,
+   1006,
+   1007
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/cordless drill brushless",
+  "category_en": "Tools",
+  "category_he": "כלי עבודה",
+  "posted_at": "2026-11-25T12:31:06.294671+00:00"
  }
 ]
