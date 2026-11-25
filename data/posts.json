@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0B73XM8ZB",
-  "title": "Push Up Board, Portable PushUp Board, Foldable 20 in 1 Push Up Bar",
-  "title_he": "לוח Push Up, לוח PushUp נייד, מתקפל 20 ב-1 Push Up Bar",
-  "price": "$25.83",
-  "was": "$31.99",
-  "discount": "19%",
-  "rating": "4.5",
-  "reviews": "6,258",
-  "rank": 23,
-  "source": "bestsellers",
-  "message_id": 877,
-  "image": "https://m.media-amazon.com/images/I/71PEbWkLmoL._AC_SL1500_.jpg",
-  "variant": 751,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   877,
-   878,
-   879
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3735433a-3c65-48da-bddf-fa2fa3d1de7d/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "sporting-goods",
-  "category_en": "Sports & Outdoors",
-  "category_he": "ספורט וטבע",
-  "posted_at": "2026-11-24T12:31:01.924819+00:00"
- },
- {
   "asin": "ali-1005013129535972",
   "title": "Magnetic Screwdriver Set Phillips Flat Head Non‑Slip Handle Multi‑Size Hand Screwdrivers Kit for Home ApplianceElectronicsRepair",
   "title_he": "ערכת מברגים מגנטיים פיליפס ראש שטוח ידית מונעת החלקה ערכת מברגים ידניים בגדלים רבים לתיקון מכשירי חשמל ביתיים",
@@ -1163,5 +1134,34 @@
   "category_en": "Coffee & kitchen",
   "category_he": "קפה ומטבח",
   "posted_at": "2026-11-25T11:30:55.446863+00:00"
+ },
+ {
+  "asin": "ali-1005010530053881",
+  "title": "DIY Assemble Magnetic Track Train Toys for Kids Electronic Magical Rail Car Construction Children Educational Toy Christmas Gift",
+  "title_he": "עשה זאת בעצמך להרכיב צעצועי רכבת מסלול מגנטי לילדים בניית רכבת רכבת קסומה אלקטרונית צעצוע חינוכי לילדים",
+  "price": "$42.59",
+  "was": "$85.18",
+  "discount": "50%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 999,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S966edfa9f97b49eead4d83dda2ceb02fI.jpg",
+  "variant": 56,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o3XQJ6SnzXy9eXZ9N4B5fcd8EpSWJ4VI4B1lFI3wmjefjfGkAVR4XPc7Ef05F408yR9m78tQrNjK9je56u4RtXPFvMXxb6k6ELds3abDeFHBkdw5OAT6fsvsxuvA5IwxN5DofCZABQMKggVLpVIgGK5ic6CKCmGsfIJuUI0s36RHlvx6nnIyoGk0KJ8bmjUSUVu2oyYENXEOqkIPL4E4zM3DLDBvEnAM250OBqXANvfeGGDBAO3kSkxk5G5hsMCVlVpzrVq3QhNAUcfbUY1J8YoVsVWOnDeUpl3UwxmC9NZUQ0k23gIgcypVosVCHPhwu431ABzTWXixz6t8C8a1Ocp7SDyiJIsJhkJXyy3RmQBrUnuUwcFXzGGnO1IRmfTn0UMzEdGmAThXeY1u6lLwKz44e23GDRCQoelqwnUhCZXr36E5e7i2zqY26wdyouYs4hHfNzMQpCH5kdGp9pt6CHXewczi0CSEIpPAftjKkfav4iSYB4P7RIRtKKfwzJjkgyvPCYDkVKDVKVQs2GNdsumT8TAKbZFH9WbT7dbqO8eqCxA3oFp3N43LD00BQ9ZpANK8OdKFXibeEOHbvtPvaNoAkMncGib1BVpVQI1p1Bh7Lzm2g9B9verWSfbgRepJubvlTBhq73ySGH6xhYN46QgSLB8WJ8WQXzNb2KnUVQfYTsUBNh0NkwVRPQqcwVcFJTirGN3KoBHeR",
+  "sold": "651",
+  "album_ids": [
+   999,
+   1000,
+   1001
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/magnetic train track toy",
+  "category_en": "Kids toys",
+  "category_he": "צעצועים לילדים",
+  "posted_at": "2026-11-25T11:45:51.696089+00:00"
  }
 ]

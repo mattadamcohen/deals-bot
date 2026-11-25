@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 19
+  "2026-11-25": 20
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -203,6 +203,7 @@
   "denokin portable espresso coffee": "2026-11-21T06:01:01.176222+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
+  "diy assemble magnetic track": "2026-11-25T11:45:51.698061+00:00",
   "diy automatic doll machine": "2026-11-22T07:15:50.624225+00:00",
   "dotwise psi portable outdoor": "2026-11-24T15:01:21.189409+00:00",
   "duracell coppertop aa batteries": "2026-11-19T14:00:59.709488+00:00",
@@ -707,7 +708,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T09:34:06.063083+00:00",
- "last_post_at": "2026-11-25T11:30:55.449218+00:00",
+ "last_post_at": "2026-11-25T11:45:51.697879+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1626,6 +1627,7 @@
   "ali-1005010487272796": "2026-11-22T13:45:48.478789+00:00",
   "ali-1005010493813951": "2026-11-24T17:02:17.962882+00:00",
   "ali-1005010494917050": "2026-11-23T15:15:55.981299+00:00",
+  "ali-1005010530053881": "2026-11-25T11:45:51.654477+00:00",
   "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
@@ -1710,10 +1712,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen gadgets",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/cordless drill brushless",
-  "aliexpress/espresso accessories"
+  "aliexpress/espresso accessories",
+  "aliexpress/magnetic train track toy"
  ],
  "recent_groups": [
   "beauty",
@@ -1724,17 +1726,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kitchen",
   "tech",
   "home",
   "kids",
   "kitchen",
   "tech",
   "home",
-  "kitchen"
+  "kitchen",
+  "kids"
  ],
  "recent_titles": [
-  "2PCS Kids Video Walkie Talkies USB Charging Indoor and Outdoor High Definition Intercom Children's Toys Birthday Gifts Ages 3-12",
   "\u3010New\u301170mai A210 Dash Cam 1080P HDR Night Vision Support Dual-Channel Supercapacitor Built-in GPS Wi-Fi6 24H Parking Surveillance",
   "19 Inch Realistic Finished Reborn Doll Soft Vinyl Cloth Body Doll LouLou Handmade Toy For Christmas Gift",
   "LED Solar Lights Outdoor Waterproof External Solar Lamp Motion Sensor Garden Lights Solar Power Sunlight Yard Wall Street Light",
@@ -1745,7 +1746,8 @@
   "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
   "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
   "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack",
-  "Coffee Knock Box Espresso Grounds Container Anti Slip Espresso Dump Bin Grind Breville Barista Goods Cafe Bar Accessories"
+  "Coffee Knock Box Espresso Grounds Container Anti Slip Espresso Dump Bin Grind Breville Barista Goods Cafe Bar Accessories",
+  "DIY Assemble Magnetic Track Train Toys for Kids Electronic Magical Rail Car Construction Children Educational Toy Christmas Gift"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
