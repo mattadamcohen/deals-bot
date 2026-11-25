@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 39
+  "2026-11-25": 40
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -28,7 +28,7 @@
   "B0CL9KDMYD": "2026-11-24T12:02:22.390815+00:00",
   "B0CLGS21T3": "2026-11-21T17:00:59.384628+00:00",
   "B0CS1ZBFXR": "2026-11-25T16:45:53.588873+00:00",
-  "B0CTL2PTWK": "2026-11-24T13:34:08.660472+00:00",
+  "B0CTL2PTWK": "2026-11-25T19:01:09.425942+00:00",
   "B0CYGCLR96": "2026-11-21T15:00:57.312819+00:00",
   "B0CZGWS9MV": "2026-11-16T19:49:00.788634+00:00",
   "B0CZLLQN45": "2026-11-17T13:31:29.829628+00:00",
@@ -391,7 +391,7 @@
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
   "professional aroma diffuser electric": "2026-11-25T18:45:55.594790+00:00",
   "project cloud sandals genuine": "2026-11-25T17:01:07.519629+00:00",
-  "puma voltaic evo cross": "2026-11-24T13:34:08.660480+00:00",
+  "puma voltaic evo cross": "2026-11-25T19:01:09.425950+00:00",
   "push up board": "2026-11-24T12:31:01.926840+00:00",
   "quartz watch luxury women": "2026-11-23T13:01:33.084305+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
@@ -782,7 +782,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-25T18:45:55.594638+00:00",
+ "last_post_at": "2026-11-25T19:01:09.425572+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1449,17 +1449,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-25T19:00:00+00:00",
-   "id": "B0CL7JYSP5",
-   "not_before": "2026-11-25T19:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-B0CL7JYSP5",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0CL7JYSP5"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T06:00:00+00:00",
    "id": "B0CLQDBRD2",
    "not_before": "2026-11-26T06:00:00+00:00",
@@ -1653,6 +1642,7 @@
   "B0C9SS3W9K": "2026-11-23T07:01:06.786453+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
+  "B0CL7JYSP5": "2026-11-25T19:01:09.407757+00:00",
   "B0CL7L523F": "2026-11-24T13:34:08.616792+00:00",
   "B0CLGNYKFR": "2026-11-21T17:00:59.256447+00:00",
   "B0CQ8RSTDW": "2026-11-21T11:30:57.438982+00:00",
@@ -1948,10 +1938,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/led light room decor",
   "aliexpress/kids toys",
   "beauty/11060451",
-  "aliexpress/aroma diffuser"
+  "aliexpress/aroma diffuser",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -1962,17 +1952,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "home",
   "sport",
   "other",
   "tech",
   "home",
   "kids",
   "beauty",
-  "home"
+  "home",
+  "fashion"
  ],
  "recent_titles": [
-  "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
   "JAKAH Professional Electricians Tool Pouch,Multi-pocket Ergonomic Rubber Handle, Padded Shoulder Strap Black Green JK-208",
   "SERVO S27 Mini 4G LTE Smartphone 4.0\" Display Android 3GB RAM 64GB ROM Dual SIM Face Unlock GPS WiFi HD Camera Pocket Cell Phone",
   "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players",
@@ -1983,7 +1972,8 @@
   "LED Galaxy Projector Light Colorful Galaxy Sky Projector Bedroom Night Light Kids Room Decoration Christmas Party Decoration",
   "Taba Squishy Cheese Cube Stress Ball Shapeable Squeeze Ball Non Rebound Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
-  "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel"
+  "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
+  "PUMA Men's Voltaic Evo Cross Trainer Shoes"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2024,6 +2014,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136221
 }

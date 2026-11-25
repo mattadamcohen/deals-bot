@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005007010160781",
-  "title": "Backpack School Bag Girl Back Pack For Children Kid Child Teenager Female Class Schoolbag Primary Women Bagpack Teen Bookbag Kit",
-  "title_he": "תיק גב לילדה תיק גב לילדה ילד ילד נער מתבגר ילקוט כיתה נקבה ילקוט ראשי נשים תיק ערכת תיק ספרים לעשרה",
-  "price": "$22.75",
-  "was": "$46.90",
-  "discount": "51%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 939,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3f1d21e7c3d439b98c65916198d2cb3M.jpg",
-  "variant": 133,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mEHus17dMYG4zTXfRP9tIDygAFokWXVTe154FV0EAA2J3J6CQAdKXdQwPBU1Zan6JiD89WDyh2EKPnKBzMHeoxDIlPGZz0TvG6pcrimyfWlun672Kg9vdY3EVv4LtU5xzNwdFHFdxcJKEpbqPEshOpRsL60SAj8eNqz5MYDEgCZTi54lmWT5bt9oEWS9HXL0B2gV0R0GGSbWfnHCtjzKyPVK3eZKpeglB3lBz7jI3M9IVSJRf3twxKpiSSTPo2MiM1OlONMAQffJ50GpcOAocClSyllb2PjwrHcyksJPu0dKnl8F3kVEhONCeKEchTsJ7z4MBsVgQJ6yBadldxQFC4fgEzpta62saQoVNf6ey90kosgAuHUHS4Iw88F52ITCvI8uQVu4dWRG2LkGNRVw9MScVrIIM4dqksssdJO9KvlJnP6fbW6ZDLYfrBKVncxlCAAt24RhKwvRqHx1Vlp1P8ch7EvGbvMFN49AWjyblrUahzBBPWYR1VywRnCwIlUKxOkK4hl9Ks1LvRF5paFUh4iKJnAxLeoYeXq4RwDF0E7A3MxjgvN8KIq3RvoLc7Pqq7pdScHFuR39LakWgGSymtuV1su22gSj2XTL3zeuzq6euXmtUiWWHY7sl9QPbMw4quGAdMcBzw5osrejHiWNR9bEsDUD3lb4Z6FMxyz1jxSXPug5SUP82hlbnEUeGyyHDbOuzlv88jDn1",
-  "sold": "1,000",
-  "album_ids": [
-   939,
-   940,
-   941
-  ],
-  "coupon": "",
-  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2674417171/p/1/e/6/t/10301/1100172556741.mp4",
-  "category_slug": "aliexpress/kids school backpack",
-  "category_en": "School & office",
-  "category_he": "בית ספר ומשרד",
-  "posted_at": "2026-11-24T20:31:35.810674+00:00"
- },
- {
   "asin": "B00STAYV6C",
   "title": "Fossil Men's Watch, Grant Quartz Chronograph Watch",
   "title_he": "שעון גברים Fossil, שעון כרונוגרף גרנט קוורץ",
@@ -1163,5 +1134,34 @@
   "category_en": "Home decor",
   "category_he": "עיצוב הבית",
   "posted_at": "2026-11-25T18:45:55.592390+00:00"
+ },
+ {
+  "asin": "B0CL7JYSP5",
+  "title": "PUMA Men's Voltaic Evo Cross Trainer Shoes",
+  "title_he": "נעלי PUMA Cross Trainer Voltaic Evo לגברים",
+  "price": "$41.79",
+  "was": "$85.00",
+  "discount": "51%",
+  "rating": "4.5",
+  "reviews": "3,630",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1059,
+  "image": "https://m.media-amazon.com/images/I/51R58Jw4wOL._AC_SL1001_.jpg",
+  "variant": 575,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1059,
+   1060,
+   1061
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-25T19:01:09.423571+00:00"
  }
 ]
