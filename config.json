@@ -747,9 +747,9 @@
     "magsafe": 10,
     "wireless charger": 10,
     "earbuds": 10,
-    "squish": 25,
-    "stress ball": 15,
-    "fidget": 10,
+    "squish": 12,
+    "stress ball": 8,
+    "fidget": 6,
     "screen extender": 25,
     "monitor extender": 25,
     "portable monitor": 25,
@@ -843,13 +843,13 @@
       "q": "squishy toy",
       "en": "Squishies",
       "he": "סקווישים",
-      "weight": 4
+      "weight": 2
     },
     {
       "q": "fidget toy",
       "en": "Fidget toys",
       "he": "צעצועי פידג'ט",
-      "weight": 2
+      "weight": 1
     },
     {
       "q": "building blocks set",
@@ -1179,25 +1179,25 @@
       "q": "squishy advent calendar",
       "en": "Squishies",
       "he": "סקווישים",
-      "weight": 2
+      "weight": 1
     },
     {
       "q": "squishy surprise box",
       "en": "Squishies",
       "he": "סקווישים",
-      "weight": 2
+      "weight": 1
     },
     {
       "q": "squishy blind box",
       "en": "Squishies",
       "he": "סקווישים",
-      "weight": 2
+      "weight": 1
     },
     {
       "q": "squishy set",
       "en": "Squishies",
       "he": "סקווישים",
-      "weight": 2
+      "weight": 1
     },
     {
       "q": "Pop Mart",
@@ -2608,8 +2608,7 @@
     ],
     "avoid": "compatible|like needoh|similar to|alternative",
     "hours": [
-      10,
-      14,
+      11,
       19
     ],
     "repost_days": 14,
