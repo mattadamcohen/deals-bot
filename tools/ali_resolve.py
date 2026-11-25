@@ -30,12 +30,22 @@ for url in os.environ.get("URLS", "").split():
     pid = product_id(url)
     if not pid:
         continue
-    res = aliexpress.call("aliexpress.affiliate.productdetail.get", product_ids=pid, target_currency="USD",
-                          target_language="EN", country="IL", tracking_id=aliexpress.TRACKING_ID)
+    import time
+    for attempt in range(4):  # the API allows ~1 call a second
+        try:
+            time.sleep(2)
+            res = aliexpress.call("aliexpress.affiliate.productdetail.get", product_ids=pid, target_currency="USD",
+                                  target_language="EN", country="IL", tracking_id=aliexpress.TRACKING_ID)
+            break
+        except aliexpress.AliError as e:
+            if "ApiCallLimit" not in str(e) or attempt == 3:
+                raise
+            time.sleep(3)
     prods = aliexpress._products(res)
     if not prods:
         print("no affiliate data for", pid, str(res)[:300]); continue
     p = prods[0]
+    time.sleep(2)
     p["short_link"] = aliexpress.link(f"https://www.aliexpress.com/item/{pid}.html")
     p["source_url"] = url
     (OUT / f"{pid}.json").write_text(json.dumps(p, ensure_ascii=False, indent=1))
