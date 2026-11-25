@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 13
+  "2026-11-25": 14
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -306,6 +306,7 @@
   "magnetic train set diy": "2026-11-20T10:01:05.815649+00:00",
   "magnetic train toy for": "2026-11-19T15:01:01.313672+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
+  "makita original ddf v": "2026-11-25T09:01:42.747490+00:00",
   "makita v brushless drill": "2026-11-25T06:01:00.926737+00:00",
   "mayjam set essential oils": "2026-11-24T15:45:53.336470+00:00",
   "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
@@ -700,7 +701,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T05:04:39.694657+00:00",
- "last_post_at": "2026-11-25T08:46:11.904429+00:00",
+ "last_post_at": "2026-11-25T09:01:42.747330+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1617,6 +1618,7 @@
   "ali-1005010572746398": "2026-11-25T07:00:58.066085+00:00",
   "ali-1005010576787767": "2026-11-23T20:01:08.036088+00:00",
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
+  "ali-1005010706581894": "2026-11-25T09:01:42.669224+00:00",
   "ali-1005010706584898": "2026-11-25T08:46:11.841160+00:00",
   "ali-1005010706887346": "2026-11-25T08:30:53.339330+00:00",
   "ali-1005010724501614": "2026-11-24T16:01:32.465190+00:00",
@@ -1693,10 +1695,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/plush toy",
   "aliexpress/solar garden lights outdoor",
   "aliexpress/kitchen gadgets",
-  "aliexpress/power bank"
+  "aliexpress/power bank",
+  "aliexpress/cordless drill brushless"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1707,17 +1709,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "tech",
   "kitchen",
   "home",
   "car",
   "kids",
   "home",
   "kitchen",
-  "tech"
+  "tech",
+  "home"
  ],
  "recent_titles": [
-  "FIFINE USB/XLR Dynamic Microphone with RGB Control/Headphone jack/Mute,MIC for PC Gaming Recording Streaming AmpliGame-AM8",
   "Space Saving 2 Tier Under Sink Organizer,Pull Out Storage Box Durable Large Capacity Kitchen Bathroom Essential Drawer Organizer",
   "Makita 18V Brushless Drill Driver DDF487 High Torque Screwdriver For Indoor Mounting Household Maintenance Jobs",
   "5-20pcs Glow in the Dark Bouncy Balls Rubber Stress Relief Toys for Kids Birthday Party Favor Valentine Gifts Classroom Prizes",
@@ -1728,7 +1729,8 @@
   "19 Inch Realistic Finished Reborn Doll Soft Vinyl Cloth Body Doll LouLou Handmade Toy For Christmas Gift",
   "LED Solar Lights Outdoor Waterproof External Solar Lamp Motion Sensor Garden Lights Solar Power Sunlight Yard Wall Street Light",
   "Fermented Glass Weights Clear with Handle Wide Mouth Mason Jar Lid Sealed Kitchen Gadgets Heavy Fermenting Weights Kimchi Making",
-  "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor"
+  "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
+  "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
