@@ -2772,7 +2772,7 @@
         13,
         17
       ],
-      "repost_days": 30,
+      "repost_days": 7,
       "queries_per_run": 3,
       "queries": [
         "Levi's men's jeans",
