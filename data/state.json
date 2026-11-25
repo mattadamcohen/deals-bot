@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 28
+  "2026-11-25": 29
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -271,6 +271,7 @@
   "iphone charger fast charging": "2026-11-23T14:05:33.168604+00:00",
   "j ver dress shirts": "2026-11-23T14:05:33.168577+00:00",
   "jacquard peacock novelty design": "2026-11-18T12:31:51.269576+00:00",
+  "jakah professional electricians tool": "2026-11-25T15:01:09.626908+00:00",
   "jkuoo car jump starter": "2026-11-24T10:15:56.687739+00:00",
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "k poe ip camera": "2026-11-22T10:16:11.061535+00:00",
@@ -723,7 +724,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T14:45:47.410955+00:00",
+ "last_post_at": "2026-11-25T15:01:09.626687+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1666,6 +1667,7 @@
   "ali-1005010572746398": "2026-11-25T07:00:58.066085+00:00",
   "ali-1005010576787767": "2026-11-23T20:01:08.036088+00:00",
   "ali-1005010606760672": "2026-11-17T14:31:33.179063+00:00",
+  "ali-1005010653263794": "2026-11-25T15:01:09.552286+00:00",
   "ali-1005010706581894": "2026-11-25T09:01:42.669224+00:00",
   "ali-1005010706584898": "2026-11-25T08:46:11.841160+00:00",
   "ali-1005010706887346": "2026-11-25T08:30:53.339330+00:00",
@@ -1745,10 +1747,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/gift for women",
   "sporting-goods",
   "aliexpress/kids instant print camera",
-  "fashion/1040658"
+  "fashion/1040658",
+  "aliexpress/tool bag"
  ],
  "recent_groups": [
   "wireless",
@@ -1759,17 +1761,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "beauty",
   "home",
   "tech",
   "car",
   "home",
   "sport",
   "tech",
-  "fashion"
+  "fashion",
+  "home"
  ],
  "recent_titles": [
-  "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
   "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack",
   "Coffee Knock Box Espresso Grounds Container Anti Slip Espresso Dump Bin Grind Breville Barista Goods Cafe Bar Accessories",
   "DIY Assemble Magnetic Track Train Toys for Kids Electronic Magical Rail Car Construction Children Educational Toy Christmas Gift",
@@ -1780,7 +1781,8 @@
   "A Pair of Brown Plush Capybara Animal-Patterned Furry Home Slippers with Soft Soles, Comfortable and Warm, Non-Slip Indoor Slippers Suitable for Men and Women, Lightweight, Silent, and Comfortable Shoes, the Perfect Holiday Gift Choice",
   "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide",
   "Kids Digital Camera 1080P Vedio Thermal Instant Print Camera With 32G For Girls Boys Age 3-12 Best Christmas Birthday Gifts",
-  "Wrangler Men's Relaxed Fit Stretch Cargo Pant"
+  "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
+  "JAKAH Professional Electricians Tool Pouch,Multi-pocket Ergonomic Rubber Handle, Padded Shoulder Strap Black Green JK-208"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1808,6 +1810,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136215
 }
