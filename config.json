@@ -2711,6 +2711,28 @@
       "not_before": "2026-11-26T17:30:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1125b-B0FMPL7CBN"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005009353113123",
+      "require": [],
+      "alt": [],
+      "url": "https://s.click.aliexpress.com/e/_c3yXq4El",
+      "at": "2026-11-25T20:30:00+00:00",
+      "not_before": "2026-11-25T20:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-emeet"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005009012821000",
+      "require": [],
+      "alt": [],
+      "url": "https://s.click.aliexpress.com/e/_c3v3dmBJ",
+      "at": "2026-11-25T20:50:00+00:00",
+      "not_before": "2026-11-25T20:50:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-ditong"
     }
   ],
   "giftbox_alternate": true,
