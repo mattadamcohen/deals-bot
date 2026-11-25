@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 32
+  "2026-11-25": 33
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -27,6 +27,7 @@
   "B0CGGQQWD3": "2026-11-16T12:46:27.821697+00:00",
   "B0CL9KDMYD": "2026-11-24T12:02:22.390815+00:00",
   "B0CLGS21T3": "2026-11-21T17:00:59.384628+00:00",
+  "B0CS1ZBFXR": "2026-11-25T16:45:53.588873+00:00",
   "B0CTL2PTWK": "2026-11-24T13:34:08.660472+00:00",
   "B0CYGCLR96": "2026-11-21T15:00:57.312819+00:00",
   "B0CZGWS9MV": "2026-11-16T19:49:00.788634+00:00",
@@ -254,6 +255,7 @@
   "gps bike computer igpsport": "2026-11-24T17:30:59.545223+00:00",
   "grace stella award winning": "2026-11-20T07:33:58.796727+00:00",
   "hanes beefy-t cotton crewneck": "2026-11-17T06:01:17.389969+00:00",
+  "happy nuts comfort cream": "2026-11-25T16:45:53.588879+00:00",
   "herd mentality board game": "2026-11-25T15:30:57.727908+00:00",
   "hot cute assorted squishy": "2026-11-19T09:01:16.698013+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
@@ -743,7 +745,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T16:32:45.136069+00:00",
+ "last_post_at": "2026-11-25T16:45:53.588674+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1396,7 +1398,85 @@
   "B0HJSW1G3J": "2026-11-22T06:02:17.631013+00:00",
   "B0HJZP4VPJ": "2026-11-14T12:25:03.107449+00:00"
  },
- "pick_queue": [],
+ "pick_queue": [
+  {
+   "alt": [],
+   "at": "2026-11-25T17:00:00+00:00",
+   "id": "B0FX7MG53F",
+   "not_before": "2026-11-25T17:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0FX7MG53F",
+   "store": "amazon",
+   "url": "https://link.amazon/B0irk16ix"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-25T19:00:00+00:00",
+   "id": "B0CL7JYSP5",
+   "not_before": "2026-11-25T19:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0CL7JYSP5",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0CL7JYSP5"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T06:00:00+00:00",
+   "id": "B0CLQDBRD2",
+   "not_before": "2026-11-26T06:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0CLQDBRD2",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0CLQDBRD2"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T08:00:00+00:00",
+   "id": "B0H9XMRTKL",
+   "not_before": "2026-11-26T08:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0H9XMRTKL",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0H9XMRTKL"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T10:30:00+00:00",
+   "id": "B0FDX9T6DF",
+   "not_before": "2026-11-26T10:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0FDX9T6DF",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0FDX9T6DF"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T13:00:00+00:00",
+   "id": "B0DWXMVSRP",
+   "not_before": "2026-11-26T13:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0DWXMVSRP",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0DWXMVSRP"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T16:00:00+00:00",
+   "id": "B0D68XZY2S",
+   "not_before": "2026-11-26T16:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-B0D68XZY2S",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0D68XZY2S"
+  }
+ ],
  "posted": {
   "B000CBSNKQ": "2026-11-22T19:34:12.037819+00:00",
   "B000GAYQJ0": "2026-11-20T12:04:43.929256+00:00",
@@ -1430,6 +1510,7 @@
   "B07GQ8J4QX": "2026-11-15T05:46:42.354565+00:00",
   "B07KWSNTQR": "2026-11-24T12:02:22.351155+00:00",
   "B07PBXXNCY": "2026-11-15T05:02:05.967654+00:00",
+  "B07S1BNNYD": "2026-11-25T16:45:53.545177+00:00",
   "B07V4VFKKD": "2026-11-22T12:45:48.674388+00:00",
   "B07XXSYLL8": "2026-11-21T05:04:19.807607+00:00",
   "B07YH1SJ8V": "2026-11-17T08:01:21.499158+00:00",
@@ -1769,31 +1850,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/tool bag",
   "pick",
   "toys-and-games/166220011",
-  "aliexpress/vacuum storage bags"
+  "aliexpress/vacuum storage bags",
+  "sporting-goods"
  ],
  "recent_groups": [
-  "kitchen",
   "fashion",
   "toys-and-games",
   "sporting-goods",
   "fashion",
-  "toys-and-games"
+  "toys-and-games",
+  "sporting-goods"
  ],
  "recent_themes": [
-  "home",
   "sport",
   "tech",
   "fashion",
   "home",
   "tech",
   "kids",
-  "home"
+  "home",
+  "sport"
  ],
  "recent_titles": [
-  "SenCiciMen X9 Multi Hair Styler Curling Iron Hair Hot Air Brush Curling Barrel Hair Dryer Salon Professional Curly Hair Styler",
   "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY",
   "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset",
   "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
@@ -1804,12 +1884,20 @@
   "JAKAH Professional Electricians Tool Pouch,Multi-pocket Ergonomic Rubber Handle, Padded Shoulder Strap Black Green JK-208",
   "SERVO S27 Mini 4G LTE Smartphone 4.0\" Display Android 3GB RAM 64GB ROM Dual SIM Face Unlock GPS WiFi HD Camera Pocket Cell Phone",
   "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players",
-  "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable"
+  "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable",
+  "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
   "pick-1121-coffee-b",
   "pick-1121-monitor",
+  "pick-1125-B0CL7JYSP5",
+  "pick-1125-B0CLQDBRD2",
+  "pick-1125-B0D68XZY2S",
+  "pick-1125-B0DWXMVSRP",
+  "pick-1125-B0FDX9T6DF",
+  "pick-1125-B0FX7MG53F",
+  "pick-1125-B0H9XMRTKL",
   "pick-1125-servo-s27",
   "shot-1118-1",
   "shot-1118-2",
@@ -1833,6 +1921,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136217
 }
