@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005007857255208",
-  "title": "CENRR 998000PA Car Vacuum Cleaner Powerful Portable HandHeld Vacuum Cleaner For Car Wireless Cleaner Robot Car Accessories",
-  "title_he": "CENRR 998000PA שואב אבק לרכב רב עוצמה נייד כף יד שואב אבק לרכב שואב אלחוטי לרכב אביזרי רכב רובוט",
-  "price": "$31.28",
-  "was": "$72.74",
-  "discount": "56%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 820,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4e5a38f186542c2a188903d4c7eb2fb9.jpg",
-  "variant": 222,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FDiIAN4wJDMddEmUW1OMbueOMPqeUgoaJvVlO39cMAWql0ESKH9D3J2Mu5CixxUZebtf34EiLyFnjKbWo6aOy2MXlgwQHBiXbf53W35fsYR0K1zebgY4FNwK5426VO3BHpVCdLogjhYfFnEiXlD0yApWZc9haADTRiz9xFY5bBzTYwbMqPlvHolHjqURVt5797Doo6c5dcasGUqPOxJpwLFE3jRZajpLuvVobVhOEOGh06luvgQChNtVqY2O8gabLLIU8Hu8CIWfnsZlkOW4E124lPQHzv33rfuFBxusJBOxzghN966kpUXFWJ1b9Ag0onsEsuNbEOTnNp6M6mSIdoBr1X2FjaGlWOYX59F3XntIF9QO6SBIlaHSHuCqyJ9sIRqSKqPC0REAcpTQrTQLztiUxuYt2w6W5WzeNV4GZ5MhyIG515rydMUAglQ5OT1ByQRu31YBf6PWGEKGCqbF0k60sGMUol6WQ4rbrkR5wvRLclCXxCvTDEzROezCbbcIZofrl34qsoymdJNBvRErdfQvkPjVj2NFbpRPOi3nHxcAXAJUMaquZpnadR9aqntY09oR4HvJFIG7cw6uXE9tw1Pd9FfsUCRJufRoDAWOOWchpJRtDlo9gOaM8kJBr5EpAbiEuxGwmwLCEgmRvOJUFfl0VZfezlkxeDUwdn3hTRv75yckrmovJ7PzLFpKNXYf165BV6zKLYzsL",
-  "sold": "7,000",
-  "album_ids": [
-   820,
-   821,
-   822
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/car vacuum cleaner",
-  "category_en": "Car",
-  "category_he": "לרכב",
-  "posted_at": "2026-11-24T06:05:46.292410+00:00"
- },
- {
   "asin": "ali-1005006860959251",
   "title": "FIFINE RGB Gaming Headset with 7.1 Surround Sound/3-EQ/MIC,Over-ear Headphone with In-line Control for PC PS4 PS5 Ampligame-H6W",
   "title_he": "אוזניות גיימינג FIFINE RGB עם סאונד סראונד 7.1/3-EQ/MIC, אוזניות אוזניות עם שליטה פנימית למחשב PS4 PS5 Ampligame-H6W",
@@ -1158,5 +1129,34 @@
   "category_en": "School & office",
   "category_he": "בית ספר ומשרד",
   "posted_at": "2026-11-24T20:31:35.810674+00:00"
+ },
+ {
+  "asin": "B00STAYV6C",
+  "title": "Fossil Men's Watch, Grant Quartz Chronograph Watch",
+  "title_he": "שעון גברים Fossil, שעון כרונוגרף גרנט קוורץ",
+  "price": "$73.12",
+  "was": "$180.00",
+  "discount": "59%",
+  "rating": "4.7",
+  "reviews": "1,689",
+  "rank": 6,
+  "source": "bestsellers",
+  "message_id": 942,
+  "image": "https://m.media-amazon.com/images/I/81cfp4YcCtL._AC_SL1500_.jpg",
+  "variant": 154,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   942,
+   943,
+   944
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/2f4caa44-d58e-57ee-bca7-ccbd5b696c36/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+  "category_slug": "fashion/6358539011",
+  "category_en": "Men's Watches",
+  "category_he": "שעונים לגברים",
+  "posted_at": "2026-11-25T05:04:43.326051+00:00"
  }
 ]
