@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 26
+  "2026-11-25": 27
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -203,6 +203,7 @@
   "d'addario ej d phosphor": "2026-11-15T06:33:10.994432+00:00",
   "ddpai dash cam n": "2026-11-22T07:45:46.251648+00:00",
   "denokin portable espresso coffee": "2026-11-21T06:01:01.176222+00:00",
+  "digital camera p vedio": "2026-11-25T14:30:58.408646+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
   "diy assemble magnetic track": "2026-11-25T11:45:51.698061+00:00",
@@ -562,6 +563,12 @@
    "username": "Kfarsaba13",
    "via": "join"
   },
+  "547613085": {
+   "at": "2026-11-25T14:30:49.577098+00:00",
+   "name": "Ori Swid",
+   "username": "tomer206",
+   "via": "join"
+  },
   "6050563934": {
    "at": "2026-11-22T16:05:06.223124+00:00",
    "name": "Eran",
@@ -710,11 +717,12 @@
   "7959476928",
   "493107092",
   "7977085395",
-  "8430819053"
+  "8430819053",
+  "547613085"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T14:04:48.781064+00:00",
+ "last_post_at": "2026-11-25T14:30:58.408457+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1581,6 +1589,7 @@
   "ali-1005007857255208": "2026-11-24T06:05:46.229490+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005007904830534": "2026-11-24T08:45:57.104028+00:00",
+  "ali-1005007938071478": "2026-11-25T14:30:58.338140+00:00",
   "ali-1005007987706793": "2026-11-21T10:01:04.429315+00:00",
   "ali-1005007987710373": "2026-11-25T10:01:28.657555+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
@@ -1734,10 +1743,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/gaming headset",
   "aliexpress/dash cam",
   "aliexpress/gift for women",
-  "sporting-goods"
+  "sporting-goods",
+  "aliexpress/kids instant print camera"
  ],
  "recent_groups": [
   "fashion",
@@ -1748,17 +1757,16 @@
   "sporting-goods"
  ],
  "recent_themes": [
-  "kitchen",
   "kids",
   "beauty",
   "home",
   "tech",
   "car",
   "home",
-  "sport"
+  "sport",
+  "tech"
  ],
  "recent_titles": [
-  "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
   "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
   "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
   "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack",
@@ -1769,7 +1777,8 @@
   "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset",
   "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
   "A Pair of Brown Plush Capybara Animal-Patterned Furry Home Slippers with Soft Soles, Comfortable and Warm, Non-Slip Indoor Slippers Suitable for Men and Women, Lightweight, Silent, and Comfortable Shoes, the Perfect Holiday Gift Choice",
-  "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide"
+  "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide",
+  "Kids Digital Camera 1080P Vedio Thermal Instant Print Camera With 32G For Girls Boys Age 3-12 Best Christmas Birthday Gifts"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1797,6 +1806,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136214
+ "since_ali": 0,
+ "tg_offset": 260136215
 }
