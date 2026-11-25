@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DBF65JYY",
-  "title": "medicube PDRN Pink Peptide Serum with Salmon DNA, Firmer, Even-Looking Skin",
-  "title_he": "סרום פפטיד ורוד medicube PDRN עם DNA של סלמון, עור מוצק ואחיד יותר",
-  "price": "$13.23",
-  "was": "",
-  "discount": "30%",
-  "rating": "4.6",
-  "reviews": "27,823",
-  "rank": 11,
-  "source": "bestsellers",
-  "message_id": 862,
-  "image": "https://m.media-amazon.com/images/I/615DOoCI6xL._SL1500_.jpg",
-  "variant": 694,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   862,
-   863,
-   864
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ca94c349-2d3b-4bcb-9df0-1a67a39b015e/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-24T10:31:25.530968+00:00"
- },
- {
   "asin": "ali-1005009449232221",
   "title": "6/8Pcs Set Travel Bag Organizer Clothes Luggage Travel Organizer Blanket Shoes Organizers Bag Suitcase Pouch Packing Cubes",
   "title_he": "6/8 יחידות סט ארגונית תיק נסיעות בגדים מטען ארגונית נסיעות שמיכת נעליים ארגוניות תיק מזוודה פאוץ' קוביות אריזת",
@@ -1163,5 +1134,34 @@
   "category_en": "Tools",
   "category_he": "כלי עבודה",
   "posted_at": "2026-11-25T09:01:42.745485+00:00"
+ },
+ {
+  "asin": "B0BFP4VZCP",
+  "title": "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
+  "title_he": "משחק הלוח Uzzle 3.0, משחקי לוח משפחתיים לילדים ומבוגרים, משחקי פאזל בלוק לגילאי 4+",
+  "price": "$37.99",
+  "was": "$49.99",
+  "discount": "24%",
+  "rating": "4.7",
+  "reviews": "7,537",
+  "rank": 4,
+  "source": "bestsellers",
+  "message_id": 984,
+  "image": "https://m.media-amazon.com/images/I/71SaknlttBL._AC_SL1500_.jpg",
+  "variant": 1,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   984,
+   985,
+   986
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/922b5a35-d757-4a44-be04-0a8dbce4d1c8/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "toys-and-games/166220011",
+  "category_en": "Games",
+  "category_he": "משחקים",
+  "posted_at": "2026-11-25T09:34:09.656411+00:00"
  }
 ]
