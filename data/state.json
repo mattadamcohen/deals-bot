@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 31
+  "2026-11-25": 32
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -216,6 +216,7 @@
   "ea sports college football": "2026-11-19T07:34:38.275836+00:00",
   "ejeas v pro+ motorcycle": "2026-11-17T15:31:26.860159+00:00",
   "electric toothbrush mental thin": "2026-11-24T08:45:57.237774+00:00",
+  "electric vacuum pump": "2026-11-25T16:32:45.136271+00:00",
   "energizer aa and aaa": "2026-11-22T05:04:10.388173+00:00",
   "energizer aa batteries alkaline": "2026-11-18T17:00:58.235302+00:00",
   "essager w usb c": "2026-11-18T15:01:02.608036+00:00",
@@ -499,6 +500,7 @@
   "focus-2026-11-24-14",
   "focus-2026-11-24-19",
   "focus-2026-11-25-10",
+  "focus-2026-11-25-11",
   "focus-2026-11-25-14"
  ],
  "giveaway_entries": {
@@ -688,6 +690,12 @@
    "username": "",
    "via": "join"
   },
+  "8903458261": {
+   "at": "2026-11-25T16:31:10.772020+00:00",
+   "name": "yyy000222",
+   "username": "",
+   "via": "join"
+  },
   "9255242793": {
    "at": "2026-11-22T19:30:45.190610+00:00",
    "name": "Mhmod",
@@ -730,11 +738,12 @@
   "7977085395",
   "8430819053",
   "547613085",
-  "478180732"
+  "478180732",
+  "8903458261"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T15:30:57.727688+00:00",
+ "last_post_at": "2026-11-25T16:32:45.136069+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1695,6 +1704,7 @@
   "ali-1005011822737841": "2026-11-25T06:01:00.714647+00:00",
   "ali-1005011824570634": "2026-11-25T06:15:44.405638+00:00",
   "ali-1005011838321895": "2026-11-19T10:31:04.189215+00:00",
+  "ali-1005011845448126": "2026-11-25T16:32:45.096499+00:00",
   "ali-1005011867786289": "2026-11-23T17:02:27.373183+00:00",
   "ali-1005011891908925": "2026-11-23T16:15:54.598844+00:00",
   "ali-1005011904255432": "2026-11-20T08:00:54.303809+00:00",
@@ -1759,10 +1769,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "fashion/1040658",
   "aliexpress/tool bag",
   "pick",
-  "toys-and-games/166220011"
+  "toys-and-games/166220011",
+  "aliexpress/vacuum storage bags"
  ],
  "recent_groups": [
   "kitchen",
@@ -1773,17 +1783,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "car",
   "home",
   "sport",
   "tech",
   "fashion",
   "home",
   "tech",
-  "kids"
+  "kids",
+  "home"
  ],
  "recent_titles": [
-  "DIY Assemble Magnetic Track Train Toys for Kids Electronic Magical Rail Car Construction Children Educational Toy Christmas Gift",
   "SenCiciMen X9 Multi Hair Styler Curling Iron Hair Hot Air Brush Curling Barrel Hair Dryer Salon Professional Curly Hair Styler",
   "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY",
   "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset",
@@ -1794,7 +1803,8 @@
   "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
   "JAKAH Professional Electricians Tool Pouch,Multi-pocket Ergonomic Rubber Handle, Padded Shoulder Strap Black Green JK-208",
   "SERVO S27 Mini 4G LTE Smartphone 4.0\" Display Android 3GB RAM 64GB ROM Dual SIM Face Unlock GPS WiFi HD Camera Pocket Cell Phone",
-  "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players"
+  "Herd Mentality Board Game: #1 Family Party Games, 4-20 Players",
+  "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1823,6 +1833,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136216
+ "since_ali": 0,
+ "tg_offset": 260136217
 }
