@@ -1,7 +1,7 @@
 {
- "count": 2,
- "last_palette": 2,
- "last_theme": "brands",
+ "count": 3,
+ "last_palette": 3,
+ "last_theme": "blackfriday",
  "history": [
   {
    "at": "2026-11-24T16:16:29.802607+00:00",
@@ -24,18 +24,33 @@
    ],
    "image": "promo-202611241800",
    "media": "18109863347341268"
+  },
+  {
+   "at": "2026-11-25T10:02:02.549239+00:00",
+   "theme": "blackfriday",
+   "ids": [
+    "B0725WFLMB",
+    "B0FH655984",
+    "B07V4VFKKD"
+   ],
+   "image": "promo-202611251001",
+   "media": "18078931010743162"
   }
  ],
  "used": [
-  "ali-1005007668695524",
-  "B0971NTY4Q",
   "B0FFTLNC5S",
-  "B01H1V7WQU",
   "ali-1005010724501614",
-  "ali-1005009157516970"
+  "B0971NTY4Q",
+  "ali-1005007668695524",
+  "ali-1005009157516970",
+  "B01H1V7WQU",
+  "B0725WFLMB",
+  "B0FH655984",
+  "B07V4VFKKD"
  ],
  "rotation": 1,
  "slots_done": [
-  "2026-11-24-20"
+  "2026-11-24-20",
+  "2026-11-25-12"
  ]
 }

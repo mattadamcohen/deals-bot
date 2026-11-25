@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 15
+  "2026-11-25": 16
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -309,6 +309,7 @@
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
   "makita original ddf v": "2026-11-25T09:01:42.747490+00:00",
   "makita v brushless drill": "2026-11-25T06:01:00.926737+00:00",
+  "manual pressing garlic grinding": "2026-11-25T10:01:28.702636+00:00",
   "mayjam set essential oils": "2026-11-24T15:45:53.336470+00:00",
   "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
   "medicube facial cleanser zero": "2026-11-21T09:34:00.657943+00:00",
@@ -703,7 +704,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T09:34:06.063083+00:00",
- "last_post_at": "2026-11-25T09:34:09.658719+00:00",
+ "last_post_at": "2026-11-25T10:01:28.702449+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1559,6 +1560,7 @@
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
   "ali-1005007904830534": "2026-11-24T08:45:57.104028+00:00",
   "ali-1005007987706793": "2026-11-21T10:01:04.429315+00:00",
+  "ali-1005007987710373": "2026-11-25T10:01:28.657555+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008129487750": "2026-11-23T05:00:55.466868+00:00",
   "ali-1005008144823603": "2026-11-22T16:46:12.818000+00:00",
@@ -1702,10 +1704,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen gadgets",
   "aliexpress/power bank",
   "aliexpress/cordless drill brushless",
-  "toys-and-games/166220011"
+  "toys-and-games/166220011",
+  "aliexpress/kitchen gadgets"
  ],
  "recent_groups": [
   "beauty",
@@ -1716,17 +1718,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "home",
   "car",
   "kids",
   "home",
   "kitchen",
   "tech",
   "home",
-  "kids"
+  "kids",
+  "kitchen"
  ],
  "recent_titles": [
-  "Makita 18V Brushless Drill Driver DDF487 High Torque Screwdriver For Indoor Mounting Household Maintenance Jobs",
   "5-20pcs Glow in the Dark Bouncy Balls Rubber Stress Relief Toys for Kids Birthday Party Favor Valentine Gifts Classroom Prizes",
   "FANTECH NOVA II WGP16 Wireless Gamepad Gyro Sensor Hall Joystick and Effect Trigger for PS4 NS2 Wired Controller Gamer",
   "3-in-1Hand-cranked Rotating Fruit/Vegetable Peeler Stainless Steel Blades Apple Cutter Household Peeling Machine Kitchen Gadgets",
@@ -1737,7 +1738,8 @@
   "Fermented Glass Weights Clear with Handle Wide Mouth Mason Jar Lid Sealed Kitchen Gadgets Heavy Fermenting Weights Kimchi Making",
   "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
   "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only",
-  "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+"
+  "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
+  "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1765,6 +1767,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136214
 }
