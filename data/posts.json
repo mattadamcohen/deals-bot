@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B08HN2V7GY",
-  "title": "Fun Boomerang for Kids - Stocking Stuffers for Boys and Girls - Soft & Easy Use - Best Gifts for 6 7 8 9 10 11 12 13 Year Old Boy Gifts - 2026 Top Toys for Boys Age 8-12 + Teens Outdoor Boy Gift Ideas",
-  "title_he": "בומרנג כיף לילדים",
-  "price": "$13.77",
-  "was": "$22.99",
-  "discount": "40%",
-  "rating": "4.2",
-  "reviews": "5,745",
-  "rank": 19,
-  "source": "bestsellers",
-  "message_id": 856,
-  "image": "https://m.media-amazon.com/images/I/81DHjjK9LpL._AC_SL1500_.jpg",
-  "variant": 841,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   856,
-   857,
-   858
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f755b5a5-48b4-498f-bc60-f69ab8df3d54/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "sporting-goods",
-  "category_en": "Sports & Outdoors",
-  "category_he": "ספורט וטבע",
-  "posted_at": "2026-11-24T10:01:08.452934+00:00"
- },
- {
   "asin": "ali-1005010332506017",
   "title": "JKUOO Car Jump Starter And Air Inflator 10.2 Bar Fast Fill -40°C Low-Temp Work 12V Lead-Acid Battery with Tire Monitoring",
   "title_he": "JKUOO רכב קפיצה מתנע ומנפח אוויר 10.2 בר מילוי מהיר -40°C עבודה בטמפ' נמוכה 12V סוללת עופרת חומצה עם ניטור צמיגים",
@@ -1163,5 +1134,34 @@
   "category_en": "Kitchen",
   "category_he": "מטבח",
   "posted_at": "2026-11-25T08:30:53.403106+00:00"
+ },
+ {
+  "asin": "ali-1005010706584898",
+  "title": "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
+  "title_he": "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
+  "price": "$29.19",
+  "was": "$63.46",
+  "discount": "54%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 978,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6ba671f89e6d4391814049bd522aa0533.png",
+  "variant": 432,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oq6qXISBzbnypXAGc62yGDI36rHFlxRiLCzQe7SUpg48I9sDFPOTunjSG0jnIRWfM2IfccXxjl3LxkuGGPdXfCVf5uQUlY4VPa41vB8HuCrCm5oK7pfeq1S0dADgRqifkM9FaJran6kPXGEkLQRLZhqntSX3sJ2xmEcfEamHBehdlmW46i6wgcDVJxf5u2uMP2YZyneqCh0fC5u94VaGDAftCsNlx2edpoF6zrxeSLlah6kj1HEFDm3g08rXGRLpCZIgH5bu8bi3eaeppdFYUsl0MLcAtUiXOwwDv5Y3AJxDMGOcZ35NBMQFZOzzzd3xOcCR33McbAvVG0aVpwRIdKIHVA1UHcE5D1G12IRfYyVOXeBloV6OrzqKcvUE4fKiVXUPiMRiXpDf8kue8nCTeXGzVkLtl1Zqlw6EcGqrW0DsPEyYUaKgMdXe5RU9uykozIeNMmWbdRydksGziRfMG6QCEb2ll0RkXoi1idGavJRzAt90570zslrAmnijDju67Wr0tpyn9hYYGzYIyK0kEYLXqzplGM1prdt1BArMtEDOeRSIKqpuwr9JfSTlqB3awQHMS1q2J3wAYnxW9bsWHs8ypgU6EzHc2MTiRlXnbT5fxWLCt7r4lqKWiyt0nZ1oQsTE758WV7Wb9Cix1RkDdhT2yvPSKVBIJmsvK8HP0qZiSaIgMyyDqT5k2fabiOFzyrxUwxqJIbG1t",
+  "sold": "2,000",
+  "album_ids": [
+   978,
+   979,
+   980
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/power bank",
+  "category_en": "Tech",
+  "category_he": "גאדג'טים",
+  "posted_at": "2026-11-25T08:46:11.902597+00:00"
  }
 ]
