@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 5
+  "2026-11-25": 6
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -217,6 +217,7 @@
   "everfoams fuzzy slippers warm": "2026-11-17T13:31:29.829634+00:00",
   "everydrop by whirlpool ice": "2026-11-18T18:03:46.029631+00:00",
   "extra virgin olive oil": "2026-11-21T08:30:46.232481+00:00",
+  "fantech nova ii wgp": "2026-11-25T06:30:59.286417+00:00",
   "fifine rgb gaming headset": "2026-11-24T06:45:46.210184+00:00",
   "fifine usb xlr dynamic": "2026-11-25T05:31:00.423879+00:00",
   "flextail zero lantern": "2026-11-18T18:31:03.689614+00:00",
@@ -691,7 +692,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T05:04:39.694657+00:00",
- "last_post_at": "2026-11-25T06:15:44.441312+00:00",
+ "last_post_at": "2026-11-25T06:30:59.286262+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1573,6 +1574,7 @@
   "ali-1005009663596581": "2026-11-18T14:01:59.988171+00:00",
   "ali-1005009759780480": "2026-11-25T05:45:58.722928+00:00",
   "ali-1005009812128178": "2026-11-22T12:15:46.736054+00:00",
+  "ali-1005009870602905": "2026-11-25T06:30:59.209764+00:00",
   "ali-1005009937260935": "2026-11-20T11:31:01.224284+00:00",
   "ali-1005009959986967": "2026-11-24T05:45:49.349217+00:00",
   "ali-1005009984118747": "2026-11-23T10:01:23.227151+00:00",
@@ -1676,10 +1678,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "aliexpress/fridge organizer",
   "aliexpress/cordless drill brushless",
-  "aliexpress/kids toys"
+  "aliexpress/kids toys",
+  "aliexpress/switch controller"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -1690,17 +1692,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "tech",
   "kitchen",
   "home",
   "fashion",
   "tech",
   "kitchen",
   "home",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "Transparent Storage Box, Laundry Bead Storage Box, Container for Hair Rings and Hair Clips, Desktop Miscellaneous Box",
   "51 Pcs/Set Silver Color Chic Jewelry Set For Women Fashion Butterfly Heart Pearl Necklaces, Earrings, Rings, Match Daily Outfits",
   "Taba Squishy Yogurt Cake Bread Squeeze Toy Soft Stress Relief Slow Rising Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "GPS Bike Computer IGPSPORT BSC100S Cycle Wireless Speedometer Bicycle Digital Stopwatch Cycling Odometer Cycling Computer",
@@ -1711,7 +1712,8 @@
   "FIFINE USB/XLR Dynamic Microphone with RGB Control/Headphone jack/Mute,MIC for PC Gaming Recording Streaming AmpliGame-AM8",
   "Space Saving 2 Tier Under Sink Organizer,Pull Out Storage Box Durable Large Capacity Kitchen Bathroom Essential Drawer Organizer",
   "Makita 18V Brushless Drill Driver DDF487 High Torque Screwdriver For Indoor Mounting Household Maintenance Jobs",
-  "5-20pcs Glow in the Dark Bouncy Balls Rubber Stress Relief Toys for Kids Birthday Party Favor Valentine Gifts Classroom Prizes"
+  "5-20pcs Glow in the Dark Bouncy Balls Rubber Stress Relief Toys for Kids Birthday Party Favor Valentine Gifts Classroom Prizes",
+  "FANTECH NOVA II WGP16 Wireless Gamepad Gyro Sensor Hall Joystick and Effect Trigger for PS4 NS2 Wired Controller Gamer"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
