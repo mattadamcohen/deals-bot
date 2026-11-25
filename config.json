@@ -2579,6 +2579,83 @@
       "not_before": "2026-11-25T15:00:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1125-servo-s27"
+    },
+    {
+      "store": "amazon",
+      "id": "B0FX7MG53F",
+      "require": [],
+      "alt": [],
+      "url": "https://link.amazon/B0irk16ix",
+      "at": "2026-11-25T17:00:00+00:00",
+      "not_before": "2026-11-25T17:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0FX7MG53F"
+    },
+    {
+      "store": "amazon",
+      "id": "B0CL7JYSP5",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0CL7JYSP5",
+      "at": "2026-11-25T19:00:00+00:00",
+      "not_before": "2026-11-25T19:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0CL7JYSP5"
+    },
+    {
+      "store": "amazon",
+      "id": "B0CLQDBRD2",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0CLQDBRD2",
+      "at": "2026-11-26T06:00:00+00:00",
+      "not_before": "2026-11-26T06:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0CLQDBRD2"
+    },
+    {
+      "store": "amazon",
+      "id": "B0H9XMRTKL",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0H9XMRTKL",
+      "at": "2026-11-26T08:00:00+00:00",
+      "not_before": "2026-11-26T08:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0H9XMRTKL"
+    },
+    {
+      "store": "amazon",
+      "id": "B0FDX9T6DF",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0FDX9T6DF",
+      "at": "2026-11-26T10:30:00+00:00",
+      "not_before": "2026-11-26T10:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0FDX9T6DF"
+    },
+    {
+      "store": "amazon",
+      "id": "B0DWXMVSRP",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0DWXMVSRP",
+      "at": "2026-11-26T13:00:00+00:00",
+      "not_before": "2026-11-26T13:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0DWXMVSRP"
+    },
+    {
+      "store": "amazon",
+      "id": "B0D68XZY2S",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0D68XZY2S",
+      "at": "2026-11-26T16:00:00+00:00",
+      "not_before": "2026-11-26T16:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-B0D68XZY2S"
     }
   ],
   "giftbox_alternate": true,
