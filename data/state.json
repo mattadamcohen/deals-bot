@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 27
+  "2026-11-25": 28
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -108,6 +108,7 @@
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
   "B0HJLJ87KD": "2026-11-21T19:01:12.081604+00:00",
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
+  "B0HLFZJF6T": "2026-11-25T14:45:47.411228+00:00",
   "B0HLN1KCQY": "2026-11-18T17:00:58.235297+00:00",
   "B0HMH3XK9V": "2026-11-20T07:33:58.796720+00:00",
   "B0HMSH5GKT": "2026-11-23T09:34:52.107215+00:00",
@@ -471,7 +472,7 @@
   "worx v electrical screwdriver": "2026-11-17T17:31:56.535192+00:00",
   "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
   "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
-  "wrangler relaxed fit stretch": "2026-11-15T07:17:56.490377+00:00",
+  "wrangler relaxed fit stretch": "2026-11-25T14:45:47.411234+00:00",
   "wurkkos cl lumens rechargeable": "2026-11-25T08:46:11.904580+00:00",
   "x pocket binoculars compact": "2026-11-15T05:46:42.527903+00:00",
   "xiaomi mijia automatic soap": "2026-11-21T10:01:04.487802+00:00",
@@ -722,7 +723,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T14:04:46.049096+00:00",
- "last_post_at": "2026-11-25T14:30:58.408457+00:00",
+ "last_post_at": "2026-11-25T14:45:47.410955+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1419,6 +1420,7 @@
   "B0846KKHK2": "2026-11-18T19:04:42.905275+00:00",
   "B086BLQZ5L": "2026-11-14T07:29:50.441732+00:00",
   "B087GMJXMC": "2026-11-22T05:04:10.307317+00:00",
+  "B088899NY2": "2026-11-25T14:45:47.263033+00:00",
   "B0888D24PM": "2026-11-15T07:17:56.462192+00:00",
   "B08C7YS3YW": "2026-11-24T20:01:43.111320+00:00",
   "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
@@ -1743,31 +1745,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/dash cam",
   "aliexpress/gift for women",
   "sporting-goods",
-  "aliexpress/kids instant print camera"
+  "aliexpress/kids instant print camera",
+  "fashion/1040658"
  ],
  "recent_groups": [
-  "fashion",
   "wireless",
   "kitchen",
   "fashion",
   "toys-and-games",
-  "sporting-goods"
+  "sporting-goods",
+  "fashion"
  ],
  "recent_themes": [
-  "kids",
   "beauty",
   "home",
   "tech",
   "car",
   "home",
   "sport",
-  "tech"
+  "tech",
+  "fashion"
  ],
  "recent_titles": [
-  "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
   "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
   "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack",
   "Coffee Knock Box Espresso Grounds Container Anti Slip Espresso Dump Bin Grind Breville Barista Goods Cafe Bar Accessories",
@@ -1778,7 +1779,8 @@
   "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
   "A Pair of Brown Plush Capybara Animal-Patterned Furry Home Slippers with Soft Soles, Comfortable and Warm, Non-Slip Indoor Slippers Suitable for Men and Women, Lightweight, Silent, and Comfortable Shoes, the Perfect Holiday Gift Choice",
   "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide",
-  "Kids Digital Camera 1080P Vedio Thermal Instant Print Camera With 32G For Girls Boys Age 3-12 Best Christmas Birthday Gifts"
+  "Kids Digital Camera 1080P Vedio Thermal Instant Print Camera With 32G For Girls Boys Age 3-12 Best Christmas Birthday Gifts",
+  "Wrangler Men's Relaxed Fit Stretch Cargo Pant"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -1806,6 +1808,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136215
 }

@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0B9HPYZJH",
-  "title": "LANEIGE Lip Sleeping Mask, Overnight Care for Dry, Flaky Lips, 0.7 oz/20 g",
-  "title_he": "מסיכת שינה לשפתיים של LANEIGE, טיפול לילה לשפתיים יבשות ומתקלפות, 0.7 אונקיות/20 גרם",
-  "price": "$18.40",
-  "was": "$36.80",
-  "discount": "20%",
-  "rating": "4.7",
-  "reviews": "1,891",
-  "rank": 28,
-  "source": "bestsellers",
-  "message_id": 901,
-  "image": "https://m.media-amazon.com/images/I/61OLngxoZYL._SL1500_.jpg",
-  "variant": 611,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   901,
-   902,
-   903
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8a82d72c-9336-4f74-b6a5-0e3845adad15/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "beauty",
-  "category_en": "Beauty & Personal Care",
-  "category_he": "יופי וטיפוח",
-  "posted_at": "2026-11-24T14:45:49.612708+00:00"
- },
- {
   "asin": "ali-1005009508758842",
   "title": "Dotwise 22 PSI Portable Outdoor Camping Air Pump SUP Air Pump with Inflatable Deflate for Air Mattress Inflatable Tents Kayak",
   "title_he": "Dotwise 22 PSI נייד חיצוני קמפינג משאבת אוויר SUP משאבת אוויר עם ריקון מתנפח עבור מזרון אוויר אוהלים מתנפחים קיאק",
@@ -1163,5 +1134,34 @@
   "category_en": "Kids tech",
   "category_he": "טכנולוגיה לילדים",
   "posted_at": "2026-11-25T14:30:58.406541+00:00"
+ },
+ {
+  "asin": "B088899NY2",
+  "title": "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
+  "title_he": "מכנסי מטען נמתחים לגברים של רנגלר Relaxed Fit",
+  "price": "$25.83",
+  "was": "$31.99",
+  "discount": "19%",
+  "rating": "4.5",
+  "reviews": "39,454",
+  "rank": 13,
+  "source": "bestsellers",
+  "message_id": 1023,
+  "image": "https://m.media-amazon.com/images/I/71VxpTK0JjL._AC_SL1500_.jpg",
+  "variant": 510,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1023,
+   1024,
+   1025
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fa057e7b-fa2c-4835-89e3-1be309ff4ca5/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/1040658",
+  "category_en": "Men's Clothing",
+  "category_he": "ביגוד גברים",
+  "posted_at": "2026-11-25T14:45:47.314231+00:00"
  }
 ]
