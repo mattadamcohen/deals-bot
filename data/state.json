@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 24
+  "2026-11-25": 25
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -124,6 +124,7 @@
   "B0HRKBC8T1": "2026-11-24T17:49:35.767002+00:00",
   "B0HRSRQYZT": "2026-11-22T10:49:03.022899+00:00",
   "B0HS8HJ4J5": "2026-11-23T13:49:08.988422+00:00",
+  "a pair of plush": "2026-11-25T13:31:24.203850+00:00",
   "acer aspire go ai": "2026-11-23T08:31:07.196751+00:00",
   "acrylic organizer for collectible": "2026-11-24T05:45:49.450248+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
@@ -713,7 +714,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T09:34:06.063083+00:00",
- "last_post_at": "2026-11-25T13:15:48.815314+00:00",
+ "last_post_at": "2026-11-25T13:31:24.203689+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1595,6 +1596,7 @@
   "ali-1005009157516970": "2026-11-23T18:31:29.402197+00:00",
   "ali-1005009187146996": "2026-11-19T16:01:27.484878+00:00",
   "ali-1005009212557833": "2026-11-21T06:01:01.120479+00:00",
+  "ali-1005009261328158": "2026-11-25T13:31:24.017529+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
   "ali-1005009385704664": "2026-11-18T07:01:06.726523+00:00",
   "ali-1005009414655478": "2026-11-25T08:02:23.508532+00:00",
@@ -1721,10 +1723,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/hair dryer brush",
   "aliexpress/cordless drill brushless",
   "aliexpress/gaming headset",
-  "aliexpress/dash cam"
+  "aliexpress/dash cam",
+  "aliexpress/gift for women"
  ],
  "recent_groups": [
   "beauty",
@@ -1735,17 +1737,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "kitchen",
   "kids",
   "beauty",
   "home",
   "tech",
-  "car"
+  "car",
+  "home"
  ],
  "recent_titles": [
-  "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
   "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only",
   "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
   "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
@@ -1756,7 +1757,8 @@
   "SenCiciMen X9 Multi Hair Styler Curling Iron Hair Hot Air Brush Curling Barrel Hair Dryer Salon Professional Curly Hair Styler",
   "Makita DTD173 Blue 18V Brushless Cordless Impact Driver 180Nm 3600RPM Hand Tool For Wood Assembly Household DIY",
   "Choice Lenovo LE209 Wireless Bluetooth Earphone AI Mic Noise Reduction Waterproof Business Headphone Low Latency Gaming Headset",
-  "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR"
+  "KAWA Dash Cam MINI 3 Pro Tiny 2K Stealth Display Voice Control 24/7 Parking Monitoring Night Vision Supercapacitor Car DVR",
+  "A Pair of Brown Plush Capybara Animal-Patterned Furry Home Slippers with Soft Soles, Comfortable and Warm, Non-Slip Indoor Slippers Suitable for Men and Women, Lightweight, Silent, and Comfortable Shoes, the Perfect Holiday Gift Choice"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
