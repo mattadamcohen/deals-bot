@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B08C7YS3YW",
-  "title": "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)",
-  "title_he": "מקרר קופסאות שימורים אוניברסלי Frost Buddy, פחיות 12 ו-16 אונקיות (שחור מט)",
-  "price": "$18.11",
-  "was": "$39.99",
-  "discount": "55%",
-  "rating": "4.7",
-  "reviews": "12,227",
-  "rank": 24,
-  "source": "bestsellers",
-  "message_id": 936,
-  "image": "https://m.media-amazon.com/images/I/81kGfGTdlVL._AC_SL1500_.jpg",
-  "variant": 680,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   936,
-   937,
-   938
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/70864363-0bbd-4ab3-921e-8f24e970b731/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "kitchen/510136",
-  "category_en": "Kitchen Storage & Organization",
-  "category_he": "אחסון וסידור למטבח",
-  "posted_at": "2026-11-24T20:01:43.153230+00:00"
- },
- {
   "asin": "ali-1005007010160781",
   "title": "Backpack School Bag Girl Back Pack For Children Kid Child Teenager Female Class Schoolbag Primary Women Bagpack Teen Bookbag Kit",
   "title_he": "תיק גב לילדה תיק גב לילדה ילד ילד נער מתבגר ילקוט כיתה נקבה ילקוט ראשי נשים תיק ערכת תיק ספרים לעשרה",
@@ -1163,5 +1134,34 @@
   "category_en": "Skin Care",
   "category_he": "טיפוח העור",
   "posted_at": "2026-11-25T18:19:10.692899+00:00"
+ },
+ {
+  "asin": "ali-1005007129528141",
+  "title": "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
+  "title_he": "מפזר ארומה מקצועי ריח חשמלי לבית קיר מפזר ניחוח מפזר ריסוס אוטומטי מכונת אוויר למלון",
+  "price": "$50.69",
+  "was": "$110.20",
+  "discount": "54%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1056,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ab18f683854183b827b4da90452db1F.jpg",
+  "variant": 653,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kZCTW1aRKPc4KwW2dWbZRN8MGQuWolXJVv6frPGV7dmjBzvVG4qDmFmPuGtExgkCKeOGWFTbjMDkQM0ebcbwiwVYZm4EpiDDJnyi43Z2HWPNaj6x3163jvNnucg8oDY5sS0tmGk0QuIUdE2ln0eSQs7Jq5NhAfXaDu6wqfeQFfbZ3HwBQUIeisVG3WxJCCGozN2Ii7Ar6RHMZ237uCNNAAReCDcjgUEB3zYB3HMeEkcAQ6vk39KRUYv2FqszHR3yOwb4bIGoF8HNXNwvT8IgtXpqV2Gpq4EGBdFuWzMqXXNEoFkQIpzwpqrMpq7FQXkvHLtr1xkd70MZZ28pecUTO1DRtSHzZAGouKY4Vj1ohy3mdVcxMwwvL48zUul6YLdDhZGy9JoeGqZOToYQF6RT63m7JCsMgeMIQumGWom1vdZvYX5UPlbYMbW9i6D70jZByFkHNneixWzeKycYiI5v0uGfCkHut0kk8ou5aTcu3XeM7UYX2oawP1CECVXiYqkg07zwNldORhvesRx5u3HcmW4ZPJ2CDDlNrpTh2h5YjcZJSKSqmAANueUoSpBUFJDFJ6FW7Td3Sv0GEUDZG5B1pbt4ghwEfuMsuX4MTn5JBq5anxzmAwTup0TBXowU49yQfpfdMygx9fiBCxS0NalAVCuQbIOP3hsiMimHqCH44d7jG9m67P0uhXUTzrfAXZPdOMwZ8SWrWSv66",
+  "sold": "839",
+  "album_ids": [
+   1056,
+   1057,
+   1058
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/aroma diffuser",
+  "category_en": "Home decor",
+  "category_he": "עיצוב הבית",
+  "posted_at": "2026-11-25T18:45:55.592390+00:00"
  }
 ]

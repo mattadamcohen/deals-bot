@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 38
+  "2026-11-25": 39
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -389,6 +389,7 @@
   "powerful led solar outdoor": "2026-11-23T11:45:50.786347+00:00",
   "precision screwdriver set with": "2026-11-24T11:15:53.887482+00:00",
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
+  "professional aroma diffuser electric": "2026-11-25T18:45:55.594790+00:00",
   "project cloud sandals genuine": "2026-11-25T17:01:07.519629+00:00",
   "puma voltaic evo cross": "2026-11-24T13:34:08.660480+00:00",
   "push up board": "2026-11-24T12:31:01.926840+00:00",
@@ -724,6 +725,12 @@
    "username": "",
    "via": "join"
   },
+  "8967660825": {
+   "at": "2026-11-25T18:45:44.006937+00:00",
+   "name": "Shaul",
+   "username": "",
+   "via": "join"
+  },
   "9255242793": {
    "at": "2026-11-22T19:30:45.190610+00:00",
    "name": "Mhmod",
@@ -770,11 +777,12 @@
   "8903458261",
   "5513519488",
   "7197671097",
-  "7016893633"
+  "7016893633",
+  "8967660825"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-25T18:19:10.695485+00:00",
+ "last_post_at": "2026-11-25T18:45:55.594638+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1750,6 +1758,7 @@
   "ali-1005007016024919": "2026-11-21T07:30:51.873176+00:00",
   "ali-1005007039765295": "2026-11-20T09:01:03.629317+00:00",
   "ali-1005007043908778": "2026-11-23T16:01:20.777237+00:00",
+  "ali-1005007129528141": "2026-11-25T18:45:55.513842+00:00",
   "ali-1005007146966040": "2026-11-24T07:15:44.339976+00:00",
   "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
   "ali-1005007170531432": "2026-11-25T07:45:43.707493+00:00",
@@ -1939,10 +1948,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/gaming keyboard mechanical",
   "aliexpress/led light room decor",
   "aliexpress/kids toys",
-  "beauty/11060451"
+  "beauty/11060451",
+  "aliexpress/aroma diffuser"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -1953,17 +1962,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "sport",
   "other",
   "tech",
   "home",
   "kids",
-  "beauty"
+  "beauty",
+  "home"
  ],
  "recent_titles": [
-  "Kids Digital Camera 1080P Vedio Thermal Instant Print Camera With 32G For Girls Boys Age 3-12 Best Christmas Birthday Gifts",
   "Wrangler Men's Relaxed Fit Stretch Cargo Pant",
   "JAKAH Professional Electricians Tool Pouch,Multi-pocket Ergonomic Rubber Handle, Padded Shoulder Strap Black Green JK-208",
   "SERVO S27 Mini 4G LTE Smartphone 4.0\" Display Android 3GB RAM 64GB ROM Dual SIM Face Unlock GPS WiFi HD Camera Pocket Cell Phone",
@@ -1974,7 +1982,8 @@
   "AJAZZ AK820 Mechanical Gaming Keyboard Tri-Mode Bluetooth 5.1 Wireless Wired Knob Hot Swap Gasket Custom Keyboard",
   "LED Galaxy Projector Light Colorful Galaxy Sky Projector Bedroom Night Light Kids Room Decoration Christmas Party Decoration",
   "Taba Squishy Cheese Cube Stress Ball Shapeable Squeeze Ball Non Rebound Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
-  "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss"
+  "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
+  "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2015,6 +2024,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136220
+ "since_ali": 0,
+ "tg_offset": 260136221
 }
