@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 17
+  "2026-11-25": 18
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -307,6 +307,7 @@
   "magnetic train set diy": "2026-11-20T10:01:05.815649+00:00",
   "magnetic train toy for": "2026-11-19T15:01:01.313672+00:00",
   "mai g hardwire kit": "2026-11-16T15:31:30.641719+00:00",
+  "makita dtw v brushless": "2026-11-25T11:01:03.594817+00:00",
   "makita original ddf v": "2026-11-25T09:01:42.747490+00:00",
   "makita v brushless drill": "2026-11-25T06:01:00.926737+00:00",
   "manual pressing garlic grinding": "2026-11-25T10:01:28.702636+00:00",
@@ -705,7 +706,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T09:34:06.063083+00:00",
- "last_post_at": "2026-11-25T10:31:31.671995+00:00",
+ "last_post_at": "2026-11-25T11:01:03.594651+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1636,6 +1637,7 @@
   "ali-1005010729128979": "2026-11-19T13:30:59.486337+00:00",
   "ali-1005010739277474": "2026-11-19T15:01:01.252967+00:00",
   "ali-1005011574489164": "2026-11-23T17:46:19.947172+00:00",
+  "ali-1005011587245434": "2026-11-25T11:01:03.546583+00:00",
   "ali-1005011608627646": "2026-11-20T06:30:51.349599+00:00",
   "ali-1005011632977549": "2026-11-20T10:30:48.778629+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
@@ -1706,10 +1708,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/cordless drill brushless",
   "toys-and-games/166220011",
   "aliexpress/kitchen gadgets",
-  "aliexpress/1119-1129 Black/Super Friday - Big Save"
+  "aliexpress/1119-1129 Black/Super Friday - Big Save",
+  "aliexpress/cordless drill brushless"
  ],
  "recent_groups": [
   "beauty",
@@ -1720,17 +1722,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "kitchen",
   "tech",
   "home",
   "kids",
   "kitchen",
-  "tech"
+  "tech",
+  "home"
  ],
  "recent_titles": [
-  "FANTECH NOVA II WGP16 Wireless Gamepad Gyro Sensor Hall Joystick and Effect Trigger for PS4 NS2 Wired Controller Gamer",
   "3-in-1Hand-cranked Rotating Fruit/Vegetable Peeler Stainless Steel Blades Apple Cutter Household Peeling Machine Kitchen Gadgets",
   "2PCS Kids Video Walkie Talkies USB Charging Indoor and Outdoor High Definition Intercom Children's Toys Birthday Gifts Ages 3-12",
   "\u3010New\u301170mai A210 Dash Cam 1080P HDR Night Vision Support Dual-Channel Supercapacitor Built-in GPS Wi-Fi6 24H Parking Surveillance",
@@ -1741,7 +1742,8 @@
   "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only",
   "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
   "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
-  "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life"
+  "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
+  "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
