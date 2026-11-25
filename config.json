@@ -2568,6 +2568,17 @@
       "not_before": "2026-11-21T17:00:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1121-coffee-b"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005012943464471",
+      "require": [],
+      "alt": [],
+      "url": "https://s.click.aliexpress.com/e/_c4szbvwp",
+      "at": "2026-11-25T15:05:00+00:00",
+      "not_before": "2026-11-25T15:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1125-servo-s27"
     }
   ],
   "giftbox_alternate": true,
