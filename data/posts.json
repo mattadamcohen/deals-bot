@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0HDST6F85",
-  "title": "FNTCASE for iPhone Duo Case, with Full Hinge Protection, Black",
-  "title_he": "כיסוי FNTCASE לאייפון Duo, עם הגנת צירים מלאה, שחור",
-  "price": "$12.23",
-  "was": "$24.99",
-  "discount": "51%",
-  "rating": "4.5",
-  "reviews": "28,381",
-  "rank": 8,
-  "source": "bestsellers",
-  "message_id": 932,
-  "image": "https://m.media-amazon.com/images/I/61MvuwnNwFL._AC_SL1446_.jpg",
-  "variant": 486,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   932,
-   933,
-   934
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8ffdbf2d-bf3d-4d13-b8cf-3b676690c7b5/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-24T17:49:35.764270+00:00"
- },
- {
   "asin": "B08C7YS3YW",
   "title": "Frost Buddy Universal Can Cooler, 12 & 16 oz Cans (Matte Black)",
   "title_he": "מקרר קופסאות שימורים אוניברסלי Frost Buddy, פחיות 12 ו-16 אונקיות (שחור מט)",
@@ -1163,5 +1134,34 @@
   "category_en": "Kids toys",
   "category_he": "צעצועים לילדים",
   "posted_at": "2026-11-25T18:01:06.923232+00:00"
+ },
+ {
+  "asin": "B0CZJMQXSY",
+  "title": "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
+  "title_he": "NOONI Korean Lip Oil - Applewine - Lip Gloss Plumping Plumping pH-Changing Color",
+  "price": "$15.00",
+  "was": "$125.00",
+  "discount": "88%",
+  "rating": "4.0",
+  "reviews": "25,843",
+  "rank": 30,
+  "source": "bestsellers",
+  "message_id": 1053,
+  "image": "https://m.media-amazon.com/images/I/51zzTm8GVRL._SL1000_.jpg",
+  "variant": 222,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1053,
+   1054,
+   1055
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a627c194-31b7-4493-afeb-c0a8332fe8fd/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty/11060451",
+  "category_en": "Skin Care",
+  "category_he": "טיפוח העור",
+  "posted_at": "2026-11-25T18:19:10.692899+00:00"
  }
 ]
