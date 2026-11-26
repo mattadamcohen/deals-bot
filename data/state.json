@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 5
+  "2026-11-26": 6
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -266,6 +266,7 @@
   "grace stella award winning": "2026-11-20T07:33:58.796727+00:00",
   "hanes beefy-t cotton crewneck": "2026-11-17T06:01:17.389969+00:00",
   "happy nuts comfort cream": "2026-11-25T16:45:53.588879+00:00",
+  "haylou watch s gps": "2026-11-26T06:15:58.985706+00:00",
   "herd mentality board game": "2026-11-25T15:30:57.727908+00:00",
   "hot cute assorted squishy": "2026-11-19T09:01:16.698013+00:00",
   "hot cute giant chick": "2026-11-16T05:01:11.791929+00:00",
@@ -853,7 +854,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-26T06:01:06.278624+00:00",
+ "last_post_at": "2026-11-26T06:15:58.985528+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1953,6 +1954,7 @@
   "ali-1005012014144008": "2026-11-23T12:30:54.356825+00:00",
   "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
   "ali-1005012062436481": "2026-11-25T18:01:06.868045+00:00",
+  "ali-1005012172793474": "2026-11-26T06:15:58.935965+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012370649612": "2026-11-22T16:01:17.473481+00:00",
@@ -2007,9 +2009,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/kitchen storage containers",
-  "pick"
+  "pick",
+  "aliexpress/smart watch"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -2020,17 +2022,16 @@
   "automotive"
  ],
  "recent_themes": [
-  "kids",
   "car",
   "fashion",
   "other",
   "tech",
   "kids",
   "kitchen",
-  "other"
+  "other",
+  "tech"
  ],
  "recent_titles": [
-  "Taba Squishy Cheese Cube Stress Ball Shapeable Squeeze Ball Non Rebound Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
   "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
@@ -2041,7 +2042,8 @@
   "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
   "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
   "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
-  "Columbia Men's Thistletown Hills Short Sleeve"
+  "Columbia Men's Thistletown Hills Short Sleeve",
+  "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2085,6 +2087,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136229
 }
