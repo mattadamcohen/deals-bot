@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 12
+  "2026-11-26": 13
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -64,6 +64,7 @@
   "B0F9T4SMR9": "2026-11-16T15:04:51.206817+00:00",
   "B0FBGPVQRL": "2026-11-17T11:00:52.057186+00:00",
   "B0FC336177": "2026-11-21T14:04:37.236244+00:00",
+  "B0FDX9T6DF": "2026-11-26T10:45:57.114796+00:00",
   "B0FG22LPQN": "2026-11-16T16:01:02.943620+00:00",
   "B0FHSQT1QS": "2026-11-22T08:15:43.912262+00:00",
   "B0FLKDZ75M": "2026-11-16T07:30:55.317367+00:00",
@@ -183,6 +184,7 @@
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car mirror radio multimedia": "2026-11-20T19:00:59.482341+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
+  "carote ceramic nonstick qt": "2026-11-26T10:45:57.114803+00:00",
   "casio a wa series": "2026-11-20T12:04:43.973839+00:00",
   "casual belt": "2026-11-23T16:15:54.830998+00:00",
   "ceiling fan lamps speeds": "2026-11-23T19:30:56.109634+00:00",
@@ -533,6 +535,7 @@
   "focus-2026-11-25-11",
   "focus-2026-11-25-14",
   "focus-2026-11-25-19",
+  "focus-2026-11-26-11",
   "focus-brand-fashion-2026-11-25-13",
   "focus-brand-fashion-2026-11-25-17",
   "focus-brand-fashion-2026-11-25-9",
@@ -895,7 +898,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T08:30:56.797015+00:00",
+ "last_post_at": "2026-11-26T10:45:57.114342+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1571,17 +1574,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-26T10:30:00+00:00",
-   "id": "B0FDX9T6DF",
-   "not_before": "2026-11-26T10:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-B0FDX9T6DF",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0FDX9T6DF"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T13:00:00+00:00",
    "id": "B0DWXMVSRP",
    "not_before": "2026-11-26T13:00:00+00:00",
@@ -1634,6 +1626,14 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
+  },
+  {
+   "focus": true,
+   "id": "NeeDoh",
+   "over_cap_ok": true,
+   "sid": "focus-2026-11-26-11",
+   "store": "amazon_focus",
+   "url": "focus"
   }
  ],
  "posted": {
@@ -1754,6 +1754,7 @@
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
   "B0FBGR7Z6K": "2026-11-17T11:00:51.987332+00:00",
   "B0FDQ3PWCX": "2026-11-26T07:20:35.027759+00:00",
+  "B0FDX9T6DF": "2026-11-26T10:45:57.072313+00:00",
   "B0FFTLNC5S": "2026-11-24T05:04:23.574396+00:00",
   "B0FG25KJLY": "2026-11-16T16:01:02.864687+00:00",
   "B0FG7RQXJ9": "2026-11-22T10:49:02.968469+00:00",
@@ -2029,10 +2030,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "wireless",
   "pick",
   "pick",
-  "aliexpress/solar wall light motion sensor"
+  "aliexpress/solar wall light motion sensor",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2043,17 +2044,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "other",
   "tech",
   "kids",
   "fashion",
   "tech",
   "other",
   "tech",
-  "home"
+  "home",
+  "kitchen"
  ],
  "recent_titles": [
-  "New Balance Men's 515",
   "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
   "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
   "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
@@ -2064,7 +2064,8 @@
   "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
   "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
   "U.S. POLO ASSN. Women's Crew Neck Sweaters \u2013 Raglan, Cable Knit & Striped",
-  "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration"
+  "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
+  "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2108,6 +2109,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136234
 }

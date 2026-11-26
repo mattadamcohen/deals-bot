@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005007987710373",
-  "title": "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
-  "title_he": "כבישה ידנית שום טחינת פומפיה חותך כלי בישול קולפן שום אביזרי מטבח אביזרי מטבח ואביזרים",
-  "price": "$5.65",
-  "was": "$11.47",
-  "discount": "50%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 987,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S73927f77ce504a9baf81c98a8122b426T.jpg",
-  "variant": 366,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4otDHLU8mo87AFsKKFXCyegOg6Af7JHorUdCQrWAwQBPb21rxEI4TjJXXlQvv2goGpP8gx5E3Iui5Ydi4hZYk0RiDN8xfVfpnPZKpmwbQtbEZUC9gmhQODKfZJVCgE1HVIobzhwZSUPjCLEtrXN3iJTA6JwBFbnawvZJgjSBrsSANxKU752tjebxHZC4IxtuOlYUTArZb0CM0ntBqox7wfBlp3SUU5SBLaQLf0xSSb3L7gYkgL9qxI8hLdtj5W2y6eq7HE53o6A7DTvkNQ3vEOgSUPJXdh2LqZGc6AhVg9MwcLp4ZVJ9xmpFI1ZT51EEzvxD6HVKnEeb1i8ZYOxKx3RC2kOPesQE3ROxv0300Y9GWzAQaotHi26petG2T8xDPRJY16CfD2tig6rVDa0z7UMOhIMkvmlPK64tMZ5BZHtv9E8YILPmNJRUj6ALwoMOiMFt2zktLUECpyMavRSOD2HIkDeBpROO5uXhbLACHS2uVlfdOQJ4JKRHSXro3YeiNABElfWm3twO9MiQFd8A7YlkW9UL2dVsB9Hw6ZkkhxdF7NRJiEBbCD0gAQWcCLCc9yfsGhxkwbm8IS9UXh132XHZ8qK7dDlfpF7jhmnvfkoOVm3cOHedKMdKcjUqLX5wvMa4aHa6YXkFWgi4cazlkuokXg4VjBJuNIotOWYVVfJkyr4TG71LdQhFUDUaEYozgGhBP8FsqiI7OK",
-  "sold": "4,000",
-  "album_ids": [
-   987,
-   988,
-   989
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/kitchen gadgets",
-  "category_en": "Kitchen",
-  "category_he": "מטבח",
-  "posted_at": "2026-11-25T10:01:28.700848+00:00"
- },
- {
   "asin": "ali-1005009070126028",
   "title": "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
   "title_he": "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
@@ -1168,5 +1139,34 @@
   "category_en": "Outdoor lighting",
   "category_he": "תאורת חוץ",
   "posted_at": "2026-11-26T08:30:56.794816+00:00"
+ },
+ {
+  "asin": "B0FDX9T6DF",
+  "title": "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
+  "title_he": "סטים של מחבת רוטב עם מכסה מסוג CAROTE קרמיקה נון-סטיק 1.5Qt ו-2.5Qt",
+  "price": "$28.49",
+  "was": "",
+  "discount": "43%",
+  "rating": "4.6",
+  "reviews": "441",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1110,
+  "image": "https://m.media-amazon.com/images/I/712q-8ozPCL._AC_SL1500_.jpg",
+  "variant": 574,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1110,
+   1111,
+   1112
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/762e7552-0287-42e6-8e82-a93af8a0a93c.mp4/productVideoOptimized.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T10:45:57.111855+00:00"
  }
 ]
