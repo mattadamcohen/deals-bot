@@ -1606,22 +1606,6 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
-  },
-  {
-   "focus": true,
-   "id": "Brand fashion",
-   "over_cap_ok": true,
-   "sid": "focus-brand-fashion-2026-11-25-13",
-   "store": "amazon_focus",
-   "url": "focus"
-  },
-  {
-   "focus": true,
-   "id": "Brand fashion",
-   "over_cap_ok": true,
-   "sid": "focus-brand-fashion-2026-11-25-17",
-   "store": "amazon_focus",
-   "url": "focus"
   }
  ],
  "posted": {

@@ -1558,6 +1558,16 @@ def post_due(state):
     per_day = CONFIG.get("posts_per_day", 20)
     today = local.date().isoformat()
     if state.get("day_counts", {}).get(today, 0) >= per_day:
+        # Matt's own picks still go out after the daily cap (they were silently skipped before)
+        nowi = now().isoformat()
+        done = set(state.get("scheduled_picks_done", []))
+        ready = [x for x in state.get("pick_queue", []) if not x.get("focus") and x.get("not_before", "") <= nowi] + \
+                [x for x in CONFIG.get("scheduled_picks", []) if x["sid"] not in done and x.get("not_before", "") <= nowi]
+        last = state.get("last_post_at")
+        since = (now() - datetime.fromisoformat(last)).total_seconds() / 60 if last else 1e9
+        if ready and since >= 10:
+            log(f"Daily post limit reached, but {len(ready)} of Matt's picks are waiting: posting one")
+            return True
         log("Daily post limit reached")
         return False
     # Pace by schedule, not by a fixed gap: the trigger only fires every ~15 minutes, so a fixed gap

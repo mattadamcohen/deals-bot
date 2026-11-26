@@ -2718,8 +2718,8 @@
       "require": [],
       "alt": [],
       "url": "https://s.click.aliexpress.com/e/_c3yXq4El",
-      "at": "2026-11-25T20:30:00+00:00",
-      "not_before": "2026-11-25T20:30:00+00:00",
+      "at": "2026-11-26T05:15:00+00:00",
+      "not_before": "2026-11-26T05:15:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1125-emeet"
     },
@@ -2729,10 +2729,23 @@
       "require": [],
       "alt": [],
       "url": "https://s.click.aliexpress.com/e/_c3v3dmBJ",
-      "at": "2026-11-25T20:50:00+00:00",
-      "not_before": "2026-11-25T20:50:00+00:00",
+      "at": "2026-11-26T07:45:00+00:00",
+      "not_before": "2026-11-26T07:45:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1125-ditong"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005009314491608",
+      "require": [],
+      "alt": [],
+      "url": "https://s.click.aliexpress.com/e/_c4KLCKOV",
+      "at": "2026-11-26T05:30:00+00:00",
+      "not_before": "2026-11-26T05:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126-xiaomi-cam",
+      "note_he": "⚠️ גרסה סינית: ממשק המצלמה והאפליקציה בסינית, מגיע עם מתאם לשקע",
+      "note_en": "⚠️ Chinese version: camera/app interface in Chinese, adapter included"
     }
   ],
   "giftbox_alternate": true,
