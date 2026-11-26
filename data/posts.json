@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FX7MG53F",
-  "title": "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men",
-  "title_he": "סנדלי גברים PROJECT CLOUD 100% עור אמיתי סנדלי גברים לגברים",
-  "price": "$22.94",
-  "was": "$79.99",
-  "discount": "71%",
-  "rating": "4.0",
-  "reviews": "2,257",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1041,
-  "image": "https://m.media-amazon.com/images/I/71qoLMLbZxL._AC_SL1254_.jpg",
-  "variant": 939,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1041,
-   1042,
-   1043
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/54a72a11-35fc-4a76-8967-36a62c946cc1/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-25T17:01:07.517222+00:00"
- },
- {
   "asin": "ali-1005007539958713",
   "title": "AJAZZ AK820 Mechanical Gaming Keyboard Tri-Mode Bluetooth 5.1 Wireless Wired Knob Hot Swap Gasket Custom Keyboard",
   "title_he": "AJAZZ AK820 מקלדת משחק מכנית Tri-Mode Bluetooth 5.1 ידית חוטית אלחוטית מקלדת מותאמת אטם להחלפה חמה",
@@ -1168,5 +1139,34 @@
   "category_en": "Kitchen",
   "category_he": "מטבח",
   "posted_at": "2026-11-26T15:30:56.015359+00:00"
+ },
+ {
+  "asin": "ali-1005007385724960",
+  "title": "OYIFAN Fashion Men's Belt Men's Genuine Leather Belt Automatic Buckle Ratchet Belt Random Adjustment",
+  "title_he": "OYIFAN אופנה חגורת גברים גברים חגורת עור אמיתית חגורת אבזם אוטומטית התאמה אקראית",
+  "price": "$7.44",
+  "was": "$8.41",
+  "discount": "11%",
+  "rating": "95.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1164,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S612ac84b026d44719250bb090cf960afo.jpg",
+  "variant": 633,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oFYAPXkhmS2X2cKTQpHlEBoutierv8R7oeChIqPfM2JqIfE71C9ic0qtcjNsPsTj8NZ52gEB9x8uIH0IO0UG8Sv5uwdOAF6MAEnpuTXxDjdd5kfA1WfHbrLbzMEq5wKafsX3m1L1c8stLyoEjNpvPSj3KEkcnRocdu7WGQb6AsDM6ldEqZ1aX2dWo6QinRA8O393nQ2KIzaNDXQ4r3pMwQadql82p4MizWsUiPDYDT6ZgdiLJeuwDusCVPSzh6SRJkRfXsKX7spcRQgdp4wkKqCMafcYmD7caEVZkwOok8qiy6dzRf2eGGmKJsFZIT6oP0C3SidmAOmDXkyc4W3TpGHHJQ1dNo2PSLwnhCZWjH6y5d3rMCvDE6c2n3NdM7LMjTPcDFM63I7FWIMcMQEPUTdDNmVYdPii77OBicKL5oH98pRw1xB8pe8KoZhI5iweBEIOPwQHu0eeVvZyIa3Lpe3a3UwwyQsr5gSOE0g4Nz5W47AJDa88081UfyN9mPd1jo73hZ8TP3RKG1fqIaYkxjwB6OPksd4rDxiI0HcIlLuCJbX6hLSVQ8K1WtXAKsAWolFwBhOJosRA7jskTDXVUyVKOo2P7Tzo7CNhGix1BFXvmfr3Edgf1vyyb9KbupERWQRsNBXR5K7Dfzj5PRLwC46txVVMBp63IwILe8y80wDimkeFDzdqlUafBIhTiYRtvU6ssFPFoypMm",
+  "sold": "996",
+  "album_ids": [
+   1164,
+   1165,
+   1166
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/gift set for men",
+  "category_en": "Hanukkah gifts",
+  "category_he": "מתנות לחנוכה",
+  "posted_at": "2026-11-26T15:45:59.867781+00:00"
  }
 ]
