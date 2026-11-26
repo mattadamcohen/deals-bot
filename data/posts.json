@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0BFP4VZCP",
-  "title": "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
-  "title_he": "משחק הלוח Uzzle 3.0, משחקי לוח משפחתיים לילדים ומבוגרים, משחקי פאזל בלוק לגילאי 4+",
-  "price": "$37.99",
-  "was": "$49.99",
-  "discount": "24%",
-  "rating": "4.7",
-  "reviews": "7,537",
-  "rank": 4,
-  "source": "bestsellers",
-  "message_id": 984,
-  "image": "https://m.media-amazon.com/images/I/71SaknlttBL._AC_SL1500_.jpg",
-  "variant": 1,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   984,
-   985,
-   986
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/922b5a35-d757-4a44-be04-0a8dbce4d1c8/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "toys-and-games/166220011",
-  "category_en": "Games",
-  "category_he": "משחקים",
-  "posted_at": "2026-11-25T09:34:09.656411+00:00"
- },
- {
   "asin": "ali-1005007987710373",
   "title": "Manual Pressing Garlic Grinding Grater Cutter Cooking Tool Garlic Peeler Kitchen Accessories Kitchen Gadgets And Accessories",
   "title_he": "כבישה ידנית שום טחינת פומפיה חותך כלי בישול קולפן שום אביזרי מטבח אביזרי מטבח ואביזרים",
@@ -1168,5 +1139,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T08:01:24.205668+00:00"
+ },
+ {
+  "asin": "ali-1005006904750083",
+  "title": "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
+  "title_he": "מנורת קיר חיישן תנועה LED 100 מופעל על ידי שמש, מנורת אבטחה חיצונית עמידה למים לגינה, גדר, חצר, קישוט שביל",
+  "price": "$5.05",
+  "was": "$10.92",
+  "discount": "53%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1104,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf66090272ad84f9893970716dbcc8329B.jpg",
+  "variant": 765,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oCAZC9QtGAMnAXyZ3wwbHxbdFo0XAAUMaJLaxHuuhffcs4aaVbAbR90ViUDHsLhdjlcOu2x0YFkzoRXK2ZFBLkxRj4S3yFR720RaCmAHW9KrS7sDQDUwHMLhYUQhEcyyc3nPb5h6kz6JXeBJQaesM2blixtub4UzJdYcJIwZqjUbOU0ZWfIEzByfsvZLkLt845loS92PzE0MoOcEKR3x18KjjcpUsH3n2aidcavODkNp4MjCbDW3K8Fo2mahfLRalUH9w40aOvI4rb6BNWzwlEgtzo96ZlX4KGkLAmQDtoIswqZ2h18m5HbbOAsaFftyMvSyl1LNwVd07cLBj30uFSAYQieqJps3nPoVzRItqzhkNIw90SsZGsi3MiAoFSpzdvB0HS1igKEZ1SXmg5gq9TbxD0xoOjtTFVbLJenH1OYDf2XitXV8uK3fusRFUW5NJ1kG5QZfFffcyBJZUXbvjYArbIbtOY4Yjdri4A5UernAAGAN1EMrW5Dvzf8tTeZTuiogvD0s5Ns0M3atTMWrLYGzH0QVlCLn5uVo1NHXlShtvILGpQ4u7ei0yM58l6ObAZnFpFegYSwaBz9yU87BtZDQWHV719Bq8xlEpT86YToDLfXbPEgNgwlImwczTIRsFjVjhe34up58iWECx6TZuE9WytJEICnvm7CG7Yma4bQ5JZmklGs1ZNt4Xr8QVwooKaEHgee2nOYAI",
+  "sold": "6,000",
+  "album_ids": [
+   1104,
+   1105,
+   1106
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/solar wall light motion sensor",
+  "category_en": "Outdoor lighting",
+  "category_he": "תאורת חוץ",
+  "posted_at": "2026-11-26T08:30:56.794816+00:00"
  }
 ]
