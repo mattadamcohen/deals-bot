@@ -10,7 +10,7 @@ posts = json.loads((bot.ROOT / "data" / "posts.json").read_text())
 want = sys.argv[1:] or [posts[-1]["asin"], next(p["asin"] for p in reversed(posts) if p.get("store") == "aliexpress")]
 for asin in want:
     p = next(x for x in reversed(posts) if x["asin"] == asin)
-    item = {k: p.get(k) for k in ("asin", "title", "price", "was", "discount", "rating", "reviews", "store", "link", "image")}
+    item = {k: p.get(k) for k in ("asin", "title", "price", "was", "discount", "rating", "reviews", "store", "link", "image", "sold")}
     item["coupon"] = json.loads(p["coupon"]) if p.get("coupon", "").startswith("{") else None
     text = bot.caption(item, {"slug": p.get("category_slug", ""), "he": p.get("category_he", ""), "en": p.get("category_en", "")})
     print(text, "\n----")
