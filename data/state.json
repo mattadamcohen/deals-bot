@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 14
+  "2026-11-26": 15
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -237,6 +237,7 @@
   "electric vacuum pump": "2026-11-25T16:32:45.136271+00:00",
   "energizer aa and aaa": "2026-11-22T05:04:10.388173+00:00",
   "energizer aa batteries alkaline": "2026-11-18T17:00:58.235302+00:00",
+  "ergonomic memory foam pillow": "2026-11-26T11:17:11.529462+00:00",
   "essager w usb c": "2026-11-18T15:01:02.608036+00:00",
   "essager w usb type": "2026-11-16T09:01:42.311904+00:00",
   "eva storage case for": "2026-11-22T16:46:12.861675+00:00",
@@ -901,7 +902,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T11:01:02.607813+00:00",
+ "last_post_at": "2026-11-26T11:17:11.529227+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1621,14 +1622,6 @@
   },
   {
    "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-26-11",
-   "store": "amazon_focus",
-   "url": "focus"
-  },
-  {
-   "focus": true,
    "id": "Brand fashion",
    "over_cap_ok": true,
    "sid": "focus-brand-fashion-2026-11-26-13",
@@ -1973,6 +1966,7 @@
   "ali-1005011971017841": "2026-11-21T06:31:24.886780+00:00",
   "ali-1005011991969247": "2026-11-21T12:00:55.872707+00:00",
   "ali-1005011993743447": "2026-11-20T10:01:05.738903+00:00",
+  "ali-1005012011159315": "2026-11-26T11:17:11.482043+00:00",
   "ali-1005012013972727": "2026-11-23T08:47:00.265977+00:00",
   "ali-1005012014144008": "2026-11-23T12:30:54.356825+00:00",
   "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
@@ -2031,10 +2025,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/solar wall light motion sensor",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/travel neck pillow"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2045,17 +2039,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "other",
   "tech",
   "home",
   "kitchen",
-  "tech"
+  "tech",
+  "fashion"
  ],
  "recent_titles": [
-  "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
   "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
   "Columbia Men's Thistletown Hills Short Sleeve",
   "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
@@ -2066,7 +2059,8 @@
   "U.S. POLO ASSN. Women's Crew Neck Sweaters \u2013 Raglan, Cable Knit & Striped",
   "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
   "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
-  "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women"
+  "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
+  "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2110,6 +2104,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136234
 }
