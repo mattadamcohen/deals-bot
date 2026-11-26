@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 26
+  "2026-11-26": 27
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -412,6 +412,7 @@
   "oyifan men belt genuine": "2026-11-24T07:15:44.445286+00:00",
   "paula's choice skin perfecting": "2026-11-22T17:16:16.095593+00:00",
   "pc case shell for": "2026-11-19T12:30:55.031143+00:00",
+  "phatoil aromatherapy fragrance oil": "2026-11-26T14:31:21.010354+00:00",
   "piece bicycle dynamometer wrench": "2026-11-18T16:01:31.979475+00:00",
   "pocket zipper card binder": "2026-11-22T12:15:46.795919+00:00",
   "pok mon tcg mega": "2026-11-20T18:01:21.598112+00:00",
@@ -938,7 +939,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T14:15:53.977136+00:00",
+ "last_post_at": "2026-11-26T14:31:21.010117+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1913,6 +1914,7 @@
   "ali-1005008599770638": "2026-11-23T05:30:55.579772+00:00",
   "ali-1005008603585460": "2026-11-18T12:01:19.204538+00:00",
   "ali-1005008639317272": "2026-11-18T19:31:00.099925+00:00",
+  "ali-1005008660075975": "2026-11-26T14:31:20.731662+00:00",
   "ali-1005008660141760": "2026-11-22T17:02:02.015534+00:00",
   "ali-1005008678152252": "2026-11-22T20:45:46.294994+00:00",
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
@@ -2067,10 +2069,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "wireless",
   "aliexpress/led light room decor",
   "pick",
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
+  "aliexpress/aroma diffuser"
  ],
  "recent_groups": [
   "automotive",
@@ -2081,17 +2083,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "pets",
   "kids",
   "other",
   "sport",
   "tech",
   "home",
   "kids",
-  "tech"
+  "tech",
+  "home"
  ],
  "recent_titles": [
-  "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection",
   "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket",
   "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
   "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
@@ -2102,7 +2103,8 @@
   "ESR Classic Hybrid for iPhone 18 Pro Max Case / 17 Pro Max Case, Clear",
   "Touch Dimmable Black PCB LED Strip Light COB Tape For Walnut Acoustic Wooden Slat Grille TV Background Wall Panel&Cabinet Decor",
   "LEGO Pok\u00e9mon Eevee 72151",
-  "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office"
+  "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office",
+  "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
