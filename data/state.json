@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 18
+  "2026-11-26": 19
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -328,6 +328,7 @@
   "lisen retractable car charger": "2026-11-26T11:01:02.608207+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
+  "long steel wire pole": "2026-11-26T12:31:07.133475+00:00",
   "loratap tuya smart life": "2026-11-24T09:45:55.521379+00:00",
   "low-power wifi video doorbell": "2026-11-21T05:31:25.483514+00:00",
   "lubluelu v w hot": "2026-11-23T10:01:23.251585+00:00",
@@ -550,6 +551,12 @@
   "focus-brand-fashion-2026-11-26-9"
  ],
  "giveaway_entries": {
+  "1018598077": {
+   "at": "2026-11-26T12:30:56.970401+00:00",
+   "name": "\u05d0\u05d7\u05d9\u05e0\u05d5\u05e2\u05dd",
+   "username": "",
+   "via": "join"
+  },
   "1125221452": {
    "at": "2026-11-18T07:06:11.963429+00:00",
    "name": "MC",
@@ -902,11 +909,12 @@
   "8436711217",
   "844064057",
   "5935648772",
-  "6322429259"
+  "6322429259",
+  "1018598077"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T12:04:31.996321+00:00",
+ "last_post_at": "2026-11-26T12:31:07.133217+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1940,6 +1948,7 @@
   "ali-1005010064173908": "2026-11-22T05:31:18.289285+00:00",
   "ali-1005010088935712": "2026-11-24T11:15:53.864996+00:00",
   "ali-1005010088982420": "2026-11-22T07:15:50.588103+00:00",
+  "ali-1005010089207256": "2026-11-26T12:31:07.104117+00:00",
   "ali-1005010089219254": "2026-11-16T06:01:27.209527+00:00",
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010109614553": "2026-11-22T18:15:51.568598+00:00",
@@ -2049,10 +2058,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/travel neck pillow",
   "pick",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
-  "beauty/3778591"
+  "beauty/3778591",
+  "aliexpress/cat toys"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -2063,17 +2072,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "kitchen",
   "tech",
   "fashion",
   "fashion",
   "tech",
-  "beauty"
+  "beauty",
+  "pets"
  ],
  "recent_titles": [
-  "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand",
   "Reebok Court Advance Sneakers for Men - Casual Tennis Mens Shoes Size 6 to 15",
   "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
   "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
@@ -2084,7 +2092,8 @@
   "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection",
   "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket",
   "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
-  "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black"
+  "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
+  "Long Steel Wire Pole Cat Teaser Wand Rotating Chinchilla Feather Fishing Toy Stress Relief Play Toy for Kittens"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2128,6 +2137,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136234
+ "since_ali": 0,
+ "tg_offset": 260136236
 }
