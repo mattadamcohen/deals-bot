@@ -818,6 +818,7 @@
  },
  "giveaway_link_owner": {
   "https://t.me/+6AHeSsixu5syZWM8": "1125221452",
+  "https://t.me/+AY5WLMUm-5g2ZTE0": "5513519488",
   "https://t.me/+IB0QTwZALxtjNDQ8": "1139221366"
  },
  "giveaway_refs": {
@@ -828,6 +829,10 @@
   "1139221366": {
    "joined": [],
    "link": "https://t.me/+IB0QTwZALxtjNDQ8"
+  },
+  "5513519488": {
+   "joined": [],
+   "link": "https://t.me/+AY5WLMUm-5g2ZTE0"
   }
  },
  "giveaway_seen": [
@@ -2083,5 +2088,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136230
+ "tg_offset": 260136231
 }
