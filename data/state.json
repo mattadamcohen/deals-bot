@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 41
+  "2026-11-26": 42
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -334,6 +334,7 @@
   "led light up drawing": "2026-11-19T07:00:58.627989+00:00",
   "led solar lights outdoor": "2026-11-25T08:02:23.671574+00:00",
   "led solar pathway lights": "2026-11-16T06:01:27.251900+00:00",
+  "led solar string lights": "2026-11-26T19:16:13.598289+00:00",
   "led wall lights outdoor": "2026-11-21T13:31:03.898090+00:00",
   "lego pok mon eevee": "2026-11-26T14:01:14.240166+00:00",
   "lego travel suitcase": "2026-11-26T17:31:03.764209+00:00",
@@ -985,7 +986,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T19:01:03.236441+00:00",
+ "last_post_at": "2026-11-26T19:16:13.598067+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1960,6 +1961,7 @@
   "ali-1005007539958713": "2026-11-25T17:16:48.693461+00:00",
   "ali-1005007540007398": "2026-11-21T08:00:57.442517+00:00",
   "ali-1005007540124409": "2026-11-24T09:45:55.479241+00:00",
+  "ali-1005007567580023": "2026-11-26T19:16:13.561262+00:00",
   "ali-1005007605939585": "2026-11-22T08:45:48.430699+00:00",
   "ali-1005007628433434": "2026-11-23T19:30:56.080876+00:00",
   "ali-1005007650509472": "2026-11-24T07:00:57.011408+00:00",
@@ -2144,10 +2146,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/squishy advent calendar",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/solar string lights outdoor"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2158,17 +2160,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "kitchen",
   "home",
   "kids",
   "kitchen",
   "tech",
   "kids",
   "kids",
-  "other"
+  "other",
+  "home"
  ],
  "recent_titles": [
-  "Vacuum Sealed Tank Coffee Beans Storage Glass Bottle Transparent Food Jar Moisture-Proof Extract Air Airtight Container",
   "OYIFAN Fashion Men's Belt Men's Genuine Leather Belt Automatic Buckle Ratchet Belt Random Adjustment",
   "RAYKUBE M5 Tuya BLE Smart Fingerprint Door Lock Digital Electronic Lock with Password/Key/IC Card/ Smartlife/ Tuya APP Unlock",
   "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
@@ -2179,7 +2180,8 @@
   "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
   "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors",
   "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
-  "Columbia Women's PFG Castback Non Slip Boat Shoe"
+  "Columbia Women's PFG Castback Non Slip Boat Shoe",
+  "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2229,6 +2231,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136245
 }
