@@ -2757,6 +2757,61 @@
       "sid": "pick-1126-xiaomi-cam",
       "note_he": "⚠️ גרסה סינית: ממשק המצלמה והאפליקציה בסינית, מגיע עם מתאם לשקע",
       "note_en": "⚠️ Chinese version: camera/app interface in Chinese, adapter included"
+    },
+    {
+      "store": "amazon",
+      "id": "B0CFCLC9DC",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0CFCLC9DC",
+      "at": "2026-11-26T16:15:00+00:00",
+      "not_before": "2026-11-26T16:15:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126-B0CFCLC9DC"
+    },
+    {
+      "store": "amazon",
+      "id": "B0FY4D1Q12",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0FY4D1Q12",
+      "at": "2026-11-26T18:45:00+00:00",
+      "not_before": "2026-11-26T18:45:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126-B0FY4D1Q12"
+    },
+    {
+      "store": "amazon",
+      "id": "B0CLR7G8MK",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0CLR7G8MK",
+      "at": "2026-11-27T06:30:00+00:00",
+      "not_before": "2026-11-27T06:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126-B0CLR7G8MK"
+    },
+    {
+      "store": "amazon",
+      "id": "B0GGRT3R91",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0GGRT3R91",
+      "at": "2026-11-27T09:00:00+00:00",
+      "not_before": "2026-11-27T09:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126-B0GGRT3R91"
+    },
+    {
+      "store": "amazon",
+      "id": "B0B3HTQ4YT",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0B3HTQ4YT",
+      "at": "2026-11-27T12:30:00+00:00",
+      "not_before": "2026-11-27T12:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126-B0B3HTQ4YT"
     }
   ],
   "giftbox_alternate": true,
