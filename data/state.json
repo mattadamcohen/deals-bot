@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 10
+  "2026-11-26": 11
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -39,6 +39,7 @@
   "B0D6V79DLZ": "2026-11-22T16:31:06.510433+00:00",
   "B0D7QD8MTR": "2026-11-18T10:05:20.234978+00:00",
   "B0D89H2ZHD": "2026-11-16T13:46:30.722459+00:00",
+  "B0D89WGS3J": "2026-11-26T08:01:24.207597+00:00",
   "B0D8F8W3WD": "2026-11-15T16:02:06.149367+00:00",
   "B0D98L6Q51": "2026-11-24T14:45:49.614879+00:00",
   "B0D9RRHH2T": "2026-11-17T19:46:09.918285+00:00",
@@ -478,6 +479,7 @@
   "trendy queen oversized cable": "2026-11-17T19:46:09.918290+00:00",
   "true wireless earphone noise": "2026-11-18T13:31:21.404512+00:00",
   "turtle beach recon wired": "2026-11-22T08:15:43.912267+00:00",
+  "u s polo assn": "2026-11-26T08:01:24.207602+00:00",
   "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
   "ugreen ultra slim w": "2026-11-23T11:30:57.650238+00:00",
   "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
@@ -866,7 +868,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T07:45:46.478754+00:00",
+ "last_post_at": "2026-11-26T08:01:24.207212+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1542,17 +1544,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-26T08:00:00+00:00",
-   "id": "B0H9XMRTKL",
-   "not_before": "2026-11-26T08:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-B0H9XMRTKL",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0H9XMRTKL"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T10:30:00+00:00",
    "id": "B0FDX9T6DF",
    "not_before": "2026-11-26T10:30:00+00:00",
@@ -1764,6 +1755,7 @@
   "B0H75RQRZD": "2026-11-15T18:45:41.650155+00:00",
   "B0H85JSPWJ": "2026-11-23T08:01:13.160982+00:00",
   "B0H87K51V4": "2026-11-21T18:31:42.592257+00:00",
+  "B0H9XMRTKL": "2026-11-26T08:01:24.180465+00:00",
   "B0HCYX8QBJ": "2026-11-17T17:01:01.934936+00:00",
   "B0HDST6F85": "2026-11-24T17:49:35.675502+00:00",
   "B0HDYQXT81": "2026-11-23T08:15:54.267868+00:00",
@@ -2009,9 +2001,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "toys-and-games/166092011",
   "pick",
   "wireless",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -2023,17 +2015,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "other",
   "tech",
   "kids",
   "fashion",
   "tech",
-  "other"
+  "other",
+  "tech"
  ],
  "recent_titles": [
-  "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
   "Dickies Mens Loose Fit Double Knee Work Pants",
   "New Balance Men's 515",
   "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
@@ -2044,7 +2035,8 @@
   "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand",
   "Reebok Court Advance Sneakers for Men - Casual Tennis Mens Shoes Size 6 to 15",
   "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
-  "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector"
+  "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
+  "U.S. POLO ASSN. Women's Crew Neck Sweaters \u2013 Raglan, Cable Knit & Striped"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2088,6 +2080,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 3,
+ "since_ali": 4,
  "tg_offset": 260136230
 }

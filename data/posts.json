@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005010706581894",
-  "title": "Makita Original DDF487 18V Brushless Electric Screwdriver Cordless Drill Rechargeable Power Tool Only",
-  "title_he": "מקיטה מקורי DDF487 18V מברג חשמלי ללא מברשות מקדחה אלחוטית כלי חשמלי נטען בלבד",
-  "price": "$45.69",
-  "was": "$91.38",
-  "discount": "50%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 981,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92424b40db0549c68c1a942a2a640052P.png",
-  "variant": 504,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FElh9wpmL3M9u0SK2Mhh3AtHciSKa8dfsmmawhbHAf5T23y0kEXIIa8kCVjWEmxfkgvNTb0VBaE9PYsfVoVPRPJosnElNlD6xrbkzWErSuni4bUikAzdKvFsIQjQWeKaUwCpg41wLalyrOQeGISUyz5x4O3FPWkyT4il7pvQrOzcDkeJRQxq9XeXoTNimhKh39Hf48pnDZR0zVMn15l6dJyJK1mW66okTssby9JwH8NNE2uBaMLzkzSwiJlp1GAiczWJTBznT3OCKNGGovyTrUgDIDxHNonfycmpLoVjhBQnVV5yczSD7W6XrjeEdC3pTYeKyx7qdL4PRzqYihYvM7WMc51RSmdo80ff0gMHgZmSRz2aBSNGztZqcQciLwo03AmkywJMHYIoloQH97irAhzDh95BroPHueMhDaiRow7gFsWipFBDqg2zXpNOBPqKvzOHCo51UDxrMSvVvnQ6Q71MJvFDyuoWZTOqlEafwXhK420JzxkdiQFTuMifvVh634UQrSvD0jl2ud1NO9HAeWTe4OthhAgFJvsqoeTHKgPPOyF02HV4hMqIxFDgFHd9MUIyfXipOFnUU7CtuQJtlDlshbdUh8T160jI3I24Xq1KKTZiqFwSuKR51qXHxy81ogjD8iDhyCkbEawy0ISiOWz6e7FnzbZ5LKTq0TgmTTFk2UG6Ehzm0EdcgbZt93QkWMjyGhYFnWNk3",
-  "sold": "6,000",
-  "album_ids": [
-   981,
-   982,
-   983
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/cordless drill brushless",
-  "category_en": "Tools",
-  "category_he": "כלי עבודה",
-  "posted_at": "2026-11-25T09:01:42.745485+00:00"
- },
- {
   "asin": "B0BFP4VZCP",
   "title": "The Uzzle 3.0 Board Game, Family Board Games for Children & Adults, Block Puzzle Games for Ages 4+",
   "title_he": "משחק הלוח Uzzle 3.0, משחקי לוח משפחתיים לילדים ומבוגרים, משחקי פאזל בלוק לגילאי 4+",
@@ -1168,5 +1139,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T07:45:46.476606+00:00"
+ },
+ {
+  "asin": "B0H9XMRTKL",
+  "title": "U.S. POLO ASSN. Women's Crew Neck Sweaters – Raglan, Cable Knit & Striped",
+  "title_he": "ארה\"ב POLO ASSN. סוודרים עם צווארון עגול לנשים - רגלאן, סריג כבלים ופסים",
+  "price": "$24.49",
+  "was": "$60.00",
+  "discount": "59%",
+  "rating": "4.6",
+  "reviews": "164",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1101,
+  "image": "https://m.media-amazon.com/images/I/61cN0p1RCjL._AC_SL1500_.jpg",
+  "variant": 368,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1101,
+   1102,
+   1103
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T08:01:24.205668+00:00"
  }
 ]
