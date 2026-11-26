@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 7
+  "2026-11-26": 8
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -88,6 +88,7 @@
   "B0GK8GWZ86": "2026-11-18T05:34:41.618296+00:00",
   "B0GR2L13SV": "2026-11-18T15:30:53.597929+00:00",
   "B0GR574X4L": "2026-11-25T19:46:12.926997+00:00",
+  "B0GTY387C2": "2026-11-26T07:01:06.810501+00:00",
   "B0GVL5W1BZ": "2026-11-24T15:30:55.738330+00:00",
   "B0GWHQPFS2": "2026-11-24T12:31:01.926835+00:00",
   "B0GWMM2QRN": "2026-11-24T10:31:25.532727+00:00",
@@ -413,6 +414,7 @@
   "realistic finished reborn doll": "2026-11-25T07:45:43.797000+00:00",
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
+  "reebok court advance sneakers": "2026-11-26T07:01:06.810508+00:00",
   "reebok fleece jacket": "2026-11-23T08:01:13.266313+00:00",
   "refrigerator storage box fridge": "2026-11-26T05:46:01.710083+00:00",
   "remote control air mouse": "2026-11-23T12:30:54.387393+00:00",
@@ -529,7 +531,8 @@
   "focus-2026-11-25-19",
   "focus-brand-fashion-2026-11-25-13",
   "focus-brand-fashion-2026-11-25-17",
-  "focus-brand-fashion-2026-11-25-9"
+  "focus-brand-fashion-2026-11-25-9",
+  "focus-brand-fashion-2026-11-26-9"
  ],
  "giveaway_entries": {
   "1125221452": {
@@ -855,7 +858,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T06:34:53.330308+00:00",
- "last_post_at": "2026-11-26T06:34:57.598262+00:00",
+ "last_post_at": "2026-11-26T07:01:06.810102+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1567,17 +1570,6 @@
   },
   {
    "alt": [],
-   "at": "2026-11-26T07:00:00+00:00",
-   "id": "B09ZJDPFWT",
-   "not_before": "2026-11-26T07:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125b-B09ZJDPFWT",
-   "store": "amazon",
-   "url": "https://link.amazon/B0iBE2Dov"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T09:15:00+00:00",
    "id": "B0D4215HCX",
    "not_before": "2026-11-26T09:15:00+00:00",
@@ -1619,6 +1611,14 @@
    "sid": "pick-1125-ditong",
    "store": "aliexpress",
    "url": "https://s.click.aliexpress.com/e/_c3v3dmBJ"
+  },
+  {
+   "focus": true,
+   "id": "Brand fashion",
+   "over_cap_ok": true,
+   "sid": "focus-brand-fashion-2026-11-26-9",
+   "store": "amazon_focus",
+   "url": "focus"
   }
  ],
  "posted": {
@@ -1681,6 +1681,7 @@
   "B09RTVD1GF": "2026-11-18T17:00:58.161748+00:00",
   "B09V7Z4TJG": "2026-11-19T12:04:43.285904+00:00",
   "B09YPRWH1T": "2026-11-24T09:19:41.327488+00:00",
+  "B09ZJDPFWT": "2026-11-26T07:01:06.737470+00:00",
   "B0B1RWJ4QJ": "2026-11-23T18:04:28.402742+00:00",
   "B0B2RM68G2": "2026-11-20T13:01:28.290700+00:00",
   "B0B6B25BKW": "2026-11-20T14:01:00.195937+00:00",
@@ -2010,10 +2011,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen storage containers",
   "pick",
   "aliexpress/smart watch",
-  "toys-and-games/166092011"
+  "toys-and-games/166092011",
+  "pick"
  ],
  "recent_groups": [
   "fashion",
@@ -2024,17 +2025,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "fashion",
   "other",
   "tech",
   "kids",
   "kitchen",
   "other",
   "tech",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
   "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
   "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
@@ -2045,7 +2045,8 @@
   "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
   "Columbia Men's Thistletown Hills Short Sleeve",
   "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
-  "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand"
+  "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand",
+  "Reebok Court Advance Sneakers for Men - Casual Tennis Mens Shoes Size 6 to 15"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2089,6 +2090,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136229
 }
