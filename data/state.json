@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 4
+  "2026-11-26": 5
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -14,6 +14,7 @@
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
   "B09JFMBWJX": "2026-11-23T14:05:33.168573+00:00",
   "B09QT4DRMB": "2026-11-17T05:04:11.018855+00:00",
+  "B09XB4SHTB": "2026-11-26T06:01:06.279002+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
   "B0B9WN3PFY": "2026-11-24T09:19:41.368315+00:00",
   "B0BGT8RYVC": "2026-11-24T10:01:08.455485+00:00",
@@ -199,6 +200,7 @@
   "cole haan grand crosscourt": "2026-11-23T07:01:06.831773+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
   "columbia benton springs full": "2026-11-23T07:46:01.761921+00:00",
+  "columbia thistletown hills short": "2026-11-26T06:01:06.279011+00:00",
   "controller gaming accessories for": "2026-11-24T08:30:48.600340+00:00",
   "coofandy t shirt short": "2026-11-23T10:15:55.012446+00:00",
   "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
@@ -600,6 +602,12 @@
    "username": "XaAeTX",
    "via": "join"
   },
+  "438276024": {
+   "at": "2026-11-26T06:00:56.254458+00:00",
+   "name": "Adir",
+   "username": "",
+   "via": "join"
+  },
   "458095556": {
    "at": "2026-11-20T11:30:53.954312+00:00",
    "name": "Natt",
@@ -622,6 +630,12 @@
    "at": "2026-11-22T16:05:29.652089+00:00",
    "name": "SF",
    "username": "Kfarsaba13",
+   "via": "join"
+  },
+  "5444655623": {
+   "at": "2026-11-26T06:00:56.254516+00:00",
+   "name": "\u05e2\u05de\u05e0\u05d5\u05d0\u05dc",
+   "username": "",
    "via": "join"
   },
   "547613085": {
@@ -833,11 +847,13 @@
   "5490868872",
   "217441497",
   "1959976443",
-  "1245613832"
+  "1245613832",
+  "438276024",
+  "5444655623"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-26T05:46:01.709939+00:00",
+ "last_post_at": "2026-11-26T06:01:06.278624+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1504,17 +1520,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-26T06:00:00+00:00",
-   "id": "B0CLQDBRD2",
-   "not_before": "2026-11-26T06:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-B0CLQDBRD2",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0CLQDBRD2"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T08:00:00+00:00",
    "id": "B0H9XMRTKL",
    "not_before": "2026-11-26T08:00:00+00:00",
@@ -1701,6 +1706,7 @@
   "B0CL7JYSP5": "2026-11-25T19:01:09.407757+00:00",
   "B0CL7L523F": "2026-11-24T13:34:08.616792+00:00",
   "B0CLGNYKFR": "2026-11-21T17:00:59.256447+00:00",
+  "B0CLQDBRD2": "2026-11-26T06:01:06.240917+00:00",
   "B0CQ8RSTDW": "2026-11-21T11:30:57.438982+00:00",
   "B0CSDF3YFB": "2026-11-21T15:00:57.223672+00:00",
   "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
@@ -2002,8 +2008,8 @@
  "recent_categories": [
   "pick",
   "pick",
-  "pick",
-  "aliexpress/kitchen storage containers"
+  "aliexpress/kitchen storage containers",
+  "pick"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -2014,17 +2020,16 @@
   "automotive"
  ],
  "recent_themes": [
-  "fashion",
   "kids",
   "car",
   "fashion",
   "other",
   "tech",
   "kids",
-  "kitchen"
+  "kitchen",
+  "other"
  ],
  "recent_titles": [
-  "LED Galaxy Projector Light Colorful Galaxy Sky Projector Bedroom Night Light Kids Room Decoration Christmas Party Decoration",
   "Taba Squishy Cheese Cube Stress Ball Shapeable Squeeze Ball Non Rebound Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
   "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
@@ -2035,7 +2040,8 @@
   "New Balance Men's 515",
   "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
   "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
-  "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer"
+  "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
+  "Columbia Men's Thistletown Hills Short Sleeve"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2079,6 +2085,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
- "tg_offset": 260136227
+ "since_ali": 1,
+ "tg_offset": 260136229
 }
