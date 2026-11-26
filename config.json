@@ -2823,6 +2823,39 @@
       "not_before": "2026-11-26T18:30:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1126b-B0CF9Z5SLZ"
+    },
+    {
+      "store": "amazon",
+      "id": "B0GF83FCQH",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0GF83FCQH",
+      "at": "2026-11-26T19:55:00+00:00",
+      "not_before": "2026-11-26T19:55:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126c-B0GF83FCQH"
+    },
+    {
+      "store": "amazon",
+      "id": "B0DMNRG4X8",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0DMNRG4X8",
+      "at": "2026-11-26T20:15:00+00:00",
+      "not_before": "2026-11-26T20:15:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126c-B0DMNRG4X8"
+    },
+    {
+      "store": "amazon",
+      "id": "B0FCHQ65TK",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0FCHQ65TK",
+      "at": "2026-11-26T20:35:00+00:00",
+      "not_before": "2026-11-26T20:35:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126c-B0FCHQ65TK"
     }
   ],
   "giftbox_alternate": true,
