@@ -2943,5 +2943,6 @@
       ],
       "avoid": "\\b(case|cover|screen protector|tempered glass|protector|skin|sticker|replacement band|strap)\\b"
     }
-  ]
+  ],
+  "caption_style": "short"
 }
