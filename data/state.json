@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 32
+  "2026-11-26": 33
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -48,6 +48,7 @@
   "B0DDT92PWJ": "2026-11-23T06:46:02.457860+00:00",
   "B0DF2KNRHC": "2026-11-23T18:04:28.430496+00:00",
   "B0DF6HJYVW": "2026-11-20T14:01:00.195999+00:00",
+  "B0DH6N3VQL": "2026-11-26T16:31:05.011322+00:00",
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
   "B0DJWTCSML": "2026-11-23T07:01:06.831765+00:00",
@@ -424,6 +425,7 @@
   "precision screwdriver set with": "2026-11-24T11:15:53.887482+00:00",
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
   "professional aroma diffuser electric": "2026-11-25T18:45:55.594790+00:00",
+  "project cloud genuine leather": "2026-11-26T16:31:05.011328+00:00",
   "project cloud sandals genuine": "2026-11-25T17:01:07.519629+00:00",
   "puma voltaic evo cross": "2026-11-25T19:01:09.425950+00:00",
   "push up board": "2026-11-24T12:31:01.926840+00:00",
@@ -944,7 +946,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T16:01:15.845307+00:00",
+ "last_post_at": "2026-11-26T16:31:05.010936+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1656,17 +1658,6 @@
   },
   {
    "alt": [],
-   "at": "2026-11-26T16:15:00+00:00",
-   "id": "B0CFCLC9DC",
-   "not_before": "2026-11-26T16:15:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1126-B0CFCLC9DC",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0CFCLC9DC"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T18:45:00+00:00",
    "id": "B0FY4D1Q12",
    "not_before": "2026-11-26T18:45:00+00:00",
@@ -1797,6 +1788,7 @@
   "B0C69HB8PM": "2026-11-23T14:05:33.168579+00:00",
   "B0C7ZBNWL5": "2026-11-22T16:31:06.474029+00:00",
   "B0C9SS3W9K": "2026-11-23T07:01:06.786453+00:00",
+  "B0CFCLC9DC": "2026-11-26T16:31:04.927787+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
   "B0CL7JYSP5": "2026-11-25T19:01:09.407757+00:00",
@@ -2123,10 +2115,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/car vacuum cleaner",
   "aliexpress/glass food storage containers",
   "aliexpress/gift set for men",
-  "aliexpress/smart door lock fingerprint"
+  "aliexpress/smart door lock fingerprint",
+  "pick"
  ],
  "recent_groups": [
   "automotive",
@@ -2137,17 +2129,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "kids",
   "tech",
   "home",
   "other",
   "car",
   "kitchen",
   "home",
-  "tech"
+  "tech",
+  "fashion"
  ],
  "recent_titles": [
-  "COMFIER Back Massager with Heat, Chair Pad with Adjustable Lumbar Support",
   "YKYWBIKE Cycling Bib Shorts Men Outdoor Wear Bike Ride 6 Hours Padded Riding Bib Tights Bicycle Men's Cycling Clothing Mtb Short",
   "ESR Classic Hybrid for iPhone 18 Pro Max Case / 17 Pro Max Case, Clear",
   "Touch Dimmable Black PCB LED Strip Light COB Tape For Walnut Acoustic Wooden Slat Grille TV Background Wall Panel&Cabinet Decor",
@@ -2158,7 +2149,8 @@
   "Car Vacuum Cleaner 95000PA Strong Suction Handheld Wireless Vacuum Cleaner Blower 2 in 1 Portable Vacuum Cleaner For Car Home",
   "Vacuum Sealed Tank Coffee Beans Storage Glass Bottle Transparent Food Jar Moisture-Proof Extract Air Airtight Container",
   "OYIFAN Fashion Men's Belt Men's Genuine Leather Belt Automatic Buckle Ratchet Belt Random Adjustment",
-  "RAYKUBE M5 Tuya BLE Smart Fingerprint Door Lock Digital Electronic Lock with Password/Key/IC Card/ Smartlife/ Tuya APP Unlock"
+  "RAYKUBE M5 Tuya BLE Smart Fingerprint Door Lock Digital Electronic Lock with Password/Key/IC Card/ Smartlife/ Tuya APP Unlock",
+  "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2207,6 +2199,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136241
 }
