@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 9
+  "2026-11-26": 10
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -221,6 +221,7 @@
   "digital camera p vedio": "2026-11-25T14:30:58.408646+00:00",
   "digital camera photography instant": "2026-11-18T07:30:53.023442+00:00",
   "disney toddler little big": "2026-11-19T16:34:06.926542+00:00",
+  "ditong x plus hd": "2026-11-26T07:45:46.479194+00:00",
   "diy assemble magnetic track": "2026-11-25T11:45:51.698061+00:00",
   "diy automatic doll machine": "2026-11-22T07:15:50.624225+00:00",
   "dotwise psi portable outdoor": "2026-11-24T15:01:21.189409+00:00",
@@ -775,6 +776,12 @@
    "username": "",
    "via": "join"
   },
+  "8436711217": {
+   "at": "2026-11-26T07:45:41.809800+00:00",
+   "name": "\u05d7\u05e1\u05d5\u05dd",
+   "username": "hasumm21",
+   "via": "join"
+  },
   "8792830168": {
    "at": "2026-11-22T16:15:15.214403+00:00",
    "name": "Harris",
@@ -854,11 +861,12 @@
   "1959976443",
   "1245613832",
   "438276024",
-  "5444655623"
+  "5444655623",
+  "8436711217"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T07:20:35.111894+00:00",
+ "last_post_at": "2026-11-26T07:45:46.478754+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1608,17 +1616,6 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
-  },
-  {
-   "alt": [],
-   "at": "2026-11-26T07:45:00+00:00",
-   "id": "1005009012821000",
-   "not_before": "2026-11-26T07:45:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-ditong",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3v3dmBJ"
   }
  ],
  "posted": {
@@ -1870,6 +1867,7 @@
   "ali-1005008893241017": "2026-11-25T06:45:51.385556+00:00",
   "ali-1005008979722815": "2026-11-18T13:01:51.316344+00:00",
   "ali-1005008993557730": "2026-11-24T14:30:56.320963+00:00",
+  "ali-1005009012821000": "2026-11-26T07:45:46.413200+00:00",
   "ali-1005009070126028": "2026-11-25T10:31:31.646083+00:00",
   "ali-1005009120955798": "2026-11-17T05:31:18.582523+00:00",
   "ali-1005009136525831": "2026-11-16T10:01:27.044925+00:00",
@@ -2011,10 +2009,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/smart watch",
   "toys-and-games/166092011",
   "pick",
-  "wireless"
+  "wireless",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2025,17 +2023,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "kitchen",
   "other",
   "tech",
   "kids",
   "fashion",
-  "tech"
+  "tech",
+  "other"
  ],
  "recent_titles": [
-  "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
   "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
   "Dickies Mens Loose Fit Double Knee Work Pants",
   "New Balance Men's 515",
@@ -2046,7 +2043,8 @@
   "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
   "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand",
   "Reebok Court Advance Sneakers for Men - Casual Tennis Mens Shoes Size 6 to 15",
-  "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe"
+  "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
+  "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2091,5 +2089,5 @@
   "shot-1121-8"
  ],
  "since_ali": 3,
- "tg_offset": 260136229
+ "tg_offset": 260136230
 }
