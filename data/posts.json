@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0D3692N4F",
-  "title": "Dickies Mens Loose Fit Double Knee Work Pants",
-  "title_he": "מכנסי עבודה כפולים ברכיים של Dickies Mens Loose Fit",
-  "price": "$24.49",
-  "was": "$34.99",
-  "discount": "30%",
-  "rating": "4.4",
-  "reviews": "2,229",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1068,
-  "image": "https://m.media-amazon.com/images/I/515ha7C4U0L._AC_SL1500_.jpg",
-  "variant": 790,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1068,
-   1069,
-   1070
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/c0ed236a-2411-4e40-bcc8-1e5f969620ec.mp4/productVideoOptimized.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-25T19:46:12.924460+00:00"
- },
- {
   "asin": "B0F4GY83Q1",
   "title": "New Balance Men's 515",
   "title_he": "New Balance Men's 515",
@@ -1168,5 +1139,34 @@
   "category_en": "Squishies",
   "category_he": "סקווישים",
   "posted_at": "2026-11-26T18:30:54.544762+00:00"
+ },
+ {
+  "asin": "B0CF9Z5SLZ",
+  "title": "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
+  "title_he": "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
+  "price": "$21.99",
+  "was": "",
+  "discount": "15%",
+  "rating": "4.5",
+  "reviews": "4,938",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1191,
+  "image": "https://m.media-amazon.com/images/I/81GJ+RWZYFL._SL1500_.jpg",
+  "variant": 283,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1191,
+   1192,
+   1193
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8e21dcdc-b4b3-4305-a0db-e697bd5d8236.mp4/productVideoOptimized.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T18:33:59.348446+00:00"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 39
+  "2026-11-26": 40
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -63,6 +63,7 @@
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F495VFT8": "2026-11-23T14:05:33.168623+00:00",
   "B0F6V51BL4": "2026-11-17T16:01:58.139171+00:00",
+  "B0F99PXPH6": "2026-11-26T18:33:59.350514+00:00",
   "B0F99ZZRJY": "2026-11-17T06:01:17.389965+00:00",
   "B0F9T4SMR9": "2026-11-16T15:04:51.206817+00:00",
   "B0FBGPVQRL": "2026-11-17T11:00:52.057186+00:00",
@@ -174,6 +175,7 @@
   "baseus magnetic car phone": "2026-11-19T16:01:27.640245+00:00",
   "baseus security b outdoor": "2026-11-16T12:07:54.639367+00:00",
   "baseus w power bank": "2026-11-24T16:01:32.500546+00:00",
+  "bath bombs for with": "2026-11-26T18:33:59.350521+00:00",
   "beard trimmer for men": "2026-11-19T18:01:09.178097+00:00",
   "bedsure fleece bed blankets": "2026-11-16T06:31:23.838497+00:00",
   "bedsure gentlesoft throw blanket": "2026-11-15T14:26:34.499976+00:00",
@@ -974,7 +976,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T18:30:54.546422+00:00",
+ "last_post_at": "2026-11-26T18:33:59.350109+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1811,6 +1813,7 @@
   "B0C69HB8PM": "2026-11-23T14:05:33.168579+00:00",
   "B0C7ZBNWL5": "2026-11-22T16:31:06.474029+00:00",
   "B0C9SS3W9K": "2026-11-23T07:01:06.786453+00:00",
+  "B0CF9Z5SLZ": "2026-11-26T18:33:59.331892+00:00",
   "B0CFCLC9DC": "2026-11-26T16:31:04.927787+00:00",
   "B0CG65PYBV": "2026-11-19T19:30:52.286917+00:00",
   "B0CHY7B7LP": "2026-11-20T14:01:00.195964+00:00",
@@ -2142,10 +2145,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/kitchen gadgets",
   "pick",
-  "aliexpress/squishy advent calendar"
+  "aliexpress/squishy advent calendar",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2156,17 +2159,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "tech",
   "fashion",
   "kitchen",
   "home",
   "kids",
   "kitchen",
   "tech",
+  "kids",
   "kids"
  ],
  "recent_titles": [
-  "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
   "Car Vacuum Cleaner 95000PA Strong Suction Handheld Wireless Vacuum Cleaner Blower 2 in 1 Portable Vacuum Cleaner For Car Home",
   "Vacuum Sealed Tank Coffee Beans Storage Glass Bottle Transparent Food Jar Moisture-Proof Extract Air Airtight Container",
   "OYIFAN Fashion Men's Belt Men's Genuine Leather Belt Automatic Buckle Ratchet Belt Random Adjustment",
@@ -2177,7 +2179,8 @@
   "LEGO Yellow Travel Suitcase 40817 \u2013 184 Pieces, Buildable Luggage Model with Retractable Handle, 360\u00b0 Wheels & Travel Accessories | Ages 7+ | Travel Gift",
   "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
   "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
-  "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors"
+  "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors",
+  "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2204,6 +2207,7 @@
   "pick-1126-B0FY4D1Q12",
   "pick-1126-B0GGRT3R91",
   "pick-1126-xiaomi-cam",
+  "pick-1126b-B0CF9Z5SLZ",
   "shot-1118-1",
   "shot-1118-2",
   "shot-1118-3",
@@ -2226,6 +2230,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136244
 }
