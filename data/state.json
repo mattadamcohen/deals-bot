@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 27
+  "2026-11-26": 28
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -13,7 +13,7 @@
   "B096XNVFP1": "2026-11-19T16:34:06.926534+00:00",
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
   "B09JFMBWJX": "2026-11-23T14:05:33.168573+00:00",
-  "B09QT4DRMB": "2026-11-17T05:04:11.018855+00:00",
+  "B09QT4DRMB": "2026-11-26T15:01:28.855389+00:00",
   "B09SXLKFPH": "2026-11-26T11:31:29.677536+00:00",
   "B09XB4SHTB": "2026-11-26T06:01:06.279002+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
@@ -525,7 +525,7 @@
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
   "wireless peak car jump": "2026-11-23T20:01:08.097656+00:00",
   "worx v electrical screwdriver": "2026-11-17T17:31:56.535192+00:00",
-  "wrangler authentics regular fit": "2026-11-17T05:04:11.018860+00:00",
+  "wrangler authentics regular fit": "2026-11-26T15:01:28.855396+00:00",
   "wrangler comfort flex waist": "2026-11-17T08:01:21.527626+00:00",
   "wrangler relaxed fit stretch": "2026-11-25T14:45:47.411234+00:00",
   "wurkkos cl lumens rechargeable": "2026-11-25T08:46:11.904580+00:00",
@@ -560,6 +560,7 @@
   "focus-brand-fashion-2026-11-25-17",
   "focus-brand-fashion-2026-11-25-9",
   "focus-brand-fashion-2026-11-26-13",
+  "focus-brand-fashion-2026-11-26-17",
   "focus-brand-fashion-2026-11-26-9",
   "focus-brand-tech-2026-11-26-15"
  ],
@@ -939,7 +940,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T14:31:21.010117+00:00",
+ "last_post_at": "2026-11-26T15:01:28.855046+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1687,6 +1688,7 @@
   "B071NFVVNG": "2026-11-18T14:34:05.343668+00:00",
   "B0725WFLMB": "2026-11-16T05:34:38.325606+00:00",
   "B074PVTPBW": "2026-11-14T10:36:43.410211+00:00",
+  "B07C83SPCP": "2026-11-26T15:01:28.821749+00:00",
   "B07C86Y9XL": "2026-11-17T05:04:10.960401+00:00",
   "B07CMS5Q6P": "2026-11-16T10:34:58.515803+00:00",
   "B07D4RN9NH": "2026-11-14T20:17:43.829792+00:00",
@@ -2069,10 +2071,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/led light room decor",
   "pick",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
-  "aliexpress/aroma diffuser"
+  "aliexpress/aroma diffuser",
+  "pick"
  ],
  "recent_groups": [
   "automotive",
@@ -2083,17 +2085,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "kids",
   "other",
   "sport",
   "tech",
   "home",
   "kids",
   "tech",
-  "home"
+  "home",
+  "other"
  ],
  "recent_titles": [
-  "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket",
   "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
   "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
   "Long Steel Wire Pole Cat Teaser Wand Rotating Chinchilla Feather Fishing Toy Stress Relief Play Toy for Kittens",
@@ -2104,7 +2105,8 @@
   "Touch Dimmable Black PCB LED Strip Light COB Tape For Walnut Acoustic Wooden Slat Grille TV Background Wall Panel&Cabinet Decor",
   "LEGO Pok\u00e9mon Eevee 72151",
   "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office",
-  "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making"
+  "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making",
+  "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2148,6 +2150,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136240
 }
