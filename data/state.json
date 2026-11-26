@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 44
+  "2026-11-26": 45
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -53,6 +53,7 @@
   "B0DHTRP7XV": "2026-11-16T05:34:38.382997+00:00",
   "B0DJWRLJMD": "2026-11-17T13:02:08.033558+00:00",
   "B0DJWTCSML": "2026-11-23T07:01:06.831765+00:00",
+  "B0DMNRG4X8": "2026-11-26T20:15:51.955042+00:00",
   "B0DMXB35V4": "2026-11-26T12:04:31.996568+00:00",
   "B0DNG29JFN": "2026-11-20T12:04:43.973831+00:00",
   "B0DP4KNGWM": "2026-11-18T14:34:05.411603+00:00",
@@ -433,6 +434,7 @@
   "pok mon tcg mega": "2026-11-20T18:01:21.598112+00:00",
   "pokemon cards plus a": "2026-11-20T15:00:57.006964+00:00",
   "popdeer pd-ja a in-": "2026-11-17T08:31:50.520762+00:00",
+  "portable monitor inch fhd": "2026-11-26T20:15:51.955050+00:00",
   "powerful led solar outdoor": "2026-11-23T11:45:50.786347+00:00",
   "precision screwdriver set with": "2026-11-24T11:15:53.887482+00:00",
   "pritom tablet pc with": "2026-11-21T08:00:57.702280+00:00",
@@ -1003,7 +1005,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T19:57:25.541072+00:00",
+ "last_post_at": "2026-11-26T20:15:51.954616+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1743,17 +1745,6 @@
   },
   {
    "alt": [],
-   "at": "2026-11-26T20:15:00+00:00",
-   "id": "B0DMNRG4X8",
-   "not_before": "2026-11-26T20:15:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1126c-B0DMNRG4X8",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0DMNRG4X8"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T20:35:00+00:00",
    "id": "B0FCHQ65TK",
    "not_before": "2026-11-26T20:35:00+00:00",
@@ -1877,6 +1868,7 @@
   "B0DJWNZFMN": "2026-11-21T14:04:37.205457+00:00",
   "B0DJWPSST4": "2026-11-17T13:02:07.939021+00:00",
   "B0DK4Y2YP3": "2026-11-22T15:19:53.142312+00:00",
+  "B0DMNRG4X8": "2026-11-26T20:15:51.903237+00:00",
   "B0DN154461": "2026-11-23T06:31:02.375398+00:00",
   "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
   "B0DWXMVSRP": "2026-11-26T13:01:07.468240+00:00",
@@ -2187,9 +2179,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/solar string lights outdoor",
   "aliexpress/UGREEN",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -2201,17 +2193,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "kitchen",
   "tech",
   "kids",
   "kids",
   "other",
   "home",
   "tech",
+  "tech",
   "tech"
  ],
  "recent_titles": [
-  "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
   "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets",
   "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - White",
   "LEGO Yellow Travel Suitcase 40817 \u2013 184 Pieces, Buildable Luggage Model with Retractable Handle, 360\u00b0 Wheels & Travel Accessories | Ages 7+ | Travel Gift",
@@ -2222,7 +2213,8 @@
   "Columbia Women's PFG Castback Non Slip Boat Shoe",
   "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration",
   "UGREEN PD20W Power Bank Magnetic 10000mAh Portable Wireless Fast Charging PowerBank for Magsafe for iPhone 17 15 Pro Max 16 Pro",
-  "[Auto Focus & 2026 Upgraded] Mini Projector 1080P FHD Support 4K Portable Projector with WiFi6 and Bluetooth5.4 Built-in App 180\u00b0 Adjustable Auto Keystone, Compatible with HDMI/Laptop/USB, White"
+  "[Auto Focus & 2026 Upgraded] Mini Projector 1080P FHD Support 4K Portable Projector with WiFi6 and Bluetooth5.4 Built-in App 180\u00b0 Adjustable Auto Keystone, Compatible with HDMI/Laptop/USB, White",
+  "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play\uff0cfor Laptop PC Phone PS4/5 Xbox Switch"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2275,6 +2267,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136247
 }

@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CLQDBRD2",
-  "title": "Columbia Men's Thistletown Hills Short Sleeve",
-  "title_he": "שרוול קצר של Thistletown Hills לגברים של קולומביה",
-  "price": "$22.83",
-  "was": "$38.00",
-  "discount": "40%",
-  "rating": "4.5",
-  "reviews": "2,989",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1083,
-  "image": "https://m.media-amazon.com/images/I/71+rjv0KTjL._AC_SL1500_.jpg",
-  "variant": 583,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1083,
-   1084,
-   1085
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ccc7d59f-a8f6-4b24-a24a-fefbff930386/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T06:01:06.276555+00:00"
- },
- {
   "asin": "ali-1005012172793474",
   "title": "HAYLOU Watch 4S GPS Smartwatch 1.43” HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
   "title_he": "HAYLOU Watch 4S GPS Smartwatch 1.43 אינץ' HD AMOLED צג 5 מיקום GPS לווייני 120+ מצבי אימון ספורט כושר שעון חכם",
@@ -1163,5 +1134,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T19:57:25.538901+00:00"
+ },
+ {
+  "asin": "B0DMNRG4X8",
+  "title": "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play，for Laptop PC Phone PS4/5 Xbox Switch",
+  "title_he": "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI…",
+  "price": "$49.99",
+  "was": "",
+  "discount": "",
+  "rating": "4.3",
+  "reviews": "1,172",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1206,
+  "image": "https://m.media-amazon.com/images/I/711Waoij3NL._AC_SL1500_.jpg",
+  "variant": 449,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1206,
+   1207,
+   1208
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a5f926a8-ba7d-4271-b1ac-c0ad1edc1185/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T20:15:51.952455+00:00"
  }
 ]
