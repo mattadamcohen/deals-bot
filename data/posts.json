@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005009070126028",
-  "title": "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
-  "title_he": "Rapoo VT7 MAX /VT7 Wireless Gaming Mouse True 8K Wireless Polling Rate 53g Lightweight Up to 750Hr Battery Life",
-  "price": "$31.10",
-  "was": "$82.20",
-  "discount": "62%",
-  "rating": "98.3%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 990,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se014fbfa04254baa912ce0d96ee03b29o.jpg",
-  "variant": 183,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/LxyiVOQKofy2yqnzLspKCOBwWmqLiGyoT8G0rv63A6JblkIACPQIlDv0GexRDN3gavU044kzzDHKshgQFMefe3ZI50JWr3Sni4i3vxKtyTZuiG2MFNIB8Ieqq8HgMDY8UUn97UNDXpZqHUsXBZEwt81a1fy8THCokq9h8GeAqJP5DyMBBdBY2CfPA0ZvbWiyhnUE93QUhKR94dvdXiYQUBzfIHy6N1UaWJmaWul93J8TXAbo5zKFNh6ZFTurHIsA25MFeLe3Gp4Zj6jD2OhiWRVPa6hz8lLE1i44PCdYdC29gYe8NuzZaBBI3gMtxAHEq06ZfV7jAmHniHaeb6RxYdi55f4XivMOV8NSSWrq56xfR4JEC4mFRDkNOH1DeTiZhF5DKWcn3cgzcNs3sVk8AYWeJk29xvOvdZetnuvgQD8c0hLtg4e4cWnx84SnliTQfAHVz93rZMbD2gQIqHGR6KeeyzQRaLwofOCc2DCpL6fciaukdIsbpHi2IeQBRZfYWucw2lTmQvBbm44LjFnqQNLi1cxgQkZvPLdnXqYUlDY8n1XiK63REiqtd5dzt2Jh4KJQl5FBbgcOFiKjCeTJ1KABujgyLhXm4RjtseQHtpDmwtT6PkdHxSKx9VmBVhRvujTre8FohBz01G9nfXrKJUNaRrdQwotKFDnOWek0yGqiziES01Rlaqiivu4co5VL3iZnb3pnkQfFOyx3vAhTXzXvJGrylBFq6UfXcKoku1UOaRHuu3w6UX26O8RaPgL9S0Di3P8Wx5yDb9Q5V3QFGTo5aiiSpyey28v0YUnxZd3tYTf7ACpnZwrGcklyk3BT9WtRbYDzJEjiyLYLlDXcEprjXwGapPFiZZYQPzuv1JpcIfPODN6Bg9pjmlgFFYTSdvGn1G2sKE1MMXcWHrk6X6GCT9UqxzR0gNNIWO18odxe1j6Vfvwmzlh0qMt9z5jlRy0oYTkvwimN3huZFsFo02hutBO75ODwAfKZ6zrlQbFvLKvAnxmudhl9PZljvBV9lPFz2XdB0nlTBuVMWNaI8UP6gnybEBFpme2Exs4FgWnGYQcv3MzCFZ1jg9wY3gOITTN",
-  "sold": "9,000",
-  "album_ids": [
-   990,
-   991,
-   992
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "category_en": "AliExpress sale",
-  "category_he": "מבצע אליאקספרס",
-  "posted_at": "2026-11-25T10:31:31.669664+00:00"
- },
- {
   "asin": "ali-1005011587245434",
   "title": "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack",
   "title_he": "Makita DTW700 18V Brushless Electric Wrench Cordless Drill Screwdriver Torque Power Tool Kit for Home Workshop Pack",
@@ -1168,5 +1139,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T10:45:57.111855+00:00"
+ },
+ {
+  "asin": "B0D4215HCX",
+  "title": "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
+  "title_he": "מטען לרכב LISEN נשלף, טעינה מהירה USB C 84W, מתנות לגברים נשים",
+  "price": "$15.31",
+  "was": "$19.99",
+  "discount": "23%",
+  "rating": "4.5",
+  "reviews": "26,008",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1113,
+  "image": "https://m.media-amazon.com/images/I/71Ryl5xKbuL._AC_SL1500_.jpg",
+  "variant": 917,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1113,
+   1114,
+   1115
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4cc83809-a345-47ee-88a5-510288269187/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T11:01:02.605473+00:00"
  }
 ]

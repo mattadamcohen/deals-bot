@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 13
+  "2026-11-26": 14
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -101,6 +101,7 @@
   "B0GYRXHQXM": "2026-11-20T16:34:31.176210+00:00",
   "B0H1RDP1NS": "2026-11-20T17:31:34.862461+00:00",
   "B0H275Q96B": "2026-11-23T07:31:21.099369+00:00",
+  "B0H3KM4F3Q": "2026-11-26T11:01:02.608201+00:00",
   "B0H5KS154B": "2026-11-19T07:34:38.275829+00:00",
   "B0H5WRQK7Q": "2026-11-16T10:34:59.369539+00:00",
   "B0H6WFTW7G": "2026-11-23T06:00:58.848495+00:00",
@@ -320,6 +321,7 @@
   "levi's shaping wide-leg jeans": "2026-11-21T14:04:37.236250+00:00",
   "lige smart watch women": "2026-11-23T16:01:20.845500+00:00",
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
+  "lisen retractable car charger": "2026-11-26T11:01:02.608207+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "loratap tuya smart life": "2026-11-24T09:45:55.521379+00:00",
@@ -539,6 +541,7 @@
   "focus-brand-fashion-2026-11-25-13",
   "focus-brand-fashion-2026-11-25-17",
   "focus-brand-fashion-2026-11-25-9",
+  "focus-brand-fashion-2026-11-26-13",
   "focus-brand-fashion-2026-11-26-9"
  ],
  "giveaway_entries": {
@@ -898,7 +901,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T10:45:57.114342+00:00",
+ "last_post_at": "2026-11-26T11:01:02.607813+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1596,17 +1599,6 @@
   },
   {
    "alt": [],
-   "at": "2026-11-26T09:15:00+00:00",
-   "id": "B0D4215HCX",
-   "not_before": "2026-11-26T09:15:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125b-B0D4215HCX",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0D4215HCX"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T14:00:00+00:00",
    "id": "B0FMYXQVSQ",
    "not_before": "2026-11-26T14:00:00+00:00",
@@ -1632,6 +1624,14 @@
    "id": "NeeDoh",
    "over_cap_ok": true,
    "sid": "focus-2026-11-26-11",
+   "store": "amazon_focus",
+   "url": "focus"
+  },
+  {
+   "focus": true,
+   "id": "Brand fashion",
+   "over_cap_ok": true,
+   "sid": "focus-brand-fashion-2026-11-26-13",
    "store": "amazon_focus",
    "url": "focus"
   }
@@ -1732,6 +1732,7 @@
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0CZJMQXSY": "2026-11-25T18:19:10.654476+00:00",
   "B0D3692N4F": "2026-11-25T19:46:12.908778+00:00",
+  "B0D4215HCX": "2026-11-26T11:01:02.567115+00:00",
   "B0D8FJVTBG": "2026-11-15T16:02:05.882080+00:00",
   "B0D8HYLBFS": "2026-11-19T05:30:57.561688+00:00",
   "B0D9RPX853": "2026-11-17T19:46:09.833335+00:00",
@@ -2031,8 +2032,8 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/solar wall light motion sensor",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -2044,17 +2045,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "tech",
   "kids",
   "fashion",
   "tech",
   "other",
   "tech",
   "home",
-  "kitchen"
+  "kitchen",
+  "tech"
  ],
  "recent_titles": [
-  "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
   "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
   "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
   "Columbia Men's Thistletown Hills Short Sleeve",
@@ -2065,7 +2065,8 @@
   "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
   "U.S. POLO ASSN. Women's Crew Neck Sweaters \u2013 Raglan, Cable Knit & Striped",
   "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
-  "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid"
+  "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
+  "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2109,6 +2110,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136234
 }
