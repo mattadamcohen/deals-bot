@@ -1731,7 +1731,7 @@ def main():
         tag = "" if fc is CONFIG.get("focus") else re.sub(r"\W+", "-", fc.get("name", "x")).lower() + "-"
         for h in fc["hours"]:
             sid = f"focus-{tag}{today}-{h}"
-            if hr >= h and sid not in fdone and not any(x.get("sid") == sid for x in state.get("pick_queue", [])):
+            if h <= hr < h + 2 and sid not in fdone and not any(x.get("sid") == sid for x in state.get("pick_queue", [])):
                 state.setdefault("pick_queue", []).append({"store": "amazon_focus", "id": fc.get("name", "focus"),
                                                               "url": "focus", "over_cap_ok": True, "sid": sid, "focus": True})
                 fdone.add(sid)
