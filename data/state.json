@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 25
+  "2026-11-26": 26
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -513,6 +513,7 @@
   "vgn dragonfly master plus": "2026-11-21T19:30:55.965608+00:00",
   "video baby monitor with": "2026-11-24T11:45:51.546585+00:00",
   "video walkie talkies usb": "2026-11-25T07:00:58.089064+00:00",
+  "vxe dragonfly r wireless": "2026-11-26T14:15:53.977345+00:00",
   "w heated lunch box": "2026-11-21T19:01:12.081611+00:00",
   "w high temperature steam": "2026-11-21T09:00:55.308910+00:00",
   "wall climbing gecko toy": "2026-11-21T18:31:42.636113+00:00",
@@ -937,7 +938,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T14:01:14.239854+00:00",
+ "last_post_at": "2026-11-26T14:15:53.977136+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1871,6 +1872,7 @@
   "ali-1005007170531432": "2026-11-25T07:45:43.707493+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
   "ali-1005007171042908": "2026-11-24T11:45:51.446318+00:00",
+  "ali-1005007247038480": "2026-11-26T14:15:53.917667+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
   "ali-1005007344995863": "2026-11-24T15:45:53.275941+00:00",
   "ali-1005007345135328": "2026-11-24T07:31:04.842089+00:00",
@@ -2065,10 +2067,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "wireless",
   "aliexpress/led light room decor",
-  "pick"
+  "pick",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "automotive",
@@ -2079,17 +2081,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "beauty",
   "pets",
   "kids",
   "other",
   "sport",
   "tech",
   "home",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
   "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection",
   "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket",
   "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
@@ -2100,7 +2101,8 @@
   "YKYWBIKE Cycling Bib Shorts Men Outdoor Wear Bike Ride 6 Hours Padded Riding Bib Tights Bicycle Men's Cycling Clothing Mtb Short",
   "ESR Classic Hybrid for iPhone 18 Pro Max Case / 17 Pro Max Case, Clear",
   "Touch Dimmable Black PCB LED Strip Light COB Tape For Walnut Acoustic Wooden Slat Grille TV Background Wall Panel&Cabinet Decor",
-  "LEGO Pok\u00e9mon Eevee 72151"
+  "LEGO Pok\u00e9mon Eevee 72151",
+  "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2144,6 +2146,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136240
 }
