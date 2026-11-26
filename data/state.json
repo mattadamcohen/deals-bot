@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 16
+  "2026-11-26": 17
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -904,7 +904,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T11:31:29.677042+00:00",
+ "last_post_at": "2026-11-26T11:45:48.577843+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1944,6 +1944,7 @@
   "ali-1005010759523552": "2026-11-25T19:15:50.022043+00:00",
   "ali-1005011574489164": "2026-11-23T17:46:19.947172+00:00",
   "ali-1005011587245434": "2026-11-25T11:01:03.546583+00:00",
+  "ali-1005011607383928": "2026-11-26T11:45:48.553696+00:00",
   "ali-1005011608627646": "2026-11-20T06:30:51.349599+00:00",
   "ali-1005011632977549": "2026-11-20T10:30:48.778629+00:00",
   "ali-1005011696952939": "2026-11-15T20:15:52.261614+00:00",
@@ -2021,9 +2022,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/travel neck pillow",
-  "pick"
+  "pick",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2034,17 +2035,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "tech",
   "other",
   "tech",
   "home",
   "kitchen",
   "tech",
   "fashion",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Columbia Men's Thistletown Hills Short Sleeve",
   "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
   "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand",
   "Reebok Court Advance Sneakers for Men - Casual Tennis Mens Shoes Size 6 to 15",
@@ -2055,7 +2055,8 @@
   "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
   "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
   "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection",
-  "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket"
+  "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket",
+  "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2099,6 +2100,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136234
 }
