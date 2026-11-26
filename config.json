@@ -2812,6 +2812,17 @@
       "not_before": "2026-11-27T12:30:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1126-B0B3HTQ4YT"
+    },
+    {
+      "store": "amazon",
+      "id": "B0CF9Z5SLZ",
+      "require": [],
+      "alt": [],
+      "url": "https://www.amazon.com/dp/B0CF9Z5SLZ",
+      "at": "2026-11-26T18:30:00+00:00",
+      "not_before": "2026-11-26T18:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1126b-B0CF9Z5SLZ"
     }
   ],
   "giftbox_alternate": true,
