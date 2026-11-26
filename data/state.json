@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 3
+  "2026-11-26": 4
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -410,6 +410,7 @@
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
   "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
   "reebok fleece jacket": "2026-11-23T08:01:13.266313+00:00",
+  "refrigerator storage box fridge": "2026-11-26T05:46:01.710083+00:00",
   "remote control air mouse": "2026-11-23T12:30:54.387393+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
@@ -836,7 +837,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-26T05:30:54.578537+00:00",
+ "last_post_at": "2026-11-26T05:46:01.709939+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1817,6 +1818,7 @@
   "ali-1005007345490854": "2026-11-23T19:46:10.661275+00:00",
   "ali-1005007351557375": "2026-11-21T13:31:03.852700+00:00",
   "ali-1005007354557673": "2026-11-16T20:16:54.361181+00:00",
+  "ali-1005007379757891": "2026-11-26T05:46:01.685888+00:00",
   "ali-1005007391590551": "2026-11-20T18:30:56.482014+00:00",
   "ali-1005007476830338": "2026-11-24T08:30:48.570633+00:00",
   "ali-1005007481796012": "2026-11-21T08:30:46.204977+00:00",
@@ -2001,7 +2003,7 @@
   "pick",
   "pick",
   "pick",
-  "pick"
+  "aliexpress/kitchen storage containers"
  ],
  "recent_groups": [
   "sporting-goods",
@@ -2012,17 +2014,16 @@
   "automotive"
  ],
  "recent_themes": [
-  "home",
   "fashion",
   "kids",
   "car",
   "fashion",
   "other",
   "tech",
-  "kids"
+  "kids",
+  "kitchen"
  ],
  "recent_titles": [
-  "AJAZZ AK820 Mechanical Gaming Keyboard Tri-Mode Bluetooth 5.1 Wireless Wired Knob Hot Swap Gasket Custom Keyboard",
   "LED Galaxy Projector Light Colorful Galaxy Sky Projector Bedroom Night Light Kids Room Decoration Christmas Party Decoration",
   "Taba Squishy Cheese Cube Stress Ball Shapeable Squeeze Ball Non Rebound Sensory Fidget Toys for Kids and Adults Relaxing Gifts",
   "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
@@ -2033,7 +2034,8 @@
   "Dickies Mens Loose Fit Double Knee Work Pants",
   "New Balance Men's 515",
   "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
-  "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter"
+  "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
+  "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2077,6 +2079,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 3,
+ "since_ali": 0,
  "tg_offset": 260136227
 }
