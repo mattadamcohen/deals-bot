@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 20
+  "2026-11-26": 21
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -82,6 +82,7 @@
   "B0G56435HQ": "2026-11-21T12:30:52.972413+00:00",
   "B0G7367QK9": "2026-11-25T09:34:09.659222+00:00",
   "B0G7Z963QL": "2026-11-20T14:01:00.195931+00:00",
+  "B0G9171N1M": "2026-11-26T13:01:07.488111+00:00",
   "B0GCB2B52D": "2026-11-19T06:34:11.261469+00:00",
   "B0GCK3VH75": "2026-11-26T06:34:57.598697+00:00",
   "B0GCMKDSJB": "2026-11-19T12:04:43.457544+00:00",
@@ -210,6 +211,7 @@
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
   "columbia benton springs full": "2026-11-23T07:46:01.761921+00:00",
   "columbia thistletown hills short": "2026-11-26T06:01:06.279011+00:00",
+  "comfier back massager with": "2026-11-26T13:01:07.488118+00:00",
   "controller gaming accessories for": "2026-11-24T08:30:48.600340+00:00",
   "coofandy t shirt short": "2026-11-23T10:15:55.012446+00:00",
   "coospo hw armband heart": "2026-11-22T17:30:56.726454+00:00",
@@ -550,7 +552,8 @@
   "focus-brand-fashion-2026-11-25-17",
   "focus-brand-fashion-2026-11-25-9",
   "focus-brand-fashion-2026-11-26-13",
-  "focus-brand-fashion-2026-11-26-9"
+  "focus-brand-fashion-2026-11-26-9",
+  "focus-brand-tech-2026-11-26-15"
  ],
  "giveaway_entries": {
   "1018598077": {
@@ -916,7 +919,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T12:45:48.412868+00:00",
+ "last_post_at": "2026-11-26T13:01:07.487685+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1617,17 +1620,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-26T13:00:00+00:00",
-   "id": "B0DWXMVSRP",
-   "not_before": "2026-11-26T13:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-B0DWXMVSRP",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0DWXMVSRP"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T16:00:00+00:00",
    "id": "B0D68XZY2S",
    "not_before": "2026-11-26T16:00:00+00:00",
@@ -1658,6 +1650,14 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
+  },
+  {
+   "focus": true,
+   "id": "Brand tech",
+   "over_cap_ok": true,
+   "sid": "focus-brand-tech-2026-11-26-15",
+   "store": "amazon_focus",
+   "url": "focus"
   }
  ],
  "posted": {
@@ -1772,6 +1772,7 @@
   "B0DK4Y2YP3": "2026-11-22T15:19:53.142312+00:00",
   "B0DN154461": "2026-11-23T06:31:02.375398+00:00",
   "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
+  "B0DWXMVSRP": "2026-11-26T13:01:07.468240+00:00",
   "B0DYTQ5GYQ": "2026-11-21T09:34:00.636336+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
@@ -2061,10 +2062,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "beauty/3778591",
   "aliexpress/cat toys",
-  "toys-and-games/166092011"
+  "toys-and-games/166092011",
+  "pick"
  ],
  "recent_groups": [
   "beauty",
@@ -2075,17 +2076,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kitchen",
   "tech",
   "fashion",
   "fashion",
   "tech",
   "beauty",
   "pets",
-  "kids"
+  "kids",
+  "other"
  ],
  "recent_titles": [
-  "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
   "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
   "U.S. POLO ASSN. Women's Crew Neck Sweaters \u2013 Raglan, Cable Knit & Striped",
   "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
@@ -2096,7 +2096,8 @@
   "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
   "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
   "Long Steel Wire Pole Cat Teaser Wand Rotating Chinchilla Feather Fishing Toy Stress Relief Play Toy for Kittens",
-  "20 Pcs Magnetic Action Figures Playset - Magnetic Building Toys"
+  "20 Pcs Magnetic Action Figures Playset - Magnetic Building Toys",
+  "COMFIER Back Massager with Heat, Chair Pad with Adjustable Lumbar Support"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2140,6 +2141,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136237
 }
