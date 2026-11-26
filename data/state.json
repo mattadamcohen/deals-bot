@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 33
+  "2026-11-26": 34
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -317,6 +317,7 @@
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
   "kid picture guessing board": "2026-11-22T13:45:48.670233+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
+  "kitchen faucet splash pad": "2026-11-26T16:45:45.998440+00:00",
   "komery k digital camera": "2026-11-20T13:30:48.387965+00:00",
   "laneige lip sleeping mask": "2026-11-24T14:45:49.614884+00:00",
   "latest wifi camera features": "2026-11-22T20:01:26.796564+00:00",
@@ -946,7 +947,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T16:31:05.010936+00:00",
+ "last_post_at": "2026-11-26T16:45:45.998251+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1919,6 +1920,7 @@
   "ali-1005007171042908": "2026-11-24T11:45:51.446318+00:00",
   "ali-1005007247038480": "2026-11-26T14:15:53.917667+00:00",
   "ali-1005007274254758": "2026-11-18T06:31:33.871670+00:00",
+  "ali-1005007344979825": "2026-11-26T16:45:45.941567+00:00",
   "ali-1005007344995863": "2026-11-24T15:45:53.275941+00:00",
   "ali-1005007345135328": "2026-11-24T07:31:04.842089+00:00",
   "ali-1005007345490854": "2026-11-23T19:46:10.661275+00:00",
@@ -2115,10 +2117,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/glass food storage containers",
   "aliexpress/gift set for men",
   "aliexpress/smart door lock fingerprint",
-  "pick"
+  "pick",
+  "aliexpress/kitchen gadgets"
  ],
  "recent_groups": [
   "automotive",
@@ -2129,17 +2131,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "tech",
   "home",
   "other",
   "car",
   "kitchen",
   "home",
   "tech",
-  "fashion"
+  "fashion",
+  "kitchen"
  ],
  "recent_titles": [
-  "YKYWBIKE Cycling Bib Shorts Men Outdoor Wear Bike Ride 6 Hours Padded Riding Bib Tights Bicycle Men's Cycling Clothing Mtb Short",
   "ESR Classic Hybrid for iPhone 18 Pro Max Case / 17 Pro Max Case, Clear",
   "Touch Dimmable Black PCB LED Strip Light COB Tape For Walnut Acoustic Wooden Slat Grille TV Background Wall Panel&Cabinet Decor",
   "LEGO Pok\u00e9mon Eevee 72151",
@@ -2150,7 +2151,8 @@
   "Vacuum Sealed Tank Coffee Beans Storage Glass Bottle Transparent Food Jar Moisture-Proof Extract Air Airtight Container",
   "OYIFAN Fashion Men's Belt Men's Genuine Leather Belt Automatic Buckle Ratchet Belt Random Adjustment",
   "RAYKUBE M5 Tuya BLE Smart Fingerprint Door Lock Digital Electronic Lock with Password/Key/IC Card/ Smartlife/ Tuya APP Unlock",
-  "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes"
+  "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
+  "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2199,6 +2201,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136241
 }
