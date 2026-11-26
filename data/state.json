@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 1
+  "2026-11-26": 2
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -289,6 +289,7 @@
   "k mp hd wifi": "2026-11-16T17:46:40.087151+00:00",
   "k poe ip camera": "2026-11-22T10:16:11.061535+00:00",
   "k qhd portable monitor": "2026-11-19T17:00:55.581029+00:00",
+  "k webcam ptz web": "2026-11-26T05:15:41.197931+00:00",
   "kawa dash cam pro": "2026-11-25T13:15:48.815555+00:00",
   "kawaii rainbow dumpling squishy": "2026-11-21T16:31:10.248017+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
@@ -834,7 +835,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-26T05:01:02.371684+00:00",
+ "last_post_at": "2026-11-26T05:15:41.197619+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1600,17 +1601,6 @@
   },
   {
    "alt": [],
-   "at": "2026-11-26T05:15:00+00:00",
-   "id": "1005009353113123",
-   "not_before": "2026-11-26T05:15:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125-emeet",
-   "store": "aliexpress",
-   "url": "https://s.click.aliexpress.com/e/_c3yXq4El"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T07:45:00+00:00",
    "id": "1005009012821000",
    "not_before": "2026-11-26T07:45:00+00:00",
@@ -1888,6 +1878,7 @@
   "ali-1005009212557833": "2026-11-21T06:01:01.120479+00:00",
   "ali-1005009261328158": "2026-11-25T13:31:24.017529+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
+  "ali-1005009353113123": "2026-11-26T05:15:41.151369+00:00",
   "ali-1005009385704664": "2026-11-18T07:01:06.726523+00:00",
   "ali-1005009414655478": "2026-11-25T08:02:23.508532+00:00",
   "ali-1005009426432453": "2026-11-23T11:15:47.752708+00:00",
@@ -2018,8 +2009,8 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/building blocks set",
   "automotive",
+  "pick",
   "pick",
   "pick"
  ],
@@ -2032,17 +2023,16 @@
   "automotive"
  ],
  "recent_themes": [
-  "kids",
   "beauty",
   "home",
   "fashion",
   "kids",
   "car",
   "fashion",
-  "other"
+  "other",
+  "tech"
  ],
  "recent_titles": [
-  "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men",
   "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men",
   "AJAZZ AK820 Mechanical Gaming Keyboard Tri-Mode Bluetooth 5.1 Wireless Wired Knob Hot Swap Gasket Custom Keyboard",
   "LED Galaxy Projector Light Colorful Galaxy Sky Projector Bedroom Night Light Kids Room Decoration Christmas Party Decoration",
@@ -2053,7 +2043,8 @@
   "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
   "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
   "Dickies Mens Loose Fit Double Knee Work Pants",
-  "New Balance Men's 515"
+  "New Balance Men's 515",
+  "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
