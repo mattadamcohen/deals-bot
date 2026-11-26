@@ -47,6 +47,15 @@ elif sys.argv[1] == "reminder_photo":
         r = requests.post(f"{API}/sendPhoto", data=dict(chat_id=CHAT, caption=(BASE / "reminder.txt").read_text(),
                           parse_mode="HTML", reply_markup=bc_btn), files={"photo": f}, timeout=60).json()
     print("sendPhoto", r.get("ok"), r.get("description", ""), r.get("result", {}).get("message_id"))
+elif sys.argv[1] == "welcome":
+    r = requests.post(f"{API}/sendMessage", data=dict(chat_id=CHAT, parse_mode="HTML", text=(BASE / "welcome.txt").read_text(),
+                      reply_markup=bc_btn, disable_web_page_preview="true"), timeout=60).json()
+    mid = r.get("result", {}).get("message_id")
+    print("sendMessage", r.get("ok"), r.get("description", ""), mid)
+    if mid:
+        pr = requests.post(f"{API}/pinChatMessage", data=dict(chat_id=CHAT, message_id=mid, disable_notification="true"),
+                           timeout=60).json()
+        print("pin", pr.get("ok"), pr.get("description", ""))
 elif sys.argv[1] == "publish":
     call("editMessageText", chat_id=CHAT, message_id=RULES_ID, text=rules)
     call("editMessageText", chat_id=CHAT, message_id=PINNED_ID, parse_mode="HTML", text=post,
