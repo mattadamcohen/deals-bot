@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FK1C3GDW",
-  "title": "Owala FreeSip Sway Stainless Steel Water Bottle 40 oz Foggy Tide",
-  "title_he": "Owala FreeSip Sway בקבוק מים מפלדת אל חלד 40 oz Foggy Tide",
-  "price": "$40.62",
-  "was": "$44.99",
-  "discount": "10%",
-  "rating": "4.6",
-  "reviews": "14,894",
-  "rank": 2,
-  "source": "bestsellers",
-  "message_id": 1017,
-  "image": "https://m.media-amazon.com/images/I/61s+DOVawZL._AC_SL1500_.jpg",
-  "variant": 200,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1017,
-   1018,
-   1019
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "sporting-goods",
-  "category_en": "Sports & Outdoors",
-  "category_he": "ספורט וטבע",
-  "posted_at": "2026-11-25T14:04:48.778672+00:00"
- },
- {
   "asin": "ali-1005007938071478",
   "title": "Kids Digital Camera 1080P Vedio Thermal Instant Print Camera With 32G For Girls Boys Age 3-12 Best Christmas Birthday Gifts",
   "title_he": "מצלמה דיגיטלית לילדים 1080P Vedio תרמית הדפסה מיידית מצלמת עם 32G עבור בנות בנים בגילאי 3-12 מתנות יום הולדת הטובות ביותר",
@@ -1168,5 +1139,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-26T13:16:58.881767+00:00"
+ },
+ {
+  "asin": "B0FCY7L7SZ",
+  "title": "ESR Classic Hybrid for iPhone 18 Pro Max Case / 17 Pro Max Case, Clear",
+  "title_he": "ESR Classic Hybrid לאייפון 18 Pro Max Case / 17 Pro Max Case, שקוף",
+  "price": "$12.74",
+  "was": "$14.99",
+  "discount": "15%",
+  "rating": "4.6",
+  "reviews": "166,157",
+  "rank": 25,
+  "source": "bestsellers",
+  "message_id": 1140,
+  "image": "https://m.media-amazon.com/images/I/71p+zsL9YNL._AC_SL1500_.jpg",
+  "variant": 370,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1140,
+   1141,
+   1142
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c84b41a7-57dc-45f0-8e58-dbf201410721/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "wireless",
+  "category_en": "Cell Phones & Accessories",
+  "category_he": "סלולר ואביזרים",
+  "posted_at": "2026-11-26T13:30:56.011864+00:00"
  }
 ]
