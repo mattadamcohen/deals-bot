@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 6
+  "2026-11-26": 7
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -79,6 +79,7 @@
   "B0G7367QK9": "2026-11-25T09:34:09.659222+00:00",
   "B0G7Z963QL": "2026-11-20T14:01:00.195931+00:00",
   "B0GCB2B52D": "2026-11-19T06:34:11.261469+00:00",
+  "B0GCK3VH75": "2026-11-26T06:34:57.598697+00:00",
   "B0GCMKDSJB": "2026-11-19T12:04:43.457544+00:00",
   "B0GCZR3LGK": "2026-11-24T13:01:00.222788+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.178092+00:00",
@@ -326,7 +327,7 @@
   "magic cube children educational": "2026-11-18T16:31:48.162309+00:00",
   "magic jewelry making kit": "2026-11-17T09:30:53.471425+00:00",
   "magna-tiles classic piece magnetic": "2026-11-22T19:34:12.138469+00:00",
-  "magna-tiles micromags piece travel": "2026-11-14T14:31:18.324001+00:00",
+  "magna-tiles micromags piece travel": "2026-11-26T06:34:57.598704+00:00",
   "magnetic car phone holder": "2026-11-18T09:30:54.394163+00:00",
   "magnetic screwdriver set phillips": "2026-11-24T12:45:48.939672+00:00",
   "magnetic track children's toy": "2026-11-22T11:15:44.386295+00:00",
@@ -853,11 +854,11 @@
   "5444655623"
  ],
  "last_bundle_day": "2026-11-23",
- "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-26T06:15:58.985528+00:00",
+ "last_harvest_at": "2026-11-26T06:34:53.330308+00:00",
+ "last_post_at": "2026-11-26T06:34:57.598262+00:00",
  "next_category": 12,
  "not_free": {
-  "1338603450": "2026-11-17T19:34:47.610083+00:00",
+  "1338603450": "2026-11-26T06:34:06.121616+00:00",
   "1932188126": "2026-11-14T12:23:46.439480+00:00",
   "B00000DMF5": "2026-11-25T09:32:59.841617+00:00",
   "B00000DMFM": "2026-11-14T12:24:18.392193+00:00",
@@ -909,7 +910,7 @@
   "B006W6YHYQ": "2026-11-19T12:02:59.127956+00:00",
   "B00730QW70": "2026-11-21T05:02:48.387255+00:00",
   "B0076R6L58": "2026-11-24T09:18:19.097092+00:00",
-  "B007GE75HY": "2026-11-22T19:32:07.259245+00:00",
+  "B007GE75HY": "2026-11-26T06:32:07.995715+00:00",
   "B007JXVR76": "2026-11-19T12:03:37.455907+00:00",
   "B0084JUNVU": "2026-11-14T07:05:12.321506+00:00",
   "B0094B79PA": "2026-11-20T12:02:12.686755+00:00",
@@ -945,7 +946,7 @@
   "B00MUEHPGQ": "2026-11-22T10:46:37.440730+00:00",
   "B00MW8G62E": "2026-11-18T19:04:15.893006+00:00",
   "B00NABTC8M": "2026-11-18T19:04:38.763418+00:00",
-  "B00NHQF6MG": "2026-11-14T14:28:59.319561+00:00",
+  "B00NHQF6MG": "2026-11-26T06:31:52.605536+00:00",
   "B00NTCH52W": "2026-11-22T05:02:04.654619+00:00",
   "B00PBX3L7K": "2026-11-22T15:17:43.137425+00:00",
   "B00Q7OAW1U": "2026-11-17T10:01:12.884659+00:00",
@@ -1280,9 +1281,9 @@
   "B0CFQFMC4F": "2026-11-24T17:48:15.688530+00:00",
   "B0CG9N76FG": "2026-11-21T05:02:34.497300+00:00",
   "B0CGX3SBJF": "2026-11-20T12:04:32.145572+00:00",
-  "B0CGY3VF3K": "2026-11-22T19:31:33.260534+00:00",
-  "B0CGY4J7QT": "2026-11-22T19:32:56.814962+00:00",
-  "B0CHJTD1FS": "2026-11-22T19:33:29.891947+00:00",
+  "B0CGY3VF3K": "2026-11-26T06:31:30.690888+00:00",
+  "B0CGY4J7QT": "2026-11-26T06:32:38.445114+00:00",
+  "B0CHJTD1FS": "2026-11-26T06:33:17.939794+00:00",
   "B0CHN5D13P": "2026-11-22T05:03:05.375302+00:00",
   "B0CHS2VNHC": "2026-11-25T09:33:31.139056+00:00",
   "B0CJF94M8J": "2026-11-18T10:04:34.252659+00:00",
@@ -1296,6 +1297,7 @@
   "B0CNX6MMK3": "2026-11-15T06:33:06.671647+00:00",
   "B0CP4BSFB9": "2026-11-22T19:33:56.360862+00:00",
   "B0CPJSQSRP": "2026-11-24T13:33:49.191746+00:00",
+  "B0CPQ54PQ5": "2026-11-26T06:33:10.724700+00:00",
   "B0CQ53RVTW": "2026-11-22T06:02:57.036276+00:00",
   "B0CQF6T2K1": "2026-11-15T17:07:44.231865+00:00",
   "B0CQMJFR1S": "2026-11-22T05:02:11.371197+00:00",
@@ -1376,7 +1378,7 @@
   "B0DKSKNC1K": "2026-11-15T17:03:32.292686+00:00",
   "B0DLLSCVZW": "2026-11-23T13:47:17.174366+00:00",
   "B0DMCBMCZ7": "2026-11-19T16:33:48.052524+00:00",
-  "B0DMSVXBDV": "2026-11-22T19:32:43.743935+00:00",
+  "B0DMSVXBDV": "2026-11-26T06:32:30.359784+00:00",
   "B0DMV3BMGP": "2026-11-22T06:02:24.118880+00:00",
   "B0DN2ZCZX6": "2026-11-22T06:01:30.880313+00:00",
   "B0DN45YMP6": "2026-11-23T18:04:08.851705+00:00",
@@ -1387,7 +1389,7 @@
   "B0DQYP1L95": "2026-11-22T05:01:09.897021+00:00",
   "B0DQYR6X8R": "2026-11-22T05:01:59.508583+00:00",
   "B0DRCKDWD1": "2026-11-16T10:32:41.612927+00:00",
-  "B0DRW69H11": "2026-11-22T19:31:04.473561+00:00",
+  "B0DRW69H11": "2026-11-26T06:32:46.039597+00:00",
   "B0DS1S2Z7L": "2026-11-16T10:34:36.310662+00:00",
   "B0DSH5V1TT": "2026-11-14T20:17:42.592882+00:00",
   "B0DSJXBMTC": "2026-11-22T06:03:45.727544+00:00",
@@ -1467,8 +1469,8 @@
   "B0G1PJLWLZ": "2026-11-23T18:03:41.859924+00:00",
   "B0G1V17DQR": "2026-11-14T07:06:18.100142+00:00",
   "B0G2STSGW3": "2026-11-22T19:33:24.036994+00:00",
-  "B0G2SZQS1C": "2026-11-22T19:31:22.542855+00:00",
-  "B0G2T25FMG": "2026-11-22T19:33:04.416930+00:00",
+  "B0G2SZQS1C": "2026-11-26T06:31:08.295860+00:00",
+  "B0G2T25FMG": "2026-11-26T06:33:32.193795+00:00",
   "B0G38FGSKL": "2026-11-25T18:16:22.985764+00:00",
   "B0G3GGVJD5": "2026-11-14T07:06:43.583628+00:00",
   "B0G3Y2FSKT": "2026-11-14T07:01:35.558918+00:00",
@@ -1710,7 +1712,7 @@
   "B0CLQDBRD2": "2026-11-26T06:01:06.240917+00:00",
   "B0CQ8RSTDW": "2026-11-21T11:30:57.438982+00:00",
   "B0CSDF3YFB": "2026-11-21T15:00:57.223672+00:00",
-  "B0CX4RLCXW": "2026-11-14T14:31:18.225825+00:00",
+  "B0CX4RLCXW": "2026-11-26T06:34:57.578137+00:00",
   "B0CZ89PFG3": "2026-11-16T19:49:00.727765+00:00",
   "B0CZJMQXSY": "2026-11-25T18:19:10.654476+00:00",
   "B0D3692N4F": "2026-11-25T19:46:12.908778+00:00",
@@ -2008,31 +2010,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/kitchen storage containers",
   "pick",
-  "aliexpress/smart watch"
+  "aliexpress/smart watch",
+  "toys-and-games/166092011"
  ],
  "recent_groups": [
-  "sporting-goods",
   "fashion",
   "toys-and-games",
   "sporting-goods",
   "beauty",
-  "automotive"
+  "automotive",
+  "toys-and-games"
  ],
  "recent_themes": [
-  "car",
   "fashion",
   "other",
   "tech",
   "kids",
   "kitchen",
   "other",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "NOONI Korean Lip Oil - Applewine - pH Color-Changing Plumping Lip Gloss",
   "Professional Aroma Diffuser Electric Smell for Home Wall Mounted Fragrance Diffuser Automatic Spray Scent Air Machine For Hotel",
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
   "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
@@ -2043,7 +2044,8 @@
   "XIAOMI Smart Camera Video Call Edition\uff0c3.5 - Inch Large Screen\uff0c4MP 2.5K\uff0cHome Security Baby Monitor\uff0cChinese Version With Adapter",
   "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
   "Columbia Men's Thistletown Hills Short Sleeve",
-  "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch"
+  "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
+  "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2087,6 +2089,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136229
 }
