@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 38
+  "2026-11-26": 39
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -206,6 +206,7 @@
   "cerave hydrating cleanser with": "2026-11-18T05:34:41.618305+00:00",
   "choice lenovo le wireless": "2026-11-25T12:46:29.709699+00:00",
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
+  "christmas dumpling squishyed advent": "2026-11-26T18:30:54.546608+00:00",
   "christmas projector light patterns": "2026-11-19T11:30:48.621221+00:00",
   "circle chain picture customiz": "2026-11-24T09:01:02.175909+00:00",
   "classic uno board games": "2026-11-19T18:30:53.440916+00:00",
@@ -973,7 +974,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T18:01:37.305799+00:00",
+ "last_post_at": "2026-11-26T18:30:54.546422+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2118,6 +2119,7 @@
   "ali-1005013110942778": "2026-11-23T12:02:06.237017+00:00",
   "ali-1005013125741328": "2026-11-19T17:00:55.530593+00:00",
   "ali-1005013129535972": "2026-11-24T12:45:48.790268+00:00",
+  "ali-1005013148463497": "2026-11-26T18:30:54.405645+00:00",
   "ali-1005013158482764": "2026-11-19T09:01:16.635977+00:00",
   "ali-1005013205564299": "2026-11-17T16:31:17.959626+00:00",
   "ali-1005013212982440": "2026-11-24T08:02:05.199716+00:00",
@@ -2140,10 +2142,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "home-garden",
   "pick",
   "aliexpress/kitchen gadgets",
-  "pick"
+  "pick",
+  "aliexpress/squishy advent calendar"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2154,17 +2156,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "fashion",
   "kitchen",
   "home",
   "kids",
   "kitchen",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making",
   "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
   "Car Vacuum Cleaner 95000PA Strong Suction Handheld Wireless Vacuum Cleaner Blower 2 in 1 Portable Vacuum Cleaner For Car Home",
   "Vacuum Sealed Tank Coffee Beans Storage Glass Bottle Transparent Food Jar Moisture-Proof Extract Air Airtight Container",
@@ -2175,7 +2176,8 @@
   "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - White",
   "LEGO Yellow Travel Suitcase 40817 \u2013 184 Pieces, Buildable Luggage Model with Retractable Handle, 360\u00b0 Wheels & Travel Accessories | Ages 7+ | Travel Gift",
   "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
-  "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery"
+  "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
+  "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2224,6 +2226,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136244
 }

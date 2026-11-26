@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B08C7K99WW",
-  "title": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
-  "title_he": "כלי לניקוי שמשות של AstroAI וערכת פירוט פנים רכב, כחול, 21 אינץ'",
-  "price": "$14.97",
-  "was": "$22.99",
-  "discount": "35%",
-  "rating": "4.4",
-  "reviews": "26,124",
-  "rank": 10,
-  "source": "bestsellers",
-  "message_id": 1065,
-  "image": "https://m.media-amazon.com/images/I/816cjzjicOL._AC_SL1500_.jpg",
-  "variant": 17,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1065,
-   1066,
-   1067
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a750c688-3417-4cbf-80b7-d8157bd8becf/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "automotive",
-  "category_en": "Automotive",
-  "category_he": "רכב",
-  "posted_at": "2026-11-25T19:30:54.774988+00:00"
- },
- {
   "asin": "B0D3692N4F",
   "title": "Dickies Mens Loose Fit Double Knee Work Pants",
   "title_he": "מכנסי עבודה כפולים ברכיים של Dickies Mens Loose Fit",
@@ -1168,5 +1139,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T18:01:37.303736+00:00"
+ },
+ {
+  "asin": "ali-1005013148463497",
+  "title": "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors",
+  "title_he": "כופתאות Squishyed 2026 יומן הופעות איטי בעליה אטית הפגת מתחים חושי פידג'ט ספירה לאחור מתנות מסיבת לוח שנה",
+  "price": "$29.09",
+  "was": "$58.18",
+  "discount": "50%",
+  "rating": "100.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1188,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3873ece6bca042b899553740f895f74fj.jpg",
+  "variant": 42,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mWDDNxQU76lTPi78qvYZ8neuAspAGWGjPVOTlLdP8LpZ2BonAX9Wt33KtuIWW13YA4COOiniLoFYjYwzHwEb6m5LEjCLqG2s18vuCWEwcjfmNpifUgkSPwDQ7PjNr0LpxRzd9raRgcdQiBGSmIX5KINNHpQ8yzPTkpAvpAton3VmD5lWHb7v8zG3WpX7kHoBdjb99mST6kpfFRUT9MvIpRl3iajDuyUSJiV1n4FVPRWmwPpjrDpDYbiqL5MHAwZBp5Hd7uwOBnOGr0feZOsbSX3gxQTn5qej04UzTgQiEajDVZipGHv0jt4bBrxlf95fY6vGVap7zrgBalZmskuGvQUvPq2nluSaA3S5Pfi03ob3isFor3GPCs0FN7qmZ06OhhXZjbh837fVD1DmjYQaoneYITRqnGC9i3CQzSZODC7Qx3Y1PweerNSS24KfvvA226n86QUo8bwbO2iwL423klw74Y7oP6Iy5olv4YZDSS9JYBh4NfFRFhS0y17n1VlgiNC1uqe7eOablNp7Fm7fwSqLb9p5xLWzu3djUdXNCyNgY9ScrAsK3KmQIieAl0vyt39rPxi1u0EeAHxBNC2Ycjlxt9k5gheGUI6j18fG5fPzYXF3KekyHEZIDu15LkVPiAgwWtXsTupuEjz9uROdEnw00wma9DLc83YkF2CJaevHYGlkgh8Djq4Zfivp1FpCfUYBFELLTWcsn",
+  "sold": "249",
+  "album_ids": [
+   1188,
+   1189,
+   1190
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/squishy advent calendar",
+  "category_en": "Squishies",
+  "category_he": "סקווישים",
+  "posted_at": "2026-11-26T18:30:54.544762+00:00"
  }
 ]
