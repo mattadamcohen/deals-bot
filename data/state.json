@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 28
+  "2026-11-26": 29
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -190,6 +190,7 @@
   "capacity clothes storage bag": "2026-11-22T15:32:30.042662+00:00",
   "car dvr dash cam": "2026-11-18T08:31:39.245349+00:00",
   "car mirror radio multimedia": "2026-11-20T19:00:59.482341+00:00",
+  "car vacuum cleaner pa": "2026-11-26T15:15:54.674647+00:00",
   "car vacuum cleaner wireless": "2026-11-18T17:30:57.470212+00:00",
   "carote ceramic nonstick qt": "2026-11-26T10:45:57.114803+00:00",
   "casio a wa series": "2026-11-20T12:04:43.973839+00:00",
@@ -940,7 +941,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T15:01:28.855046+00:00",
+ "last_post_at": "2026-11-26T15:15:54.674435+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1660,6 +1661,61 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T16:15:00+00:00",
+   "id": "B0CFCLC9DC",
+   "not_before": "2026-11-26T16:15:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126-B0CFCLC9DC",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0CFCLC9DC"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T18:45:00+00:00",
+   "id": "B0FY4D1Q12",
+   "not_before": "2026-11-26T18:45:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126-B0FY4D1Q12",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0FY4D1Q12"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-27T06:30:00+00:00",
+   "id": "B0CLR7G8MK",
+   "not_before": "2026-11-27T06:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126-B0CLR7G8MK",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0CLR7G8MK"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-27T09:00:00+00:00",
+   "id": "B0GGRT3R91",
+   "not_before": "2026-11-27T09:00:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126-B0GGRT3R91",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0GGRT3R91"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-27T12:30:00+00:00",
+   "id": "B0B3HTQ4YT",
+   "not_before": "2026-11-27T12:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126-B0B3HTQ4YT",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0B3HTQ4YT"
   }
  ],
  "posted": {
@@ -1850,6 +1906,7 @@
   "ali-1005006738672284": "2026-11-21T11:01:03.255132+00:00",
   "ali-1005006817161380": "2026-11-23T15:01:13.932210+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
+  "ali-1005006860726664": "2026-11-26T15:15:54.537419+00:00",
   "ali-1005006860959251": "2026-11-24T06:45:46.165980+00:00",
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
   "ali-1005006904438915": "2026-11-18T08:31:39.200481+00:00",
@@ -2071,10 +2128,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "aliexpress/aroma diffuser",
-  "pick"
+  "pick",
+  "aliexpress/car vacuum cleaner"
  ],
  "recent_groups": [
   "automotive",
@@ -2085,17 +2142,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "other",
   "sport",
   "tech",
   "home",
   "kids",
   "tech",
   "home",
-  "other"
+  "other",
+  "car"
  ],
  "recent_titles": [
-  "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
   "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
   "Long Steel Wire Pole Cat Teaser Wand Rotating Chinchilla Feather Fishing Toy Stress Relief Play Toy for Kittens",
   "20 Pcs Magnetic Action Figures Playset - Magnetic Building Toys",
@@ -2106,7 +2162,8 @@
   "LEGO Pok\u00e9mon Eevee 72151",
   "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office",
   "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making",
-  "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean"
+  "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
+  "Car Vacuum Cleaner 95000PA Strong Suction Handheld Wireless Vacuum Cleaner Blower 2 in 1 Portable Vacuum Cleaner For Car Home"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2127,6 +2184,11 @@
   "pick-1125b-B0F4GY83Q1",
   "pick-1125b-B0FMPL7CBN",
   "pick-1125b-B0FMYXQVSQ",
+  "pick-1126-B0B3HTQ4YT",
+  "pick-1126-B0CFCLC9DC",
+  "pick-1126-B0CLR7G8MK",
+  "pick-1126-B0FY4D1Q12",
+  "pick-1126-B0GGRT3R91",
   "pick-1126-xiaomi-cam",
   "shot-1118-1",
   "shot-1118-2",
@@ -2150,6 +2212,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136240
+ "since_ali": 0,
+ "tg_offset": 260136241
 }
