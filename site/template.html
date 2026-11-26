@@ -223,7 +223,7 @@ function card(p){
   else if (p.reviews) meta.push(`<b dir="ltr">${esc(p.reviews)}</b> ${t.reviews}`);
   const title = state.lang==="en" ? (p.title_en||p.title_he) : (p.title_he||p.title_en);
   return `<article class="card">
-    <a class="img" href="${esc(p.link)}" target="_blank" rel="noopener sponsored">
+    <a class="img" data-gc="${esc(p.store)}-${esc(p.id)}" data-gt="${esc(p.title_en||p.title_he||"")}" href="${esc(p.link)}" target="_blank" rel="noopener sponsored">
       <img src="${esc(p.img)}" alt="${esc(title)}" loading="lazy">
       <button class="fav" type="button" data-fav="${esc(p.id)}" aria-label="favorite">${isFav(p.id)?"❤️":"🤍"}</button>
       <span class="badge b-store ${p.store}">${p.store==="amazon"?"<i>a</i> Amazon":"AliExpress"}</span>
@@ -235,7 +235,7 @@ function card(p){
       <div class="price"><span class="now" dir="ltr">₪${ils(p.price)}</span>${p.was&&usd(p.was)>usd(p.price)?`<span class="was" dir="ltr">₪${ils(p.was)}</span>`:""}<span class="usd" dir="ltr">${esc(p.price)}</span></div>
       <div class="meta">${meta.join("")}</div>
       <div class="ship">${t.ship}</div>
-      <a class="buy" href="${esc(p.link)}" target="_blank" rel="noopener sponsored">${t.buy}</a>
+      <a class="buy" data-gc="${esc(p.store)}-${esc(p.id)}" data-gt="${esc(p.title_en||p.title_he||"")}" href="${esc(p.link)}" target="_blank" rel="noopener sponsored">${t.buy}</a>
     </div></article>`;
 }
 
@@ -273,5 +273,15 @@ document.getElementById("q").oninput = e => { state.q=e.target.value; shown=PAGE
 document.getElementById("lang").onclick = () => { state.lang = state.lang==="he"?"en":"he"; save(); render(); };
 render();
 </script>
+<script>
+// GoatCounter: count clicks on deals (and on the Telegram buttons) as events
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a");
+  if (!a || !window.goatcounter || !window.goatcounter.count) return;
+  var path = a.dataset.gc ? "click-" + a.dataset.gc : (a.href.indexOf("t.me/") > -1 ? "click-telegram" : "");
+  if (path) window.goatcounter.count({path: path, title: a.dataset.gt || a.textContent.trim().slice(0, 80), event: true});
+});
+</script>
+<script data-goatcounter="https://israelideals.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
