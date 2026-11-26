@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0F4GY83Q1",
-  "title": "New Balance Men's 515",
-  "title_he": "New Balance Men's 515",
-  "price": "$72.45",
-  "was": "$79.99",
-  "discount": "9%",
-  "rating": "4.5",
-  "reviews": "13,610",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1071,
-  "image": "https://m.media-amazon.com/images/I/51-H8kL7xeL._AC_SL1000_.jpg",
-  "variant": 479,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1071,
-   1072,
-   1073
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/48d43810-1dba-418e-a7a1-18c2ea1dcc76.mp4/productVideoOptimized.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T05:01:02.369614+00:00"
- },
- {
   "asin": "ali-1005009353113123",
   "title": "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
   "title_he": "4K Webcam PTZ Web Camera Gesture Control Autofocus AI Tracking Video Camera for Streaming EMEET PIXY Dual-Camera With SonySensor",
@@ -1168,5 +1139,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T18:33:59.348446+00:00"
+ },
+ {
+  "asin": "B0FY4D1Q12",
+  "title": "Columbia Women's PFG Castback Non Slip Boat Shoe",
+  "title_he": "קולומביה נשים PFG Castback נעל סירה ללא החלקה",
+  "price": "$72.25",
+  "was": "$85.00",
+  "discount": "15%",
+  "rating": "4.3",
+  "reviews": "451",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1194,
+  "image": "https://m.media-amazon.com/images/I/81M7adUNg3L._AC_SL1500_.jpg",
+  "variant": 854,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1194,
+   1195,
+   1196
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/08b0f444-8293-4801-ae4e-5d44ef180017/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T19:01:03.234070+00:00"
  }
 ]
