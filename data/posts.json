@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005010759523552",
-  "title": "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
-  "title_he": "TOYLINX X-Wing Space Fighter סט אבני בניין LED Light Up צעצוע רכב חלל מכני עם מתנות לבני טייס",
-  "price": "$37.49",
-  "was": "$81.50",
-  "discount": "54%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 1062,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdb71e36aa973468a8a92019b49ac5ff0v.png",
-  "variant": 332,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kxFTDxfJ9qXuRpPEjZHyoi8tTEgO0AhIH7Q1QY8OXEkB1O8GsSmJk8CGgosXZUX9K9BAqZoqun1JQRBBhKaI34GzpmSaBnLuGjKVi1j3vG34P1rx401WIhowi0y0Ww7TVgKQNNFE8OBtAZT0vd2BQQC3k9wSY075JPH8qFIDvPXqbnkpRIxVQBpm6hLIGFEvcdbqNiI3x8663bp9uB7gj0AWSOJztZgqazzM8QvwARe8c0CYKGmtUCOnS61skl8oQlxd9OxYgIMUmfTyNybtMbvMCx6KAZg1sMmkg4zgpI7A3fGpmOoJbYyrLs9GfSuOdu5DaSOTAQXgPlxuuQCLyfRuL2qBKt0IKKHIXXF4rBQ5r8t4YriL57oYrJuCmfYXvy1jcE6XeVkQXaTJp9oxvnG2f07AGQXKZpjLBaNdM6dSPJkzRRBr8AGQatctEzMVp5WLZyaYfTkwXV4HV3F7RMbZMvAtztCOLqur11JOaEpLphtqxHJFKbluL48QqLzMtzbSWdaYVyObQz5xoRt5ITs6oZCUghCyfTdfkUkSa1oyN38YwbyU45OrgBrfJY16079LeOCLPcr4ryUMNxQraAbOyFlo1XzTa4EJC7Pu47pnuzFZk6aF3fIDqVvZWfpzyRUh5Awz8DVcKjJYYc0YAnb0XlASN8dnEvcI16XXsmeuQGxeJz9ghv3UO2BA9tMlZYKBveGhlT8oX",
-  "sold": "943",
-  "album_ids": [
-   1062,
-   1063,
-   1064
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/building blocks set",
-  "category_en": "Building sets",
-  "category_he": "ערכות בנייה",
-  "posted_at": "2026-11-25T19:15:50.200496+00:00"
- },
- {
   "asin": "B08C7K99WW",
   "title": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
   "title_he": "כלי לניקוי שמשות של AstroAI וערכת פירוט פנים רכב, כחול, 21 אינץ'",
@@ -1168,5 +1139,34 @@
   "category_en": "Kitchen",
   "category_he": "מטבח",
   "posted_at": "2026-11-26T17:45:56.825429+00:00"
+ },
+ {
+  "asin": "B0BR3M8XHK",
+  "title": "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
+  "title_he": "UGREEN USB C Hub 5 ב-1 מתאם USB מרובה יציאות 4K HDMI, אספקת חשמל 100W",
+  "price": "$11.38",
+  "was": "$15.98",
+  "discount": "29%",
+  "rating": "4.6",
+  "reviews": "33,351",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1185,
+  "image": "https://m.media-amazon.com/images/I/6139wnVeNTL._AC_SL1500_.jpg",
+  "variant": 436,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1185,
+   1186,
+   1187
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2222dd1d-e30d-4c74-b94f-eedd5f0c76d2/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T18:01:37.303736+00:00"
  }
 ]

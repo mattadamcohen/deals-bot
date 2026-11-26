@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 37
+  "2026-11-26": 38
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -123,6 +123,7 @@
   "B0HHK9HHPD": "2026-11-19T13:00:58.397236+00:00",
   "B0HJC2GBYP": "2026-11-15T18:45:41.691794+00:00",
   "B0HJLJ87KD": "2026-11-21T19:01:12.081604+00:00",
+  "B0HJWL12G4": "2026-11-26T18:01:37.306192+00:00",
   "B0HKMBZ723": "2026-11-15T17:09:36.727949+00:00",
   "B0HKMW4WS7": "2026-11-26T13:30:56.014250+00:00",
   "B0HLFZJF6T": "2026-11-25T14:45:47.411228+00:00",
@@ -513,7 +514,7 @@
   "u s polo assn": "2026-11-26T08:01:24.207602+00:00",
   "ugreen studio pro db": "2026-11-18T12:01:19.307425+00:00",
   "ugreen ultra slim w": "2026-11-23T11:30:57.650238+00:00",
-  "ugreen usb c hub": "2026-11-15T17:04:35.723369+00:00",
+  "ugreen usb c hub": "2026-11-26T18:01:37.306197+00:00",
   "ugreen usb hub k": "2026-11-17T07:31:35.312508+00:00",
   "ultralight compact self inflating": "2026-11-22T14:16:27.503392+00:00",
   "umatoll toddler balance bike": "2026-11-23T06:15:47.071073+00:00",
@@ -574,9 +575,16 @@
   "focus-brand-fashion-2026-11-26-13",
   "focus-brand-fashion-2026-11-26-17",
   "focus-brand-fashion-2026-11-26-9",
-  "focus-brand-tech-2026-11-26-15"
+  "focus-brand-tech-2026-11-26-15",
+  "focus-brand-tech-2026-11-26-20"
  ],
  "giveaway_entries": {
+  "1017156201": {
+   "at": "2026-11-26T18:00:56.841523+00:00",
+   "name": "E",
+   "username": "",
+   "via": "join"
+  },
   "1018598077": {
    "at": "2026-11-26T12:30:56.970401+00:00",
    "name": "\u05d0\u05d7\u05d9\u05e0\u05d5\u05e2\u05dd",
@@ -960,11 +968,12 @@
   "6322429259",
   "1018598077",
   "1763719082",
-  "8942957999"
+  "8942957999",
+  "1017156201"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T17:45:56.827192+00:00",
+ "last_post_at": "2026-11-26T18:01:37.305799+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1788,7 +1797,7 @@
   "B0BGWYD9KC": "2026-11-14T12:25:03.919624+00:00",
   "B0BJ291V2G": "2026-11-24T15:30:55.707046+00:00",
   "B0BPLB81LX": "2026-11-15T14:26:34.179535+00:00",
-  "B0BR3M8XHK": "2026-11-15T17:04:35.695719+00:00",
+  "B0BR3M8XHK": "2026-11-26T18:01:37.272955+00:00",
   "B0BRMYHMS5": "2026-11-24T13:01:00.201591+00:00",
   "B0BSRFKKZJ": "2026-11-14T17:08:14.114580+00:00",
   "B0BYNYWKC7": "2026-11-17T13:31:29.780316+00:00",
@@ -2131,10 +2140,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kitchen gadgets",
   "home-garden",
   "pick",
-  "aliexpress/kitchen gadgets"
+  "aliexpress/kitchen gadgets",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2145,17 +2154,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "kitchen",
   "home",
   "tech",
   "fashion",
   "kitchen",
   "home",
   "kids",
-  "kitchen"
+  "kitchen",
+  "tech"
  ],
  "recent_titles": [
-  "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office",
   "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making",
   "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
   "Car Vacuum Cleaner 95000PA Strong Suction Handheld Wireless Vacuum Cleaner Blower 2 in 1 Portable Vacuum Cleaner For Car Home",
@@ -2166,7 +2174,8 @@
   "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets",
   "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - White",
   "LEGO Yellow Travel Suitcase 40817 \u2013 184 Pieces, Buildable Luggage Model with Retractable Handle, 360\u00b0 Wheels & Travel Accessories | Ages 7+ | Travel Gift",
-  "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools"
+  "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
+  "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2215,6 +2224,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
- "tg_offset": 260136243
+ "since_ali": 1,
+ "tg_offset": 260136244
 }
