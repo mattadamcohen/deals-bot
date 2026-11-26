@@ -482,6 +482,52 @@ def drop_christmas(title):
     return re.sub(r"\s{2,}", " ", re.sub(r"[\s,|-]+$", "", t)).strip() or title
 
 
+RLM = "\u200f"  # keeps each line right-to-left even when it starts with a number or a brand name
+
+
+def split_title(title):
+    """'Brand Product, feature, feature' -> ('Brand Product', 'feature, feature')."""
+    m = re.split(r"\s*[,|–—]\s*|\s+-\s+|\s+with\s+", title, maxsplit=1)
+    name = m[0].strip()
+    rest = m[1].strip() if len(m) > 1 else ""
+    if len(name) < 12 and rest:  # too short to stand alone (e.g. just a brand)
+        name, rest = title[:70].rsplit(" ", 1)[0], title[len(title[:70].rsplit(" ", 1)[0]):].strip(" ,-|")
+    return name, rest
+
+
+def caption_short(item, title, title_he_name, desc_he):
+    """Hebrew only, ~6 lines so the whole post fits under the photo (Matt, Nov 26). English stays on the website."""
+    L = CONFIG["labels"]["he"]
+    ali = item.get("store") == "aliexpress"
+    v = item.setdefault("variant", random.randrange(1000))
+    lines = [f"{RLM}<b>{esc(title_he_name)}</b>"]
+    if desc_he:
+        lines.append(f"{RLM}{esc(desc_he)}")
+    lines.append("")
+    if item.get("price"):
+        p = f"{RLM}💰 <b>{esc(shekels(item['price']).replace('~', ''))}</b>"
+        if item.get("was"):
+            p += f" במקום <s>{esc(shekels(item['was']).replace('~', ''))}</s>"
+        if item.get("discount"):
+            p += f" · {esc(item['discount'])} {L['off']}"
+        lines.append(p)
+    cp = item.get("coupon")
+    if cp:
+        lines.append(f"{RLM}🎟️ קוד קופון <code>{esc(cp['code'])}</code>: ${cp['off']:g} הנחה מעל ${cp['min']:g}")
+    if item.get("rating"):
+        r = f"{RLM}⭐ דירוג {esc(item['rating'])}"
+        if item.get("reviews"):
+            r += f" · {esc(str(item['reviews']))} ביקורות"
+        lines.append(r)
+    lines.append(f"{RLM}🇮🇱 " + ("משלוח לארץ, עלות לפי האתר" if ali else "משלוח חינם לישראל בהזמנה מעל $49"))
+    for k in ("note_he",):
+        if item.get(k):
+            lines.append(f"{RLM}{esc(item[k])}")
+    url = item.get("link") or product_link(item["asin"])
+    lines.append(f'{RLM}👉 <a href="{esc(url)}">{"לקנייה באליאקספרס" if ali else "לקנייה באמזון"}</a>')
+    return "\n".join(lines)
+
+
 def caption(item, category):
     L = CONFIG["labels"]
     title = strip_junk(drop_christmas(item["title"] or "Best seller"))
@@ -495,6 +541,11 @@ def caption(item, category):
     else:
         title_he = to_hebrew(short(title))
     item["title_he"] = title_he
+    if CONFIG.get("caption_style") == "short":
+        name, rest = split_title(title)
+        name_he = title_he.split(":")[0] + ": " + to_hebrew(short(name, 70)) if item.get("style_of") else to_hebrew(short(name, 70))
+        desc_he = to_hebrew(short(rest, 110)) if rest else ""
+        return caption_short(item, title, name_he, desc_he)
     v = item.setdefault("variant", random.randrange(1000))  # same variant for both languages; stable on re-edits
     he = block(item, category["he"], title_he, L["he"], seasonal_lines(category["slug"], "he") + ([item["note_he"]] if item.get("note_he") else []), v)
     en = block(item, category["en"], title, L["en"], seasonal_lines(category["slug"], "en") + ([item["note_en"]] if item.get("note_en") else []), v)
