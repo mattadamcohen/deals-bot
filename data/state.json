@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-25": 43
+  "2026-11-26": 1
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -71,6 +71,7 @@
   "B0FR7RVK1T": "2026-11-22T15:46:33.323604+00:00",
   "B0FY3SNNXH": "2026-11-23T07:15:54.072633+00:00",
   "B0G2MX1GKP": "2026-11-20T14:01:00.195959+00:00",
+  "B0G479TFPY": "2026-11-26T05:01:02.372045+00:00",
   "B0G545PFB3": "2026-11-23T10:15:55.012442+00:00",
   "B0G55V7L24": "2026-11-23T06:15:47.071060+00:00",
   "B0G56435HQ": "2026-11-21T12:30:52.972413+00:00",
@@ -359,6 +360,7 @@
   "needoh holographic ribbon squeeze": "2026-11-23T05:15:43.489626+00:00",
   "needoh textured slow rebound": "2026-11-22T17:02:02.059944+00:00",
   "netac ssd nvme m": "2026-11-16T11:01:01.700334+00:00",
+  "new balance": "2026-11-26T05:01:02.372053+00:00",
   "new mai a dash": "2026-11-25T07:30:49.563851+00:00",
   "new mai dash cam": "2026-11-22T18:01:10.958851+00:00",
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
@@ -832,7 +834,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-25T18:19:07.316847+00:00",
- "last_post_at": "2026-11-25T19:46:12.926711+00:00",
+ "last_post_at": "2026-11-26T05:01:02.371684+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-17T19:34:47.610083+00:00",
@@ -1554,17 +1556,6 @@
   },
   {
    "alt": [],
-   "at": "2026-11-25T20:00:00+00:00",
-   "id": "B0F4GY83Q1",
-   "not_before": "2026-11-25T20:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1125b-B0F4GY83Q1",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0F4GY83Q1"
-  },
-  {
-   "alt": [],
    "at": "2026-11-26T07:00:00+00:00",
    "id": "B09ZJDPFWT",
    "not_before": "2026-11-26T07:00:00+00:00",
@@ -1606,6 +1597,41 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T05:15:00+00:00",
+   "id": "1005009353113123",
+   "not_before": "2026-11-26T05:15:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-emeet",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3yXq4El"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T07:45:00+00:00",
+   "id": "1005009012821000",
+   "not_before": "2026-11-26T07:45:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1125-ditong",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c3v3dmBJ"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T05:30:00+00:00",
+   "id": "1005009314491608",
+   "not_before": "2026-11-26T05:30:00+00:00",
+   "note_en": "\u26a0\ufe0f Chinese version: camera/app interface in Chinese, adapter included",
+   "note_he": "\u26a0\ufe0f \u05d2\u05e8\u05e1\u05d4 \u05e1\u05d9\u05e0\u05d9\u05ea: \u05de\u05de\u05e9\u05e7 \u05d4\u05de\u05e6\u05dc\u05de\u05d4 \u05d5\u05d4\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d1\u05e1\u05d9\u05e0\u05d9\u05ea, \u05de\u05d2\u05d9\u05e2 \u05e2\u05dd \u05de\u05ea\u05d0\u05dd \u05dc\u05e9\u05e7\u05e2",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126-xiaomi-cam",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c4KLCKOV"
   }
  ],
  "posted": {
@@ -1718,6 +1744,7 @@
   "B0DYTQ5GYQ": "2026-11-21T09:34:00.636336+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.121319+00:00",
+  "B0F4GY83Q1": "2026-11-26T05:01:02.338254+00:00",
   "B0F6VKZ4FB": "2026-11-17T16:01:58.081078+00:00",
   "B0F7K6G16L": "2026-11-22T15:46:33.280623+00:00",
   "B0F9SW7V12": "2026-11-16T15:04:51.176922+00:00",
@@ -1991,9 +2018,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/building blocks set",
   "automotive",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -2005,17 +2032,16 @@
   "automotive"
  ],
  "recent_themes": [
-  "home",
   "kids",
   "beauty",
   "home",
   "fashion",
   "kids",
   "car",
-  "fashion"
+  "fashion",
+  "other"
  ],
  "recent_titles": [
-  "Electric Vacuum Pump, Instant Compression, Dedicated for Vacuum Storage Bags, Low Noise, Compact & Portable",
   "HAPPY NUTS Comfort Cream Anti Chafing Deodorant - Stocking Stuffer for Men",
   "PROJECT CLOUD Mens Sandals 100% Genuine Leather Mens Slides Sandals for Men",
   "AJAZZ AK820 Mechanical Gaming Keyboard Tri-Mode Bluetooth 5.1 Wireless Wired Knob Hot Swap Gasket Custom Keyboard",
@@ -2026,7 +2052,8 @@
   "PUMA Men's Voltaic Evo Cross Trainer Shoes",
   "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
   "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
-  "Dickies Mens Loose Fit Double Knee Work Pants"
+  "Dickies Mens Loose Fit Double Knee Work Pants",
+  "New Balance Men's 515"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2039,12 +2066,15 @@
   "pick-1125-B0FDX9T6DF",
   "pick-1125-B0FX7MG53F",
   "pick-1125-B0H9XMRTKL",
+  "pick-1125-ditong",
+  "pick-1125-emeet",
   "pick-1125-servo-s27",
   "pick-1125b-B09ZJDPFWT",
   "pick-1125b-B0D4215HCX",
   "pick-1125b-B0F4GY83Q1",
   "pick-1125b-B0FMPL7CBN",
   "pick-1125b-B0FMYXQVSQ",
+  "pick-1126-xiaomi-cam",
   "shot-1118-1",
   "shot-1118-2",
   "shot-1118-3",
@@ -2067,6 +2097,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 3,
  "tg_offset": 260136227
 }

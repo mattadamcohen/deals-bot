@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005011822737841",
-  "title": "Makita 18V Brushless Drill Driver DDF487 High Torque Screwdriver For Indoor Mounting Household Maintenance Jobs",
-  "title_he": "מברג מקיטה 18V ללא מברשות DDF487 מברג מומנט גבוה להרכבה פנימית עבודות תחזוקה ביתיות",
-  "price": "$33.69",
-  "was": "$73.64",
-  "discount": "54%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 951,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0fbe3246d4346ad9521be1937aea2f6T.png",
-  "variant": 241,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oCrED42HdYNrV8rcRqm4ZViINDvS5OISUINpFOQKtg4Pp1s5V5cFjGPdhRlP6MxoojGm2C3gVdMFrW4gypRQaWvyXEKCJBcnmNvVxiCwMYBVINxEsi4Dw3YuD9J7DSizbzvInOGTLTPBmmArtFWaCLH0TQek3iDd2rVKDvFIJQ1hsDVUASg9F51juaheuj3kUAVUZaSXY59ZXCsrgVZoyXsKUT1t3dijUXwJasz461sjHNGrtmdDNBHD1vBHqAcdLMqivtUxCZbeC6gTCAw9Mp4ChqtuX8Z2J4gRKqv7bVTQOh3SrCCMVuxVe2kRtck4NYbJTw3USPAEB70Cyau7VpdBpDDiPU7Ae28YQjmdk2Intrbe1z6fPErL1xI7TwofttINbPiIiyB8dUkFHB53cwB06eF1PnNVEbYhAyXhNkXRxzFcxy7Q7YI6fj1UJzQ89cYJSPouzi613ajoZqxz6ujDA1ysKhKTFl2hP5Ol8oJIwgmdPmM50DnQWKAljLC5jPeHdhORSOPCmyyLZqHv3jMXjUtUJYC26TOqR78hbcsqrg4UZzoK8Nq29VTywA7d5eJpcxycpUjwqpqR9e6AkHTaVO8snjHUz3kMJBeUZn87RBRYTr6rr522UtLXHtdWsB8mFtRyNkMNc9VKQjZormfRvTz3pAlPMiHmlNlqWU3ISD0XcmGQS0EgbNRk38gB7nl5kfyYWDEa3",
-  "sold": "6,000",
-  "album_ids": [
-   951,
-   952,
-   953
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/cordless drill brushless",
-  "category_en": "Tools",
-  "category_he": "כלי עבודה",
-  "posted_at": "2026-11-25T06:01:00.924751+00:00"
- },
- {
   "asin": "ali-1005011824570634",
   "title": "5-20pcs Glow in the Dark Bouncy Balls Rubber Stress Relief Toys for Kids Birthday Party Favor Valentine Gifts Classroom Prizes",
   "title_he": "5-20 יחידות זוהר בחושך כדורי קופצני גומי צעצועי הפגת מתח לילדים מסיבת יום הולדת טובה מתנות ולנטיין פרסים לכיתה",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-25T19:46:12.924460+00:00"
+ },
+ {
+  "asin": "B0F4GY83Q1",
+  "title": "New Balance Men's 515",
+  "title_he": "New Balance Men's 515",
+  "price": "$72.45",
+  "was": "$79.99",
+  "discount": "9%",
+  "rating": "4.5",
+  "reviews": "13,610",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1071,
+  "image": "https://m.media-amazon.com/images/I/51-H8kL7xeL._AC_SL1000_.jpg",
+  "variant": 479,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1071,
+   1072,
+   1073
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/48d43810-1dba-418e-a7a1-18c2ea1dcc76.mp4/productVideoOptimized.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-26T05:01:02.369614+00:00"
  }
 ]
