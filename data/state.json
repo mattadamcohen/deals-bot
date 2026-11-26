@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 21
+  "2026-11-26": 22
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -528,6 +528,7 @@
   "xiaomi new electric rechargeable": "2026-11-22T20:45:46.321561+00:00",
   "xiaomi smart camera video": "2026-11-26T05:30:54.578906+00:00",
   "yeoreo ease workout leggings": "2026-11-16T16:01:02.943625+00:00",
+  "ykywbike cycling bib shorts": "2026-11-26T13:16:58.887722+00:00",
   "yz for tesla model": "2026-11-16T14:16:40.544463+00:00",
   "zevo flying insect trap": "2026-11-19T08:31:27.609409+00:00",
   "zsus inch portable monitor": "2026-11-16T20:16:54.527996+00:00",
@@ -919,7 +920,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T12:04:27.314955+00:00",
- "last_post_at": "2026-11-26T13:01:07.487685+00:00",
+ "last_post_at": "2026-11-26T13:16:58.887400+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1650,14 +1651,6 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
-  },
-  {
-   "focus": true,
-   "id": "Brand tech",
-   "over_cap_ok": true,
-   "sid": "focus-brand-tech-2026-11-26-15",
-   "store": "amazon_focus",
-   "url": "focus"
   }
  ],
  "posted": {
@@ -1821,6 +1814,7 @@
   "B0HMC3TGW7": "2026-11-21T19:01:11.969851+00:00",
   "ali-1005004370747413": "2026-11-20T15:31:03.427709+00:00",
   "ali-1005005210163156": "2026-11-22T18:45:55.684321+00:00",
+  "ali-1005005266133348": "2026-11-26T13:16:58.791579+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
   "ali-1005005703405239": "2026-11-23T11:01:10.622447+00:00",
   "ali-1005005968742948": "2026-11-22T15:32:29.922830+00:00",
@@ -2062,10 +2056,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty/3778591",
   "aliexpress/cat toys",
   "toys-and-games/166092011",
-  "pick"
+  "pick",
+  "aliexpress/1119-1129 Black/Super Friday - Bestsellers"
  ],
  "recent_groups": [
   "beauty",
@@ -2076,17 +2070,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "tech",
   "fashion",
   "fashion",
   "tech",
   "beauty",
   "pets",
   "kids",
-  "other"
+  "other",
+  "sport"
  ],
  "recent_titles": [
-  "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
   "U.S. POLO ASSN. Women's Crew Neck Sweaters \u2013 Raglan, Cable Knit & Striped",
   "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
   "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
@@ -2097,7 +2090,8 @@
   "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
   "Long Steel Wire Pole Cat Teaser Wand Rotating Chinchilla Feather Fishing Toy Stress Relief Play Toy for Kittens",
   "20 Pcs Magnetic Action Figures Playset - Magnetic Building Toys",
-  "COMFIER Back Massager with Heat, Chair Pad with Adjustable Lumbar Support"
+  "COMFIER Back Massager with Heat, Chair Pad with Adjustable Lumbar Support",
+  "YKYWBIKE Cycling Bib Shorts Men Outdoor Wear Bike Ride 6 Hours Padded Riding Bib Tights Bicycle Men's Cycling Clothing Mtb Short"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2141,6 +2135,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136237
 }
