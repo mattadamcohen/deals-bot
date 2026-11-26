@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 15
+  "2026-11-26": 16
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -14,6 +14,7 @@
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
   "B09JFMBWJX": "2026-11-23T14:05:33.168573+00:00",
   "B09QT4DRMB": "2026-11-17T05:04:11.018855+00:00",
+  "B09SXLKFPH": "2026-11-26T11:31:29.677536+00:00",
   "B09XB4SHTB": "2026-11-26T06:01:06.279002+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
   "B0B9WN3PFY": "2026-11-24T09:19:41.368315+00:00",
@@ -474,6 +475,7 @@
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
   "the uzzle board game": "2026-11-25T09:34:09.659230+00:00",
   "timemore basic mirror pour": "2026-11-23T17:46:20.002492+00:00",
+  "tommy hilfiger classic zip": "2026-11-26T11:31:29.677543+00:00",
   "toocki in- retractable cable": "2026-11-20T05:01:02.300781+00:00",
   "toothbrush storage rack capacity": "2026-11-20T08:00:54.335447+00:00",
   "topump tb pro electric": "2026-11-18T14:02:00.032720+00:00",
@@ -902,7 +904,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T07:20:30.276709+00:00",
- "last_post_at": "2026-11-26T11:17:11.529227+00:00",
+ "last_post_at": "2026-11-26T11:31:29.677042+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1619,14 +1621,6 @@
    "sid": "pick-1125b-B0FMPL7CBN",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0FMPL7CBN"
-  },
-  {
-   "focus": true,
-   "id": "Brand fashion",
-   "over_cap_ok": true,
-   "sid": "focus-brand-fashion-2026-11-26-13",
-   "store": "amazon_focus",
-   "url": "focus"
   }
  ],
  "posted": {
@@ -1647,6 +1641,7 @@
   "B01CYZHGC8": "2026-11-20T15:00:56.986352+00:00",
   "B01H1V7WQU": "2026-11-24T05:31:38.762751+00:00",
   "B01KNM3AFQ": "2026-11-17T06:01:17.335441+00:00",
+  "B01KWHW2CE": "2026-11-26T11:31:29.657207+00:00",
   "B01M0AGUPO": "2026-11-16T12:46:27.773496+00:00",
   "B01M16WBW1": "2026-11-15T09:02:39.794924+00:00",
   "B01MSSDEPK": "2026-11-18T05:34:41.583845+00:00",
@@ -2025,10 +2020,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/solar wall light motion sensor",
   "pick",
   "pick",
-  "aliexpress/travel neck pillow"
+  "aliexpress/travel neck pillow",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2039,17 +2034,16 @@
   "wireless"
  ],
  "recent_themes": [
-  "fashion",
   "tech",
   "other",
   "tech",
   "home",
   "kitchen",
   "tech",
+  "fashion",
   "fashion"
  ],
  "recent_titles": [
-  "Refrigerator Storage Box Fridge Organizer Kitchen Storage Cans Soda Cans Storage Cans Basket Storage Containers Pantry Organizer",
   "Columbia Men's Thistletown Hills Short Sleeve",
   "HAYLOU Watch 4S GPS Smartwatch 1.43\u201d HD AMOLED Display 5 Satellite GPS Positioning 120+ Workout Modes Sport Fitness Smart Watch",
   "MAGNA-TILES microMAGS 26-Piece Travel Magnetic Construction Set \u2013 Bold Colors, The Original Magnetic Building Brand",
@@ -2060,7 +2054,8 @@
   "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
   "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
   "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
-  "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection"
+  "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection",
+  "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2104,6 +2099,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136234
 }
