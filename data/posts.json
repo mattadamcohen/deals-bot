@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CL7JYSP5",
-  "title": "PUMA Men's Voltaic Evo Cross Trainer Shoes",
-  "title_he": "נעלי PUMA Cross Trainer Voltaic Evo לגברים",
-  "price": "$41.79",
-  "was": "$85.00",
-  "discount": "51%",
-  "rating": "4.5",
-  "reviews": "3,630",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1059,
-  "image": "https://m.media-amazon.com/images/I/51R58Jw4wOL._AC_SL1001_.jpg",
-  "variant": 575,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1059,
-   1060,
-   1061
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-25T19:01:09.423571+00:00"
- },
- {
   "asin": "ali-1005010759523552",
   "title": "TOYLINX X-Wing Space Fighter Building Blocks Set LED Light Up Construction Toy Mechanical Space Vehicle with Pilot Bricks Gifts",
   "title_he": "TOYLINX X-Wing Space Fighter סט אבני בניין LED Light Up צעצוע רכב חלל מכני עם מתנות לבני טייס",
@@ -1168,5 +1139,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T17:31:03.761759+00:00"
+ },
+ {
+  "asin": "ali-1005006789393404",
+  "title": "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
+  "title_he": "קערת מסננת מכונת כביסה אורז נירוסטה 304 קערת שטיפת אורז מסננת מסננת מסננת פירות וירקות כלי מטבח",
+  "price": "$11.04",
+  "was": "$38.21",
+  "discount": "71%",
+  "rating": "92.5%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1182,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa55b286a2c3a4c56ab3b431fe1140e12Z.jpg",
+  "variant": 226,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kN4i4xoXfJ2RmueeV5oz9k3u1hvxSvyU7c3eSRj7ayt9eRXN2W16t9bJkKOBj7OiCcMSF7lPnsrxkJlBE7tXrlAVSJJZJS4nnQL8N4Xp0p9rZRMfRaGzyFo8dRcLSKBQLQhtDbCWy1AHruWNX1VmGC0umqbXtZlOmEjr1OGCjrTZirlgTvFUULiC6SG2DTH83Yf6UxBT4AGZYVfldO8okun2JbZtHIRcFFL8cOJVVz4NYhlTcgmOPn7xAmjWyM8jaqiHovegfrZII7pDRm0MvgVQzm6BGa0whBsaczd19wqAsJYN70uLOY3s6XcsCvNhrXeMq9xdlx1UTwmvHwHrflTNmfvFeBMCjY5c0hU6ClVbjdCZyndNVsAEROD3ntz7U4KR8myaAOLkHeKhyxOeAfzjI3SranwJyxiajVW89N7pDkj8ij4a3eJXftEfpz0qslccsaXHAWDKR4kaawydkqYoFe2xEgKjMA9kKnrI2yyn4bZMWHJp79cDiJrKbSu17DxjwxcGaFB5WZtMKWTaOyqvyLXTK2nqbMTgyz9plMqmcDzhYGFWxNNHjS8sSeANvVAYuOiaFJjQlc8HjxAknGZ1ZVmz4nIUIexH3PdRZKuzmGLY0RhUsnqDMrcLbkN4gUxNevVQvrHgMz0Qo2pVTYBtDvK3cGxpgjPsg0XMVusEkav1aj8BSbC36M10fKvqWfXlj04yrP66y",
+  "sold": "6,000",
+  "album_ids": [
+   1182,
+   1183,
+   1184
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/222032519/p/1/e/6/t/10301/4000177506395.mp4",
+  "category_slug": "aliexpress/kitchen gadgets",
+  "category_en": "Kitchen",
+  "category_he": "מטבח",
+  "posted_at": "2026-11-26T17:45:56.825429+00:00"
  }
 ]

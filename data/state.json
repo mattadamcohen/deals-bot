@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 36
+  "2026-11-26": 37
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -448,6 +448,7 @@
   "refrigerator storage box fridge": "2026-11-26T05:46:01.710083+00:00",
   "remote control air mouse": "2026-11-23T12:30:54.387393+00:00",
   "replacement for samsung tv": "2026-11-17T15:04:45.301786+00:00",
+  "rice washer strainer bowl": "2026-11-26T17:45:56.827419+00:00",
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "safer home flying insect": "2026-11-21T11:30:57.493045+00:00",
@@ -963,7 +964,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T17:31:03.763696+00:00",
+ "last_post_at": "2026-11-26T17:45:56.827192+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1901,6 +1902,7 @@
   "ali-1005006703940778": "2026-11-24T09:01:02.130578+00:00",
   "ali-1005006713514328": "2026-11-23T11:30:57.598076+00:00",
   "ali-1005006738672284": "2026-11-21T11:01:03.255132+00:00",
+  "ali-1005006789393404": "2026-11-26T17:45:56.779833+00:00",
   "ali-1005006817161380": "2026-11-23T15:01:13.932210+00:00",
   "ali-1005006832463652": "2026-11-16T11:01:01.638592+00:00",
   "ali-1005006860726664": "2026-11-26T15:15:54.537419+00:00",
@@ -2129,10 +2131,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/kitchen gadgets",
   "home-garden",
-  "pick"
+  "pick",
+  "aliexpress/kitchen gadgets"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2143,17 +2145,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "car",
   "kitchen",
   "home",
   "tech",
   "fashion",
   "kitchen",
   "home",
-  "kids"
+  "kids",
+  "kitchen"
  ],
  "recent_titles": [
-  "LEGO Pok\u00e9mon Eevee 72151",
   "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office",
   "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making",
   "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
@@ -2164,7 +2165,8 @@
   "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
   "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets",
   "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - White",
-  "LEGO Yellow Travel Suitcase 40817 \u2013 184 Pieces, Buildable Luggage Model with Retractable Handle, 360\u00b0 Wheels & Travel Accessories | Ages 7+ | Travel Gift"
+  "LEGO Yellow Travel Suitcase 40817 \u2013 184 Pieces, Buildable Luggage Model with Retractable Handle, 360\u00b0 Wheels & Travel Accessories | Ages 7+ | Travel Gift",
+  "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2213,6 +2215,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136243
 }
