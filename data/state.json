@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-26": 43
+  "2026-11-26": 44
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -150,6 +150,7 @@
   "B0HRKBC8T1": "2026-11-24T17:49:35.767002+00:00",
   "B0HRSRQYZT": "2026-11-22T10:49:03.022899+00:00",
   "B0HS8HJ4J5": "2026-11-23T13:49:08.988422+00:00",
+  "B0HSJ56PGR": "2026-11-26T19:57:25.541471+00:00",
   "a pair of plush": "2026-11-25T13:31:24.203850+00:00",
   "acer aspire go ai": "2026-11-23T08:31:07.196751+00:00",
   "acrylic organizer for collectible": "2026-11-24T05:45:49.450248+00:00",
@@ -438,6 +439,7 @@
   "professional aroma diffuser electric": "2026-11-25T18:45:55.594790+00:00",
   "project cloud genuine leather": "2026-11-26T16:31:05.011328+00:00",
   "project cloud sandals genuine": "2026-11-25T17:01:07.519629+00:00",
+  "projector p fhd support": "2026-11-26T19:57:25.541478+00:00",
   "puma voltaic evo cross": "2026-11-25T19:01:09.425950+00:00",
   "push up board": "2026-11-24T12:31:01.926840+00:00",
   "quartz watch luxury women": "2026-11-23T13:01:33.084305+00:00",
@@ -1001,7 +1003,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-26T17:05:00.180142+00:00",
- "last_post_at": "2026-11-26T19:46:00.242531+00:00",
+ "last_post_at": "2026-11-26T19:57:25.541072+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1738,6 +1740,28 @@
    "sid": "pick-1126-B0B3HTQ4YT",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0B3HTQ4YT"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T20:15:00+00:00",
+   "id": "B0DMNRG4X8",
+   "not_before": "2026-11-26T20:15:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126c-B0DMNRG4X8",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0DMNRG4X8"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-26T20:35:00+00:00",
+   "id": "B0FCHQ65TK",
+   "not_before": "2026-11-26T20:35:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1126c-B0FCHQ65TK",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0FCHQ65TK"
   }
  ],
  "posted": {
@@ -1886,6 +1910,7 @@
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0G545MLV3": "2026-11-23T10:15:54.971116+00:00",
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
+  "B0GF83FCQH": "2026-11-26T19:57:25.502821+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
   "B0GHMZXX8Y": "2026-11-21T16:01:21.144762+00:00",
   "B0GTFH1DNL": "2026-11-23T08:31:07.168583+00:00",
@@ -2163,9 +2188,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/solar string lights outdoor",
-  "aliexpress/UGREEN"
+  "aliexpress/UGREEN",
+  "pick"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2176,17 +2201,16 @@
   "home-garden"
  ],
  "recent_themes": [
-  "kids",
   "kitchen",
   "tech",
   "kids",
   "kids",
   "other",
   "home",
+  "tech",
   "tech"
  ],
  "recent_titles": [
-  "RAYKUBE M5 Tuya BLE Smart Fingerprint Door Lock Digital Electronic Lock with Password/Key/IC Card/ Smartlife/ Tuya APP Unlock",
   "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
   "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets",
   "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - White",
@@ -2197,7 +2221,8 @@
   "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
   "Columbia Women's PFG Castback Non Slip Boat Shoe",
   "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration",
-  "UGREEN PD20W Power Bank Magnetic 10000mAh Portable Wireless Fast Charging PowerBank for Magsafe for iPhone 17 15 Pro Max 16 Pro"
+  "UGREEN PD20W Power Bank Magnetic 10000mAh Portable Wireless Fast Charging PowerBank for Magsafe for iPhone 17 15 Pro Max 16 Pro",
+  "[Auto Focus & 2026 Upgraded] Mini Projector 1080P FHD Support 4K Portable Projector with WiFi6 and Bluetooth5.4 Built-in App 180\u00b0 Adjustable Auto Keystone, Compatible with HDMI/Laptop/USB, White"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2225,6 +2250,9 @@
   "pick-1126-B0GGRT3R91",
   "pick-1126-xiaomi-cam",
   "pick-1126b-B0CF9Z5SLZ",
+  "pick-1126c-B0DMNRG4X8",
+  "pick-1126c-B0FCHQ65TK",
+  "pick-1126c-B0GF83FCQH",
   "shot-1118-1",
   "shot-1118-2",
   "shot-1118-3",
@@ -2247,6 +2275,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136247
 }
