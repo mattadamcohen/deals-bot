@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005010706887346",
-  "title": "Fermented Glass Weights Clear with Handle Wide Mouth Mason Jar Lid Sealed Kitchen Gadgets Heavy Fermenting Weights Kimchi Making",
-  "title_he": "משקולות זכוכית מותססות שקופות עם ידית פה רחב מכסה צנצנת מייסון אטום גאדג'טים למטבח כבדות תסיסה כבדות הכנת קמחי",
-  "price": "$6.75",
-  "was": "$13.70",
-  "discount": "50%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 975,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1397a2f0b159405c81d4303e95b1edd4B.jpg",
-  "variant": 478,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Eg6rVEFO89pL9XaNBuiQJkDGMX42hmKhftfNP0sk8Kh6SmBcSMEs8F7jWIzpQiycv7aCOsgSBTWGl2HGxmOXqZxY7dhY5dTfATfNlMy9FY2mjYp7VDtl8vkR5m2iJs0ndbRSGS3ItHdgzfO2zsSu0GsZpzXThAFOYJ1YvjN0AgGTkAEmVpeoKfg4rosUCDaX8VwdoDiyJVmPtxdHx1c1bwBLlQpR1dspP8Jm2jHJMVmvFHpYTZFwAeLj23mBxf9OuUFp4DT7H9hWK6fgFJEVM8Uvt7kHEF8MJvTIlz7tELlt8hRsqBGzdt31lhttL2TRjJJZlEFHppUuZaPp83bSyhCjyguUVj968IqgOqo5827cHSEBlbql7dLR3x8zYBaTUpwhcYwv3Z8Tt4bZ8OCSdOJwyIFHTHqXMElKl3h9M4uGpPx19pST5d4emd7ZFkgyqp7bMZi8vbtOheyyJ59JelkMjD7ezgTVU0eIbGfLAY1RFpDP6JGNyR6wVXg7f12xKgRT7hA3U9a9qjsvuKbT5DaPOMiHTgrmekNYDmjslL7exD3JCdJ29e3zd4YCjVoVNaU1I4GvXXalGEjMYhLnZaXFYYQxQEVUBpJs08iSywZUHobav196EtzSEahQK0XF863eJcZ4TwdSiajZa748gpGMakNO95QQoSx2XnWYWONUvwmd2Dv3w6h0b1uEMIhrLh7xXGf7KXJfG",
-  "sold": "1,000",
-  "album_ids": [
-   975,
-   976,
-   977
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/kitchen gadgets",
-  "category_en": "Kitchen",
-  "category_he": "מטבח",
-  "posted_at": "2026-11-25T08:30:53.403106+00:00"
- },
- {
   "asin": "ali-1005010706584898",
   "title": "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
   "title_he": "Wurkkos CL01 550 Lumens Rechargeable LED Ultra-Long-Life Camping Ambient Light Magnetic Waterproof Hiking Fishing Outdoor",
@@ -1163,5 +1134,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-26T07:01:06.807795+00:00"
+ },
+ {
+  "asin": "B0FDQ3PWCX",
+  "title": "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
+  "title_he": "FNTCASE עבור iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
+  "price": "$6.29",
+  "was": "$8.99",
+  "discount": "30%",
+  "rating": "4.6",
+  "reviews": "78,124",
+  "rank": 4,
+  "source": "bestsellers",
+  "message_id": 1095,
+  "image": "https://m.media-amazon.com/images/I/81kOllW+c5L._AC_SL1500_.jpg",
+  "variant": 503,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1095,
+   1096,
+   1097
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4911f26d-8531-4c48-afe8-f5344a84d6aa/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "wireless",
+  "category_en": "Cell Phones & Accessories",
+  "category_he": "סלולר ואביזרים",
+  "posted_at": "2026-11-26T07:20:35.109424+00:00"
  }
 ]
