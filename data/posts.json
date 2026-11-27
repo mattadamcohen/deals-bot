@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005007344979825",
-  "title": "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets",
-  "title_he": "כרית התזה של ברז למטבח ברז כיור סיליקון למטבח כרית ניקוז כרית ניקוז מגן מגן למטבח רב תכליתי לגאדג'טים למטבח",
-  "price": "$7.18",
-  "was": "$15.85",
-  "discount": "54%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 1173,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2534f31f39fb4f80823a5f55b3b4b7d3p.jpg",
-  "variant": 593,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nzcLwuZgxNaLBkBYY2DgfOFw4FQXOZig4ZAnWWsIyUhALrcZgXqVOMlxdp3101t9BLm21nMQtExm8mCPZWv6ZoNfGdDgyxGyfIG0jHRHl7HvMpl2STmUmBBVuasRhltmd8vgBvHlxcwQ6AXYcSfruALOlG2omPMqxGLpgLACNgsfjlSC6qRZZ4LCWHyTGpteDLNDSBGJ6jmHiugrkllgVssVhqMH1HJfosklknKJJwOO4ks3c8ggoBgxKv09YUZYCYKWsVbSnFi3jQE6lR9xeJFKE1EEts5RmNhq5MZmkRY0ITh0DYgaJw6tITKaFtDW3U5pi5ma8Nu1Bo7fVhDwAD5KFHFv5bOSjpRRXK0BQCGJhCUMRbsOl2GJ5B272PIkbSS5NgEJclgOcX7BlUimUH9hBjd0MPemXVTgJjAbAhGJJBfnA879duD3tCEBE4wCEhHeaZe9yKZ0qGQRw5c8uAqUQQx2G5TObXrV5JTiLks0ErtUbh9ZzZzOXTSGcMQsbro7sqxWp3noXB6y2Hh707amIBQGm6MoldtoDNXnorp6wqsAT3uI6ewNeqFC2mLMfBKCByjxT1kcMRtBZwSJQ4wcI9mmV91ohRnVsg8h54eBogM7VfAPLuxHUWciwtMbocdBZzS3KlkH4enuqF3wpPD9G7bsPlA8olt0DvntDAZzN0bjKXYosIenmdTmo8j02HvroRbg2cFsk",
-  "sold": "1,000",
-  "album_ids": [
-   1173,
-   1174,
-   1175
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/kitchen gadgets",
-  "category_en": "Kitchen",
-  "category_he": "מטבח",
-  "posted_at": "2026-11-26T16:45:45.996160+00:00"
- },
- {
   "asin": "B01M16WBW1",
   "title": "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - White",
   "title_he": "סט סדינים קווין סייז 4 חלקים - סדינים נוחים לנשימה וקירור - לבן",
@@ -1158,5 +1129,34 @@
   "category_en": "Gaming",
   "category_he": "גיימינג",
   "posted_at": "2026-11-27T12:46:24.592251+00:00"
+ },
+ {
+  "asin": "B0D1XLNWP2",
+  "title": "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI",
+  "title_he": "UGREEN Revodok Pro USB-C Hub 6 ב-1 10Gbps 4K 60Hz HDMI",
+  "price": "$15.33",
+  "was": "$21.99",
+  "discount": "30%",
+  "rating": "4.4",
+  "reviews": "8,750",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1294,
+  "image": "https://m.media-amazon.com/images/I/71hssMEEk+L._AC_SL1500_.jpg",
+  "variant": 506,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1294,
+   1295,
+   1296
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e391bffd-57b0-4028-bab5-09dbde536568/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T13:01:55.190714+00:00"
  }
 ]
