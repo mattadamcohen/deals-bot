@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 40
+  "2026-11-27": 41
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -598,6 +598,7 @@
   "wiholl fall outfits for": "2026-11-20T16:34:31.176218+00:00",
   "windproof travel umbrella": "2026-11-14T16:08:08.123121+00:00",
   "wireless peak car jump": "2026-11-23T20:01:08.097656+00:00",
+  "women s luxury long": "2026-11-27T17:02:38.933423+00:00",
   "worx v electrical screwdriver": "2026-11-17T17:31:56.535192+00:00",
   "wrangler authentics regular fit": "2026-11-26T15:01:28.855396+00:00",
   "wrangler comfort flex waist": "2026-11-27T10:45:46.039394+00:00",
@@ -633,6 +634,7 @@
   "focus-2026-11-26-11",
   "focus-2026-11-26-19",
   "focus-2026-11-27-11",
+  "focus-2026-11-27-19",
   "focus-brand-fashion-2026-11-25-13",
   "focus-brand-fashion-2026-11-25-17",
   "focus-brand-fashion-2026-11-25-9",
@@ -1159,7 +1161,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T14:49:02.337878+00:00",
- "last_post_at": "2026-11-27T16:45:50.397269+00:00",
+ "last_post_at": "2026-11-27T17:02:38.933301+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2359,6 +2361,7 @@
   "ali-1005012108230715": "2026-11-27T09:01:07.069090+00:00",
   "ali-1005012126115972": "2026-11-27T10:05:43.829713+00:00",
   "ali-1005012172793474": "2026-11-26T06:15:58.935965+00:00",
+  "ali-1005012218333240": "2026-11-27T17:02:38.848371+00:00",
   "ali-1005012275621872": "2026-11-27T06:15:45.548903+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
@@ -2416,10 +2419,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/Baseus",
   "toys-and-games",
   "aliexpress/backpack",
-  "aliexpress/gaming headset"
+  "aliexpress/gaming headset",
+  "aliexpress/gift for women"
  ],
  "recent_groups": [
   "fashion",
@@ -2430,17 +2433,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "other",
   "beauty",
   "home",
   "fashion",
   "tech",
   "kids",
   "fashion",
-  "tech"
+  "tech",
+  "home"
  ],
  "recent_titles": [
-  "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "PUMA unisex-adult Accelerator Duffel Bag with Removable Strap & Shoe Pocket",
   "Reebok Aniwa Running Shoes for Women",
   "KRIDDO Toddler Balance Bike 2 Year Old, Gift for 2-3 Boys Girls, Adjustable",
@@ -2451,7 +2453,8 @@
   "Baseus MC1 Pro Ear Clip Wireless Earphones Bluetooth 6.0 Hi-Res Ultra Open Earbuds earrings 4-Mic ENC Clip on ear buds Headphone",
   "Morf Worm 3D Sensory Fidget Toys for Kids, Teens & Adults, Rainbow, Small",
   "TARKA Foldable Camping Chairs Set Lightweight Folding Chair Ultralight Backpacking Moon Chairs for Garden Picnic Beach Fishing",
-  "MCHOSE V9 Pro 2 Headset with Microphone Three Mode Bluetooth Wireless Computer PC Gamer Headphones Accessories V9 Pro MCHOSE"
+  "MCHOSE V9 Pro 2 Headset with Microphone Three Mode Bluetooth Wireless Computer PC Gamer Headphones Accessories V9 Pro MCHOSE",
+  "Women\u2019s Luxury Long Lasting Fragrance Set Collection with Floral Fruity Vanilla Sweet Scent Valentine's Day Gifts"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
