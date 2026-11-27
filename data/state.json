@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 30
+  "2026-11-27": 31
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -126,6 +126,7 @@
   "B0H9NKZGB7": "2026-11-20T08:30:53.068268+00:00",
   "B0H9VMB3HP": "2026-11-27T09:49:12.053517+00:00",
   "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
+  "B0HC85F8QC": "2026-11-27T14:01:09.304674+00:00",
   "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
   "B0HDG61T4D": "2026-11-27T11:45:50.956871+00:00",
@@ -484,6 +485,7 @@
   "raykube m tuya ble": "2026-11-26T16:01:15.845539+00:00",
   "realistic finished reborn doll": "2026-11-25T07:45:43.797000+00:00",
   "rear view monitor ips": "2026-11-18T09:01:37.043876+00:00",
+  "reebok aniwa running shoes": "2026-11-27T14:01:09.304681+00:00",
   "reebok club c double": "2026-11-23T07:15:54.072641+00:00",
   "reebok court advance sneakers": "2026-11-26T07:01:06.810508+00:00",
   "reebok fleece jacket": "2026-11-23T08:01:13.266313+00:00",
@@ -1126,7 +1128,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T13:46:11.165247+00:00",
+ "last_post_at": "2026-11-27T14:01:09.304391+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1857,17 +1859,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-27T14:00:00+00:00",
-   "id": "B0G5S4Z7GX",
-   "not_before": "2026-11-27T14:00:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1127-B0G5S4Z7GX",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0G5S4Z7GX"
-  },
-  {
-   "alt": [],
    "at": "2026-11-27T15:00:00+00:00",
    "id": "1005013457363886",
    "not_before": "2026-11-27T15:00:00+00:00",
@@ -2093,6 +2084,7 @@
   "B0FYMN9QWG": "2026-11-23T06:15:47.029993+00:00",
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0G545MLV3": "2026-11-23T10:15:54.971116+00:00",
+  "B0G5S4Z7GX": "2026-11-27T14:01:09.249569+00:00",
   "B0G5WBGTWK": "2026-11-27T10:30:55.311012+00:00",
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
   "B0GF83FCQH": "2026-11-26T19:57:25.502821+00:00",
@@ -2391,9 +2383,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/switch controller",
   "pick",
   "aliexpress/building blocks set",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -2405,17 +2397,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "fashion",
   "other",
   "fashion",
   "tech",
   "tech",
   "kids",
+  "fashion",
   "fashion"
  ],
  "recent_titles": [
-  "Tub Works\u00ae Ocean Rescue\u2122 Vehicles Light Up Bath Toys, 6 Pack | Water-Activated Light Up Toys Flash & Change Color | Easy-Grip Baby & Toddler Bath Toys | Sensory Toys with Bath Lights for Kids Bath",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
   "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket",
   "Fuers 5MP WiFi Camera Works With Tuya Smart Home Indoor Wireless IP Surveillance Camera AI Detect Security Baby Monitor",
@@ -2426,7 +2417,8 @@
   "GameSir Nova Lite Wireless Gamepad, Bluetooth Gaming Controller with Hall Effect for Switch, Android, iOS, PC, Steam Games",
   "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI",
   "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
-  "PUMA unisex-adult Accelerator Duffel Bag with Removable Strap & Shoe Pocket"
+  "PUMA unisex-adult Accelerator Duffel Bag with Removable Strap & Shoe Pocket",
+  "Reebok Aniwa Running Shoes for Women"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2489,6 +2481,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 2,
  "tg_offset": 260136259
 }

@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005006789393404",
-  "title": "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
-  "title_he": "קערת מסננת מכונת כביסה אורז נירוסטה 304 קערת שטיפת אורז מסננת מסננת מסננת פירות וירקות כלי מטבח",
-  "price": "$11.04",
-  "was": "$38.21",
-  "discount": "71%",
-  "rating": "92.5%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 1182,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa55b286a2c3a4c56ab3b431fe1140e12Z.jpg",
-  "variant": 226,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kN4i4xoXfJ2RmueeV5oz9k3u1hvxSvyU7c3eSRj7ayt9eRXN2W16t9bJkKOBj7OiCcMSF7lPnsrxkJlBE7tXrlAVSJJZJS4nnQL8N4Xp0p9rZRMfRaGzyFo8dRcLSKBQLQhtDbCWy1AHruWNX1VmGC0umqbXtZlOmEjr1OGCjrTZirlgTvFUULiC6SG2DTH83Yf6UxBT4AGZYVfldO8okun2JbZtHIRcFFL8cOJVVz4NYhlTcgmOPn7xAmjWyM8jaqiHovegfrZII7pDRm0MvgVQzm6BGa0whBsaczd19wqAsJYN70uLOY3s6XcsCvNhrXeMq9xdlx1UTwmvHwHrflTNmfvFeBMCjY5c0hU6ClVbjdCZyndNVsAEROD3ntz7U4KR8myaAOLkHeKhyxOeAfzjI3SranwJyxiajVW89N7pDkj8ij4a3eJXftEfpz0qslccsaXHAWDKR4kaawydkqYoFe2xEgKjMA9kKnrI2yyn4bZMWHJp79cDiJrKbSu17DxjwxcGaFB5WZtMKWTaOyqvyLXTK2nqbMTgyz9plMqmcDzhYGFWxNNHjS8sSeANvVAYuOiaFJjQlc8HjxAknGZ1ZVmz4nIUIexH3PdRZKuzmGLY0RhUsnqDMrcLbkN4gUxNevVQvrHgMz0Qo2pVTYBtDvK3cGxpgjPsg0XMVusEkav1aj8BSbC36M10fKvqWfXlj04yrP66y",
-  "sold": "6,000",
-  "album_ids": [
-   1182,
-   1183,
-   1184
-  ],
-  "coupon": "",
-  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/222032519/p/1/e/6/t/10301/4000177506395.mp4",
-  "category_slug": "aliexpress/kitchen gadgets",
-  "category_en": "Kitchen",
-  "category_he": "מטבח",
-  "posted_at": "2026-11-26T17:45:56.825429+00:00"
- },
- {
   "asin": "B0BR3M8XHK",
   "title": "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
   "title_he": "UGREEN USB C Hub 5 ב-1 מתאם USB מרובה יציאות 4K HDMI, אספקת חשמל 100W",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-27T13:46:11.141451+00:00"
+ },
+ {
+  "asin": "B0G5S4Z7GX",
+  "title": "Reebok Aniwa Running Shoes for Women",
+  "title_he": "Reebok Aniwa נעלי ריצה לנשים",
+  "price": "$34.95",
+  "was": "$59.95",
+  "discount": "42%",
+  "rating": "4.4",
+  "reviews": "283",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1303,
+  "image": "https://m.media-amazon.com/images/I/81GKdUDb6TL._AC_SL1500_.jpg",
+  "variant": 478,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1303,
+   1304,
+   1305
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/31e7236d-19d8-4ab5-be38-b1335fa0d063/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T14:01:09.302488+00:00"
  }
 ]
