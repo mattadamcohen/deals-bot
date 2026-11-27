@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 15
+  "2026-11-27": 16
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -296,6 +296,7 @@
   "geedel rotary cheese grater": "2026-11-22T17:45:47.029419+00:00",
   "genuine r s retro": "2026-11-18T08:01:06.645825+00:00",
   "ggbingo crystal ball decoration": "2026-11-18T13:01:51.385967+00:00",
+  "gisam brushless electric hammer": "2026-11-27T09:17:26.943993+00:00",
   "global version xiaomi watch": "2026-11-19T05:01:34.012989+00:00",
   "glow in the dark": "2026-11-25T06:15:44.441477+00:00",
   "gmk mechanical keyboard kit": "2026-11-24T07:31:04.879117+00:00",
@@ -1077,7 +1078,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T09:01:07.112080+00:00",
+ "last_post_at": "2026-11-27T09:17:26.943844+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1821,14 +1822,6 @@
    "sid": "pick-1127-B0G5S4Z7GX",
    "store": "amazon",
    "url": "https://www.amazon.com/dp/B0G5S4Z7GX"
-  },
-  {
-   "focus": true,
-   "id": "NeeDoh",
-   "over_cap_ok": true,
-   "sid": "focus-2026-11-27-11",
-   "store": "amazon_focus",
-   "url": "focus"
   }
  ],
  "posted": {
@@ -2095,6 +2088,7 @@
   "ali-1005007938071478": "2026-11-25T14:30:58.338140+00:00",
   "ali-1005007987706793": "2026-11-21T10:01:04.429315+00:00",
   "ali-1005007987710373": "2026-11-25T10:01:28.657555+00:00",
+  "ali-1005008073030576": "2026-11-27T09:17:26.904562+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
   "ali-1005008077423934": "2026-11-27T08:31:00.908812+00:00",
   "ali-1005008129487750": "2026-11-23T05:00:55.466868+00:00",
@@ -2271,10 +2265,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/pet water fountain",
   "aliexpress/yoga mat",
   "aliexpress/stainless steel frying pan set",
-  "aliexpress/phone case"
+  "aliexpress/phone case",
+  "aliexpress/1119-1129 Black/Super Friday - Big Save"
  ],
  "recent_groups": [
   "wireless",
@@ -2285,17 +2279,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "tech",
   "kids",
   "home",
   "pets",
   "sport",
   "kitchen",
-  "tech"
+  "tech",
+  "other"
  ],
  "recent_titles": [
-  "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide",
   "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb",
   "Columbia Men's Ascender II Hooded Softshell Rain Jacket",
   "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
@@ -2306,7 +2299,8 @@
   "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable",
   "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat",
   "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480",
-  "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie"
+  "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie",
+  "Gisam 26mm Brushless Electric Hammer Drill Multifunctional Rotary Hammer Drill Cordless Impact Drill For Makita 18V Battery Pin"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
