@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 36
+  "2026-11-27": 37
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -192,6 +192,7 @@
   "baseus eh nc anc": "2026-11-20T17:01:02.349362+00:00",
   "baseus gan w desktop": "2026-11-22T18:45:55.848099+00:00",
   "baseus magnetic car phone": "2026-11-19T16:01:27.640245+00:00",
+  "baseus mc pro ear": "2026-11-27T15:45:58.718298+00:00",
   "baseus security b outdoor": "2026-11-16T12:07:54.639367+00:00",
   "baseus w power bank": "2026-11-24T16:01:32.500546+00:00",
   "bath bombs for with": "2026-11-26T18:33:59.350521+00:00",
@@ -1154,7 +1155,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T14:49:02.337878+00:00",
- "last_post_at": "2026-11-27T15:31:22.379749+00:00",
+ "last_post_at": "2026-11-27T15:45:58.718136+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2270,6 +2271,7 @@
   "ali-1005009212557833": "2026-11-21T06:01:01.120479+00:00",
   "ali-1005009261328158": "2026-11-25T13:31:24.017529+00:00",
   "ali-1005009314491608": "2026-11-26T05:30:54.524773+00:00",
+  "ali-1005009338441815": "2026-11-27T15:45:58.665342+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
   "ali-1005009346079603": "2026-11-27T07:30:56.529861+00:00",
   "ali-1005009353113123": "2026-11-26T05:15:41.151369+00:00",
@@ -2418,10 +2420,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/1119-1129 Black/Super Friday - Bestsellers",
   "beauty",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/Baseus"
  ],
  "recent_groups": [
   "home-garden",
@@ -2432,17 +2434,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "fashion",
   "kids",
   "other",
   "beauty",
   "home",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Electric Toothbrush Rotary Rechargeable Electric Toothbrush for Adults Rotating Electric Toothbrushes with 8 Soft Brush Heads",
   "CHRLEISURE Leggings with Pockets for Women, High Waisted Tummy Control Workout Yoga Pants",
   "GameSir Nova Lite Wireless Gamepad, Bluetooth Gaming Controller with Hall Effect for Switch, Android, iOS, PC, Steam Games",
   "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI",
@@ -2453,7 +2454,8 @@
   "GEEETECH 10Kg In One Box Matte/PETG/Silk PLA/TPU/ABS 3D PLA Filament 1.75mm Spool Wire For 3D Printer Material,Safety",
   "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
   "Xiaomi Robot Vacuum H50 Robot Vacuum and Mop 10000Pa Suction LDS Laser Navigation Omni Station Auto Dust Emptying Mop Washing and Drying Auto Mop Lifting Anti Tangle White",
-  "POLO RALPH LAUREN Classic Fit Soft Cotton Polo Shirt"
+  "POLO RALPH LAUREN Classic Fit Soft Cotton Polo Shirt",
+  "Baseus MC1 Pro Ear Clip Wireless Earphones Bluetooth 6.0 Hi-Res Ultra Open Earbuds earrings 4-Mic ENC Clip on ear buds Headphone"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2516,6 +2518,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 0,
  "tg_offset": 260136262
 }
