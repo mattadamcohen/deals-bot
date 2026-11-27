@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 42
+  "2026-11-27": 43
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -354,6 +354,7 @@
   "k webcam ptz web": "2026-11-26T05:15:41.197931+00:00",
   "kawa dash cam pro": "2026-11-25T13:15:48.815555+00:00",
   "kawaii rainbow dumpling squishy": "2026-11-21T16:31:10.248017+00:00",
+  "kemei cordless hair clipper": "2026-11-27T17:45:59.494342+00:00",
   "kerui outdoor waterproof mp": "2026-11-19T10:00:55.679796+00:00",
   "kid picture guessing board": "2026-11-22T13:45:48.670233+00:00",
   "king pillow cases set": "2026-11-16T12:46:27.821701+00:00",
@@ -1162,7 +1163,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T14:49:02.337878+00:00",
- "last_post_at": "2026-11-27T17:31:15.406056+00:00",
+ "last_post_at": "2026-11-27T17:45:59.494219+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2184,6 +2185,7 @@
   "ali-1005007016024919": "2026-11-21T07:30:51.873176+00:00",
   "ali-1005007039765295": "2026-11-20T09:01:03.629317+00:00",
   "ali-1005007043908778": "2026-11-23T16:01:20.777237+00:00",
+  "ali-1005007129340508": "2026-11-27T17:45:59.402381+00:00",
   "ali-1005007129528141": "2026-11-25T18:45:55.513842+00:00",
   "ali-1005007146966040": "2026-11-24T07:15:44.339976+00:00",
   "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
@@ -2410,10 +2412,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/backpack",
   "aliexpress/gaming headset",
   "aliexpress/gift for women",
-  "aliexpress/plush toy"
+  "aliexpress/plush toy",
+  "aliexpress/beard trimmer men"
  ],
  "recent_groups": [
   "fashion",
@@ -2424,17 +2426,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "home",
   "fashion",
   "tech",
   "kids",
   "fashion",
   "tech",
   "home",
-  "kids"
+  "kids",
+  "tech"
  ],
  "recent_titles": [
-  "Reebok Aniwa Running Shoes for Women",
   "KRIDDO Toddler Balance Bike 2 Year Old, Gift for 2-3 Boys Girls, Adjustable",
   "GEEETECH 10Kg In One Box Matte/PETG/Silk PLA/TPU/ABS 3D PLA Filament 1.75mm Spool Wire For 3D Printer Material,Safety",
   "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
@@ -2445,7 +2446,8 @@
   "TARKA Foldable Camping Chairs Set Lightweight Folding Chair Ultralight Backpacking Moon Chairs for Garden Picnic Beach Fishing",
   "MCHOSE V9 Pro 2 Headset with Microphone Three Mode Bluetooth Wireless Computer PC Gamer Headphones Accessories V9 Pro MCHOSE",
   "Women\u2019s Luxury Long Lasting Fragrance Set Collection with Floral Fruity Vanilla Sweet Scent Valentine's Day Gifts",
-  "Creative NOS Nitrous Oxide Bottle New Plush Toys Pillow Stuffed Soft Turbo JDM Cushion Boy Gifts Car Decor Backrest Decoration"
+  "Creative NOS Nitrous Oxide Bottle New Plush Toys Pillow Stuffed Soft Turbo JDM Cushion Boy Gifts Car Decor Backrest Decoration",
+  "Kemei 2299 Cordless Hair Clipper for Men USB Rechargeable Electric Trimmer KM-2299 Professional Hair Cutting Machine"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
