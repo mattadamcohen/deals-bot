@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 13
+  "2026-11-27": 14
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -359,6 +359,7 @@
   "lige smart watch women": "2026-11-23T16:01:20.845500+00:00",
   "lillusory cardigan for women": "2026-11-17T11:00:52.057190+00:00",
   "lisen retractable car charger": "2026-11-26T11:01:02.608207+00:00",
+  "lmetjma stainless steel frying": "2026-11-27T08:45:54.584416+00:00",
   "logitech g lightspeed wireless": "2026-11-16T10:34:59.369549+00:00",
   "logitech m wireless bluetooth": "2026-11-16T10:01:27.078854+00:00",
   "long steel wire pole": "2026-11-26T12:31:07.133475+00:00",
@@ -655,6 +656,12 @@
   "1376481625": {
    "at": "2026-11-22T12:30:45.693239+00:00",
    "name": "Itzchak",
+   "username": "",
+   "via": "join"
+  },
+  "1524664244": {
+   "at": "2026-11-27T08:45:44.632222+00:00",
+   "name": "\u05de\u05e9\u05d4",
    "username": "",
    "via": "join"
   },
@@ -1063,11 +1070,12 @@
   "538631678",
   "372876230",
   "8544646716",
-  "619014435"
+  "619014435",
+  "1524664244"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T08:31:00.977324+00:00",
+ "last_post_at": "2026-11-27T08:45:54.584268+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1999,6 +2007,7 @@
   "ali-1005004370747413": "2026-11-20T15:31:03.427709+00:00",
   "ali-1005005210163156": "2026-11-22T18:45:55.684321+00:00",
   "ali-1005005266133348": "2026-11-26T13:16:58.791579+00:00",
+  "ali-1005005441545741": "2026-11-27T08:45:54.133503+00:00",
   "ali-1005005510242471": "2026-11-19T08:01:17.332531+00:00",
   "ali-1005005703405239": "2026-11-23T11:01:10.622447+00:00",
   "ali-1005005968742948": "2026-11-22T15:32:29.922830+00:00",
@@ -2262,10 +2271,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/kids art craft kit",
   "aliexpress/solar garden lights outdoor",
   "aliexpress/pet water fountain",
-  "aliexpress/yoga mat"
+  "aliexpress/yoga mat",
+  "aliexpress/stainless steel frying pan set"
  ],
  "recent_groups": [
   "wireless",
@@ -2276,17 +2285,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "kids",
   "fashion",
   "tech",
   "kids",
   "home",
   "pets",
-  "sport"
+  "sport",
+  "kitchen"
  ],
  "recent_titles": [
-  "New Balance Men's 574 V3 Sneakers",
   "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
   "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide",
   "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb",
@@ -2297,7 +2305,8 @@
   "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
   "9 LED Solar Spot Light Outdoor Waterproof Spotlights Solar Garden Lights Landscape Lighting Decoration Pathway Lawn Lamp",
   "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable",
-  "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat"
+  "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat",
+  "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2354,5 +2363,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136254
+ "tg_offset": 260136255
 }

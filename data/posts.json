@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FR47VYKH",
-  "title": "20 Pcs Magnetic Action Figures Playset - Magnetic Building Toys",
-  "title_he": "20 יחידות משחק דמויות פעולה מגנטיות - צעצועי בניין מגנטיים",
-  "price": "$25.19",
-  "was": "$34.98",
-  "discount": "28%",
-  "rating": "4.6",
-  "reviews": "550",
-  "rank": 30,
-  "source": "bestsellers",
-  "message_id": 1131,
-  "image": "https://m.media-amazon.com/images/I/819YsNizjAL._AC_SL1500_.jpg",
-  "variant": 982,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1131,
-   1132,
-   1133
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "toys-and-games/166092011",
-  "category_en": "Building Toys",
-  "category_he": "צעצועי הרכבה",
-  "posted_at": "2026-11-26T12:45:48.410985+00:00"
- },
- {
   "asin": "B0DWXMVSRP",
   "title": "COMFIER Back Massager with Heat, Chair Pad with Adjustable Lumbar Support",
   "title_he": "מכשיר לעיסוי גב COMFIER עם חום, משטח כיסא עם תמיכת מותניים מתכווננת",
@@ -1158,5 +1129,34 @@
   "category_en": "Fitness",
   "category_he": "כושר",
   "posted_at": "2026-11-27T08:31:00.975295+00:00"
+ },
+ {
+  "asin": "ali-1005005441545741",
+  "title": "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480",
+  "title_he": "LMETJMA מחבת לטיגון מפלדת אל-חלד Nonstick מחבת דבש עם מכסה אינדוקציה כיריים חשמליות גז קרמי תואם KC0480",
+  "price": "$36.62",
+  "was": "$121.35",
+  "discount": "69%",
+  "rating": "93.6%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1252,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S582dcbe800cc459ea80c2768c1930843Z.jpg",
+  "variant": 285,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWC6SIoRNNH9JDBAPaeVrwJmdSUR2bxlDO4E2YDkUk4GuKDiUaOSjT1OqOj4g1zrRBnkEo3JBblTG2UIKvmHXbHslzu2qOCeiUfICJABGCfe0QNhfnEFzGd2AJkxyuadM80AOLOfiQ9BkExHO54kclO1QkLCVHtu2jXyhVfbn6VrOP1czJy4KQ9qfZrxRMEKrjslB0Sj6ayVAZBjtic4Qenm2lihr1yW5QWm3KXzeJCWbKQJECWQx2S6av2XVfjLaLGB8dL4uRawLBnbLXH34nLCQiJf5gSDalk11SifAJaxEYQnJw3O0joX8nA8ntiGQRE5NVa7FcKQ9nHmQzkN6sfyOOXXkQu1dQDQksym0HrA8CcyhLhYWvq0nhkbJ2hhvjLZGThFclMQoCKk8QoG3ReipC0sgFUEVVGVr9BNl7xhCX2D8hzkcGNzFcg6ZqenlDiLq022OyaiIj4TQ7pR4tus1XaYrkA6wcZehfVk6LvF7PwamUPfegdX99hGO9tkjrvgm2eHPaouFK7ZHMNHB7uvScEgQU3u1O8MX54LQp3yIKOHX1Mygq9I9JIzoHKFxANvwWcAFqQYhX3lQxjJKD8dTGG5sPYeilHyWFkrbUANh9mYUbljhlqpLOxYtsk7WoJgt3rOPdWs80BpwmxMw8nhtex5rsoiOEmsEVVtpWX7kBOtbbcCT0PfeLp5vFgOzjWAOAIskW6Rg",
+  "sold": "802",
+  "album_ids": [
+   1252,
+   1253,
+   1254
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/stainless steel frying pan set",
+  "category_en": "Kitchen",
+  "category_he": "מטבח",
+  "posted_at": "2026-11-27T08:45:54.581894+00:00"
  }
 ]
