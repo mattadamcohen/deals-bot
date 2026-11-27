@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 24
+  "2026-11-27": 25
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -269,6 +269,7 @@
   "ear and nose hair": "2026-11-26T12:04:31.996575+00:00",
   "ejeas v pro+ motorcycle": "2026-11-17T15:31:26.860159+00:00",
   "electric toothbrush mental thin": "2026-11-24T08:45:57.237774+00:00",
+  "electric toothbrush rotary rechargeable": "2026-11-27T12:01:43.502801+00:00",
   "electric vacuum pump": "2026-11-25T16:32:45.136271+00:00",
   "energizer aa and aaa": "2026-11-22T05:04:10.388173+00:00",
   "energizer aa batteries alkaline": "2026-11-18T17:00:58.235302+00:00",
@@ -824,6 +825,12 @@
    "username": "Loopy236",
    "via": "join"
   },
+  "602934508": {
+   "at": "2026-11-27T12:01:34.270626+00:00",
+   "name": "\u05e6\u05d7\u05d9",
+   "username": "megnagy",
+   "via": "join"
+  },
   "6050563934": {
    "at": "2026-11-22T16:05:06.223124+00:00",
    "name": "Eran",
@@ -1107,11 +1114,12 @@
   "1524664244",
   "321271289",
   "484784791",
-  "397992675"
+  "397992675",
+  "602934508"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T11:45:50.956691+00:00",
+ "last_post_at": "2026-11-27T12:01:43.502642+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2127,6 +2135,7 @@
   "ali-1005007805563822": "2026-11-18T16:01:31.926969+00:00",
   "ali-1005007805565555": "2026-11-16T13:16:21.004996+00:00",
   "ali-1005007805602378": "2026-11-17T18:30:57.032243+00:00",
+  "ali-1005007805771153": "2026-11-27T12:01:43.422702+00:00",
   "ali-1005007806183543": "2026-11-24T16:46:17.360259+00:00",
   "ali-1005007857255208": "2026-11-24T06:05:46.229490+00:00",
   "ali-1005007857279234": "2026-11-18T05:01:00.183846+00:00",
@@ -2312,10 +2321,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/baby monitor camera",
   "aliexpress/closet organizer",
-  "fashion/679312011"
+  "fashion/679312011",
+  "aliexpress/electric toothbrush"
  ],
  "recent_groups": [
   "wireless",
@@ -2326,17 +2335,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "beauty",
   "kitchen",
   "kids",
   "other",
   "fashion",
   "tech",
   "home",
-  "fashion"
+  "fashion",
+  "other"
  ],
  "recent_titles": [
-  "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat",
   "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480",
   "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie",
   "Gisam 26mm Brushless Electric Hammer Drill Multifunctional Rotary Hammer Drill Cordless Impact Drill For Makita 18V Battery Pin",
@@ -2347,7 +2355,8 @@
   "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket",
   "Fuers 5MP WiFi Camera Works With Tuya Smart Home Indoor Wireless IP Surveillance Camera AI Detect Security Baby Monitor",
   "White Expandable Divider Punch-free Retractable Layers Board for Wardrobe Storage Kitchen and Bathroom Shelf Dormitory Dividers",
-  "Skechers Men's After Burn M. Fit Sneaker"
+  "Skechers Men's After Burn M. Fit Sneaker",
+  "Electric Toothbrush Rotary Rechargeable Electric Toothbrush for Adults Rotating Electric Toothbrushes with 8 Soft Brush Heads"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2403,6 +2412,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136258
+ "since_ali": 0,
+ "tg_offset": 260136259
 }
