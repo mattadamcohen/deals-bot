@@ -2889,6 +2889,53 @@
       "not_before": "2026-11-27T14:00:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1127-B0G5S4Z7GX"
+    },
+    {
+      "store": "amazon",
+      "id": "B0DTKL151W",
+      "url": "https://www.amazon.com/dp/B0DTKL151W",
+      "at": "2026-11-27T13:30:00+00:00",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T13:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127b-B0DTKL151W"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005013457363886",
+      "url": "https://s.click.aliexpress.com/e/_c3OMoDsH",
+      "at": "2026-11-27T15:00:00+00:00",
+      "note_he": "📦 נשלח ממחסן בישראל",
+      "note_en": "📦 Ships from an Israel warehouse",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T15:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127b-1005013457363886"
+    },
+    {
+      "store": "amazon",
+      "id": "B01KAG1818",
+      "url": "https://www.amazon.com/dp/B01KAG1818",
+      "at": "2026-11-27T16:30:00+00:00",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T16:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127b-B01KAG1818"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005013221749099",
+      "url": "https://s.click.aliexpress.com/e/_c3JQA8nB",
+      "at": "2026-11-27T18:00:00+00:00",
+      "title": "SMARTAI V5 Cordless Stick Vacuum, 8x3000mAh Battery, HEPA Filter, Anti-Tangle Brush for Pet Hair and Carpets",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T18:00:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127b-1005013221749099"
     }
   ],
   "giftbox_alternate": true,
