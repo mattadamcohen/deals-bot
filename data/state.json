@@ -846,6 +846,12 @@
    "username": "",
    "via": "join"
   },
+  "592787776": {
+   "at": "2026-11-27T18:05:34.655211+00:00",
+   "name": "asher",
+   "username": "",
+   "via": "join"
+  },
   "5935648772": {
    "at": "2026-11-26T09:45:47.209596+00:00",
    "name": "Sarah",
@@ -1075,7 +1081,8 @@
   "https://t.me/+AY5WLMUm-5g2ZTE0": "5513519488",
   "https://t.me/+IB0QTwZALxtjNDQ8": "1139221366",
   "https://t.me/+QiOA6dkwD3NjOTE8": "1763719082",
-  "https://t.me/+dlp8ho0hlLk0ZGNk": "8942957999"
+  "https://t.me/+dlp8ho0hlLk0ZGNk": "8942957999",
+  "https://t.me/+sE9ljVO-fQE5NmE0": "592787776"
  },
  "giveaway_refs": {
   "1125221452": {
@@ -1097,6 +1104,10 @@
   "5513519488": {
    "joined": [],
    "link": "https://t.me/+AY5WLMUm-5g2ZTE0"
+  },
+  "592787776": {
+   "joined": [],
+   "link": "https://t.me/+sE9ljVO-fQE5NmE0"
   },
   "8942957999": {
    "joined": [],
@@ -1161,7 +1172,8 @@
   "397992675",
   "602934508",
   "995107423",
-  "1132978336"
+  "1132978336",
+  "592787776"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T14:49:02.337878+00:00",
@@ -2510,5 +2522,5 @@
   "shot-1121-8"
  ],
  "since_ali": 0,
- "tg_offset": 260136263
+ "tg_offset": 260136266
 }
