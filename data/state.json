@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 12
+  "2026-11-27": 13
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -522,6 +522,7 @@
   "temppro tempswift tp h": "2026-11-21T05:04:19.867262+00:00",
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
   "the uzzle board game": "2026-11-25T09:34:09.659230+00:00",
+  "thinkrider training mat yoga": "2026-11-27T08:31:00.977436+00:00",
   "timemore basic mirror pour": "2026-11-23T17:46:20.002492+00:00",
   "tnce tuya wifi zigbee": "2026-11-27T07:15:48.525966+00:00",
   "tommy hilfiger classic zip": "2026-11-26T11:31:29.677543+00:00",
@@ -1066,7 +1067,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T08:02:08.073637+00:00",
+ "last_post_at": "2026-11-27T08:31:00.977324+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2087,6 +2088,7 @@
   "ali-1005007987706793": "2026-11-21T10:01:04.429315+00:00",
   "ali-1005007987710373": "2026-11-25T10:01:28.657555+00:00",
   "ali-1005008077374870": "2026-11-17T17:31:56.422745+00:00",
+  "ali-1005008077423934": "2026-11-27T08:31:00.908812+00:00",
   "ali-1005008129487750": "2026-11-23T05:00:55.466868+00:00",
   "ali-1005008144823603": "2026-11-22T16:46:12.818000+00:00",
   "ali-1005008226452050": "2026-11-21T05:31:25.446745+00:00",
@@ -2260,10 +2262,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/smart plug wifi",
   "aliexpress/kids art craft kit",
   "aliexpress/solar garden lights outdoor",
-  "aliexpress/pet water fountain"
+  "aliexpress/pet water fountain",
+  "aliexpress/yoga mat"
  ],
  "recent_groups": [
   "wireless",
@@ -2274,17 +2276,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "beauty",
   "fashion",
   "kids",
   "fashion",
   "tech",
   "kids",
   "home",
-  "pets"
+  "pets",
+  "sport"
  ],
  "recent_titles": [
-  "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
   "New Balance Men's 574 V3 Sneakers",
   "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
   "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide",
@@ -2295,7 +2296,8 @@
   "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home",
   "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
   "9 LED Solar Spot Light Outdoor Waterproof Spotlights Solar Garden Lights Landscape Lighting Decoration Pathway Lawn Lamp",
-  "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable"
+  "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable",
+  "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
