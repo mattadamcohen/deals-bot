@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 23
+  "2026-11-27": 24
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -126,6 +126,7 @@
   "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
   "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
+  "B0HDG61T4D": "2026-11-27T11:45:50.956871+00:00",
   "B0HDN68GV9": "2026-11-27T10:30:55.363914+00:00",
   "B0HDYQXT81": "2026-11-23T08:15:54.292655+00:00",
   "B0HFK98KBK": "2026-11-23T08:31:07.196747+00:00",
@@ -500,6 +501,7 @@
   "silicone suction cup phone": "2026-11-15T18:13:55.624540+00:00",
   "size magnetic building blocks": "2026-11-22T18:30:59.072057+00:00",
   "size vacuum storage bags": "2026-11-23T08:15:54.292663+00:00",
+  "skechers after burn m": "2026-11-27T11:45:50.956878+00:00",
   "skechers afterburn e'lite grill": "2026-11-23T06:46:02.457867+00:00",
   "skechers max cushioning endeavour": "2026-11-16T19:49:00.788641+00:00",
   "skechers summits high range": "2026-11-24T15:30:55.738336+00:00",
@@ -1109,7 +1111,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T11:31:02.377827+00:00",
+ "last_post_at": "2026-11-27T11:45:50.956691+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1868,6 +1870,7 @@
   "B0035LCFNQ": "2026-11-19T14:00:59.646325+00:00",
   "B003NX8DH8": "2026-11-23T07:46:01.714845+00:00",
   "B00949CTQQ": "2026-11-22T17:16:16.059958+00:00",
+  "B00FZN1MU4": "2026-11-27T11:45:50.899921+00:00",
   "B00NX0WXQI": "2026-11-16T08:30:50.619410+00:00",
   "B00STAYV6C": "2026-11-25T05:04:43.256629+00:00",
   "B00VBP8QPO": "2026-11-18T18:03:45.902851+00:00",
@@ -2310,30 +2313,29 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/baby monitor camera",
-  "aliexpress/closet organizer"
+  "aliexpress/closet organizer",
+  "fashion/679312011"
  ],
  "recent_groups": [
-  "toys-and-games",
   "wireless",
   "home-garden",
   "fashion",
   "beauty",
-  "toys-and-games"
+  "toys-and-games",
+  "fashion"
  ],
  "recent_themes": [
-  "other",
   "beauty",
   "kitchen",
   "kids",
   "other",
   "fashion",
   "tech",
-  "home"
+  "home",
+  "fashion"
  ],
  "recent_titles": [
-  "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable",
   "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat",
   "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480",
   "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie",
@@ -2344,7 +2346,8 @@
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
   "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket",
   "Fuers 5MP WiFi Camera Works With Tuya Smart Home Indoor Wireless IP Surveillance Camera AI Detect Security Baby Monitor",
-  "White Expandable Divider Punch-free Retractable Layers Board for Wardrobe Storage Kitchen and Bathroom Shelf Dormitory Dividers"
+  "White Expandable Divider Punch-free Retractable Layers Board for Wardrobe Storage Kitchen and Bathroom Shelf Dormitory Dividers",
+  "Skechers Men's After Burn M. Fit Sneaker"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2400,6 +2403,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136258
 }
