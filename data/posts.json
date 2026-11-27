@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B09ZJDPFWT",
-  "title": "Reebok Court Advance Sneakers for Men - Casual Tennis Mens Shoes Size 6 to 15",
-  "title_he": "Reebok Court Advance סניקרס לגברים - נעלי גברים טניס מזדמנים במידה 6 עד 15",
-  "price": "$59.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.5",
-  "reviews": "1,989",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1092,
-  "image": "https://m.media-amazon.com/images/I/61avGup7OaL._AC_SL1500_.jpg",
-  "variant": 43,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1092,
-   1093,
-   1094
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ed4e2796-4463-491b-a6e2-5ce2b8244e0c/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T07:01:06.807795+00:00"
- },
- {
   "asin": "B0FDQ3PWCX",
   "title": "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
   "title_he": "FNTCASE עבור iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
@@ -1163,5 +1134,34 @@
   "category_en": "Building sets",
   "category_he": "ערכות בנייה",
   "posted_at": "2026-11-27T05:01:01.177962+00:00"
+ },
+ {
+  "asin": "B093QJS2PG",
+  "title": "New Balance Men's 574 V3 Sneakers",
+  "title_he": "סניקרס ניו באלאנס 574 V3 לגברים",
+  "price": "$74.99",
+  "was": "$99.99",
+  "discount": "25%",
+  "rating": "4.5",
+  "reviews": "401",
+  "rank": 14,
+  "source": "bestsellers",
+  "message_id": 1216,
+  "image": "https://m.media-amazon.com/images/I/61uqRLMMYyL._AC_SL1500_.jpg",
+  "variant": 705,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1216,
+   1217,
+   1218
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0f3db1fe-8334-4e05-9046-0ff17b4b20c7/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "fashion/679312011",
+  "category_en": "Men's Sneakers",
+  "category_he": "סניקרס לגברים",
+  "posted_at": "2026-11-27T05:19:00.870661+00:00"
  }
 ]
