@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FCHQ65TK",
-  "title": "Calvin Klein Men's Picio Monogram Sneaker",
-  "title_he": "נעלי ספורט מונוגרמה Picio לגברים של קלווין קליין",
-  "price": "$55.16",
-  "was": "$115.00",
-  "discount": "52%",
-  "rating": "4.6",
-  "reviews": "756",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1209,
-  "image": "https://m.media-amazon.com/images/I/71hLOzQgtJL._AC_SL1500_.jpg",
-  "variant": 212,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1209,
-   1210,
-   1211
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T20:45:51.239550+00:00"
- },
- {
   "asin": "ali-1005010376439460",
   "title": "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
   "title_he": "צבאי WW2 MOC Leopard 2A7 צבא טנק קרב ראשי חיילים אבני בניין לבנים M1 T90M סט טנקים למתנות",
@@ -1158,5 +1129,34 @@
   "category_en": "Bags",
   "category_he": "תיקים",
   "posted_at": "2026-11-27T16:15:52.347388+00:00"
+ },
+ {
+  "asin": "ali-1005010537477228",
+  "title": "MCHOSE V9 Pro 2 Headset with Microphone Three Mode Bluetooth Wireless Computer PC Gamer Headphones Accessories V9 Pro MCHOSE",
+  "title_he": "אוזניות MCHOSE V9 Pro 2 עם מיקרופון שלושה מצבים Bluetooth אלחוטי מחשב מחשב PC גיימר אוזניות אביזרי V9 Pro MCHOSE",
+  "price": "$51.58",
+  "was": "$119.55",
+  "discount": "56%",
+  "rating": "98.5%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1330,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6280ee1c80b545bf8d7f26ee105aabb1t.jpg",
+  "variant": 753,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oKt4vnxBBpRoTSa5JsXBKENg6ZgBjkZA4d0i6mc8lpzUcEcsXDhmloQzos1ihBuw0SSQxT5e3Y8NIQqhiv1aNEbk2x70xy5HVaLQPjQvQF0NuhdFo8lsEgtMFx2InBYpDJPmRTpjSGQxcxxdQ1vztVkSPe5n86i5sAcOPGhfrBafWKoEJJUXaLvelg6WJxinpcuMyIS9BodG3VxTOsWGpyrOchbrBbaz95XRne8L736FHcH35jcaQhmeDl3uy5y65sOImnYf2nf8qgKvqKDzPcmIAezVzxMNt02K7YNf7oNMgF4Uim5isUGHFKnOKg8yjePJqPKwixfD5ylmnKFc9wAtHW4OuH4uvNVukPSnvGShCe3WHiXgzJ6BvFSQH7dDZ47GbO4IEM2QisiykN4es2OhoMsE9aDUyWHHn8Q5Fpbks3S1SvSvKtEg9mRQ1B7plYwDAECoXxaKY09FNrmXT3zQESf76ztRkeBH3crLgs9RIS90MJq3E0OqPgJ50DbSWdfyLN9V2P3WBIIAimsGC9mpUTH6eZzJU3chbMVavlz8TzUsahX9wyJKHHLbYF3ixr1j060tMbBg0wkRCfqHdRA3sRv4U2iol46YL45R5YdOEe0kT10KScwbLW16HyYxEoO7eyyLg1VZthR6AvJLbutyiQqJqhxGLsXMq9H5oYLA1Nwz6qWtLdFqHbNpXvbj9vjnG3L71CXny",
+  "sold": "10,000",
+  "album_ids": [
+   1330,
+   1331,
+   1332
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/gaming headset",
+  "category_en": "Gaming",
+  "category_he": "גיימינג",
+  "posted_at": "2026-11-27T16:45:50.394094+00:00"
  }
 ]

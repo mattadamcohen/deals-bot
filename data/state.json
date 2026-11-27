@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 39
+  "2026-11-27": 40
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -408,6 +408,7 @@
   "makita v brushless drill": "2026-11-25T06:01:00.926737+00:00",
   "manual pressing garlic grinding": "2026-11-25T10:01:28.702636+00:00",
   "mayjam set essential oils": "2026-11-24T15:45:53.336470+00:00",
+  "mchose v pro headset": "2026-11-27T16:45:50.397401+00:00",
   "medicube collagen jelly cream": "2026-11-21T12:30:52.972419+00:00",
   "medicube facial cleanser zero": "2026-11-21T09:34:00.657943+00:00",
   "medicube pdrn collagen volume": "2026-11-21T16:01:21.299095+00:00",
@@ -1158,7 +1159,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T14:49:02.337878+00:00",
- "last_post_at": "2026-11-27T16:15:52.349896+00:00",
+ "last_post_at": "2026-11-27T16:45:50.397269+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2314,6 +2315,7 @@
   "ali-1005010494917050": "2026-11-23T15:15:55.981299+00:00",
   "ali-1005010530053881": "2026-11-25T11:45:51.654477+00:00",
   "ali-1005010530284521": "2026-11-18T06:00:57.865414+00:00",
+  "ali-1005010537477228": "2026-11-27T16:45:50.325430+00:00",
   "ali-1005010552969315": "2026-11-16T18:45:48.120337+00:00",
   "ali-1005010572711731": "2026-11-16T05:01:11.714905+00:00",
   "ali-1005010572746398": "2026-11-25T07:00:58.066085+00:00",
@@ -2414,10 +2416,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/Baseus",
   "toys-and-games",
-  "aliexpress/backpack"
+  "aliexpress/backpack",
+  "aliexpress/gaming headset"
  ],
  "recent_groups": [
   "fashion",
@@ -2428,17 +2430,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kids",
   "other",
   "beauty",
   "home",
   "fashion",
   "tech",
   "kids",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI",
   "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "PUMA unisex-adult Accelerator Duffel Bag with Removable Strap & Shoe Pocket",
   "Reebok Aniwa Running Shoes for Women",
@@ -2449,7 +2450,8 @@
   "POLO RALPH LAUREN Classic Fit Soft Cotton Polo Shirt",
   "Baseus MC1 Pro Ear Clip Wireless Earphones Bluetooth 6.0 Hi-Res Ultra Open Earbuds earrings 4-Mic ENC Clip on ear buds Headphone",
   "Morf Worm 3D Sensory Fidget Toys for Kids, Teens & Adults, Rainbow, Small",
-  "TARKA Foldable Camping Chairs Set Lightweight Folding Chair Ultralight Backpacking Moon Chairs for Garden Picnic Beach Fishing"
+  "TARKA Foldable Camping Chairs Set Lightweight Folding Chair Ultralight Backpacking Moon Chairs for Garden Picnic Beach Fishing",
+  "MCHOSE V9 Pro 2 Headset with Microphone Three Mode Bluetooth Wireless Computer PC Gamer Headphones Accessories V9 Pro MCHOSE"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
