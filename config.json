@@ -2936,6 +2936,39 @@
       "not_before": "2026-11-27T18:00:00+00:00",
       "over_cap_ok": true,
       "sid": "pick-1127b-1005013221749099"
+    },
+    {
+      "store": "amazon",
+      "id": "B09Z65PBXP",
+      "url": "https://www.amazon.com/dp/B09Z65PBXP",
+      "at": "2026-11-27T14:15:00+00:00",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T14:15:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127c-B09Z65PBXP"
+    },
+    {
+      "store": "aliexpress",
+      "id": "1005006468380979",
+      "url": "https://s.click.aliexpress.com/e/_c30TSWa5",
+      "at": "2026-11-27T17:15:00+00:00",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T17:15:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127c-1005006468380979"
+    },
+    {
+      "store": "amazon",
+      "id": "B0DKP41HGB",
+      "url": "https://www.amazon.com/dp/B0DKP41HGB",
+      "at": "2026-11-27T19:30:00+00:00",
+      "require": [],
+      "alt": [],
+      "not_before": "2026-11-27T19:30:00+00:00",
+      "over_cap_ok": true,
+      "sid": "pick-1127c-B0DKP41HGB"
     }
   ],
   "giftbox_alternate": true,
