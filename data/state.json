@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 17
+  "2026-11-27": 18
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -420,6 +420,7 @@
   "new balance v sneakers": "2026-11-27T05:19:00.873178+00:00",
   "new mai a dash": "2026-11-25T07:30:49.563851+00:00",
   "new mai dash cam": "2026-11-22T18:01:10.958851+00:00",
+  "new metal magnetic basket": "2026-11-27T10:05:43.998073+00:00",
   "new p air blower": "2026-11-18T07:01:06.771354+00:00",
   "new squishy watermelon fidget": "2026-11-21T06:31:24.904936+00:00",
   "new v electric go-kart": "2026-11-20T16:01:03.784343+00:00",
@@ -746,6 +747,12 @@
    "at": "2026-11-25T15:30:52.020528+00:00",
    "name": "maxim",
    "username": "MaximGavriely",
+   "via": "join"
+  },
+  "484784791": {
+   "at": "2026-11-27T10:05:29.558885+00:00",
+   "name": "Daniel",
+   "username": "DanielMal12",
    "via": "join"
   },
   "493107092": {
@@ -1083,11 +1090,12 @@
   "8544646716",
   "619014435",
   "1524664244",
-  "321271289"
+  "321271289",
+  "484784791"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T09:49:12.053072+00:00",
+ "last_post_at": "2026-11-27T10:05:43.997904+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2235,6 +2243,7 @@
   "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
   "ali-1005012062436481": "2026-11-25T18:01:06.868045+00:00",
   "ali-1005012108230715": "2026-11-27T09:01:07.069090+00:00",
+  "ali-1005012126115972": "2026-11-27T10:05:43.829713+00:00",
   "ali-1005012172793474": "2026-11-26T06:15:58.935965+00:00",
   "ali-1005012275621872": "2026-11-27T06:15:45.548903+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
@@ -2292,10 +2301,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/stainless steel frying pan set",
   "aliexpress/phone case",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
-  "beauty/3778591"
+  "beauty/3778591",
+  "aliexpress/fridge organizer"
  ],
  "recent_groups": [
   "beauty",
@@ -2306,17 +2315,16 @@
   "beauty"
  ],
  "recent_themes": [
-  "kids",
   "home",
   "pets",
   "sport",
   "kitchen",
   "tech",
   "other",
-  "beauty"
+  "beauty",
+  "kitchen"
  ],
  "recent_titles": [
-  "Columbia Men's Ascender II Hooded Softshell Rain Jacket",
   "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
   "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket",
   "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home",
@@ -2327,7 +2335,8 @@
   "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480",
   "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie",
   "Gisam 26mm Brushless Electric Hammer Drill Multifunctional Rotary Hammer Drill Cordless Impact Drill For Makita 18V Battery Pin",
-  "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)"
+  "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)",
+  "New Metal Magnetic Basket Organizer Holder Household Space Saving Fridge Storage Box Large Capacity Refrigerator Shelf"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2383,6 +2392,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
- "tg_offset": 260136256
+ "since_ali": 0,
+ "tg_offset": 260136257
 }
