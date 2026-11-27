@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 11
+  "2026-11-27": 12
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -492,6 +492,7 @@
   "skechers afterburn e'lite grill": "2026-11-23T06:46:02.457867+00:00",
   "skechers max cushioning endeavour": "2026-11-16T19:49:00.788641+00:00",
   "skechers summits high range": "2026-11-24T15:30:55.738336+00:00",
+  "smart cat water fountain": "2026-11-27T08:02:08.073726+00:00",
   "solar fence lights": "2026-11-23T06:31:02.420319+00:00",
   "solar lights outdoor camping": "2026-11-16T13:16:21.041339+00:00",
   "solar powered led motion": "2026-11-26T08:30:56.797303+00:00",
@@ -604,7 +605,8 @@
   "focus-brand-fashion-2026-11-26-9",
   "focus-brand-fashion-2026-11-27-9",
   "focus-brand-tech-2026-11-26-15",
-  "focus-brand-tech-2026-11-26-20"
+  "focus-brand-tech-2026-11-26-20",
+  "focus-brand-tech-2026-11-27-10"
  ],
  "giveaway_entries": {
   "1017156201": {
@@ -1064,7 +1066,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T07:45:56.860728+00:00",
+ "last_post_at": "2026-11-27T08:02:08.073637+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2146,6 +2148,7 @@
   "ali-1005010105528998": "2026-11-16T19:17:07.271207+00:00",
   "ali-1005010109614553": "2026-11-22T18:15:51.568598+00:00",
   "ali-1005010111453617": "2026-11-23T05:45:47.839435+00:00",
+  "ali-1005010154988579": "2026-11-27T08:02:08.039142+00:00",
   "ali-1005010253550400": "2026-11-15T18:13:55.576662+00:00",
   "ali-1005010323750589": "2026-11-19T06:01:02.107095+00:00",
   "ali-1005010323880088": "2026-11-18T17:30:57.396925+00:00",
@@ -2257,10 +2260,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/smart plug wifi",
   "aliexpress/kids art craft kit",
-  "aliexpress/solar garden lights outdoor"
+  "aliexpress/solar garden lights outdoor",
+  "aliexpress/pet water fountain"
  ],
  "recent_groups": [
   "wireless",
@@ -2271,17 +2274,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "beauty",
   "fashion",
   "kids",
   "fashion",
   "tech",
   "kids",
-  "home"
+  "home",
+  "pets"
  ],
  "recent_titles": [
-  "Calvin Klein Men's Picio Monogram Sneaker",
   "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
   "New Balance Men's 574 V3 Sneakers",
   "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
@@ -2292,7 +2294,8 @@
   "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket",
   "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home",
   "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
-  "9 LED Solar Spot Light Outdoor Waterproof Spotlights Solar Garden Lights Landscape Lighting Decoration Pathway Lawn Lamp"
+  "9 LED Solar Spot Light Outdoor Waterproof Spotlights Solar Garden Lights Landscape Lighting Decoration Pathway Lawn Lamp",
+  "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
