@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 5
+  "2026-11-27": 6
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -62,6 +62,7 @@
   "B0DWY189WB": "2026-11-19T14:00:59.709483+00:00",
   "B0DYDC75Z6": "2026-11-25T05:04:43.329545+00:00",
   "B0DYDC96JY": "2026-11-16T18:16:27.065903+00:00",
+  "B0DZML2RR7": "2026-11-27T06:31:14.418153+00:00",
   "B0F1Y8WH4Y": "2026-11-23T06:31:02.420314+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F495VFT8": "2026-11-23T14:05:33.168623+00:00",
@@ -226,6 +227,7 @@
   "coffee knock box espresso": "2026-11-25T11:30:55.449423+00:00",
   "cole haan grand crosscourt": "2026-11-23T07:01:06.831773+00:00",
   "colorful telescopic tubes fidget": "2026-11-21T11:01:03.290707+00:00",
+  "columbia ascender ii hooded": "2026-11-27T06:31:14.418163+00:00",
   "columbia benton springs full": "2026-11-23T07:46:01.761921+00:00",
   "columbia pfg castback non": "2026-11-26T19:01:03.236953+00:00",
   "columbia thistletown hills short": "2026-11-26T06:01:06.279011+00:00",
@@ -1055,7 +1057,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T06:15:45.630934+00:00",
+ "last_post_at": "2026-11-27T06:31:14.417775+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1769,17 +1771,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-27T06:30:00+00:00",
-   "id": "B0CLR7G8MK",
-   "not_before": "2026-11-27T06:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1126-B0CLR7G8MK",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0CLR7G8MK"
-  },
-  {
-   "alt": [],
    "at": "2026-11-27T09:00:00+00:00",
    "id": "B0GGRT3R91",
    "not_before": "2026-11-27T09:00:00+00:00",
@@ -1930,6 +1921,7 @@
   "B0CL7L523F": "2026-11-24T13:34:08.616792+00:00",
   "B0CLGNYKFR": "2026-11-21T17:00:59.256447+00:00",
   "B0CLQDBRD2": "2026-11-26T06:01:06.240917+00:00",
+  "B0CLR7G8MK": "2026-11-27T06:31:14.399238+00:00",
   "B0CQ8RSTDW": "2026-11-21T11:30:57.438982+00:00",
   "B0CSDF3YFB": "2026-11-21T15:00:57.223672+00:00",
   "B0CX4RLCXW": "2026-11-26T06:34:57.578137+00:00",
@@ -2264,10 +2256,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "fashion/679312011",
   "aliexpress/gaming keyboard mechanical",
   "aliexpress/vacuum storage bags",
-  "aliexpress/hair dryer brush"
+  "aliexpress/hair dryer brush",
+  "pick"
  ],
  "recent_groups": [
   "wireless",
@@ -2279,16 +2271,15 @@
  ],
  "recent_themes": [
   "tech",
-  "tech",
   "other",
   "kids",
   "fashion",
   "tech",
   "home",
-  "beauty"
+  "beauty",
+  "fashion"
  ],
  "recent_titles": [
-  "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
   "Columbia Women's PFG Castback Non Slip Boat Shoe",
   "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration",
   "UGREEN PD20W Power Bank Magnetic 10000mAh Portable Wireless Fast Charging PowerBank for Magsafe for iPhone 17 15 Pro Max 16 Pro",
@@ -2299,7 +2290,8 @@
   "New Balance Men's 574 V3 Sneakers",
   "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
   "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide",
-  "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb"
+  "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb",
+  "Columbia Men's Ascender II Hooded Softshell Rain Jacket"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2355,6 +2347,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136254
 }
