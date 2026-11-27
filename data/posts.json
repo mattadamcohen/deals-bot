@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005008660075975",
-  "title": "PHATOIL 100ml Aromatherapy Fragrance Oil Coconut & Vanilla Strawberry Cherry Lemon 1/2/3pcs Aroma Oil For Diffuser Candle Making",
-  "title_he": "PHATOIL 100 מ\"ל שמן ארומתרפיה קוקוס ווניל תות דובדבן לימון 1/2/3 יחידות שמן ארומה להכנת נרות מפזר",
-  "price": "$7.33",
-  "was": "$15.84",
-  "discount": "53%",
-  "rating": "98.0%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 1152,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S19063d25ee034223a874d4f77f8a534b5.jpg",
-  "variant": 884,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mZFu5j2wOihZIGUaqfSVIhfwMd36n5d1DR1fS0VkbCRkBbYsWNgubL0uoDlfzZcOInNRNEvJVy7rQdsnf6GMtZPLngG4eLLIwF0V2hso6SDhEVJiNewNrWMchdMaXuljHlFHsu9pZEQrXLoFPsznfb4G096vPZznYqUVeVTaoIkmtJ8Gc8Jc9MdezvNgLhzvBdtYiTgZXO5bYqgbvmnhwLZovm1KolWN8wWvap2V6HlOfzTHs9BNJQcPc2TpkzyfqT6ZwnwW1xhFnzdpt6FQOK9LX0IuPEK52QFO17vYB4tkh4FUit4GMrTzK42iDCfp7F2dUo9gCaTYOgAdXqqSTOVvZPYaRqjpgeMWMt3jxcuvN25SDArCOWNLCJPoEc6OOe5nJrvrj71gqlpnR9H7b4nKraQ7hu0uy2BerHFkLuyn4DAbTwROCRrz8dE4ECW8btXQJaycNp0AszL1Lf0ZYUJ4z8t75jF1AJ30GjnS46N9gLH2DuqByrruGG0WPCK1s8HOzexHanGLlIPqGqghljd0fPkD7wlSFYivRmNRjp43dD8oppnDsLw67bEDNFDkXtAsc2yX3UrVNxspq6SGpZGqHkuCM8e7QzzxEOrjWkAo9rRqdIwvU6c8k2e6qSwslXPhgheD4bhMP7vNUbRERkXGYDgzqbLmOAIxzJ9OlqfSNeDJbXnc7GNsE94w5qB1JZCIssrgciuhK",
-  "sold": "1,000",
-  "album_ids": [
-   1152,
-   1153,
-   1154
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "aliexpress/aroma diffuser",
-  "category_en": "Home decor",
-  "category_he": "עיצוב הבית",
-  "posted_at": "2026-11-26T14:31:21.007470+00:00"
- },
- {
   "asin": "B07C83SPCP",
   "title": "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
   "title_he": "Wrangler Authentics לגברים Regular Fit Comfort Flex Waist Jean",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-27T10:45:46.037340+00:00"
+ },
+ {
+  "asin": "B08M84GGYP",
+  "title": "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket",
+  "title_he": "אדידס נשים Essentials Warm-Up Slim 3-Stripes מעיל טרנינג",
+  "price": "$40.31",
+  "was": "",
+  "discount": "",
+  "rating": "4.5",
+  "reviews": "4,361",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1273,
+  "image": "https://m.media-amazon.com/images/I/51UsIzzFHZL._AC_SL1000_.jpg",
+  "variant": 611,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1273,
+   1274,
+   1275
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T11:01:26.140773+00:00"
  }
 ]

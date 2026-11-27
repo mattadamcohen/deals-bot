@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 20
+  "2026-11-27": 21
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -12,6 +12,7 @@
   "B08XMHN6YW": "2026-11-22T17:45:47.029414+00:00",
   "B096XNVFP1": "2026-11-19T16:34:06.926534+00:00",
   "B098F4RKGJ": "2026-11-16T17:01:49.105019+00:00",
+  "B098L2XJGH": "2026-11-27T11:01:26.144011+00:00",
   "B09JFMBWJX": "2026-11-23T14:05:33.168573+00:00",
   "B09QT4DRMB": "2026-11-26T15:01:28.855389+00:00",
   "B09SXLKFPH": "2026-11-26T11:31:29.677536+00:00",
@@ -161,6 +162,7 @@
   "a pair of plush": "2026-11-25T13:31:24.203850+00:00",
   "acer aspire go ai": "2026-11-23T08:31:07.196751+00:00",
   "acrylic organizer for collectible": "2026-11-24T05:45:49.450248+00:00",
+  "adidas essentials warm-up slim": "2026-11-27T11:01:26.144017+00:00",
   "adidas genuine originals durable": "2026-11-16T19:17:07.482572+00:00",
   "adidas runfalcon": "2026-11-23T07:31:21.099373+00:00",
   "adjustable light up inline": "2026-11-22T09:45:59.095922+00:00",
@@ -613,6 +615,7 @@
   "focus-brand-fashion-2026-11-26-13",
   "focus-brand-fashion-2026-11-26-17",
   "focus-brand-fashion-2026-11-26-9",
+  "focus-brand-fashion-2026-11-27-13",
   "focus-brand-fashion-2026-11-27-9",
   "focus-brand-tech-2026-11-26-15",
   "focus-brand-tech-2026-11-26-20",
@@ -1097,7 +1100,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T10:45:46.039105+00:00",
+ "last_post_at": "2026-11-27T11:01:26.143618+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1904,6 +1907,7 @@
   "B08CRPWQHB": "2026-11-17T18:01:00.387521+00:00",
   "B08HN2V7GY": "2026-11-24T10:01:08.434484+00:00",
   "B08JCD4PS6": "2026-11-16T17:01:49.041986+00:00",
+  "B08M84GGYP": "2026-11-27T11:01:26.027608+00:00",
   "B08XTWF6DH": "2026-11-21T10:30:52.729303+00:00",
   "B093HBBMPT": "2026-11-25T15:30:57.638656+00:00",
   "B093QJS2PG": "2026-11-27T05:19:00.836063+00:00",
@@ -2294,9 +2298,9 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "beauty/3778591",
   "aliexpress/fridge organizer",
   "toys-and-games",
+  "pick",
   "pick"
  ],
  "recent_groups": [
@@ -2308,17 +2312,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "sport",
   "kitchen",
   "tech",
   "other",
   "beauty",
   "kitchen",
   "kids",
-  "other"
+  "other",
+  "fashion"
  ],
  "recent_titles": [
-  "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home",
   "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
   "9 LED Solar Spot Light Outdoor Waterproof Spotlights Solar Garden Lights Landscape Lighting Decoration Pathway Lawn Lamp",
   "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable",
@@ -2329,7 +2332,8 @@
   "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)",
   "New Metal Magnetic Basket Organizer Holder Household Space Saving Fridge Storage Box Large Capacity Refrigerator Shelf",
   "Tub Works\u00ae Ocean Rescue\u2122 Vehicles Light Up Bath Toys, 6 Pack | Water-Activated Light Up Toys Flash & Change Color | Easy-Grip Baby & Toddler Bath Toys | Sensory Toys with Bath Lights for Kids Bath",
-  "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean"
+  "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
+  "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2385,6 +2389,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 2,
+ "since_ali": 3,
  "tg_offset": 260136257
 }
