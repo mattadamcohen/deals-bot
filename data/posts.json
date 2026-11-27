@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0H9XMRTKL",
-  "title": "U.S. POLO ASSN. Women's Crew Neck Sweaters – Raglan, Cable Knit & Striped",
-  "title_he": "ארה\"ב POLO ASSN. סוודרים עם צווארון עגול לנשים - רגלאן, סריג כבלים ופסים",
-  "price": "$24.49",
-  "was": "$60.00",
-  "discount": "59%",
-  "rating": "4.6",
-  "reviews": "164",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1101,
-  "image": "https://m.media-amazon.com/images/I/61cN0p1RCjL._AC_SL1500_.jpg",
-  "variant": 368,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1101,
-   1102,
-   1103
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T08:01:24.205668+00:00"
- },
- {
   "asin": "ali-1005006904750083",
   "title": "Solar Powered 100 LED Motion Sensor Wall Light, Waterproof Outdoor Security Lamp for Garden, Fence, Yard, Pathway Decoration",
   "title_he": "מנורת קיר חיישן תנועה LED 100 מופעל על ידי שמש, מנורת אבטחה חיצונית עמידה למים לגינה, גדר, חצר, קישוט שביל",
@@ -1158,5 +1129,34 @@
   "category_en": "Home storage",
   "category_he": "אחסון לבית",
   "posted_at": "2026-11-27T06:01:05.549132+00:00"
+ },
+ {
+  "asin": "ali-1005012275621872",
+  "title": "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb",
+  "title_he": "מייבש שיער סלון 2000W מקצועי מברשת אוויר קר חם שלילי יונית מייבש שיער חזק כוח 5 הילוך מייבש שיער מייבש שיער עם מסרק",
+  "price": "$30.64",
+  "was": "$71.69",
+  "discount": "57%",
+  "rating": "94.6%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1225,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S062769797a30493e8fad7e7fc58c5492m.jpg",
+  "variant": 919,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ms4s409Uypc4FVo8E1powzktexrkQE6J76ERKuZkICeKjj5vN2YQPEfCCcOCQd1eTxXmC8FfHcS6jihpAVgL6R9p36TtQJ4gOnE9iBAr1AxGowFNfHE8ngA3ZMQwxFTtZiyMS9wavcy3iU6D6Vq85QrOgXziqlqY4j2W5TYBaUneMkBHLOK2ZMuVasqNTkwXI2H9ZMhxbbjJjuMIWCTBsNTsFg9YCMKW136tnyCgEuIW4zuvEj7yHsgqrLmNffazMJldOOKuZ72N4xdEwadgP0jZSWUxtAHGUE4Be1IPaCuZYWlg7dfmGqECfD92Xoy7JENhAmUYs9DdkUIqYZEhw1BFsVcBMuvJWZa8PcXpKtueuRQj6G96aiLwwJsoJU0dnzdlgwg0kcij1jdX3CN7gXhqbebcoNRnJhV1XS7YrA8spKGYD5VBUKyFWlTXB0pn96MO5pSJYQyo0Oxy7IwQx0tPK38g8i6JqpWK0LO48qhITxxoIRkUP29yBLRhAxZejEjRuXFZeylSoBtuACWOuER4dyga1lELpEIWgLihBnzg9uW83h46WeEp2KkigeMzC9amIRGfHWip3Y9eFwJlEOXP515x6A9rZTYSZwGSiCfdMualraJIG2ZkNWIWNag6axILXSYlt6DHWZGBFyfpA2MttFHodt7b7BTH0BuWm1hXRRbSWoLSmg1ijjGKWOR8xrAhzmGdo6apt",
+  "sold": "1,000",
+  "album_ids": [
+   1225,
+   1226,
+   1227
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/hair dryer brush",
+  "category_en": "Beauty",
+  "category_he": "טיפוח",
+  "posted_at": "2026-11-27T06:15:45.629150+00:00"
  }
 ]

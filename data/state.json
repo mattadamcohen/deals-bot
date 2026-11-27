@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 4
+  "2026-11-27": 5
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -469,6 +469,7 @@
   "rolling laptop tripod stand": "2026-11-16T16:31:05.157723+00:00",
   "running hydration vest for": "2026-11-15T20:15:52.324385+00:00",
   "safer home flying insect": "2026-11-21T11:30:57.493045+00:00",
+  "salon hair dryer w": "2026-11-27T06:15:45.631030+00:00",
   "samsung haf-qin exp genuine": "2026-11-18T14:34:05.411608+00:00",
   "scentsicles winter fir scented": "2026-11-23T14:05:33.168625+00:00",
   "schylling needoh nice cube": "2026-11-23T17:02:27.404089+00:00",
@@ -1054,7 +1055,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T06:01:05.551517+00:00",
+ "last_post_at": "2026-11-27T06:15:45.630934+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2207,6 +2208,7 @@
   "ali-1005012030079876": "2026-11-21T09:00:55.161403+00:00",
   "ali-1005012062436481": "2026-11-25T18:01:06.868045+00:00",
   "ali-1005012172793474": "2026-11-26T06:15:58.935965+00:00",
+  "ali-1005012275621872": "2026-11-27T06:15:45.548903+00:00",
   "ali-1005012306488894": "2026-11-18T13:31:21.375142+00:00",
   "ali-1005012356700292": "2026-11-17T12:30:56.536813+00:00",
   "ali-1005012370649612": "2026-11-22T16:01:17.473481+00:00",
@@ -2262,10 +2264,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/building blocks set",
   "fashion/679312011",
   "aliexpress/gaming keyboard mechanical",
-  "aliexpress/vacuum storage bags"
+  "aliexpress/vacuum storage bags",
+  "aliexpress/hair dryer brush"
  ],
  "recent_groups": [
   "wireless",
@@ -2278,15 +2280,14 @@
  "recent_themes": [
   "tech",
   "tech",
-  "tech",
   "other",
   "kids",
   "fashion",
   "tech",
-  "home"
+  "home",
+  "beauty"
  ],
  "recent_titles": [
-  "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors",
   "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
   "Columbia Women's PFG Castback Non Slip Boat Shoe",
   "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration",
@@ -2297,7 +2298,8 @@
   "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
   "New Balance Men's 574 V3 Sneakers",
   "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
-  "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide"
+  "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide",
+  "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
