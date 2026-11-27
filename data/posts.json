@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B07C83SPCP",
-  "title": "Wrangler Authentics Men's Regular Fit Comfort Flex Waist Jean",
-  "title_he": "Wrangler Authentics לגברים Regular Fit Comfort Flex Waist Jean",
-  "price": "$26.95",
-  "was": "$28.68",
-  "discount": "6%",
-  "rating": "4.5",
-  "reviews": "13,538",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1155,
-  "image": "https://m.media-amazon.com/images/I/51GkgJfInTL._AC_SL1080_.jpg",
-  "variant": 197,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1155,
-   1156,
-   1157
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/dabba0a2-d422-408d-9101-51d66c06bbef/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T15:01:28.852992+00:00"
- },
- {
   "asin": "ali-1005006860726664",
   "title": "Car Vacuum Cleaner 95000PA Strong Suction Handheld Wireless Vacuum Cleaner Blower 2 in 1 Portable Vacuum Cleaner For Car Home",
   "title_he": "שואב אבק לרכב 95000PA יניקה חזקה כף יד מפוח שואב אבק אלחוטי 2 ב-1 שואב אבק נייד לרכב בית",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-27T11:01:26.140773+00:00"
+ },
+ {
+  "asin": "ali-1005005058062191",
+  "title": "Fuers 5MP WiFi Camera Works With Tuya Smart Home Indoor Wireless IP Surveillance Camera AI Detect Security Baby Monitor",
+  "title_he": "מצלמת WiFi של Fuers 5MP עובדת עם Tuya Smart Home Indoor Wireless IP Surveillance מצלמת AI Detect Security Baby Monitor",
+  "price": "$27.59",
+  "was": "$57.16",
+  "discount": "51%",
+  "rating": "93.1%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1276,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S56582ac9196c4b2293037958534fae1aa.jpg",
+  "variant": 718,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kY6zDbgVSe2M6WxKRI372d5hobNUbx2KfamB9V3W8Jh07VBUhzqHZOJ1e4PdbtdjLFVyScrwBHtcCbOYCR32dizWEXqJtJu4UrKe4hgds4VWQi1NiXDZP13NKBNen2NQd1wn3nFDlrBl1H2d1fG7tE2p6O0m7N2SrEvReoIbCqPbdSqij9M7g21PkgsOFkDc8ZXAE83SRzj9AWKK0uDUECWcI9GhVaHD2eGvoL3qtQ7uLHUSw5IExAhvD0F6xO906p1x9QQMKo9OCEhzl3vAu0XCICicXwWcu92zSEgyW5k5m7uKS2fuwedWOjZAxuyAc68ursFxJp5R2LFgfjrf1tvPBcDmSQqrznbnSOsPtWIdGviEOIPwZoPHqUw3DMRGMKiVYaALI6QcZYekpmVBKGLJWMe7jhkfc0YE3d9H2qksPzvrE5ZKDNAZlaRPep8WZdnjwPWQG8y5IIjH3ImaVkqly6DSdqntRwTyCsPDQsradKoFsLYZv7zqrsTVbg8xt7jSCjMRqmGFY14pEvSX3zeH7cWhmtBNjlAN91YhxtK6tSZh0RYV9JlCsMF4x1yvIWJIfOw8hIwkw2olo7BefUYGZgA3YSVajwgCTWFW6fGy2KMLvMoF2zGKSkbLcxYEcQUveZlexo6p3vBlMZVJromcddtkeMpIjldp45lQdJRUDCIF42yEmf8l0vCcS0qIXvjcwqYN9I1p9",
+  "sold": "592",
+  "album_ids": [
+   1276,
+   1277,
+   1278
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/baby monitor camera",
+  "category_en": "Smart home",
+  "category_he": "בית חכם",
+  "posted_at": "2026-11-27T11:16:14.567435+00:00"
  }
 ]

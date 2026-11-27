@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 21
+  "2026-11-27": 22
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -292,6 +292,7 @@
   "fossil watch": "2026-11-25T05:04:43.329553+00:00",
   "friends princess luxury ice": "2026-11-18T05:01:00.254571+00:00",
   "frost buddy universal can": "2026-11-24T20:01:43.155026+00:00",
+  "fuers mp wifi camera": "2026-11-27T11:16:14.570166+00:00",
   "fujifilm digital camera instax": "2026-11-17T19:01:48.075090+00:00",
   "fun boomerang for": "2026-11-24T10:01:08.455492+00:00",
   "g free yoga pants": "2026-11-22T16:31:06.510441+00:00",
@@ -736,6 +737,12 @@
    "username": "Doridi2",
    "via": "join"
   },
+  "397992675": {
+   "at": "2026-11-27T11:16:06.806067+00:00",
+   "name": "Ofir",
+   "username": "",
+   "via": "join"
+  },
   "438276024": {
    "at": "2026-11-26T06:00:56.254458+00:00",
    "name": "Adir",
@@ -1096,11 +1103,12 @@
   "619014435",
   "1524664244",
   "321271289",
-  "484784791"
+  "484784791",
+  "397992675"
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T11:01:26.143618+00:00",
+ "last_post_at": "2026-11-27T11:16:14.569994+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2029,6 +2037,7 @@
   "B0HHJYF7SS": "2026-11-19T13:00:58.376909+00:00",
   "B0HMC3TGW7": "2026-11-21T19:01:11.969851+00:00",
   "ali-1005004370747413": "2026-11-20T15:31:03.427709+00:00",
+  "ali-1005005058062191": "2026-11-27T11:16:14.512926+00:00",
   "ali-1005005210163156": "2026-11-22T18:45:55.684321+00:00",
   "ali-1005005266133348": "2026-11-26T13:16:58.791579+00:00",
   "ali-1005005441545741": "2026-11-27T08:45:54.133503+00:00",
@@ -2298,10 +2307,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/fridge organizer",
   "toys-and-games",
   "pick",
-  "pick"
+  "pick",
+  "aliexpress/baby monitor camera"
  ],
  "recent_groups": [
   "toys-and-games",
@@ -2312,17 +2321,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "kitchen",
   "tech",
   "other",
   "beauty",
   "kitchen",
   "kids",
   "other",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
   "9 LED Solar Spot Light Outdoor Waterproof Spotlights Solar Garden Lights Landscape Lighting Decoration Pathway Lawn Lamp",
   "3L Smart Cat Water Fountain Wireless Automatic Induction Pet Water Dispenser Stainless Steel Cordless Rechargeable",
   "Thinkrider Training Mat Yoga mat For Bike Bicycle bicicletas Estaticas Trainer exercise Mat For trainer floormat",
@@ -2333,7 +2341,8 @@
   "New Metal Magnetic Basket Organizer Holder Household Space Saving Fridge Storage Box Large Capacity Refrigerator Shelf",
   "Tub Works\u00ae Ocean Rescue\u2122 Vehicles Light Up Bath Toys, 6 Pack | Water-Activated Light Up Toys Flash & Change Color | Easy-Grip Baby & Toddler Bath Toys | Sensory Toys with Bath Lights for Kids Bath",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
-  "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket"
+  "adidas Women's Essentials Warm-Up Slim 3-Stripes Track Jacket",
+  "Fuers 5MP WiFi Camera Works With Tuya Smart Home Indoor Wireless IP Surveillance Camera AI Detect Security Baby Monitor"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2389,6 +2398,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 3,
- "tg_offset": 260136257
+ "since_ali": 0,
+ "tg_offset": 260136258
 }
