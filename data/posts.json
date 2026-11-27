@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0DMNRG4X8",
-  "title": "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play，for Laptop PC Phone PS4/5 Xbox Switch",
-  "title_he": "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI…",
-  "price": "$49.99",
-  "was": "",
-  "discount": "",
-  "rating": "4.3",
-  "reviews": "1,172",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1206,
-  "image": "https://m.media-amazon.com/images/I/711Waoij3NL._AC_SL1500_.jpg",
-  "variant": 449,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1206,
-   1207,
-   1208
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a5f926a8-ba7d-4271-b1ac-c0ad1edc1185/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T20:15:51.952455+00:00"
- },
- {
   "asin": "B0FCHQ65TK",
   "title": "Calvin Klein Men's Picio Monogram Sneaker",
   "title_he": "נעלי ספורט מונוגרמה Picio לגברים של קלווין קליין",
@@ -1158,5 +1129,34 @@
   "category_en": "Toys & Games",
   "category_he": "צעצועים ומשחקים",
   "posted_at": "2026-11-27T16:00:59.579861+00:00"
+ },
+ {
+  "asin": "ali-1005006994770005",
+  "title": "TARKA Foldable Camping Chairs Set Lightweight Folding Chair Ultralight Backpacking Moon Chairs for Garden Picnic Beach Fishing",
+  "title_he": "סט כסאות קמפינג מתקפלים TARKA כסא מתקפל קל משקל כיסאות ירח תרמילאים קלים במיוחד לגינה לפיקניק דיג בחוף",
+  "price": "$33.29",
+  "was": "$76.13",
+  "discount": "56%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1327,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S590bc603caf049f9a77920337fd1b1d0y.jpg",
+  "variant": 64,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FevOqttgnNcihUZ7hU7Hg8xFfs8K4L5vbDnIDByiUExG6Vv1DMnnotTj2Mi9vLDyYjchCOPSfSVw5yRQQ6zXOYeu3PXhJmCM5LE98jgdwwQEw8WL9CJuiCNHOKHIe23xCgT7MlKQyZT53hqO9s4RGlLBbHzHhETDOieSfuMtiyN5bF2Ax6erbKxuUbayA72tVld56yKbj77GaCUMd0zrsbOxrbWB3Ckhv9k2A3pShbUjpi8TpOTfYnjLeTeOtX8ZmZNsCXeds4bdF9g0PKWt9KmD2ffopUhbBZ2tZIE6Whwo6wHyIY6bSjOTGvRGCaWrxCTsbja13VAgkfrMleLqpPkDcLiNxcr3QiBCUTjCuPjUGuWaSDhNQe4DbrsDPJEO28ChBcKmjjnK9TAHCoCD5x7gg2S6dfOlMumZEl8WI5ddRcISpx0DrdkVbrCzwvborK9D8YYLjbdTMC2yvSTet28UjlcfqrlndbO0nSevToqMJCGtGN5NVm4i4IV5BTt7CCchxrqMViCOrFai2TK9WMC5npEYu9vAMcepRPgfe1eCeoviKkCa79g0Mv6MCLN1zMzitSvKTcri2hAmv614kLFCdolJfHtpM0jz35pJq7yt8FedPkmBkUH37xiiM4fkTSZcPZr00Nuq73yutLmjZIi7t74uPZtNv8a6cNIyZrj6uvUH5nx9uKgLBcXBG8HsnIakuisrAk5pz",
+  "sold": "4,000",
+  "album_ids": [
+   1327,
+   1328,
+   1329
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/2671105725/p/1/e/6/t/10301/1100137731771.mp4",
+  "category_slug": "aliexpress/backpack",
+  "category_en": "Bags",
+  "category_he": "תיקים",
+  "posted_at": "2026-11-27T16:15:52.347388+00:00"
  }
 ]

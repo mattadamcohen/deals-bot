@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 38
+  "2026-11-27": 39
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -546,6 +546,7 @@
   "taba squishy stress balls": "2026-11-19T13:30:59.569205+00:00",
   "taba squishy yogurt cake": "2026-11-24T17:02:18.016987+00:00",
   "tales conversation cards": "2026-11-20T08:30:53.068274+00:00",
+  "tarka foldable camping chairs": "2026-11-27T16:15:52.350057+00:00",
   "tauri for iphone pro": "2026-11-17T09:01:31.220137+00:00",
   "telesin mah battery slots": "2026-11-18T11:01:29.136545+00:00",
   "temppro tempswift tp h": "2026-11-21T05:04:19.867262+00:00",
@@ -1157,7 +1158,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T14:49:02.337878+00:00",
- "last_post_at": "2026-11-27T16:00:59.582245+00:00",
+ "last_post_at": "2026-11-27T16:15:52.349896+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2187,6 +2188,7 @@
   "ali-1005006967315803": "2026-11-18T12:31:51.206916+00:00",
   "ali-1005006980938074": "2026-11-26T16:01:15.652801+00:00",
   "ali-1005006994669841": "2026-11-18T11:31:07.167293+00:00",
+  "ali-1005006994770005": "2026-11-27T16:15:52.322065+00:00",
   "ali-1005006996242795": "2026-11-18T16:31:48.089006+00:00",
   "ali-1005006997052738": "2026-11-25T11:30:55.401582+00:00",
   "ali-1005006997695145": "2026-11-22T10:16:11.030434+00:00",
@@ -2424,9 +2426,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/Baseus",
-  "toys-and-games"
+  "toys-and-games",
+  "aliexpress/backpack"
  ],
  "recent_groups": [
   "fashion",
@@ -2437,17 +2439,16 @@
   "toys-and-games"
  ],
  "recent_themes": [
-  "fashion",
   "kids",
   "other",
   "beauty",
   "home",
   "fashion",
   "tech",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "GameSir Nova Lite Wireless Gamepad, Bluetooth Gaming Controller with Hall Effect for Switch, Android, iOS, PC, Steam Games",
   "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI",
   "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts",
   "PUMA unisex-adult Accelerator Duffel Bag with Removable Strap & Shoe Pocket",
@@ -2458,7 +2459,8 @@
   "Xiaomi Robot Vacuum H50 Robot Vacuum and Mop 10000Pa Suction LDS Laser Navigation Omni Station Auto Dust Emptying Mop Washing and Drying Auto Mop Lifting Anti Tangle White",
   "POLO RALPH LAUREN Classic Fit Soft Cotton Polo Shirt",
   "Baseus MC1 Pro Ear Clip Wireless Earphones Bluetooth 6.0 Hi-Res Ultra Open Earbuds earrings 4-Mic ENC Clip on ear buds Headphone",
-  "Morf Worm 3D Sensory Fidget Toys for Kids, Teens & Adults, Rainbow, Small"
+  "Morf Worm 3D Sensory Fidget Toys for Kids, Teens & Adults, Rainbow, Small",
+  "TARKA Foldable Camping Chairs Set Lightweight Folding Chair Ultralight Backpacking Moon Chairs for Garden Picnic Beach Fishing"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2521,6 +2523,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136262
 }
