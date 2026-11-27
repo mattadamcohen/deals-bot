@@ -350,6 +350,10 @@ def black_friday_today():
 
 
 def due_slot(st):
+    pause = CONFIG.get("pause_until")
+    if pause and datetime.fromisoformat(pause) > datetime.now(timezone.utc):
+        print("Posting paused until", pause)
+        return None, None
     local = datetime.now(TZ)
     now_h = local.hour + local.minute / 60
     for h in CONFIG.get("promo_slots", []):
