@@ -1,34 +1,5 @@
 [
  {
-  "asin": "ali-1005006980938074",
-  "title": "RAYKUBE M5 Tuya BLE Smart Fingerprint Door Lock Digital Electronic Lock with Password/Key/IC Card/ Smartlife/ Tuya APP Unlock",
-  "title_he": "RAYKUBE M5 Tuya BLE מנעול דלת טביעת אצבע חכמה מנעול אלקטרוני דיגיטלי עם סיסמה/מפתח/כרטיס IC/Smartlife/פתיחת אפליקציה Tuya",
-  "price": "$40.53",
-  "was": "$152.24",
-  "discount": "73%",
-  "rating": "91.8%",
-  "reviews": "",
-  "rank": 0,
-  "source": "aliexpress",
-  "message_id": 1167,
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S12773e73baff4e29a5d557baff9b27a8E.jpg",
-  "variant": 79,
-  "store": "aliexpress",
-  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oF4VSn9bYefpRAPWivJ01sPyfMUyiEFtEVtUbA87WCGWE1zOCuQA0VDX2droiziKOlpoELIKAnKlJHP8wdjEx6Whi2KuJ4degm4qMf254poxf7divlzSmF75naZ0osfuO7Yy3Bdjx0a7AtBx4FIfI9SfsVVYENi2kRO5k7cRVd4ZiLrDFsfwBTUJR9yeUfDPGZyyqC2rGLtI3wKjfgdm6s39Sl4MrtcRww67Dx5IdkYKKlssQSmX2nyrM5gXLhy1AtxNumZpaZRZ96H2nYv6mtQXlBLFYgEWCMdbOPnooH5l8V1i5x9X46hBhugG6JbZXOOG6brTOck0tPFPAIiatovjYyWUWEt9iAHBAdMOIuSM1paW99GeA2edlMNnuDJLwVMhYPxxvdbeBbv7TwtLiPi18HSU4nTJIZk2VIgZ382xYLMCKq7SPrYV4SQWVjpM6eCkjGCKgMA1gxuKbGsVysHmz9b6YRKt2YtgMF0r70CtVV48L1kQNCM9GvqMn6Wpouf949JHJ1am17IflXhPJ316r3K3DPjHEXuwKw5QXRrVQ47LZRfgXNHQgWKshp576Gwae3SRQm8XCUcat0VmGxPwtky6bosqW1tojD2X1G0fTnO8Kk1Rr36ya0FRBmEZEum0C8daZdFfMZgBzLjPLZ2uIFpyawDqrskAl29SXdqIB2WoK2a14KMPFEhyopf6uSpD7iPEYarU1",
-  "sold": "1,000",
-  "album_ids": [
-   1167,
-   1168,
-   1169
-  ],
-  "coupon": "",
-  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/221478050/p/1/e/6/t/10301/4000173008817.mp4",
-  "category_slug": "aliexpress/smart door lock fingerprint",
-  "category_en": "Smart home",
-  "category_he": "בית חכם",
-  "posted_at": "2026-11-26T16:01:15.843109+00:00"
- },
- {
   "asin": "B0CFCLC9DC",
   "title": "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
   "title_he": "PROJECT CLOUD 100% עור אמיתי מגפי נשים מגפי קרסול לנעלי נשים",
@@ -1158,5 +1129,34 @@
   "category_en": "Beauty",
   "category_he": "טיפוח",
   "posted_at": "2026-11-27T12:01:43.500803+00:00"
+ },
+ {
+  "asin": "B0B3HTQ4YT",
+  "title": "CHRLEISURE Leggings with Pockets for Women, High Waisted Tummy Control Workout Yoga Pants",
+  "title_he": "חותלות CHRLEISURE עם כיסים לנשים, מכנסי יוגה לשליטה בבטן גבוהה",
+  "price": "$37.98",
+  "was": "",
+  "discount": "32%",
+  "rating": "4.6",
+  "reviews": "25,831",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1288,
+  "image": "https://m.media-amazon.com/images/I/71BQpA02w1L._AC_SL1500_.jpg",
+  "variant": 945,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1288,
+   1289,
+   1290
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/22ffd34c-9165-4838-9157-04ef38e60400/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T12:31:05.414312+00:00"
  }
 ]

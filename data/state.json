@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 25
+  "2026-11-27": 26
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -16,6 +16,7 @@
   "B09JFMBWJX": "2026-11-23T14:05:33.168573+00:00",
   "B09QT4DRMB": "2026-11-26T15:01:28.855389+00:00",
   "B09SXLKFPH": "2026-11-26T11:31:29.677536+00:00",
+  "B09X1VJFF2": "2026-11-27T12:31:05.417582+00:00",
   "B09XB4SHTB": "2026-11-26T06:01:06.279002+00:00",
   "B09ZL9LQ9L": "2026-11-16T08:30:50.657512+00:00",
   "B0B9WN3PFY": "2026-11-24T09:19:41.368315+00:00",
@@ -224,6 +225,7 @@
   "christmas advent calendar gift": "2026-11-17T16:31:18.234555+00:00",
   "christmas dumpling squishyed advent": "2026-11-26T18:30:54.546608+00:00",
   "christmas projector light patterns": "2026-11-19T11:30:48.621221+00:00",
+  "chrleisure leggings with pockets": "2026-11-27T12:31:05.417590+00:00",
   "circle chain picture customiz": "2026-11-24T09:01:02.175909+00:00",
   "classic uno board games": "2026-11-19T18:30:53.440916+00:00",
   "clean skin club clean": "2026-11-15T05:02:06.023722+00:00",
@@ -1119,7 +1121,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T12:01:43.502642+00:00",
+ "last_post_at": "2026-11-27T12:31:05.417203+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1850,17 +1852,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-27T12:30:00+00:00",
-   "id": "B0B3HTQ4YT",
-   "not_before": "2026-11-27T12:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1126-B0B3HTQ4YT",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B0B3HTQ4YT"
-  },
-  {
-   "alt": [],
    "at": "2026-11-27T14:00:00+00:00",
    "id": "B0G5S4Z7GX",
    "not_before": "2026-11-27T14:00:00+00:00",
@@ -1942,6 +1933,7 @@
   "B09ZJDPFWT": "2026-11-26T07:01:06.737470+00:00",
   "B0B1RWJ4QJ": "2026-11-23T18:04:28.402742+00:00",
   "B0B2RM68G2": "2026-11-20T13:01:28.290700+00:00",
+  "B0B3HTQ4YT": "2026-11-27T12:31:05.205673+00:00",
   "B0B6B25BKW": "2026-11-20T14:01:00.195937+00:00",
   "B0B73XM8ZB": "2026-11-24T12:31:01.844488+00:00",
   "B0B7535QC3": "2026-11-16T11:31:03.776706+00:00",
@@ -2321,10 +2313,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/baby monitor camera",
   "aliexpress/closet organizer",
   "fashion/679312011",
-  "aliexpress/electric toothbrush"
+  "aliexpress/electric toothbrush",
+  "pick"
  ],
  "recent_groups": [
   "wireless",
@@ -2335,17 +2327,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kitchen",
   "kids",
   "other",
   "fashion",
   "tech",
   "home",
   "fashion",
-  "other"
+  "other",
+  "fashion"
  ],
  "recent_titles": [
-  "LMETJMA Stainless Steel Frying Pan Nonstick Honeycomb Fry Pan With Lid Induction Ceramic Electric Gas Cooktops Compatible KC0480",
   "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie",
   "Gisam 26mm Brushless Electric Hammer Drill Multifunctional Rotary Hammer Drill Cordless Impact Drill For Makita 18V Battery Pin",
   "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)",
@@ -2356,7 +2347,8 @@
   "Fuers 5MP WiFi Camera Works With Tuya Smart Home Indoor Wireless IP Surveillance Camera AI Detect Security Baby Monitor",
   "White Expandable Divider Punch-free Retractable Layers Board for Wardrobe Storage Kitchen and Bathroom Shelf Dormitory Dividers",
   "Skechers Men's After Burn M. Fit Sneaker",
-  "Electric Toothbrush Rotary Rechargeable Electric Toothbrush for Adults Rotating Electric Toothbrushes with 8 Soft Brush Heads"
+  "Electric Toothbrush Rotary Rechargeable Electric Toothbrush for Adults Rotating Electric Toothbrushes with 8 Soft Brush Heads",
+  "CHRLEISURE Leggings with Pockets for Women, High Waisted Tummy Control Workout Yoga Pants"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2412,6 +2404,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136259
 }
