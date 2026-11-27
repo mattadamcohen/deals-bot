@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FMPL7CBN",
-  "title": "LEGO Yellow Travel Suitcase 40817 – 184 Pieces, Buildable Luggage Model with Retractable Handle, 360° Wheels & Travel Accessories | Ages 7+ | Travel Gift",
-  "title_he": "מזוודת נסיעות צהובה LEGO 40817 – 184 חלקים, דגם מזוודות לבנייה עם ידית נשלפת, גלגלי 360° ואביזרי נסיעות | גילאים…",
-  "price": "$30.51",
-  "was": "",
-  "discount": "",
-  "rating": "5.0",
-  "reviews": "3",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1179,
-  "image": "https://m.media-amazon.com/images/I/71IBTVSTjrL._AC_SL1500_.jpg",
-  "variant": 451,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1179,
-   1180,
-   1181
-  ],
-  "coupon": "",
-  "video": "",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T17:31:03.761759+00:00"
- },
- {
   "asin": "ali-1005006789393404",
   "title": "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
   "title_he": "קערת מסננת מכונת כביסה אורז נירוסטה 304 קערת שטיפת אורז מסננת מסננת מסננת פירות וירקות כלי מטבח",
@@ -1158,5 +1129,34 @@
   "category_en": "Building sets",
   "category_he": "ערכות בנייה",
   "posted_at": "2026-11-27T13:16:22.854746+00:00"
+ },
+ {
+  "asin": "B0DTKL151W",
+  "title": "PUMA unisex-adult Accelerator Duffel Bag with Removable Strap & Shoe Pocket",
+  "title_he": "תיק מאיץ למבוגרים יוניסקס של PUMA עם רצועה נשלפת וכיס נעליים",
+  "price": "$27.63",
+  "was": "$29.69",
+  "discount": "7%",
+  "rating": "4.5",
+  "reviews": "69",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1300,
+  "image": "https://m.media-amazon.com/images/I/81JHJ7LLwoL._AC_SL1500_.jpg",
+  "variant": 719,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1300,
+   1301,
+   1302
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T13:46:11.141451+00:00"
  }
 ]
