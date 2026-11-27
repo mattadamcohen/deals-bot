@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 7
+  "2026-11-27": 8
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -66,6 +66,7 @@
   "B0F1Y8WH4Y": "2026-11-23T06:31:02.420314+00:00",
   "B0F2F9ZHQT": "2026-11-16T16:31:05.157716+00:00",
   "B0F495VFT8": "2026-11-23T14:05:33.168623+00:00",
+  "B0F59CYVPV": "2026-11-27T07:01:19.516001+00:00",
   "B0F6V51BL4": "2026-11-17T16:01:58.139171+00:00",
   "B0F99PXPH6": "2026-11-26T18:33:59.350514+00:00",
   "B0F99ZZRJY": "2026-11-17T06:01:17.389965+00:00",
@@ -231,6 +232,7 @@
   "columbia benton springs full": "2026-11-23T07:46:01.761921+00:00",
   "columbia pfg castback non": "2026-11-26T19:01:03.236953+00:00",
   "columbia thistletown hills short": "2026-11-26T06:01:06.279011+00:00",
+  "columbia voodoo falls turbodown": "2026-11-27T07:01:19.516005+00:00",
   "comfier back massager with": "2026-11-26T13:01:07.488118+00:00",
   "controller gaming accessories for": "2026-11-24T08:30:48.600340+00:00",
   "coofandy t shirt short": "2026-11-23T10:15:55.012446+00:00",
@@ -597,6 +599,7 @@
   "focus-brand-fashion-2026-11-26-13",
   "focus-brand-fashion-2026-11-26-17",
   "focus-brand-fashion-2026-11-26-9",
+  "focus-brand-fashion-2026-11-27-9",
   "focus-brand-tech-2026-11-26-15",
   "focus-brand-tech-2026-11-26-20"
  ],
@@ -1058,7 +1061,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T06:45:51.237210+00:00",
+ "last_post_at": "2026-11-27T07:01:19.515770+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1944,6 +1947,7 @@
   "B0DMNRG4X8": "2026-11-26T20:15:51.903237+00:00",
   "B0DN154461": "2026-11-23T06:31:02.375398+00:00",
   "B0DT3P6M5Q": "2026-11-20T08:30:52.968717+00:00",
+  "B0DWX9HVK5": "2026-11-27T07:01:19.448896+00:00",
   "B0DWXMVSRP": "2026-11-26T13:01:07.468240+00:00",
   "B0DYTQ5GYQ": "2026-11-21T09:34:00.636336+00:00",
   "B0F1WB2PVS": "2026-11-17T12:01:22.904322+00:00",
@@ -2258,10 +2262,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/vacuum storage bags",
   "aliexpress/hair dryer brush",
   "pick",
-  "aliexpress/marble run kids"
+  "aliexpress/marble run kids",
+  "pick"
  ],
  "recent_groups": [
   "wireless",
@@ -2272,17 +2276,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "other",
   "kids",
   "fashion",
   "tech",
   "home",
   "beauty",
   "fashion",
-  "kids"
+  "kids",
+  "fashion"
  ],
  "recent_titles": [
-  "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration",
   "UGREEN PD20W Power Bank Magnetic 10000mAh Portable Wireless Fast Charging PowerBank for Magsafe for iPhone 17 15 Pro Max 16 Pro",
   "[Auto Focus & 2026 Upgraded] Mini Projector 1080P FHD Support 4K Portable Projector with WiFi6 and Bluetooth5.4 Built-in App 180\u00b0 Adjustable Auto Keystone, Compatible with HDMI/Laptop/USB, White",
   "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play\uff0cfor Laptop PC Phone PS4/5 Xbox Switch",
@@ -2293,7 +2296,8 @@
   "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide",
   "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb",
   "Columbia Men's Ascender II Hooded Softshell Rain Jacket",
-  "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning"
+  "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
+  "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2349,6 +2353,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136254
 }

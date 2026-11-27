@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0D4215HCX",
-  "title": "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
-  "title_he": "מטען לרכב LISEN נשלף, טעינה מהירה USB C 84W, מתנות לגברים נשים",
-  "price": "$15.31",
-  "was": "$19.99",
-  "discount": "23%",
-  "rating": "4.5",
-  "reviews": "26,008",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1113,
-  "image": "https://m.media-amazon.com/images/I/71Ryl5xKbuL._AC_SL1500_.jpg",
-  "variant": 917,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1113,
-   1114,
-   1115
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4cc83809-a345-47ee-88a5-510288269187/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T11:01:02.605473+00:00"
- },
- {
   "asin": "ali-1005012011159315",
   "title": "Ergonomic Memory Foam Pillow 2-in-1 Neck Support Orthopedic Travel Pillow for Sleeping Home Use Cervical Protection",
   "title_he": "כרית קצף זיכרון ארגונומית 2 ב-1 תמיכת צוואר כרית נסיעות אורטופדית לשינה לשימוש ביתי הגנה על צוואר הרחם",
@@ -1158,5 +1129,34 @@
   "category_en": "Kids toys",
   "category_he": "צעצועים לילדים",
   "posted_at": "2026-11-27T06:45:51.235173+00:00"
+ },
+ {
+  "asin": "B0DWX9HVK5",
+  "title": "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket",
+  "title_he": "מעיל וודו פולס 590 Turbodown לגברים של קולומביה",
+  "price": "$80.00",
+  "was": "$160.00",
+  "discount": "50%",
+  "rating": "4.5",
+  "reviews": "376",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1234,
+  "image": "https://m.media-amazon.com/images/I/61725OqHkXL._AC_SL1500_.jpg",
+  "variant": 783,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1234,
+   1235,
+   1236
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/259b28c0-45e8-4ee6-a174-f098b53c5c1f/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T07:01:19.513770+00:00"
  }
 ]
