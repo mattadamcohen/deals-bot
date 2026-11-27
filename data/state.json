@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 3
+  "2026-11-27": 4
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -537,6 +537,7 @@
   "umatoll toddler balance bike": "2026-11-23T06:15:47.071073+00:00",
   "uno pokemon board game": "2026-11-19T17:30:51.560155+00:00",
   "vacuum sealed tank coffee": "2026-11-26T15:30:56.024717+00:00",
+  "vacuum sealer bags for": "2026-11-27T06:01:05.551693+00:00",
   "vb video baby monitor": "2026-11-17T14:01:29.456823+00:00",
   "veken non slip rug": "2026-11-14T19:32:53.772708+00:00",
   "vention mah power bank": "2026-11-17T14:31:33.248594+00:00",
@@ -1053,7 +1054,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T05:45:47.115577+00:00",
+ "last_post_at": "2026-11-27T06:01:05.551517+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2035,6 +2036,7 @@
   "ali-1005006863903100": "2026-11-16T08:01:44.254640+00:00",
   "ali-1005006904438915": "2026-11-18T08:31:39.200481+00:00",
   "ali-1005006904750083": "2026-11-26T08:30:56.730522+00:00",
+  "ali-1005006966100985": "2026-11-27T06:01:05.385208+00:00",
   "ali-1005006966123998": "2026-11-18T08:01:06.593615+00:00",
   "ali-1005006967315803": "2026-11-18T12:31:51.206916+00:00",
   "ali-1005006980938074": "2026-11-26T16:01:15.652801+00:00",
@@ -2260,10 +2262,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/building blocks set",
   "fashion/679312011",
-  "aliexpress/gaming keyboard mechanical"
+  "aliexpress/gaming keyboard mechanical",
+  "aliexpress/vacuum storage bags"
  ],
  "recent_groups": [
   "wireless",
@@ -2274,17 +2276,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "home",
   "tech",
   "tech",
   "tech",
   "other",
   "kids",
   "fashion",
-  "tech"
+  "tech",
+  "home"
  ],
  "recent_titles": [
-  "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
   "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors",
   "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
   "Columbia Women's PFG Castback Non Slip Boat Shoe",
@@ -2295,7 +2296,8 @@
   "Calvin Klein Men's Picio Monogram Sneaker",
   "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
   "New Balance Men's 574 V3 Sneakers",
-  "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing"
+  "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
+  "100pcs Vacuum Sealer Bags for Food Saver, Seal a Meal, Grade, Heavy Duty, Great for Vac Storage, Meal Prep or Sous Vide"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
