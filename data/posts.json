@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FY4D1Q12",
-  "title": "Columbia Women's PFG Castback Non Slip Boat Shoe",
-  "title_he": "קולומביה נשים PFG Castback נעל סירה ללא החלקה",
-  "price": "$72.25",
-  "was": "$85.00",
-  "discount": "15%",
-  "rating": "4.3",
-  "reviews": "451",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1194,
-  "image": "https://m.media-amazon.com/images/I/81M7adUNg3L._AC_SL1500_.jpg",
-  "variant": 854,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1194,
-   1195,
-   1196
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/08b0f444-8293-4801-ae4e-5d44ef180017/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T19:01:03.234070+00:00"
- },
- {
   "asin": "ali-1005007567580023",
   "title": "LED Solar String Lights Garden Waterproof Tube Rope Lamp Christmas Garland Fairy Lights For Outdoor Holiday Home Decoration",
   "title_he": "LED שמש מחרוזת אורות גן עמיד למים צינור צינור מנורת זר פיות אורות לקישוט בית נופש חיצוני",
@@ -1158,5 +1129,34 @@
   "category_en": "Beauty & Personal Care",
   "category_he": "יופי וטיפוח",
   "posted_at": "2026-11-27T14:49:08.339661+00:00"
+ },
+ {
+  "asin": "ali-1005013457363886",
+  "title": "Xiaomi Robot Vacuum H50 Robot Vacuum and Mop 10000Pa Suction LDS Laser Navigation Omni Station Auto Dust Emptying Mop Washing and Drying Auto Mop Lifting Anti Tangle White",
+  "title_he": "Xiaomi Robot Vacuum H50 רובוט ואקום ומגב 10000Pa יניקה LDS לייזר ניווט Omni Station אוטומטי ריקון אבק מגב כביסה וייבוש...",
+  "price": "$423.46",
+  "was": "$1311.77",
+  "discount": "67%",
+  "rating": "94.4%",
+  "reviews": "",
+  "rank": 0,
+  "source": "pick",
+  "message_id": 1315,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Afa066ead357d45f7aaf9d7189a064865d.jpg",
+  "variant": 947,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CozFAS91ZKSTG7BfmRK7K5bf3oK09SoeMaMBGYECZaEMr0VVJmMxYw4vXx652ESKyPKEFVtZYB0HZZRb08JWOCKNhAJa85Il5atiWHEGY3xvoD51COhymYLTBJCDTA2Jr81ZfZFXu6Rr06TQ51F7qmywqj5HAjdJ99Uy6JFmmPYhlWFfPJoKtQBnkrFDcgNor9bZLA4I2PeFKxPzFTtDJaXNfoxuFPq9fzw3oICfIBvIyQbXJo8U1crp8M4jJzIJVhOYi4fSNXDKMWVCLwQfLjWvVayhsKso33umb7DZlnd7Lslo0OPv6CvXMhbid1AbtgzzGHX6KgCMIQOzKTPj9eTgMcLIESQBGxshkS7F3kN3p8hqrWXoqXlldGl3jQPb85wYxY600p0AbfUvIi3K1G05dg6mdOEw5TinNeCJYyK8cmMVoIFwsnq8XkLLOgHYV9ghb0gMvmeqyb3NhpIdulqi6KJGZLTfNetN09mcX13jM7nZxv5dCSpC0Dw0KPxao4P7Rlb7noBXZbyRTLhEHIGDdIfq77St3DlktmLPFvt0qo0sHiUoqpcIE7YYsEUZViKTnaj4jxsHfnwHqFKUOEYTMKmACNbUpNpzsuMSJQlEj6Dzyr4Vf67ZvIT6nP1VBjaxwj1jnj9PAyzCz4UwDsACfierriYzapvdYkNA9CrKGcjebjJ2pEjqUSIXOeW14cVAlx4mHTOK3P",
+  "sold": "482",
+  "album_ids": [
+   1315,
+   1316,
+   1317
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "pick",
+  "category_en": "Our pick",
+  "category_he": "הבחירה שלנו",
+  "posted_at": "2026-11-27T15:16:00.813076+00:00"
  }
 ]
