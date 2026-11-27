@@ -1918,17 +1918,6 @@
  "pick_queue": [
   {
    "alt": [],
-   "at": "2026-11-27T16:30:00+00:00",
-   "id": "B01KAG1818",
-   "not_before": "2026-11-27T16:30:00+00:00",
-   "over_cap_ok": true,
-   "require": [],
-   "sid": "pick-1127b-B01KAG1818",
-   "store": "amazon",
-   "url": "https://www.amazon.com/dp/B01KAG1818"
-  },
-  {
-   "alt": [],
    "at": "2026-11-27T18:00:00+00:00",
    "id": "1005013221749099",
    "not_before": "2026-11-27T18:00:00+00:00",
