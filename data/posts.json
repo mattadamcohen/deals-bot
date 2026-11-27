@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FDX9T6DF",
-  "title": "CAROTE Ceramic Nonstick 1.5Qt & 2.5Qt Sauce Pan Sets with Lid",
-  "title_he": "סטים של מחבת רוטב עם מכסה מסוג CAROTE קרמיקה נון-סטיק 1.5Qt ו-2.5Qt",
-  "price": "$28.49",
-  "was": "",
-  "discount": "43%",
-  "rating": "4.6",
-  "reviews": "441",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1110,
-  "image": "https://m.media-amazon.com/images/I/712q-8ozPCL._AC_SL1500_.jpg",
-  "variant": 574,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1110,
-   1111,
-   1112
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/762e7552-0287-42e6-8e82-a93af8a0a93c.mp4/productVideoOptimized.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T10:45:57.111855+00:00"
- },
- {
   "asin": "B0D4215HCX",
   "title": "LISEN Retractable Car Charger, 84W USB C Fast Charge, Gifts for Men Women",
   "title_he": "מטען לרכב LISEN נשלף, טעינה מהירה USB C 84W, מתנות לגברים נשים",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-27T06:31:14.415703+00:00"
+ },
+ {
+  "asin": "ali-1005009982670101",
+  "title": "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
+  "title_he": "עשה זאת בעצמך להרכיב מכאני שיש ריצה ציוד דגם ערכת טכנולוגיה לילדים צעצועי מדע חומר לימוד לילדים למידה",
+  "price": "$5.90",
+  "was": "$14.16",
+  "discount": "58%",
+  "rating": "95.5%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1231,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S501f34505d4c468d9694c3423a3a004fF.jpg",
+  "variant": 460,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kOW364wASmF0ZQ24C1VxgE4VgMb2dHiYnHSgwC2kNsArx3gz6TQc2DguQLQhYfjuZFIYRHXsHgr10LLbUEepCNEg9FKOygGqVrAiFLBHgejN4Tr9XYwy62bTb6jJdq3EFkpYCLuWAVS4mYAUSV89fwGqpgXYCGNIfTjSQA6oeNpP619eC1QtOl7QZ51TiNGhsPvsu7prGurLnreqaT3gHBmnxKrtATsWSN0dZs1vtDZ0LUcDBsuUm5B0A0x7ITb4UPFvfq0mHhMCGCmwrNZXwEzwQi9nmRKadXEWc2cal5fzCngaSEUBYPzHVi7aRktzTVWobjPiFiEXfvTldLVon4GrkZe4nzbGm5KLwe2L7h5OVZK6CdJTQsNzoTLhR7tZCXnsCOhid8fjSGDKADx101deWOCnzTX0RWkyoEuFUEVw09SWWmDvCgPjIjUtNv6lE4854JihQYw1raj4kXIFAbHkM0AgnuSJRFDIkY4RNP9URVaQVpEbt5JrjmHmDn1ydiWLyP7GuzOKlwkRpXxS2zZ1Z9hLbfqA9e8T7bQOWowKvdKSZxI1aPdiEmlV039smIZ7MV2SQq27wW2yfmBbDcD8yUd2x7S0mEePFaofIOujjwVdlUc85Qn8Tb8vzDPC2J04dKHIEihXiQaPLiXXQ07yKSa9tR5sE1cwpYUsdCiGS1vz7cbZieWRpcIi0VBm0yIBie2bSBhSi",
+  "sold": "899",
+  "album_ids": [
+   1231,
+   1232,
+   1233
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/marble run kids",
+  "category_en": "Kids toys",
+  "category_he": "צעצועים לילדים",
+  "posted_at": "2026-11-27T06:45:51.235173+00:00"
  }
 ]
