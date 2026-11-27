@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CF9Z5SLZ",
-  "title": "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
-  "title_he": "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
-  "price": "$21.99",
-  "was": "",
-  "discount": "15%",
-  "rating": "4.5",
-  "reviews": "4,938",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1191,
-  "image": "https://m.media-amazon.com/images/I/81GJ+RWZYFL._SL1500_.jpg",
-  "variant": 283,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1191,
-   1192,
-   1193
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8e21dcdc-b4b3-4305-a0db-e697bd5d8236.mp4/productVideoOptimized.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T18:33:59.348446+00:00"
- },
- {
   "asin": "B0FY4D1Q12",
   "title": "Columbia Women's PFG Castback Non Slip Boat Shoe",
   "title_he": "קולומביה נשים PFG Castback נעל סירה ללא החלקה",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-27T14:31:00.415946+00:00"
+ },
+ {
+  "asin": "B09V7Z4TJG",
+  "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care",
+  "title_he": "medicube טונר Pads Zero Pore Pad 2.0 עבור פילינג וטיפוח נקבוביות",
+  "price": "$13.23",
+  "was": "",
+  "discount": "30%",
+  "rating": "4.6",
+  "reviews": "37,605",
+  "rank": 1,
+  "source": "bestsellers",
+  "message_id": 1312,
+  "image": "https://m.media-amazon.com/images/I/71Mcspt-6AL._SL1500_.jpg",
+  "variant": 500,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1312,
+   1313,
+   1314
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d26a3c31-0317-47c3-9ecf-da45e2dcf237/default.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty",
+  "category_en": "Beauty & Personal Care",
+  "category_he": "יופי וטיפוח",
+  "posted_at": "2026-11-27T14:49:08.339661+00:00"
  }
 ]
