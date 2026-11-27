@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FCY7L7SZ",
-  "title": "ESR Classic Hybrid for iPhone 18 Pro Max Case / 17 Pro Max Case, Clear",
-  "title_he": "ESR Classic Hybrid לאייפון 18 Pro Max Case / 17 Pro Max Case, שקוף",
-  "price": "$12.74",
-  "was": "$14.99",
-  "discount": "15%",
-  "rating": "4.6",
-  "reviews": "166,157",
-  "rank": 25,
-  "source": "bestsellers",
-  "message_id": 1140,
-  "image": "https://m.media-amazon.com/images/I/71p+zsL9YNL._AC_SL1500_.jpg",
-  "variant": 370,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1140,
-   1141,
-   1142
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c84b41a7-57dc-45f0-8e58-dbf201410721/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-26T13:30:56.011864+00:00"
- },
- {
   "asin": "ali-1005010698999267",
   "title": "Touch Dimmable Black PCB LED Strip Light COB Tape For Walnut Acoustic Wooden Slat Grille TV Background Wall Panel&Cabinet Decor",
   "title_he": "מגע ניתן לעמעום שחור PCB LED רצועת אור COB סרט עבור אגוז אקוסטי עץ סורג גריל עץ רקע טלוויזיה פאנל קיר & ארון עיצוב",
@@ -1158,5 +1129,34 @@
   "category_en": "AliExpress sale",
   "category_he": "מבצע אליאקספרס",
   "posted_at": "2026-11-27T09:17:26.941245+00:00"
+ },
+ {
+  "asin": "B07QSY7XK6",
+  "title": "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)",
+  "title_he": "סט פינצטה של ​​Pefei - פינצטה מקצועית מנירוסטה לגבות - דיוק רב לשיער פנים, רסיסי שיער וחודרים...",
+  "price": "$6.83",
+  "was": "$9.99",
+  "discount": "32%",
+  "rating": "4.5",
+  "reviews": "68,725",
+  "rank": 11,
+  "source": "bestsellers",
+  "message_id": 1261,
+  "image": "https://m.media-amazon.com/images/I/71Deqgij0kL._AC_SL1500_.jpg",
+  "variant": 956,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1261,
+   1262,
+   1263
+  ],
+  "coupon": "",
+  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/56ca9b62-7666-4c94-b861-352a085d0314/default.vertical.jobtemplate.mp4.480.mp4",
+  "category_slug": "beauty/3778591",
+  "category_en": "Shaving & Hair Removal",
+  "category_he": "גילוח והסרת שיער",
+  "posted_at": "2026-11-27T09:49:12.050637+00:00"
  }
 ]
