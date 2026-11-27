@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FMYXQVSQ",
-  "title": "LEGO Pokémon Eevee 72151",
-  "title_he": "LEGO Pokémon Eevee 72151",
-  "price": "$47.95",
-  "was": "$59.99",
-  "discount": "20%",
-  "rating": "4.9",
-  "reviews": "463",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1146,
-  "image": "https://m.media-amazon.com/images/I/71lbS9RPEYL._AC_SL1500_.jpg",
-  "variant": 857,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1146,
-   1147,
-   1148
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a89ea40e-4eff-4b4c-a833-7990df155338/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T14:01:14.237823+00:00"
- },
- {
   "asin": "ali-1005007247038480",
   "title": "VXE Dragonfly R1 Wireless Mouse PAW3395 Sensor Nordic 52840 2KHz FPS Game Mouse Intelligent Speed Low Delay Game Office",
   "title_he": "VXE Dragonfly R1 אלחוטי עכבר PAW3395 חיישן נורדי 52840 2KHz FPS משחק עכבר מהירות אינטליגנטית מהירות נמוכה עיכוב משחק משרד",
@@ -1158,5 +1129,34 @@
   "category_en": "Kitchen storage",
   "category_he": "אחסון למטבח",
   "posted_at": "2026-11-27T10:05:43.996161+00:00"
+ },
+ {
+  "asin": "B0G5WBGTWK",
+  "title": "Tub Works® Ocean Rescue™ Vehicles Light Up Bath Toys, 6 Pack | Water-Activated Light Up Toys Flash & Change Color | Easy-Grip Baby & Toddler Bath Toys | Sensory Toys with Bath Lights for Kids Bath",
+  "title_he": "רכבי Tub Works® Ocean Rescue™ מוארים צעצועי אמבטיה, 6 מארז | צעצועי Light Up המופעלים במים פלאש ושינוי צבע | Easy Grip Baby &…",
+  "price": "$13.59",
+  "was": "$15.99",
+  "discount": "15%",
+  "rating": "4.4",
+  "reviews": "1,963",
+  "rank": 16,
+  "source": "bestsellers",
+  "message_id": 1267,
+  "image": "https://m.media-amazon.com/images/I/81vtMyIpiNL._AC_SL1500_.jpg",
+  "variant": 648,
+  "store": "",
+  "link": "",
+  "sold": "",
+  "album_ids": [
+   1267,
+   1268,
+   1269
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "toys-and-games",
+  "category_en": "Toys & Games",
+  "category_he": "צעצועים ומשחקים",
+  "posted_at": "2026-11-27T10:30:55.360953+00:00"
  }
 ]

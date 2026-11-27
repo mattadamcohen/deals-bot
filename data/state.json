@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 18
+  "2026-11-27": 19
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -125,6 +125,7 @@
   "B0HBW3N3S9": "2026-11-22T15:19:53.179665+00:00",
   "B0HCPNP5BY": "2026-11-21T11:30:57.493041+00:00",
   "B0HCPY6B5V": "2026-11-17T15:04:45.301778+00:00",
+  "B0HDN68GV9": "2026-11-27T10:30:55.363914+00:00",
   "B0HDYQXT81": "2026-11-23T08:15:54.292655+00:00",
   "B0HFK98KBK": "2026-11-23T08:31:07.196747+00:00",
   "B0HG3RVZLW": "2026-11-20T18:01:21.598106+00:00",
@@ -543,6 +544,7 @@
   "trendy queen hoodies oversized": "2026-11-22T06:08:59.423270+00:00",
   "trendy queen oversized cable": "2026-11-17T19:46:09.918290+00:00",
   "true wireless earphone noise": "2026-11-18T13:31:21.404512+00:00",
+  "tub works ocean rescue": "2026-11-27T10:30:55.363920+00:00",
   "turtle beach recon wired": "2026-11-22T08:15:43.912267+00:00",
   "u s polo assn": "2026-11-26T08:01:24.207602+00:00",
   "ugreen pd w power": "2026-11-26T19:46:00.242716+00:00",
@@ -1095,7 +1097,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T10:05:43.997904+00:00",
+ "last_post_at": "2026-11-27T10:30:55.363728+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2009,6 +2011,7 @@
   "B0FYMN9QWG": "2026-11-23T06:15:47.029993+00:00",
   "B0G1VBDXYF": "2026-11-18T15:30:53.525479+00:00",
   "B0G545MLV3": "2026-11-23T10:15:54.971116+00:00",
+  "B0G5WBGTWK": "2026-11-27T10:30:55.311012+00:00",
   "B0GD6R7CFJ": "2026-11-20T17:31:34.822649+00:00",
   "B0GF83FCQH": "2026-11-26T19:57:25.502821+00:00",
   "B0GGQQ2NQ1": "2026-11-19T18:01:09.096594+00:00",
@@ -2301,31 +2304,30 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/phone case",
   "aliexpress/1119-1129 Black/Super Friday - Big Save",
   "beauty/3778591",
-  "aliexpress/fridge organizer"
+  "aliexpress/fridge organizer",
+  "toys-and-games"
  ],
  "recent_groups": [
-  "beauty",
   "toys-and-games",
   "wireless",
   "home-garden",
   "fashion",
-  "beauty"
+  "beauty",
+  "toys-and-games"
  ],
  "recent_themes": [
-  "home",
   "pets",
   "sport",
   "kitchen",
   "tech",
   "other",
   "beauty",
-  "kitchen"
+  "kitchen",
+  "kids"
  ],
  "recent_titles": [
-  "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
   "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket",
   "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home",
   "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
@@ -2336,7 +2338,8 @@
   "Magnetic Suction Phone Mount for MagSafe Case Silicone Octo Cup Buddy Sticky Grip Holder for iPhone Removable Hands-Free Selfie",
   "Gisam 26mm Brushless Electric Hammer Drill Multifunctional Rotary Hammer Drill Cordless Impact Drill For Makita 18V Battery Pin",
   "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)",
-  "New Metal Magnetic Basket Organizer Holder Household Space Saving Fridge Storage Box Large Capacity Refrigerator Shelf"
+  "New Metal Magnetic Basket Organizer Holder Household Space Saving Fridge Storage Box Large Capacity Refrigerator Shelf",
+  "Tub Works\u00ae Ocean Rescue\u2122 Vehicles Light Up Bath Toys, 6 Pack | Water-Activated Light Up Toys Flash & Change Color | Easy-Grip Baby & Toddler Bath Toys | Sensory Toys with Bath Lights for Kids Bath"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2392,6 +2395,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 0,
+ "since_ali": 1,
  "tg_offset": 260136257
 }
