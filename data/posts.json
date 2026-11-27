@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0FDQ3PWCX",
-  "title": "FNTCASE for iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
-  "title_he": "FNTCASE עבור iPhone 18 Pro Max Case / 17 Pro Max Clear Case Fit for Magsafe",
-  "price": "$6.29",
-  "was": "$8.99",
-  "discount": "30%",
-  "rating": "4.6",
-  "reviews": "78,124",
-  "rank": 4,
-  "source": "bestsellers",
-  "message_id": 1095,
-  "image": "https://m.media-amazon.com/images/I/81kOllW+c5L._AC_SL1500_.jpg",
-  "variant": 503,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1095,
-   1096,
-   1097
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4911f26d-8531-4c48-afe8-f5344a84d6aa/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "wireless",
-  "category_en": "Cell Phones & Accessories",
-  "category_he": "סלולר ואביזרים",
-  "posted_at": "2026-11-26T07:20:35.109424+00:00"
- },
- {
   "asin": "ali-1005009012821000",
   "title": "DITONG X3Plus HD Projector Native 1080P Support 4K WIFI6 BT5.4 Android Mini Portable Projector LED Home Theater Video Projector",
   "title_he": "DITONG X3Plus HD מקרן תמיכה מקורית 1080P 4K WIFI6 BT5.4 אנדרואיד מיני מקרן נייד LED מקרן וידאו קולנוע ביתי",
@@ -1163,5 +1134,34 @@
   "category_en": "Men's Sneakers",
   "category_he": "סניקרס לגברים",
   "posted_at": "2026-11-27T05:19:00.870661+00:00"
+ },
+ {
+  "asin": "ali-1005007168889184",
+  "title": "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing",
+  "title_he": "AJAZZ AK820 ו-AK820Pro 75 אחוז מקלדת מכנית עם ידית שחור אפור סגול אפשרויות עבור משחקי מחשב הקלדה ביתית במשרד",
+  "price": "$38.82",
+  "was": "$89.31",
+  "discount": "56%",
+  "rating": "98.0%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1219,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf86ef7db4aca4fcdb6c32c0c1883f1f1g.jpg",
+  "variant": 51,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EfIVvRl4B7rNDjO0wHzXUINyTUZNrInn8b1X1NahGgYuqSQcjDGM2PJwRbRkMpC56pGKgaEd0ZwncADRaE6SfH0bDjbzCZi9dt0fQ7NmosvvDZgxsgVIqRzTK4950vrRBQbn4EFlQs3i0jqCTuZ7hssmRcUJ89nfyEsVX89NeWfnkkSSoYERK9r0qcYE8CRJJvodFOOhoW2reGUbfloBt1f0HJrYnLgUvsiUaCLAF30SiaixOpLfS9p4VMwNS5VQU0lkMFaNvAVWqHxK7WwivrgAgQJhd2K8OR10enYoOVIqB4Dwu8NcsuPBSrIr7xmwjyOJQuXi6DirMelzp3TF89ahstknu2LMsdDiPORV7nTuTNUp4GZIB1bGuygx65H2mQKrNrHmDVTQjBsR56a05ZQg2sQo3AVgnJ4VrVIFrE8renLrkyXWoKd26tNrqQh9IrUi0897ANff5BGZTB3Uaol6kOfjyHhM6UGRQu4bUhYIbMpJ7DcG5jGO5JAzMh7ViMH6d7XyYJHN3TC7J53EmBHcEDZeQSDjPrk9V6mj5lwTOBgHMDLudBo0GqU8BPI44qRG3EaGz7wEpLFIyqBZTyHkhzCFmI5po6WI5VnNXqHzSyOCkTM5hk4QuGam51D616rkN9d1cKB3FjSu8L6Rk6IUahCpBkCm4vzXAZN1ZIBOQwnP50rrSUPjL2dOD6kCYZlN5nQm7zEVZ",
+  "sold": "9,000",
+  "album_ids": [
+   1219,
+   1220,
+   1221
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/gaming keyboard mechanical",
+  "category_en": "Gaming",
+  "category_he": "גיימינג",
+  "posted_at": "2026-11-27T05:45:47.113218+00:00"
  }
 ]

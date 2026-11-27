@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 2
+  "2026-11-27": 3
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -162,6 +162,7 @@
   "adjustable light up inline": "2026-11-22T09:45:59.095922+00:00",
   "ai hand warmers rechargeable": "2026-11-19T19:30:52.415196+00:00",
   "ailun screen protector camera": "2026-11-15T18:45:41.691801+00:00",
+  "ajazz ak and ak": "2026-11-27T05:45:47.115749+00:00",
   "ajazz ak mechanical gaming": "2026-11-25T17:16:48.728349+00:00",
   "ajazz ak wired with": "2026-11-18T19:31:00.129372+00:00",
   "amoudo portable monitor x": "2026-11-20T11:00:57.363099+00:00",
@@ -1052,7 +1053,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T05:19:00.872693+00:00",
+ "last_post_at": "2026-11-27T05:45:47.115577+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2053,6 +2054,7 @@
   "ali-1005007129528141": "2026-11-25T18:45:55.513842+00:00",
   "ali-1005007146966040": "2026-11-24T07:15:44.339976+00:00",
   "ali-1005007168676410": "2026-11-20T12:31:27.441484+00:00",
+  "ali-1005007168889184": "2026-11-27T05:45:47.027335+00:00",
   "ali-1005007170531432": "2026-11-25T07:45:43.707493+00:00",
   "ali-1005007170691993": "2026-11-17T10:31:40.667759+00:00",
   "ali-1005007171042908": "2026-11-24T11:45:51.446318+00:00",
@@ -2259,9 +2261,9 @@
  },
  "recent_categories": [
   "pick",
-  "pick",
   "aliexpress/building blocks set",
-  "fashion/679312011"
+  "fashion/679312011",
+  "aliexpress/gaming keyboard mechanical"
  ],
  "recent_groups": [
   "wireless",
@@ -2272,17 +2274,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "other",
   "home",
   "tech",
   "tech",
   "tech",
   "other",
   "kids",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "Rice Washer Strainer Bowl Stainless Steel 304 Rice Washing Bowl Rice Sieve Colander Fruit And Vegetable Strainer Kitchen Tools",
   "UGREEN USB C Hub 5 in 1 Multiport USB Adapter 4K HDMI, 100W Power Delivery",
   "Christmas Dumpling Squishyed 2026 Advent Calendar Slow Rising Stress Relief Sensory Fidget Countdown Calendar Gift Party Favors",
   "Bath Bombs for Kids with Toys Inside, 12 Pack Jungle Animal Surprise",
@@ -2293,7 +2294,8 @@
   "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play\uff0cfor Laptop PC Phone PS4/5 Xbox Switch",
   "Calvin Klein Men's Picio Monogram Sneaker",
   "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
-  "New Balance Men's 574 V3 Sneakers"
+  "New Balance Men's 574 V3 Sneakers",
+  "AJAZZ AK820 and AK820Pro 75 Percent Mechanical Keyboard with Knob Black Gray Purple Options for PC Gaming Office Home Typing"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2349,6 +2351,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136254
 }
