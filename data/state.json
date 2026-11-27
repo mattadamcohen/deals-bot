@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 9
+  "2026-11-27": 10
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -256,6 +256,7 @@
   "diy assemble magnetic track": "2026-11-25T11:45:51.698061+00:00",
   "diy assemble mechanical marble": "2026-11-27T06:45:51.237321+00:00",
   "diy automatic doll machine": "2026-11-22T07:15:50.624225+00:00",
+  "diy cartoon animal d": "2026-11-27T07:30:56.615418+00:00",
   "dotwise psi portable outdoor": "2026-11-24T15:01:21.189409+00:00",
   "duracell coppertop aa batteries": "2026-11-19T14:00:59.709488+00:00",
   "e intelligent campsite main": "2026-11-19T10:31:04.276724+00:00",
@@ -1062,7 +1063,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T07:15:48.525786+00:00",
+ "last_post_at": "2026-11-27T07:30:56.615275+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2122,6 +2123,7 @@
   "ali-1005009261328158": "2026-11-25T13:31:24.017529+00:00",
   "ali-1005009314491608": "2026-11-26T05:30:54.524773+00:00",
   "ali-1005009344717413": "2026-11-18T07:30:52.944168+00:00",
+  "ali-1005009346079603": "2026-11-27T07:30:56.529861+00:00",
   "ali-1005009353113123": "2026-11-26T05:15:41.151369+00:00",
   "ali-1005009385704664": "2026-11-18T07:01:06.726523+00:00",
   "ali-1005009414655478": "2026-11-25T08:02:23.508532+00:00",
@@ -2264,10 +2266,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "pick",
   "aliexpress/marble run kids",
   "pick",
-  "aliexpress/smart plug wifi"
+  "aliexpress/smart plug wifi",
+  "aliexpress/kids art craft kit"
  ],
  "recent_groups": [
   "wireless",
@@ -2278,17 +2280,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "tech",
   "home",
   "beauty",
   "fashion",
   "kids",
   "fashion",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "[Auto Focus & 2026 Upgraded] Mini Projector 1080P FHD Support 4K Portable Projector with WiFi6 and Bluetooth5.4 Built-in App 180\u00b0 Adjustable Auto Keystone, Compatible with HDMI/Laptop/USB, White",
   "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play\uff0cfor Laptop PC Phone PS4/5 Xbox Switch",
   "Calvin Klein Men's Picio Monogram Sneaker",
   "Military WW2 MOC Leopard 2A7 Army Main Battle Tank Soldiers Building Blocks Bricks M1 T90M Tank Set For Gifts",
@@ -2299,7 +2300,8 @@
   "Columbia Men's Ascender II Hooded Softshell Rain Jacket",
   "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
   "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket",
-  "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home"
+  "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home",
+  "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",

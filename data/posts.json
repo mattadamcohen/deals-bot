@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B01KWHW2CE",
-  "title": "Tommy Hilfiger Men's Classic Zip Front Polar Fleece Jacket",
-  "title_he": "טומי הילפיגר ז'קט פליסה פולארי קלאסי רוכסן לגברים",
-  "price": "$49.33",
-  "was": "",
-  "discount": "",
-  "rating": "4.7",
-  "reviews": "8,090",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1119,
-  "image": "https://m.media-amazon.com/images/I/81rETb9793L._AC_SL1500_.jpg",
-  "variant": 260,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1119,
-   1120,
-   1121
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/be56f7d5-8e7a-48fd-9de6-c16fb429c76a/default.vertical.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T11:31:29.674750+00:00"
- },
- {
   "asin": "ali-1005011607383928",
   "title": "130,000 RPM Turbo Fan,5 Nozzles & USB-C,Car/Electronics/BBQ Multi-Use Air Blower,Portable Air Duster, Ideal Christmas Gift",
   "title_he": "מאוורר טורבו 130,000 סל\"ד, 5 חרירים ו-USB-C, מכונית/אלקטרוניקה/ברביקיו מפוח אוויר רב שימושי, אבק אוויר נייד, אידיאלי",
@@ -1158,5 +1129,34 @@
   "category_en": "Smart home",
   "category_he": "בית חכם",
   "posted_at": "2026-11-27T07:15:48.523589+00:00"
+ },
+ {
+  "asin": "ali-1005009346079603",
+  "title": "DIY Cartoon Animal 3D Eva Foam Sticker Puzzle 20 Styles Handmade Early Learning Educational Toys for Children Kids Gift",
+  "title_he": "עשה זאת בעצמך קריקטורה חיה 3D אווה קצף מדבקת פאזל 20 סגנונות עבודת יד צעצועים חינוכיים למידה מוקדמת לילדים מתנה לילדים",
+  "price": "$5.80",
+  "was": "$13.75",
+  "discount": "57%",
+  "rating": "97.8%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1240,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9ca59faf88494563854642fe5a5a97fbG.jpg",
+  "variant": 931,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kIVxapvGXlhkFempel2OUa38Dnlg5GB9iGiqrUuwFRAQYTs15t0A52SnlrW9cXiTnlo30qTuNpwFcW0K3vATNuXDARsPKp4cx3ms5vCstXei1iQ7nlYd07ex8tf1BiSa1zOa3eT63VSZiJC4g3RrypLTAdW4dpfhUtof9116seBWflEHwcgs0B3CqYuAr9rRlR7tAuOwaI99Nk0yFd6cVkiwCLyoWUEHUOiMblJxUr2XtHpz34bd7R3iV1FBV4b83Ap3TsJaqL4K0XOjhbs3YMo8UbhFQaTIBchuA135WCYGS0zC4uFUv4s7A3iQbdj8Qt1vMT4no5iGuI1SWgFWc8gGmlieFFEarFe0gTNYErdgvUwlroxXOOayJOVlYGD1FrDTfgi37Q2jMHTATkSFRw249xfFoGtatgzLs46rAKQCr3QPJ3gaBVLED3aioXQEo5FMsdFHoEqJKRPWGVjW4oymfsId0zm80dXQPT8YMgCyjx4puVxFzTb3IpGyDiz4ad6Nf4U2mmjOqWgqiWmJ3oTP0iXtdTK0pMwXaU2EMd4L7dLfdEJBbdXNlWKF3pMq1LpS539xQqZRIotr7pQ0wwwPT1dc0jpGhRNu6okkTj2yaHcaOL7YF6llEvnWRt4AusWHQJzi7t33lMHskW0YS1tIbgYfILSicqNW2LOPu98uItU2pjLpKSzdt1bEKtVZysW47rtNnyTXk",
+  "sold": "900",
+  "album_ids": [
+   1240,
+   1241,
+   1242
+  ],
+  "coupon": "",
+  "video": "",
+  "category_slug": "aliexpress/kids art craft kit",
+  "category_en": "Arts & crafts",
+  "category_he": "יצירה לילדים",
+  "posted_at": "2026-11-27T07:30:56.613689+00:00"
  }
 ]
