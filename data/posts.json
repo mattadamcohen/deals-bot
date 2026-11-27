@@ -1,34 +1,5 @@
 [
  {
-  "asin": "B0CFCLC9DC",
-  "title": "PROJECT CLOUD 100% Genuine Leather Womens Boots Ankle Boots for Women Shoes",
-  "title_he": "PROJECT CLOUD 100% עור אמיתי מגפי נשים מגפי קרסול לנעלי נשים",
-  "price": "$33.92",
-  "was": "$39.90",
-  "discount": "15%",
-  "rating": "4.5",
-  "reviews": "6,071",
-  "rank": 0,
-  "source": "pick",
-  "message_id": 1170,
-  "image": "https://m.media-amazon.com/images/I/71c6G32iSDL._AC_SL1500_.jpg",
-  "variant": 306,
-  "store": "",
-  "link": "",
-  "sold": "",
-  "album_ids": [
-   1170,
-   1171,
-   1172
-  ],
-  "coupon": "",
-  "video": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/88e3485a-bc6f-4fef-bb16-3687f293792a/default.jobtemplate.mp4.480.mp4",
-  "category_slug": "pick",
-  "category_en": "Our pick",
-  "category_he": "הבחירה שלנו",
-  "posted_at": "2026-11-26T16:31:05.008810+00:00"
- },
- {
   "asin": "ali-1005007344979825",
   "title": "Kitchen Faucet Splash Pad Silicone Sink Faucet Splash Guard Mat Drain Pad Countertop Protector for Multipurpose Kitchen Gadgets",
   "title_he": "כרית התזה של ברז למטבח ברז כיור סיליקון למטבח כרית ניקוז כרית ניקוז מגן מגן למטבח רב תכליתי לגאדג'טים למטבח",
@@ -1158,5 +1129,34 @@
   "category_en": "Our pick",
   "category_he": "הבחירה שלנו",
   "posted_at": "2026-11-27T12:31:05.414312+00:00"
+ },
+ {
+  "asin": "ali-1005006967218963",
+  "title": "GameSir Nova Lite Wireless Gamepad, Bluetooth Gaming Controller with Hall Effect for Switch, Android, iOS, PC, Steam Games",
+  "title_he": "GameSir Nova Lite Wireless Gamepad, בקר משחקי בלוטות' עם אפקט הול עבור Switch, Android, iOS, PC, Steam Games",
+  "price": "$22.10",
+  "was": "$50.85",
+  "discount": "56%",
+  "rating": "98.8%",
+  "reviews": "",
+  "rank": 0,
+  "source": "aliexpress",
+  "message_id": 1291,
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2765ced7f81c4a1db7eb80f4bb034b0aw.png",
+  "variant": 428,
+  "store": "aliexpress",
+  "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4odjGyy8gUS3UDG4LpPqUgQWaK3g0MtkL1eYADJ8eTK52ZpTQjiwUPnObVojBpdNBVajPEDdDC1XkGIyI3S76Xnxh4TWZOfLE6IxrS98uLH1z0HizskGx0wLc6llpa9qacTftxi6XIgEmXBy2mKDJyxavPlfkyVqURtFBIbTV0sC9AylguNppfQb7NKg6AkPdRBYzVRGvK3PB3StwL7f6eBXmX3S52LLTF1kfWuhZAAgqP7N7D4IVw5hFTrWXZqFDUT6CDfpk6fXA9vCAKglh2R8vsQIXjnbZpWe6g2YbqiHwRZp3oSExvksCfYzs10oTLAprAA6Cyz6ETP8fpfFv6j4fqhYsHK551XOpYLB9jOke7zJOyhmPeBs7hO1967tG01wbKXYahzYquC2XPlP82aD1gcMMY03V3HaytXZXZbXFSwAfk0wFbG6AxSgUNhXHezYVFRaBJxrfqsJNlorvcl60RVRj0NA1fJT2FvpUU1k3EjNp9Dv0tDxG16va7q6tkgHblmN6hZWIG2q0RdLzHz07POatdslzhFtoRIMKwu32TRVST0NE5WX5VUlhyiLs8tYEbfOeJf1OXGTbJTR1WbgZyxmqTkM1y5sH4bI0MVjb2wrIhhtrBErxRe9W9k2RtxWUWJNACTPEnbyxfObdrJgsIMM8TsaKuCmXtCHNBtPdFFBoY25MKdSJsxSgQE9MngpfVzgxqx3WX",
+  "sold": "14,000",
+  "album_ids": [
+   1291,
+   1292,
+   1293
+  ],
+  "coupon": "",
+  "video": "https://video.aliexpress-media.com/play/u/ae_sg_item/239350914/p/1/e/6/t/10301/1100220183054.mp4",
+  "category_slug": "aliexpress/switch controller",
+  "category_en": "Gaming",
+  "category_he": "גיימינג",
+  "posted_at": "2026-11-27T12:46:24.592251+00:00"
  }
 ]
