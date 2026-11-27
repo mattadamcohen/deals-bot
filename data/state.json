@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 28
+  "2026-11-27": 29
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -476,7 +476,7 @@
   "quartz watch luxury women": "2026-11-23T13:01:33.084305+00:00",
   "queen sheets set": "2026-11-16T08:30:50.657519+00:00",
   "queen size sheet set": "2026-11-26T17:05:06.681739+00:00",
-  "racing car building blocks": "2026-11-17T05:31:18.669036+00:00",
+  "racing car building blocks": "2026-11-27T13:16:22.857072+00:00",
   "random mystery fidget toys": "2026-11-19T11:01:21.142732+00:00",
   "rapoo vt max vt": "2026-11-25T10:31:31.672195+00:00",
   "raykube m tuya ble": "2026-11-26T16:01:15.845539+00:00",
@@ -1124,7 +1124,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T09:49:06.350487+00:00",
- "last_post_at": "2026-11-27T13:01:55.192259+00:00",
+ "last_post_at": "2026-11-27T13:16:22.856906+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -1910,6 +1910,39 @@
    "store": "aliexpress",
    "title": "SMARTAI V5 Cordless Stick Vacuum, 8x3000mAh Battery, HEPA Filter, Anti-Tangle Brush for Pet Hair and Carpets",
    "url": "https://s.click.aliexpress.com/e/_c3JQA8nB"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-27T14:15:00+00:00",
+   "id": "B09Z65PBXP",
+   "not_before": "2026-11-27T14:15:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1127c-B09Z65PBXP",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B09Z65PBXP"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-27T17:15:00+00:00",
+   "id": "1005006468380979",
+   "not_before": "2026-11-27T17:15:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1127c-1005006468380979",
+   "store": "aliexpress",
+   "url": "https://s.click.aliexpress.com/e/_c30TSWa5"
+  },
+  {
+   "alt": [],
+   "at": "2026-11-27T19:30:00+00:00",
+   "id": "B0DKP41HGB",
+   "not_before": "2026-11-27T19:30:00+00:00",
+   "over_cap_ok": true,
+   "require": [],
+   "sid": "pick-1127c-B0DKP41HGB",
+   "store": "amazon",
+   "url": "https://www.amazon.com/dp/B0DKP41HGB"
   }
  ],
  "posted": {
@@ -2206,6 +2239,7 @@
   "ali-1005008704761553": "2026-11-17T09:30:53.351970+00:00",
   "ali-1005008779230421": "2026-11-25T12:01:57.069555+00:00",
   "ali-1005008821131809": "2026-11-25T13:15:48.773340+00:00",
+  "ali-1005008892761342": "2026-11-27T13:16:22.689394+00:00",
   "ali-1005008893241017": "2026-11-25T06:45:51.385556+00:00",
   "ali-1005008979722815": "2026-11-18T13:01:51.316344+00:00",
   "ali-1005008993557730": "2026-11-24T14:30:56.320963+00:00",
@@ -2365,10 +2399,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/electric toothbrush",
   "pick",
   "aliexpress/switch controller",
-  "pick"
+  "pick",
+  "aliexpress/building blocks set"
  ],
  "recent_groups": [
   "wireless",
@@ -2379,17 +2413,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "fashion",
   "tech",
   "home",
   "fashion",
   "other",
   "fashion",
   "tech",
-  "tech"
+  "tech",
+  "kids"
  ],
  "recent_titles": [
-  "Pefei Tweezers Set - Professional Stainless Steel Tweezers for Eyebrows - Great Precision for Facial Hair, Splinter and Ingrown Hair Removal (Black)",
   "New Metal Magnetic Basket Organizer Holder Household Space Saving Fridge Storage Box Large Capacity Refrigerator Shelf",
   "Tub Works\u00ae Ocean Rescue\u2122 Vehicles Light Up Bath Toys, 6 Pack | Water-Activated Light Up Toys Flash & Change Color | Easy-Grip Baby & Toddler Bath Toys | Sensory Toys with Bath Lights for Kids Bath",
   "Wrangler Men's Comfort Flex Waist Relaxed Fit Jean",
@@ -2400,7 +2433,8 @@
   "Electric Toothbrush Rotary Rechargeable Electric Toothbrush for Adults Rotating Electric Toothbrushes with 8 Soft Brush Heads",
   "CHRLEISURE Leggings with Pockets for Women, High Waisted Tummy Control Workout Yoga Pants",
   "GameSir Nova Lite Wireless Gamepad, Bluetooth Gaming Controller with Hall Effect for Switch, Android, iOS, PC, Steam Games",
-  "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI"
+  "UGREEN Revodok Pro USB-C Hub 6 in 1 10Gbps 4K 60Hz HDMI",
+  "1310 PCS Racing Car Building Blocks Set, 1:14 Scale Technical Sports Vehicle Model Kit for Adults, Assembly Toys Birthday Gifts"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2438,6 +2472,9 @@
   "pick-1127b-1005013457363886",
   "pick-1127b-B01KAG1818",
   "pick-1127b-B0DTKL151W",
+  "pick-1127c-1005006468380979",
+  "pick-1127c-B09Z65PBXP",
+  "pick-1127c-B0DKP41HGB",
   "shot-1118-1",
   "shot-1118-2",
   "shot-1118-3",
@@ -2460,6 +2497,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136259
 }
