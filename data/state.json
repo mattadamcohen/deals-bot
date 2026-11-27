@@ -1,7 +1,7 @@
 {
  "blocked_until": "2026-11-15T14:29:12.572776+00:00",
  "day_counts": {
-  "2026-11-27": 8
+  "2026-11-27": 9
  },
  "families": {
   "B000CBSNKQ": "2026-11-22T19:34:12.138464+00:00",
@@ -520,6 +520,7 @@
   "the children's place boys'": "2026-11-14T07:26:49.650902+00:00",
   "the uzzle board game": "2026-11-25T09:34:09.659230+00:00",
   "timemore basic mirror pour": "2026-11-23T17:46:20.002492+00:00",
+  "tnce tuya wifi zigbee": "2026-11-27T07:15:48.525966+00:00",
   "tommy hilfiger classic zip": "2026-11-26T11:31:29.677543+00:00",
   "toocki in- retractable cable": "2026-11-20T05:01:02.300781+00:00",
   "toothbrush storage rack capacity": "2026-11-20T08:00:54.335447+00:00",
@@ -1061,7 +1062,7 @@
  ],
  "last_bundle_day": "2026-11-23",
  "last_harvest_at": "2026-11-27T05:18:57.703359+00:00",
- "last_post_at": "2026-11-27T07:01:19.515770+00:00",
+ "last_post_at": "2026-11-27T07:15:48.525786+00:00",
  "next_category": 12,
  "not_free": {
   "1338603450": "2026-11-26T06:34:06.121616+00:00",
@@ -2193,6 +2194,7 @@
   "ali-1005011838321895": "2026-11-19T10:31:04.189215+00:00",
   "ali-1005011845448126": "2026-11-25T16:32:45.096499+00:00",
   "ali-1005011867786289": "2026-11-23T17:02:27.373183+00:00",
+  "ali-1005011875665074": "2026-11-27T07:15:48.451699+00:00",
   "ali-1005011891908925": "2026-11-23T16:15:54.598844+00:00",
   "ali-1005011904255432": "2026-11-20T08:00:54.303809+00:00",
   "ali-1005011905609527": "2026-11-20T16:01:03.750781+00:00",
@@ -2262,10 +2264,10 @@
   "ali-4000833957569": "2026-11-20T19:30:59.949207+00:00"
  },
  "recent_categories": [
-  "aliexpress/hair dryer brush",
   "pick",
   "aliexpress/marble run kids",
-  "pick"
+  "pick",
+  "aliexpress/smart plug wifi"
  ],
  "recent_groups": [
   "wireless",
@@ -2276,17 +2278,16 @@
   "fashion"
  ],
  "recent_themes": [
-  "kids",
   "fashion",
   "tech",
   "home",
   "beauty",
   "fashion",
   "kids",
-  "fashion"
+  "fashion",
+  "tech"
  ],
  "recent_titles": [
-  "UGREEN PD20W Power Bank Magnetic 10000mAh Portable Wireless Fast Charging PowerBank for Magsafe for iPhone 17 15 Pro Max 16 Pro",
   "[Auto Focus & 2026 Upgraded] Mini Projector 1080P FHD Support 4K Portable Projector with WiFi6 and Bluetooth5.4 Built-in App 180\u00b0 Adjustable Auto Keystone, Compatible with HDMI/Laptop/USB, White",
   "Portable Monitor 15.6-inch FHD 1080P Ultra-Slim Travel External Monitor HDR IPS Gaming Display with Kickstand &Speakers USB-C HDMI Plug&Play\uff0cfor Laptop PC Phone PS4/5 Xbox Switch",
   "Calvin Klein Men's Picio Monogram Sneaker",
@@ -2297,7 +2298,8 @@
   "Salon Hair Dryer 2000W Professional Hot Cold Air Brush Negative Ionic Blow Dryer Strong Power 5th GearHairdryerblowdryerwithcomb",
   "Columbia Men's Ascender II Hooded Softshell Rain Jacket",
   "DIY Assemble Mechanical Marble Run Gear Model Technology Kit Children Science Toys Teaching Material for Kids Learning",
-  "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket"
+  "Columbia Men's Voodoo Falls 590 Turbodown Puffer Jacket",
+  "TNCE Tuya Wifi/Zigbee3.0 Smart Plug 16A/20A Smart Socket Power Monitor Remote Control Voice Control Work with Alexa Google Home"
  ],
  "scheduled_picks_done": [
   "pick-1121-coffee",
@@ -2353,6 +2355,6 @@
   "shot-1121-7",
   "shot-1121-8"
  ],
- "since_ali": 1,
+ "since_ali": 0,
  "tg_offset": 260136254
 }
